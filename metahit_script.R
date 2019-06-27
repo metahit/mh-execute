@@ -16,7 +16,7 @@ CITY <- 'bristol'
 setup_call_summary_filename <- 'setup_call_summary.txt'
 AGE_RANGE <- c(0,150)
 REFERENCE_SCENARIO <- 'Baseline'
-PATH_TO_LOCAL_DATA <- 'data/'
+PATH_TO_LOCAL_DATA <- '../mh-injury/data/'
 
 ## placeholders for uncertain parameters
 NSAMPLES <- 1
@@ -170,7 +170,7 @@ for (i in 1:length(list_of_files)){
          pos = 1)
 }
 
-background_pollution <- read.csv('../mh-air-pollution/02_DataCreated/1_apmeans.csv')
+background_pollution <- read.csv('inputs/background-air-pollution/1_apmeans.csv')
 PM_CONC_BASE <- background_pollution$apmean_bpm25[grepl(CITY,tolower(background_pollution$apgroup_name))]
 
 #####################################################################
@@ -180,11 +180,11 @@ PM_CONC_BASE <- background_pollution$apmean_bpm25[grepl(CITY,tolower(background_
 local_path <- PATH_TO_LOCAL_DATA
 
 
-demography <- readxl::read_xlsx('190330_sp_ind_codebook.xlsx',sheet=2,col_names=F)
+demography <- readxl::read_xlsx('inputs/scenarios/190330_sp_ind_codebook.xlsx',sheet=2,col_names=F)
 demogindex_to_numerical <- unlist(demography[,3])
 demography[,3] <- 1:nrow(demography)
 demo_indices <- unlist(demography[,3])
-age_table <- readxl::read_xlsx('190330_sp_ind_codebook.xlsx',sheet=1,col_names=F)
+age_table <- readxl::read_xlsx('inputs/scenarios/190330_sp_ind_codebook.xlsx',sheet=1,col_names=F)
 age_category <- unlist(age_table[,1])
 age_lower_bounds <- as.numeric(sapply(age_category,function(x)strsplit(x,' to ')[[1]][1]))
 
@@ -268,6 +268,17 @@ gbd_inj_dth <- gbd_injuries[which(gbd_injuries$measure == "Deaths"),]
 gbd_inj_yll$yll_dth_ratio <- gbd_inj_yll$burden/gbd_inj_dth$burden 
 GBD_INJ_YLL <<- gbd_inj_yll
 
+## injury model / preprocessed data
+# get data and model
+path_to_injury_model_and_data <- '../mh-injury/rds_storage/'
+injury_table <- readRDS(paste0(path_to_injury_model_and_data,'processed_injuries_9.Rds'))
+baseline_injury_model <- list()
+for(i in 1:2){
+  baseline_injury_model[[i]] <- list()
+  for(j in 1:2){
+    baseline_injury_model[[i]][[j]] <- readRDS(paste0(path_to_injury_model_and_data,'city_region',i,j,'.Rds'))
+  }
+}
 
 #####################################################################
 ## 3 ##
@@ -374,16 +385,6 @@ system.time(RR_PA_AP_calculations <- combined_rr_ap_pa(RR_PA_calculations,RR_AP_
 
 #####################################################################
 ## (4) INJURIES
-# get data and model
-path_to_injury_model_and_data <- 'injury_processing/rds_storage/'
-injury_table <- readRDS(paste0(path_to_injury_model_and_data,'processed_injuries_9.Rds'))
-baseline_injury_model <- list()
-for(i in 1:2){
-  baseline_injury_model[[i]] <- list()
-  for(j in 1:2){
-    baseline_injury_model[[i]][[j]] <- readRDS(paste0(path_to_injury_model_and_data,'city_region',i,j,'.Rds'))
-  }
-}
 
 # get city data
 city_table <- injury_table
