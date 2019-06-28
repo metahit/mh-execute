@@ -1,7 +1,7 @@
 rm(list=ls())
 library(ithimr)
 library(splines)
-#setwd('~/overflow_dropbox/mh-scenarios/')
+#setwd('~/overflow_dropbox/mh-execute/')
 ## overwrite some functions for METAHIT's pp_summary use (instead of TIGTHAT's tripset use)
 ## in general, the overwriting functions are from ithimr's uncertain_travel branch
 ## in general, ithimr functions are written ithimr::function()
@@ -16,7 +16,7 @@ CITY <- 'bristol'
 setup_call_summary_filename <- 'setup_call_summary.txt'
 AGE_RANGE <- c(0,150)
 REFERENCE_SCENARIO <- 'Baseline'
-PATH_TO_LOCAL_DATA <- '../mh-injury/data/'
+PATH_TO_LOCAL_DATA <- 'temp_placeholder_data/'
 
 ## placeholders for uncertain parameters
 NSAMPLES <- 1
@@ -270,7 +270,7 @@ GBD_INJ_YLL <<- gbd_inj_yll
 
 ## injury model / preprocessed data
 # get data and model
-path_to_injury_model_and_data <- '../mh-injury/rds_storage/'
+path_to_injury_model_and_data <- 'inputs/injury/'
 injury_table <- readRDS(paste0(path_to_injury_model_and_data,'processed_injuries_9.Rds'))
 baseline_injury_model <- list()
 for(i in 1:2){
