@@ -84,7 +84,6 @@ ADD_BUS_DRIVERS <<- F
 # INJURY_LINEARITY = parameter. double: sets scalar. vector: samples from distribution.
 # CASUALTY_EXPONENT_FRACTION = parameter. double: sets scalar. vector: samples from distribution.
 
-# DAY_TO_WEEK_TRAVEL_SCALAR = parameter. double: sets scalar for extrapolation from day to week. vector: samples from distribution.
 # MOTORCYCLE_TO_CAR_RATIO = parameter. double: sets motorcycle distance relative to car. vector: samples from distribution.
 # BUS_TO_PASSENGER_RATIO = parameter. double: sets bus distance relative to bus passenger distance. vector: samples from distribution.
 # TRUCK_TO_CAR_RATIO = parameter. double: sets truck distance relative to car. vector: samples from distribution.

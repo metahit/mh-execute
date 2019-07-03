@@ -153,9 +153,9 @@ total_mmet <- function(pp_summary){
     synth_pop_return[[paste0(SCEN_SHORT_NAME[i],'_mmet')]] <- synth_pop_temp$work_ltpa_marg_met * BACKGROUND_PA_SCALAR
     
     scen_travel <- subset(pp_summary2[[i]],participant_id%in%synth_pop_return$participant_id)
-    scen_travel$cycling_mmet <- scen_travel$bicycle/60*DAY_TO_WEEK_TRAVEL_SCALAR * MMET_CYCLING
+    scen_travel$cycling_mmet <- scen_travel$bicycle/60 * MMET_CYCLING
     if('walk_to_bus'%in%names(scen_travel)) scen_travel$walking <- scen_travel$walking+scen_travel$walk_to_bus
-    scen_travel$walking_mmet <- scen_travel$walking/60*DAY_TO_WEEK_TRAVEL_SCALAR * MMET_WALKING
+    scen_travel$walking_mmet <- scen_travel$walking/60 * MMET_WALKING
     
     individual_data <- scen_travel
     
