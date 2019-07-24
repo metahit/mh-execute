@@ -491,7 +491,10 @@ for(scen in 1:NSCEN+1)
     pif_table[[paste0(SCEN_SHORT_NAME[scen],'_',injury_col_name)]] <- injury_ratios_for_bz[[scen]][[i]]/injury_ratios_for_bz[[1]][[i]]
   }
 
-hb_2 <- belens_function(pif_table)
+hb_2 <- belens_function(pif_table) 
+
+## Rob, added this line to save to my repo, but not sure if you have it too, so I commented it out. 
+# write_csv(hb_2, '../mh-mslt/data/pif.csv')
 
 pathway_hb <- NULL
 constant_mode <- T
