@@ -159,7 +159,7 @@ global_path <- file.path(find.package('ithimr',lib.loc=.libPaths()), 'extdata/gl
 global_path <- paste0(global_path, "/")
 
 ## DATA FILES FOR MODEL  
-DISEASE_INVENTORY <<- read.csv(paste0(global_path,"dose_response/disease_outcomes_lookup.csv"))
+DISEASE_INVENTORY <<- read.csv(paste0("inputs/dose_response/disease_outcomes_lookup.csv"))
 DR_AP <<- read.csv(paste0(global_path,"dose_response/drap/dose_response.csv"))
 # root of list_of_files matches DISEASE_INVENTORY$pa_acronym
 list_of_files <- list.files(path = paste0(global_path,"dose_response/drpa/extdata/"), recursive = TRUE, pattern = "\\.csv$", full.names = TRUE)
@@ -417,8 +417,12 @@ for(i in 1:2)
 injury_predictions <- predict_injuries(city_table)
 injury_deaths[[1]] <- injury_predictions[[1]] 
 secondary_deaths[[1]] <- injury_predictions[[2]] 
+injury_predictions_for_bz_baseline <- predict_injuries_for_bz(city_table)
 # store baseline data
 baseline_city_table <- city_table
+injury_ratios_for_bz <- list()
+injury_ratios_for_bz[[1]] <- injury_predictions_for_bz_baseline
+injury_ratios_for_bz[[1]][,c(1:ncol(injury_ratios_for_bz[[1]]))[-1]] <- injury_ratios_for_bz[[1]][,-1]/injury_predictions_for_bz_baseline[,-1]
 # for each scenario, add/subtract observed change in travel to/from smoothed baseline data
 for(scen in 1:NSCEN+1){
   city_table <- baseline_city_table
@@ -461,6 +465,7 @@ for(scen in 1:NSCEN+1){
       city_table[[i]][[j]]$pred <- predict(baseline_injury_model[[i]][[j]],newdata=city_table[[i]][[j]],type='response')
   # summarise predicted fatalities
   injury_predictions <- predict_injuries(city_table)
+  injury_ratios_for_bz[[scen]] <- predict_injuries_for_bz(city_table)
   # store results
   injury_deaths[[scen]] <- injury_predictions[[1]] 
   secondary_deaths[[scen]] <- injury_predictions[[2]] 
@@ -479,9 +484,22 @@ ref_injuries <- deaths_yll_injuries$ref_injuries
 ## (5) COMBINE (3) AND (4)
 # Combine health burden from disease and injury
 (hb <- health_burden(RR_PA_AP_calculations,deaths_yll_injuries$deaths_yll_injuries))
+(pif_table <- health_burden_2(RR_PA_AP_calculations))
+for(scen in 1:NSCEN+1) 
+  for(i in 2:ncol(injury_ratios_for_bz[[scen]])) {
+    injury_col_name <- colnames(injury_ratios_for_bz[[scen]])[i]
+    pif_table[[paste0(SCEN_SHORT_NAME[scen],'_',injury_col_name)]] <- injury_ratios_for_bz[[scen]][[i]]/injury_ratios_for_bz[[1]][[i]]
+  }
+
+hb_2 <- belens_function(pif_table)
+
 pathway_hb <- NULL
 constant_mode <- T
-if(constant_mode) pathway_hb <- health_burden(RR_PA_AP_calculations,deaths_yll_injuries$deaths_yll_injuries,combined_AP_PA=F)
+if(constant_mode) {
+  pathway_hb <- health_burden(RR_PA_AP_calculations,deaths_yll_injuries$deaths_yll_injuries,combined_AP_PA=F)
+  pathway_pif_table <- health_burden_2(RR_PA_AP_calculations,combined_AP_PA=F)
+  x11(); plot(pif_table$scen_pif_pa_ap_noise_no2_ihd,1-(1-pathway_pif_table$scen_pif_pa_ihd)*(1-pathway_pif_table$scen_pif_ap_ihd))
+}
 
 
 #####################################################################
