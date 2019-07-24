@@ -216,6 +216,35 @@ predict_injuries <- function(city_table){
 }
 
 #' @export
+predict_injuries_for_bz <- function(city_table){
+  fatal_data <- list()
+  for(i in 1:2){
+    fatal_data[[i]] <- list()
+    for(j in 1:2){
+      fatal_data[[i]][[j]] <- city_table[[i]][[j]][city_table[[i]][[j]]$cas_severity%in%c('Serious','Fatal'),]
+    }
+  }
+  #cas_modes <- unique(fatal_data[[1]][[1]]$cas_mode)
+  cas_fatal1 <- setDT(fatal_data[[1]][[1]])[,.(Deaths=sum(pred)),by=c('cas_index','cas_mode','cas_severity')]
+  cas_fatal2 <- setDT(fatal_data[[1]][[2]])[,.(Deaths=sum(pred)),by=c('cas_index','cas_mode','cas_severity')]
+  cas_fatal <- cas_fatal1
+  ##!! check this line
+  cas_fatal[cas_fatal2,Deaths2:=i.Deaths,on=c('cas_index','cas_mode','cas_severity')]
+  cas_fatal[,burden:=Deaths+Deaths2]
+  cas_fatal$burden[is.na(cas_fatal$burden)] <- 0
+  injury_by_mode_and_demo <- dcast(cas_fatal,cas_index ~ cas_mode+cas_severity,value.var = 'burden')
+  #for (i in names(injury_by_mode_and_demo))
+  #  injury_by_mode_and_demo[is.na(get(i)), (i):=0]
+  for (j in seq_len(ncol(injury_by_mode_and_demo)))
+    set(injury_by_mode_and_demo,which(is.na(injury_by_mode_and_demo[[j]])),j,0)
+  #print(injury_by_mode_and_demo)
+  
+  nonspecific_fatalities <- sum(fatal_data[[2]][[2]]$pred) + sum(fatal_data[[2]][[1]]$pred)
+  
+  return(injury_by_mode_and_demo)
+}
+
+#' @export
 injury_death_to_yll <- function(injuries){
   
   joined_injury <- left_join(injuries, GBD_INJ_YLL[,c('dem_index','yll_dth_ratio')], by="dem_index")
@@ -324,6 +353,70 @@ health_burden <- function(ind_ap_pa,inj,combined_AP_PA=T){
   deaths <- left_join(deaths, inj_deaths, by = c("dem_index"))
   ylls <- left_join(ylls, inj_ylls, by = c("dem_index"))
   list(deaths=deaths,ylls=ylls)
+}
+
+#' @export
+health_burden_2 <- function(ind_ap_pa,combined_AP_PA=T){
+  pop_details <- DEMOGRAPHIC
+  pif_scen <- pop_details
+  # set up reference (scen1)
+  reference_scenario <- SCEN_SHORT_NAME[which(SCEN==REFERENCE_SCENARIO)]
+  scen_names <- SCEN_SHORT_NAME[SCEN_SHORT_NAME!=reference_scenario]
+  ### iterating over all all disease outcomes
+  for ( j in 1:nrow(DISEASE_INVENTORY)){
+    # Disease acronym and full name
+    ac <- as.character(DISEASE_INVENTORY$acronym[j])
+    gbd_dn <- as.character(DISEASE_INVENTORY$GBD_name[j])
+    # calculating health outcome, or independent pathways?
+    pathways_to_calculate <- ifelse(combined_AP_PA,1,DISEASE_INVENTORY$physical_activity[j]+DISEASE_INVENTORY$air_pollution[j])
+    for(path in 1:pathways_to_calculate){
+      # set up column names
+      if(combined_AP_PA){
+        middle_bit <-
+          paste0(
+            ifelse(DISEASE_INVENTORY$physical_activity[j] == 1, 'pa_', ''),
+            ifelse(DISEASE_INVENTORY$air_pollution[j] == 1, 'ap_', '')
+          )
+        middle_bit_plus <-
+          paste0(
+            ifelse(DISEASE_INVENTORY$physical_activity[j] == 1, 'pa_', ''),
+            ifelse(DISEASE_INVENTORY$air_pollution[j] == 1, 'ap_', ''),
+            ifelse(DISEASE_INVENTORY$noise[j] == 1, 'noise_', ''),
+            ifelse(DISEASE_INVENTORY$nitrogen_dioxide[j] == 1, 'no2_', '')
+          )
+      }else{
+        # if independent, choose which one
+        middle_bit <- middle_bit_plus <- c('pa_','ap_')[which(c(DISEASE_INVENTORY$physical_activity[j],DISEASE_INVENTORY$air_pollution[j])==1)[path]]
+      }
+      base_var <- paste0('RR_', middle_bit, reference_scenario, '_', ac)
+      scen_vars <- paste0('RR_', middle_bit, scen_names, '_', ac)
+      # set up pif tables
+      pif_table <- setDT(ind_ap_pa[,colnames(ind_ap_pa)%in%c(base_var,'dem_index')])
+      setnames(pif_table,base_var,'outcome')
+      pif_ref <- pif_table[,.(sum(outcome)),by='dem_index']
+      ## sort pif_ref
+      setorder(pif_ref,dem_index)
+      for (index in 1:length(scen_vars)){
+        # set up naming conventions
+        scen <- scen_names[index]
+        scen_var <- scen_vars[index]
+        pif_name <- paste0(scen, '_pif_',middle_bit_plus,ac)
+        # Calculate PIFs for selected scenario
+        pif_table <- setDT(ind_ap_pa[,colnames(ind_ap_pa)%in%c(scen_var,'dem_index')])
+        setnames(pif_table,scen_var,'outcome')
+        pif_temp <- pif_table[,.(sum(outcome)),by='dem_index']
+        ## sort pif_temp
+        setorder(pif_temp,dem_index)
+        pif_scen[[pif_name]] <- (pif_ref[,V1] - pif_temp[,V1]) / pif_ref[,V1]
+      }
+    }
+  }
+  return(pif_scen)
+}
+
+#' @export
+belens_function <- function(pif_table){
+  pif_table
 }
 
 #' @export
