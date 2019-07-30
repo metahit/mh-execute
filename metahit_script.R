@@ -1,11 +1,24 @@
 rm(list=ls())
 library(ithimr)
 library(splines)
+require(dplyr)
+require(tidyverse)
+require(knitr)
+require(kableExtra)
+require(citr)
+require(gridExtra)
+require(ggpubr)
+require(grid)
+require(ggplot2)
+require(pillar)
+require(devtools)
+require(janitor)
 #setwd('~/overflow_dropbox/mh-execute/')
 ## overwrite some functions for METAHIT's pp_summary use (instead of TIGTHAT's tripset use)
 ## in general, the overwriting functions are from ithimr's uncertain_travel branch
 ## in general, ithimr functions are written ithimr::function()
 source('metahit_functions.R')
+source('mslt_functions.R')
 
 #####################################################################
 ## 1 ##
@@ -172,6 +185,9 @@ for (i in 1:length(list_of_files)){
 background_pollution <- read.csv('inputs/background-air-pollution/1_apmeans.csv')
 PM_CONC_BASE <- background_pollution$apmean_bpm25[grepl(CITY,tolower(background_pollution$apgroup_name))]
 
+disease_short_names <- read_csv("inputs/mslt/disease_names.csv")
+DISEASE_SHORT_NAMES <<- disease_short_names
+
 #####################################################################
 ## these datasets are all local, saved in local folder.
 ## there will be one folder per city. this block will have to loop over CITY.
@@ -278,6 +294,9 @@ for(i in 1:2){
     baseline_injury_model[[i]][[j]] <- readRDS(paste0(path_to_injury_model_and_data,'city_region',i,j,'.Rds'))
   }
 }
+
+mslt_df <- read_csv(paste0('inputs/mslt/',CITY, "_mslt.csv"))
+MSLT_DF <<- mslt_df
 
 #####################################################################
 ## 3 ##
@@ -502,6 +521,7 @@ if(constant_mode) {
   pathway_hb <- health_burden(RR_PA_AP_calculations,deaths_yll_injuries$deaths_yll_injuries,combined_AP_PA=F)
   pathway_pif_table <- health_burden_2(RR_PA_AP_calculations,combined_AP_PA=F)
   x11(); plot(pif_table$scen_pif_pa_ap_noise_no2_ihd,1-(1-pathway_pif_table$scen_pif_pa_ihd)*(1-pathway_pif_table$scen_pif_ap_ihd))
+  lines(c(0,1),c(0,1))
 }
 
 
