@@ -677,15 +677,17 @@ belens_function <- function(pif_table){
   index <- 1
   
   
+  disease_relative_risks <- list(c(DIABETES_IHD_RR_M,DIABETES_IHD_RR_F),
+                                 c(DIABETES_STROKE_RR_M,DIABETES_STROKE_RR_F))
+  
   for (iage in i_age_cohort){
     for (isex in i_sex){
-      for (d in 1:nrow(DISEASE_SHORT_NAMES)){
+      for (d in c(1:nrow(DISEASE_SHORT_NAMES))){
         
         ## Exclude non-males diseases and non-chronic diseases and road injuries and disease with no pif
-        if (isex == "male" && (DISEASE_SHORT_NAMES$disease[d] %in% c("breast cancer", "uterine cancer"))
-            || DISEASE_SHORT_NAMES$is_not_dis[d] != 0 || DISEASE_SHORT_NAMES$acronym[d] == "no_pif" || DISEASE_SHORT_NAMES$acronym[d] == "other"){
-        }
-        else {
+        if (isex == "male" && (DISEASE_SHORT_NAMES$disease[d] %in% c("breast cancer", "uterine cancer"))|| 
+            DISEASE_SHORT_NAMES$is_not_dis[d] != 0 || DISEASE_SHORT_NAMES$acronym[d] == "no_pif" || DISEASE_SHORT_NAMES$acronym[d] == "other"){
+        } else {
           
           # print(paste(isex, DISEASE_SHORT_NAMES$disease[d]))
           
@@ -694,6 +696,18 @@ belens_function <- function(pif_table){
           pif_disease <- filter(pif_expanded, age >= iage & sex == isex) %>% 
             dplyr::select(age, sex, contains(DISEASE_SHORT_NAMES$acronym[DISEASE_SHORT_NAMES$sname == DISEASE_SHORT_NAMES$sname[d]]))
           
+          if(d %in% c(13,14)){
+            which_disease <- which(c(13,14)==d)
+            target_disease <- c('pif_ihd','pif_stroke')[which_disease]
+            dia_col <- paste0(iage,'_',isex,'_dmt2')
+            relative_risk <- disease_relative_risks[[which_disease]][which(i_sex==isex)]
+            old_pif <- pif_disease[[target_disease]]
+          
+            pif_dia <- -(disease_life_table_list_sc[[dia_col]]$px - disease_life_table_list_bl[[dia_col]]$px)*(relative_risk-1)/
+              (disease_life_table_list_bl[[dia_col]]$px * (relative_risk-1) + 1)
+            pif_disease[[target_disease]] <- 1- (1-pif_disease[[target_disease]]) * (1-pif_dia)
+            print(sum(old_pif-pif_disease[[target_disease]]))
+          }
           
           #[td1$age >= i_age_cohort & td1$sex == i_sex,]
           
@@ -721,6 +735,7 @@ belens_function <- function(pif_table){
             disease_life_table_list_sc[[index]]$mx - disease_life_table_list_bl[[index]]$mx
           disease_life_table_list_sc[[index]]$diff_pylds_disease <-
             (disease_life_table_list_sc[[index]]$px - disease_life_table_list_bl[[index]]$px) * disease_life_table_list_bl[[index]]$dw_disease
+          
           index <- index + 1
         }
       }
@@ -732,6 +747,15 @@ belens_function <- function(pif_table){
   # ---- chunk-8 ----
   
   
+  disease_life_table_list_bl[['17_male_dmt2']]$px
+  disease_life_table_list_sc[['17_male_dmt2']]$px
+  DIABETES_IHD_RR_F
+  DIABETES_STROKE_RR_F
+  DIABETES_IHD_RR_M
+  DIABETES_STROKE_RR_M
+  pif_ihd_dia <- -(disease_life_table_list_sc[['17_male_dmt2']]$px - disease_life_table_list_bl[['17_male_dmt2']]$px)*(DIABETES_IHD_RR_M-1)/
+    (disease_life_table_list_bl[['17_male_dmt2']]$px * (DIABETES_IHD_RR_M-1) + 1)
+  1- (1-pif_expanded$pif_ihd) * (1-pif_ihd_dia)
   
   # ---- chunk-9 ---- ADD non-diseases and diabetes (when done)
   
