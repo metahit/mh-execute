@@ -283,13 +283,13 @@ RunDisease <- function(in_idata, in_mid_age, in_sex, in_disease)
   ###lx
   
   #browser()
-  dlt_df$lx <- dlt_df$incidence_disease + dlt_df$case_fatality_disease
+  lx <- dlt_df$incidence_disease + dlt_df$case_fatality_disease
   ###qx
-  dlt_df$qx <-  sqrt((dlt_df$incidence_disease - dlt_df$case_fatality_disease) * (dlt_df$incidence_disease - dlt_df$case_fatality_disease))
+  qx <-  sqrt((dlt_df$incidence_disease - dlt_df$case_fatality_disease) * (dlt_df$incidence_disease - dlt_df$case_fatality_disease))
   ### wx
-  dlt_df$wx <- exp(-1*(dlt_df$lx+dlt_df$qx)/2)
+  wx <- exp(-1*(lx+qx)/2)
   ### vx
-  dlt_df$vx <- exp(-1*(dlt_df$lx-dlt_df$qx)/2)
+  vx <- exp(-1*(lx-qx)/2)
   
   ## Healthy (Sx), Disease (Cx) and Death (Dx), total (Tx) (control check, has to be 1000), total alive (Ax)
   ## persons years live at risk (PYx), prevalence rate (px), mortality rate (mx)
@@ -297,73 +297,55 @@ RunDisease <- function(in_idata, in_mid_age, in_sex, in_disease)
   
   #### first create empty variables
   
-  dlt_df$Sx <- 0
-  dlt_df$Cx <- 0
-  dlt_df$Dx <- 0
-  dlt_df$Tx  <- 0
-  dlt_df$Ax <- 0
-  dlt_df$PYx <- 0
-  dlt_df$px <- 0
-  dlt_df$mx <- 0
-  
+  number_of_ages <- nrow(dlt_df)
+  Sx <- Cx <- Dx <- Tx  <- Ax <- PYx <- px <- mx <- rep(0,number_of_ages)
+  cfds <- dlt_df$case_fatality_disease
+  ages <- dlt_df$age
   ##### start with variables without calculation exceptions
   
-  for (i in 1:nrow(dlt_df)){
-    dlt_df$Tx   <- dlt_df$Sx + dlt_df$Cx + dlt_df$Dx 
-    dlt_df$Ax <- dlt_df$Sx + dlt_df$Cx
-    
+  for (i2 in 1:number_of_ages){
+    Tx   <- Sx + Cx + Dx 
+    Ax <- Sx + Cx
     ##### variables with exceptions  
     
-    for (i in 1:nrow(dlt_df)){
-      if (i < nrow(dlt_df))
-        dlt_df$PYx[i] <- sum(dlt_df$Ax[i] + dlt_df$Ax[i + 1])/2
-      else
-        dlt_df$PYx[i] <- 0
-      
-      
-      if(is.na(sum(dlt_df$Cx[i] + dlt_df$Cx[i + 1])/2)) { 
-        dlt_df$px[i] <- 0
+    for (i in 1:number_of_ages){
+      if (i < number_of_ages){
+        PYx[i] <- (Ax[i] + Ax[i + 1])/2
+      }else{
+        PYx[i] <- 0
       }
-      else{
-        dlt_df$px[i] <- (sum(dlt_df$Cx[i] + dlt_df$Cx[i + 1])/2) / dlt_df$PYx[i]    
-        
-        
-        if ((dlt_df$Dx[i+1] - dlt_df$Dx[i]) < 0){
-          dlt_df$mx[i] <- 0
-        }
-        else{
-          dlt_df$mx[i] <- ((dlt_df$Dx[i+1] - dlt_df$Dx[i])/dlt_df$PYx[i])
-          
-          
-          if (dlt_df$age[i] == in_mid_age){
-            dlt_df$Sx[i] <- 1000
-            dlt_df$Cx[i] <- 0
-            dlt_df$Dx[i] <- 0
-            
-          }
-          else{
-            dlt_df$Sx[i] <- ifelse(dlt_df$qx[i-1] > 0, (2*(dlt_df$vx[i-1] - dlt_df$wx[i-1]) * 
-                                                          (dlt_df$Sx[i-1] * (dlt_df$case_fatality_disease [i-1] + 0 +0) + 
-                                                             dlt_df$Cx[i-1] * 0) + dlt_df$Sx[i-1] * (dlt_df$vx[i-1] * (dlt_df$qx[i-1] 
-                                                                                                                       - dlt_df$lx[i-1]) + dlt_df$wx[i-1] * (dlt_df$qx[i-1] + dlt_df$lx[i-1]))) 
-                                   / (2 * (dlt_df$qx[i-1])), dlt_df$Sx[i - 1] )
-            dlt_df$Cx[i] <- ifelse(dlt_df$qx[i-1] > 0, -1*((dlt_df$vx[i-1] - dlt_df$wx[i-1])*
-                                                             (2*((dlt_df$case_fatality_disease[i-1] + 0 + 0) * 
-                                                                   (dlt_df$Sx[i-1]+dlt_df$Cx[i-1]) - dlt_df$lx[i-1] * dlt_df$Sx[i-1] + 0 * 
-                                                                   dlt_df$Sx[i-1]) - dlt_df$Cx[i-1] * dlt_df$lx[i-1]) - dlt_df$Cx[i-1] * 
-                                                             dlt_df$qx[i-1] * (dlt_df$vx[i-1]+dlt_df$wx[i-1])) 
-                                   / (2 * (dlt_df$qx[i-1])), dlt_df$Cx[i - 1])
-            dlt_df$Dx[i] <- ifelse(dlt_df$qx[i-1] > 0, ((dlt_df$vx[i-1] - dlt_df$wx[i-1]) * 
-                                                          (2 * dlt_df$case_fatality_disease[i-1] * 
-                                                             dlt_df$Cx[i-1] - dlt_df$lx[i-1]*
-                                                             (dlt_df$Sx[i-1] + dlt_df$Cx[i-1]))
-                                                        - dlt_df$qx[i-1] * (dlt_df$Sx[i-1] + dlt_df$Cx[i-1])
-                                                        *(dlt_df$vx[i-1]+dlt_df$wx[i-1]) + 2 * dlt_df$qx[i-1] * 
-                                                          (dlt_df$Sx[i-1]+dlt_df$Cx[i-1]+dlt_df$Dx[i-1])) 
-                                   / (2 * (dlt_df$qx[i-1])), dlt_df$Dx[i - 1])
-            
-            
+      Csum <- Cx[i]+Cx[i+1]
+      if(is.na(Csum)) { 
+        px[i] <- 0
+      }else{
+        px[i] <- Csum/2/ PYx[i]    
+        if ((Dx[i+1] - Dx[i]) < 0){
+          mx[i] <- 0
+        }else{
+          mx[i] <- (Dx[i+1] - Dx[i])/PYx[i]
+          if (ages[i] == in_mid_age){
+            Sx[i] <- 1000
+            Cx[i] <- 0
+            Dx[i] <- 0
+          }else{
+            if(qx[i-1] > 0){
+              vxmwx <- vx[i-1] - wx[i-1]
+              SxpCx <- Sx[i-1]+Cx[i-1]
+              dqx <- 2 * qx[i-1]
+              qxmlx <- qx[i-1] - lx[i-1]
+              qxplx <- qx[i-1] + lx[i-1]
+              Sx[i] <- Sx[i-1] * (2*vxmwx * cfds[i-1]  + (vx[i-1] * qxmlx + wx[i-1] * qxplx)) / dqx
+              Cx[i] <- -1*(vxmwx*(2*(cfds[i-1]  * SxpCx - lx[i-1] * Sx[i-1]) - Cx[i-1] * lx[i-1]) - Cx[i-1] * qx[i-1] * (vx[i-1]+wx[i-1])) / dqx
+              Dx[i] <- (vxmwx * (2 * cfds[i-1] * Cx[i-1] - lx[i-1]*SxpCx)- qx[i-1] * SxpCx*(vx[i-1]+wx[i-1]) + dqx * (SxpCx+Dx[i-1]) ) / dqx
+            }else{
+              Sx[i] <- Sx[i - 1] 
+              Cx[i] <- Cx[i - 1]
+              Dx[i] <- Dx[i - 1]
+            }
           }}}}}
+  dlt_df$Tx <- Tx
+  dlt_df$mx <- mx
+  dlt_df$px <- px
   dlt_df
 }
 

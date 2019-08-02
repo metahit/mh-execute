@@ -1,18 +1,10 @@
 rm(list=ls())
 library(ithimr)
 library(splines)
-require(dplyr)
 require(tidyverse)
 require(knitr)
 require(kableExtra)
 require(citr)
-require(gridExtra)
-require(ggpubr)
-require(grid)
-require(ggplot2)
-require(pillar)
-require(devtools)
-require(janitor)
 #setwd('~/overflow_dropbox/mh-execute/')
 ## overwrite some functions for METAHIT's pp_summary use (instead of TIGTHAT's tripset use)
 ## in general, the overwriting functions are from ithimr's uncertain_travel branch
@@ -349,6 +341,7 @@ demographic <- DEMOGRAPHIC
 demographic$age <- sapply(demographic$age_cat,function(x)strsplit(x,'-')[[1]][1])
 ##!! not sure we need this as a separate object but, for now...
 SYNTHETIC_POPULATION <<- left_join(synthetic_pop,demographic[,names(demographic)%in%c('dem_index','age')],by='dem_index')
+synthetic_pop <- NULL
 
 #####################################################################
 ## set scenario variables. these can (should) be determined from input data rather than hard coded.
@@ -367,6 +360,7 @@ for(scenario in SCEN_SHORT_NAME){
   names(pp_summary[[scenario]])[names(pp_summary[[scenario]])==paste0(scenario,'_mmetwk')] <- 'work_ltpa_marg_met'
   names(pp_summary[[scenario]]) <- sapply(names(pp_summary[[scenario]]),function(x)gsub(paste0(scenario,'_'),'',x))
 }
+synth_pop <- NULL
 
 # Generate distance and duration matrices
 dist_and_dir <- dist_dur_tbls(pp_summary)
@@ -383,11 +377,13 @@ for(scenario in SCEN_SHORT_NAME) pp_summary[[scenario]] <- setDT(pp_summary[[sce
 ## (1) AP PATHWAY
 # Calculate PM2.5 concentrations
 system.time(pm_conc <- scenario_pm_calculations(dist,pp_summary))
+SYNTHETIC_POPULATION <<- NULL
 scenario_pm <- pm_conc$scenario_pm
 pm_conc_pp <- pm_conc$pm_conc_pp
+pm_conc <- NULL
 # Air pollution DR calculation
 system.time(RR_AP_calculations <- ithimr::gen_ap_rr(pm_conc_pp))
-
+pm_conc_pp <- NULL
 
 #####################################################################
 ## (2) PA PATHWAY
@@ -398,13 +394,13 @@ system.time(RR_AP_calculations <- ithimr::gen_ap_rr(pm_conc_pp))
 system.time(mmets_pp <- total_mmet(pp_summary))
 # Physical activity calculation
 system.time(RR_PA_calculations <- ithimr::gen_pa_rr(mmets_pp))
-
+mmets_pp <- NULL
 
 #####################################################################
 ## (3) COMBINE (1) AND (2)
 # Physical activity and air pollution combined
 system.time(RR_PA_AP_calculations <- combined_rr_ap_pa(RR_PA_calculations,RR_AP_calculations))
-
+RR_PA_calculations <- RR_AP_calculations <- NULL
 
 #####################################################################
 ## (4) INJURIES
@@ -419,6 +415,7 @@ for(i in 1:2)
 ##!! copied from add_distance_to_injury
 # get indices for fast matching data
 roads <- unique(injury_table[[1]][[1]]$road)
+injury_table <- NULL
 model_modes <- c('pedestrian','cyclist','motorcycle','car/taxi')
 mode_proportions <- matrix(0,nrow=length(roads),ncol=length(model_modes))
 colnames(mode_proportions) <- model_modes
@@ -494,6 +491,7 @@ for(scen in 1:NSCEN+1){
   injury_deaths[[scen]] <- injury_predictions[[1]] 
   secondary_deaths[[scen]] <- injury_predictions[[2]] 
 }
+city_table <- baseline_city_table <- scen_diff <- pp_summary <- NULL
 # convert to ithimr format
 injuries <- cbind(do.call(rbind,injury_deaths),rep(SCEN,each=nrow(injury_deaths[[1]])))
 names(injuries) <- c('dem_index','Deaths','scenario')
@@ -515,11 +513,6 @@ for(scen in 1:NSCEN+1)
     pif_table[[paste0(SCEN_SHORT_NAME[scen],'_',injury_col_name)]] <- injury_ratios_for_bz[[scen]][[i]]/injury_ratios_for_bz[[1]][[i]]
   }
 
-hb_2 <- belens_function(pif_table) 
-
-## Rob, added this line to save to my repo, but not sure if you have it too, so I commented it out. 
-# write_csv(hb_2, '../mh-mslt/data/pif.csv')
-
 pathway_hb <- NULL
 constant_mode <- T
 if(constant_mode) {
@@ -528,6 +521,14 @@ if(constant_mode) {
   x11(); plot(pif_table$scen_pif_pa_ap_noise_no2_ihd,1-(1-pathway_pif_table$scen_pif_pa_ihd)*(1-pathway_pif_table$scen_pif_ap_ihd))
   lines(c(0,1),c(0,1))
 }
+
+RR_PA_AP_calculations <- NULL
+
+profvis(hb_2 <- belens_function(pif_table) )
+sort(sapply(ls(),function(x)object.size(get(x))))
+
+## Rob, added this line to save to my repo, but not sure if you have it too, so I commented it out. 
+# write_csv(hb_2, '../mh-mslt/data/pif.csv')
 
 
 #####################################################################
