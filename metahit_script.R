@@ -5,12 +5,14 @@ require(tidyverse)
 require(knitr)
 require(kableExtra)
 require(citr)
+library(compiler)
 #setwd('~/overflow_dropbox/mh-execute/')
 ## overwrite some functions for METAHIT's pp_summary use (instead of TIGTHAT's tripset use)
 ## in general, the overwriting functions are from ithimr's uncertain_travel branch
 ## in general, ithimr functions are written ithimr::function()
 source('metahit_functions.R')
 source('mslt_functions.R')
+enableJIT(3)
 
 #####################################################################
 ## 1 ##
