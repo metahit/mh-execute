@@ -1,10 +1,10 @@
 # ---- Packages for functions ----
 
-require(dplyr)
-require(tidyverse)
-require(knitr)
-require(kableExtra)
-require(citr)
+#require(dplyr)
+#require(tidyverse)
+#require(knitr)
+#require(kableExtra)
+#require(citr)
 
 # ---- Explanation method ---- 
 
@@ -28,7 +28,7 @@ require(citr)
 # SortGbdInput, RunLocDf, RunLifeTable, RunDisease, RunPif, RunOutput run_life_table, run_disease, run_pif (temp), run_output 
 
 # ---- Sort.Gbd.Input ----
-
+#' @export
 SortGbdInput <- function(in_data, in_year, in_locality) {
   data <- in_data[which(in_data$year== in_year & in_data$location == in_locality),]
 
@@ -37,7 +37,7 @@ SortGbdInput <- function(in_data, in_year, in_locality) {
 ## Selects year and localities from GBD data frame dowloaded from: http://ghdx.healthdata.org/gbd-results-tool
 
 # --- RunLocDf ----
-
+#' @export
 RunLocDf <- function(i_data) {
   
   gbd_df <- NULL 
@@ -171,12 +171,12 @@ RunLocDf <- function(i_data) {
 # InterFunc <- stats::splinefun(x, y, method = "monoH.FC", ties = mean)
 
 # --- IsNanDataFrame ---
-
+#' @export
 IsNanDataFrame <- function(x)
   do.call(cbind, lapply(x, is.nan))
 
 # --- IsInfDataFrame ---
-
+#' @export
 IsInfDataFrame <- function(x)
   do.call(cbind, lapply(x, is.infinite))
 
@@ -188,66 +188,87 @@ IsInfDataFrame <- function(x)
 
 #####Function to generate age and sex life tables. The function is then use in the model.R script
 #####to calculate variables for the baseline and scenario life tables. 
-
+#' @export
 RunLifeTable <- function(in_idata, in_sex, in_mid_age)
 {
   
   # Create a life table data frame
   
   # Filter in_idata by age and dplyr::select columns for lifetable calculations
-  lf_df <- filter(in_idata, age >= in_mid_age & sex == in_sex) %>% dplyr::select(sex, age, pyld_rate, mx)
+  #lf_df <- filter(in_idata, age >= in_mid_age & sex == in_sex) %>% dplyr::select(sex, age, pyld_rate, mx)
+  lf_df <- in_idata[in_idata$age >= in_mid_age & in_idata$sex == in_sex,] 
+  lf_df <- lf_df[,colnames(lf_df)%in%c('sex', 'age', 'pyld_rate', 'mx')]
   #col_names <- c('sex','age','pyld_rate','mx')
   #lf_df <- lf_df[,colnames(lf_df)%in%col_names]
   
   # Create list of required columns (variables)
   
   # probability of dying
-  lf_df$qx <-  ifelse(lf_df$age < 100, 1 - exp(-1 * lf_df$mx), 1)
+  #lf_df$qx <-  ifelse(lf_df$age < 100, 1 - exp(-1 * lf_df$mx), 1)
+  qx <-  ifelse(lf_df$age < 100, 1 - exp(-1 * lf_df$mx), 1)
   
   # number of survivors
-  lf_df$lx <- 0
+  #lf_df$lx <- 0
+  num_row <- nrow(lf_df)
+  lx <- rep(0,num_row)
   # Create it for males population
-  lf_df$lx[1] <- filter(in_idata, age == in_mid_age & sex == in_sex) %>% dplyr::select(population_number)
-  lf_df$lx <- as.numeric(lf_df$lx)
+  #lf_df$lx[1] <- as.numeric(in_idata$population_number[in_idata$age == in_mid_age & in_idata$sex == in_sex]) # filter(in_idata, age == in_mid_age & sex == in_sex) %>% dplyr::select(population_number)
+  #lf_df$lx <- as.numeric(lf_df$lx)
+  lx[1] <- as.numeric(in_idata$population_number[in_idata$age == in_mid_age & in_idata$sex == in_sex]) # filter(in_idata, age == in_mid_age & sex == in_sex) %>% dplyr::select(population_number)
   
   # number died
-  lf_df$dx <- 0
+  #lf_df$dx <- 0
+  dx <- rep(0,num_row)
   
   # Create it for males population
-  lf_df$dx[1] <- lf_df$lx[1] * lf_df$qx[1]
+  #lf_df$dx[1] <- lf_df$lx[1] * lf_df$qx[1]
+  dx[1] <- lx[1] * qx[1]
   
-  for (i in 2:nrow(lf_df)){
-    lf_df$lx[i] <- lf_df$lx[i - 1] - lf_df$dx[i - 1]
-    lf_df$dx[i] <- lf_df$lx[i] * lf_df$qx[i]
+  for (i in 2:num_row){
+    #lf_df$lx[i] <- lf_df$lx[i - 1] - lf_df$dx[i - 1]
+    #lf_df$dx[i] <- lf_df$lx[i] * lf_df$qx[i]
+    lx[i] <- lx[i - 1] - dx[i - 1]
+    dx[i] <- lx[i] * qx[i]
   }
   
   # number of persons lived by cohort to age x + 1/2 (average people)
-  lf_df$Lx <- 0
+  #lf_df$Lx <- 0
+  Lx <- rep(0,num_row)
   
-  for (i in 1:nrow(lf_df)){
-    if (i < nrow(lf_df))
-      lf_df$Lx[i] <- sum(lf_df$lx[i] + lf_df$lx[i + 1]) / 2
-    else
-      lf_df$Lx[i] <- lf_df$lx[i] / lf_df$mx[i]
-    
-  }
+  for (i in 1:(num_row-1))
+    Lx[i] <- (lx[i] + lx[i + 1]) / 2
+    #lf_df$Lx[i] <- (lf_df$lx[i] + lf_df$lx[i + 1]) / 2
+  Lx[num_row] <- lx[num_row] / lf_df$mx[num_row]
+  #lf_df$Lx[num_row] <- lf_df$lx[num_row] / lf_df$mx[num_row]
+  
   
   # create life expectancy variable
-  for (i in 1:nrow(lf_df)){
-    lf_df$ex[i] <- sum(lf_df$Lx[i:nrow(lf_df)]) / lf_df$lx[i]
+  ex <- rep(0,num_row)
+  for (i in 1:num_row){
+    #lf_df$ex[i] <- sum(lf_df$Lx[i:nrow(lf_df)]) / lf_df$lx[i]
+    ex[i] <- sum(Lx[i:num_row]) / lx[i]
   }
   
   # create health adjusted life years variable 
   
-  lf_df$Lwx <- lf_df$Lx * (1 - lf_df$pyld_rate)
+  #lf_df$Lwx <- lf_df$Lx * (1 - lf_df$pyld_rate)
+  Lwx <- Lx * (1 - lf_df$pyld_rate)
   
   # create health adjusted life expectancy variable
-  for (i in 1:nrow(lf_df)){
-    lf_df$ewx[i] <- sum(lf_df$Lwx[i:nrow(lf_df)]) / lf_df$lx[i]
+  ewx <- rep(0,num_row)
+  for (i in 1:num_row){
+    #lf_df$ewx[i] <- sum(lf_df$Lwx[i:nrow(lf_df)]) / lf_df$lx[i]
+    ewx[i] <- sum(Lwx[i:num_row]) / lx[i]
   }
   
+  lf_df$qx <- qx
+  lf_df$lx <- lx
+  lf_df$dx <- dx
+  lf_df$Lx <- Lx
+  lf_df$ex <- ex
+  lf_df$Lwx <- Lwx
+  lf_df$ewx <- ewx
   lf_df
-  
 }
 
 # ---- RunDisease ----(ADD REMISSION FOR CANCERS?)
@@ -272,9 +293,11 @@ RunDisease <- function(in_idata, in_mid_age, in_sex, in_disease)
   in_idata$incidence_disease <- in_idata[[incidence_disease]]
   in_idata$case_fatality_disease <- in_idata[[case_fatality_disease]]
   
-  # filter in_idata by age and select columns for lifetable calculations
-  dlt_df <- filter(in_idata, age >= in_mid_age & sex == in_sex) %>% 
-    dplyr::select(sex, age, dw_disease, incidence_disease, case_fatality_disease)
+  # filter in_idata by age and select columns for lifetable calculations 
+  ##!!RJ filtered before passed to function
+  #dlt_df <- in_idata[in_idata$age >= in_mid_age & in_idata$sex == in_sex,] #%>% 
+  #print(c(nrow(dlt_df),nrow(in_idata)))
+  dlt_df <- in_idata[,colnames(in_idata)%in%c('sex', 'age', 'dw_disease', 'incidence_disease', 'case_fatality_disease')] # dplyr::select(sex, age, dw_disease, incidence_disease, case_fatality_disease)
   
   dlt_df$disease <- in_disease
   
@@ -301,48 +324,46 @@ RunDisease <- function(in_idata, in_mid_age, in_sex, in_disease)
   Sx <- Cx <- Dx <- Tx  <- Ax <- PYx <- px <- mx <- rep(0,number_of_ages)
   cfds <- dlt_df$case_fatality_disease
   ages <- dlt_df$age
+  ## set initial conditions
+  # Dx, Cx, PYx, px, mx stay zero
+  Sx[1] <- Ax[1] <- 1000
   ##### start with variables without calculation exceptions
   
-  for (i2 in 1:number_of_ages){
-    Tx   <- Sx + Cx + Dx 
-    Ax <- Sx + Cx
-    ##### variables with exceptions  
-    
-    for (i in 1:number_of_ages){
-      if (i < number_of_ages){
-        PYx[i] <- (Ax[i] + Ax[i + 1])/2
-      }else{
-        PYx[i] <- 0
-      }
-      Csum <- Cx[i]+Cx[i+1]
-      if(is.na(Csum)) { 
-        px[i] <- 0
-      }else{
-        px[i] <- Csum/2/ PYx[i]    
-        if ((Dx[i+1] - Dx[i]) < 0){
-          mx[i] <- 0
-        }else{
-          mx[i] <- (Dx[i+1] - Dx[i])/PYx[i]
-          if (ages[i] == in_mid_age){
-            Sx[i] <- 1000
-            Cx[i] <- 0
-            Dx[i] <- 0
-          }else{
-            if(qx[i-1] > 0){
-              vxmwx <- vx[i-1] - wx[i-1]
-              SxpCx <- Sx[i-1]+Cx[i-1]
-              dqx <- 2 * qx[i-1]
-              qxmlx <- qx[i-1] - lx[i-1]
-              qxplx <- qx[i-1] + lx[i-1]
-              Sx[i] <- Sx[i-1] * (2*vxmwx * cfds[i-1]  + (vx[i-1] * qxmlx + wx[i-1] * qxplx)) / dqx
-              Cx[i] <- -1*(vxmwx*(2*(cfds[i-1]  * SxpCx - lx[i-1] * Sx[i-1]) - Cx[i-1] * lx[i-1]) - Cx[i-1] * qx[i-1] * (vx[i-1]+wx[i-1])) / dqx
-              Dx[i] <- (vxmwx * (2 * cfds[i-1] * Cx[i-1] - lx[i-1]*SxpCx)- qx[i-1] * SxpCx*(vx[i-1]+wx[i-1]) + dqx * (SxpCx+Dx[i-1]) ) / dqx
-            }else{
-              Sx[i] <- Sx[i - 1] 
-              Cx[i] <- Cx[i - 1]
-              Dx[i] <- Dx[i - 1]
-            }
-          }}}}}
+  ##### variables with exceptions  
+  for (i in 2:(number_of_ages-1)){ ##!! this can go to "number_of_ages" now (?)
+    if(qx[i-1] > 0){
+      vxmwx <- vx[i-1] - wx[i-1]
+      SxpCx <- Sx[i-1]+Cx[i-1]
+      dqx <- 2 * qx[i-1]
+      qxmlx <- qx[i-1] - lx[i-1]
+      qxplx <- qx[i-1] + lx[i-1]
+      Sx[i] <- Sx[i-1] * (2*vxmwx * cfds[i-1]  + (vx[i-1] * qxmlx + wx[i-1] * qxplx)) / dqx
+      Cx[i] <- -1*(vxmwx*(2*(cfds[i-1]  * SxpCx - lx[i-1] * Sx[i-1]) - Cx[i-1] * lx[i-1]) - Cx[i-1] * qx[i-1] * (vx[i-1]+wx[i-1])) / dqx
+      Dx[i] <- (vxmwx * (2 * cfds[i-1] * Cx[i-1] - lx[i-1]*SxpCx)- qx[i-1] * SxpCx*(vx[i-1]+wx[i-1]) + dqx * (SxpCx+Dx[i-1]) ) / dqx
+    }else{
+      Sx[i] <- Sx[i - 1] 
+      Cx[i] <- Cx[i - 1]
+      Dx[i] <- Dx[i - 1]
+    }
+  }
+  Tx   <- Sx + Cx + Dx 
+  Ax <- Sx + Cx
+  first_indices <- 1:(number_of_ages-1)
+  last_indices <- 2:number_of_ages
+  PYx <- (Ax[first_indices] + Ax[last_indices])/2
+  mx[first_indices] <- (Dx[last_indices] - Dx[first_indices])/PYx[first_indices]
+  mx[mx<0] <- 0
+  px[first_indices] <- (Cx[last_indices] + Cx[first_indices])/2/PYx[first_indices]
+  #for (i in 1:(number_of_ages-1)){
+    #if ((Dx[i+1] - Dx[i]) < 0){
+    #  mx[i] <- 0
+    #}else{
+    #  mx[i] <- (Dx[i+1] - Dx[i])/PYx[i]
+    #}
+  #  Csum <- Cx[i]+Cx[i+1]
+  #  px[i] <- Csum/2/ PYx[i]   
+  #}
+  
   dlt_df$Tx <- Tx
   dlt_df$mx <- mx
   dlt_df$px <- px
@@ -351,7 +372,7 @@ RunDisease <- function(in_idata, in_mid_age, in_sex, in_disease)
 
 
 # Run non_diseases
-
+#' @export
 RunNonDisease <- function(in_idata, in_sex, in_mid_age, in_non_disease)
 
   {
@@ -363,8 +384,9 @@ RunNonDisease <- function(in_idata, in_sex, in_mid_age, in_non_disease)
   # # df$deaths_rate <- df[[deaths_rate]]
   # # df$pyld_rate <- df[[pyld_rate]]
 
-  
-  df <- filter(in_idata, age >= in_mid_age & sex == in_sex) %>% dplyr::select(sex, age,  paste0("deaths_rate_", in_non_disease), paste0("ylds_rate_", in_non_disease))
+  ##!!RJ filtered before passing
+  #df <- filter(in_idata, age >= in_mid_age & sex == in_sex) #%>%
+  df <- in_idata[,colnames(in_idata)%in%c('sex', 'age',  paste0("deaths_rate_", in_non_disease), paste0("ylds_rate_", in_non_disease))]
   
   
   
@@ -373,10 +395,13 @@ RunNonDisease <- function(in_idata, in_sex, in_mid_age, in_non_disease)
 
 
 # GetPif (for Metahit)
-
+#' @export
 GetPif <- function(in_pif, in_age, in_sex, pif_name){
-  df <- in_pif
-  p <- as.data.frame(filter(df, age >= in_age & sex == in_sex) %>% dplyr::select(age, pif_name))
+  p <- as.data.frame(in_pif)
+  ##!!RJ filtered before passed to function
+  #p <- df[df$age >= in_age & df$sex == in_sex,]# %>% 
+  #print(c(dim(df),dim(p)))
+  p <- p[,colnames(p)%in%c('age', pif_name)] # dplyr::select(age, pif_name)
   
   ## Expand to repeat values between age groups, for example, same value from 17 to 21
   
@@ -397,7 +422,7 @@ GetPif <- function(in_pif, in_age, in_sex, pif_name){
 
 # The code for PIFs will depend on the data sources. 
 
-
+#' @export
 RunPif <- function(in_idata, i_irr, i_exposure, in_mid_age, in_sex, in_disease, in_met_sc) 
   # 
 {
@@ -506,7 +531,7 @@ RunPif <- function(in_idata, i_irr, i_exposure, in_mid_age, in_sex, in_disease, 
 
 # Function to generate graphs by age and sex, per outcome of interest. 
 
-
+#' @export
 PlotOutput <- function(in_data, in_age, in_population, in_outcomes, in_legend = "", in_disease = ""){
   
   # in_data <- output_df
@@ -561,7 +586,7 @@ PlotOutput <- function(in_data, in_age, in_population, in_outcomes, in_legend = 
 # ---- GenAggregate ----
 # Function to aggreate outcomes by age an sex
 
-
+#' @export
 GenAggregate <- function(in_data, in_cohorts, in_population, in_outcomes){
   
   
@@ -608,7 +633,7 @@ GenAggregate <- function(in_data, in_cohorts, in_population, in_outcomes){
 
 # ---- GridArrangSharedLegend ----
 # Function to general combined labels for multiple plots in a page
-
+#' @export
 GridArrangSharedLegend <- function(..., ncol = length(list(...)), nrow = 1, position = c("bottom", "right"), mainTitle = "", mainLeft = "", mainBottom = "") {
   
   plots <- list(...)
@@ -639,7 +664,7 @@ GridArrangSharedLegend <- function(..., ncol = length(list(...)), nrow = 1, posi
   
 }
 
-
+#' @export
 g_legend <- function(a.gplot){
   tmp <- ggplot_gtable(ggplot_build(a.gplot))
   leg <- which(sapply(tmp$grobs, function(x) x$name) == "guide-box")
@@ -649,7 +674,7 @@ g_legend <- function(a.gplot){
 
 # ---- GetQualifiedDiseaseName ---- (Belen: check if we need this function)
 # Function to get qualified names diseases
-
+#' @export
 GetQualifiedDiseaseName <- function (disease){
   if (disease == 'ihd')
     return ('Ischaemic Heart Disease')
@@ -665,7 +690,7 @@ GetQualifiedDiseaseName <- function (disease){
 
 # ---- PlotGBD (may need to update) ----
 # Function to generate GBD graphs to compare data national to local (USED in GBD COMPARE############################
-
+#' @export
 PlotGBD <- function(in_data1, in_data2, in_sex, in_cause, in_measure) {
   
   # in_data1 <- GBDEngland
