@@ -4,11 +4,9 @@ library(reshape2)
 setwd('~/overflow_dropbox/mh-execute/')
 
 # get data
-cardata <- read_xlsx('190905_data_from_RTS.xlsx',sheet=2)
+cardata <- read.xlsx('190918_data_from_RTS.xlsx',sheetIndex=2,rowIndex = 3:43)
 # tidy data
-cardata <- cardata[-c(1:2),]
-colnames(cardata) <- c('region','road',1:6)
-cardata$total <- rowSums(apply(cardata[,-c(1:2)],2,as.numeric))
+colnames(cardata) <- c('region','road',1:6,'total')
 cardata <- cardata[,c(1,2,9)]
 
 # reformat data
@@ -21,4 +19,5 @@ for(i in 1:length(cities))
 
 # save
 saveRDS(carmatrix,'car_million_km_2010_to_2015.Rds')
+write.csv(carmatrix,'car_million_km_2010_to_2015.csv')
 
