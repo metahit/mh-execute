@@ -1,6 +1,7 @@
 
 library(dplyr)
-#setwd('~/Desktop/')
+library(xlsx)
+#setwd('~/overflow_dropbox/mh-execute')
 ## AADFs
 raw_aadf <- read.csv('inputs/dft_traffic_counts_aadf.csv',stringsAsFactors = F)
 dim(raw_aadf)
@@ -27,7 +28,7 @@ rts_indices <- c(3,5,6)
 
 ## get most recent RTS values
 for(i in 1:length(rts_indices)){
-  rts_estimates <- read.xlsx('190918_data_from_RTS.xlsx',sheetIndex=i+1,rowIndex = 3:48)
+  rts_estimates <- read.xlsx('inputs/190918_data_from_RTS.xlsx',sheetIndex=i+1,rowIndex = 3:48)
   #rownames(road_dist) <- sapply(rownames(road_dist),function(x)tolower(gsub(' ','',x)))
   #citymap <- list(bristol='bristol',
   #                nottingham='',
@@ -58,8 +59,8 @@ for(i in 1:length(rts_indices)){
 
 #######################################################
 ## urban fraction of A roads
-if(file.exists('urban_road_fraction.Rds')){
-  road_df <- readRDS('urban_road_fraction.Rds')
+if(file.exists('inputs/urban_road_fraction.Rds')){
+  road_df <- readRDS('inputs/urban_road_fraction.Rds')
 }else{
   require(rgdal)
   library(raster)
@@ -87,7 +88,7 @@ if(file.exists('urban_road_fraction.Rds')){
   road_df$rural_length <- road_df$length - road_df$urban_length
   road_df$urban_fraction <- road_df$urban_length/road_df$length
   colnames(road_df)[1] <- 'count_point_id'
-  saveRDS(road_df,'urban_road_fraction.Rds')
+  saveRDS(road_df,'inputs/urban_road_fraction.Rds')
 }
 
 raw_aadf <- left_join(raw_aadf,road_df,by='count_point_id')
