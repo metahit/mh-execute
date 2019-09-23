@@ -62,9 +62,9 @@ for(i in 1:length(rts_indices)){
 if(file.exists('inputs/urban_road_fraction.Rds')){
   road_df <- readRDS('inputs/urban_road_fraction.Rds')
 }else{
-  require(rgdal)
+  library(rgdal)
   library(raster)
-  library(SDraw)
+  library(rgeos)
   road_shape <- readOGR(dsn = "shapefiles", layer = "2018-MRDB-minimal")
   urban_shape <- readOGR(dsn = "shapefiles", layer = "Builtup_Areas_December_2011_Boundaries_V2")
   
