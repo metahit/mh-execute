@@ -1,10 +1,10 @@
-library(readxl)
+library(xlsx)
 library(reshape2)
 
 setwd('~/overflow_dropbox/mh-execute/')
 
 # get data
-cardata <- read.xlsx('190918_data_from_RTS.xlsx',sheetIndex=2,rowIndex = 3:43)
+cardata <- read.xlsx('inputs/190918_data_from_RTS.xlsx',sheetIndex=2,rowIndex = 3:48)
 # tidy data
 colnames(cardata) <- c('region','road',1:6,'total')
 cardata <- cardata[,c(1,2,9)]
