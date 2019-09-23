@@ -162,6 +162,8 @@ write.csv(do.call(rbind,lapply(1:length(tabs_list),function(x)cbind(names(tabs_l
 
 ###########################################################
 
+## diagnostic plots
+
 for(j in rts_indices){
   rts_tab <- sapply(colnames(tab) ,function(y) sapply(regions,function(x) sum(subset(rts_est,city==x&road%in%y)[[mh_names[j]]])))
   rownames(rts_tab) <- regions
