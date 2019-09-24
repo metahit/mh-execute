@@ -1,7 +1,7 @@
 
 library(dplyr)
 library(xlsx)
-#setwd('~/overflow_dropbox/mh-execute')
+setwd('~/overflow_dropbox/mh-execute')
 ## AADFs
 raw_aadf <- read.csv('inputs/dft_traffic_counts_aadf.csv',stringsAsFactors = F)
 dim(raw_aadf)
@@ -59,12 +59,16 @@ for(i in 1:length(rts_indices)){
 
 #######################################################
 ## urban fraction of A roads
-if(file.exists('inputs/urban_road_fraction.Rds')){
-  road_df <- readRDS('inputs/urban_road_fraction.Rds')
+
+buff <- 0
+if(file.exists(paste0('inputs/urban_road_fraction_',buff,'.Rds'))&file.exists(paste0('inputs/urban_road_points_',buff,'.Rds'))){
+  road_df <- readRDS(paste0('inputs/urban_road_fraction_',buff,'.Rds'))
+  point_df <- readRDS(paste0('inputs/urban_road_points_',buff,'.Rds'))
 }else{
   library(rgdal)
   library(raster)
   library(rgeos)
+  library(spatialEco)
   road_shape <- readOGR(dsn = "shapefiles", layer = "2018-MRDB-minimal")
   urban_shape <- readOGR(dsn = "shapefiles", layer = "Builtup_Areas_December_2011_Boundaries_V2")
   
@@ -73,10 +77,25 @@ if(file.exists('inputs/urban_road_fraction.Rds')){
   urban_shp <- spTransform(urban_shape,CRS(crs_string))
   road_shp <- spTransform(road_shape,CRS(crs_string))
   urban_shape_urban <- urban_shp[urban_shp$urban_bua=='Yes',]
-  #buff <- 10
-  #road_shp_buffered <- buffer(road_shp,buff)
+  urban_shp_buffered <- buffer(urban_shape_urban,buff)
   
-  urban_road <- raster::intersect(road_shp,urban_shape_urban)
+  minor_road_coords <- raw_aadf[,c(1,16,17)]
+  coordinates(minor_road_coords) <- c('longitude','latitude')
+  proj4string(minor_road_coords) <- CRS("+proj=longlat")
+  minor_road_coords <- spTransform(minor_road_coords,CRS(crs_string))
+  point_shape <- point.in.poly(minor_road_coords,urban_shp_buffered)
+  point_df <- point_shape@data
+  colnames(point_df)[2] <- 'urban_point'
+  point_df$urban_point[is.na(point_df$urban_point)] <- 0
+  saveRDS(point_df,paste0('inputs/urban_road_points_',buff,'.Rds'))
+  
+  pdf('buffered_urban_area.pdf'); par(mar=c(1,1,1,1))
+  plot(urban_shp_buffered,xlim=c(520000 , 550000),ylim=c( 150000,  240000))
+  lines(urban_shape_urban,xlim=c(520000 , 550000),ylim=c( 150000,  240000),col='red',lty=2)
+  #points(minor_road_coords[!is.na(point_shape@data$poly.ids),],cex=0.5,pch=16,col='grey')
+  dev.off()
+  
+  urban_road <- raster::intersect(road_shp,urban_shp_buffered)
   
   urban_df <- as.data.frame(urban_road)
   urban_df$urban_length <- gLength(urban_road,byid=T)
@@ -88,10 +107,10 @@ if(file.exists('inputs/urban_road_fraction.Rds')){
   road_df$rural_length <- road_df$length - road_df$urban_length
   road_df$urban_fraction <- road_df$urban_length/road_df$length
   colnames(road_df)[1] <- 'count_point_id'
-  saveRDS(road_df,'inputs/urban_road_fraction.Rds')
+  saveRDS(road_df,paste0('inputs/urban_road_fraction_',buff,'.Rds'))
 }
-
 raw_aadf <- left_join(raw_aadf,road_df,by='count_point_id')
+raw_aadf <- left_join(raw_aadf,point_df,by='count_point_id')
 
 ##########################################################
 ## compute for modes
@@ -185,3 +204,4 @@ for(j in rts_indices){
   minor <- tab[,4]/tab[,5]
   print(rbind(major,minor,major/minor))
 }
+
