@@ -128,7 +128,7 @@ if(file.exists(paste0('inputs/urban_road_fraction_',buff,'.Rds'))&file.exists(pa
   road_df$length <- gLength(road_shp,byid=T)
   road_df <- left_join(road_df,urban_df,by=c('CP_Number','RoadNumber'))
   road_df$urban_length[is.na(road_df$urban_length)] <- 0
-  road_df <- road_df[,c(1,2,3,12,13)]
+  #road_df <- road_df[,c(1,2,3,12,13)]
   road_df$rural_length <- road_df$length - road_df$urban_length
   road_df$urban_fraction <- road_df$urban_length/road_df$length
   colnames(road_df)[1] <- 'count_point_id'
@@ -160,10 +160,12 @@ link_lengths <- link_lengths[,c(1,3:11)]
 link_aadf <- left_join(raw_aadf,link_lengths[,c(3:10)],by='local_authority_code')
 
 minor_aadf <- subset(link_aadf,road_type=='minor'&!is.na(cityregion))
-minor_aadf <- minor_aadf[,c(1,2,7,8,9,24,35:43)]
+minor_aadf <- minor_aadf[,colnames(minor_aadf)%in%c('count_point_id','year','local_authority_name','local_authority_code','road_name','cars_and_taxis','road_letter',
+                                                    'RoadNumber','length','urban_length','rural_length','urban_fraction','urban_point','rural_b','urban_b',
+                                                    'rural_c','urban_c','rural_u','urban_u','cityregion')]#c(1,2,7,8,9,24,35:43)]
 
 minor_aadf$road_letter2 <- sapply(minor_aadf$road_name,function(x)strsplit(x,'')[[1]][1])
-x11(); par(mfrow=c(2,2)); for(x in c('U','C','B')) hist(subset(minor_aadf,road_letter2==x)$cars_and_taxis,main=x)
+#x11(); par(mfrow=c(2,2)); for(x in c('U','C','B')) hist(subset(minor_aadf,road_letter2==x)$cars_and_taxis,main=x)
 sapply(c('U','C','B'),function(x)nrow(subset(minor_aadf,road_letter2==x)))
 sapply(c('U','C','B'),function(x)mean(subset(minor_aadf,road_letter2==x)$cars_and_taxis))
 

@@ -103,7 +103,7 @@ if(file.exists(paste0('inputs/urban_road_fraction_',buff,'.Rds'))&file.exists(pa
   road_df$length <- gLength(road_shp,byid=T)
   road_df <- left_join(road_df,urban_df,by=c('CP_Number','RoadNumber'))
   road_df$urban_length[is.na(road_df$urban_length)] <- 0
-  road_df <- road_df[,c(1,2,3,12,13)]
+  #road_df <- road_df[,c(1,2,3,12,13)]
   road_df$rural_length <- road_df$length - road_df$urban_length
   road_df$urban_fraction <- road_df$urban_length/road_df$length
   colnames(road_df)[1] <- 'count_point_id'
@@ -125,7 +125,7 @@ for(mode_number in c(rts_indices,c(1:length(mh_names))[-rts_indices])){
   raw_aadf$urban_distance <- raw_aadf$distance * raw_aadf$urban_fraction
   raw_aadf$rural_distance <- raw_aadf$distance * (1-raw_aadf$urban_fraction)
   
-
+  
   ## get sum of travel for A and M for 2010-2015
   tab <- t(sapply(regions,function(x) #sapply(c('A','M'),function(y)
   {
@@ -141,8 +141,8 @@ for(mode_number in c(rts_indices,c(1:length(mh_names))[-rts_indices])){
   ))*365/1000
   rownames(tab) <- regions
   colnames(tab) <- c('Motorway','Urban A','Rural A')
-
-
+  
+  
   #########################################################
   ## get minor distances
   if(!mode_number%in%rts_indices){
@@ -179,6 +179,150 @@ for(mode_number in c(rts_indices,c(1:length(mh_names))[-rts_indices])){
   tabs_list[[mh_name]] <- tab
 }
 write.csv(do.call(rbind,lapply(1:length(tabs_list),function(x)cbind(names(tabs_list)[x],tabs_list[[x]]))),'outputs/mode_road_city.csv')
+
+
+
+##########################################################
+
+## replace minor roads
+
+
+## get minor link lengths
+library(readODS)
+link_lengths_sheet <- readODS::read.ods('inputs/rdl0202.ods',sheet=13)
+link_lengths <- link_lengths_sheet[-c(1:5),-c(4:14,21:26)]
+colnames(link_lengths) <- c('lad11cd','region','lad11nm','rural_b','urban_b','rural_c','urban_c','rural_u','urban_u')
+link_lengths <- link_lengths[-c(1:2),]
+link_lengths <- left_join(link_lengths,la_table,by='lad11cd')#    lad11cd                      lad11nm   lad14cd cityregion                   gordet
+link_lengths <- subset(link_lengths,!is.na(cityregion)&cityregion!='')
+link_lengths <- link_lengths[,-c(10,13)]
+urban_cols <- paste0('urban_',c('b','c','u'))
+rural_cols <- paste0('rural_',c('b','c','u'))
+for(column in c(urban_cols,rural_cols)) link_lengths[[column]] <- as.numeric(link_lengths[[column]])
+#link_lengths$urban_minor <- rowSums(link_lengths[,colnames(link_lengths)%in%urban_cols])
+#link_lengths$rural_minor <- rowSums(link_lengths[,colnames(link_lengths)%in%rural_cols])
+colnames(link_lengths)[10] <- 'local_authority_code'
+link_lengths <- link_lengths[,c(1,3:11)]
+
+link_aadf <- left_join(raw_aadf,link_lengths[,c(3:10)],by='local_authority_code')
+
+minor_aadf <- subset(link_aadf,road_type=='minor'&!is.na(cityregion))
+minor_aadf <- minor_aadf[,colnames(minor_aadf)%in%c('count_point_id','year','local_authority_name','local_authority_code','road_name','cars_and_taxis','road_letter',
+                                                    'RoadNumber','length','urban_length','rural_length','urban_fraction','urban_point','rural_b','urban_b',
+                                                    'rural_c','urban_c','rural_u','urban_u','cityregion')]#c(1,2,7,8,9,24,35:43)]
+
+minor_aadf$road_letter2 <- sapply(minor_aadf$road_name,function(x)strsplit(x,'')[[1]][1])
+#x11(); par(mfrow=c(2,2)); for(x in c('U','C','B')) hist(subset(minor_aadf,road_letter2==x)$cars_and_taxis,main=x)
+sapply(c('U','C','B'),function(x)nrow(subset(minor_aadf,road_letter2==x)))
+sapply(c('U','C','B'),function(x)mean(subset(minor_aadf,road_letter2==x)$cars_and_taxis))
+
+cities <- unique(minor_aadf$cityregion)
+for(city in cities){
+  print(city)
+  lminor <- subset(minor_aadf,cityregion==city)
+  sapply(unique(lminor$local_authority_name),function(x)c(nrow(subset(lminor,local_authority_name==x&urban_point==0)),nrow(subset(lminor,local_authority_name==x))))
+  print(lapply(c(0,1),function(x) (
+    sapply(2010:2015,function(y)
+      sum(sapply(unique(lminor$local_authority_name),function(z){
+        tab <- subset(lminor,urban_point==x&year==y&local_authority_name==z)
+        sapply(1:3,function(w){
+          subtab <- subset(tab,road_letter2==c('B','C','U')[w])
+          lab <- list(rural_cols,urban_cols)[[x+1]]
+          mean(subtab$cars_and_taxis*subtab[[lab[w]]],na.rm=T)*365/1000000
+        })
+      }),na.rm=T)
+    ))))
+}
+
+raw_counts <- list()
+for(city in cities){
+  raw_counts[[city]] <- list()
+  lminor <- subset(minor_aadf,cityregion==city)
+  for(x in 0:1){
+    raw_counts[[city]][[c('rural','urban')[x+1]]]
+    for(y in 2010:2015){
+      raw_counts[[city]][[c('rural','urban')[x+1]]][[as.character(y)]] <- 
+        sapply(unique(lminor$local_authority_name),function(z){
+          tab <- subset(lminor,urban_point==x&year==y&local_authority_name==z)
+          sapply(1:3,function(w)
+            mean(subset(tab,road_letter2==c('B','C','U')[w])$cars_and_taxis)
+          )
+        })
+    }
+  }
+}
+
+minor_df <- as.data.frame(do.call(rbind,lapply(as.character(cities),function(city){
+  lminor <- subset(minor_aadf,cityregion==city)
+  do.call(rbind,lapply(0:1,function(x){
+    do.call(rbind,lapply(2000:2018,function(y){
+      do.call(rbind,lapply(unique(lminor$local_authority_name),function(z){
+        tab <- subset(lminor,urban_point==x&year==y&local_authority_name==z)
+        t(sapply(1:3,function(w)
+          c(city,z,y,x,c('B','C','U')[w],mean(subset(tab,road_letter2==c('B','C','U')[w])$cars_and_taxis))
+        ))
+      }))
+    }))
+  }))
+})),stringsAsFactors=F)
+
+colnames(minor_df) <- c('city','local_authority_name','year','urban','road','count')
+sapply(minor_df,class)
+minor_df$year <- as.numeric(minor_df$year)
+minor_df$count <- as.numeric(minor_df$count)
+minor_df$logcount <- log(minor_df$count)
+pred_model <- glm(logcount ~ city+local_authority_name*road*urban+year,data=minor_df)
+plot(minor_df$logcount[!is.na(minor_df$logcount)],pred_model$fitted.values)
+minor_df$predlogcount <- stats::predict(pred_model,newdata=minor_df)
+minor_df$predcount <- exp(minor_df$predlogcount)
+plot(minor_df$count,minor_df$predcount)
+minor_df <- minor_df[,-c(6:8)]
+
+minor_df_count <- cbind(minor_df[minor_df$urban==0,c(1:3,5)],rural=minor_df$predcount[minor_df$urban==0],urban=minor_df$predcount[minor_df$urban==0])
+urban_count <- sapply(c('B','C','U'),function(x) minor_df_count$urban[minor_df_count$road==x])
+colnames(urban_count) <- c('urban_b_count','urban_c_count','urban_u_count')
+minor_df_count <- cbind(minor_df_count[minor_df_count$road=='B',c(1:3)],sapply(c('B','C','U'),function(x) minor_df_count$rural[minor_df_count$road==x]))
+colnames(minor_df_count)[4:6] <- c('rural_b_count','rural_c_count','rural_u_count')
+minor_df_count <- cbind(minor_df_count,urban_count)
+
+
+
+
+minor_aadf$local_authority_name[!minor_aadf$local_authority_name%in%minor_df_count$local_authority_name]
+link_lengths$local_authority_code[!link_lengths$local_authority_code%in%minor_aadf$local_authority_code]
+la_code_name <- unique(minor_aadf[,colnames(minor_aadf)%in%c('local_authority_code','local_authority_name')])
+
+
+minor_df_count <- left_join(minor_df_count,la_code_name,by='local_authority_name')
+minor_df_count <- left_join(minor_df_count,link_lengths[,colnames(link_lengths)%in%c('local_authority_code',"rural_b","urban_b","rural_c","urban_c","rural_u","urban_u")],by='local_authority_code')
+
+for(lab in c('rural','urban')) for(roadletter in c('b','c','u')){
+  length_col <- paste0(lab,'_',roadletter)
+  count_col <- paste0(length_col,'_count')
+  dis_col <- paste0(length_col,'_dist')
+  minor_df_count[[dis_col]] <- minor_df_count[[length_col]]*minor_df_count[[count_col]]
+}
+
+
+smooth_counts <- list()
+for(cit in cities){
+  smooth_counts[[cit]] <- list()
+  lminor <- subset(minor_df_count,city==cit)
+  for(x in 0:1){
+    lab <- c('rural','urban')[x+1]
+    smooth_counts[[cit]][[lab]]
+    for(y in 2010:2015){
+      smooth_counts[[cit]][[lab]][[as.character(y)]] <- 
+        sum(sapply(unique(lminor$local_authority_name),function(z){
+          tab <- subset(lminor,year==y&local_authority_name==z)
+          dis_col <- paste0(lab,'_',c('b','c','u'),'_dist')
+          sum(tab[,colnames(tab)%in%dis_col])*365/1e6
+        }))
+    }
+  }
+}
+
+
 
 ###########################################################
 
