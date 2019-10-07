@@ -112,6 +112,29 @@ if(file.exists(paste0('inputs/urban_road_fraction_',buff,'.Rds'))&file.exists(pa
 raw_aadf <- left_join(raw_aadf,road_df,by='count_point_id')
 raw_aadf <- left_join(raw_aadf,point_df,by='count_point_id')
 
+### diagnostic
+missing_links <- unique(subset(raw_aadf,!count_point_id%in%road_df$count_point_id&road_letter%in%c('A','M'))$road_name)
+missing_link_ids <- unique(subset(raw_aadf,!count_point_id%in%road_df$count_point_id&road_letter%in%c('A','M'))$count_point_id)
+included_links <- unique(subset(raw_aadf,count_point_id%in%road_df$count_point_id&road_letter%in%c('A','M'))$road_name)
+completely_missing <- missing_links[sapply(missing_links,function(x)sum(road_df$RoadNumber==x))==0]
+missing_links[!missing_links%in%included_links]
+subset(raw_aadf,!count_point_id%in%road_df$count_point_id&road_letter%in%c('A','M')&local_authority_name%in%c("South Gloucestershire","Bristol, City of","Bath and North East Somerset","North Somerset")&year>2009)
+
+raw_aadf$bracket_m <- sapply(raw_aadf$RoadNumber,function(x)grepl('(M)',x))
+subset(raw_aadf,road_name!=RoadNumber&!bracket_m&road_letter%in%c('A','M'))[,c(1,2,9,10,12,13,36)]
+c('M6(T)')
+
+bristol <- subset(raw_aadf,road_letter%in%c('A')&local_authority_name%in%c("South Gloucestershire","Bristol, City of","Bath and North East Somerset","North Somerset")&year>2009&year<2016)
+sapply(aadf_names,function(x)
+sum(subset(bristol,!count_point_id%in%road_df$count_point_id)[[x]])/sum(bristol[[x]])*100)
+
+unique(subset(raw_aadf,!road_name%in%road_df$RoadNumber&road_letter%in%c('A','M'))$road_name)
+name_no_id <- unique(subset(raw_aadf,!road_name%in%road_df$RoadNumber&road_letter%in%c('A','M'))$road_name)[!unique(subset(raw_aadf,!road_name%in%road_df$RoadNumber&road_letter%in%c('A','M'))$road_name)%in%unique(subset(raw_aadf,!count_point_id%in%road_df$count_point_id&road_letter%in%c('A','M'))$road_name)]
+cids <- subset(raw_aadf,road_name%in%name_no_id)$count_point_id
+sort(subset(road_df,count_point_id%in%cids)$RoadNumber)
+####
+
+
 ##########################################################
 ## compute for modes
 
