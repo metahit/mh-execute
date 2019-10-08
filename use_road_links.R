@@ -89,6 +89,18 @@ if(file.exists(paste0('inputs/urban_road_fraction_',buff,'.Rds'))&file.exists(pa
   point_df$urban_point[is.na(point_df$urban_point)] <- 0
   saveRDS(point_df,paste0('inputs/urban_road_points_',buff,'.Rds'))
   
+  motorway_cycle_aadf <- subset(raw_aadf,pedal_cycles>0&road_letter=='M')
+  motorway_cycle_points <- motorway_cycle_aadf[,c(1,16,17)]
+  coordinates(motorway_cycle_points) <- c('longitude','latitude')
+  proj4string(motorway_cycle_points) <- CRS("+proj=longlat")
+  motorway_cycle_points <- spTransform(motorway_cycle_points,CRS(crs_string))
+  point_shape <- point.in.poly(motorway_cycle_points,urban_shp_buffered)
+  cycle_m_df <- point_shape@data
+  colnames(cycle_m_df)[2] <- 'urban_m_cycle'
+  cycle_m_df$urban_m_cycle[is.na(cycle_m_df$urban_m_cycle)] <- 0
+  #cycle_m_df <- left_join(cycle_m_df,motorway_cycle_aadf,by='count_point_id')
+  #saveRDS(point_df,paste0('inputs/urban_road_m_cycle_',buff,'.Rds'))
+  
   pdf('buffered_urban_area.pdf'); par(mar=c(1,1,1,1))
   plot(urban_shp_buffered,xlim=c(520000 , 550000),ylim=c( 150000,  240000))
   lines(urban_shape_urban,xlim=c(520000 , 550000),ylim=c( 150000,  240000),col='red',lty=2)
@@ -154,9 +166,15 @@ for(mode_number in c(rts_indices,c(1:length(mh_names))[-rts_indices])){
   {
     subtab <- subset(raw_aadf,year%in%2010:2015&(local_authority_code%in%subset(la_table,cityregion==x)$lad14cd|
                                                    local_authority_code%in%subset(la_table,cityregion==x)$lad11cd))
-    m_dist <- sum(subset(subtab,road_letter=='M')$distance,na.rm=T)
-    r_dist <- sum(subset(subtab,road_letter=='A')$rural_distance,na.rm=T)
-    u_dist <- sum(subset(subtab,road_letter=='A')$distance,na.rm=T) - r_dist
+    if(mode_number==1){
+      m_dist <- 0
+      r_dist <- sum(subset(subtab,road_letter%in%c('A','M'))$rural_distance,na.rm=T) 
+      u_dist <- sum(subset(subtab,road_letter%in%c('A','M'))$urban_distance,na.rm=T)
+    }else{
+      m_dist <- sum(subset(subtab,road_letter=='M')$distance,na.rm=T)
+      r_dist <- sum(subset(subtab,road_letter=='A')$rural_distance,na.rm=T)
+      u_dist <- sum(subset(subtab,road_letter=='A')$distance,na.rm=T) - r_dist
+    }
     c(m_dist,
       u_dist,
       r_dist)
