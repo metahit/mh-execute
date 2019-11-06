@@ -419,13 +419,13 @@ for(i in 1:2)
 roads <- unique(injury_table[[1]][[1]]$road)
 injury_table <- NULL
 model_modes <- c('pedestrian','cyclist','motorcycle','car/taxi')
-mode_proportions <- matrix(0,nrow=length(roads),ncol=length(model_modes))
-colnames(mode_proportions) <- model_modes
-rownames(mode_proportions) <- roads
-mode_proportions[,colnames(mode_proportions)%in%'pedestrian'] <- c(0,  0.05,0.1,0.1,0.75)
-mode_proportions[,colnames(mode_proportions)%in%'cyclist'] <-    c(0,  0.05,0.1,0.1,0.75)
-mode_proportions[,colnames(mode_proportions)%in%'motorcycle'] <- c(0.2,0.1, 0.1,0.3,0.3)
-mode_proportions[,colnames(mode_proportions)%in%'car/taxi'] <-   c(0.2,0.1, 0.1,0.3,0.3)
+#mode_proportions <- matrix(0,nrow=length(roads),ncol=length(model_modes))
+#colnames(mode_proportions) <- model_modes
+#rownames(mode_proportions) <- roads
+#mode_proportions[,colnames(mode_proportions)%in%'pedestrian'] <- c(0,  0.05,0.1,0.1,0.75)
+#mode_proportions[,colnames(mode_proportions)%in%'cyclist'] <-    c(0,  0.05,0.1,0.1,0.75)
+#mode_proportions[,colnames(mode_proportions)%in%'motorcycle'] <- c(0.2,0.1, 0.1,0.3,0.3)
+#mode_proportions[,colnames(mode_proportions)%in%'car/taxi'] <-   c(0.2,0.1, 0.1,0.3,0.3)
 
 # get scenario distance differences
 modes <- c('walking','bicycle','motorcycle','car')
@@ -435,8 +435,11 @@ distance_columns <- colnames(pp_summary[[1]])%in%c(mode_labels)
 injury_deaths <- secondary_deaths <- list()
 # get prediction for baseline (using smoothed data, not raw data)
 for(i in 1:2)
-  for(j in 1:2)
+  for(j in 1:2){
+    city_table[[i]][[j]]$cas_distance <- city_table[[i]][[j]]$base_cas_distance
+    city_table[[i]][[j]]$strike_distance <- city_table[[i]][[j]]$base_strike_distance
     city_table[[i]][[j]]$pred <- predict(baseline_injury_model[[i]][[j]],newdata=city_table[[i]][[j]],type='response')
+  }
 injury_predictions <- predict_injuries(city_table)
 injury_deaths[[1]] <- injury_predictions[[1]] 
 secondary_deaths[[1]] <- injury_predictions[[2]] 
@@ -446,41 +449,46 @@ baseline_city_table <- city_table
 injury_ratios_for_bz <- list()
 injury_ratios_for_bz[[1]] <- injury_predictions_for_bz_baseline
 injury_ratios_for_bz[[1]][,c(1:ncol(injury_ratios_for_bz[[1]]))[-1]] <- injury_ratios_for_bz[[1]][,-1]/injury_predictions_for_bz_baseline[,-1]
+
+##!!
+scenarios <- c('base_','scen_')
 # for each scenario, add/subtract observed change in travel to/from smoothed baseline data
 for(scen in 1:NSCEN+1){
+  scen_name <- scenarios[scen]
+  
   city_table <- baseline_city_table
   # get difference between scenario and baseline
-  scen_diff <- pp_summary[[scen]][,distance_columns,with=F] - pp_summary[[1]][,distance_columns,with=F]
-  scen_diff$dem_index <- pp_summary[[1]]$dem_index
+  #scen_diff <- pp_summary[[scen]][,distance_columns,with=F] - pp_summary[[1]][,distance_columns,with=F]
+  #scen_diff$dem_index <- pp_summary[[1]]$dem_index
   # sum over modes and groups
-  scen_diff_dem <- scen_diff[,.(pedestrian=sum(walking_dist),cyclist=sum(bicycle_dist),'car/taxi'=sum(car_dist),motorcycle=sum(motorcycle_dist)),by='dem_index']
+  #scen_diff_dem <- scen_diff[,.(pedestrian=sum(walking_dist),cyclist=sum(bicycle_dist),'car/taxi'=sum(car_dist),motorcycle=sum(motorcycle_dist)),by='dem_index']
   
   # casualty distances
   for(j in 1:2){
     # get indices to match
-    road_index <- match(city_table[[1]][[j]]$road,roads)
-    mode_index <- match(city_table[[1]][[j]]$cas_mode,model_modes)
+    #road_index <- match(city_table[[1]][[j]]$road,roads)
+    #mode_index <- match(city_table[[1]][[j]]$cas_mode,model_modes)
     # add/subtract mode-group distances according to road proportions
     ##!! test this
-    new_cas_dist <- city_table[[1]][[j]]$cas_distance + as.data.frame(scen_diff_dem)[cbind(city_table[[1]][[j]]$cas_index,mode_index+1)] * mode_proportions[cbind(road_index,mode_index)]
+    #new_cas_dist <- city_table[[1]][[j]]$cas_distance + as.data.frame(scen_diff_dem)[cbind(city_table[[1]][[j]]$cas_index,mode_index+1)] * mode_proportions[cbind(road_index,mode_index)]
     ##!! some negative distances.
-    new_cas_dist[new_cas_dist<0] <- 0
+    #new_cas_dist[new_cas_dist<0] <- 0
     # edit dataset with new distances
-    city_table[[1]][[j]]$cas_distance <- new_cas_dist
+    city_table[[1]][[j]]$cas_distance <- city_table[[1]][[j]][[paste0(scen_name,'cas_distance')]]
   }
   
   # striker distances
   for(i in 1:2){
     # get indices to match
-    road_index <- match(city_table[[i]][[1]]$road,roads)
-    mode_index <- match(city_table[[i]][[1]]$strike_mode,model_modes)
+    #road_index <- match(city_table[[i]][[1]]$road,roads)
+    #mode_index <- match(city_table[[i]][[1]]$strike_mode,model_modes)
     # add/subtract mode-group distances according to road proportions
     ##!! test this
-    new_str_dist <- city_table[[i]][[1]]$strike_distance + as.data.frame(scen_diff_dem)[cbind(city_table[[i]][[1]]$strike_index,mode_index+1)] * mode_proportions[cbind(road_index,mode_index)]
+    #new_str_dist <- city_table[[i]][[1]]$strike_distance + as.data.frame(scen_diff_dem)[cbind(city_table[[i]][[1]]$strike_index,mode_index+1)] * mode_proportions[cbind(road_index,mode_index)]
     ##!! some negative distances.
-    new_str_dist[new_str_dist<0] <- 0
+    #new_str_dist[new_str_dist<0] <- 0
     # edit dataset with new distances
-    city_table[[i]][[1]]$strike_distance <- new_str_dist
+    city_table[[i]][[1]]$strike_distance <- city_table[[i]][[1]][[paste0(scen_name,'strike_distance')]]
   }
   # get prediction for scenario using modified smoothed data, not raw data
   for(i in 1:2)
