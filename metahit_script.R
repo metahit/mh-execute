@@ -345,6 +345,8 @@ demographic$age <- sapply(demographic$age_cat,function(x)strsplit(x,'-')[[1]][1]
 SYNTHETIC_POPULATION <<- left_join(synthetic_pop,demographic[,names(demographic)%in%c('dem_index','age')],by='dem_index')
 synthetic_pop <- NULL
 
+all_distances <- readRDS('../mh-distance/outputs/all_distances.Rds')
+
 #####################################################################
 ## set scenario variables. these can (should) be determined from input data rather than hard coded.
 NSCEN <<- 1
