@@ -345,13 +345,20 @@ demographic$age <- sapply(demographic$age_cat,function(x)strsplit(x,'-')[[1]][1]
 SYNTHETIC_POPULATION <<- left_join(synthetic_pop,demographic[,names(demographic)%in%c('dem_index','age')],by='dem_index')
 synthetic_pop <- NULL
 
-all_distances <- readRDS('../mh-distance/outputs/all_distances.Rds')
 
 #####################################################################
 ## set scenario variables. these can (should) be determined from input data rather than hard coded.
 NSCEN <<- 1
 SCEN_SHORT_NAME <<- c('base','scen')
 SCEN <<- c('Baseline','Scenario 1')
+all_distances <- list()
+for(i in 1:length(SCEN)){
+  scen_name <- SCEN_SHORT_NAME[i]
+  all_distances[[scen_name]] <- list()
+  for(file_name in c('emissions_distances','inh_distances','injury_distances','pa_distances'))
+    all_distances[[scen_name]][[file_name]] <- readRDS(paste0('inputs/distances/',scen_name,'_',file_name,'.Rds'))
+  #all_distances[[scen_name]]$inh_distances$london <- readRDS(paste0('inputs/distances/',scen_name,'_london_inh_distances.Rds'))
+}
 
 ## we effectively have a "SYNTHETIC_POPULATION" per scenario.
 pp_summary <- list()
@@ -380,6 +387,7 @@ for(scenario in SCEN_SHORT_NAME) pp_summary[[scenario]] <- setDT(pp_summary[[sce
 
 ## (1) AP PATHWAY
 # Calculate PM2.5 concentrations
+##!! use all_distances$...$inh_distances and use all_distances$...$emissions_distances$distance_for_emission. Sum over LA and road type. Join to pp_summary.
 system.time(pm_conc <- scenario_pm_calculations(dist,pp_summary))
 SYNTHETIC_POPULATION <<- NULL
 scenario_pm <- pm_conc$scenario_pm
@@ -395,6 +403,7 @@ pm_conc_pp <- NULL
 ## pp_summary and SYNTHETIC_POPULATION are basically the same thing.
 # Only difference is pp_summary is a list for scenarios. This could be more efficient.
 # this function differs from ithim-r because mmets differ in baseline and scenario
+##!! use all_distances$...$pa_distances. Join to pp_summary.
 system.time(mmets_pp <- total_mmet(pp_summary))
 # Physical activity calculation
 system.time(RR_PA_calculations <- ithimr::gen_pa_rr(mmets_pp))
