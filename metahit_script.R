@@ -18,7 +18,7 @@ enableJIT(3)
 ## 1 ##
 ## set variables, which are TIGTHAT studies' input parameters.
 
-## general settings
+############### general settings
 CITY <- 'bristol'
 setup_call_summary_filename <- 'setup_call_summary.txt'
 AGE_RANGE <- c(0,150)
@@ -421,13 +421,6 @@ for(i in 1:2)
 roads <- unique(injury_table[[1]][[1]]$road)
 injury_table <- NULL
 model_modes <- c('pedestrian','cyclist','motorcycle','car/taxi')
-#mode_proportions <- matrix(0,nrow=length(roads),ncol=length(model_modes))
-#colnames(mode_proportions) <- model_modes
-#rownames(mode_proportions) <- roads
-#mode_proportions[,colnames(mode_proportions)%in%'pedestrian'] <- c(0,  0.05,0.1,0.1,0.75)
-#mode_proportions[,colnames(mode_proportions)%in%'cyclist'] <-    c(0,  0.05,0.1,0.1,0.75)
-#mode_proportions[,colnames(mode_proportions)%in%'motorcycle'] <- c(0.2,0.1, 0.1,0.3,0.3)
-#mode_proportions[,colnames(mode_proportions)%in%'car/taxi'] <-   c(0.2,0.1, 0.1,0.3,0.3)
 
 # get scenario distance differences
 modes <- c('walking','bicycle','motorcycle','car')
