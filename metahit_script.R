@@ -40,6 +40,7 @@ CHRONIC_DISEASE_SCALAR <- 1
 SIN_EXPONENT_SUM <- 2
 CASUALTY_EXPONENT_FRACTION <- 0.5
 EMISSION_INVENTORY_CONFIDENCE <- 1
+BUS_TO_PASSENGER_RATIO <- 0.22 # estimated from SP vs RTS totals, focussing on urban roads
 DISTANCE_SCALAR_CAR_TAXI <- 1
 DISTANCE_SCALAR_WALKING <- 1
 DISTANCE_SCALAR_PT <- 1
@@ -168,7 +169,7 @@ DR_AP <<- read.csv(paste0(global_path,"dose_response/drap/dose_response.csv"))
 list_of_files <- list.files(path = paste0(global_path,"dose_response/drpa/extdata/"), recursive = TRUE, pattern = "\\.csv$", full.names = TRUE)
 for (i in 1:length(list_of_files)){
   assign(stringr::str_sub(basename(list_of_files[[i]]), end = -5),
-         readr::read.csv(list_of_files[[i]],col_types = cols()),
+         readr::read_csv(list_of_files[[i]],col_types = cols()),
          pos = 1)
 }
 
@@ -225,7 +226,31 @@ for(i in 1:2){
   }
 }
 
+## use bristol data to define demography etc
 
+filename <- 'inputs/populations/bristol.csv'
+demographic <- read_csv(filename,col_types = cols())
+demographic$dem_index <- 1:nrow(demographic)
+
+## find min and max age from AGE_RANGE, trips, and demographic.
+##!! a lot of this is actually global, but it's coded within cities. It can be brought outside the city loop (to join demography code) by re-writing.
+age_category <- demographic$age
+max_age <- max(as.numeric(sapply(age_category,function(x)strsplit(x,'-')[[1]][2])))
+max_age <- min(max_age,AGE_RANGE[2])
+min_age <- min(as.numeric(sapply(age_category,function(x)strsplit(x,'-')[[1]][1])))
+min_age <- max(min_age,AGE_RANGE[1])
+demographic <- demographic[as.numeric(sapply(age_category,function(x)strsplit(x,'-')[[1]][1]))<=max_age&
+                             as.numeric(sapply(age_category,function(x)strsplit(x,'-')[[1]][2]))>=min_age,]
+POPULATION <<- demographic
+demographic <- demographic[,names(demographic)!='population']
+names(demographic)[which(names(demographic)=='age')] <- 'age_cat'
+demographic$age <- sapply(demographic$age_cat,function(x)strsplit(x,'-')[[1]][1])
+DEMOGRAPHIC <<- demographic
+
+# get age-category details from (modified) population data
+AGE_CATEGORY <<- unique(POPULATION$age)
+AGE_LOWER_BOUNDS <<- as.numeric(sapply(AGE_CATEGORY,function(x)strsplit(x,'-')[[1]][1]))
+MAX_AGE <<- max(as.numeric(sapply(AGE_CATEGORY,function(x)strsplit(x,'-')[[1]][2])))
 
 ## 4 PREPARE LOCAL (CITY) DATA ##########################################
 
@@ -274,32 +299,10 @@ for(city_ind in 1:length(city_regions)){
   # cause (GBD_DATA$cause matches DISEASE_INVENTORY$GBD_name)
   # metric
   # burden
-  filename <- paste0('inputs/gbd/',CITY,".csv")
-  GBD_DATA <- read.csv(filename,col_types = cols())
-  filename <- paste0('inputs/populations/',CITY,".csv")
-  demographic <- read.csv(filename,col_types = cols())
-  demographic$dem_index <- 1:nrow(demographic)
-  
-  ## find min and max age from AGE_RANGE, trips, and demographic.
-  ##!! a lot of this is actually global, but it's coded within cities. It can be brought outside the city loop (to join demography code) by re-writing.
-  age_category <- demographic$age
-  max_age <- max(as.numeric(sapply(age_category,function(x)strsplit(x,'-')[[1]][2])))
-  max_age <- min(max_age,AGE_RANGE[2])
-  min_age <- min(as.numeric(sapply(age_category,function(x)strsplit(x,'-')[[1]][1])))
-  min_age <- max(min_age,AGE_RANGE[1])
-  demographic <- demographic[as.numeric(sapply(age_category,function(x)strsplit(x,'-')[[1]][1]))<=max_age&
-                               as.numeric(sapply(age_category,function(x)strsplit(x,'-')[[1]][2]))>=min_age,]
-  POPULATION <<- demographic
-  demographic <- demographic[,names(demographic)!='population']
-  names(demographic)[which(names(demographic)=='age')] <- 'age_cat'
-  DEMOGRAPHIC <<- demographic
-  
-  # get age-category details from (modified) population data
-  AGE_CATEGORY <<- unique(POPULATION$age)
-  AGE_LOWER_BOUNDS <<- as.numeric(sapply(AGE_CATEGORY,function(x)strsplit(x,'-')[[1]][1]))
-  MAX_AGE <<- max(as.numeric(sapply(AGE_CATEGORY,function(x)strsplit(x,'-')[[1]][2])))
   
   ## now process GBD_DATA
+  filename <- paste0('inputs/gbd/',CITY,".csv")
+  GBD_DATA <- read_csv(filename,col_types = cols())
   # keep named subset of diseases
   disease_names <- c(as.character(DISEASE_INVENTORY$GBD_name),'Road injuries')
   GBD_DATA <- subset(GBD_DATA,cause_name%in%disease_names)
@@ -408,10 +411,8 @@ for(city_ind in 1:length(city_regions)){
   demog_to_dem <- data.table(demogindex=demogindex_to_numerical,dem_index=1:length(demogindex_to_numerical))
   synth_pop <- synth_pop[demog_to_dem,on='demogindex']
   synthetic_pop <- synth_pop[,names(synth_pop)%in%c('participant_id','dem_index'),with=F]
-  demographic <- DEMOGRAPHIC
-  demographic$age <- sapply(demographic$age_cat,function(x)strsplit(x,'-')[[1]][1])
   ##!! not sure we need this as a separate object but, for now...
-  SYNTHETIC_POPULATION <<- left_join(synthetic_pop,demographic[,names(demographic)%in%c('dem_index','age')],by='dem_index')
+  SYNTHETIC_POPULATION <<- left_join(synthetic_pop,DEMOGRAPHIC[,names(DEMOGRAPHIC)%in%c('dem_index','age')],by='dem_index')
   synthetic_pop <- NULL
   
   ## we effectively have a "SYNTHETIC_POPULATION" per scenario.
@@ -442,17 +443,15 @@ for(city_ind in 1:length(city_regions)){
   colnames(dist) <- c('Baseline','Scenario 1')
   dist[,1] <- c(sum(all_distances$base$emissions_distances$distance_for_emission[mode_name=='cardrive',2:7]),
                 sum(all_distances$base$emissions_distances$distance_for_emission[mode_name=='mbikedrive',2:7]),
-                sum(all_distances$base$emissions_distances$distance_for_emission[mode_name=='bus',2:7]))
+                BUS_TO_PASSENGER_RATIO*sum(all_distances$base$emissions_distances$distance_for_emission[mode_name=='bus',2:7]))
   dist[,2] <- c(sum(all_distances$scen$emissions_distances$distance_for_emission[mode_name=='cardrive',2:7]),
                 sum(all_distances$scen$emissions_distances$distance_for_emission[mode_name=='mbikedrive',2:7]),
-                sum(all_distances$scen$emissions_distances$distance_for_emission[mode_name=='bus',2:7]))
+                BUS_TO_PASSENGER_RATIO*sum(all_distances$scen$emissions_distances$distance_for_emission[mode_name=='bus',2:7]))
   
   
   ## 9 ITHIM ########################################
   
-  
-  
-  ##!! start loop over parameters here ##########################################
+  ##!! start loop over parameters here
   
   
   ## (1) AP PATHWAY ######################################
@@ -474,6 +473,7 @@ for(city_ind in 1:length(city_regions)){
   ## pp_summary and SYNTHETIC_POPULATION are basically the same thing.
   # Only difference is pp_summary is a list for scenarios. This could be more efficient.
   # this function differs from ithim-r because mmets differ in baseline and scenario
+  ##!! check these look sensible
   system.time(mmets_pp <- total_mmet(pp_summary))
   # Physical activity calculation
   system.time(RR_PA_calculations <- ithimr::gen_pa_rr(mmets_pp))
