@@ -1,21 +1,3 @@
-## TO DO
-# put in correct gbd data inputs/gbd
-# put in correct population data inputs/populations
-# put in correct pm data in inputs/background-air-pollution/1_apmeans.csv
-# generalise to multiple scenarios
-# sort out/harmonise naming conventions, including: modes, scenarios, city regions
-# include tube and rail in distances - they should be in inh_distances.
-# set other ap parameters - transport fraction of ap and source apportionment
-# check mmet distributions and computation if it doesn't look right
-# check that nottingham is working
-# calculate pm inhalation (inh_distances) as durations. needs allocation by road and la (if the module is to compute exposure by road and la). can be done in mh-distances/process_distances_for_execute.R or via speeds.
-# delete pa_distances from mh-distances/process_distances_for_execute.R and compute pa by summing over inh
-# change pm exposure computation, if it is to be by road and la
-# noise pathway
-# no2 pathway
-# re-arrange or recode set_ithim_parameters so that they can all be set in advance of the city loop. this means that e.g. PM_CONC_BASE is a standard normal and the cities scale values according to their means and sds.
-
-
 {
 rm(list=ls())
 library(ithimr)
@@ -25,7 +7,7 @@ require(knitr)
 require(kableExtra)
 require(citr)
 library(compiler)
-setwd('~/overflow_dropbox/mh-execute/')
+#setwd('~/overflow_dropbox/mh-execute/')
 ## overwrite some functions for METAHIT's pp_summary use (instead of TIGTHAT's tripset use)
 ## in general, the overwriting functions are from ithimr's uncertain_travel branch
 ## in general, ithimr functions are written ithimr::function()
@@ -33,11 +15,12 @@ source('metahit_functions.R')
 source('mslt_functions.R')
 enableJIT(3)
 
-#####################################################################
-## 1 ##
+
+## 1 SET GLOBAL VARIABLES ##########################################
+
 ## set variables, which are TIGTHAT studies' input parameters.
 
-############### general settings
+## general settings
 setup_call_summary_filename <- 'setup_call_summary.txt'
 AGE_RANGE <- c(0,150)
 REFERENCE_SCENARIO <- 'Baseline'
@@ -122,8 +105,7 @@ ADD_BUS_DRIVERS <<- F
 # DISTANCE_SCALAR_CYCLING = double: sets scalar. vector: samples from distribution.
 # DISTANCE_SCALAR_MOTORCYCLE = double: sets scalar. vector: samples from distribution.
 
-#####################################################################
-## 2 ##
+
 ## setting all the global variables at the beginning to minimise ITHIM computation
 ## copied from ithimr::run_ithim_setup
 
@@ -172,8 +154,8 @@ default_emission_inventory <- list(
 #names(default_emission_inventory) <- tolower(names(default_emission_inventory))
 EMISSION_INVENTORY <<- default_emission_inventory
 
-#####################################################################
-## LOAD DATA
+## 2 GET GLOBAL DATA ##################################################
+
 ## copied from ithimr ithim_load_data
 global_path <- file.path(find.package('ithimr',lib.loc=.libPaths()), 'extdata/global/')
 ## for windows??
@@ -196,7 +178,16 @@ disease_short_names <- read.csv("inputs/mslt/disease_names.csv")
 DISEASE_SHORT_NAMES <<- disease_short_names
 
 
-#####################################################################
+demography <- readxl::read_xlsx('inputs/scenarios/190330_sp_ind_codebook.xlsx',sheet=2,col_names=F)
+demogindex_to_numerical <- unlist(demography[,3])
+demography[,3] <- 1:nrow(demography)
+demo_indices <- unlist(demography[,3])
+age_table <- readxl::read_xlsx('inputs/scenarios/190330_sp_ind_codebook.xlsx',sheet=1,col_names=F)
+age_category <- unlist(age_table[,1])
+age_lower_bounds <- as.numeric(sapply(age_category,function(x)strsplit(x,' to ')[[1]][1]))
+
+
+## 3 GET MULTI-CITY DATA #################################################
 ## set scenario variables. these can (should) be determined from input data rather than hard coded.
 NSCEN <<- 1
 SCEN_SHORT_NAME <<- c('base','scen')
@@ -208,6 +199,7 @@ for(i in 1:length(SCEN)){
   for(file_name in c('emissions_distances','inh_distances','injury_distances','pa_distances'))
     all_distances[[scen_name]][[file_name]] <- readRDS(paste0('inputs/distances/',scen_name,'_',file_name,'.Rds'))
   if(i==1&&as.numeric(system("awk '/MemFree/ {print $2}' /proc/meminfo", intern=TRUE)) > 1e7){
+    ##!! hack for Rob - laptop can't compute london inh
     all_distances[[scen_name]]$inh_distances$london <- readRDS(paste0('inputs/distances/',scen_name,'_london_inh_distances.Rds'))
     INCLUDE_LONDON <- T
     if(i==1) cat('Including London.\n')
@@ -234,10 +226,8 @@ for(i in 1:2){
 }
 
 
-#####################################################################
 
-
-#####################################################################
+## 4 PREPARE LOCAL (CITY) DATA ##########################################
 
 city_regions_table <- read.csv('inputs/mh_regions_lad_lookup.csv',stringsAsFactors = F)
 city_regions <- unique(city_regions_table$cityregion)
@@ -262,27 +252,20 @@ synth_pop_list_in_la_order <- match(la_names,city_regions_dt$lad14cd)
 print(synth_pop_list_in_la_order)
 
 ## start metahit
-#####################################################################
-## start loop over city here
+## 5 START LOOP OVER CITIES #################################################
+
 city_results <- list()
 }
 for(city_ind in 1:length(city_regions)){
+  
+  ## 6 GET LOCAL (city) DATA ###############################################
+  
   #city_ind <- 3
   CITY <<- city_regions[city_ind]
-  ## 4 ##
   
-  #####################################################################
   ## these datasets are all local, saved in local folder.
   ## there will be one folder per city. this block will have to loop over CITY.
   ## OR we have one file with, e.g., all the GBD data in.
-  
-  demography <- readxl::read_xlsx('inputs/scenarios/190330_sp_ind_codebook.xlsx',sheet=2,col_names=F)
-  demogindex_to_numerical <- unlist(demography[,3])
-  demography[,3] <- 1:nrow(demography)
-  demo_indices <- unlist(demography[,3])
-  age_table <- readxl::read_xlsx('inputs/scenarios/190330_sp_ind_codebook.xlsx',sheet=1,col_names=F)
-  age_category <- unlist(age_table[,1])
-  age_lower_bounds <- as.numeric(sapply(age_category,function(x)strsplit(x,' to ')[[1]][1]))
   
   # GBD file needs to have the following columns: 
   # age (=label, e.g. 15-49)
@@ -298,6 +281,7 @@ for(city_ind in 1:length(city_regions)){
   demographic$dem_index <- 1:nrow(demographic)
   
   ## find min and max age from AGE_RANGE, trips, and demographic.
+  ##!! a lot of this is actually global, but it's coded within cities. It can be brought outside the city loop (to join demography code) by re-writing.
   age_category <- demographic$age
   max_age <- max(as.numeric(sapply(age_category,function(x)strsplit(x,'-')[[1]][2])))
   max_age <- min(max_age,AGE_RANGE[2])
@@ -365,9 +349,8 @@ for(city_ind in 1:length(city_regions)){
   MSLT_DF <<- mslt_df
   
   
-  #####################################################################
-  ## 3 ##
-  ## SET PARAMETERS
+  ## 7 SET PARAMETERS ################################################
+  
   parameters <- ithimr::ithim_setup_parameters(NSAMPLES=NSAMPLES,
                                                MMET_CYCLING=MMET_CYCLING,
                                                MMET_WALKING=MMET_WALKING,
@@ -390,6 +373,7 @@ for(city_ind in 1:length(city_regions)){
   
   ithimr::set_vehicle_inventory() # sets vehicle inventory
   
+  ## 8 GET/SET CITY SYNTH POP #########################################
   
   # select city LAs
   la_indices <- synth_pop_list_in_la_order[city_regions_dt$city_index==city_ind]
@@ -445,22 +429,11 @@ for(city_ind in 1:length(city_regions)){
   }
   synth_pop <- NULL
   
-  ######################################################################
-  
   # Generate distance and duration matrices
   #dist_and_dir <- dist_dur_tbls(pp_summary)
   #dist <- dist_and_dir$dist
   #dur <- dist_and_dir$dur
   
-  # set as data.table for speed
-  #for(scenario in SCEN_SHORT_NAME) pp_summary[[scenario]] <- setDT(pp_summary[[scenario]])
-  
-  #####################################################################
-  ## 5 ## 
-  ## ITHIM health calculation
-  
-  ## (1) AP PATHWAY
-  # Calculate PM2.5 concentrations
   ##!! use all_distances$...$inh_distances and use all_distances$...$emissions_distances$distance_for_emission. Sum over LA and road type. Join to pp_summary.
   ##!! at present the duration from pa is used, for cycle and walk only.
   ##!! hard coded to maintain naming conventions etc
@@ -474,6 +447,16 @@ for(city_ind in 1:length(city_regions)){
                 sum(all_distances$scen$emissions_distances$distance_for_emission[mode_name=='mbikedrive',2:7]),
                 sum(all_distances$scen$emissions_distances$distance_for_emission[mode_name=='bus',2:7]))
   
+  
+  ## 9 ITHIM ########################################
+  
+  
+  
+  ##!! start loop over parameters here ##########################################
+  
+  
+  ## (1) AP PATHWAY ######################################
+  # Calculate PM2.5 concentrations
   ##!! using pa durations for now, which don't differentiate between road types and las.
   ##!! we don't have durations by road type and la. We could map from distances.
   system.time(pm_conc <- scenario_pm_calculations(dist,pp_summary))
@@ -485,8 +468,8 @@ for(city_ind in 1:length(city_regions)){
   system.time(RR_AP_calculations <- ithimr::gen_ap_rr(pm_conc_pp))
   pm_conc_pp <- NULL
   
-  #####################################################################
-  ## (2) PA PATHWAY
+  ## (2) PA PATHWAY ##############################################
+  
   # Calculate total mMETs
   ## pp_summary and SYNTHETIC_POPULATION are basically the same thing.
   # Only difference is pp_summary is a list for scenarios. This could be more efficient.
@@ -496,14 +479,14 @@ for(city_ind in 1:length(city_regions)){
   system.time(RR_PA_calculations <- ithimr::gen_pa_rr(mmets_pp))
   mmets_pp <- NULL
   
-  #####################################################################
-  ## (3) COMBINE (1) AND (2)
+  ## (3) COMBINE (1) AND (2) #################################################
+  
   # Physical activity and air pollution combined
   system.time(RR_PA_AP_calculations <- combined_rr_ap_pa(RR_PA_calculations,RR_AP_calculations))
   RR_PA_calculations <- RR_AP_calculations <- NULL
   
-  #####################################################################
-  ## (4) INJURIES
+  ## (4) INJURIES ##############################################
+  
   
   # get city data
   city_table <- injury_table
@@ -579,8 +562,8 @@ for(city_ind in 1:length(city_regions)){
   ##TODO report by mode. covert to burden. then sum.
   
   
-  #####################################################################
-  ## (5) COMBINE (3) AND (4)
+  ## (5) COMBINE (3) AND (4)###########################################
+  
   # Combine health burden from disease and injury
   (hb <- health_burden(RR_PA_AP_calculations,deaths_yll_injuries$deaths_yll_injuries))
   (pif_table <- health_burden_2(RR_PA_AP_calculations))
@@ -613,8 +596,8 @@ for(city_ind in 1:length(city_regions)){
 
 saveRDS(city_results,'outputs/files/city_results.Rds')
 
-#####################################################################
-## plot
+## plot ############################################################
+
 outcomes <- list()
 plot_cols <- sapply(names(city_results[[1]][[1]]),function(x)grepl('scen',x))
 col_names <- sapply(names(city_results[[1]][[1]])[plot_cols],function(x)last(strsplit(x,'_')[[1]]))
