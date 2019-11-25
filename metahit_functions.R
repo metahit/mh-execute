@@ -96,7 +96,7 @@ scenario_pm_calculations <- function(dist,pp_summary){
   rail_vehicles <- c('subway','rail')
   vent_rates$vehicle_ratio_index <- sapply(vent_rates$stage_mode,function(x) ifelse(x%in%rail_vehicles,3,ifelse(x%in%open_vehicles,1,2)))
   
-  pp_summary2 <- lapply(pp_summary,function(y)y[,sapply(colnames(y),function(x)!grepl('_dist',x)),with=F])
+  pp_summary2 <- pp_summary#lapply(pp_summary,function(y)y[,sapply(colnames(y),function(x)!grepl('_dist',x)),with=F])
   for(i in 1:length(pp_summary2)) colnames(pp_summary2[[i]]) <- sapply(colnames(pp_summary2[[i]]),function(x)gsub('_dur','',x))
   travel_indices <- which(colnames(pp_summary2[[1]])%in%vent_rates$stage_mode)
   travel_modes <- colnames(pp_summary2[[1]])[travel_indices]
@@ -104,24 +104,25 @@ scenario_pm_calculations <- function(dist,pp_summary){
   
   # prepare individual-level dataset
   pm_conc_pp <- SYNTHETIC_POPULATION
-  vent_multiplier <- repmat(vent_rates$vent_rate[vent_modes],nrow(pm_conc_pp),1)/60
+  vent_multiplier <- repmat(vent_rates$vent_rate[vent_modes],nrow(pm_conc_pp),1)
   vent_and_ratio_multiplier <- vent_multiplier*repmat(ratio_by_mode[vent_rates$vehicle_ratio_index[vent_modes],1],nrow(pm_conc_pp),1)
   # compute individual-level pm scenario by scenario
   for (i in 1:length(SCEN)){
     
-    scen_travel <- pp_summary[[i]]
+    scen_travel <- pp_summary2[[i]]
+    # duration is per week
     scen_travel[, on_road_dur := Reduce(`+`, .SD), .SDcols=travel_indices]
     #vent_travel <- scen_travel[,travel_indices,with=F] * vent_and_ratio_multiplier
-    scen_travel[, on_road_pm := Reduce(`+`, lapply(seq_along(.SD)[travel_indices],function(x)(.SD[[x]]*vent_and_ratio_multiplier[,x]))), .SDcols=names(scen_travel)[travel_indices]]
+    scen_travel[, on_road_pm := Reduce(`+`, lapply(seq_along(.SD),function(x)(.SD[[x]]*vent_and_ratio_multiplier[,x]))), .SDcols=names(scen_travel)[travel_indices]]
     #vent_travel[, on_road_pm := Reduce(`+`, .SD), .SDcols=names(vent_travel)]
     
     ## PM2.5 inhalation = total mg inhaled / total volume inhaled
     # calculate non-travel air inhalation
-    non_transport_air_inhaled <- (24-scen_travel$on_road_dur/60)*BASE_LEVEL_INHALATION_RATE
+    non_transport_air_inhaled <- (24*7-scen_travel$on_road_dur)*BASE_LEVEL_INHALATION_RATE
     # concentration of pm inhaled = total pm inhaled / total air inhaled
     pm_conc <- ((non_transport_air_inhaled * as.numeric(conc_pm[i])) + scen_travel$on_road_pm)#/(non_transport_air_inhaled+individual_data$air_inhaled)
     # match individual ids to set per person pm exposure
-    pm_conc_pp[[paste0('pm_conc_',SCEN_SHORT_NAME[i])]] <- pm_conc/24 * conc_pm[i]
+    pm_conc_pp[[paste0('pm_conc_',SCEN_SHORT_NAME[i])]] <- pm_conc/24/7 #* conc_pm[i]
   }
   
   #####PM normalise
@@ -144,7 +145,7 @@ total_mmet <- function(pp_summary){
   
   
   ##!! maybe we don't need individual distance and can remove it from pp_summary?
-  pp_summary2 <- lapply(pp_summary,function(y)y[,sapply(colnames(y),function(x)!grepl('_dist',x)),with=F])
+  pp_summary2 <- pp_summary#lapply(pp_summary,function(y)y[,sapply(colnames(y),function(x)!grepl('_dist',x)),with=F])
   for(i in 1:length(pp_summary2)) colnames(pp_summary2[[i]]) <- sapply(colnames(pp_summary2[[i]]),function(x)gsub('_dur','',x))
   # Get total individual level walking and cycling and sport mmets 
   synth_pop_return <- pp_summary2[[1]]
@@ -153,9 +154,10 @@ total_mmet <- function(pp_summary){
     synth_pop_return[[paste0(SCEN_SHORT_NAME[i],'_mmet')]] <- synth_pop_temp$work_ltpa_marg_met * BACKGROUND_PA_SCALAR
     
     scen_travel <- subset(pp_summary2[[i]],participant_id%in%synth_pop_return$participant_id)
-    scen_travel$cycling_mmet <- scen_travel$bicycle/60 * MMET_CYCLING
+    ##!! check units: duration is in hours per week, and mmets multiply hours?
+    scen_travel$cycling_mmet <- scen_travel$bicycle * MMET_CYCLING
     if('walk_to_bus'%in%names(scen_travel)) scen_travel$walking <- scen_travel$walking+scen_travel$walk_to_bus
-    scen_travel$walking_mmet <- scen_travel$walking/60 * MMET_WALKING
+    scen_travel$walking_mmet <- scen_travel$walking * MMET_WALKING
     
     individual_data <- scen_travel
     
