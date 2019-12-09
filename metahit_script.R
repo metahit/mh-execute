@@ -43,7 +43,6 @@ CHRONIC_DISEASE_SCALAR <- c(log(1),log(1.1)) #1
 SIN_EXPONENT_SUM <- c(log(2),log(1.1)) #2
 CASUALTY_EXPONENT_FRACTION <- c(15,15) # 0.5 # 
 EMISSION_INVENTORY_CONFIDENCE <- 0.9
-BUS_TO_PASSENGER_RATIO <- 0.22 # estimated from SP vs RTS totals, focussing on urban roads
 DISTANCE_SCALAR_CAR_TAXI <- c(log(1),log(1.1)) # 1
 DISTANCE_SCALAR_WALKING <- c(log(1),log(1.1)) # 1
 DISTANCE_SCALAR_PT <- c(log(1),log(1.1)) # 1
@@ -439,11 +438,6 @@ for(city_ind in 1:length(city_regions)){
   POPULATION$population <- true_pops$N[match(POPULATION$dem_index,true_pops$dem_index)]
   synth_pop <- NULL
   
-  # Generate distance and duration matrices
-  #dist_and_dir <- dist_dur_tbls(pp_summary)
-  #dist <- dist_and_dir$dist
-  #dur <- dist_and_dir$dur
-  
   ##!! use all_distances$...$inh_distances and use all_distances$...$emissions_distances$distance_for_emission. Sum over LA and road type. Join to pp_summary.
   ##!! at present the duration from pa is used, for cycle and walk only.
   ##!! hard coded to maintain naming conventions etc
@@ -583,22 +577,21 @@ for(city_ind in 1:length(city_regions)){
     injury_ratios_for_bz[[1]][,c(1:ncol(injury_ratios_for_bz[[1]]))[-1]] <- injury_ratios_for_bz[[1]][,-1]/injury_predictions_for_bz_baseline[,-1]
     
     ##!!
-    scenarios <- c('base_','scen_')
     for(scen in 1:NSCEN+1){
-      scen_name <- scenarios[scen]
+      scen_name <- SCEN_SHORT_NAME[scen]
       
       city_table <- baseline_city_table
       
       # casualty distances
       for(j in 1:2){
         # edit dataset with new distances
-        city_table[[1]][[j]]$cas_distance <- city_table[[1]][[j]][[paste0(scen_name,'cas_distance')]]
+        city_table[[1]][[j]]$cas_distance <- city_table[[1]][[j]][[paste0(scen_name,'_cas_distance')]]
       }
       
       # striker distances
       for(i in 1:2){
         # edit dataset with new distances
-        city_table[[i]][[1]]$strike_distance <- city_table[[i]][[1]][[paste0(scen_name,'strike_distance')]]
+        city_table[[i]][[1]]$strike_distance <- city_table[[i]][[1]][[paste0(scen_name,'_strike_distance')]]
       }
       # get prediction for scenario using modified smoothed data, not raw data
       for(i in 1:2)
