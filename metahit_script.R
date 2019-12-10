@@ -693,15 +693,15 @@ for(type in c('deaths','ylls')){
 }
 cols <- rainbow(length(city_regions))
 for(type in c('deaths','ylls')){
-  #pdf(paste0('outputs/figures/',type,'.pdf'),width=9,height=6); 
+  pdf(paste0('outputs/figures/',type,'.pdf'),width=9,height=6); 
   par(mar=c(6,5,1,1))
   x<-barplot(outcomes[[type]]$mean,las=2,cex.axis=1.5,cex.lab=1.5,ylab=paste0('Thousand ',type,' pp averted in Scenario'),xlab='',cex.names=1.5,beside=T,col=cols)
   legend(fill=cols,bty='n',legend=city_regions,x=prod(dim(outcomes[[type]][[1]])-1),y=max(outcomes[[type]]$mean))
-  #dev.off()
+  dev.off()
 }
 
 for(type in c('deaths','ylls')){
-  #pdf(paste0('outputs/figures/',type,'.pdf'),width=9,height=6); 
+  pdf(paste0('outputs/figures/',type,'.pdf'),width=9,height=6); 
   par(mar=c(6,5,1,1))
   plot(x,outcomes[[type]]$mean,las=2,cex.axis=1.5,cex.lab=1.5,ylab=paste0('Thousand ',type,' pp averted in Scenario'),xlab='',xaxt='n',
        cex=1.5,col=cols,pch=15,frame=F,ylim=c(min(outcomes[[type]]$lower),max(outcomes[[type]]$upper)))
@@ -710,7 +710,7 @@ for(type in c('deaths','ylls')){
   for(i in 1:nrow(x)) for(j in 1:ncol(x)) 
     lines(c(x[i,j],x[i,j]),c(outcomes[[type]]$lower[i,j],outcomes[[type]]$upper[i,j]),col=cols[i],lwd=2)
   axis(1,at=x[5,],labels=col_names,las=2)
-  #dev.off()
+  dev.off()
 }
 
 
