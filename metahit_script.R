@@ -446,8 +446,8 @@ for(city_ind in 1:length(city_regions)){
   colnames(DIST) <- SCEN
   n_roads <- ncol(all_distances[[SCEN_SHORT_NAME[1]]]$emissions_distances$distance_for_emission)-2
   for(scen in 1:(NSCEN+1))
-    DIST[,scen] <- c(sum(all_distances[[SCEN_SHORT_NAME[scen]]]$emissions_distances$distance_for_emission[mode_name=='cardrive',1:n_roads+1]),
-                     sum(all_distances[[SCEN_SHORT_NAME[scen]]]$emissions_distances$distance_for_emission[mode_name=='mbikedrive',1:n_roads+1]),
+    DIST[,scen] <- c(sum(all_distances[[SCEN_SHORT_NAME[scen]]]$emissions_distances$distance_for_emission[mode_name=='cardrive'&la%in%la_names[la_indices],2:(n_roads+1)]),
+                     sum(all_distances[[SCEN_SHORT_NAME[scen]]]$emissions_distances$distance_for_emission[mode_name=='mbikedrive'&la%in%la_names[la_indices],2:(n_roads+1)]),
                      ##!! assume total bus travel doesn't change in scenario
                      sum(city_total_distances[city_total_distances[,1]==CITY&city_total_distances[,2]=='bus',3:ncol(city_total_distances)]))
   
