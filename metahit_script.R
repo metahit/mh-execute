@@ -444,9 +444,10 @@ for(city_ind in 1:length(city_regions)){
   DIST <- matrix(0,nrow=3,ncol=NSCEN+1)
   rownames(DIST) <- c('car','motorcycle','bus')
   colnames(DIST) <- SCEN
+  n_roads <- ncol(all_distances[[SCEN_SHORT_NAME[1]]]$emissions_distances$distance_for_emission)-2
   for(scen in 1:(NSCEN+1))
-    DIST[,scen] <- c(sum(all_distances[[SCEN_SHORT_NAME[scen]]]$emissions_distances$distance_for_emission[mode_name=='cardrive',2:7]),
-                     sum(all_distances[[SCEN_SHORT_NAME[scen]]]$emissions_distances$distance_for_emission[mode_name=='mbikedrive',2:7]),
+    DIST[,scen] <- c(sum(all_distances[[SCEN_SHORT_NAME[scen]]]$emissions_distances$distance_for_emission[mode_name=='cardrive',1:n_roads+1]),
+                     sum(all_distances[[SCEN_SHORT_NAME[scen]]]$emissions_distances$distance_for_emission[mode_name=='mbikedrive',1:n_roads+1]),
                      ##!! assume total bus travel doesn't change in scenario
                      sum(city_total_distances[city_total_distances[,1]==CITY&city_total_distances[,2]=='bus',3:ncol(city_total_distances)]))
   
@@ -727,8 +728,8 @@ parameter_store <- parameters
 for(list_names in c('DR_AP_LIST','PM_CONC_BASE_QUANTILE','PM_TRANS_SHARE_QUANTILE','EMISSION_INVENTORY','EMISSION_INVENTORY_QUANTILES'))
   parameters[[list_names]] <- NULL
 parameter_samples <- do.call(cbind,parameters)
-saveRDS(parameter_samples,'parameter_samples.Rds')
-parameter_samples <- readRDS('parameter_samples.Rds')
+saveRDS(parameter_samples,'outputs/files/parameter_samples.Rds')
+parameter_samples <- readRDS('outputs/files/parameter_samples.Rds')
 #parameter_samples <- parameter_samples[,!colnames(parameter_samples)%in%c('DR_AP_LIST','PM_CONC_BASE_QUANTILE','PM_TRANS_SHARE_QUANTILE','EMISSION_INVENTORY','EMISSION_INVENTORY_QUANTILES')]
 
 plot_cols <- sapply(names(city_results[[1]][[1]][[1]]),function(x)grepl('scen',x)&!(grepl('ac',x)|grepl('neo',x)))
