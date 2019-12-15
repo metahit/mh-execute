@@ -185,7 +185,7 @@ all_distances <- list()
 for(i in 1:length(SCEN)){
   scen_name <- SCEN_SHORT_NAME[i]
   all_distances[[scen_name]] <- list()
-  for(file_name in c('emissions_distances','inh_distances','pa_distances'))
+  for(file_name in c('emissions_distances','pa_distances'))
     all_distances[[scen_name]][[file_name]] <- readRDS(paste0('inputs/distances/',scen_name,'_',file_name,'.Rds'))
   # if(i==1&&as.numeric(system("awk '/MemFree/ {print $2}' /proc/meminfo", intern=TRUE)) > 1e7){
   #   ##!! hack for Rob - laptop can't compute london inh
@@ -197,9 +197,6 @@ for(i in 1:length(SCEN)){
   #   cat('Excluding London.\n')
   # }
 }
-##!! inh distance is by distance, but should be duration. 
-##!! however, we don't have duration by road type.
-##!! if we get inh duration, we can delete pa and sum inh to get pa.
 
 ## get city distances for e.g. bus mode
 city_total_distances <- read.csv('inputs/distances/mode_road_city.csv',stringsAsFactors = F)
@@ -378,9 +375,16 @@ for(city_ind in 1:length(city_regions)){
   gbd_inj_yll$yll_dth_ratio <- gbd_inj_yll$burden/gbd_inj_dth$burden 
   GBD_INJ_YLL <<- gbd_inj_yll
   
+  ## get mslt tables
   mslt_df <- read.csv(paste0('inputs/mslt/',CITY, "_mslt.csv"))
   MSLT_DF <<- mslt_df
   
+  ## get inh distance
+  file_name <- 'inh_distances'
+  for(i in 1:length(SCEN)){
+    scen_name <- SCEN_SHORT_NAME[i]
+    all_distances[[scen_name]][[file_name]] <- readRDS(paste0('inputs/distances/',scen_name,'_',CITY,'_',file_name,'.Rds'))
+  }
   
   ## 8 GET/SET CITY SYNTH POP #########################################
   
@@ -403,16 +407,6 @@ for(city_ind in 1:length(city_regions)){
   synth_pops <- NULL
   
   ## convert synth pop to ithim-r style
-  ##!! this can be done in mh-distance/process_distances_for_execute.R
-  #names(synth_pop) <- sapply(names(synth_pop),function(x)gsub('wkhr','dur',x))
-  #names(synth_pop) <- sapply(names(synth_pop),function(x)gsub('wkkm','dist',x))
-  #names(synth_pop) <- sapply(names(synth_pop),function(x)gsub('walk_','walking_',x))
-  #names(synth_pop) <- sapply(names(synth_pop),function(x)gsub('_cycle','_bicycle',x))
-  #names(synth_pop) <- sapply(names(synth_pop),function(x)gsub('cardrive','car',x))
-  #names(synth_pop) <- sapply(names(synth_pop),function(x)gsub('mbikedrive','motorcycle',x))
-  #names(synth_pop) <- sapply(names(synth_pop),function(x)gsub('mbike','motorcycle',x))
-  #names(synth_pop) <- sapply(names(synth_pop),function(x)gsub('tube','subway',x))
-  #names(synth_pop) <- sapply(names(synth_pop),function(x)gsub('train','rail',x))
   synth_pop$participant_id <- 1:nrow(synth_pop)
   demog_to_dem <- data.table(demogindex=demogindex_to_numerical,dem_index=1:length(demogindex_to_numerical))
   synth_pop <- synth_pop[demog_to_dem,on='demogindex']
@@ -423,20 +417,29 @@ for(city_ind in 1:length(city_regions)){
   
   ## we effectively have a "SYNTHETIC_POPULATION" per scenario.
   pp_summary <- list()
+  dist_mode_names <- c('walk','cycle','mbikedrive','cardrive','vandrive','subway','bus')
+  function_mode_names <- c('walking','bicycle','motorcycle','car','van','subway','bus')
   for(scenario in SCEN_SHORT_NAME){
     #scenario_name_flag <- sapply(names(synth_pop),function(x)grepl(paste0(scenario,'_'),x))
     #scenario_names <- names(synth_pop)[scenario_name_flag]
     # choose subset for each scenario per person summary
     pp_summary[[scenario]] <- synth_pop[,names(synth_pop)%in%c('participant_id','dem_index','census_id','sport_wkmmets'),with=F]
-    pp_summary[[scenario]] <- pp_summary[[scenario]][all_distances[[scenario]]$pa_distances[all_distances[[scenario]]$pa_distances$census_id%in%pp_summary[[scenario]]$census_id],on='census_id']
+    ## pa
+    pp_summary[[scenario]][all_distances[[scenario]]$pa_distances,on='census_id',bicycle_dur_pa:=i.cycle_dur_pa]
+    pp_summary[[scenario]][all_distances[[scenario]]$pa_distances,on='census_id',walking_dur_pa:=i.walking_dur_pa]
+    ## inh
+    for(modenumber in 1:length(dist_mode_names)){
+      cols <- sapply(colnames(all_distances[[scenario]]$inh_distances),function(x)grepl(dist_mode_names[modenumber],x))
+      pp_summary[[scenario]][,c(paste0(function_mode_names[modenumber],'_dur')):=0]
+      pp_summary[[scenario]][match(all_distances[[scenario]]$inh_distances$census_id,pp_summary[[scenario]]$census_id),paste0(function_mode_names[modenumber],'_dur'):=rowSums(all_distances[[scenario]]$inh_distances[,cols,with=F])]
+      }
     names(pp_summary[[scenario]])[names(pp_summary[[scenario]])=='sport_wkmmets'] <- 'work_ltpa_marg_met'
-    names(pp_summary[[scenario]]) <- sapply(names(pp_summary[[scenario]]),function(x)gsub('wkhr','dur',x))
-    names(pp_summary[[scenario]]) <- sapply(names(pp_summary[[scenario]]),function(x)gsub('walk','walking',x))
-    names(pp_summary[[scenario]]) <- sapply(names(pp_summary[[scenario]]),function(x)gsub('cycle','bicycle',x))
   }
   true_pops <- pp_summary[[1]][,.N,by='dem_index']
   POPULATION$population <- true_pops$N[match(POPULATION$dem_index,true_pops$dem_index)]
   synth_pop <- NULL
+  INH_NAMES <<- colnames(pp_summary[[1]])%in%paste0(function_mode_names,'_dur')
+  PA_NAMES <<- colnames(pp_summary[[1]])%in%c('bicycle_dur_pa','walking_dur_pa')
   
   ##!! use all_distances$...$inh_distances and use all_distances$...$emissions_distances$distance_for_emission. Sum over LA and road type. Join to pp_summary.
   ##!! at present the duration from pa is used, for cycle and walk only.
@@ -519,6 +522,8 @@ for(city_ind in 1:length(city_regions)){
     ##!! using pa durations for now, which don't differentiate between road types and las.
     ##!! we don't have durations by road type and la. We could map from distances.
     pm_conc <- scenario_pm_calculations(DIST,pp_summary)
+    ## change inh column names
+    for(i in 1:length(pp_summary)) colnames(pp_summary[[i]])[INH_NAMES] <- paste0(colnames(pp_summary[[i]])[INH_NAMES],'_inh')
     scenario_pm <- pm_conc$scenario_pm
     pm_conc_pp <- pm_conc$pm_conc_pp
     pm_conc <- NULL
@@ -533,7 +538,14 @@ for(city_ind in 1:length(city_regions)){
     # Only difference is pp_summary is a list for scenarios. This could be more efficient.
     # this function differs from ithim-r because mmets differ in baseline and scenario
     ##!! check these look sensible
+    ## rename pa columns
+    for(i in 1:length(pp_summary)) colnames(pp_summary[[i]]) <- sapply(colnames(pp_summary[[i]]),function(x) gsub('_pa','',x))
     mmets_pp <- total_mmet(pp_summary)
+    ## change names back
+    ##!! alternatively, re-write ITHIM-R functions within metahit_functions.R so that scenario_pm_calculations and total_mmet look for different columns, e.g. _dur_inh and _dur_pa.
+    for(i in 1:length(pp_summary)) colnames(pp_summary[[i]])[PA_NAMES] <- paste0(colnames(pp_summary[[i]])[PA_NAMES],'_pa')
+    for(i in 1:length(pp_summary)) colnames(pp_summary[[i]]) <- sapply(colnames(pp_summary[[i]]),function(x) gsub('_inh','',x))
+    
     # Physical activity calculation
     RR_PA_calculations <- ithimr::gen_pa_rr(mmets_pp)
     mmets_pp <- NULL
