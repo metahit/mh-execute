@@ -509,6 +509,8 @@ for(city_ind in 1:length(city_regions)){
   city_results[[CITY]] <- foreach(sampl = 1:NSAMPLES) %dopar% {
     for(i in 1:length(parameters))
       assign(names(parameters)[i],parameters[[i]][[sampl]],pos=1)
+    CAS_EXPONENT <<- CASUALTY_EXPONENT_FRACTION * SIN_EXPONENT_SUM
+    STR_EXPONENT <<- SIN_EXPONENT_SUM - CAS_EXPONENT
     
     ## instead of ithimr::set_vehicle_inventory() # sets vehicle inventory
     vehicle_inventory <- MODE_SPEEDS
@@ -577,6 +579,8 @@ for(city_ind in 1:length(city_regions)){
       for(j in 1:2){
         city_table[[i]][[j]]$cas_distance <- city_table[[i]][[j]]$base_cas_distance
         city_table[[i]][[j]]$strike_distance <- city_table[[i]][[j]]$base_strike_distance
+        city_table[[i]][[j]]$cas_distance_sum <- city_table[[i]][[j]]$base_cas_distance_sum
+        city_table[[i]][[j]]$strike_distance_sum <- city_table[[i]][[j]]$base_strike_distance_sum
         city_table[[i]][[j]]$pred <- predict(baseline_injury_model[[i]][[j]],newdata=city_table[[i]][[j]],type='response')
       }
     injury_predictions <- predict_injuries(city_table)
@@ -599,12 +603,14 @@ for(city_ind in 1:length(city_regions)){
       for(j in 1:2){
         # edit dataset with new distances
         city_table[[1]][[j]]$cas_distance <- city_table[[1]][[j]][[paste0(scen_name,'_cas_distance')]]
+        city_table[[1]][[j]]$cas_distance_sum <- city_table[[1]][[j]][[paste0(scen_name,'_cas_distance_sum')]]
       }
       
       # striker distances
       for(i in 1:2){
         # edit dataset with new distances
         city_table[[i]][[1]]$strike_distance <- city_table[[i]][[1]][[paste0(scen_name,'_strike_distance')]]
+        city_table[[i]][[1]]$strike_distance_sum <- city_table[[i]][[1]][[paste0(scen_name,'_strike_distance_sum')]]
       }
       # get prediction for scenario using modified smoothed data, not raw data
       for(i in 1:2)
