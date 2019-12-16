@@ -18,6 +18,8 @@ source('metahit_functions.R')
 source('mslt_functions.R')
 enableJIT(3)
 
+`%myinfix%` <- ifelse(Sys.info()[['sysname']] == "Windows", `%do%`, `%dopar%`)
+
 
 ## 1 SET GLOBAL VARIABLES ##########################################
 
@@ -506,7 +508,7 @@ for(city_ind in 1:length(city_regions)){
   injury_table <<- injury_table
   baseline_injury_model <<- baseline_injury_model
   
-  city_results[[CITY]] <- foreach(sampl = 1:NSAMPLES) %dopar% {
+  city_results[[CITY]] <- foreach(sampl = 1:NSAMPLES) %myinfix% {
     for(i in 1:length(parameters))
       assign(names(parameters)[i],parameters[[i]][[sampl]],pos=1)
     CAS_EXPONENT <<- CASUALTY_EXPONENT_FRACTION * SIN_EXPONENT_SUM
