@@ -704,7 +704,7 @@ for(type in c('deaths','ylls')){
   for(i in 1:length(city_regions)){
     CITY <- city_regions[i]
     sum_results <- sapply(city_results[[CITY]],function(x)colSums(x[[type]][,plot_cols]))
-    outcomes[[type]]$mean[i,] <- apply(sum_results,1,mean)/sum(city_results[[CITY]][[1]][[type]]$population)*1e3
+    outcomes[[type]]$mean[i,] <- apply(sum_results,1,function(x)mean(x[x<1e4]))/sum(city_results[[CITY]][[1]][[type]]$population)*1e3
     outcomes[[type]]$lower[i,] <- apply(sum_results,1,quantile,0.05)/sum(city_results[[CITY]][[1]][[type]]$population)*1e3
     outcomes[[type]]$upper[i,] <- apply(sum_results,1,quantile,0.95)/sum(city_results[[CITY]][[1]][[type]]$population)*1e3
   }
@@ -724,7 +724,8 @@ for(type in c('deaths','ylls')){
   plot(x,outcomes[[type]]$mean,las=2,cex.axis=1.5,cex.lab=1.5,ylab=paste0('Thousand ',type,' pp averted in Scenario'),xlab='',xaxt='n',
        cex=1.5,col=cols,pch=15,frame=F,ylim=c(min(outcomes[[type]]$lower),max(outcomes[[type]]$upper)))
   abline(h=0)
-  legend(fill=cols,bty='n',legend=city_regions,x=prod(dim(outcomes[[type]][[1]])-1),y=max(outcomes[[type]]$upper))
+  #legend(fill=cols,bty='n',legend=city_regions,x=prod(dim(outcomes[[type]][[1]])-1),y=max(outcomes[[type]]$upper))
+  legend(fill=cols,bty='n',legend=city_regions,x=prod(dim(outcomes[[type]][[1]])-2),y=min(outcomes[[type]]$mean))
   for(i in 1:nrow(x)) for(j in 1:ncol(x)) 
     lines(c(x[i,j],x[i,j]),c(outcomes[[type]]$lower[i,j],outcomes[[type]]$upper[i,j]),col=cols[i],lwd=2)
   axis(1,at=x[5,],labels=col_names,las=2)
