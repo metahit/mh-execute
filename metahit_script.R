@@ -700,7 +700,7 @@ for(type in c('deaths','ylls')){
   outcomes[[type]]$lower <- matrix(0,nrow=length(city_regions),ncol=length(col_names))
   colnames(outcomes[[type]]$lower) <- col_names
   rownames(outcomes[[type]]$lower) <- city_regions
-  outcomes[[type]]$upper <- outcomes[[type]]$mean <- outcomes[[type]]$lower
+  outcomes[[type]]$upper <- outcomes[[type]]$median <- outcomes[[type]]$lower
   for(i in 1:length(city_regions)){
     CITY <- city_regions[i]
     sum_results <- sapply(city_results[[CITY]],function(x)colSums(x[[type]][,plot_cols]))
