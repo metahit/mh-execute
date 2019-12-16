@@ -1,0 +1,131 @@
+#!/bin/bash
+#!
+#! Example SLURM job script for BSU Internal Cluster
+#!
+
+#!#######################################
+#!#### SLURM CONFIGURATION OPTIONS ######
+#!#######################################
+
+## For the complete documentation on SBATCH options, see
+## https://slurm.schedmd.com/sbatch.html
+## All the options described there can be included in an #SBATCH command
+
+#! Name of the job: change this to anything you like
+#SBATCH -J mh-exec
+#! How many cores do you need in total?
+###SBATCH --ntasks=16
+#! How much wallclock time will be required? Use format DD-HH:MM:SS
+#SBATCH --time=30:00:00
+
+#! How much memory in MB you require. (This is only necessary if it is
+#! greater than 16GB per core)
+#SBATCH --mem=64GB
+#! How big do you want your array of tasks, and how many to run at a time
+###SBATCH --array=1-1
+
+#! What types of email messages do you wish to receive?
+#! Other valid types include ALL, BEGIN, END; see documentation for full list
+#SBATCH --mail-type=FAIL
+#! How many whole nodes should be allocated? (You can ask for 
+#! more than one ONLY if the cluster is empty)
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+
+# --ntasks-per-node will be used in doParallel.R to specify the number of 
+# cores to use on the machine. Using 16 will allow us to use all cores
+# on a sandyb node
+
+#! sbatch directives end here (put any additional directives above this line)#!/bin/bash
+
+
+#! Insert additional module load commands after this line if needed:
+
+# If you want, say, R version 3.3.0 rather than the current default R version
+# change the next line to: module add R/3.3.0
+module add R
+
+#! Change this to the name of the R script you want to run
+#! If left as $1, you specify the filename when you run sbatch, e.g.
+#!
+#! sbatch slurm_submit.mrc-bsu-sand myrfile.R
+rscript="$1"
+
+#! Change routput to change where the R log is saved
+base=$(basename ${1%.*})
+routput="${base}_${SLURM_ARRAY_TASK_ID}.Rout"
+
+#! Full path to application executable:
+application="R"
+
+#! Run options for the application:
+options="CMD BATCH --no-save --no-restore"
+
+#! Work directory (i.e. where the job will run):
+workdir="$SLURM_SUBMIT_DIR"  # The value of SLURM_SUBMIT_DIR sets workdir to the directory
+# in which sbatch is run.
+
+#! Are you using OpenMP (NB this is unrelated to OpenMPI)? If so increase this
+#! safe value to no more than 16:
+export OMP_NUM_THREADS=1
+
+#! Number of MPI tasks to be started by the application per node and in total (do not change):
+np=$[${numnodes}*${mpi_tasks_per_node}]
+
+#! The following variables define a sensible pinning strategy for Intel MPI tasks -
+#! this should be suitable for both pure MPI and hybrid MPI/OpenMP jobs:
+export I_MPI_PIN_DOMAIN=omp:compact # Domains are $OMP_NUM_THREADS cores in size
+export I_MPI_PIN_ORDER=scatter # Adjacent domains have minimal sharing of caches/sockets
+#! Notes:
+#! 1. These variables influence Intel MPI only.
+#! 2. Domains are non-overlapping sets of cores which map 1-1 to MPI tasks.
+#! 3. I_MPI_PIN_PROCESSOR_LIST is ignored if I_MPI_PIN_DOMAIN is set.
+#! 4. If MPI tasks perform better when sharing caches/sockets, try I_MPI_PIN_ORDER=compact.
+
+
+#! Uncomment one choice for CMD below (add mpirun/mpiexec options if necessary):
+
+#! Choose this for a MPI code (possibly using OpenMP) using Intel MPI.
+#CMD="mpirun -ppn $mpi_tasks_per_node -np $np $application $options"
+
+#! Choose this for a pure shared-memory OpenMP parallel program on a single node:
+#! (OMP_NUM_THREADS threads will be created):
+CMD="$application $options $rscript $routput"
+
+#! Choose this for a MPI code (possibly using OpenMP) using OpenMPI:
+#CMD="mpirun -npernode $mpi_tasks_per_node -np $np $application $options"
+
+
+#!################################################################
+#!#### You should not have to change anything below this line ####
+#!################################################################
+
+#! Number of nodes and tasks per node allocated by SLURM (do not change):
+numnodes=$SLURM_JOB_NUM_NODES
+numtasks=$SLURM_NTASKS
+mpi_tasks_per_node=$(echo "$SLURM_TASKS_PER_NODE" | sed -e  's/^\([0-9][0-9]*\).*$/\1/')
+
+#! Work directory (i.e. where the job will run):
+workdir="$SLURM_SUBMIT_DIR"  # The value of SLURM_SUBMIT_DIR sets workdir to the directory
+                             # in which sbatch is run.
+
+#! Number of MPI tasks to be started by the application per node and in total (do not change):
+np=$[${numnodes}*${mpi_tasks_per_node}]
+
+
+cd $workdir
+echo -e "Changed directory to `pwd`.\n"
+
+JOBID=$SLURM_JOB_ID
+
+echo -e "JobID: $JOBID\n======"
+echo "Time: `date`"
+echo "Running on master node: `hostname`"
+echo "Current directory: `pwd`"
+
+echo -e "\nnumtasks=$numtasks, numnodes=$numnodes, mpi_tasks_per_node=$mpi_tasks_per_node (OMP_NUM_THREADS=$OMP_NUM_THREADS)"
+
+echo -e "\nExecuting command:\n==================\n$CMD\n"
+
+eval $CMD
+
