@@ -40,8 +40,8 @@ BACKGROUND_PA_SCALAR <- c(log(1),log(1.1)) # 1
 BACKGROUND_PA_CONFIDENCE <- 1
 INJURY_REPORTING_RATE <- c(40,5) # 1
 CHRONIC_DISEASE_SCALAR <- c(log(1),log(1.1)) #1
-SIN_EXPONENT_SUM <- c(log(2),log(1.05)) #2
-CASUALTY_EXPONENT_FRACTION <- c(15,15) # 0.5 # 
+SIN_EXPONENT_SUM <- c(log(1.9),log(1.05)) #2
+CASUALTY_EXPONENT_FRACTION <- c(20,20) # 0.5 # 
 EMISSION_INVENTORY_CONFIDENCE <- 0.9
 DISTANCE_SCALAR_CAR_TAXI <- c(log(1),log(1.1)) # 1
 DISTANCE_SCALAR_WALKING <- c(log(1),log(1.1)) # 1
@@ -704,7 +704,7 @@ for(type in c('deaths','ylls')){
   for(i in 1:length(city_regions)){
     CITY <- city_regions[i]
     sum_results <- sapply(city_results[[CITY]],function(x)colSums(x[[type]][,plot_cols]))
-    outcomes[[type]]$mean[i,] <- apply(sum_results,1,function(x)mean(x[x<1e4]))/sum(city_results[[CITY]][[1]][[type]]$population)*1e3
+    outcomes[[type]]$mean[i,] <- apply(sum_results,1,function(x)mean(x))/sum(city_results[[CITY]][[1]][[type]]$population)*1e3
     outcomes[[type]]$lower[i,] <- apply(sum_results,1,quantile,0.05)/sum(city_results[[CITY]][[1]][[type]]$population)*1e3
     outcomes[[type]]$upper[i,] <- apply(sum_results,1,quantile,0.95)/sum(city_results[[CITY]][[1]][[type]]$population)*1e3
   }
