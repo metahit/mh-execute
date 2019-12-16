@@ -760,6 +760,8 @@ for(i in 1:length(city_regions)){
   CITY <- city_regions[i]
   outcome[[CITY]] <- t(sapply(city_results[[CITY]],function(x)colSums(x[[type]][,plot_cols])))
 }
+
+## get basic evppi matrix
 evppi <- matrix(0, ncol = NSCEN*(length(city_regions)), nrow = ncol(parameter_samples))
 for(j in 1:length(outcome)){
   case <- outcome[[j]]
@@ -776,8 +778,28 @@ for(j in 1:length(outcome)){
 }
 colnames(evppi) <- apply(expand.grid(SCEN_SHORT_NAME[2],names(outcome)),1,function(x)paste0(x,collapse='_'))
 rownames(evppi) <- colnames(parameter_samples)
-## add four-dimensional EVPPI if AP_DOSE_RESPONSE is uncertain.
 
+multi_city_parallel_evppi <- function(jj,sources,outcome,all=F,multi_city_outcome=T){
+  voi <- rep(0,length(outcome)*NSCEN)
+  sourcesj <- sources[[jj]]
+  ncities <- length(outcome) - as.numeric(multi_city_outcome)
+  if(all==T) jj <- 1:ncities
+  if(multi_city_outcome==T) jj <- c(jj,length(outcome))
+  for(j in jj){
+    case <- outcome[[j]]
+    for(k in 1:NSCEN){
+      scen_case <- case[,seq(k,ncol(case),by=NSCEN)]
+      y <- rowSums(scen_case)
+      vary <- var(y)
+      model <- earth(y ~ sourcesj, degree=min(4,ncol(sourcesj)))
+      voi[(j-1)*NSCEN + k] <- (vary - mean((y - model$fitted) ^ 2)) / vary * 100
+    }
+  }
+  voi
+}
+
+## replace some rows of evppi if some parameters should be combined
+## add four-dimensional EVPPI if AP_DOSE_RESPONSE is uncertain.
 multi_city_parallel_evppi_for_AP <- function(disease,parameter_samples,outcome){
   voi <- c()
   x1 <- unlist(parameter_samples[,which(colnames(parameter_samples)==paste0('AP_DOSE_RESPONSE_QUANTILE_ALPHA_',disease))])
@@ -797,14 +819,21 @@ multi_city_parallel_evppi_for_AP <- function(disease,parameter_samples,outcome){
   voi
 }
 
-numcores <- 4
+numcores <- 1
 if("AP_DOSE_RESPONSE_QUANTILE_ALPHA_lri"%in%names(parameters)&&NSAMPLES>=1024){
   AP_names <- sapply(names(parameters),function(x)length(strsplit(x,'AP_DOSE_RESPONSE_QUANTILE_ALPHA')[[1]])>1)
   diseases <- sapply(names(parameters)[AP_names],function(x)strsplit(x,'AP_DOSE_RESPONSE_QUANTILE_ALPHA_')[[1]][2])
-  evppi_for_AP <- mclapply(diseases, 
-                           FUN = multi_city_parallel_evppi_for_AP,
-                           parameter_samples,
+  sources <- list()
+  for(di in diseases){
+    col_names <- sapply(colnames(parameter_samples),function(x)grepl('AP_DOSE_RESPONSE_QUANTILE',x)&grepl(di,x))
+    sources[[di]] <- parameter_samples[,col_names]
+  }
+  evppi_for_AP <- mclapply(1:length(sources), 
+                           FUN = multi_city_parallel_evppi,
+                           sources,
                            outcome, 
+                           all=T,
+                           multi_city_outcome=F,
                            mc.cores = ifelse(Sys.info()[['sysname']] == "Windows",  1,  numcores))
   names(evppi_for_AP) <- paste0('AP_DOSE_RESPONSE_QUANTILE_',diseases)
   evppi <- rbind(evppi,do.call(rbind,evppi_for_AP))
@@ -833,7 +862,7 @@ if("EMISSION_INVENTORY_QUANTILES"%in%names(parameter_store)&&NSAMPLES>=1024){
   sources <- list()
   for(ci in 1:length(city_regions)){
     city <- city_regions[ci]
-    sources[[ci]] <- as.data.frame(matrix(0,nrow=NSAMPLES,ncol=length(parameter_store$EMISSION_INVENTORY_QUANTILES[[1]])))
+    sources[[ci]] <- matrix(0,nrow=NSAMPLES,ncol=length(parameter_store$EMISSION_INVENTORY_QUANTILES[[1]]))
     total <- sum(unlist(EMISSION_INVENTORIES[[city]]))
     parameter_store$EMISSION_INVENTORY <- list()
     for(n in 1:NSAMPLES){
@@ -844,17 +873,20 @@ if("EMISSION_INVENTORY_QUANTILES"%in%names(parameter_store)&&NSAMPLES>=1024){
     }
   }
   evppi_for_emissions <- mclapply(1:length(sources),
-                                  FUN = multi_city_parallel_evppi_for_emissions,
+                                  FUN = multi_city_parallel_evppi,
                                   sources,
                                   outcome,
+                                  all=F,
+                                  multi_city_outcome=F,
                                   mc.cores = ifelse(Sys.info()[['sysname']] == "Windows",  1,  numcores))
   
-  names(evppi_for_emissions) <- paste0('EMISSION_INVENTORY_',city_regions)
+  #names(evppi_for_emissions) <- paste0('EMISSION_INVENTORY_',city_regions)
+  #sapply(evppi_for_emissions,function(x)x[x>0])
   ## get rows to remove
   keep_names <- sapply(rownames(evppi),function(x)!grepl('EMISSION_INVENTORY_',x))
   evppi <- evppi[keep_names,]
   
-  evppi <- rbind(evppi,t(do.call(rbind,evppi_for_emissions)))
+  evppi <- rbind(evppi,sapply(evppi_for_emissions,function(x)x[x>0]))
   rownames(evppi)[nrow(evppi)] <- 'EMISSION_INVENTORY'
 }
 print(evppi)
@@ -883,17 +915,21 @@ if(sum(c("BACKGROUND_PA_SCALAR","BACKGROUND_PA_ZEROS")%in%names(parameters))==2&
     pa_names <- sapply(colnames(parameter_samples),function(x)(grepl('BACKGROUND_PA_SCALAR',x)||grepl('BACKGROUND_PA_ZEROS',x)))
     sources[[ci]] <- parameter_samples[,pa_names]
   }
-  evppi_for_pa <- mclapply(sources, 
-                           FUN = multi_city_parallel_evppi_for_pa,
+  evppi_for_pa <- mclapply(1:length(sources), 
+                           FUN = multi_city_parallel_evppi,
+                           sources, 
                            outcome, 
+                           all=F,
+                           multi_city_outcome=F,
                            mc.cores = ifelse(Sys.info()[['sysname']] == "Windows",  1,  numcores))
   
-  names(evppi_for_pa) <- paste0('BACKGROUND_PA_',city_regions)
+  #names(evppi_for_pa) <- paste0('BACKGROUND_PA_',city_regions)
   ## get rows to remove
   keep_names <- sapply(rownames(evppi),function(x)!grepl('BACKGROUND_PA_',x))
   evppi <- evppi[keep_names,]
-  
-  evppi <- rbind(evppi,do.call(rbind,evppi_for_pa))
+  evppi <- rbind(evppi,sapply(evppi_for_pa,function(x)x[x>0]))
+  #evppi <- rbind(evppi,do.call(rbind,evppi_for_pa))
+  rownames(evppi)[nrow(evppi)] <- 'BACKGROUND_PA'
 }
 
 ## plot evppi
