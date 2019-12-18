@@ -764,63 +764,21 @@ for(i in 1:length(city_regions)){
 }
 
 ## get basic evppi matrix
-evppi <- matrix(0, ncol = NSCEN*(length(city_regions)), nrow = ncol(parameter_samples))
-for(j in 1:length(outcome)){
-  case <- outcome[[j]]
-  for(k in 1:NSCEN){
-    scen_case <- case[,seq(k,ncol(case),by=NSCEN)]
-    y <- rowSums(scen_case)
-    vary <- var(y)
-    for(i in 1:ncol(parameter_samples)){
-      x <- unlist(parameter_samples[, i])
-      model <- earth(y ~ x,degree=1)
-      evppi[i, (j-1)*NSCEN + k] <- (vary - mean((y - model$fitted) ^ 2)) / vary * 100
-    }
-  }
-}
-colnames(evppi) <- apply(expand.grid(SCEN_SHORT_NAME[2],names(outcome)),1,function(x)paste0(x,collapse='_'))
+numcores <- 4
+evppi <- mclapply(1:ncol(parameter_samples), 
+                  FUN = compute_evppi,
+                  as.data.frame(parameter_samples),
+                  outcome, 
+                  nscen=NSCEN,
+                  all=T,
+                  multi_city_outcome=F,
+                  mc.cores = ifelse(Sys.info()[['sysname']] == "Windows",  1,  numcores))
+evppi <- do.call(rbind,evppi)
+colnames(evppi) <- apply(expand.grid(SCEN_SHORT_NAME[2:length(SCEN_SHORT_NAME)],names(outcome)),1,function(x)paste0(x,collapse='_'))
 rownames(evppi) <- colnames(parameter_samples)
-
-multi_city_parallel_evppi <- function(jj,sources,outcome,all=F,multi_city_outcome=T){
-  voi <- rep(0,length(outcome)*NSCEN)
-  sourcesj <- sources[[jj]]
-  ncities <- length(outcome) - as.numeric(multi_city_outcome)
-  if(all==T) jj <- 1:ncities
-  if(multi_city_outcome==T) jj <- c(jj,length(outcome))
-  for(j in jj){
-    case <- outcome[[j]]
-    for(k in 1:NSCEN){
-      scen_case <- case[,seq(k,ncol(case),by=NSCEN)]
-      y <- rowSums(scen_case)
-      vary <- var(y)
-      model <- earth(y ~ sourcesj, degree=min(4,ncol(sourcesj)))
-      voi[(j-1)*NSCEN + k] <- (vary - mean((y - model$fitted) ^ 2)) / vary * 100
-    }
-  }
-  voi
-}
 
 ## replace some rows of evppi if some parameters should be combined
 ## add four-dimensional EVPPI if AP_DOSE_RESPONSE is uncertain.
-multi_city_parallel_evppi_for_AP <- function(disease,parameter_samples,outcome){
-  voi <- c()
-  x1 <- unlist(parameter_samples[,which(colnames(parameter_samples)==paste0('AP_DOSE_RESPONSE_QUANTILE_ALPHA_',disease))])
-  x2 <- unlist(parameter_samples[,which(colnames(parameter_samples)==paste0('AP_DOSE_RESPONSE_QUANTILE_BETA_',disease))])
-  x3 <- unlist(parameter_samples[,which(colnames(parameter_samples)==paste0('AP_DOSE_RESPONSE_QUANTILE_GAMMA_',disease))])
-  x4 <- unlist(parameter_samples[,which(colnames(parameter_samples)==paste0('AP_DOSE_RESPONSE_QUANTILE_TMREL_',disease))])
-  for(j in 1:length(outcome)){
-    case <- outcome[[j]]
-    for(k in 1:NSCEN){
-      scen_case <- case[,seq(k,ncol(case),by=NSCEN)]
-      y <- rowSums(scen_case)
-      vary <- var(y)
-      model <- earth(y ~ x1+x2+x3+x4,degree=4)
-      voi[(j-1)*NSCEN + k] <- (vary - mean((y - model$fitted) ^ 2)) / vary * 100
-    }
-  }
-  voi
-}
-
 numcores <- 1
 if("AP_DOSE_RESPONSE_QUANTILE_ALPHA_lri"%in%names(parameters)&&NSAMPLES>=1024){
   AP_names <- sapply(names(parameters),function(x)length(strsplit(x,'AP_DOSE_RESPONSE_QUANTILE_ALPHA')[[1]])>1)
@@ -831,7 +789,7 @@ if("AP_DOSE_RESPONSE_QUANTILE_ALPHA_lri"%in%names(parameters)&&NSAMPLES>=1024){
     sources[[di]] <- parameter_samples[,col_names]
   }
   evppi_for_AP <- mclapply(1:length(sources), 
-                           FUN = multi_city_parallel_evppi,
+                           FUN = compute_evppi,
                            sources,
                            outcome, 
                            all=T,
@@ -844,22 +802,6 @@ if("AP_DOSE_RESPONSE_QUANTILE_ALPHA_lri"%in%names(parameters)&&NSAMPLES>=1024){
   evppi <- evppi[keep_names,]
 }
 
-multi_city_parallel_evppi_for_emissions <- function(j,sources,outcome){
-  voi <- c()
-  sources <- sources[[j]]
-  nSources <- ncol(sources)
-  case <- outcome[[j]]
-  for(k in 1:NSCEN){
-    scen_case <- case[,seq(k,ncol(case),by=NSCEN)]
-    y <- rowSums(scen_case)
-    vary <- var(y)
-    model <- earth(y ~ .,data=sources,degree=min(5,nSources))
-    voi[k] <- (vary - mean((y - model$fitted) ^ 2)) / vary * 100
-  }
-  voi
-}
-# x2 <- evppi(parameter=c(38:40),input=inp$mat,he=m,method="GP")
-#fit <- fit.gp(parameter = parameter, inputs = inputs, x = x, n.sim = n.sim)
 if("EMISSION_INVENTORY_QUANTILES"%in%names(parameter_store)&&NSAMPLES>=1024){
   sources <- list()
   for(ci in 1:length(city_regions)){
@@ -875,7 +817,7 @@ if("EMISSION_INVENTORY_QUANTILES"%in%names(parameter_store)&&NSAMPLES>=1024){
     }
   }
   evppi_for_emissions <- mclapply(1:length(sources),
-                                  FUN = multi_city_parallel_evppi,
+                                  FUN = compute_evppi,
                                   sources,
                                   outcome,
                                   all=F,
@@ -894,22 +836,6 @@ if("EMISSION_INVENTORY_QUANTILES"%in%names(parameter_store)&&NSAMPLES>=1024){
 print(evppi)
 
 ## PA
-multi_city_parallel_evppi_for_pa <- function(sources,outcome){
-  voi <- c()
-  x1 <- sources[,1];
-  x2 <- sources[,2];
-  for(j in 1:length(outcome)){
-    case <- outcome[[j]]
-    for(k in 1:NSCEN){
-      scen_case <- case[,seq(k,ncol(case),by=NSCEN)]
-      y <- rowSums(scen_case)
-      vary <- var(y)
-      model <- earth(y ~ x1+x2,degree=2)
-      voi[(j-1)*NSCEN + k] <- (vary - mean((y - model$fitted) ^ 2)) / vary * 100
-    }
-  }
-  voi
-}
 if(sum(c("BACKGROUND_PA_SCALAR","BACKGROUND_PA_ZEROS")%in%names(parameters))==2&&NSAMPLES>=1024){
   sources <- list()
   for(ci in 1:length(city_regions)){
@@ -918,7 +844,7 @@ if(sum(c("BACKGROUND_PA_SCALAR","BACKGROUND_PA_ZEROS")%in%names(parameters))==2&
     sources[[ci]] <- parameter_samples[,pa_names]
   }
   evppi_for_pa <- mclapply(1:length(sources), 
-                           FUN = multi_city_parallel_evppi,
+                           FUN = compute_evppi,
                            sources, 
                            outcome, 
                            all=F,
