@@ -43,7 +43,8 @@
 
 # If you want, say, R version 3.3.0 rather than the current default R version
 # change the next line to: module add R/3.3.0
-module add R
+#SBATCH -w tallis
+module load R/3.6.0
 
 #! Change this to the name of the R script you want to run
 #! If left as $1, you specify the filename when you run sbatch, e.g.
