@@ -305,6 +305,16 @@ parameters <- ithim_setup_parameters(NSAMPLES=NSAMPLES,
                                      DISTANCE_SCALAR_CYCLING=DISTANCE_SCALAR_CYCLING,
                                      DISTANCE_SCALAR_MOTORCYCLE=DISTANCE_SCALAR_MOTORCYCLE)
 
+# set up injury prediction function
+if(any(c('CASUALTY_EXPONENT_FRACTION','SIN_EXPONENT_SUM',
+         'DISTANCE_SCALAR_CAR_TAXI' ,'DISTANCE_SCALAR_WALKING' ,
+         'DISTANCE_SCALAR_PT',
+         'DISTANCE_SCALAR_CYCLING' ,
+         'DISTANCE_SCALAR_MOTORCYCLE' )%in%names(parameters))){
+  predict_injuries <<- predict_without_model
+}else{
+  predict_injuries <<- predict
+}
 
 ## start metahit
 ## 6 START LOOP OVER CITIES #################################################
@@ -443,8 +453,6 @@ for(city_ind in 1:length(city_regions)){
   INH_NAMES <<- colnames(pp_summary[[1]])%in%paste0(function_mode_names,'_dur')
   PA_NAMES <<- colnames(pp_summary[[1]])%in%c('bicycle_dur_pa','walking_dur_pa')
   
-  ##!! use all_distances$...$inh_distances and use all_distances$...$emissions_distances$distance_for_emission. Sum over LA and road type. Join to pp_summary.
-  ##!! at present the duration from pa is used, for cycle and walk only.
   ##!! hard coded to maintain naming conventions etc
   DIST <- matrix(0,nrow=3,ncol=NSCEN+1)
   rownames(DIST) <- c('car','motorcycle','bus')
@@ -457,8 +465,6 @@ for(city_ind in 1:length(city_regions)){
                      sum(city_total_distances[city_total_distances[,1]==CITY&city_total_distances[,2]=='bus',3:ncol(city_total_distances)]))
   
   ## 9 ITHIM ########################################
-  
-  ##!! start loop over parameters here
   
   ## set city-specific parameters
   # background pm2.5
@@ -562,7 +568,6 @@ for(city_ind in 1:length(city_regions)){
     
     ## (4) INJURIES ##############################################
     
-    
     # get city data
     city_table <- injury_table
     for(i in 1:2)
@@ -579,16 +584,19 @@ for(city_ind in 1:length(city_regions)){
     # get prediction for baseline (using smoothed data, not raw data)
     for(i in 1:2)
       for(j in 1:2){
+        ## the baseline distances are the same as the scenario distances for the uninteresting modes
+        ## baseline distances are overwritten by scenario distances for interesting modes
         city_table[[i]][[j]]$cas_distance <- city_table[[i]][[j]]$base_cas_distance
         city_table[[i]][[j]]$strike_distance <- city_table[[i]][[j]]$base_strike_distance
         city_table[[i]][[j]]$cas_distance_sum <- city_table[[i]][[j]]$base_cas_distance_sum
         city_table[[i]][[j]]$strike_distance_sum <- city_table[[i]][[j]]$base_strike_distance_sum
-        city_table[[i]][[j]]$pred <- predict(baseline_injury_model[[i]][[j]],newdata=city_table[[i]][[j]],type='response')
+        city_table[[i]][[j]]$pred <- city_table[[i]][[j]]$base_pred #
+        #city_table[[i]][[j]]$pred <- predict(baseline_injury_model[[i]][[j]],newdata=city_table[[i]][[j]],type='response')
       }
-    injury_predictions <- predict_injuries(city_table)
+    injury_predictions <- summarise_injuries(city_table)
     injury_deaths[[1]] <- injury_predictions[[1]] 
     secondary_deaths[[1]] <- injury_predictions[[2]] 
-    injury_predictions_for_bz_baseline <- predict_injuries_for_bz(city_table)
+    injury_predictions_for_bz_baseline <- summarise_injuries_for_bz(city_table)
     # store baseline data
     baseline_city_table <- city_table
     injury_ratios_for_bz <- list()
@@ -617,10 +625,10 @@ for(city_ind in 1:length(city_regions)){
       # get prediction for scenario using modified smoothed data, not raw data
       for(i in 1:2)
         for(j in 1:2)
-          city_table[[i]][[j]]$pred <- predict(baseline_injury_model[[i]][[j]],newdata=city_table[[i]][[j]],type='response')
+          city_table[[i]][[j]]$pred <- predict_injuries(baseline_injury_model[[i]][[j]],newdata=city_table[[i]][[j]],type='response')
       # summarise predicted fatalities
-      injury_predictions <- predict_injuries(city_table)
-      injury_ratios_for_bz[[scen]] <- predict_injuries_for_bz(city_table)
+      injury_predictions <- summarise_injuries(city_table)
+      injury_ratios_for_bz[[scen]] <- summarise_injuries_for_bz(city_table)
       # store results
       injury_deaths[[scen]] <- injury_predictions[[1]] 
       secondary_deaths[[scen]] <- injury_predictions[[2]] 
