@@ -184,7 +184,6 @@ scenario_pm_calculations <- function(dist,pp_summary){
   ## get new emission by multiplying emission factor by scenario distance.
   trans_emissions <- emission_dist*t(repmat(ordered_efs,NSCEN+1,1))
   ## augment with travel emission contributions that aren't included in distance calculation
-  ##!! need to sort out bus driver. Should be sorted in dist/dur? Or, if not sorted in dist/dur, sort here.
   for(mode_type in which(!VEHICLE_INVENTORY$stage_mode%in%rownames(emission_dist))){
     em <- VEHICLE_INVENTORY$emission_inventory[mode_type]
     if(em>0){
@@ -194,6 +193,7 @@ scenario_pm_calculations <- function(dist,pp_summary){
   }
   
   ## scenario travel pm2.5 calculated as relative to the baseline
+  ##!! as we divide scenario by baseline, we do not need to multiply through by distance scalars
   baseline_sum <- sum(trans_emissions[,SCEN[1]])
   conc_pm <- c()
   ## in this sum, the non-transport pm is constant; the transport emissions scale the transport contribution (PM_TRANS_SHARE) to the base level (PM_CONC_BASE)
@@ -224,6 +224,15 @@ scenario_pm_calculations <- function(dist,pp_summary){
   
   pp_summary2 <- pp_summary#lapply(pp_summary,function(y)y[,sapply(colnames(y),function(x)!grepl('_dist',x)),with=F])
   for(i in 1:length(pp_summary2)) colnames(pp_summary2[[i]]) <- sapply(colnames(pp_summary2[[i]]),function(x)gsub('_dur','',x))
+  ## multiply through by distance scalars
+  for(i in 1:length(pp_summary2)){
+    pp_summary2[[i]][,walking := walking * DISTANCE_SCALAR_WALKING]
+    pp_summary2[[i]][,bicycle := bicycle * DISTANCE_SCALAR_CYCLING]
+    pp_summary2[[i]][,motorcycle := motorcycle * DISTANCE_SCALAR_MOTORCYCLE]
+    pp_summary2[[i]][,car := car * DISTANCE_SCALAR_CAR_TAXI]
+    pp_summary2[[i]][,bus := bus * DISTANCE_SCALAR_PT]
+    pp_summary2[[i]][,subway := subway * DISTANCE_SCALAR_PT]
+  }
   travel_indices <- which(colnames(pp_summary2[[1]])%in%vent_rates$stage_mode)
   travel_modes <- colnames(pp_summary2[[1]])[travel_indices]
   vent_modes <- match(travel_modes,vent_rates$stage_mode)
