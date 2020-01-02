@@ -306,11 +306,19 @@ parameters <- ithim_setup_parameters(NSAMPLES=NSAMPLES,
                                      DISTANCE_SCALAR_MOTORCYCLE=DISTANCE_SCALAR_MOTORCYCLE)
 
 # set up injury prediction function
+local_settings <- list(DISTANCE_SCALAR_CAR_TAXI=DISTANCE_SCALAR_CAR_TAXI,
+                       DISTANCE_SCALAR_CYCLING=DISTANCE_SCALAR_CYCLING,
+                       DISTANCE_SCALAR_MOTORCYCLE=DISTANCE_SCALAR_MOTORCYCLE,
+                       DISTANCE_SCALAR_WALKING=DISTANCE_SCALAR_WALKING,
+                       CAS_EXPONENT=CAS_EXPONENT,
+                       STR_EXPONENT=STR_EXPONENT)
+model_settings <- readRDS('inputs/injury/model_settings.Rds')
 if(any(c('CASUALTY_EXPONENT_FRACTION','SIN_EXPONENT_SUM',
          'DISTANCE_SCALAR_CAR_TAXI' ,'DISTANCE_SCALAR_WALKING' ,
          'DISTANCE_SCALAR_PT',
          'DISTANCE_SCALAR_CYCLING' ,
-         'DISTANCE_SCALAR_MOTORCYCLE' )%in%names(parameters))){
+         'DISTANCE_SCALAR_MOTORCYCLE' )%in%names(parameters))||
+   !identical(local_settings,model_settings)){
   predict_injuries <<- predict_without_model
 }else{
   predict_injuries <<- predict
