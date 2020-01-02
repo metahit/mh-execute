@@ -579,6 +579,7 @@ for(city_ind in 1:length(city_regions)){
     roads <- unique(injury_table[[1]][[1]]$road)
     
     model_modes <- c('pedestrian','cyclist','motorcycle','car/taxi')
+    distance_scalars <- c(DISTANCE_SCALAR_WALKING,DISTANCE_SCALAR_CYCLING,DISTANCE_SCALAR_MOTORCYCLE,DISTANCE_SCALAR_CAR_TAXI)
     
     injury_deaths <- secondary_deaths <- list()
     # get prediction for baseline (using smoothed data, not raw data)
@@ -603,7 +604,18 @@ for(city_ind in 1:length(city_regions)){
     injury_ratios_for_bz[[1]] <- injury_predictions_for_bz_baseline
     injury_ratios_for_bz[[1]][,c(1:ncol(injury_ratios_for_bz[[1]]))[-1]] <- injury_ratios_for_bz[[1]][,-1]/injury_predictions_for_bz_baseline[,-1]
     
-    ##!!
+    ## update distances
+    for(scen in 0:NSCEN+1){
+      scen_name <- SCEN_SHORT_NAME[scen]
+      for(j in 1:2){
+        mode_indices <- match(baseline_city_table[[1]][[j]]$cas_mode,model_modes)
+        baseline_city_table[[1]][[j]][[paste0(scen_name,'_cas_distance')]] <- baseline_city_table[[1]][[j]][[paste0(scen_name,'_cas_distance')]] * distance_scalars[mode_indices]
+        baseline_city_table[[1]][[j]][[paste0(scen_name,'_cas_distance_sum')]] <- baseline_city_table[[1]][[j]][[paste0(scen_name,'_cas_distance_sum')]] * distance_scalars[mode_indices]
+        mode_indices <- match(baseline_city_table[[j]][[1]]$strike_mode,model_modes)
+        baseline_city_table[[j]][[1]][[paste0(scen_name,'_strike_distance')]] <- baseline_city_table[[j]][[1]][[paste0(scen_name,'_strike_distance')]] * distance_scalars[mode_indices]
+        baseline_city_table[[j]][[1]][[paste0(scen_name,'_strike_distance_sum')]] <- baseline_city_table[[j]][[1]][[paste0(scen_name,'_strike_distance_sum')]] * distance_scalars[mode_indices]
+      }
+    }
     for(scen in 1:NSCEN+1){
       scen_name <- SCEN_SHORT_NAME[scen]
       
@@ -615,13 +627,13 @@ for(city_ind in 1:length(city_regions)){
         city_table[[1]][[j]]$cas_distance <- city_table[[1]][[j]][[paste0(scen_name,'_cas_distance')]]
         city_table[[1]][[j]]$cas_distance_sum <- city_table[[1]][[j]][[paste0(scen_name,'_cas_distance_sum')]]
       }
-      
       # striker distances
       for(i in 1:2){
         # edit dataset with new distances
         city_table[[i]][[1]]$strike_distance <- city_table[[i]][[1]][[paste0(scen_name,'_strike_distance')]]
         city_table[[i]][[1]]$strike_distance_sum <- city_table[[i]][[1]][[paste0(scen_name,'_strike_distance_sum')]]
       }
+      
       # get prediction for scenario using modified smoothed data, not raw data
       for(i in 1:2)
         for(j in 1:2)
