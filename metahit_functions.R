@@ -332,11 +332,13 @@ combined_rr_ap_pa <- function(ind_pa,ind_ap){
 
 #' @export
 predict_without_model <- function(x,newdata,type='response'){
-  newdata$base_pred*
+  x <- newdata$base_pred*
     (newdata$cas_distance_sum/newdata$base_cas_distance_sum)^(CAS_EXPONENT-1)*
     (newdata$strike_distance_sum/newdata$base_strike_distance_sum)^(STR_EXPONENT-1)*
     newdata$cas_distance/newdata$base_cas_distance*
     newdata$strike_distance/newdata$base_strike_distance
+  x[is.na(x)] <- 0
+  x
 }
 
 #' @export
