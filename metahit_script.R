@@ -794,7 +794,7 @@ for(i in 1:length(city_regions)){
 ## get basic evppi matrix
 numcores <- 4
 evppi <- lapply(1:ncol(parameter_samples), 
-                  FUN = ithimr::compute_evppi,
+                  FUN = ithimr:::compute_evppi,
                   as.data.frame(parameter_samples),
                   outcome, 
                   nscen=NSCEN,
@@ -817,7 +817,7 @@ if("AP_DOSE_RESPONSE_QUANTILE_ALPHA_lri"%in%names(parameters)&&NSAMPLES>=1024){
     sources[[di]] <- parameter_samples[,col_names]
   }
   evppi_for_AP <- mclapply(1:length(sources), 
-                           FUN = ithimr::compute_evppi,
+                           FUN = ithimr:::compute_evppi,
                            sources,
                            outcome, 
                            all=T,
@@ -845,7 +845,7 @@ if("EMISSION_INVENTORY_QUANTILES"%in%names(parameter_store)&&NSAMPLES>=1024){
     }
   }
   evppi_for_emissions <- mclapply(1:length(sources),
-                                  FUN = ithimr::compute_evppi,
+                                  FUN = ithimr:::compute_evppi,
                                   sources,
                                   outcome,
                                   all=F,
@@ -872,7 +872,7 @@ if(sum(c("BACKGROUND_PA_SCALAR","BACKGROUND_PA_ZEROS")%in%names(parameters))==2&
     sources[[ci]] <- parameter_samples[,pa_names]
   }
   evppi_for_pa <- mclapply(1:length(sources), 
-                           FUN = ithimr::compute_evppi,
+                           FUN = ithimr:::compute_evppi,
                            sources, 
                            outcome, 
                            all=F,
