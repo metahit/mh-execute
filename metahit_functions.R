@@ -394,16 +394,15 @@ summarise_injuries_for_bz <- function(city_table){
 
 #' @export
 injury_death_to_yll <- function(injuries){
-  
   joined_injury <- left_join(injuries, GBD_INJ_YLL[,c('dem_index','yll_dth_ratio')], by="dem_index")
   
   joined_injury$YLL <- joined_injury$Deaths*joined_injury$yll_dth_ratio
   death_and_yll <- dplyr::select(joined_injury, c('dem_index','scenario','Deaths','YLL'))
   
   x_deaths <- dplyr::select(death_and_yll, -YLL)
-  x_deaths <- spread(x_deaths,scenario, Deaths)
+  x_deaths <- spread(x_deaths,scenario, Deaths) %>% as.data.frame()
   x_yll <- dplyr::select(death_and_yll, -Deaths)
-  x_yll <- spread(x_yll,scenario, YLL)
+  x_yll <- spread(x_yll,scenario, YLL) %>% as.data.frame()
   
   ref_scen <- REFERENCE_SCENARIO
   ref_scen_index <- which(SCEN==ref_scen)
@@ -411,8 +410,8 @@ injury_death_to_yll <- function(injuries){
   calc_scen_index <- which(colnames(x_deaths)%in%calc_scen)
   
   ref_injuries <- as.data.frame(cbind(dem_index=x_deaths$dem_index,deaths=x_deaths[[ref_scen]],ylls=x_yll[[ref_scen]]))
-  deaths <- t(repmat(unlist(ref_injuries$deaths),NSCEN,1)) - x_deaths[,calc_scen_index,drop=F]
-  ylls <- t(repmat(unlist(ref_injuries$ylls),NSCEN,1)) - x_yll[,calc_scen_index,drop=F]
+  deaths <- t(repmat(unlist(ref_injuries$deaths),NSCEN,1)) - x_deaths[,calc_scen_index]
+  ylls <- t(repmat(unlist(ref_injuries$ylls),NSCEN,1)) - x_yll[,calc_scen_index]
   deaths_yll_injuries <- as.data.frame(cbind(dem_index=x_deaths$dem_index,deaths, ylls))
   
   metric <- c("deaths", "yll")
