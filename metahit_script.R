@@ -361,8 +361,8 @@ for(city_ind in 1:length(city_regions)){
   GBD_DATA$max_age <- as.numeric(sapply(GBD_DATA$age_name,function(x)str_split(x,' to ')[[1]][2]))
   GBD_DATA <- subset(GBD_DATA,max_age>=AGE_LOWER_BOUNDS[1])
   GBD_DATA <- subset(GBD_DATA,min_age<=MAX_AGE)
-  ##!! hard-coded rename...
-  names(GBD_DATA)[c(1,3,4,5)] <- c('measure','sex','age','cause')
+  # Remove _name from all columns
+  colnames(GBD_DATA) <- gsub("_name", "", colnames(GBD_DATA))
   # ensure lower case
   GBD_DATA$sex <- tolower(GBD_DATA$sex)
   
@@ -374,13 +374,19 @@ for(city_ind in 1:length(city_regions)){
   burden_of_disease$max_age <- as.numeric(sapply(burden_of_disease$age,function(x)str_split(x,'-')[[1]][2]))
   ## when we sum ages, we assume that all age boundaries used coincide with the GBD age boundaries.
   ##!! this isn't the case for metahit: age category 15-19 vs 16-19. therefore, have added '-1' for now.
-  burden_of_disease$rate <- apply(burden_of_disease,1,
-                                  function(x){
-                                    subtab <- subset(GBD_DATA,measure==as.character(x[1])&sex==as.character(x[2])&cause==as.character(x[4])&
-                                                       min_age>=as.numeric(x[7])-1&max_age<=as.numeric(x[8])); 
-                                    sum(subtab$val)/sum(subtab$population)
-                                  }
-  )
+  
+  burden_of_disease$rate <- 0
+
+  for (i in 1:nrow(burden_of_disease)){
+
+    local_df <- burden_of_disease[i,]
+    
+    subtab <- dplyr::filter(GBD_DATA, measure == local_df$measure & sex == local_df$sex & cause == local_df$cause &
+                              min_age >= as.numeric(local_df$min_age)-1 & max_age <= as.numeric(local_df$max_age))
+    burden_of_disease$rate[i] <- sum(subtab$val)/sum(subtab$population_number)
+    
+  }
+  
   burden_of_disease$burden <- burden_of_disease$population*burden_of_disease$rate
   ##!! if an entry is missing in GBD, we set it to zero. we should also issue a warning.
   burden_of_disease$burden[is.na(burden_of_disease$burden)] <- 0
