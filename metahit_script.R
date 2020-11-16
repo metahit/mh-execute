@@ -250,7 +250,7 @@ city_regions_table <- read.csv('inputs/mh_regions_lad_lookup.csv',stringsAsFacto
 city_regions <- unique(city_regions_table$cityregion)
 city_regions <- city_regions[city_regions!='']
 
-
+city_regions <- city_regions[city_regions %in% unique(injury_table$primary$whw$region)]
 city_las <- city_regions_table$lad11cd[city_regions_table$cityregion%in%city_regions]
 la_city_indices <- sapply(city_las,function(x) which(city_regions==city_regions_table$cityregion[city_regions_table$lad11cd==x]))
 city_regions_dt <- setDT(city_regions_table[city_regions_table$cityregion%in%city_regions,1:4])
