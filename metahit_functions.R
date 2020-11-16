@@ -301,8 +301,7 @@ total_mmet <- function(pp_summary){
       synth_pop_return[[paste0(SCEN_SHORT_NAME[i],'_mmet')]][part_id] + individual_data$cycling_mmet + individual_data$walking_mmet
   }
   
-  name_indices <- which(colnames(synth_pop_return)%in%c('participant_id', 'sex', 'age', 'dem_index', paste0(SCEN_SHORT_NAME,'_mmet')))
-  mmets <- tbl_df(synth_pop_return)[,name_indices]
+  mmets <- dplyr::select(synth_pop_return, any_of(c('participant_id', 'sex', 'age', 'dem_index', paste0(SCEN_SHORT_NAME,'_mmet'))))
   mmets
   
 }
@@ -427,6 +426,7 @@ injury_death_to_yll <- function(injuries){
 
 #' @export
 health_burden <- function(ind_ap_pa,inj,combined_AP_PA=T){
+  
   # subset gbd data for outcome types
   gbd_data_scaled <- DISEASE_BURDEN
   #gbd_data_scaled$burden[gbd_data_scaled$cause%in%c("Neoplasms","Ischemic heart disease","Tracheal, bronchus, and lung cancer","Breast cancer","Colon and rectum cancer","Uterine cancer")] <- 
