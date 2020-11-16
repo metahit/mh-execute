@@ -570,7 +570,7 @@ for(city_ind in 1:length(city_regions)){
     ##!! check these look sensible
     ## rename pa columns
     for(i in 1:length(pp_summary)) colnames(pp_summary[[i]]) <- sapply(colnames(pp_summary[[i]]),function(x) gsub('_pa','',x))
-    mmets_pp <- total_mmet(pp_summary)
+    mmets_pp <- total_mmet(pp_summary) %>% as.data.frame()
     ## change names back
     ##!! alternatively, re-write ITHIM-R functions within metahit_functions.R so that scenario_pm_calculations and total_mmet look for different columns, e.g. _dur_inh and _dur_pa.
     for(i in 1:length(pp_summary)) colnames(pp_summary[[i]])[PA_NAMES] <- paste0(colnames(pp_summary[[i]])[PA_NAMES],'_pa')
