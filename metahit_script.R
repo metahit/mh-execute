@@ -214,7 +214,7 @@ for(i in 1:2){
   baseline_injury_model[[i]] <- list()
   for(j in 1:2){
     baseline_injury_model[[i]][[j]] <- readRDS(paste0(path_to_injury_model_and_data,'city_region',i,j,'.Rds'))
-    if(INCLUDE_LONDON==F) injury_table[[i]][[j]] <- subset(injury_table[[i]][[j]],region!='london')
+    if(INCLUDE_LONDON==F) injury_table[[i]][[j]] <- dplyr::filter(injury_table[[i]][[j]], region!='london')
   }
 }
 
@@ -249,6 +249,8 @@ MAX_AGE <<- max(as.numeric(sapply(AGE_CATEGORY,function(x)strsplit(x,'-')[[1]][2
 city_regions_table <- read.csv('inputs/mh_regions_lad_lookup.csv',stringsAsFactors = F)
 city_regions <- unique(city_regions_table$cityregion)
 city_regions <- city_regions[city_regions!='']
+
+
 city_las <- city_regions_table$lad11cd[city_regions_table$cityregion%in%city_regions]
 la_city_indices <- sapply(city_las,function(x) which(city_regions==city_regions_table$cityregion[city_regions_table$lad11cd==x]))
 city_regions_dt <- setDT(city_regions_table[city_regions_table$cityregion%in%city_regions,1:4])
@@ -334,8 +336,10 @@ for(city_ind in 1:length(city_regions)){
   
   ## 7 GET LOCAL (city) DATA ###############################################
   
-  #city_ind <- 3
+  
   CITY <<- city_regions[city_ind]
+  
+  print(CITY)
   city_results[[CITY]] <- list()
   
   ## these datasets are all local, saved in local folder.
@@ -386,7 +390,6 @@ for(city_ind in 1:length(city_regions)){
     burden_of_disease$rate[i] <- sum(subtab$val)/sum(subtab$population_number)
     
   }
-  
   burden_of_disease$burden <- burden_of_disease$population*burden_of_disease$rate
   ##!! if an entry is missing in GBD, we set it to zero. we should also issue a warning.
   burden_of_disease$burden[is.na(burden_of_disease$burden)] <- 0
@@ -546,6 +549,7 @@ for(city_ind in 1:length(city_regions)){
     # Calculate PM2.5 concentrations
     ##!! using pa durations for now, which don't differentiate between road types and las.
     ##!! we don't have durations by road type and la. We could map from distances.
+    
     pm_conc <- scenario_pm_calculations(DIST,pp_summary)
     ## change inh column names
     for(i in 1:length(pp_summary)) colnames(pp_summary[[i]])[INH_NAMES] <- paste0(colnames(pp_summary[[i]])[INH_NAMES],'_inh')
@@ -714,7 +718,7 @@ for(city_ind in 1:length(city_regions)){
   # reduce size of injury table
   for(i in 1:2)
     for(j in 1:2)
-      injury_table[[i]][[j]] <- injury_table[[i]][[j]][injury_table[[i]][[j]]$region!=CITY,]
+      injury_table[[i]][[j]] <- injury_table[[i]][[j]] %>% dplyr::filter(region != CITY)
   
   
   saveRDS(city_results[[CITY]],paste0('outputs/files/',CITY,'_results.Rds'))
