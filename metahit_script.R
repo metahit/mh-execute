@@ -14,6 +14,7 @@ library(doFuture)
 registerDoFuture()
 plan(multisession)
 
+NSAMPLES <- 4
 
 #setwd('~/overflow_dropbox/mh-execute/')
 ## overwrite some functions for METAHIT's pp_summary use (instead of TIGTHAT's tripset use)
@@ -32,7 +33,6 @@ AGE_RANGE <- c(0,150)
 REFERENCE_SCENARIO <- 'Baseline'
 
 ## placeholders for uncertain parameters
-NSAMPLES <- 1024
 MMET_CYCLING <- c(log(4.63),log(1.2)) # 4.63 # 
 MMET_WALKING <- c(log(2.53),log(1.1)) # 2.53 # 
 PM_CONC_BASE_QUANTILE <- T
@@ -529,7 +529,7 @@ for(city_ind in 1:length(city_regions)){
   injury_table <<- injury_table
   baseline_injury_model <<- baseline_injury_model
   
-  city_results[[CITY]] <- foreach(sampl = 1:NSAMPLES) %do% {
+  city_results[[CITY]] <- foreach(sampl = 1:NSAMPLES, .export = ls(globalenv())) %dopar% {
     for(i in 1:length(parameters))
       assign(names(parameters)[i],parameters[[i]][[sampl]],pos=1)
     CAS_EXPONENT <<- CASUALTY_EXPONENT_FRACTION * SIN_EXPONENT_SUM
