@@ -333,7 +333,7 @@ if(any(c('CASUALTY_EXPONENT_FRACTION','SIN_EXPONENT_SUM',
 city_results <- list()
 }
 for(city_ind in 1:length(city_regions)){
-  city_ind <- 1
+  
   ## 7 GET LOCAL (city) DATA ###############################################
   CITY <<- city_regions[city_ind]
   
