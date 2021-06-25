@@ -17,7 +17,7 @@ ithim_setup_parameters <- function(NSAMPLES = 1,
          CHRONIC_DISEASE_SCALAR = 1,
          SIN_EXPONENT_SUM = 2,
          CASUALTY_EXPONENT_FRACTION = 0.5,
-         EMISSION_INVENTORY_CONFIDENCE = 1,
+         PM_EMISSION_INVENTORY_CONFIDENCE = 1,
          DISTANCE_SCALAR_CAR_TAXI = 1,
          DISTANCE_SCALAR_WALKING = 1,
          DISTANCE_SCALAR_PT = 1,
@@ -97,7 +97,7 @@ ithim_setup_parameters <- function(NSAMPLES = 1,
     parameters$BACKGROUND_PA_ZEROS <- runif(NSAMPLES,0,1)
   }
   
-  if(EMISSION_INVENTORY_CONFIDENCE<1){
+  if(PM_EMISSION_INVENTORY_CONFIDENCE<1){
     parameters$EMISSION_INVENTORY_QUANTILES <- list()
     for(n in 1:NSAMPLES){
       parameters$EMISSION_INVENTORY_QUANTILES[[n]] <- lapply(EMISSION_INVENTORIES[[1]],function(x) runif(1))
@@ -180,12 +180,12 @@ scenario_pm_calculations <- function(dist,pp_summary){
   emission_dist <- dist
   
   ## get emission factor by dividing inventory by baseline distance. (We don't need to scale to a whole year, as we are just scaling the background concentration.)
-  ordered_efs <- VEHICLE_INVENTORY$emission_inventory[match(rownames(emission_dist),VEHICLE_INVENTORY$stage_mode)]/emission_dist[,'Baseline']
+  ordered_efs <- VEHICLE_INVENTORY$pm_emission_inventory[match(rownames(emission_dist),VEHICLE_INVENTORY$stage_mode)]/emission_dist[,'Baseline']
   ## get new emission by multiplying emission factor by scenario distance.
   trans_emissions <- emission_dist*t(repmat(ordered_efs,NSCEN+1,1))
   ## augment with travel emission contributions that aren't included in distance calculation
   for(mode_type in which(!VEHICLE_INVENTORY$stage_mode%in%rownames(emission_dist))){
-    em <- VEHICLE_INVENTORY$emission_inventory[mode_type]
+    em <- VEHICLE_INVENTORY$pm_emission_inventory[mode_type]
     if(em>0){
       trans_emissions <- rbind(trans_emissions,rep(em,ncol(trans_emissions)))
       rownames(trans_emissions)[nrow(trans_emissions)] <- VEHICLE_INVENTORY$stage_mode[mode_type]
@@ -203,8 +203,8 @@ scenario_pm_calculations <- function(dist,pp_summary){
   ##RJ rewriting ventilation as a function of MMET_CYCLING and MMET_WALKING, loosely following de Sa's SP model.
   vent_rates <- data.frame(stage_mode=VEHICLE_INVENTORY$stage_mode,stringsAsFactors = F) 
   vent_rates$vent_rate <- BASE_LEVEL_INHALATION_RATE  # L / min
-  vent_rates$vent_rate[vent_rates$stage_mode=='bicycle'] <- BASE_LEVEL_INHALATION_RATE + MMET_CYCLING
-  vent_rates$vent_rate[vent_rates$stage_mode%in%c('walking','walk_to_bus')] <- BASE_LEVEL_INHALATION_RATE + MMET_WALKING
+  vent_rates$vent_rate[vent_rates$stage_mode=='cycle'] <- BASE_LEVEL_INHALATION_RATE + MMET_CYCLING
+  vent_rates$vent_rate[vent_rates$stage_mode%in%c('pedestrian','walk_to_bus')] <- BASE_LEVEL_INHALATION_RATE + MMET_WALKING
   
   ##RJ rewriting exposure ratio as function of ambient PM2.5, as in Goel et al 2015
   ##!! five fixed parameters: BASE_LEVEL_INHALATION_RATE (10), CLOSED_WINDOW_PM_RATIO (0.5), CLOSED_WINDOW_RATIO (0.5), ROAD_RATIO_MAX (3.216), ROAD_RATIO_SLOPE (0.379)
@@ -218,16 +218,16 @@ scenario_pm_calculations <- function(dist,pp_summary){
   # open vehicles experience the ``on_road_off_road_ratio'', and closed vehicles experience the ``in_vehicle_ratio''
   ratio_by_mode <- rbind(on_road_off_road_ratio,in_vehicle_ratio,subway_ratio)
   # assign rates according to the order of the ratio_by_mode array: 1 is open vehicle, 2 is closed vehicle, 3 is subway
-  open_vehicles <- c('walking','walk_to_bus','bicycle','motorcycle','auto_rickshaw','shared_auto','cycle_rickshaw')
-  rail_vehicles <- c('subway','rail')
+  open_vehicles <- c('pedestrian','walk_to_bus','cycle','motorcycle','auto_rickshaw','shared_auto','cycle_rickshaw')
+  rail_vehicles <- c('subway','rail') 
   vent_rates$vehicle_ratio_index <- sapply(vent_rates$stage_mode,function(x) ifelse(x%in%rail_vehicles,3,ifelse(x%in%open_vehicles,1,2)))
   
   pp_summary2 <- pp_summary#lapply(pp_summary,function(y)y[,sapply(colnames(y),function(x)!grepl('_dist',x)),with=F])
   for(i in 1:length(pp_summary2)) colnames(pp_summary2[[i]]) <- sapply(colnames(pp_summary2[[i]]),function(x)gsub('_dur','',x))
   ## multiply through by distance scalars
   for(i in 1:length(pp_summary2)){
-    pp_summary2[[i]][,walking := walking * DISTANCE_SCALAR_WALKING]
-    pp_summary2[[i]][,bicycle := bicycle * DISTANCE_SCALAR_CYCLING]
+    pp_summary2[[i]][,pedestrian := pedestrian * DISTANCE_SCALAR_WALKING]
+    pp_summary2[[i]][,cycle := cycle * DISTANCE_SCALAR_CYCLING]
     pp_summary2[[i]][,motorcycle := motorcycle * DISTANCE_SCALAR_MOTORCYCLE]
     pp_summary2[[i]][,car := car * DISTANCE_SCALAR_CAR_TAXI]
     pp_summary2[[i]][,bus := bus * DISTANCE_SCALAR_PT]
@@ -290,9 +290,9 @@ total_mmet <- function(pp_summary){
     
     scen_travel <- subset(pp_summary2[[i]],participant_id%in%synth_pop_return$participant_id)
     ##!! check units: duration is in hours per week, and mmets multiply hours?
-    scen_travel$cycling_mmet <- scen_travel$bicycle * MMET_CYCLING * DISTANCE_SCALAR_CYCLING
-    if('walk_to_bus'%in%names(scen_travel)) scen_travel$walking <- scen_travel$walking+scen_travel$walk_to_bus
-    scen_travel$walking_mmet <- scen_travel$walking * MMET_WALKING * DISTANCE_SCALAR_WALKING
+    scen_travel$cycling_mmet <- scen_travel$cycle * MMET_CYCLING * DISTANCE_SCALAR_CYCLING
+    if('walk_to_bus'%in%names(scen_travel)) scen_travel$pedestrian <- scen_travel$pedestrian+scen_travel$walk_to_bus
+    scen_travel$walking_mmet <- scen_travel$pedestrian * MMET_WALKING * DISTANCE_SCALAR_WALKING
     
     individual_data <- scen_travel
     

@@ -14,7 +14,7 @@ library(doFuture)
 registerDoFuture()
 plan(multisession)
 
-NSAMPLES <- 4
+NSAMPLES <- 8
 
 #setwd('~/overflow_dropbox/mh-execute/')
 ## overwrite some functions for METAHIT's pp_summary use (instead of TIGTHAT's tripset use)
@@ -45,7 +45,7 @@ INJURY_REPORTING_RATE <- c(40,5) # 1
 CHRONIC_DISEASE_SCALAR <- c(log(1),log(1.1)) #1
 SIN_EXPONENT_SUM <- c(log(1.9),log(1.03)) #2
 CASUALTY_EXPONENT_FRACTION <- c(20,20) # 0.5 # 
-EMISSION_INVENTORY_CONFIDENCE <- 0.9
+PM_EMISSION_INVENTORY_CONFIDENCE <- 0.9
 DISTANCE_SCALAR_CAR_TAXI <- c(log(1),log(1.1)) # 1
 DISTANCE_SCALAR_WALKING <- c(log(1),log(1.1)) # 1
 DISTANCE_SCALAR_PT <- c(log(1),log(1.1)) # 1
@@ -66,7 +66,7 @@ ADD_BUS_DRIVERS <<- F
 # CITY = string. used to identify input files.
 
 # speeds = named list of doubles. average mode speeds.
-# emission_inventory = named list of doubles. vehicle emission factors.
+# pm_emission_inventory = named list of doubles. vehicle emission factors.
 # setup_call_summary_filename = string. Where to write input call summary.
 # DIST_CAT = vector of strings. defines distance categories for scenario generation (5 accra scenarios)
 
@@ -92,7 +92,7 @@ ADD_BUS_DRIVERS <<- F
 # INJURY_LINEARITY = parameter. double: sets scalar. vector: samples from distribution.
 # CASUALTY_EXPONENT_FRACTION = parameter. double: sets scalar. vector: samples from distribution.
 
-# EMISSION_INVENTORY_CONFIDENCE = parameter. double between 0 and 1. 1 = use emission data as they are.
+# PM_EMISSION_INVENTORY_CONFIDENCE = parameter. double between 0 and 1. 1 = use PM 2.5 emission data as they are.
 # DISTANCE_SCALAR_CAR_TAXI = double: sets scalar. vector: samples from distribution.
 # DISTANCE_SCALAR_WALKING = double: sets scalar. vector: samples from distribution.
 # DISTANCE_SCALAR_PT = double: sets scalar. vector: samples from distribution.
@@ -120,8 +120,8 @@ default_speeds <- list(
   bus_driver=15,
   car=21,
   taxi=21,
-  walking=4.8,
-  bicycle=14.5,
+  pedestrian=4.8,
+  cycle=14.5,
   motorcycle=25,
   truck=21,
   van=15,
@@ -138,15 +138,15 @@ default_emission_inventory <- list(
   bus_driver=0.82,
   car=0.228,
   taxi=0.011,
-  walking=0,
-  bicycle=0,
+  pedestrian=0,
+  cycle=0,
   motorcycle=0.011,
   truck=0.859,
   big_truck=0.711,
   other=0.082
 )
 #names(default_emission_inventory) <- tolower(names(default_emission_inventory))
-#EMISSION_INVENTORY <<- default_emission_inventory
+#PM_EMISSION_INVENTORY <<- default_emission_inventory
 ## 2 GET GLOBAL DATA ##################################################
 
 ## copied from ithimr ithim_load_data
@@ -301,7 +301,7 @@ parameters <- ithim_setup_parameters(NSAMPLES=NSAMPLES,
                                      CHRONIC_DISEASE_SCALAR=CHRONIC_DISEASE_SCALAR,
                                      SIN_EXPONENT_SUM=SIN_EXPONENT_SUM,
                                      CASUALTY_EXPONENT_FRACTION=CASUALTY_EXPONENT_FRACTION,
-                                     EMISSION_INVENTORY_CONFIDENCE=EMISSION_INVENTORY_CONFIDENCE,
+                                     PM_EMISSION_INVENTORY_CONFIDENCE=PM_EMISSION_INVENTORY_CONFIDENCE,
                                      DISTANCE_SCALAR_CAR_TAXI=DISTANCE_SCALAR_CAR_TAXI,
                                      DISTANCE_SCALAR_WALKING=DISTANCE_SCALAR_WALKING,
                                      DISTANCE_SCALAR_PT=DISTANCE_SCALAR_PT,
@@ -333,6 +333,7 @@ if(any(c('CASUALTY_EXPONENT_FRACTION','SIN_EXPONENT_SUM',
 city_results <- list()
 }
 for(city_ind in 1:length(city_regions)){
+  city_ind <- 1
   ## 7 GET LOCAL (city) DATA ###############################################
   CITY <<- city_regions[city_ind]
   
@@ -445,15 +446,15 @@ for(city_ind in 1:length(city_regions)){
   ## we effectively have a "SYNTHETIC_POPULATION" per scenario.
   pp_summary <- list()
   dist_mode_names <- c('walk','cycle','mbikedrive','cardrive','vandrive','subway','bus')
-  function_mode_names <- c('walking','bicycle','motorcycle','car','van','subway','bus')
+  function_mode_names <- c('pedestrian','cycle','motorcycle','car','van','subway','bus')
   for(scenario in SCEN_SHORT_NAME){
     #scenario_name_flag <- sapply(names(synth_pop),function(x)grepl(paste0(scenario,'_'),x))
     #scenario_names <- names(synth_pop)[scenario_name_flag]
     # choose subset for each scenario per person summary
     pp_summary[[scenario]] <- synth_pop[,names(synth_pop)%in%c('participant_id','dem_index','census_id','sport_wkmmets'),with=F]
     ## pa
-    pp_summary[[scenario]][all_distances[[scenario]]$pa_distances,on='census_id',bicycle_dur_pa:=i.cycle_dur_pa]
-    pp_summary[[scenario]][all_distances[[scenario]]$pa_distances,on='census_id',walking_dur_pa:=i.walking_dur_pa]
+    pp_summary[[scenario]][all_distances[[scenario]]$pa_distances,on='census_id',cycle_dur_pa:=i.cycle_dur_pa]
+    pp_summary[[scenario]][all_distances[[scenario]]$pa_distances,on='census_id',pedestrian_dur_pa:=i.walking_dur_pa]
     ## inh
     for(modenumber in 1:length(dist_mode_names)){
       cols <- future.apply::future_sapply(colnames(all_distances[[scenario]]$inh_distances),function(x)grepl(dist_mode_names[modenumber],x))
@@ -466,7 +467,7 @@ for(city_ind in 1:length(city_regions)){
   POPULATION$population <- true_pops$N[match(POPULATION$dem_index,true_pops$dem_index)]
   synth_pop <- NULL
   INH_NAMES <<- colnames(pp_summary[[1]])%in%paste0(function_mode_names,'_dur')
-  PA_NAMES <<- colnames(pp_summary[[1]])%in%c('bicycle_dur_pa','walking_dur_pa')
+  PA_NAMES <<- colnames(pp_summary[[1]])%in%c('cycle_dur_pa','pedestrian_dur_pa')
   
   ##!! hard coded to maintain naming conventions etc
   DIST <- matrix(0,nrow=3,ncol=NSCEN+1)
@@ -502,18 +503,18 @@ for(city_ind in 1:length(city_regions)){
     parameters$PM_TRANS_SHARE <- qbeta(parameters$PM_TRANS_SHARE_QUANTILE,pm_share_alpha,pm_share_beta)
   }
   
-  if(EMISSION_INVENTORY_CONFIDENCE<1){
+  if(PM_EMISSION_INVENTORY_CONFIDENCE<1){
     total <- sum(unlist(EMISSION_INVENTORIES[[CITY]]))
-    parameters$EMISSION_INVENTORY <- list()
+    parameters$PM_EMISSION_INVENTORY <- list()
     for(n in 1:NSAMPLES){
       quantiles <- parameters$EMISSION_INVENTORY_QUANTILE[[n]]
-      samples <- future.apply::future_lapply(names(quantiles),function(x) qgamma(quantiles[[x]],shape=EMISSION_INVENTORIES[[CITY]][[x]]/total*dirichlet_pointiness(EMISSION_INVENTORY_CONFIDENCE),scale=1))
+      samples <- future.apply::future_lapply(names(quantiles),function(x) qgamma(quantiles[[x]],shape=EMISSION_INVENTORIES[[CITY]][[x]]/total*dirichlet_pointiness(PM_EMISSION_INVENTORY_CONFIDENCE),scale=1))
       names(samples) <- names(quantiles)
       new_total <- sum(unlist(samples))
-      parameters$EMISSION_INVENTORY[[n]] <- future.apply::future_lapply(samples,function(x)x/new_total)
+      parameters$PM_EMISSION_INVENTORY[[n]] <- future.apply::future_lapply(samples,function(x)x/new_total)
     }
   }else{
-    EMISSION_INVENTORY <<- emission_inventories[[CITY]]
+    PM_EMISSION_INVENTORY <<- emission_inventories[[CITY]]
   }
   
   # other parameters to set by city:
@@ -529,7 +530,7 @@ for(city_ind in 1:length(city_regions)){
   injury_table <<- injury_table
   baseline_injury_model <<- baseline_injury_model
   
-  city_results[[CITY]] <- foreach(sampl = 1:NSAMPLES, .export = ls(globalenv())) %dopar% {
+  city_results[[CITY]] <- foreach(sampl = 1:NSAMPLES, .export = ls(globalenv()), .verbose = T) %dopar% {
     for(i in 1:length(parameters))
       assign(names(parameters)[i],parameters[[i]][[sampl]],pos=1)
     CAS_EXPONENT <<- CASUALTY_EXPONENT_FRACTION * SIN_EXPONENT_SUM
@@ -537,9 +538,9 @@ for(city_ind in 1:length(city_regions)){
     
     ## instead of ithimr::set_vehicle_inventory() # sets vehicle inventory
     vehicle_inventory <- MODE_SPEEDS
-    vehicle_inventory$emission_inventory <- 0
-    for(m in names(EMISSION_INVENTORY))
-      vehicle_inventory$emission_inventory[vehicle_inventory$stage_mode%in%m] <- EMISSION_INVENTORY[[m]]
+    vehicle_inventory$pm_emission_inventory <- 0
+    for(m in names(PM_EMISSION_INVENTORY))
+      vehicle_inventory$pm_emission_inventory[vehicle_inventory$stage_mode%in%m] <- PM_EMISSION_INVENTORY[[m]]
     VEHICLE_INVENTORY <<- vehicle_inventory
     
     ## (1) AP PATHWAY ######################################
@@ -547,14 +548,14 @@ for(city_ind in 1:length(city_regions)){
     ##!! using pa durations for now, which don't differentiate between road types and las.
     ##!! we don't have durations by road type and la. We could map from distances.
     
-    pm_conc <- scenario_pm_calculations(DIST,pp_summary)
+    pm_conc <- scenario_pm_calculations(DIST, pp_summary)
     ## change inh column names
     for(i in 1:length(pp_summary)) colnames(pp_summary[[i]])[INH_NAMES] <- paste0(colnames(pp_summary[[i]])[INH_NAMES],'_inh')
     scenario_pm <- pm_conc$scenario_pm
     pm_conc_pp <- pm_conc$pm_conc_pp
     pm_conc <- NULL
     # Air pollution DR calculation
-    RR_AP_calculations <- ithimr::gen_ap_rr(pm_conc_pp)
+    RR_AP_calculations <- gen_ap_rr(pm_conc_pp)
     pm_conc_pp <- NULL
     
     ## (2) PA PATHWAY ##############################################
@@ -699,7 +700,7 @@ for(city_ind in 1:length(city_regions)){
     }
 
     RR_PA_AP_calculations <- NULL
-
+    
     #profvis(hb_2 <- belens_function(pif_table) )
     #sort(sapply(ls(),function(x)object.size(get(x))))
 
@@ -752,7 +753,7 @@ for(type in c('deaths','ylls')){
   pdf(paste0('outputs/figures/',type,'.pdf'),width=9,height=6); 
   par(mar=c(6,5,1,1))
   x<-barplot(outcomes[[type]]$median,las=2,cex.axis=1.5,cex.lab=1.5,ylab=paste0('Thousand ',type,' pp averted in Scenario'),xlab='',cex.names=1.5,beside=T,col=cols)
-  legend(fill=cols,bty='n',legend=city_regions,x=prod(dim(outcomes[[type]][[1]])-1),y=max(outcomes[[type]]$median))
+  legend("topright", fill=cols,bty='n',legend=city_regions, y = max(outcomes[[type]]$median))
   dev.off()
 }
 
@@ -763,7 +764,7 @@ for(type in c('deaths','ylls')){
        cex=1.5,col=cols,pch=15,frame=F,ylim=c(min(outcomes[[type]]$lower),max(outcomes[[type]]$upper)))
   abline(h=0)
   #legend(fill=cols,bty='n',legend=city_regions,x=prod(dim(outcomes[[type]][[1]])-1),y=max(outcomes[[type]]$upper))
-  legend(fill=cols,bty='n',legend=city_regions,x=prod(dim(outcomes[[type]][[1]])-2),y=min(outcomes[[type]]$median))
+  legend("topright", fill=cols,bty='n',legend = city_regions,y=min(outcomes[[type]]$median))
   for(i in 1:nrow(x)) for(j in 1:ncol(x)) 
     lines(c(x[i,j],x[i,j]),c(outcomes[[type]]$lower[i,j],outcomes[[type]]$upper[i,j]),col=cols[i],lwd=2)
   axis(1,at=x[5,],labels=col_names,las=2)
@@ -773,21 +774,21 @@ for(type in c('deaths','ylls')){
 
 ## 11 VOI ############################################################
 
-#if('EMISSION_INVENTORY'%in%names(parameters)){
-#  for(i in 1:length(parameters$EMISSION_INVENTORY[[1]])){
-#    extract_vals <- sapply(parameters$EMISSION_INVENTORY,function(x)x[[i]])
+#if('PM_EMISSION_INVENTORY'%in%names(parameters)){
+#  for(i in 1:length(parameters$PM_EMISSION_INVENTORY[[1]])){
+#    extract_vals <- sapply(parameters$PM_EMISSION_INVENTORY,function(x)x[[i]])
 #    if(sum(extract_vals)!=0)
-#      parameters[[paste0('EMISSION_INVENTORY_',names(parameters$EMISSION_INVENTORY[[1]])[i])]] <- extract_vals
+#      parameters[[paste0('EMISSION_INVENTORY_',names(parameters$PM_EMISSION_INVENTORY[[1]])[i])]] <- extract_vals
 #  }
 #}
 
 parameter_store <- parameters
-for(list_names in c('DR_AP_LIST','PM_CONC_BASE_QUANTILE','PM_TRANS_SHARE_QUANTILE','EMISSION_INVENTORY','EMISSION_INVENTORY_QUANTILES'))
+for(list_names in c('DR_AP_LIST','PM_CONC_BASE_QUANTILE','PM_TRANS_SHARE_QUANTILE','PM_EMISSION_INVENTORY','PM_EMISSION_INVENTORY_QUANTILES'))
   parameters[[list_names]] <- NULL
 parameter_samples <- do.call(cbind,parameters)
 saveRDS(parameter_samples,'outputs/files/parameter_samples.Rds')
 parameter_samples <- readRDS('outputs/files/parameter_samples.Rds')
-#parameter_samples <- paramete  r_samples[,!colnames(parameter_samples)%in%c('DR_AP_LIST','PM_CONC_BASE_QUANTILE','PM_TRANS_SHARE_QUANTILE','EMISSION_INVENTORY','EMISSION_INVENTORY_QUANTILES')]
+#parameter_samples <- paramete  r_samples[,!colnames(parameter_samples)%in%c('DR_AP_LIST','PM_CONC_BASE_QUANTILE','PM_TRANS_SHARE_QUANTILE','PM_EMISSION_INVENTORY','EMISSION_INVENTORY_QUANTILES')]
 
 plot_cols <- future.apply::future_sapply(names(city_results[[1]][[1]][[1]]),function(x)grepl('scen',x)&!(grepl('ac',x)|grepl('neo',x)))
 col_names <- future.apply::future_sapply(names(city_results[[1]][[1]][[1]])[plot_cols],function(x) dplyr::last(strsplit(x,'_')[[1]]))
@@ -801,15 +802,14 @@ for(i in 1:length(city_regions)){
 
 
 ## get basic evppi matrix
-numcores <- 4
-evppi <- lapply(1:ncol(parameter_samples), 
+evppi <- future.apply::future_lapply(1:ncol(parameter_samples), 
        FUN = ithimr:::compute_evppi,
        as.data.frame(parameter_samples),
        outcome, 
        nscen=NSCEN,
        all=T,
        multi_city_outcome=F)
-                  #mc.cores = ifelse(Sys.info()[['sysname']] == "Windows",  1,  numcores))
+
 evppi <- do.call(rbind,evppi)
 colnames(evppi) <- apply(expand.grid(SCEN_SHORT_NAME[2:length(SCEN_SHORT_NAME)],names(outcome)),1,function(x)paste0(x,collapse='_'))
 rownames(evppi) <- colnames(parameter_samples)
@@ -845,10 +845,10 @@ if("EMISSION_INVENTORY_QUANTILES"%in%names(parameter_store)&&NSAMPLES>=1024){
     city <- city_regions[ci]
     sources[[ci]] <- matrix(0,nrow=NSAMPLES,ncol=length(parameter_store$EMISSION_INVENTORY_QUANTILES[[1]]))
     total <- sum(unlist(EMISSION_INVENTORIES[[city]]))
-    parameter_store$EMISSION_INVENTORY <- list()
+    parameter_store$PM_EMISSION_INVENTORY <- list()
     for(n in 1:NSAMPLES){
       quantiles <- parameter_store$EMISSION_INVENTORY_QUANTILE[[n]]
-      samples <- future.apply::future_sapply(names(quantiles),function(x) qgamma(quantiles[[x]],shape=EMISSION_INVENTORIES[[city]][[x]]/total*dirichlet_pointiness(EMISSION_INVENTORY_CONFIDENCE),scale=1))
+      samples <- future.apply::future_sapply(names(quantiles),function(x) qgamma(quantiles[[x]],shape=EMISSION_INVENTORIES[[city]][[x]]/total*dirichlet_pointiness(PM_EMISSION_INVENTORY_CONFIDENCE),scale=1))
       new_total <- sum(unlist(samples))
       sources[[ci]][n,] <- samples/new_total
     }
@@ -867,7 +867,7 @@ if("EMISSION_INVENTORY_QUANTILES"%in%names(parameter_store)&&NSAMPLES>=1024){
   evppi <- evppi[keep_names,]
   
   evppi <- rbind(evppi,future.apply::future_sapply(evppi_for_emissions,function(x)x[x>0]))
-  rownames(evppi)[nrow(evppi)] <- 'EMISSION_INVENTORY'
+  rownames(evppi)[nrow(evppi)] <- 'PM_EMISSION_INVENTORY'
 }
 print(evppi)
 
@@ -920,4 +920,4 @@ evppi <- apply(evppi,2,function(x){x[is.na(x)]<-0;x})
   for(i in seq(0,NSCEN*length(outcome),by=NSCEN)) abline(v=i)
   for(i in seq(0,length(labs),by=NSCEN)) abline(h=i)
   dev.off()
-  }
+}
