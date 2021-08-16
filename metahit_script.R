@@ -14,7 +14,7 @@ library(doFuture)
 registerDoFuture()
 plan(multisession)
 
-NSAMPLES <- 8
+NSAMPLES <- 16
 
 #setwd('~/overflow_dropbox/mh-execute/')
 ## overwrite some functions for METAHIT's pp_summary use (instead of TIGTHAT's tripset use)
@@ -271,8 +271,6 @@ synth_pop_list_in_la_order <- match(la_names,city_regions_dt$lad14cd)
 print(synth_pop_list_in_la_order)
 
 
-
-
 inventory <- read.csv('inputs/background-air-pollution/emission_inventory.csv')
 emission_inventories <- list()
 for(city in city_regions){
@@ -283,7 +281,7 @@ for(city in city_regions){
     emission_inventories[[city]][[colnames(inventory)[i]]] <- inventory[row_index,i] 
 }
 
-EMISSION_INVENTORIES <<- emission_inventories
+PM_EMISSION_INVENTORIES <<- emission_inventories
 
 
 ## 5 SET PARAMETERS ################################################
@@ -332,6 +330,7 @@ if(any(c('CASUALTY_EXPONENT_FRACTION','SIN_EXPONENT_SUM',
 
 city_results <- list()
 }
+
 for(city_ind in 1:length(city_regions)){
   
   ## 7 GET LOCAL (city) DATA ###############################################
@@ -378,9 +377,9 @@ for(city_ind in 1:length(city_regions)){
   ##!! this isn't the case for metahit: age category 15-19 vs 16-19. therefore, have added '-1' for now.
   
   burden_of_disease$rate <- 0
-
+  
   for (i in 1:nrow(burden_of_disease)){
-
+    
     local_df <- burden_of_disease[i,]
     
     subtab <- dplyr::filter(GBD_DATA, measure == local_df$measure & sex == local_df$sex & cause == local_df$cause &
@@ -426,7 +425,7 @@ for(city_ind in 1:length(city_regions)){
   # take subset of columns
   for(i in 1:length(synth_pops)) synth_pops[[i]] <- 
     synth_pops[[i]][,future.apply::future_sapply(colnames(synth_pops[[i]]),
-                            function(x)x%in%c('census_id','demogindex','sport_wkmmets')
+                                                 function(x)x%in%c('census_id','demogindex','sport_wkmmets')
     ),with=F]
   # rename
   names(synth_pops) <- la_names[la_indices]
@@ -460,7 +459,7 @@ for(city_ind in 1:length(city_regions)){
       cols <- future.apply::future_sapply(colnames(all_distances[[scenario]]$inh_distances),function(x)grepl(dist_mode_names[modenumber],x))
       pp_summary[[scenario]][,c(paste0(function_mode_names[modenumber],'_dur')):=0]
       pp_summary[[scenario]][match(all_distances[[scenario]]$inh_distances$census_id,pp_summary[[scenario]]$census_id),paste0(function_mode_names[modenumber],'_dur'):=rowSums(all_distances[[scenario]]$inh_distances[,cols,with=F])]
-      }
+    }
     names(pp_summary[[scenario]])[names(pp_summary[[scenario]])=='sport_wkmmets'] <- 'work_ltpa_marg_met'
   }
   true_pops <- pp_summary[[1]][,.N,by='dem_index']
@@ -504,11 +503,11 @@ for(city_ind in 1:length(city_regions)){
   }
   
   if(PM_EMISSION_INVENTORY_CONFIDENCE<1){
-    total <- sum(unlist(EMISSION_INVENTORIES[[CITY]]))
+    total <- sum(unlist(PM_EMISSION_INVENTORIES[[CITY]]))
     parameters$PM_EMISSION_INVENTORY <- list()
     for(n in 1:NSAMPLES){
-      quantiles <- parameters$EMISSION_INVENTORY_QUANTILE[[n]]
-      samples <- future.apply::future_lapply(names(quantiles),function(x) qgamma(quantiles[[x]],shape=EMISSION_INVENTORIES[[CITY]][[x]]/total*dirichlet_pointiness(PM_EMISSION_INVENTORY_CONFIDENCE),scale=1))
+      quantiles <- parameters$PM_EMISSION_INVENTORY_QUANTILE[[n]]
+      samples <- future.apply::future_lapply(names(quantiles),function(x) qgamma(quantiles[[x]],shape=PM_EMISSION_INVENTORIES[[CITY]][[x]]/total*dirichlet_pointiness(PM_EMISSION_INVENTORY_CONFIDENCE),scale=1))
       names(samples) <- names(quantiles)
       new_total <- sum(unlist(samples))
       parameters$PM_EMISSION_INVENTORY[[n]] <- future.apply::future_lapply(samples,function(x)x/new_total)
@@ -559,7 +558,7 @@ for(city_ind in 1:length(city_regions)){
     pm_conc_pp <- NULL
     
     ## (2) PA PATHWAY ##############################################
-
+    
     # Calculate total mMETs
     ## pp_summary and SYNTHETIC_POPULATION are basically the same thing.
     # Only difference is pp_summary is a list for scenarios. This could be more efficient.
@@ -572,32 +571,32 @@ for(city_ind in 1:length(city_regions)){
     ##!! alternatively, re-write ITHIM-R functions within metahit_functions.R so that scenario_pm_calculations and total_mmet look for different columns, e.g. _dur_inh and _dur_pa.
     for(i in 1:length(pp_summary)) colnames(pp_summary[[i]])[PA_NAMES] <- paste0(colnames(pp_summary[[i]])[PA_NAMES],'_pa')
     for(i in 1:length(pp_summary)) colnames(pp_summary[[i]]) <- future.apply::future_sapply(colnames(pp_summary[[i]]),function(x) gsub('_inh','',x))
-
+    
     # Physical activity calculation
     RR_PA_calculations <- ithimr::gen_pa_rr(mmets_pp)
     mmets_pp <- NULL
-
+    
     ## (3) COMBINE (1) AND (2) #################################################
-
+    
     # Physical activity and air pollution combined
     RR_PA_AP_calculations <- combined_rr_ap_pa(RR_PA_calculations,RR_AP_calculations)
     RR_PA_calculations <- RR_AP_calculations <- NULL
-
+    
     ## (4) INJURIES ##############################################
-
+    
     # get city data
     city_table <- injury_table
     for(i in 1:2)
       for(j in 1:2)
         city_table[[i]][[j]] <- injury_table[[i]][[j]][injury_table[[i]][[j]]$region==CITY,]
     ## for each scenario, add/subtract distance
-
+    
     # get indices for fast matching data
     roads <- unique(injury_table[[1]][[1]]$road)
-
+    
     model_modes <- c('pedestrian','cyclist','motorcycle','car/taxi')
     distance_scalars <- c(DISTANCE_SCALAR_WALKING,DISTANCE_SCALAR_CYCLING,DISTANCE_SCALAR_MOTORCYCLE,DISTANCE_SCALAR_CAR_TAXI)
-
+    
     injury_deaths <- secondary_deaths <- list()
     # get prediction for baseline (using smoothed data, not raw data)
     for(i in 1:2)
@@ -620,7 +619,7 @@ for(city_ind in 1:length(city_regions)){
     injury_ratios_for_bz <- list()
     injury_ratios_for_bz[[1]] <- injury_predictions_for_bz_baseline
     injury_ratios_for_bz[[1]][,c(1:ncol(injury_ratios_for_bz[[1]]))[-1]] <- injury_ratios_for_bz[[1]][,-1]/injury_predictions_for_bz_baseline[,-1]
-
+    
     ## update distances
     for(scen in 0:NSCEN+1){
       scen_name <- SCEN_SHORT_NAME[scen]
@@ -635,9 +634,9 @@ for(city_ind in 1:length(city_regions)){
     }
     for(scen in 1:NSCEN+1){
       scen_name <- SCEN_SHORT_NAME[scen]
-
+      
       city_table <- baseline_city_table
-
+      
       # casualty distances
       for(j in 1:2){
         # edit dataset with new distances
@@ -650,7 +649,7 @@ for(city_ind in 1:length(city_regions)){
         city_table[[i]][[1]]$strike_distance <- city_table[[i]][[1]][[paste0(scen_name,'_strike_distance')]]
         city_table[[i]][[1]]$strike_distance_sum <- city_table[[i]][[1]][[paste0(scen_name,'_strike_distance_sum')]]
       }
-
+      
       # get prediction for scenario using modified smoothed data, not raw data
       for(i in 1:2)
         for(j in 1:2)
@@ -671,10 +670,10 @@ for(city_ind in 1:length(city_regions)){
     # store reference number of deaths and ylls
     ref_injuries <- deaths_yll_injuries$ref_injuries
     ##TODO report by mode. covert to burden. then sum.
-
-
+    
+    
     ## (5) COMBINE (3) AND (4)###########################################
-
+    
     # Combine health burden from disease and injury
     (hb <- health_burden(RR_PA_AP_calculations,deaths_yll_injuries$deaths_yll_injuries))
     (pif_table <- health_burden_2(RR_PA_AP_calculations))
@@ -684,12 +683,12 @@ for(city_ind in 1:length(city_regions)){
         pif_table[[paste0(SCEN_SHORT_NAME[scen],'_',injury_col_name)]] <- injury_ratios_for_bz[[scen]][[i]]/injury_ratios_for_bz[[1]][[i]]
       }
     }
-
+    
     ## add in population column
     for(i in 1:length(hb))
       hb[[i]] <- left_join(hb[[i]],POPULATION[,c(colnames(POPULATION)%in%c('population','dem_index'))],by='dem_index')
-
-
+    
+    
     pathway_hb <- NULL
     constant_mode <- F
     if(constant_mode) {
@@ -698,17 +697,17 @@ for(city_ind in 1:length(city_regions)){
       x11(); plot(pif_table$scen_pif_pa_ap_noise_no2_ihd,1-(1-pathway_pif_table$scen_pif_pa_ihd)*(1-pathway_pif_table$scen_pif_ap_ihd))
       lines(c(0,1),c(0,1))
     }
-
+    
     RR_PA_AP_calculations <- NULL
     
     #profvis(hb_2 <- belens_function(pif_table) )
     #sort(sapply(ls(),function(x)object.size(get(x))))
-
+    
     ## Rob, added this line to save to my repo, but not sure if you have it too, so I commented it out.
     # write_csv(hb_2, '../mh-mslt/data/pif.csv')
-
+    
     hb
-
+    
   }
   ## clear memory
   SYNTHETIC_POPULATION <<- NULL
@@ -788,7 +787,7 @@ for(list_names in c('DR_AP_LIST','PM_CONC_BASE_QUANTILE','PM_TRANS_SHARE_QUANTIL
 parameter_samples <- do.call(cbind,parameters)
 saveRDS(parameter_samples,'outputs/files/parameter_samples.Rds')
 parameter_samples <- readRDS('outputs/files/parameter_samples.Rds')
-#parameter_samples <- paramete  r_samples[,!colnames(parameter_samples)%in%c('DR_AP_LIST','PM_CONC_BASE_QUANTILE','PM_TRANS_SHARE_QUANTILE','PM_EMISSION_INVENTORY','EMISSION_INVENTORY_QUANTILES')]
+#parameter_samples <- paramete  r_samples[,!colnames(parameter_samples)%in%c('DR_AP_LIST','PM_CONC_BASE_QUANTILE','PM_TRANS_SHARE_QUANTILE','PM_EMISSION_INVENTORY','PM_EMISSION_INVENTORY_QUANTILES')]
 
 plot_cols <- future.apply::future_sapply(names(city_results[[1]][[1]][[1]]),function(x)grepl('scen',x)&!(grepl('ac',x)|grepl('neo',x)))
 col_names <- future.apply::future_sapply(names(city_results[[1]][[1]][[1]])[plot_cols],function(x) dplyr::last(strsplit(x,'_')[[1]]))
@@ -800,15 +799,15 @@ for(i in 1:length(city_regions)){
   outcome[[CITY]] <- t(sapply(city_results[[CITY]],function(x)colSums(x[[type]][,plot_cols])))
 }
 
-
 ## get basic evppi matrix
 evppi <- future.apply::future_lapply(1:ncol(parameter_samples), 
-       FUN = ithimr:::compute_evppi,
+       FUN = ithimr::compute_evppi,
        as.data.frame(parameter_samples),
        outcome, 
        nscen=NSCEN,
        all=T,
        multi_city_outcome=F)
+
 
 evppi <- do.call(rbind,evppi)
 colnames(evppi) <- apply(expand.grid(SCEN_SHORT_NAME[2:length(SCEN_SHORT_NAME)],names(outcome)),1,function(x)paste0(x,collapse='_'))
@@ -839,16 +838,16 @@ if("AP_DOSE_RESPONSE_QUANTILE_ALPHA_lri"%in%names(parameters)&&NSAMPLES>=1024){
   evppi <- evppi[keep_names,]
 }
 
-if("EMISSION_INVENTORY_QUANTILES"%in%names(parameter_store)&&NSAMPLES>=1024){
+if("PM_EMISSION_INVENTORY_QUANTILES"%in%names(parameter_store)&&NSAMPLES>=1024){
   sources <- list()
   for(ci in 1:length(city_regions)){
     city <- city_regions[ci]
-    sources[[ci]] <- matrix(0,nrow=NSAMPLES,ncol=length(parameter_store$EMISSION_INVENTORY_QUANTILES[[1]]))
-    total <- sum(unlist(EMISSION_INVENTORIES[[city]]))
+    sources[[ci]] <- matrix(0,nrow=NSAMPLES,ncol=length(parameter_store$PM_EMISSION_INVENTORY_QUANTILES[[1]]))
+    total <- sum(unlist(PM_EMISSION_INVENTORIES[[city]]))
     parameter_store$PM_EMISSION_INVENTORY <- list()
     for(n in 1:NSAMPLES){
-      quantiles <- parameter_store$EMISSION_INVENTORY_QUANTILE[[n]]
-      samples <- future.apply::future_sapply(names(quantiles),function(x) qgamma(quantiles[[x]],shape=EMISSION_INVENTORIES[[city]][[x]]/total*dirichlet_pointiness(PM_EMISSION_INVENTORY_CONFIDENCE),scale=1))
+      quantiles <- parameter_store$PM_EMISSION_INVENTORY_QUANTILE[[n]]
+      samples <- future.apply::future_sapply(names(quantiles),function(x) qgamma(quantiles[[x]],shape=PM_EMISSION_INVENTORIES[[city]][[x]]/total*dirichlet_pointiness(PM_EMISSION_INVENTORY_CONFIDENCE),scale=1))
       new_total <- sum(unlist(samples))
       sources[[ci]][n,] <- samples/new_total
     }
