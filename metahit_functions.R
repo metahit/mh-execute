@@ -98,9 +98,9 @@ ithim_setup_parameters <- function(NSAMPLES = 1,
   }
   
   if(PM_EMISSION_INVENTORY_CONFIDENCE<1){
-    parameters$EMISSION_INVENTORY_QUANTILES <- list()
+    parameters$PM_EMISSION_INVENTORY_QUANTILES <- list()
     for(n in 1:NSAMPLES){
-      parameters$EMISSION_INVENTORY_QUANTILES[[n]] <- lapply(EMISSION_INVENTORIES[[1]],function(x) runif(1))
+      parameters$PM_EMISSION_INVENTORY_QUANTILES[[n]] <- lapply(PM_EMISSION_INVENTORIES[[1]],function(x) runif(1))
     }
   }
   
