@@ -286,7 +286,7 @@ total_mmet <- function(pp_summary){
   synth_pop_return <- pp_summary2[[1]]
   for (i in 1:length(SCEN)){
     synth_pop_temp <- pp_summary2[[i]]
-    synth_pop_return[[paste0(SCEN_SHORT_NAME[i],'_mmet')]] <- synth_pop_temp$work_ltpa_marg_met * BACKGROUND_PA_SCALAR
+    synth_pop_return[[paste0(SCEN_SHORT_NAME[i],'_mmet')]] <- ifelse(any(names(synth_pop_temp) == 'work_ltpa_marg_met'), synth_pop_temp$work_ltpa_marg_met * BACKGROUND_PA_SCALAR, 0)
     
     scen_travel <- subset(pp_summary2[[i]],participant_id%in%synth_pop_return$participant_id)
     ##!! check units: duration is in hours per week, and mmets multiply hours?
