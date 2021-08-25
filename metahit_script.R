@@ -14,16 +14,15 @@ library(stringr)
 registerDoFuture()
 plan(multisession)
 
+
+# Increase maximum size of global variables 
 options(future.globals.maxSize= 891289600)
 
 for (global_scen in c('cyc_scen', 'car_scen')){
   
-  # global_scen <- 'cyc_scen'
-  
   # Set sample size
   NSAMPLES <<- 4
   
-  #setwd('~/overflow_dropbox/mh-execute/')
   ## overwrite some functions for METAHIT's pp_summary use (instead of TIGTHAT's tripset use)
   ## in general, the overwriting functions are from ithimr's uncertain_travel branch
   ## in general, ithimr functions are written ithimr::function()
@@ -265,11 +264,9 @@ for (global_scen in c('cyc_scen', 'car_scen')){
   city_regions_dt$city_index <- la_city_indices
   if(INCLUDE_LONDON==F) city_regions <- city_regions[city_regions!='london']
   
+  # Uncomment it to run for just one city 
   # city_regions <- city_regions[1]
   
-  # if (global_scen == 'car_scen')
-  #   browser()
-  # global_scen <- 'car_scen'
   ## DATA FILES FOR CITY
   ##!! what are we doing with modes tube, train?
   synth_pop_path <- paste0('inputs/scenarios/', global_scen, '/')
@@ -341,7 +338,6 @@ for (global_scen in c('cyc_scen', 'car_scen')){
   
   city_results <- list()
   for(city_ind in 1:length(city_regions)){
-    # city_ind <- 1
     ## 7 GET LOCAL (city) DATA ###############################################
     CITY <<- city_regions[city_ind]
     
@@ -532,16 +528,16 @@ for (global_scen in c('cyc_scen', 'car_scen')){
     #DISTANCE_SCALAR_CYCLING
     #DISTANCE_SCALAR_MOTORCYCLE
     
-    # parameters <<- parameters
-    # DIST <<- DIST
-    # pp_summary <<- pp_summary
-    # injury_table <<- injury_table
-    # baseline_injury_model <<- baseline_injury_model
-    
     city_results[[CITY]] <- foreach(sampl = 1:NSAMPLES, .export = ls(globalenv()), .verbose = T) %dopar% {
+      # Uncomment for non-parallel execution
       # city_results[[CITY]] <- lapply(1:NSAMPLES, function(sampl) {
+      
+      # TESTING: run only for 1 sampl
       # sampl <- 1
+      
+      # Print sampl
       print(sampl)
+      
       for(i in 1:length(parameters))
         assign(names(parameters)[i],parameters[[i]][[sampl]],pos=1)
       CAS_EXPONENT <<- CASUALTY_EXPONENT_FRACTION * SIN_EXPONENT_SUM
@@ -601,7 +597,6 @@ for (global_scen in c('cyc_scen', 'car_scen')){
       
       # get city data
       city_table <- injury_table
-      # browser()
       
       for(i in 1:2)
         for(j in 1:2)
@@ -679,6 +674,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
         secondary_deaths[[scen]] <- injury_predictions[[2]]
       }
       #city_table <- baseline_city_table <- scen_diff <- NULL
+      
       # convert to ithimr format
       injuries <- cbind(do.call(rbind,injury_deaths),rep(SCEN,each=nrow(injury_deaths[[1]])))
       names(injuries) <- c('dem_index','Deaths','scenario')
@@ -705,7 +701,6 @@ for (global_scen in c('cyc_scen', 'car_scen')){
       for(i in 1:length(hb))
         hb[[i]] <- left_join(hb[[i]],POPULATION[,c(colnames(POPULATION)%in%c('population','dem_index'))],by='dem_index')
       
-      
       pathway_hb <- NULL
       constant_mode <- F
       if(constant_mode) {
@@ -715,6 +710,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
         lines(c(0,1),c(0,1))
       }
       
+      # Store pif table
       hb[["pif_table"]] <- pif_table
       
       # RR_PA_AP_calculations <- NULL
@@ -727,9 +723,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
       ## Rob, added this line to save to my repo, but not sure if you have it too, so I commented it out.
       # write_csv(hb_2, '../mh-mslt/data/pif.csv')
       
-      #list(hb, hb_2)
       hb
-      
     }
     ## clear memory
     # SYNTHETIC_POPULATION <<- NULL
