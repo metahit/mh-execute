@@ -1,4 +1,3 @@
-
 rm(list=ls())
 library(ithimr)
 library(splines)
@@ -15,253 +14,262 @@ library(stringr)
 registerDoFuture()
 plan(multisession)
 
-# Set sample size
-NSAMPLES <- 8
-
-#setwd('~/overflow_dropbox/mh-execute/')
-## overwrite some functions for METAHIT's pp_summary use (instead of TIGTHAT's tripset use)
-## in general, the overwriting functions are from ithimr's uncertain_travel branch
-## in general, ithimr functions are written ithimr::function()
-source('metahit_functions.R')
-source('mslt_functions.R')
-
-## 1 SET GLOBAL VARIABLES ##########################################
-
-## set variables, which are TIGTHAT studies' input parameters.
-
-## general settings
-setup_call_summary_filename <- 'setup_call_summary.txt'
-AGE_RANGE <- c(0,150)
-REFERENCE_SCENARIO <- 'Baseline'
-
-## placeholders for uncertain parameters
-MMET_CYCLING <- c(log(4.63),log(1.2)) # 4.63 # 
-MMET_WALKING <- c(log(2.53),log(1.1)) # 2.53 # 
-PM_CONC_BASE_QUANTILE <- T
-PM_TRANS_SHARE_QUANTILE <- T#F 
-PA_DOSE_RESPONSE_QUANTILE <- T#F
-AP_DOSE_RESPONSE_QUANTILE <- T#F
-BACKGROUND_PA_SCALAR <- c(log(1),log(1.1)) # 1 
-BACKGROUND_PA_CONFIDENCE <- 1
-INJURY_REPORTING_RATE <- c(40,5) # 1
-CHRONIC_DISEASE_SCALAR <- c(log(1),log(1.1)) #1
-SIN_EXPONENT_SUM <- c(log(1.9),log(1.03)) #2
-CASUALTY_EXPONENT_FRACTION <- c(20,20) # 0.5 # 
-PM_EMISSION_INVENTORY_CONFIDENCE <- 0.9
-DISTANCE_SCALAR_CAR_TAXI <- c(log(1),log(1.1)) # 1
-DISTANCE_SCALAR_WALKING <- c(log(1),log(1.1)) # 1
-DISTANCE_SCALAR_PT <- c(log(1),log(1.1)) # 1
-DISTANCE_SCALAR_CYCLING <- c(log(1),log(1.1)) # 1
-DISTANCE_SCALAR_MOTORCYCLE <- c(log(1),log(1.1)) # 1
-
-DIABETES_IHD_RR_F <<- 2.82 ## 2.35
-DIABETES_STROKE_RR_F <<- 2.28 ## 1.93
-DIABETES_IHD_RR_M <<- 2.16 ## 2.16
-DIABETES_STROKE_RR_M <<- 1.83 ## 1.6
-
-## things we need for ithim-r to work
-ADD_TRUCK_DRIVERS <<- F
-ADD_BUS_DRIVERS <<- F
-
-## SUMMARY OF INPUTS
-# seed = double. sets seed to allow some reproducibility.
-# CITY = string. used to identify input files.
-
-# speeds = named list of doubles. average mode speeds.
-# pm_emission_inventory = named list of doubles. vehicle emission factors.
-# setup_call_summary_filename = string. Where to write input call summary.
-# DIST_CAT = vector of strings. defines distance categories for scenario generation (5 accra scenarios)
-
-# AGE_RANGE = vector of length 2, specifying the minimum and maximum ages to be used in the model. Note that the actual 
-# maximum and minimum will coincide with boundaries in the population and GBD files.
-
-# REFERENCE_SCENARIO = string: at present, one of 'Baseline' or 'Scenario N' where N is an integer
-
-# NSAMPLES = integer: number of samples to take for each parameter to be sampled
-
-# MMET_CYCLING = parameter. double: sets cycling (M)METs. vector: samples from distribution.
-# MMET_WALKING = parameter. double: sets walking (M)METs. vector: samples from distribution.
-# PM_CONC_BASE = parameter. double: sets background PM. vector: samples from distribution.
-# PM_TRANS_SHARE = parameter. double: sets PM proportion that comes from transport. vector: samples from distribution.
-
-# PA_DOSE_RESPONSE_QUANTILE = logic. T: PA dose--response relationship is sampled. F: relationship is fixed.
-# AP_DOSE_RESPONSE_QUANTILE = logic. T: AP dose--response relationship is sampled. F: relationship is fixed.
-# CHRONIC_DISEASE_SCALAR = parameter. double: sets scalar for chronic disease background burden. vector: samples from distribution.
-
-# BACKGROUND_PA_SCALAR = parameter. double: sets scalar for background PA. vector: samples from distribution.
-# BACKGROUND_PA_CONFIDENCE = parameter. double between 0 and 1. 1 = use PA data as they are.
-# INJURY_REPORTING_RATE = parameter. double: sets scalar for injury counts (inverse). vector: samples from distribution.
-# INJURY_LINEARITY = parameter. double: sets scalar. vector: samples from distribution.
-# CASUALTY_EXPONENT_FRACTION = parameter. double: sets scalar. vector: samples from distribution.
-
-# PM_EMISSION_INVENTORY_CONFIDENCE = parameter. double between 0 and 1. 1 = use PM 2.5 emission data as they are.
-# DISTANCE_SCALAR_CAR_TAXI = double: sets scalar. vector: samples from distribution.
-# DISTANCE_SCALAR_WALKING = double: sets scalar. vector: samples from distribution.
-# DISTANCE_SCALAR_PT = double: sets scalar. vector: samples from distribution.
-# DISTANCE_SCALAR_CYCLING = double: sets scalar. vector: samples from distribution.
-# DISTANCE_SCALAR_MOTORCYCLE = double: sets scalar. vector: samples from distribution.
-
-
-## setting all the global variables at the beginning to minimise ITHIM computation
-## copied from ithimr::run_ithim_setup
-
-## SET GLOBAL VALUES
-## PROGRAMMING VARIABLES
-
-## fixed parameters for AP inhalation
-BASE_LEVEL_INHALATION_RATE <<- 1
-CLOSED_WINDOW_PM_RATIO <<- 0.5
-CLOSED_WINDOW_RATIO <<- 0.9
-ROAD_RATIO_MAX <<- 3.216
-ROAD_RATIO_SLOPE <<- 0.379
-SUBWAY_PM_RATIO <<- 0.8
-
-## default speeds that can be edited by input. 
-default_speeds <- list(
-  bus=15,
-  bus_driver=15,
-  car=21,
-  taxi=21,
-  pedestrian=4.8,
-  cycle=14.5,
-  motorcycle=25,
-  truck=21,
-  van=15,
-  subway=28,
-  rail=35,
-  shared_taxi=21
-)
-TRAVEL_MODES <<- tolower(names(default_speeds))
-MODE_SPEEDS <<- data.frame(stage_mode = TRAVEL_MODES, speed = unlist(default_speeds), stringsAsFactors = F)
-
-## default emission contributions that can be edited by input. 
-default_emission_inventory <- list(
-  bus=0,
-  bus_driver=0.82,
-  car=0.228,
-  taxi=0.011,
-  pedestrian=0,
-  cycle=0,
-  motorcycle=0.011,
-  truck=0.859,
-  big_truck=0.711,
-  other=0.082
-)
-#names(default_emission_inventory) <- tolower(names(default_emission_inventory))
-#PM_EMISSION_INVENTORY <<- default_emission_inventory
-## 2 GET GLOBAL DATA ##################################################
-
-## copied from ithimr ithim_load_data
-global_path <- file.path(find.package('ithimr',lib.loc=.libPaths()), 'extdata/global/')
-## for windows??
-global_path <- paste0(global_path, "/")
-
-## DATA FILES FOR MODEL  
-DISEASE_INVENTORY <<- read.csv(paste0("inputs/dose_response/disease_outcomes_lookup.csv"))
-DR_AP <<- read.csv(paste0(global_path,"dose_response/drap/dose_response.csv"))
-# root of list_of_files matches DISEASE_INVENTORY$pa_acronym
-list_of_files <- list.files(path = paste0(global_path,"dose_response/drpa/extdata/"), recursive = TRUE, pattern = "\\.csv$", full.names = TRUE)
-for (i in 1:length(list_of_files)){
-  assign(stringr::str_sub(basename(list_of_files[[i]]), end = -5),
-         readr::read_csv(list_of_files[[i]],col_types = cols()),
-         pos = 1)
-}
-
-BACKGROUND_POLLUION_TABLE <<- read.csv('inputs/background-air-pollution/1_apmeans.csv')
-
-disease_short_names <- read.csv("inputs/mslt/disease_names.csv")
-DISEASE_SHORT_NAMES <<- disease_short_names
-
-
-demography <- readxl::read_xlsx('inputs/scenarios/190330_sp_ind_codebook.xlsx',sheet=2,col_names=F)
-demogindex_to_numerical <- unlist(demography[,3])
-demography[,3] <- 1:nrow(demography)
-demo_indices <- unlist(demography[,3])
-age_table <- readxl::read_xlsx('inputs/scenarios/190330_sp_ind_codebook.xlsx',sheet=1,col_names=F)
-age_category <- unlist(age_table[,1])
-age_lower_bounds <- as.numeric(future_sapply(age_category,function(x)strsplit(x,' to ')[[1]][1]))
-
-## 3 GET MULTI-CITY DATA #################################################
-## set scenario variables. these can (should) be determined from input data rather than hard coded.
-NSCEN <<- 1
-SCEN_SHORT_NAME <<- c('base','scen')
-SCEN <<- c('Baseline','Scenario 1')
-all_distances <- list()
-for(i in 1:length(SCEN)){
-  scen_name <- SCEN_SHORT_NAME[i]
-  all_distances[[scen_name]] <- list()
-  for(file_name in c('emissions_distances','pa_distances'))
-    all_distances[[scen_name]][[file_name]] <- readRDS(paste0('inputs/distances/',scen_name,'_',file_name,'.Rds'))
-  # if(i==1&&as.numeric(system("awk '/MemFree/ {print $2}' /proc/meminfo", intern=TRUE)) > 1e7){
-  #   ##!! hack for Rob - laptop can't compute london inh
-  #   all_distances[[scen_name]]$inh_distances$london <- readRDS(paste0('inputs/distances/',scen_name,'_london_inh_distances.Rds'))
-  #   INCLUDE_LONDON <- T
-  #   if(i==1) cat('Including London.\n')
-  # }else if(i==1){
-  INCLUDE_LONDON <- F
-  #   cat('Excluding London.\n')
-  # }
-}
-
-## get city distances for e.g. bus mode
-city_total_distances <- read.csv('inputs/distances/mode_road_city.csv',stringsAsFactors = F)
-for(i in 3:ncol(city_total_distances)) city_total_distances[,i] <- as.numeric(city_total_distances[,i])
-
-## injury model / preprocessed data
-# get data and model
-path_to_injury_model_and_data <- 'inputs/injury/'
-injury_table <- readRDS(paste0(path_to_injury_model_and_data,'processed_injuries_9.Rds'))
-baseline_injury_model <- list()
-for(i in 1:2){
-  baseline_injury_model[[i]] <- list()
-  for(j in 1:2){
-    baseline_injury_model[[i]][[j]] <- readRDS(paste0(path_to_injury_model_and_data,'city_region',i,j,'.Rds'))
-    if(INCLUDE_LONDON==F) injury_table[[i]][[j]] <- dplyr::filter(injury_table[[i]][[j]], region!='london')
-  }
-}
-
-## use bristol data to define demography etc
-
-filename <- 'inputs/populations/bristol.csv'
-demographic <- read_csv(filename,col_types = cols())
-demographic$dem_index <- 1:nrow(demographic)
-
-## find min and max age from AGE_RANGE, trips, and demographic.
-##!! a lot of this is actually global, but it's coded within cities. It can be brought outside the city loop (to join demography code) by re-writing.
-age_category <- demographic$age
-max_age <- max(as.numeric(future.apply::future_sapply(age_category,function(x)strsplit(x,'-')[[1]][2])))
-max_age <- min(max_age,AGE_RANGE[2])
-min_age <- min(as.numeric(future.apply::future_sapply(age_category,function(x)strsplit(x,'-')[[1]][1])))
-min_age <- max(min_age,AGE_RANGE[1])
-demographic <- demographic[as.numeric(future.apply::future_sapply(age_category,function(x)strsplit(x,'-')[[1]][1]))<=max_age&
-                             as.numeric(future.apply::future_sapply(age_category,function(x)strsplit(x,'-')[[1]][2]))>=min_age,]
-POPULATION <<- demographic
-demographic <- demographic[,names(demographic)!='population']
-names(demographic)[which(names(demographic)=='age')] <- 'age_cat'
-demographic$age <- future.apply::future_sapply(demographic$age_cat,function(x)strsplit(x,'-')[[1]][1])
-DEMOGRAPHIC <<- demographic
-
-# get age-category details from (modified) population data
-AGE_CATEGORY <<- unique(POPULATION$age)
-AGE_LOWER_BOUNDS <<- as.numeric(future.apply::future_sapply(AGE_CATEGORY,function(x)strsplit(x,'-')[[1]][1]))
-MAX_AGE <<- max(as.numeric(future.apply::future_sapply(AGE_CATEGORY,function(x)strsplit(x,'-')[[1]][2])))
-
-## 4 PREPARE LOCAL (CITY) DATA ##########################################
-
-city_regions_table <- read.csv('inputs/mh_regions_lad_lookup.csv',stringsAsFactors = F)
-city_regions <- unique(city_regions_table$cityregion)
-city_regions <- city_regions[city_regions!='']
-
-city_regions <- city_regions[city_regions %in% unique(injury_table$primary$whw$region)]
-city_las <- city_regions_table$lad11cd[city_regions_table$cityregion%in%city_regions]
-la_city_indices <- future.apply::future_sapply(city_las,function(x) which(city_regions==city_regions_table$cityregion[city_regions_table$lad11cd==x]))
-city_regions_dt <- setDT(city_regions_table[city_regions_table$cityregion%in%city_regions,1:4])
-city_regions_dt$la <- 1:nrow(city_regions_dt)
-city_regions_dt$city_index <- la_city_indices
-if(INCLUDE_LONDON==F) city_regions <- city_regions[city_regions!='london']
+options(future.globals.maxSize= 891289600)
 
 for (global_scen in c('cyc_scen', 'car_scen')){
-  # global_scen <- 'car_scen/'
+  
+  # global_scen <- 'cyc_scen'
+  
+  # Set sample size
+  NSAMPLES <<- 4
+  
+  #setwd('~/overflow_dropbox/mh-execute/')
+  ## overwrite some functions for METAHIT's pp_summary use (instead of TIGTHAT's tripset use)
+  ## in general, the overwriting functions are from ithimr's uncertain_travel branch
+  ## in general, ithimr functions are written ithimr::function()
+  source('metahit_functions.R')
+  source('mslt_functions.R')
+  
+  ## 1 SET GLOBAL VARIABLES ##########################################
+  
+  ## set variables, which are TIGTHAT studies' input parameters.
+  
+  ## general settings
+  setup_call_summary_filename <- 'setup_call_summary.txt'
+  AGE_RANGE <- c(0,150)
+  REFERENCE_SCENARIO <- 'Baseline'
+  
+  ## placeholders for uncertain parameters
+  MMET_CYCLING <- c(log(4.63),log(1.2)) # 4.63 # 
+  MMET_WALKING <- c(log(2.53),log(1.1)) # 2.53 # 
+  PM_CONC_BASE_QUANTILE <- T
+  PM_TRANS_SHARE_QUANTILE <- T#F 
+  PA_DOSE_RESPONSE_QUANTILE <- T#F
+  AP_DOSE_RESPONSE_QUANTILE <- T#F
+  BACKGROUND_PA_SCALAR <- c(log(1),log(1.1)) # 1 
+  BACKGROUND_PA_CONFIDENCE <- 1
+  INJURY_REPORTING_RATE <- c(40,5) # 1
+  CHRONIC_DISEASE_SCALAR <- c(log(1),log(1.1)) #1
+  SIN_EXPONENT_SUM <- c(log(1.9),log(1.03)) #2
+  CASUALTY_EXPONENT_FRACTION <- c(20,20) # 0.5 # 
+  PM_EMISSION_INVENTORY_CONFIDENCE <- 0.9
+  DISTANCE_SCALAR_CAR_TAXI <- c(log(1),log(1.1)) # 1
+  DISTANCE_SCALAR_WALKING <- c(log(1),log(1.1)) # 1
+  DISTANCE_SCALAR_PT <- c(log(1),log(1.1)) # 1
+  DISTANCE_SCALAR_CYCLING <- c(log(1),log(1.1)) # 1
+  DISTANCE_SCALAR_MOTORCYCLE <- c(log(1),log(1.1)) # 1
+  
+  DIABETES_IHD_RR_F <<- 2.82 ## 2.35
+  DIABETES_STROKE_RR_F <<- 2.28 ## 1.93
+  DIABETES_IHD_RR_M <<- 2.16 ## 2.16
+  DIABETES_STROKE_RR_M <<- 1.83 ## 1.6
+  
+  ## things we need for ithim-r to work
+  ADD_TRUCK_DRIVERS <<- F
+  ADD_BUS_DRIVERS <<- F
+  
+  ## SUMMARY OF INPUTS
+  # seed = double. sets seed to allow some reproducibility.
+  # CITY = string. used to identify input files.
+  
+  # speeds = named list of doubles. average mode speeds.
+  # pm_emission_inventory = named list of doubles. vehicle emission factors.
+  # setup_call_summary_filename = string. Where to write input call summary.
+  # DIST_CAT = vector of strings. defines distance categories for scenario generation (5 accra scenarios)
+  
+  # AGE_RANGE = vector of length 2, specifying the minimum and maximum ages to be used in the model. Note that the actual 
+  # maximum and minimum will coincide with boundaries in the population and GBD files.
+  
+  # REFERENCE_SCENARIO = string: at present, one of 'Baseline' or 'Scenario N' where N is an integer
+  
+  # NSAMPLES = integer: number of samples to take for each parameter to be sampled
+  
+  # MMET_CYCLING = parameter. double: sets cycling (M)METs. vector: samples from distribution.
+  # MMET_WALKING = parameter. double: sets walking (M)METs. vector: samples from distribution.
+  # PM_CONC_BASE = parameter. double: sets background PM. vector: samples from distribution.
+  # PM_TRANS_SHARE = parameter. double: sets PM proportion that comes from transport. vector: samples from distribution.
+  
+  # PA_DOSE_RESPONSE_QUANTILE = logic. T: PA dose--response relationship is sampled. F: relationship is fixed.
+  # AP_DOSE_RESPONSE_QUANTILE = logic. T: AP dose--response relationship is sampled. F: relationship is fixed.
+  # CHRONIC_DISEASE_SCALAR = parameter. double: sets scalar for chronic disease background burden. vector: samples from distribution.
+  
+  # BACKGROUND_PA_SCALAR = parameter. double: sets scalar for background PA. vector: samples from distribution.
+  # BACKGROUND_PA_CONFIDENCE = parameter. double between 0 and 1. 1 = use PA data as they are.
+  # INJURY_REPORTING_RATE = parameter. double: sets scalar for injury counts (inverse). vector: samples from distribution.
+  # INJURY_LINEARITY = parameter. double: sets scalar. vector: samples from distribution.
+  # CASUALTY_EXPONENT_FRACTION = parameter. double: sets scalar. vector: samples from distribution.
+  
+  # PM_EMISSION_INVENTORY_CONFIDENCE = parameter. double between 0 and 1. 1 = use PM 2.5 emission data as they are.
+  # DISTANCE_SCALAR_CAR_TAXI = double: sets scalar. vector: samples from distribution.
+  # DISTANCE_SCALAR_WALKING = double: sets scalar. vector: samples from distribution.
+  # DISTANCE_SCALAR_PT = double: sets scalar. vector: samples from distribution.
+  # DISTANCE_SCALAR_CYCLING = double: sets scalar. vector: samples from distribution.
+  # DISTANCE_SCALAR_MOTORCYCLE = double: sets scalar. vector: samples from distribution.
+  
+  
+  ## setting all the global variables at the beginning to minimise ITHIM computation
+  ## copied from ithimr::run_ithim_setup
+  
+  ## SET GLOBAL VALUES
+  ## PROGRAMMING VARIABLES
+  
+  ## fixed parameters for AP inhalation
+  BASE_LEVEL_INHALATION_RATE <<- 1
+  CLOSED_WINDOW_PM_RATIO <<- 0.5
+  CLOSED_WINDOW_RATIO <<- 0.9
+  ROAD_RATIO_MAX <<- 3.216
+  ROAD_RATIO_SLOPE <<- 0.379
+  SUBWAY_PM_RATIO <<- 0.8
+  
+  ## default speeds that can be edited by input. 
+  default_speeds <- list(
+    bus=15,
+    bus_driver=15,
+    car=21,
+    taxi=21,
+    pedestrian=4.8,
+    cycle=14.5,
+    motorcycle=25,
+    truck=21,
+    van=15,
+    subway=28,
+    rail=35,
+    shared_taxi=21
+  )
+  TRAVEL_MODES <<- tolower(names(default_speeds))
+  MODE_SPEEDS <<- data.frame(stage_mode = TRAVEL_MODES, speed = unlist(default_speeds), stringsAsFactors = F)
+  
+  ## default emission contributions that can be edited by input. 
+  default_emission_inventory <- list(
+    bus=0,
+    bus_driver=0.82,
+    car=0.228,
+    taxi=0.011,
+    pedestrian=0,
+    cycle=0,
+    motorcycle=0.011,
+    truck=0.859,
+    big_truck=0.711,
+    other=0.082
+  )
+  #names(default_emission_inventory) <- tolower(names(default_emission_inventory))
+  #PM_EMISSION_INVENTORY <<- default_emission_inventory
+  ## 2 GET GLOBAL DATA ##################################################
+  
+  ## copied from ithimr ithim_load_data
+  global_path <- file.path(find.package('ithimr',lib.loc=.libPaths()), 'extdata/global/')
+  ## for windows??
+  global_path <- paste0(global_path, "/")
+  
+  ## DATA FILES FOR MODEL  
+  DISEASE_INVENTORY <<- read.csv(paste0("inputs/dose_response/disease_outcomes_lookup.csv"))
+  DR_AP <<- read.csv(paste0(global_path,"dose_response/drap/dose_response.csv"))
+  # root of list_of_files matches DISEASE_INVENTORY$pa_acronym
+  list_of_files <- list.files(path = paste0(global_path,"dose_response/drpa/extdata/"), recursive = TRUE, pattern = "\\.csv$", full.names = TRUE)
+  for (i in 1:length(list_of_files)){
+    assign(stringr::str_sub(basename(list_of_files[[i]]), end = -5),
+           readr::read_csv(list_of_files[[i]],col_types = cols()),
+           pos = 1)
+  }
+  
+  BACKGROUND_POLLUION_TABLE <<- read.csv('inputs/background-air-pollution/1_apmeans.csv')
+  
+  disease_short_names <- read.csv("inputs/mslt/disease_names.csv")
+  DISEASE_SHORT_NAMES <<- disease_short_names
+  
+  
+  demography <- readxl::read_xlsx('inputs/scenarios/190330_sp_ind_codebook.xlsx',sheet=2,col_names=F)
+  demogindex_to_numerical <- unlist(demography[,3])
+  demography[,3] <- 1:nrow(demography)
+  demo_indices <- unlist(demography[,3])
+  age_table <- readxl::read_xlsx('inputs/scenarios/190330_sp_ind_codebook.xlsx',sheet=1,col_names=F)
+  age_category <- unlist(age_table[,1])
+  age_lower_bounds <- as.numeric(future_sapply(age_category,function(x)strsplit(x,' to ')[[1]][1]))
+  
+  ## 3 GET MULTI-CITY DATA #################################################
+  ## set scenario variables. these can (should) be determined from input data rather than hard coded.
+  NSCEN <<- 1
+  SCEN_SHORT_NAME <<- c('base','scen')
+  SCEN <<- c('Baseline','Scenario 1')
+  all_distances <- list()
+  for(i in 1:length(SCEN)){
+    scen_name <- SCEN_SHORT_NAME[i]
+    all_distances[[scen_name]] <- list()
+    for(file_name in c('emissions_distances','pa_distances'))
+      all_distances[[scen_name]][[file_name]] <- readRDS(paste0('inputs/distances/',scen_name,'_',file_name,'.Rds'))
+    # if(i==1&&as.numeric(system("awk '/MemFree/ {print $2}' /proc/meminfo", intern=TRUE)) > 1e7){
+    #   ##!! hack for Rob - laptop can't compute london inh
+    #   all_distances[[scen_name]]$inh_distances$london <- readRDS(paste0('inputs/distances/',scen_name,'_london_inh_distances.Rds'))
+    #   INCLUDE_LONDON <- T
+    #   if(i==1) cat('Including London.\n')
+    # }else if(i==1){
+    INCLUDE_LONDON <- F
+    #   cat('Excluding London.\n')
+    # }
+  }
+  
+  ## get city distances for e.g. bus mode
+  city_total_distances <- read.csv('inputs/distances/mode_road_city.csv',stringsAsFactors = F)
+  for(i in 3:ncol(city_total_distances)) city_total_distances[,i] <- as.numeric(city_total_distances[,i])
+  
+  ## injury model / preprocessed data
+  # get data and model
+  path_to_injury_model_and_data <- 'inputs/injury/'
+  injury_table <- readRDS(paste0(path_to_injury_model_and_data,'processed_injuries_9.Rds'))
+  baseline_injury_model <- list()
+  for(i in 1:2){
+    baseline_injury_model[[i]] <- list()
+    for(j in 1:2){
+      baseline_injury_model[[i]][[j]] <- readRDS(paste0(path_to_injury_model_and_data,'city_region',i,j,'.Rds'))
+      if(INCLUDE_LONDON==F) injury_table[[i]][[j]] <- dplyr::filter(injury_table[[i]][[j]], region!='london')
+    }
+  }
+  
+  ## use bristol data to define demography etc
+  
+  filename <- 'inputs/populations/bristol.csv'
+  demographic <- read_csv(filename,col_types = cols())
+  demographic$dem_index <- 1:nrow(demographic)
+  
+  ## find min and max age from AGE_RANGE, trips, and demographic.
+  ##!! a lot of this is actually global, but it's coded within cities. It can be brought outside the city loop (to join demography code) by re-writing.
+  age_category <- demographic$age
+  max_age <- max(as.numeric(future.apply::future_sapply(age_category,function(x)strsplit(x,'-')[[1]][2])))
+  max_age <- min(max_age,AGE_RANGE[2])
+  min_age <- min(as.numeric(future.apply::future_sapply(age_category,function(x)strsplit(x,'-')[[1]][1])))
+  min_age <- max(min_age,AGE_RANGE[1])
+  demographic <- demographic[as.numeric(future.apply::future_sapply(age_category,function(x)strsplit(x,'-')[[1]][1]))<=max_age&
+                               as.numeric(future.apply::future_sapply(age_category,function(x)strsplit(x,'-')[[1]][2]))>=min_age,]
+  POPULATION <<- demographic
+  demographic <- demographic[,names(demographic)!='population']
+  names(demographic)[which(names(demographic)=='age')] <- 'age_cat'
+  demographic$age <- future.apply::future_sapply(demographic$age_cat,function(x)strsplit(x,'-')[[1]][1])
+  DEMOGRAPHIC <<- demographic
+  
+  # get age-category details from (modified) population data
+  AGE_CATEGORY <<- unique(POPULATION$age)
+  AGE_LOWER_BOUNDS <<- as.numeric(future.apply::future_sapply(AGE_CATEGORY,function(x)strsplit(x,'-')[[1]][1]))
+  MAX_AGE <<- max(as.numeric(future.apply::future_sapply(AGE_CATEGORY,function(x)strsplit(x,'-')[[1]][2])))
+  
+  ## 4 PREPARE LOCAL (CITY) DATA ##########################################
+  
+  city_regions_table <- read.csv('inputs/mh_regions_lad_lookup.csv',stringsAsFactors = F)
+  city_regions <- unique(city_regions_table$cityregion)
+  city_regions <- city_regions[city_regions!='']
+  
+  city_regions <- city_regions[city_regions %in% unique(injury_table$primary$whw$region)]
+  city_las <- city_regions_table$lad11cd[city_regions_table$cityregion%in%city_regions]
+  la_city_indices <- future.apply::future_sapply(city_las,function(x) which(city_regions==city_regions_table$cityregion[city_regions_table$lad11cd==x]))
+  city_regions_dt <- setDT(city_regions_table[city_regions_table$cityregion%in%city_regions,1:4])
+  city_regions_dt$la <- 1:nrow(city_regions_dt)
+  city_regions_dt$city_index <- la_city_indices
+  if(INCLUDE_LONDON==F) city_regions <- city_regions[city_regions!='london']
+  
+  # city_regions <- city_regions[1]
+  
+  # if (global_scen == 'car_scen')
+  #   browser()
+  # global_scen <- 'car_scen'
   ## DATA FILES FOR CITY
   ##!! what are we doing with modes tube, train?
   synth_pop_path <- paste0('inputs/scenarios/', global_scen, '/')
@@ -332,10 +340,8 @@ for (global_scen in c('cyc_scen', 'car_scen')){
   ## 6 START LOOP OVER CITIES #################################################
   
   city_results <- list()
-  
-  
   for(city_ind in 1:length(city_regions)){
-    # city_ind <- 2
+    # city_ind <- 1
     ## 7 GET LOCAL (city) DATA ###############################################
     CITY <<- city_regions[city_ind]
     
@@ -434,7 +440,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
     names(synth_pops) <- la_names[la_indices]
     number_city_las <- length(synth_pops)
     synth_pop <- do.call(rbind,synth_pops)
-    synth_pops <- NULL
+    # synth_pops <- NULL
     
     ## convert synth pop to ithim-r style
     synth_pop$participant_id <- 1:nrow(synth_pop)
@@ -443,7 +449,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
     synthetic_pop <- synth_pop[,names(synth_pop)%in%c('participant_id','dem_index'),with=F]
     ##!! not sure we need this as a separate object but, for now...
     SYNTHETIC_POPULATION <<- left_join(synthetic_pop,DEMOGRAPHIC[,names(DEMOGRAPHIC)%in%c('dem_index','age')],by='dem_index')
-    synthetic_pop <- NULL
+    # synthetic_pop <- NULL
     
     ## we effectively have a "SYNTHETIC_POPULATION" per scenario.
     pp_summary <- list()
@@ -467,9 +473,9 @@ for (global_scen in c('cyc_scen', 'car_scen')){
     }
     true_pops <- pp_summary[[1]][,.N,by='dem_index']
     POPULATION$population <- true_pops$N[match(POPULATION$dem_index,true_pops$dem_index)]
-    synth_pop <- NULL
+    # synth_pop <- NULL
     INH_NAMES <<- colnames(pp_summary[[1]])%in%paste0(function_mode_names,'_dur')
-    PA_NAMES <<- colnames(pp_summary[[1]])%in%c('cycle_dur_pa','pedestrian_dur_pa')
+    PA_NAMES <- colnames(pp_summary[[1]])%in%c('cycle_dur_pa','pedestrian_dur_pa')
     
     ##!! hard coded to maintain naming conventions etc
     DIST <- matrix(0,nrow=3,ncol=NSCEN+1)
@@ -488,7 +494,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
     # background pm2.5
     pm_conc_base <- BACKGROUND_POLLUION_TABLE$apmean_bpm25[grepl(CITY,tolower(BACKGROUND_POLLUION_TABLE$apgroup_name))]
     if(PM_CONC_BASE_QUANTILE==F){
-      PM_CONC_BASE <<- pm_conc_base
+      PM_CONC_BASE <- pm_conc_base
     }else{
       pm_sd <- BACKGROUND_POLLUION_TABLE$apsd_bpm25[grepl(CITY,tolower(BACKGROUND_POLLUION_TABLE$apgroup_name))]
       lnorm_params <- get_lnorm_params(pm_conc_base,pm_sd)
@@ -498,7 +504,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
     # transport portion of pm2.5
     if(PM_TRANS_SHARE_QUANTILE==F){
       pm_transport_share <- BACKGROUND_POLLUION_TABLE$transport_fraction[grepl(CITY,tolower(BACKGROUND_POLLUION_TABLE$apgroup_name))]
-      PM_TRANS_SHARE <<- pm_transport_share
+      PM_TRANS_SHARE <- pm_transport_share
     }else{
       pm_share_alpha <- BACKGROUND_POLLUION_TABLE$alpha[grepl(CITY,tolower(BACKGROUND_POLLUION_TABLE$apgroup_name))]
       pm_share_beta <- BACKGROUND_POLLUION_TABLE$beta[grepl(CITY,tolower(BACKGROUND_POLLUION_TABLE$apgroup_name))]
@@ -516,7 +522,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
         parameters$PM_EMISSION_INVENTORY[[n]] <- future.apply::future_lapply(samples,function(x)x/new_total)
       }
     }else{
-      PM_EMISSION_INVENTORY <<- emission_inventories[[CITY]]
+      PM_EMISSION_INVENTORY <- emission_inventories[[CITY]]
     }
     
     # other parameters to set by city:
@@ -526,14 +532,16 @@ for (global_scen in c('cyc_scen', 'car_scen')){
     #DISTANCE_SCALAR_CYCLING
     #DISTANCE_SCALAR_MOTORCYCLE
     
-    parameters <<- parameters
-    DIST <<- DIST
-    pp_summary <<- pp_summary
-    injury_table <<- injury_table
-    baseline_injury_model <<- baseline_injury_model
+    # parameters <<- parameters
+    # DIST <<- DIST
+    # pp_summary <<- pp_summary
+    # injury_table <<- injury_table
+    # baseline_injury_model <<- baseline_injury_model
     
     city_results[[CITY]] <- foreach(sampl = 1:NSAMPLES, .export = ls(globalenv()), .verbose = T) %dopar% {
-      sampl <- 1
+      # city_results[[CITY]] <- lapply(1:NSAMPLES, function(sampl) {
+      # sampl <- 1
+      print(sampl)
       for(i in 1:length(parameters))
         assign(names(parameters)[i],parameters[[i]][[sampl]],pos=1)
       CAS_EXPONENT <<- CASUALTY_EXPONENT_FRACTION * SIN_EXPONENT_SUM
@@ -556,10 +564,10 @@ for (global_scen in c('cyc_scen', 'car_scen')){
       for(i in 1:length(pp_summary)) colnames(pp_summary[[i]])[INH_NAMES] <- paste0(colnames(pp_summary[[i]])[INH_NAMES],'_inh')
       scenario_pm <- pm_conc$scenario_pm
       pm_conc_pp <- pm_conc$pm_conc_pp
-      pm_conc <- NULL
+      # pm_conc <- NULL
       # Air pollution DR calculation
       RR_AP_calculations <- gen_ap_rr(pm_conc_pp)
-      pm_conc_pp <- NULL
+      # pm_conc_pp <- NULL
       
       ## (2) PA PATHWAY ##############################################
       
@@ -581,18 +589,20 @@ for (global_scen in c('cyc_scen', 'car_scen')){
       
       # Physical activity calculation
       RR_PA_calculations <- ithimr::gen_pa_rr(mmets_pp)
-      mmets_pp <- NULL
+      # mmets_pp <- NULL
       
       ## (3) COMBINE (1) AND (2) #################################################
       
       # Physical activity and air pollution combined
       RR_PA_AP_calculations <- combined_rr_ap_pa(RR_PA_calculations,RR_AP_calculations)
-      RR_PA_calculations <- RR_AP_calculations <- NULL
+      # RR_PA_calculations <- RR_AP_calculations <- NULL
       
       ## (4) INJURIES ##############################################
       
       # get city data
       city_table <- injury_table
+      # browser()
+      
       for(i in 1:2)
         for(j in 1:2)
           city_table[[i]][[j]] <- injury_table[[i]][[j]][injury_table[[i]][[j]]$region==CITY,]
@@ -668,7 +678,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
         injury_deaths[[scen]] <- injury_predictions[[1]]
         secondary_deaths[[scen]] <- injury_predictions[[2]]
       }
-      city_table <- baseline_city_table <- scen_diff <- NULL
+      #city_table <- baseline_city_table <- scen_diff <- NULL
       # convert to ithimr format
       injuries <- cbind(do.call(rbind,injury_deaths),rep(SCEN,each=nrow(injury_deaths[[1]])))
       names(injuries) <- c('dem_index','Deaths','scenario')
@@ -705,7 +715,11 @@ for (global_scen in c('cyc_scen', 'car_scen')){
         lines(c(0,1),c(0,1))
       }
       
-      RR_PA_AP_calculations <- NULL
+      hb[["pif_table"]] <- pif_table
+      
+      # RR_PA_AP_calculations <- NULL
+      
+      #hb_2 <- belens_function(pif_table)
       
       #profvis(hb_2 <- belens_function(pif_table) )
       #sort(sapply(ls(),function(x)object.size(get(x))))
@@ -713,12 +727,13 @@ for (global_scen in c('cyc_scen', 'car_scen')){
       ## Rob, added this line to save to my repo, but not sure if you have it too, so I commented it out.
       # write_csv(hb_2, '../mh-mslt/data/pif.csv')
       
+      #list(hb, hb_2)
       hb
       
     }
     ## clear memory
-    SYNTHETIC_POPULATION <<- NULL
-    pp_summary <- NULL
+    # SYNTHETIC_POPULATION <<- NULL
+    # pp_summary <- NULL
     # reduce size of injury table
     for(i in 1:2)
       for(j in 1:2)
@@ -755,31 +770,53 @@ for (global_scen in c('cyc_scen', 'car_scen')){
     }
   }
   cols <- rainbow(length(city_regions))
-  for(type in c('deaths','ylls')){
-    pdf(paste0('outputs/scenarios/', global_scen, '/figures/', type,'.pdf'), width=9, height=6); 
-    par(mar=c(6,5,1,1))
-    x<-barplot(outcomes[[type]]$median,las=2,cex.axis=1.5,cex.lab=1.5,ylab=paste0('Thousand ',type,' pp averted in Scenario'),xlab='',cex.names=1.5,beside=T,col=cols)
-    legend("topright", fill=cols,bty='n',legend=city_regions, y = max(outcomes[[type]]$median))
-    dev.off()
-  }
   
   for(type in c('deaths','ylls')){
-    pdf(paste0('outputs/scenarios/', global_scen, '/figures/', type,'.pdf'), width=9, height=6);
-    par(mar=c(6,5,1,1))
-    plot(x,outcomes[[type]]$median,las=2,cex.axis=1.5,cex.lab=1.5,ylab=paste0('Thousand ',type,' pp averted in Scenario'),xlab='',xaxt='n',
-         cex=1.5,col=cols,pch=15,frame=F,ylim=c(min(outcomes[[type]]$lower),max(outcomes[[type]]$upper)))
-    abline(h=0)
-    #legend(fill=cols,bty='n',legend=city_regions,x=prod(dim(outcomes[[type]][[1]])-1),y=max(outcomes[[type]]$upper))
-    legend("topright", fill=cols,bty='n',legend = city_regions,y=min(outcomes[[type]]$median))
-    for(i in 1:nrow(x)) for(j in 1:ncol(x)) 
-      lines(c(x[i,j],x[i,j]),c(outcomes[[type]]$lower[i,j],outcomes[[type]]$upper[i,j]),col=cols[i],lwd=2)
-    axis(1,at=x[5,],labels=col_names,las=2)
-    dev.off()
+    
+    td <- purrr::reduce(outcomes[[type]], rbind) %>% as.data.frame() %>% tibble::rownames_to_column("city") %>% 
+      dplyr::mutate(var = case_when(stringr::str_detect(city, ".1") ~ "lower", 
+                                    stringr::str_detect(city, ".2") ~ "upper", 
+                                    TRUE ~ "median")) %>% 
+      dplyr::mutate(city = str_remove(city, ".[0-9]")) %>% 
+      tidyr::pivot_longer(cols = -c(city, var))
+    
+    ggsave(filename = paste0('outputs/scenarios/', global_scen, '/figures/', type,'.pdf'),
+           #width = 9, height = 6, 
+           ggplot(td) +
+            aes(x = name, y = value, fill = city) +
+            geom_boxplot(shape = "circle") +
+            scale_fill_brewer(palette = "Dark2", direction = 1) +
+            theme_light()
+    )
+    
+    
   }
+  
+  # for(type in c('deaths','ylls')){
+  #   pdf(paste0('outputs/scenarios/', global_scen, '/figures/', type,'.pdf'), width=9, height=6);
+  #   par(mar=c(6,5,1,1))
+  #   x<-barplot(outcomes[[type]]$median,las=2,cex.axis=1.5,cex.lab=1.5,ylab=paste0('Thousand ',type,' pp averted in Scenario'),xlab='',cex.names=1.5,beside=T,col=cols)
+  #   legend("topright", fill=cols,bty='n',legend=city_regions, y = max(outcomes[[type]]$median))
+  #   dev.off()
+  # }
+  # 
+  # for(type in c('deaths','ylls')){
+  #   pdf(paste0('outputs/scenarios/', global_scen, '/figures/', type,'.pdf'), width=9, height=6);
+  #   par(mar=c(6,5,1,1))
+  #   plot(x,outcomes[[type]]$median,las=2,cex.axis=1.5,cex.lab=1.5,ylab=paste0('Thousand ',type,' pp averted in Scenario'),xlab='',xaxt='n',
+  #        cex=1.5,col=cols,pch=15,frame=F,ylim=c(min(outcomes[[type]]$lower),max(outcomes[[type]]$upper)))
+  #   abline(h=0)
+  #   #legend(fill=cols,bty='n',legend=city_regions,x=prod(dim(outcomes[[type]][[1]])-1),y=max(outcomes[[type]]$upper))
+  #   legend("topright", fill=cols,bty='n',legend = city_regions,y=min(outcomes[[type]]$median))
+  #   for(i in 1:nrow(x)) for(j in 1:ncol(x))
+  #     lines(c(x[i,j],x[i,j]),c(outcomes[[type]]$lower[i,j],outcomes[[type]]$upper[i,j]),col=cols[i],lwd=2)
+  #   axis(1,at=x[1,],labels=col_names,las=2)
+  #   dev.off()
+  # }
   
   
   ## 11 VOI ############################################################
-  
+
   #if('PM_EMISSION_INVENTORY'%in%names(parameters)){
   #  for(i in 1:length(parameters$PM_EMISSION_INVENTORY[[1]])){
   #    extract_vals <- sapply(parameters$PM_EMISSION_INVENTORY,function(x)x[[i]])
@@ -787,7 +824,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
   #      parameters[[paste0('EMISSION_INVENTORY_',names(parameters$PM_EMISSION_INVENTORY[[1]])[i])]] <- extract_vals
   #  }
   #}
-  
+
   parameter_store <- parameters
   for(list_names in c('DR_AP_LIST','PM_CONC_BASE_QUANTILE','PM_TRANS_SHARE_QUANTILE','PM_EMISSION_INVENTORY','PM_EMISSION_INVENTORY_QUANTILES'))
     parameters[[list_names]] <- NULL
@@ -795,31 +832,31 @@ for (global_scen in c('cyc_scen', 'car_scen')){
   saveRDS(parameter_samples, paste0('outputs/scenarios/', global_scen, '/files/parameter_samples.Rds'))
   parameter_samples <- readRDS(paste0('outputs/scenarios/', global_scen, '/files/parameter_samples.Rds'))
   #parameter_samples <- paramete  r_samples[,!colnames(parameter_samples)%in%c('DR_AP_LIST','PM_CONC_BASE_QUANTILE','PM_TRANS_SHARE_QUANTILE','PM_EMISSION_INVENTORY','PM_EMISSION_INVENTORY_QUANTILES')]
-  
+
   plot_cols <- future.apply::future_sapply(names(city_results[[1]][[1]][[1]]),function(x)grepl('scen',x)&!(grepl('ac',x)|grepl('neo',x)))
   col_names <- future.apply::future_sapply(names(city_results[[1]][[1]][[1]])[plot_cols],function(x) dplyr::last(strsplit(x,'_')[[1]]))
-  
+
   outcome <- list()
   type <- 'ylls'
   for(i in 1:length(city_regions)){
     CITY <- city_regions[i]
     outcome[[CITY]] <- t(sapply(city_results[[CITY]],function(x)colSums(x[[type]][,plot_cols])))
   }
-  
+
   ## get basic evppi matrix
-  evppi <- future.apply::future_lapply(1:ncol(parameter_samples), 
+  evppi <- future.apply::future_lapply(1:ncol(parameter_samples),
                                        FUN = ithimr::compute_evppi,
                                        as.data.frame(parameter_samples),
-                                       outcome, 
+                                       outcome,
                                        nscen=NSCEN,
                                        all=T,
                                        multi_city_outcome=F)
-  
-  
+
+
   evppi <- do.call(rbind,evppi)
   colnames(evppi) <- apply(expand.grid(SCEN_SHORT_NAME[2:length(SCEN_SHORT_NAME)],names(outcome)),1,function(x)paste0(x,collapse='_'))
   rownames(evppi) <- colnames(parameter_samples)
-  
+
   ## replace some rows of evppi if some parameters should be combined
   ## add four-dimensional EVPPI if AP_DOSE_RESPONSE is uncertain.
   numcores <- 1
@@ -831,11 +868,11 @@ for (global_scen in c('cyc_scen', 'car_scen')){
       col_names <- future.apply::future_sapply(colnames(parameter_samples),function(x)grepl('AP_DOSE_RESPONSE_QUANTILE',x)&grepl(di,x))
       sources[[di]] <- parameter_samples[,col_names]
     }
-    
-    evppi_for_AP <- future.apply::future_lapply(1:length(sources), 
+
+    evppi_for_AP <- future.apply::future_lapply(1:length(sources),
                                                 FUN = ithimr:::compute_evppi,
                                                 sources,
-                                                outcome, 
+                                                outcome,
                                                 all=T,
                                                 multi_city_outcome=F)
     names(evppi_for_AP) <- paste0('AP_DOSE_RESPONSE_QUANTILE_',diseases)
@@ -844,7 +881,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
     keep_names <- future.apply::future_sapply(rownames(evppi),function(x)!any(c('ALPHA','BETA','GAMMA','TMREL')%in%strsplit(x,'_')[[1]]))
     evppi <- evppi[keep_names,]
   }
-  
+
   if("PM_EMISSION_INVENTORY_QUANTILES"%in%names(parameter_store)&&NSAMPLES>=1024){
     sources <- list()
     for(ci in 1:length(city_regions)){
@@ -865,18 +902,18 @@ for (global_scen in c('cyc_scen', 'car_scen')){
                                                        outcome,
                                                        all=F,
                                                        multi_city_outcome=F)
-    
+
     #names(evppi_for_emissions) <- paste0('EMISSION_INVENTORY_',city_regions)
     #sapply(evppi_for_emissions,function(x)x[x>0])
     ## get rows to remove
     keep_names <- future.apply::future_sapply(rownames(evppi),function(x)!grepl('EMISSION_INVENTORY_',x))
     evppi <- evppi[keep_names,]
-    
+
     evppi <- rbind(evppi,future.apply::future_sapply(evppi_for_emissions,function(x)x[x>0]))
     rownames(evppi)[nrow(evppi)] <- 'PM_EMISSION_INVENTORY'
   }
   print(evppi)
-  
+
   ## PA
   if(sum(c("BACKGROUND_PA_SCALAR","BACKGROUND_PA_ZEROS")%in%names(parameters))==2&&NSAMPLES>=1024){
     sources <- list()
@@ -885,13 +922,13 @@ for (global_scen in c('cyc_scen', 'car_scen')){
       pa_names <- future.apply::future_sapply(colnames(parameter_samples),function(x)(grepl('BACKGROUND_PA_SCALAR',x)||grepl('BACKGROUND_PA_ZEROS',x)))
       sources[[ci]] <- parameter_samples[,pa_names]
     }
-    evppi_for_pa <- future.apply::future_lapply(1:length(sources), 
+    evppi_for_pa <- future.apply::future_lapply(1:length(sources),
                                                 FUN = ithimr:::compute_evppi,
-                                                sources, 
-                                                outcome, 
+                                                sources,
+                                                outcome,
                                                 all=F,
                                                 multi_city_outcome=F)
-    
+
     #names(evppi_for_pa) <- paste0('BACKGROUND_PA_',city_regions)
     ## get rows to remove
     keep_names <- future.apply::future_sapply(rownames(evppi),function(x)!grepl('BACKGROUND_PA_',x))
@@ -900,11 +937,11 @@ for (global_scen in c('cyc_scen', 'car_scen')){
     #evppi <- rbind(evppi,do.call(rbind,evppi_for_pa))
     rownames(evppi)[nrow(evppi)] <- 'BACKGROUND_PA'
   }
-  
+
   ## plot evppi
   library(RColorBrewer)
   library(plotrix)
-  
+
   evppi <- apply(evppi,2,function(x){x[is.na(x)]<-0;x})
   {pdf(paste0('outputs/scenarios/', global_scen, '/figures/evppi.pdf'), height=15, width=8);
     par(mar=c(6,20,3.5,5.5))
@@ -926,7 +963,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
     for(i in seq(0,NSCEN*length(outcome),by=NSCEN)) abline(v=i)
     for(i in seq(0,length(labs),by=NSCEN)) abline(h=i)
     dev.off()
-    
+
   }
 }
 
