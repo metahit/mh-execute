@@ -14,12 +14,11 @@ library(stringr)
 registerDoFuture()
 plan(multisession)
 
-
 # Increase maximum size of global variables 
 options(future.globals.maxSize= 891289600)
 
 for (global_scen in c('cyc_scen', 'car_scen')){
-  
+  # global_scen <- 'car_scen'
   # Set sample size
   NSAMPLES <<- 4
   
@@ -188,7 +187,8 @@ for (global_scen in c('cyc_scen', 'car_scen')){
   ## 3 GET MULTI-CITY DATA #################################################
   ## set scenario variables. these can (should) be determined from input data rather than hard coded.
   NSCEN <<- 1
-  SCEN_SHORT_NAME <<- c('base','scen')
+  SCEN_SHORT_NAME <<- c('base', global_scen)
+  SCEN_INJURY_SHORT_NAME <<- c('base', 'scen')
   SCEN <<- c('Baseline','Scenario 1')
   all_distances <- list()
   for(i in 1:length(SCEN)){
@@ -338,6 +338,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
   
   city_results <- list()
   for(city_ind in 1:length(city_regions)){
+    # city_ind <- 1
     ## 7 GET LOCAL (city) DATA ###############################################
     CITY <<- city_regions[city_ind]
     
@@ -415,7 +416,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
     file_name <- 'inh_distances'
     for(i in 1:length(SCEN)){
       scen_name <- SCEN_SHORT_NAME[i]
-      all_distances[[scen_name]][[file_name]] <- readRDS(paste0('inputs/distances/',scen_name,'_',CITY,'_',file_name,'.Rds'))
+      all_distances[[scen_name]][[file_name]] <- readRDS(paste0('inputs/distances/',scen_name,'_',CITY,'_',file_name,'.Rds')) %>% mutate(across(where(is.character), as.numeric))
     }
     
     ## 8 GET/SET CITY SYNTH POP #########################################
@@ -465,7 +466,11 @@ for (global_scen in c('cyc_scen', 'car_scen')){
         pp_summary[[scenario]][,c(paste0(function_mode_names[modenumber],'_dur')):=0]
         pp_summary[[scenario]][match(all_distances[[scenario]]$inh_distances$census_id,pp_summary[[scenario]]$census_id),paste0(function_mode_names[modenumber],'_dur'):=rowSums(all_distances[[scenario]]$inh_distances[,cols,with=F])]
       }
-      names(pp_summary[[scenario]])[names(pp_summary[[scenario]])=='sport_wkmmets'] <- 'work_ltpa_marg_met'
+      if('sport_wkmmets' %in% names(pp_summary[[scenario]]))
+        names(pp_summary[[scenario]])[names(pp_summary[[scenario]])=='sport_wkmmets'] <- 'work_ltpa_marg_met'
+      else
+        pp_summary[[scenario]]$work_ltpa_marg_met <- 0
+        
     }
     true_pops <- pp_summary[[1]][,.N,by='dem_index']
     POPULATION$population <- true_pops$N[match(POPULATION$dem_index,true_pops$dem_index)]
@@ -634,7 +639,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
       
       ## update distances
       for(scen in 0:NSCEN+1){
-        scen_name <- SCEN_SHORT_NAME[scen]
+        scen_name <- SCEN_INJURY_SHORT_NAME[scen]
         for(j in 1:2){
           mode_indices <- match(baseline_city_table[[1]][[j]]$cas_mode,model_modes)
           baseline_city_table[[1]][[j]][[paste0(scen_name,'_cas_distance')]] <- baseline_city_table[[1]][[j]][[paste0(scen_name,'_cas_distance')]] * distance_scalars[mode_indices]
@@ -645,7 +650,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
         }
       }
       for(scen in 1:NSCEN+1){
-        scen_name <- SCEN_SHORT_NAME[scen]
+        scen_name <- SCEN_INJURY_SHORT_NAME[scen]
         
         city_table <- baseline_city_table
         
