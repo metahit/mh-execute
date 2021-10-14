@@ -162,9 +162,12 @@ for (global_scen in all_scens){
   global_path <- paste0(global_path, "/")
   
   ## DATA FILES FOR MODEL  
-  DISEASE_INVENTORY <<- read.csv(paste0("inputs/dose_response/disease_outcomes_lookup.csv"))
+  ##reading GBD 2017 IER functions that were provided by Rick Burnett: this include Diabetes in addition to previous five disease end-points
+  DR_AP <- read.csv(paste0(global_path,"dose_response/drap/dose_response.csv"))
   
-  DR_AP <<- read.csv(paste0(global_path,"dose_response/drap/dose_response.csv"))
+  # Read updated disease outcomes lookup from ITHIM-R package
+  DISEASE_INVENTORY <<- read.csv(paste0(global_path,"dose_response/disease_outcomes_lookup.csv"))
+  
   # root of list_of_files matches DISEASE_INVENTORY$pa_acronym
   list_of_files <- list.files(path = paste0(global_path,"dose_response/drpa/extdata/"), recursive = TRUE, pattern = "\\.csv$", full.names = TRUE)
   for (i in 1:length(list_of_files)){
