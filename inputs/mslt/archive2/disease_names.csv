@@ -1,0 +1,32 @@
+disease,sname,is_not_dis,GBD_name,acronym,males,females
+esophageal cancer,espc,0,NA,no_pif,1,1
+alzheimer's disease and other dementias,adaod,0,NA,no_pif,1,1
+parkinson's disease,prd,0,NA,no_pif,1,1
+lower respiratory infections,lwri,1,Lower respiratory infections,lri,1,1
+pedestrian road injuries,pdri,1,NA,pedestrian,1,1
+acute myeloid leukemia,acml,0,NA,no_pif,1,1
+chronic myeloid leukemia,chml,0,NA,no_pif,1,1
+kidney cancer,kdnc,0,NA,no_pif,1,1
+bladder cancer,bldc,0,NA,no_pif,1,1
+multiple myeloma,mltm,0,NA,no_pif,1,1
+cardiovascular diseases,crdd,0,NA,no_pif,1,1
+ischemic heart disease,ishd,0,Ischemic heart disease,ihd,1,1
+stroke,strk,0,Stroke,stroke,1,1
+ischemic stroke,iscs,0,NA,no_pif,1,1
+hypertensive heart disease,hyhd,3,NA,no_pif,1,1
+breast cancer,brsc,0,Breast cancer,breast,0,1
+uterine cancer,utrc,0,Uterine cancer,endo,0,1
+prostate cancer,prsc,0,NA,no_pif,1,0
+colon and rectum cancer,carc,0,Colon and rectum cancer,colon,1,1
+malignant skin melanoma,mlsm,0,NA,no_pif,1,1
+all causes,allc,2,All causes,ac,1,1
+chronic obstructive pulmonary disease,copd,0,Chronic obstructive pulmonary disease,copd,1,1
+diabetes mellitus type 2,dmt2,0,Diabetes mellitus type 2,t2d,1,1
+cyclist road injuries,cyri,1,NA,cyclist,1,1
+motorcyclist road injuries,mtri,1,NA,motorcyclist,1,1
+motor vehicle road injuries,mvri,1,NA,motor,1,1
+other road injuries,otri,1,NA,other,1,1
+stomach cancer,stmc,0,NA,no_pif,1,1
+liver cancer,lvrc,0,NA,no_pif,1,1
+"tracheal, bronchus, and lung cancer",tbalc,0,"Tracheal, bronchus, and lung cancer",lc,1,1
+major depressive disorder,mjdd,3,NA,no_pif,1,1
