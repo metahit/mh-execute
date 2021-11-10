@@ -15,12 +15,14 @@ registerDoFuture()
 plan(multisession)
 
 # Increase maximum size of global variables 
-options(future.globals.maxSize= 891289600)
+options(future.globals.maxSize= +Inf)
 
-for (global_scen in c('cyc_scen', 'car_scen')){
-  # global_scen <- 'car_scen'
+all_scens <- list.dirs(path = "./inputs/scenarios", full.names = FALSE, recursive = FALSE)
+
+for (global_scen in all_scens){
+  # global_scen <- all_scens[1]
   # Set sample size
-  NSAMPLES <<- 4
+  NSAMPLES <<- 8
   
   ## overwrite some functions for METAHIT's pp_summary use (instead of TIGTHAT's tripset use)
   ## in general, the overwriting functions are from ithimr's uncertain_travel branch
@@ -160,8 +162,12 @@ for (global_scen in c('cyc_scen', 'car_scen')){
   global_path <- paste0(global_path, "/")
   
   ## DATA FILES FOR MODEL  
-  DISEASE_INVENTORY <<- read.csv(paste0("inputs/dose_response/disease_outcomes_lookup.csv"))
-  DR_AP <<- read.csv(paste0(global_path,"dose_response/drap/dose_response.csv"))
+  ##reading GBD 2017 IER functions that were provided by Rick Burnett: this include Diabetes in addition to previous five disease end-points
+  DR_AP <- read.csv(paste0(global_path,"dose_response/drap/dose_response.csv"))
+  
+  # Read updated disease outcomes lookup from ITHIM-R package
+  DISEASE_INVENTORY <<- read.csv(paste0(global_path,"dose_response/disease_outcomes_lookup.csv"))
+  
   # root of list_of_files matches DISEASE_INVENTORY$pa_acronym
   list_of_files <- list.files(path = paste0(global_path,"dose_response/drpa/extdata/"), recursive = TRUE, pattern = "\\.csv$", full.names = TRUE)
   for (i in 1:length(list_of_files)){
@@ -338,7 +344,7 @@ for (global_scen in c('cyc_scen', 'car_scen')){
   
   city_results <- list()
   for(city_ind in 1:length(city_regions)){
-    # city_ind <- 1
+    
     ## 7 GET LOCAL (city) DATA ###############################################
     CITY <<- city_regions[city_ind]
     
