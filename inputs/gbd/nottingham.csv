@@ -1,5 +1,6 @@
 measure,sex,age,cause,cityregion,number,pop
 Deaths,Female,0 to 5,all causes,nottingham,26.84842088628959,32274.196421240988
+Deaths,Female,0 to 5,cardiomyopathy and myocarditis,nottingham,0.1451687332887477,32274.196421240977
 Deaths,Female,0 to 5,cardiovascular diseases,nottingham,0.3195384027123596,32274.196421241057
 Deaths,Female,0 to 5,chronic myeloid leukemia,nottingham,0.00382547155872165,32274.19642124106
 Deaths,Female,0 to 5,chronic obstructive pulmonary disease,nottingham,0.009186794771977173,32274.196421240988
@@ -13,9 +14,11 @@ Deaths,Female,0 to 5,neoplasms,nottingham,0.7763506910487225,32274.196421241024
 Deaths,Female,0 to 5,other road injuries,nottingham,0.006768460700410952,32274.19642124105
 Deaths,Female,0 to 5,other transport injuries,nottingham,0.008979654677170478,32274.19642124101
 Deaths,Female,0 to 5,pedestrian road injuries,nottingham,0.0679709401571563,32274.19642124103
+Deaths,Female,0 to 5,rheumatic heart disease,nottingham,0.0044812954670336745,32274.196421241028
 Deaths,Female,0 to 5,road injuries,nottingham,0.16921753729184322,32274.196421241024
 Deaths,Female,0 to 5,stroke,nottingham,0.037676338084857694,32274.196421241024
 Deaths,Female,10 to 14,all causes,nottingham,2.852799280687678,33003.876601569515
+Deaths,Female,10 to 14,cardiomyopathy and myocarditis,nottingham,0.032736482272624996,33003.87660156951
 Deaths,Female,10 to 14,cardiovascular diseases,nottingham,0.11286747888581064,33003.87660156951
 Deaths,Female,10 to 14,chronic myeloid leukemia,nottingham,0.005127479462349811,33003.87660156953
 Deaths,Female,10 to 14,chronic obstructive pulmonary disease,nottingham,0.008290796565785831,33003.876601569544
@@ -30,12 +33,14 @@ Deaths,Female,10 to 14,neoplasms,nottingham,0.8419314018867332,33003.87660156956
 Deaths,Female,10 to 14,other road injuries,nottingham,0.01330374341021642,33003.87660156952
 Deaths,Female,10 to 14,other transport injuries,nottingham,0.01521487493519757,33003.87660156951
 Deaths,Female,10 to 14,pedestrian road injuries,nottingham,0.11093501566975042,33003.87660156954
+Deaths,Female,10 to 14,rheumatic heart disease,nottingham,0.0031672135256350393,33003.87660156949
 Deaths,Female,10 to 14,road injuries,nottingham,0.28161492583776093,33003.876601569486
 Deaths,Female,10 to 14,stroke,nottingham,0.03548827886414696,33003.87660156953
 Deaths,Female,10 to 14,"tracheal, bronchus, and lung cancer",nottingham,0.005153371038677086,33003.87660156951
 Deaths,Female,15 to 19,all causes,nottingham,4.898180750299739,31710.86271120489
 Deaths,Female,15 to 19,bladder cancer,nottingham,0.0032664130081120025,31710.862711204853
 Deaths,Female,15 to 19,breast cancer,nottingham,0.013979044991375679,31710.86271120487
+Deaths,Female,15 to 19,cardiomyopathy and myocarditis,nottingham,0.050789850725416155,31710.862711204878
 Deaths,Female,15 to 19,cardiovascular diseases,nottingham,0.25853989691574386,31710.86271120486
 Deaths,Female,15 to 19,chronic myeloid leukemia,nottingham,0.006261724021343942,31710.86271120484
 Deaths,Female,15 to 19,chronic obstructive pulmonary disease,nottingham,0.019848638723562895,31710.862711204896
@@ -49,9 +54,11 @@ Deaths,Female,15 to 19,lower respiratory infections,nottingham,0.110217033862235
 Deaths,Female,15 to 19,motor vehicle road injuries,nottingham,0.5193008369650404,31710.86271120484
 Deaths,Female,15 to 19,motorcyclist road injuries,nottingham,0.06571853742151589,31710.862711204834
 Deaths,Female,15 to 19,neoplasms,nottingham,1.0235167921932764,31710.86271120484
+Deaths,Female,15 to 19,non-rheumatic valvular heart disease,nottingham,0.01287053509231004,31710.862711204878
 Deaths,Female,15 to 19,other road injuries,nottingham,0.025334478254320135,31710.86271120485
 Deaths,Female,15 to 19,other transport injuries,nottingham,0.024679475390114034,31710.862711204834
 Deaths,Female,15 to 19,pedestrian road injuries,nottingham,0.15801023789808183,31710.86271120487
+Deaths,Female,15 to 19,rheumatic heart disease,nottingham,0.0046412826378594806,31710.862711204914
 Deaths,Female,15 to 19,road injuries,nottingham,0.8024377063141914,31710.862711204878
 Deaths,Female,15 to 19,stomach cancer,nottingham,0.0041446662938088305,31710.86271120487
 Deaths,Female,15 to 19,stroke,nottingham,0.07916485857559484,31710.86271120487
@@ -59,6 +66,7 @@ Deaths,Female,15 to 19,"tracheal, bronchus, and lung cancer",nottingham,0.012839
 Deaths,Female,20 to 24,all causes,nottingham,8.444784781162742,38386.13200303937
 Deaths,Female,20 to 24,bladder cancer,nottingham,0.004410612383583816,38386.132003039354
 Deaths,Female,20 to 24,breast cancer,nottingham,0.06034295401380774,38386.13200303938
+Deaths,Female,20 to 24,cardiomyopathy and myocarditis,nottingham,0.08433325950232756,38386.13200303942
 Deaths,Female,20 to 24,cardiovascular diseases,nottingham,0.573576721671246,38386.132003039376
 Deaths,Female,20 to 24,chronic myeloid leukemia,nottingham,0.00975518910364056,38386.132003039376
 Deaths,Female,20 to 24,chronic obstructive pulmonary disease,nottingham,0.03860651569657239,38386.13200303937
@@ -74,10 +82,12 @@ Deaths,Female,20 to 24,motor vehicle road injuries,nottingham,0.6882908840548054
 Deaths,Female,20 to 24,motorcyclist road injuries,nottingham,0.08259744936680018,38386.132003039354
 Deaths,Female,20 to 24,multiple myeloma,nottingham,0.002702617090335055,38386.1320030394
 Deaths,Female,20 to 24,neoplasms,nottingham,1.8251976054207264,38386.13200303936
+Deaths,Female,20 to 24,non-rheumatic valvular heart disease,nottingham,0.02449500582969344,38386.13200303938
 Deaths,Female,20 to 24,other road injuries,nottingham,0.03314749831890772,38386.13200303941
 Deaths,Female,20 to 24,other transport injuries,nottingham,0.0354464075789792,38386.13200303939
 Deaths,Female,20 to 24,parkinson's disease,nottingham,5.010398291519317e-4,38386.13200303928
 Deaths,Female,20 to 24,pedestrian road injuries,nottingham,0.15492555393355273,38386.13200303937
+Deaths,Female,20 to 24,rheumatic heart disease,nottingham,0.011978286470360571,38386.132003039376
 Deaths,Female,20 to 24,road injuries,nottingham,0.9959854919695013,38386.13200303937
 Deaths,Female,20 to 24,stomach cancer,nottingham,0.01861617383346975,38386.132003039325
 Deaths,Female,20 to 24,stroke,nottingham,0.1911006657253428,38386.132003039354
@@ -86,6 +96,7 @@ Deaths,Female,20 to 24,uterine cancer,nottingham,0.004658759061414863,38386.1320
 Deaths,Female,25 to 29,all causes,nottingham,14.23059128162247,41519.41215548163
 Deaths,Female,25 to 29,bladder cancer,nottingham,0.018349381166970675,41519.41215548174
 Deaths,Female,25 to 29,breast cancer,nottingham,0.7124729868504349,41519.41215548166
+Deaths,Female,25 to 29,cardiomyopathy and myocarditis,nottingham,0.15121084370595472,41519.41215548164
 Deaths,Female,25 to 29,cardiovascular diseases,nottingham,1.4678757182359188,41519.412155481725
 Deaths,Female,25 to 29,chronic myeloid leukemia,nottingham,0.024098803224113247,41519.412155481725
 Deaths,Female,25 to 29,chronic obstructive pulmonary disease,nottingham,0.07743686539884018,41519.41215548168
@@ -101,10 +112,12 @@ Deaths,Female,25 to 29,motor vehicle road injuries,nottingham,0.5810440636755851
 Deaths,Female,25 to 29,motorcyclist road injuries,nottingham,0.07877633530356931,41519.412155481725
 Deaths,Female,25 to 29,multiple myeloma,nottingham,0.0060551604858506865,41519.41215548161
 Deaths,Female,25 to 29,neoplasms,nottingham,4.14483918487079,41519.41215548164
+Deaths,Female,25 to 29,non-rheumatic valvular heart disease,nottingham,0.05771908813488256,41519.412155481725
 Deaths,Female,25 to 29,other road injuries,nottingham,0.036508980565926934,41519.41215548165
 Deaths,Female,25 to 29,other transport injuries,nottingham,0.04400577073158245,41519.4121554816
 Deaths,Female,25 to 29,parkinson's disease,nottingham,3.5196049093848936e-4,41519.41215548168
 Deaths,Female,25 to 29,pedestrian road injuries,nottingham,0.14324691233834402,41519.41215548162
+Deaths,Female,25 to 29,rheumatic heart disease,nottingham,0.030370137527670475,41519.41215548162
 Deaths,Female,25 to 29,road injuries,nottingham,0.8769868458524916,41519.41215548174
 Deaths,Female,25 to 29,stomach cancer,nottingham,0.08954908822802501,41519.41215548165
 Deaths,Female,25 to 29,stroke,nottingham,0.5498861607120638,41519.412155481725
@@ -113,6 +126,7 @@ Deaths,Female,25 to 29,uterine cancer,nottingham,0.02394641639680157,41519.41215
 Deaths,Female,30 to 34,all causes,nottingham,18.99442131110609,39423.6866775969
 Deaths,Female,30 to 34,bladder cancer,nottingham,0.053941527182670326,39423.6866775969
 Deaths,Female,30 to 34,breast cancer,nottingham,2.144111661253492,39423.68667759695
+Deaths,Female,30 to 34,cardiomyopathy and myocarditis,nottingham,0.1544996861440408,39423.68667759694
 Deaths,Female,30 to 34,cardiovascular diseases,nottingham,2.132632075329874,39423.686677596976
 Deaths,Female,30 to 34,chronic myeloid leukemia,nottingham,0.02627226264296988,39423.68667759702
 Deaths,Female,30 to 34,chronic obstructive pulmonary disease,nottingham,0.11332973044409807,39423.68667759698
@@ -128,10 +142,12 @@ Deaths,Female,30 to 34,motor vehicle road injuries,nottingham,0.3827939055434223
 Deaths,Female,30 to 34,motorcyclist road injuries,nottingham,0.058069501033330806,39423.686677596954
 Deaths,Female,30 to 34,multiple myeloma,nottingham,0.018181778800858105,39423.68667759694
 Deaths,Female,30 to 34,neoplasms,nottingham,7.013803423476906,39423.686677596874
+Deaths,Female,30 to 34,non-rheumatic valvular heart disease,nottingham,0.06695927892129337,39423.686677596896
 Deaths,Female,30 to 34,other road injuries,nottingham,0.025048508242913173,39423.6866775969
 Deaths,Female,30 to 34,other transport injuries,nottingham,0.03175736786023396,39423.68667759694
 Deaths,Female,30 to 34,parkinson's disease,nottingham,8.663506165739645e-4,39423.68667759696
 Deaths,Female,30 to 34,pedestrian road injuries,nottingham,0.10466439725056921,39423.686677596954
+Deaths,Female,30 to 34,rheumatic heart disease,nottingham,0.03583580061203323,39423.68667759691
 Deaths,Female,30 to 34,road injuries,nottingham,0.5967181213924883,39423.686677596925
 Deaths,Female,30 to 34,stomach cancer,nottingham,0.18820982322512658,39423.68667759697
 Deaths,Female,30 to 34,stroke,nottingham,0.7753288923061902,39423.68667759688
@@ -140,6 +156,7 @@ Deaths,Female,30 to 34,uterine cancer,nottingham,0.04717443802506204,39423.68667
 Deaths,Female,35 to 39,all causes,nottingham,26.30541301161469,35559.03318679862
 Deaths,Female,35 to 39,bladder cancer,nottingham,0.09279209898984475,35559.03318679867
 Deaths,Female,35 to 39,breast cancer,nottingham,3.754748403129306,35559.03318679865
+Deaths,Female,35 to 39,cardiomyopathy and myocarditis,nottingham,0.20203385990579337,35559.03318679867
 Deaths,Female,35 to 39,cardiovascular diseases,nottingham,3.269894053707646,35559.03318679865
 Deaths,Female,35 to 39,chronic myeloid leukemia,nottingham,0.033340004350888464,35559.03318679865
 Deaths,Female,35 to 39,chronic obstructive pulmonary disease,nottingham,0.1917079267054902,35559.03318679866
@@ -155,10 +172,12 @@ Deaths,Female,35 to 39,motor vehicle road injuries,nottingham,0.3423642510699612
 Deaths,Female,35 to 39,motorcyclist road injuries,nottingham,0.051459877590679486,35559.03318679867
 Deaths,Female,35 to 39,multiple myeloma,nottingham,0.04812647868087763,35559.03318679865
 Deaths,Female,35 to 39,neoplasms,nottingham,10.752297133636798,35559.03318679864
+Deaths,Female,35 to 39,non-rheumatic valvular heart disease,nottingham,0.07602724616990504,35559.03318679863
 Deaths,Female,35 to 39,other road injuries,nottingham,0.02475049788834427,35559.03318679864
 Deaths,Female,35 to 39,other transport injuries,nottingham,0.029792508959455483,35559.033186798675
 Deaths,Female,35 to 39,parkinson's disease,nottingham,0.002912372723919182,35559.03318679869
 Deaths,Female,35 to 39,pedestrian road injuries,nottingham,0.10553632417718006,35559.03318679859
+Deaths,Female,35 to 39,rheumatic heart disease,nottingham,0.05059913070742847,35559.03318679864
 Deaths,Female,35 to 39,road injuries,nottingham,0.5481888863644301,35559.033186798595
 Deaths,Female,35 to 39,stomach cancer,nottingham,0.2813304158802358,35559.033186798595
 Deaths,Female,35 to 39,stroke,nottingham,1.1893447220500155,35559.033186798675
@@ -168,6 +187,7 @@ Deaths,Female,40 to 44,all causes,nottingham,33.93435049372132,33485.07312707878
 Deaths,Female,40 to 44,alzheimer's disease and other dementias,nottingham,0.03726829115805568,33485.073127078766
 Deaths,Female,40 to 44,bladder cancer,nottingham,0.1574025539429915,33485.07312707877
 Deaths,Female,40 to 44,breast cancer,nottingham,5.296574515378939,33485.07312707877
+Deaths,Female,40 to 44,cardiomyopathy and myocarditis,nottingham,0.23054858538488945,33485.07312707881
 Deaths,Female,40 to 44,cardiovascular diseases,nottingham,4.529234327644618,33485.07312707879
 Deaths,Female,40 to 44,chronic myeloid leukemia,nottingham,0.030115380414850026,33485.0731270788
 Deaths,Female,40 to 44,chronic obstructive pulmonary disease,nottingham,0.35649750577577644,33485.07312707877
@@ -183,10 +203,12 @@ Deaths,Female,40 to 44,motor vehicle road injuries,nottingham,0.3218249926494863
 Deaths,Female,40 to 44,motorcyclist road injuries,nottingham,0.04192989472384062,33485.0731270788
 Deaths,Female,40 to 44,multiple myeloma,nottingham,0.09589259773865857,33485.073127078744
 Deaths,Female,40 to 44,neoplasms,nottingham,15.032967420706516,33485.07312707874
+Deaths,Female,40 to 44,non-rheumatic valvular heart disease,nottingham,0.0976059602115254,33485.073127078766
 Deaths,Female,40 to 44,other road injuries,nottingham,0.019154194061198834,33485.07312707879
 Deaths,Female,40 to 44,other transport injuries,nottingham,0.02526831195413249,33485.0731270787
 Deaths,Female,40 to 44,parkinson's disease,nottingham,0.017198501198074354,33485.07312707868
 Deaths,Female,40 to 44,pedestrian road injuries,nottingham,0.10761753316403913,33485.07312707879
+Deaths,Female,40 to 44,rheumatic heart disease,nottingham,0.08352225852181387,33485.07312707878
 Deaths,Female,40 to 44,road injuries,nottingham,0.5117503736903974,33485.07312707877
 Deaths,Female,40 to 44,stomach cancer,nottingham,0.4072285512181504,33485.0731270788
 Deaths,Female,40 to 44,stroke,nottingham,1.5591821168389546,33485.07312707878
@@ -196,6 +218,7 @@ Deaths,Female,45 to 49,all causes,nottingham,65.81567091438123,38394.22105024181
 Deaths,Female,45 to 49,alzheimer's disease and other dementias,nottingham,0.2649168870377323,38394.22105024175
 Deaths,Female,45 to 49,bladder cancer,nottingham,0.34730765508880396,38394.221050241744
 Deaths,Female,45 to 49,breast cancer,nottingham,10.229100622933684,38394.22105024183
+Deaths,Female,45 to 49,cardiomyopathy and myocarditis,nottingham,0.3900396494245679,38394.22105024173
 Deaths,Female,45 to 49,cardiovascular diseases,nottingham,9.584836545949402,38394.22105024176
 Deaths,Female,45 to 49,chronic myeloid leukemia,nottingham,0.05570037928567302,38394.221050241795
 Deaths,Female,45 to 49,chronic obstructive pulmonary disease,nottingham,1.066292467616154,38394.22105024182
@@ -211,16 +234,19 @@ Deaths,Female,45 to 49,motor vehicle road injuries,nottingham,0.4727921509112208
 Deaths,Female,45 to 49,motorcyclist road injuries,nottingham,0.05960187505211494,38394.221050241744
 Deaths,Female,45 to 49,multiple myeloma,nottingham,0.2635463180879643,38394.221050241846
 Deaths,Female,45 to 49,neoplasms,nottingham,31.00646545057917,38394.22105024181
+Deaths,Female,45 to 49,non-rheumatic valvular heart disease,nottingham,0.18725502384950457,38394.22105024177
 Deaths,Female,45 to 49,other road injuries,nottingham,0.03383964594761143,38394.22105024177
 Deaths,Female,45 to 49,other transport injuries,nottingham,0.032351824360766314,38394.22105024182
 Deaths,Female,45 to 49,parkinson's disease,nottingham,0.06949693305264817,38394.221050241795
 Deaths,Female,45 to 49,pedestrian road injuries,nottingham,0.16392878392261045,38394.22105024179
+Deaths,Female,45 to 49,rheumatic heart disease,nottingham,0.16280939558609694,38394.22105024187
 Deaths,Female,45 to 49,road injuries,nottingham,0.7641871056480727,38394.22105024185
 Deaths,Female,45 to 49,stomach cancer,nottingham,0.7957563747828015,38394.221050241744
 Deaths,Female,45 to 49,stroke,nottingham,3.1841049757888378,38394.2210502418
 Deaths,Female,45 to 49,"tracheal, bronchus, and lung cancer",nottingham,3.6021093336399312,38394.22105024178
 Deaths,Female,45 to 49,uterine cancer,nottingham,0.42193747740281007,38394.221050241875
 Deaths,Female,5 to 9,all causes,nottingham,1.8726151517052863,33154.37049694959
+Deaths,Female,5 to 9,cardiomyopathy and myocarditis,nottingham,0.018402715081868352,33154.37049694954
 Deaths,Female,5 to 9,cardiovascular diseases,nottingham,0.06291250792556805,33154.37049694963
 Deaths,Female,5 to 9,chronic myeloid leukemia,nottingham,0.002931863587601718,33154.37049694962
 Deaths,Female,5 to 9,chronic obstructive pulmonary disease,nottingham,0.005770039070500773,33154.370496949574
@@ -235,12 +261,14 @@ Deaths,Female,5 to 9,neoplasms,nottingham,0.5901295520936373,33154.37049694955
 Deaths,Female,5 to 9,other road injuries,nottingham,0.005325622794262498,33154.37049694958
 Deaths,Female,5 to 9,other transport injuries,nottingham,0.0064560543838609735,33154.37049694953
 Deaths,Female,5 to 9,pedestrian road injuries,nottingham,0.06505667338146806,33154.37049694953
+Deaths,Female,5 to 9,rheumatic heart disease,nottingham,0.002497112230405556,33154.370496949676
 Deaths,Female,5 to 9,road injuries,nottingham,0.15870032258576627,33154.37049694966
 Deaths,Female,5 to 9,stroke,nottingham,0.01470243478572794,33154.37049694959
 Deaths,Female,50 to 54,all causes,nottingham,107.98587305621311,41383.67204423879
 Deaths,Female,50 to 54,alzheimer's disease and other dementias,nottingham,0.5981972809854029,41383.672044238825
 Deaths,Female,50 to 54,bladder cancer,nottingham,0.6524383846628904,41383.67204423879
 Deaths,Female,50 to 54,breast cancer,nottingham,15.138685148429339,41383.67204423887
+Deaths,Female,50 to 54,cardiomyopathy and myocarditis,nottingham,0.47935691462936203,41383.6720442388
 Deaths,Female,50 to 54,cardiovascular diseases,nottingham,16.33144785492176,41383.67204423882
 Deaths,Female,50 to 54,chronic myeloid leukemia,nottingham,0.05985759114299874,41383.67204423879
 Deaths,Female,50 to 54,chronic obstructive pulmonary disease,nottingham,3.588188219924124,41383.672044238854
@@ -256,10 +284,12 @@ Deaths,Female,50 to 54,motor vehicle road injuries,nottingham,0.4070722260263055
 Deaths,Female,50 to 54,motorcyclist road injuries,nottingham,0.0521925408633571,41383.67204423873
 Deaths,Female,50 to 54,multiple myeloma,nottingham,0.6508979624709921,41383.67204423883
 Deaths,Female,50 to 54,neoplasms,nottingham,56.774207059906885,41383.6720442388
+Deaths,Female,50 to 54,non-rheumatic valvular heart disease,nottingham,0.3157664690812356,41383.67204423883
 Deaths,Female,50 to 54,other road injuries,nottingham,0.034047917662894105,41383.67204423879
 Deaths,Female,50 to 54,other transport injuries,nottingham,0.031350241716788046,41383.672044238796
 Deaths,Female,50 to 54,parkinson's disease,nottingham,0.17871881933582578,41383.67204423883
 Deaths,Female,50 to 54,pedestrian road injuries,nottingham,0.16303934380067675,41383.67204423875
+Deaths,Female,50 to 54,rheumatic heart disease,nottingham,0.2748759351558076,41383.67204423884
 Deaths,Female,50 to 54,road injuries,nottingham,0.6939009828949589,41383.67204423874
 Deaths,Female,50 to 54,stomach cancer,nottingham,1.3023450573821025,41383.67204423882
 Deaths,Female,50 to 54,stroke,nottingham,5.268119232957636,41383.672044238825
@@ -269,6 +299,7 @@ Deaths,Female,55 to 59,all causes,nottingham,157.60810838266806,38587.2751792859
 Deaths,Female,55 to 59,alzheimer's disease and other dementias,nottingham,1.1873523019675718,38587.27517928602
 Deaths,Female,55 to 59,bladder cancer,nottingham,1.061003910274239,38587.27517928599
 Deaths,Female,55 to 59,breast cancer,nottingham,20.501596557976317,38587.275179285905
+Deaths,Female,55 to 59,cardiomyopathy and myocarditis,nottingham,0.6315032302515902,38587.27517928601
 Deaths,Female,55 to 59,cardiovascular diseases,nottingham,23.265696440240795,38587.27517928593
 Deaths,Female,55 to 59,chronic myeloid leukemia,nottingham,0.08130011069706813,38587.27517928596
 Deaths,Female,55 to 59,chronic obstructive pulmonary disease,nottingham,7.137180098053886,38587.27517928594
@@ -284,10 +315,12 @@ Deaths,Female,55 to 59,motor vehicle road injuries,nottingham,0.4472890100853309
 Deaths,Female,55 to 59,motorcyclist road injuries,nottingham,0.05145203571463369,38587.27517928593
 Deaths,Female,55 to 59,multiple myeloma,nottingham,1.0840053337172844,38587.275179285956
 Deaths,Female,55 to 59,neoplasms,nottingham,86.28128796161579,38587.27517928596
+Deaths,Female,55 to 59,non-rheumatic valvular heart disease,nottingham,0.47323133042816545,38587.27517928593
 Deaths,Female,55 to 59,other road injuries,nottingham,0.038889010490593394,38587.27517928599
 Deaths,Female,55 to 59,other transport injuries,nottingham,0.03264337162993788,38587.27517928602
 Deaths,Female,55 to 59,parkinson's disease,nottingham,0.34810252748348597,38587.27517928595
 Deaths,Female,55 to 59,pedestrian road injuries,nottingham,0.18773408550998094,38587.27517928596
+Deaths,Female,55 to 59,rheumatic heart disease,nottingham,0.37772556743665275,38587.275179285985
 Deaths,Female,55 to 59,road injuries,nottingham,0.76417439846807,38587.27517928595
 Deaths,Female,55 to 59,stomach cancer,nottingham,1.9245844800066974,38587.275179285956
 Deaths,Female,55 to 59,stroke,nottingham,6.92562226169695,38587.275179285934
@@ -297,6 +330,7 @@ Deaths,Female,60 to 64,all causes,nottingham,210.83927367433694,32470.9912843677
 Deaths,Female,60 to 64,alzheimer's disease and other dementias,nottingham,2.251556736289942,32470.991284367818
 Deaths,Female,60 to 64,bladder cancer,nottingham,1.6438560248303034,32470.991284367767
 Deaths,Female,60 to 64,breast cancer,nottingham,21.975091945674922,32470.991284367723
+Deaths,Female,60 to 64,cardiomyopathy and myocarditis,nottingham,0.7487463145107464,32470.9912843678
 Deaths,Female,60 to 64,cardiovascular diseases,nottingham,35.138177454958395,32470.991284367774
 Deaths,Female,60 to 64,chronic myeloid leukemia,nottingham,0.09851104883793887,32470.99128436779
 Deaths,Female,60 to 64,chronic obstructive pulmonary disease,nottingham,15.10974329105326,32470.99128436776
@@ -312,10 +346,12 @@ Deaths,Female,60 to 64,motor vehicle road injuries,nottingham,0.3824240484793871
 Deaths,Female,60 to 64,motorcyclist road injuries,nottingham,0.02907179680167664,32470.99128436774
 Deaths,Female,60 to 64,multiple myeloma,nottingham,1.7640125380169118,32470.991284367756
 Deaths,Female,60 to 64,neoplasms,nottingham,114.04900255804714,32470.991284367767
+Deaths,Female,60 to 64,non-rheumatic valvular heart disease,nottingham,0.8320827257181133,32470.991284367803
 Deaths,Female,60 to 64,other road injuries,nottingham,0.021660068042073363,32470.991284367778
 Deaths,Female,60 to 64,other transport injuries,nottingham,0.028644291536794212,32470.991284367738
 Deaths,Female,60 to 64,parkinson's disease,nottingham,0.7433065216303334,32470.991284367774
 Deaths,Female,60 to 64,pedestrian road injuries,nottingham,0.21341547881483452,32470.991284367767
+Deaths,Female,60 to 64,rheumatic heart disease,nottingham,0.5067457559904229,32470.99128436781
 Deaths,Female,60 to 64,road injuries,nottingham,0.672178348814839,32470.991284367774
 Deaths,Female,60 to 64,stomach cancer,nottingham,2.5203697000549337,32470.991284367778
 Deaths,Female,60 to 64,stroke,nottingham,8.877558086615752,32470.99128436784
@@ -325,6 +361,7 @@ Deaths,Female,65 to 69,all causes,nottingham,299.64369688873046,29113.3952420248
 Deaths,Female,65 to 69,alzheimer's disease and other dementias,nottingham,4.961784915361149,29113.395242024784
 Deaths,Female,65 to 69,bladder cancer,nottingham,2.6411100807762127,29113.395242024795
 Deaths,Female,65 to 69,breast cancer,nottingham,24.200543503249015,29113.39524202479
+Deaths,Female,65 to 69,cardiomyopathy and myocarditis,nottingham,0.8173168483331597,29113.39524202475
 Deaths,Female,65 to 69,cardiovascular diseases,nottingham,53.719885620796326,29113.395242024733
 Deaths,Female,65 to 69,chronic myeloid leukemia,nottingham,0.1391545647364474,29113.395242024788
 Deaths,Female,65 to 69,chronic obstructive pulmonary disease,nottingham,24.73719358876297,29113.395242024748
@@ -340,10 +377,12 @@ Deaths,Female,65 to 69,motor vehicle road injuries,nottingham,0.4630286698829893
 Deaths,Female,65 to 69,motorcyclist road injuries,nottingham,0.02716734576880402,29113.395242024795
 Deaths,Female,65 to 69,multiple myeloma,nottingham,2.9354678802369665,29113.395242024784
 Deaths,Female,65 to 69,neoplasms,nottingham,157.69885825694442,29113.39524202475
+Deaths,Female,65 to 69,non-rheumatic valvular heart disease,nottingham,1.3408574722701083,29113.39524202478
 Deaths,Female,65 to 69,other road injuries,nottingham,0.017132353530182182,29113.395242024722
 Deaths,Female,65 to 69,other transport injuries,nottingham,0.032012851434901686,29113.395242024788
 Deaths,Female,65 to 69,parkinson's disease,nottingham,1.8137514762295535,29113.395242024773
 Deaths,Female,65 to 69,pedestrian road injuries,nottingham,0.2695468614002779,29113.39524202483
+Deaths,Female,65 to 69,rheumatic heart disease,nottingham,0.8474811769699605,29113.39524202479
 Deaths,Female,65 to 69,road injuries,nottingham,0.7995032120706292,29113.39524202478
 Deaths,Female,65 to 69,stomach cancer,nottingham,3.645229605185358,29113.395242024777
 Deaths,Female,65 to 69,stroke,nottingham,12.897113997340096,29113.395242024795
@@ -353,6 +392,7 @@ Deaths,Female,70 to 74,all causes,nottingham,503.468672960271,29281.286563701426
 Deaths,Female,70 to 74,alzheimer's disease and other dementias,nottingham,12.411580135327172,29281.286563701404
 Deaths,Female,70 to 74,bladder cancer,nottingham,4.856023806995314,29281.286563701335
 Deaths,Female,70 to 74,breast cancer,nottingham,33.50910568401597,29281.286563701447
+Deaths,Female,70 to 74,cardiomyopathy and myocarditis,nottingham,1.3342341810502132,29281.286563701407
 Deaths,Female,70 to 74,cardiovascular diseases,nottingham,105.31816838036873,29281.286563701422
 Deaths,Female,70 to 74,chronic myeloid leukemia,nottingham,0.22780097978570768,29281.286563701367
 Deaths,Female,70 to 74,chronic obstructive pulmonary disease,nottingham,44.73030384185998,29281.286563701386
@@ -368,10 +408,12 @@ Deaths,Female,70 to 74,motor vehicle road injuries,nottingham,0.6871322221358347
 Deaths,Female,70 to 74,motorcyclist road injuries,nottingham,0.013245619480171295,29281.286563701356
 Deaths,Female,70 to 74,multiple myeloma,nottingham,4.674775243376158,29281.286563701346
 Deaths,Female,70 to 74,neoplasms,nottingham,238.87777870810507,29281.28656370137
+Deaths,Female,70 to 74,non-rheumatic valvular heart disease,nottingham,3.090286510838026,29281.28656370139
 Deaths,Female,70 to 74,other road injuries,nottingham,0.01182428619266847,29281.286563701397
 Deaths,Female,70 to 74,other transport injuries,nottingham,0.028808261274788458,29281.286563701407
 Deaths,Female,70 to 74,parkinson's disease,nottingham,5.206913351380326,29281.286563701397
 Deaths,Female,70 to 74,pedestrian road injuries,nottingham,0.4327519258480159,29281.286563701382
+Deaths,Female,70 to 74,rheumatic heart disease,nottingham,1.5580014007475098,29281.2865637014
 Deaths,Female,70 to 74,road injuries,nottingham,1.1636831376572931,29281.28656370137
 Deaths,Female,70 to 74,stomach cancer,nottingham,6.651217973117706,29281.286563701433
 Deaths,Female,70 to 74,stroke,nottingham,27.76452174186553,29281.286563701397
@@ -381,6 +423,7 @@ Deaths,Female,75 to 79,all causes,nottingham,654.8883862963268,21169.52104903454
 Deaths,Female,75 to 79,alzheimer's disease and other dementias,nottingham,23.34634414678601,21169.52104903456
 Deaths,Female,75 to 79,bladder cancer,nottingham,6.8928078852074535,21169.52104903455
 Deaths,Female,75 to 79,breast cancer,nottingham,34.54819961626052,21169.521049034556
+Deaths,Female,75 to 79,cardiomyopathy and myocarditis,nottingham,1.8205663537024948,21169.521049034534
 Deaths,Female,75 to 79,cardiovascular diseases,nottingham,168.65633742760303,21169.521049034545
 Deaths,Female,75 to 79,chronic myeloid leukemia,nottingham,0.29476311975627206,21169.52104903455
 Deaths,Female,75 to 79,chronic obstructive pulmonary disease,nottingham,60.458787979122896,21169.52104903457
@@ -396,10 +439,12 @@ Deaths,Female,75 to 79,motor vehicle road injuries,nottingham,0.8357638824127891
 Deaths,Female,75 to 79,motorcyclist road injuries,nottingham,0.009140895081745606,21169.521049034516
 Deaths,Female,75 to 79,multiple myeloma,nottingham,5.732192742569941,21169.521049034553
 Deaths,Female,75 to 79,neoplasms,nottingham,252.5775841663554,21169.521049034534
+Deaths,Female,75 to 79,non-rheumatic valvular heart disease,nottingham,5.572900254368333,21169.521049034556
 Deaths,Female,75 to 79,other road injuries,nottingham,0.008576303498878482,21169.521049034527
 Deaths,Female,75 to 79,other transport injuries,nottingham,0.033606275847899006,21169.521049034593
 Deaths,Female,75 to 79,parkinson's disease,nottingham,9.99019009440862,21169.521049034538
 Deaths,Female,75 to 79,pedestrian road injuries,nottingham,0.6550650735987288,21169.52104903453
+Deaths,Female,75 to 79,rheumatic heart disease,nottingham,2.449404531059837,21169.521049034545
 Deaths,Female,75 to 79,road injuries,nottingham,1.5244440162874922,21169.52104903454
 Deaths,Female,75 to 79,stomach cancer,nottingham,8.920985098936606,21169.52104903452
 Deaths,Female,75 to 79,stroke,nottingham,48.96787986427773,21169.52104903455
@@ -409,6 +454,7 @@ Deaths,Female,80 to 84,all causes,nottingham,912.1587857759562,15770.26131478167
 Deaths,Female,80 to 84,alzheimer's disease and other dementias,nottingham,59.7696492146108,15770.261314781663
 Deaths,Female,80 to 84,bladder cancer,nottingham,8.882510302604313,15770.26131478166
 Deaths,Female,80 to 84,breast cancer,nottingham,40.12815732553472,15770.261314781645
+Deaths,Female,80 to 84,cardiomyopathy and myocarditis,nottingham,2.9646532187187327,15770.261314781685
 Deaths,Female,80 to 84,cardiovascular diseases,nottingham,275.7840592137433,15770.261314781645
 Deaths,Female,80 to 84,chronic myeloid leukemia,nottingham,0.4098134723137927,15770.261314781674
 Deaths,Female,80 to 84,chronic obstructive pulmonary disease,nottingham,78.0984732077382,15770.261314781668
@@ -424,10 +470,12 @@ Deaths,Female,80 to 84,motor vehicle road injuries,nottingham,0.8046052194188602
 Deaths,Female,80 to 84,motorcyclist road injuries,nottingham,0.006255021349436891,15770.261314781646
 Deaths,Female,80 to 84,multiple myeloma,nottingham,5.696179757051551,15770.261314781646
 Deaths,Female,80 to 84,neoplasms,nottingham,265.8886906947344,15770.261314781676
+Deaths,Female,80 to 84,non-rheumatic valvular heart disease,nottingham,9.951611522014375,15770.261314781677
 Deaths,Female,80 to 84,other road injuries,nottingham,0.006393738627816671,15770.261314781652
 Deaths,Female,80 to 84,other transport injuries,nottingham,0.02275519850679251,15770.261314781686
 Deaths,Female,80 to 84,parkinson's disease,nottingham,14.335140060230522,15770.261314781645
 Deaths,Female,80 to 84,pedestrian road injuries,nottingham,0.6755846800026776,15770.261314781668
+Deaths,Female,80 to 84,rheumatic heart disease,nottingham,3.074023015940406,15770.261314781652
 Deaths,Female,80 to 84,road injuries,nottingham,1.5039458008235043,15770.26131478168
 Deaths,Female,80 to 84,stomach cancer,nottingham,11.05703249272047,15770.261314781666
 Deaths,Female,80 to 84,stroke,nottingham,88.38407842426182,15770.261314781663
@@ -437,6 +485,7 @@ Deaths,Female,85 to 89,all causes,nottingham,1092.9248084507785,10027.4895457029
 Deaths,Female,85 to 89,alzheimer's disease and other dementias,nottingham,95.04948576243042,10027.489545702934
 Deaths,Female,85 to 89,bladder cancer,nottingham,9.49261862305245,10027.489545702923
 Deaths,Female,85 to 89,breast cancer,nottingham,40.07987576516873,10027.489545702938
+Deaths,Female,85 to 89,cardiomyopathy and myocarditis,nottingham,4.383370341628083,10027.48954570293
 Deaths,Female,85 to 89,cardiovascular diseases,nottingham,372.8340661051971,10027.48954570292
 Deaths,Female,85 to 89,chronic myeloid leukemia,nottingham,0.522449996136818,10027.48954570294
 Deaths,Female,85 to 89,chronic obstructive pulmonary disease,nottingham,78.7033424059112,10027.489545702936
@@ -452,10 +501,12 @@ Deaths,Female,85 to 89,motor vehicle road injuries,nottingham,0.6390509819307514
 Deaths,Female,85 to 89,motorcyclist road injuries,nottingham,0.005642799141499686,10027.48954570292
 Deaths,Female,85 to 89,multiple myeloma,nottingham,4.883628983622956,10027.489545702934
 Deaths,Female,85 to 89,neoplasms,nottingham,235.87790778410175,10027.489545702942
+Deaths,Female,85 to 89,non-rheumatic valvular heart disease,nottingham,14.566208696080764,10027.48954570293
 Deaths,Female,85 to 89,other road injuries,nottingham,0.00501734379524654,10027.48954570294
 Deaths,Female,85 to 89,other transport injuries,nottingham,0.01934319395815309,10027.489545702936
 Deaths,Female,85 to 89,parkinson's disease,nottingham,13.785383184802189,10027.489545702952
 Deaths,Female,85 to 89,pedestrian road injuries,nottingham,0.6437675855931685,10027.48954570294
+Deaths,Female,85 to 89,rheumatic heart disease,nottingham,3.4742530623599484,10027.489545702929
 Deaths,Female,85 to 89,road injuries,nottingham,1.3024865197911708,10027.489545702956
 Deaths,Female,85 to 89,stomach cancer,nottingham,11.001828276399367,10027.48954570293
 Deaths,Female,85 to 89,stroke,nottingham,121.68644936610875,10027.48954570293
@@ -465,6 +516,7 @@ Deaths,Female,90 to 94,all causes,nottingham,963.37038898739,4526.4689557335005
 Deaths,Female,90 to 94,alzheimer's disease and other dementias,nottingham,92.7137819779395,4526.468955733497
 Deaths,Female,90 to 94,bladder cancer,nottingham,7.085132208992061,4526.4689557335005
 Deaths,Female,90 to 94,breast cancer,nottingham,29.626700825506315,4526.468955733499
+Deaths,Female,90 to 94,cardiomyopathy and myocarditis,nottingham,4.580415188437362,4526.468955733496
 Deaths,Female,90 to 94,cardiovascular diseases,nottingham,363.9329866598331,4526.468955733491
 Deaths,Female,90 to 94,chronic myeloid leukemia,nottingham,0.33298874656033994,4526.468955733495
 Deaths,Female,90 to 94,chronic obstructive pulmonary disease,nottingham,59.987826811981925,4526.4689557335005
@@ -480,10 +532,12 @@ Deaths,Female,90 to 94,motor vehicle road injuries,nottingham,0.3206372856645986
 Deaths,Female,90 to 94,motorcyclist road injuries,nottingham,0.012506247906316569,4526.468955733504
 Deaths,Female,90 to 94,multiple myeloma,nottingham,2.5475947475658143,4526.468955733496
 Deaths,Female,90 to 94,neoplasms,nottingham,149.04380041250872,4526.468955733496
+Deaths,Female,90 to 94,non-rheumatic valvular heart disease,nottingham,14.916380195388248,4526.468955733498
 Deaths,Female,90 to 94,other road injuries,nottingham,0.007905774807799686,4526.468955733502
 Deaths,Female,90 to 94,other transport injuries,nottingham,0.018447351294706597,4526.468955733495
 Deaths,Female,90 to 94,parkinson's disease,nottingham,8.145564172876735,4526.468955733499
 Deaths,Female,90 to 94,pedestrian road injuries,nottingham,0.35333411523939723,4526.468955733496
+Deaths,Female,90 to 94,rheumatic heart disease,nottingham,2.5721732254287595,4526.468955733501
 Deaths,Female,90 to 94,road injuries,nottingham,0.7037386519861947,4526.4689557335
 Deaths,Female,90 to 94,stomach cancer,nottingham,7.424669035497915,4526.468955733499
 Deaths,Female,90 to 94,stroke,nottingham,121.90534156694895,4526.468955733493
@@ -493,6 +547,7 @@ Deaths,Female,95 to 99,all causes,nottingham,399.44740357125625,1086.20528884283
 Deaths,Female,95 to 99,alzheimer's disease and other dementias,nottingham,40.58822921613965,1086.205288842839
 Deaths,Female,95 to 99,bladder cancer,nottingham,2.5966091636797874,1086.205288842841
 Deaths,Female,95 to 99,breast cancer,nottingham,10.84408640999827,1086.2052888428386
+Deaths,Female,95 to 99,cardiomyopathy and myocarditis,nottingham,2.2384221956261663,1086.2052888428373
 Deaths,Female,95 to 99,cardiovascular diseases,nottingham,156.2877796645294,1086.2052888428393
 Deaths,Female,95 to 99,chronic myeloid leukemia,nottingham,0.11237776699642002,1086.2052888428384
 Deaths,Female,95 to 99,chronic obstructive pulmonary disease,nottingham,24.53205984622709,1086.2052888428382
@@ -508,16 +563,19 @@ Deaths,Female,95 to 99,motor vehicle road injuries,nottingham,0.1076432583618213
 Deaths,Female,95 to 99,motorcyclist road injuries,nottingham,0.008072952863674258,1086.2052888428398
 Deaths,Female,95 to 99,multiple myeloma,nottingham,0.6596020408925357,1086.2052888428395
 Deaths,Female,95 to 99,neoplasms,nottingham,51.98221012951205,1086.2052888428393
+Deaths,Female,95 to 99,non-rheumatic valvular heart disease,nottingham,6.0567347047545175,1086.2052888428386
 Deaths,Female,95 to 99,other road injuries,nottingham,0.0043151961921712,1086.2052888428386
 Deaths,Female,95 to 99,other transport injuries,nottingham,0.01180150046529121,1086.2052888428384
 Deaths,Female,95 to 99,parkinson's disease,nottingham,2.151010631032147,1086.2052888428389
 Deaths,Female,95 to 99,pedestrian road injuries,nottingham,0.11726191573422119,1086.2052888428389
+Deaths,Female,95 to 99,rheumatic heart disease,nottingham,0.9992339813419542,1086.2052888428389
 Deaths,Female,95 to 99,road injuries,nottingham,0.23750885728875779,1086.2052888428393
 Deaths,Female,95 to 99,stomach cancer,nottingham,2.6435677180518886,1086.2052888428393
 Deaths,Female,95 to 99,stroke,nottingham,53.22222741123968,1086.2052888428373
 Deaths,Female,95 to 99,"tracheal, bronchus, and lung cancer",nottingham,6.796185126213453,1086.2052888428393
 Deaths,Female,95 to 99,uterine cancer,nottingham,0.9213284571303259,1086.205288842838
 Deaths,Male,0 to 5,all causes,nottingham,32.547736428306564,33894.041911771696
+Deaths,Male,0 to 5,cardiomyopathy and myocarditis,nottingham,0.1808590127020815,33894.04191177174
 Deaths,Male,0 to 5,cardiovascular diseases,nottingham,0.3686802094595433,33894.04191177168
 Deaths,Male,0 to 5,chronic myeloid leukemia,nottingham,0.006660512079859973,33894.04191177171
 Deaths,Male,0 to 5,chronic obstructive pulmonary disease,nottingham,0.007766457100660333,33894.04191177171
@@ -531,9 +589,11 @@ Deaths,Male,0 to 5,neoplasms,nottingham,0.9008074110019932,33894.041911771696
 Deaths,Male,0 to 5,other road injuries,nottingham,0.00633721984166642,33894.04191177168
 Deaths,Male,0 to 5,other transport injuries,nottingham,0.015767898081908798,33894.04191177171
 Deaths,Male,0 to 5,pedestrian road injuries,nottingham,0.10204767611209753,33894.04191177163
+Deaths,Male,0 to 5,rheumatic heart disease,nottingham,0.003823663816148312,33894.041911771594
 Deaths,Male,0 to 5,road injuries,nottingham,0.21106389396780675,33894.04191177165
 Deaths,Male,0 to 5,stroke,nottingham,0.04676301702888182,33894.04191177171
 Deaths,Male,10 to 14,all causes,nottingham,3.474678520821752,34603.579233116616
+Deaths,Male,10 to 14,cardiomyopathy and myocarditis,nottingham,0.055106063478583926,34603.57923311665
 Deaths,Male,10 to 14,cardiovascular diseases,nottingham,0.1388671926108363,34603.579233116645
 Deaths,Male,10 to 14,chronic myeloid leukemia,nottingham,0.003840189732830795,34603.57923311672
 Deaths,Male,10 to 14,chronic obstructive pulmonary disease,nottingham,0.006502851272035051,34603.5792331167
@@ -548,12 +608,14 @@ Deaths,Male,10 to 14,neoplasms,nottingham,0.8836979534896737,34603.579233116616
 Deaths,Male,10 to 14,other road injuries,nottingham,0.013212764628297846,34603.57923311664
 Deaths,Male,10 to 14,other transport injuries,nottingham,0.03003088409063432,34603.5792331166
 Deaths,Male,10 to 14,pedestrian road injuries,nottingham,0.18303409072661309,34603.57923311664
+Deaths,Male,10 to 14,rheumatic heart disease,nottingham,0.003208166424404784,34603.57923311668
 Deaths,Male,10 to 14,road injuries,nottingham,0.5348391849373865,34603.57923311665
 Deaths,Male,10 to 14,stroke,nottingham,0.03474869980446531,34603.5792331167
 Deaths,Male,10 to 14,"tracheal, bronchus, and lung cancer",nottingham,0.0033251206933449075,34603.5792331167
 Deaths,Male,15 to 19,all causes,nottingham,11.016217582753493,33206.96625827848
 Deaths,Male,15 to 19,bladder cancer,nottingham,0.0033081008212156307,33206.966258278546
 Deaths,Male,15 to 19,breast cancer,nottingham,0.003280103161236419,33206.966258278524
+Deaths,Male,15 to 19,cardiomyopathy and myocarditis,nottingham,0.17316794841675742,33206.966258278495
 Deaths,Male,15 to 19,cardiovascular diseases,nottingham,0.46356480460351795,33206.96625827846
 Deaths,Male,15 to 19,chronic myeloid leukemia,nottingham,0.005716972097859948,33206.966258278495
 Deaths,Male,15 to 19,chronic obstructive pulmonary disease,nottingham,0.022864160694989418,33206.966258278524
@@ -567,9 +629,11 @@ Deaths,Male,15 to 19,lower respiratory infections,nottingham,0.13817786963076908
 Deaths,Male,15 to 19,motor vehicle road injuries,nottingham,1.7245736674013115,33206.96625827847
 Deaths,Male,15 to 19,motorcyclist road injuries,nottingham,0.8000944657632738,33206.96625827855
 Deaths,Male,15 to 19,neoplasms,nottingham,1.4706717914392446,33206.96625827852
+Deaths,Male,15 to 19,non-rheumatic valvular heart disease,nottingham,0.02439803161172211,33206.96625827857
 Deaths,Male,15 to 19,other road injuries,nottingham,0.034434805372892986,33206.96625827857
 Deaths,Male,15 to 19,other transport injuries,nottingham,0.10739136270315686,33206.966258278495
 Deaths,Male,15 to 19,pedestrian road injuries,nottingham,0.3904014046888148,33206.966258278524
+Deaths,Male,15 to 19,rheumatic heart disease,nottingham,0.004552359746161467,33206.966258278495
 Deaths,Male,15 to 19,road injuries,nottingham,3.130078329207278,33206.966258278524
 Deaths,Male,15 to 19,stomach cancer,nottingham,0.00636190577819519,33206.966258278575
 Deaths,Male,15 to 19,stroke,nottingham,0.1151205893333943,33206.96625827852
@@ -577,6 +641,7 @@ Deaths,Male,15 to 19,"tracheal, bronchus, and lung cancer",nottingham,0.00774386
 Deaths,Male,20 to 24,all causes,nottingham,21.2156989015919,39401.07441983541
 Deaths,Male,20 to 24,bladder cancer,nottingham,0.004994842331345046,39401.074419835335
 Deaths,Male,20 to 24,breast cancer,nottingham,0.003945443409677861,39401.07441983541
+Deaths,Male,20 to 24,cardiomyopathy and myocarditis,nottingham,0.2956450448268334,39401.07441983539
 Deaths,Male,20 to 24,cardiovascular diseases,nottingham,1.076204364811757,39401.07441983543
 Deaths,Male,20 to 24,chronic myeloid leukemia,nottingham,0.014406685475666297,39401.074419835335
 Deaths,Male,20 to 24,chronic obstructive pulmonary disease,nottingham,0.04308398074623687,39401.07441983539
@@ -592,11 +657,13 @@ Deaths,Male,20 to 24,motor vehicle road injuries,nottingham,3.180546079283054,39
 Deaths,Male,20 to 24,motorcyclist road injuries,nottingham,1.2490340535141815,39401.07441983541
 Deaths,Male,20 to 24,multiple myeloma,nottingham,0.005570135906129894,39401.07441983535
 Deaths,Male,20 to 24,neoplasms,nottingham,2.429054616998683,39401.07441983544
+Deaths,Male,20 to 24,non-rheumatic valvular heart disease,nottingham,0.04831283996496011,39401.074419835444
 Deaths,Male,20 to 24,other road injuries,nottingham,0.037018532144532025,39401.074419835335
 Deaths,Male,20 to 24,other transport injuries,nottingham,0.21344422808886843,39401.074419835335
 Deaths,Male,20 to 24,parkinson's disease,nottingham,0.0014806537093027096,39401.074419835386
 Deaths,Male,20 to 24,pedestrian road injuries,nottingham,0.6054153403687118,39401.074419835335
 Deaths,Male,20 to 24,prostate cancer,nottingham,0.012426288103417896,39401.07441983541
+Deaths,Male,20 to 24,rheumatic heart disease,nottingham,0.013161206943430814,39401.074419835364
 Deaths,Male,20 to 24,road injuries,nottingham,5.269123266315377,39401.07441983532
 Deaths,Male,20 to 24,stomach cancer,nottingham,0.022379020101076633,39401.07441983541
 Deaths,Male,20 to 24,stroke,nottingham,0.2908379564977,39401.07441983538
@@ -604,6 +671,7 @@ Deaths,Male,20 to 24,"tracheal, bronchus, and lung cancer",nottingham,0.02965262
 Deaths,Male,25 to 29,all causes,nottingham,26.336593183467617,42592.8251818124
 Deaths,Male,25 to 29,bladder cancer,nottingham,0.01587406440401402,42592.82518181242
 Deaths,Male,25 to 29,breast cancer,nottingham,0.004461999490899275,42592.82518181241
+Deaths,Male,25 to 29,cardiomyopathy and myocarditis,nottingham,0.4256872829858802,42592.82518181247
 Deaths,Male,25 to 29,cardiovascular diseases,nottingham,2.699491057440376,42592.82518181236
 Deaths,Male,25 to 29,chronic myeloid leukemia,nottingham,0.03228088927819783,42592.82518181234
 Deaths,Male,25 to 29,chronic obstructive pulmonary disease,nottingham,0.08741870276198892,42592.82518181244
@@ -619,11 +687,13 @@ Deaths,Male,25 to 29,motor vehicle road injuries,nottingham,2.2825851545456235,4
 Deaths,Male,25 to 29,motorcyclist road injuries,nottingham,1.0921933041466376,42592.82518181247
 Deaths,Male,25 to 29,multiple myeloma,nottingham,0.013764473111219519,42592.825181812426
 Deaths,Male,25 to 29,neoplasms,nottingham,3.549088772321001,42592.825181812426
+Deaths,Male,25 to 29,non-rheumatic valvular heart disease,nottingham,0.08804661848032914,42592.825181812375
 Deaths,Male,25 to 29,other road injuries,nottingham,0.03466299587924625,42592.82518181244
 Deaths,Male,25 to 29,other transport injuries,nottingham,0.23999822623276612,42592.825181812426
 Deaths,Male,25 to 29,parkinson's disease,nottingham,6.43468732106141e-4,42592.82518181242
 Deaths,Male,25 to 29,pedestrian road injuries,nottingham,0.450857464362587,42592.825181812426
 Deaths,Male,25 to 29,prostate cancer,nottingham,0.021131703496069257,42592.82518181244
+Deaths,Male,25 to 29,rheumatic heart disease,nottingham,0.0280181190209075,42592.8251818124
 Deaths,Male,25 to 29,road injuries,nottingham,4.0260449104064,42592.825181812426
 Deaths,Male,25 to 29,stomach cancer,nottingham,0.0760036061720984,42592.825181812455
 Deaths,Male,25 to 29,stroke,nottingham,0.6342365187254742,42592.8251818124
@@ -631,6 +701,7 @@ Deaths,Male,25 to 29,"tracheal, bronchus, and lung cancer",nottingham,0.11246447
 Deaths,Male,30 to 34,all causes,nottingham,34.2473179280382,41018.62987568338
 Deaths,Male,30 to 34,bladder cancer,nottingham,0.04491955328369082,41018.629875683306
 Deaths,Male,30 to 34,breast cancer,nottingham,0.004379092220120081,41018.62987568337
+Deaths,Male,30 to 34,cardiomyopathy and myocarditis,nottingham,0.49992749983574947,41018.62987568333
 Deaths,Male,30 to 34,cardiovascular diseases,nottingham,4.999573853313898,41018.62987568333
 Deaths,Male,30 to 34,chronic myeloid leukemia,nottingham,0.03993135455476242,41018.62987568334
 Deaths,Male,30 to 34,chronic obstructive pulmonary disease,nottingham,0.16454142607335925,41018.62987568333
@@ -646,11 +717,13 @@ Deaths,Male,30 to 34,motor vehicle road injuries,nottingham,1.4995835499656796,4
 Deaths,Male,30 to 34,motorcyclist road injuries,nottingham,0.887528331559168,41018.62987568332
 Deaths,Male,30 to 34,multiple myeloma,nottingham,0.043044308422506124,41018.62987568332
 Deaths,Male,30 to 34,neoplasms,nottingham,5.543023056618029,41018.62987568337
+Deaths,Male,30 to 34,non-rheumatic valvular heart disease,nottingham,0.12194642887049141,41018.62987568336
 Deaths,Male,30 to 34,other road injuries,nottingham,0.023240209034079164,41018.62987568333
 Deaths,Male,30 to 34,other transport injuries,nottingham,0.1984971274213723,41018.62987568328
 Deaths,Male,30 to 34,parkinson's disease,nottingham,0.0012205049528459118,41018.62987568333
 Deaths,Male,30 to 34,pedestrian road injuries,nottingham,0.4351363381146958,41018.62987568335
 Deaths,Male,30 to 34,prostate cancer,nottingham,0.025755338003118952,41018.62987568335
+Deaths,Male,30 to 34,rheumatic heart disease,nottingham,0.04036858464977669,41018.62987568341
 Deaths,Male,30 to 34,road injuries,nottingham,3.0094619713814317,41018.62987568331
 Deaths,Male,30 to 34,stomach cancer,nottingham,0.21710403843431272,41018.629875683284
 Deaths,Male,30 to 34,stroke,nottingham,1.023341974211718,41018.629875683335
@@ -658,6 +731,7 @@ Deaths,Male,30 to 34,"tracheal, bronchus, and lung cancer",nottingham,0.38549113
 Deaths,Male,35 to 39,all causes,nottingham,43.69902887153578,38363.146361844934
 Deaths,Male,35 to 39,bladder cancer,nottingham,0.09092290676418027,38363.14636184499
 Deaths,Male,35 to 39,breast cancer,nottingham,0.008589971516524103,38363.1463618449
+Deaths,Male,35 to 39,cardiomyopathy and myocarditis,nottingham,0.5973200564056578,38363.146361844905
 Deaths,Male,35 to 39,cardiovascular diseases,nottingham,7.933958157989866,38363.14636184495
 Deaths,Male,35 to 39,chronic myeloid leukemia,nottingham,0.04794690342943805,38363.14636184486
 Deaths,Male,35 to 39,chronic obstructive pulmonary disease,nottingham,0.30575488429319075,38363.14636184491
@@ -673,11 +747,13 @@ Deaths,Male,35 to 39,motor vehicle road injuries,nottingham,1.1287969550710801,3
 Deaths,Male,35 to 39,motorcyclist road injuries,nottingham,0.8413658636332981,38363.14636184489
 Deaths,Male,35 to 39,multiple myeloma,nottingham,0.09487211701291359,38363.146361844934
 Deaths,Male,35 to 39,neoplasms,nottingham,8.268742834359069,38363.14636184494
+Deaths,Male,35 to 39,non-rheumatic valvular heart disease,nottingham,0.15190719139338582,38363.146361844934
 Deaths,Male,35 to 39,other road injuries,nottingham,0.014893357420619865,38363.14636184488
 Deaths,Male,35 to 39,other transport injuries,nottingham,0.18354234451721374,38363.14636184496
 Deaths,Male,35 to 39,parkinson's disease,nottingham,0.002789520388907306,38363.1463618449
 Deaths,Male,35 to 39,pedestrian road injuries,nottingham,0.40696913713257854,38363.14636184491
 Deaths,Male,35 to 39,prostate cancer,nottingham,0.03340474004995803,38363.14636184492
+Deaths,Male,35 to 39,rheumatic heart disease,nottingham,0.053443703275502005,38363.146361844905
 Deaths,Male,35 to 39,road injuries,nottingham,2.5380957624586675,38363.14636184496
 Deaths,Male,35 to 39,stomach cancer,nottingham,0.39554694495731024,38363.146361844934
 Deaths,Male,35 to 39,stroke,nottingham,1.4118649222838653,38363.14636184498
@@ -686,6 +762,7 @@ Deaths,Male,40 to 44,all causes,nottingham,61.77562417448188,35049.1331492436
 Deaths,Male,40 to 44,alzheimer's disease and other dementias,nottingham,0.03642343258514658,35049.13314924356
 Deaths,Male,40 to 44,bladder cancer,nottingham,0.19803663774378133,35049.133149243586
 Deaths,Male,40 to 44,breast cancer,nottingham,0.017333541341386812,35049.1331492436
+Deaths,Male,40 to 44,cardiomyopathy and myocarditis,nottingham,0.8069478507327459,35049.1331492436
 Deaths,Male,40 to 44,cardiovascular diseases,nottingham,12.953718680931427,35049.13314924367
 Deaths,Male,40 to 44,chronic myeloid leukemia,nottingham,0.05712472717879541,35049.13314924363
 Deaths,Male,40 to 44,chronic obstructive pulmonary disease,nottingham,0.6397782994107535,35049.13314924359
@@ -701,11 +778,13 @@ Deaths,Male,40 to 44,motor vehicle road injuries,nottingham,1.1112070341353677,3
 Deaths,Male,40 to 44,motorcyclist road injuries,nottingham,0.9233751107527483,35049.13314924371
 Deaths,Male,40 to 44,multiple myeloma,nottingham,0.1953560031369879,35049.13314924363
 Deaths,Male,40 to 44,neoplasms,nottingham,13.40643140904194,35049.13314924369
+Deaths,Male,40 to 44,non-rheumatic valvular heart disease,nottingham,0.21452184066151359,35049.13314924369
 Deaths,Male,40 to 44,other road injuries,nottingham,0.012097913312596045,35049.13314924362
 Deaths,Male,40 to 44,other transport injuries,nottingham,0.17460223789258764,35049.13314924367
 Deaths,Male,40 to 44,parkinson's disease,nottingham,0.02954689375947743,35049.13314924358
 Deaths,Male,40 to 44,pedestrian road injuries,nottingham,0.4451584910319978,35049.13314924361
 Deaths,Male,40 to 44,prostate cancer,nottingham,0.07216568606635124,35049.13314924366
+Deaths,Male,40 to 44,rheumatic heart disease,nottingham,0.07102176274553602,35049.133149243564
 Deaths,Male,40 to 44,road injuries,nottingham,2.663785459425388,35049.13314924363
 Deaths,Male,40 to 44,stomach cancer,nottingham,0.6945562828167985,35049.13314924362
 Deaths,Male,40 to 44,stroke,nottingham,2.1728088547386237,35049.133149243615
@@ -714,6 +793,7 @@ Deaths,Male,45 to 49,all causes,nottingham,92.66377356971921,38042.16019295021
 Deaths,Male,45 to 49,alzheimer's disease and other dementias,nottingham,0.24949717110674044,38042.16019295018
 Deaths,Male,45 to 49,bladder cancer,nottingham,0.4329772013013322,38042.16019295019
 Deaths,Male,45 to 49,breast cancer,nottingham,0.02783007019508388,38042.16019295014
+Deaths,Male,45 to 49,cardiomyopathy and myocarditis,nottingham,1.0965621123047071,38042.16019295018
 Deaths,Male,45 to 49,cardiovascular diseases,nottingham,21.690577275341088,38042.16019295012
 Deaths,Male,45 to 49,chronic myeloid leukemia,nottingham,0.07175005313743554,38042.16019295019
 Deaths,Male,45 to 49,chronic obstructive pulmonary disease,nottingham,1.361848823870997,38042.160192950236
@@ -729,16 +809,19 @@ Deaths,Male,45 to 49,motor vehicle road injuries,nottingham,1.280782664230427,38
 Deaths,Male,45 to 49,motorcyclist road injuries,nottingham,0.9472721915719264,38042.16019295018
 Deaths,Male,45 to 49,multiple myeloma,nottingham,0.4225172033282661,38042.16019295019
 Deaths,Male,45 to 49,neoplasms,nottingham,24.335891454917714,38042.160192950105
+Deaths,Male,45 to 49,non-rheumatic valvular heart disease,nottingham,0.3158666031888716,38042.16019295016
 Deaths,Male,45 to 49,other road injuries,nottingham,0.016286833737015057,38042.16019295016
 Deaths,Male,45 to 49,other transport injuries,nottingham,0.18968487418538266,38042.16019295012
 Deaths,Male,45 to 49,parkinson's disease,nottingham,0.09771163089965598,38042.160192950134
 Deaths,Male,45 to 49,pedestrian road injuries,nottingham,0.5598368681719699,38042.16019295022
 Deaths,Male,45 to 49,prostate cancer,nottingham,0.31060433325948283,38042.16019295013
+Deaths,Male,45 to 49,rheumatic heart disease,nottingham,0.11521756437054906,38042.16019295021
 Deaths,Male,45 to 49,road injuries,nottingham,3.0147622985246363,38042.16019295017
 Deaths,Male,45 to 49,stomach cancer,nottingham,1.218851074687827,38042.16019295008
 Deaths,Male,45 to 49,stroke,nottingham,3.251095479278839,38042.16019295017
 Deaths,Male,45 to 49,"tracheal, bronchus, and lung cancer",nottingham,4.172953815665021,38042.16019295012
 Deaths,Male,5 to 9,all causes,nottingham,2.311769153393558,34763.205673997414
+Deaths,Male,5 to 9,cardiomyopathy and myocarditis,nottingham,0.020500957358656043,34763.20567399745
 Deaths,Male,5 to 9,cardiovascular diseases,nottingham,0.0624288277651657,34763.205673997436
 Deaths,Male,5 to 9,chronic myeloid leukemia,nottingham,0.003492344101204467,34763.20567399743
 Deaths,Male,5 to 9,chronic obstructive pulmonary disease,nottingham,0.005016437515994431,34763.205673997436
@@ -753,12 +836,14 @@ Deaths,Male,5 to 9,neoplasms,nottingham,0.740500015803409,34763.20567399742
 Deaths,Male,5 to 9,other road injuries,nottingham,0.00474425034181823,34763.20567399741
 Deaths,Male,5 to 9,other transport injuries,nottingham,0.014202023651756112,34763.20567399748
 Deaths,Male,5 to 9,pedestrian road injuries,nottingham,0.135976180135351,34763.20567399746
+Deaths,Male,5 to 9,rheumatic heart disease,nottingham,0.0027229766607868118,34763.205673997414
 Deaths,Male,5 to 9,road injuries,nottingham,0.27842406043123935,34763.20567399742
 Deaths,Male,5 to 9,stroke,nottingham,0.01389617878190458,34763.20567399742
 Deaths,Male,50 to 54,all causes,nottingham,143.52600643065364,41563.30648280168
 Deaths,Male,50 to 54,alzheimer's disease and other dementias,nottingham,0.5764484325025722,41563.3064828017
 Deaths,Male,50 to 54,bladder cancer,nottingham,1.0587087743017964,41563.30648280169
 Deaths,Male,50 to 54,breast cancer,nottingham,0.04903967744465618,41563.30648280171
+Deaths,Male,50 to 54,cardiomyopathy and myocarditis,nottingham,1.3991670613657237,41563.30648280165
 Deaths,Male,50 to 54,cardiovascular diseases,nottingham,39.60545444983766,41563.30648280166
 Deaths,Male,50 to 54,chronic myeloid leukemia,nottingham,0.07288096704965183,41563.30648280163
 Deaths,Male,50 to 54,chronic obstructive pulmonary disease,nottingham,4.067450339589323,41563.306482801636
@@ -774,11 +859,13 @@ Deaths,Male,50 to 54,motor vehicle road injuries,nottingham,0.8928526553089624,4
 Deaths,Male,50 to 54,motorcyclist road injuries,nottingham,0.5748463056065648,41563.306482801694
 Deaths,Male,50 to 54,multiple myeloma,nottingham,0.9273648214105946,41563.306482801665
 Deaths,Male,50 to 54,neoplasms,nottingham,50.75657379845314,41563.30648280162
+Deaths,Male,50 to 54,non-rheumatic valvular heart disease,nottingham,0.5859150623857317,41563.30648280162
 Deaths,Male,50 to 54,other road injuries,nottingham,0.024023126061432018,41563.30648280175
 Deaths,Male,50 to 54,other transport injuries,nottingham,0.18418611014709538,41563.30648280167
 Deaths,Male,50 to 54,parkinson's disease,nottingham,0.22936862134552194,41563.30648280172
 Deaths,Male,50 to 54,pedestrian road injuries,nottingham,0.47367642758099415,41563.30648280175
 Deaths,Male,50 to 54,prostate cancer,nottingham,1.3788387050660647,41563.30648280167
+Deaths,Male,50 to 54,rheumatic heart disease,nottingham,0.1700942961011887,41563.30648280165
 Deaths,Male,50 to 54,road injuries,nottingham,2.1796966554537764,41563.30648280173
 Deaths,Male,50 to 54,stomach cancer,nottingham,2.2846308628279512,41563.30648280166
 Deaths,Male,50 to 54,stroke,nottingham,5.380986185108344,41563.3064828017
@@ -787,6 +874,7 @@ Deaths,Male,55 to 59,all causes,nottingham,219.1174574536845,38698.72823358004
 Deaths,Male,55 to 59,alzheimer's disease and other dementias,nottingham,1.1393617804609117,38698.72823357996
 Deaths,Male,55 to 59,bladder cancer,nottingham,2.050250463166699,38698.72823357996
 Deaths,Male,55 to 59,breast cancer,nottingham,0.08025285272696361,38698.72823357996
+Deaths,Male,55 to 59,cardiomyopathy and myocarditis,nottingham,1.8452532934801251,38698.72823357998
 Deaths,Male,55 to 59,cardiovascular diseases,nottingham,61.95465859263025,38698.72823358001
 Deaths,Male,55 to 59,chronic myeloid leukemia,nottingham,0.09612082078084659,38698.72823358004
 Deaths,Male,55 to 59,chronic obstructive pulmonary disease,nottingham,7.582207453907396,38698.72823358001
@@ -802,11 +890,13 @@ Deaths,Male,55 to 59,motor vehicle road injuries,nottingham,0.9070327717544864,3
 Deaths,Male,55 to 59,motorcyclist road injuries,nottingham,0.467577176459174,38698.728233579975
 Deaths,Male,55 to 59,multiple myeloma,nottingham,1.6296491668099682,38698.72823357999
 Deaths,Male,55 to 59,neoplasms,nottingham,87.51003204037086,38698.72823357998
+Deaths,Male,55 to 59,non-rheumatic valvular heart disease,nottingham,0.9752761077686324,38698.72823358003
 Deaths,Male,55 to 59,other road injuries,nottingham,0.022963117573621253,38698.72823358002
 Deaths,Male,55 to 59,other transport injuries,nottingham,0.17941239052739902,38698.728233579895
 Deaths,Male,55 to 59,parkinson's disease,nottingham,0.4588164728137887,38698.72823358003
 Deaths,Male,55 to 59,pedestrian road injuries,nottingham,0.5012904969034762,38698.72823357998
 Deaths,Male,55 to 59,prostate cancer,nottingham,3.567218740240773,38698.728233580056
+Deaths,Male,55 to 59,rheumatic heart disease,nottingham,0.2653186926211842,38698.72823357996
 Deaths,Male,55 to 59,road injuries,nottingham,2.1490800608380516,38698.72823357998
 Deaths,Male,55 to 59,stomach cancer,nottingham,3.7967950052343125,38698.72823357999
 Deaths,Male,55 to 59,stroke,nottingham,8.37213877460255,38698.728233579954
@@ -815,6 +905,7 @@ Deaths,Male,60 to 64,all causes,nottingham,313.45309837797026,32129.416445457297
 Deaths,Male,60 to 64,alzheimer's disease and other dementias,nottingham,2.05613567286334,32129.41644545728
 Deaths,Male,60 to 64,bladder cancer,nottingham,3.793204822867635,32129.4164454573
 Deaths,Male,60 to 64,breast cancer,nottingham,0.11429232182963514,32129.4164454573
+Deaths,Male,60 to 64,cardiomyopathy and myocarditis,nottingham,2.0436126126423417,32129.416445457307
 Deaths,Male,60 to 64,cardiovascular diseases,nottingham,87.97228476951332,32129.41644545726
 Deaths,Male,60 to 64,chronic myeloid leukemia,nottingham,0.14229884979595675,32129.416445457275
 Deaths,Male,60 to 64,chronic obstructive pulmonary disease,nottingham,18.478626391771833,32129.416445457304
@@ -830,11 +921,13 @@ Deaths,Male,60 to 64,motor vehicle road injuries,nottingham,0.7549034211439483,3
 Deaths,Male,60 to 64,motorcyclist road injuries,nottingham,0.26684069799620824,32129.41644545734
 Deaths,Male,60 to 64,multiple myeloma,nottingham,2.400304581284433,32129.41644545724
 Deaths,Male,60 to 64,neoplasms,nottingham,138.63495032887872,32129.41644545723
+Deaths,Male,60 to 64,non-rheumatic valvular heart disease,nottingham,1.467402871014567,32129.416445457297
 Deaths,Male,60 to 64,other road injuries,nottingham,0.015293264038231566,32129.41644545727
 Deaths,Male,60 to 64,other transport injuries,nottingham,0.1621569930566041,32129.416445457267
 Deaths,Male,60 to 64,parkinson's disease,nottingham,1.2175882810020011,32129.416445457344
 Deaths,Male,60 to 64,pedestrian road injuries,nottingham,0.47908810410324576,32129.416445457235
 Deaths,Male,60 to 64,prostate cancer,nottingham,9.458501801191233,32129.4164454573
+Deaths,Male,60 to 64,rheumatic heart disease,nottingham,0.35472657124660345,32129.416445457326
 Deaths,Male,60 to 64,road injuries,nottingham,1.7001696930237453,32129.41644545721
 Deaths,Male,60 to 64,stomach cancer,nottingham,6.070663633781855,32129.41644545732
 Deaths,Male,60 to 64,stroke,nottingham,11.636268270978817,32129.416445457293
@@ -843,6 +936,7 @@ Deaths,Male,65 to 69,all causes,nottingham,426.7920858470561,28558.792552757302
 Deaths,Male,65 to 69,alzheimer's disease and other dementias,nottingham,4.232371496631466,28558.792552757222
 Deaths,Male,65 to 69,bladder cancer,nottingham,6.740292984651199,28558.79255275726
 Deaths,Male,65 to 69,breast cancer,nottingham,0.15144847938798595,28558.792552757237
+Deaths,Male,65 to 69,cardiomyopathy and myocarditis,nottingham,2.328635131171678,28558.79255275725
 Deaths,Male,65 to 69,cardiovascular diseases,nottingham,111.92016142168094,28558.79255275726
 Deaths,Male,65 to 69,chronic myeloid leukemia,nottingham,0.20618087891156595,28558.79255275726
 Deaths,Male,65 to 69,chronic obstructive pulmonary disease,nottingham,31.829801416859496,28558.792552757222
@@ -858,11 +952,13 @@ Deaths,Male,65 to 69,motor vehicle road injuries,nottingham,0.701063641341668,28
 Deaths,Male,65 to 69,motorcyclist road injuries,nottingham,0.17543784473303994,28558.79255275727
 Deaths,Male,65 to 69,multiple myeloma,nottingham,3.8592709358823005,28558.792552757295
 Deaths,Male,65 to 69,neoplasms,nottingham,198.34751184273037,28558.792552757295
+Deaths,Male,65 to 69,non-rheumatic valvular heart disease,nottingham,2.2459812975820936,28558.792552757248
 Deaths,Male,65 to 69,other road injuries,nottingham,0.0120006843969927,28558.792552757284
 Deaths,Male,65 to 69,other transport injuries,nottingham,0.14233021290617653,28558.79255275726
 Deaths,Male,65 to 69,parkinson's disease,nottingham,3.1378837132104325,28558.792552757244
 Deaths,Male,65 to 69,pedestrian road injuries,nottingham,0.4928677157883744,28558.792552757222
 Deaths,Male,65 to 69,prostate cancer,nottingham,18.6662987680946,28558.792552757244
+Deaths,Male,65 to 69,rheumatic heart disease,nottingham,0.49472384279403514,28558.792552757262
 Deaths,Male,65 to 69,road injuries,nottingham,1.5560606114226025,28558.79255275726
 Deaths,Male,65 to 69,stomach cancer,nottingham,8.391038739672746,28558.79255275729
 Deaths,Male,65 to 69,stroke,nottingham,16.314085507963984,28558.792552757244
@@ -871,6 +967,7 @@ Deaths,Male,70 to 74,all causes,nottingham,675.0786071250429,28002.611422253656
 Deaths,Male,70 to 74,alzheimer's disease and other dementias,nottingham,10.267630249885373,28002.61142225362
 Deaths,Male,70 to 74,bladder cancer,nottingham,11.875805469498708,28002.611422253616
 Deaths,Male,70 to 74,breast cancer,nottingham,0.2364022954499922,28002.611422253627
+Deaths,Male,70 to 74,cardiomyopathy and myocarditis,nottingham,2.915096749450714,28002.611422253638
 Deaths,Male,70 to 74,cardiovascular diseases,nottingham,186.65365346487678,28002.611422253598
 Deaths,Male,70 to 74,chronic myeloid leukemia,nottingham,0.35698479517324594,28002.61142225362
 Deaths,Male,70 to 74,chronic obstructive pulmonary disease,nottingham,57.109009857781594,28002.611422253605
@@ -886,11 +983,13 @@ Deaths,Male,70 to 74,motor vehicle road injuries,nottingham,0.8302525921666026,2
 Deaths,Male,70 to 74,motorcyclist road injuries,nottingham,0.10312972726340729,28002.61142225361
 Deaths,Male,70 to 74,multiple myeloma,nottingham,6.155458291153167,28002.611422253598
 Deaths,Male,70 to 74,neoplasms,nottingham,297.0398530228278,28002.61142225362
+Deaths,Male,70 to 74,non-rheumatic valvular heart disease,nottingham,4.354321876456331,28002.61142225368
 Deaths,Male,70 to 74,other road injuries,nottingham,0.011665633765891041,28002.611422253616
 Deaths,Male,70 to 74,other transport injuries,nottingham,0.13034082517832346,28002.611422253634
 Deaths,Male,70 to 74,parkinson's disease,nottingham,9.598318959498936,28002.61142225361
 Deaths,Male,70 to 74,pedestrian road injuries,nottingham,0.6741881870096091,28002.61142225367
 Deaths,Male,70 to 74,prostate cancer,nottingham,33.936461445555686,28002.611422253594
+Deaths,Male,70 to 74,rheumatic heart disease,nottingham,0.9102096138366147,28002.611422253634
 Deaths,Male,70 to 74,road injuries,nottingham,1.7840834533259775,28002.611422253613
 Deaths,Male,70 to 74,stomach cancer,nottingham,14.11145708059018,28002.611422253627
 Deaths,Male,70 to 74,stroke,nottingham,32.350557408891014,28002.61142225365
@@ -899,6 +998,7 @@ Deaths,Male,75 to 79,all causes,nottingham,765.5910573504461,18499.33422494421
 Deaths,Male,75 to 79,alzheimer's disease and other dementias,nottingham,17.515093128133763,18499.33422494416
 Deaths,Male,75 to 79,bladder cancer,nottingham,14.597146104044665,18499.334224944185
 Deaths,Male,75 to 79,breast cancer,nottingham,0.22164279931383968,18499.334224944134
+Deaths,Male,75 to 79,cardiomyopathy and myocarditis,nottingham,2.968247324983643,18499.33422494419
 Deaths,Male,75 to 79,cardiovascular diseases,nottingham,224.58587116682978,18499.33422494417
 Deaths,Male,75 to 79,chronic myeloid leukemia,nottingham,0.4087322252927542,18499.334224944178
 Deaths,Male,75 to 79,chronic obstructive pulmonary disease,nottingham,69.99545759150413,18499.33422494418
@@ -914,11 +1014,13 @@ Deaths,Male,75 to 79,motor vehicle road injuries,nottingham,0.8383674010545504,1
 Deaths,Male,75 to 79,motorcyclist road injuries,nottingham,0.056519006158396584,18499.334224944178
 Deaths,Male,75 to 79,multiple myeloma,nottingham,6.048013059087507,18499.33422494418
 Deaths,Male,75 to 79,neoplasms,nottingham,297.46666106686047,18499.334224944185
+Deaths,Male,75 to 79,non-rheumatic valvular heart disease,nottingham,6.24387005902519,18499.334224944218
 Deaths,Male,75 to 79,other road injuries,nottingham,0.010020218654622508,18499.334224944192
 Deaths,Male,75 to 79,other transport injuries,nottingham,0.09305777049119554,18499.334224944178
 Deaths,Male,75 to 79,parkinson's disease,nottingham,16.821973710846216,18499.334224944163
 Deaths,Male,75 to 79,pedestrian road injuries,nottingham,0.7571911339154254,18499.3342249442
 Deaths,Male,75 to 79,prostate cancer,nottingham,46.592343244002954,18499.334224944203
+Deaths,Male,75 to 79,rheumatic heart disease,nottingham,1.1043646742162083,18499.33422494417
 Deaths,Male,75 to 79,road injuries,nottingham,1.7930784285294221,18499.334224944214
 Deaths,Male,75 to 79,stomach cancer,nottingham,16.21030936016626,18499.334224944192
 Deaths,Male,75 to 79,stroke,nottingham,47.43007346238501,18499.334224944185
@@ -927,6 +1029,7 @@ Deaths,Male,80 to 84,all causes,nottingham,958.4285780453639,12477.096160336414
 Deaths,Male,80 to 84,alzheimer's disease and other dementias,nottingham,41.244624035798545,12477.09616033642
 Deaths,Male,80 to 84,bladder cancer,nottingham,17.924941103286063,12477.096160336418
 Deaths,Male,80 to 84,breast cancer,nottingham,0.20334762038183019,12477.096160336423
+Deaths,Male,80 to 84,cardiomyopathy and myocarditis,nottingham,3.515706751772144,12477.09616033643
 Deaths,Male,80 to 84,cardiovascular diseases,nottingham,299.0978536064762,12477.096160336421
 Deaths,Male,80 to 84,chronic myeloid leukemia,nottingham,0.4658533427134181,12477.096160336416
 Deaths,Male,80 to 84,chronic obstructive pulmonary disease,nottingham,85.93414342366336,12477.096160336434
@@ -942,11 +1045,13 @@ Deaths,Male,80 to 84,motor vehicle road injuries,nottingham,0.9177020678591588,1
 Deaths,Male,80 to 84,motorcyclist road injuries,nottingham,0.03398143659795561,12477.096160336401
 Deaths,Male,80 to 84,multiple myeloma,nottingham,6.16812469964238,12477.096160336427
 Deaths,Male,80 to 84,neoplasms,nottingham,312.31588945272847,12477.096160336401
+Deaths,Male,80 to 84,non-rheumatic valvular heart disease,nottingham,9.68790875107425,12477.096160336432
 Deaths,Male,80 to 84,other road injuries,nottingham,0.007551980009267726,12477.096160336405
 Deaths,Male,80 to 84,other transport injuries,nottingham,0.07360073438664695,12477.09616033643
 Deaths,Male,80 to 84,parkinson's disease,nottingham,22.252295114745223,12477.09616033642
 Deaths,Male,80 to 84,pedestrian road injuries,nottingham,0.7887717917465058,12477.096160336445
 Deaths,Male,80 to 84,prostate cancer,nottingham,63.633736602396304,12477.096160336427
+Deaths,Male,80 to 84,rheumatic heart disease,nottingham,1.3909850472639578,12477.096160336423
 Deaths,Male,80 to 84,road injuries,nottingham,1.8408677828868172,12477.096160336438
 Deaths,Male,80 to 84,stomach cancer,nottingham,16.507033773630923,12477.096160336441
 Deaths,Male,80 to 84,stroke,nottingham,72.6718497034978,12477.096160336443
@@ -955,6 +1060,7 @@ Deaths,Male,85 to 89,all causes,nottingham,880.8615366766971,6439.832850598595
 Deaths,Male,85 to 89,alzheimer's disease and other dementias,nottingham,53.27887819094283,6439.832850598588
 Deaths,Male,85 to 89,bladder cancer,nottingham,17.229183772518763,6439.832850598594
 Deaths,Male,85 to 89,breast cancer,nottingham,0.1998579596421166,6439.832850598591
+Deaths,Male,85 to 89,cardiomyopathy and myocarditis,nottingham,3.6176571315623707,6439.832850598585
 Deaths,Male,85 to 89,cardiovascular diseases,nottingham,281.4906649357308,6439.832850598579
 Deaths,Male,85 to 89,chronic myeloid leukemia,nottingham,0.4720938852237372,6439.832850598594
 Deaths,Male,85 to 89,chronic obstructive pulmonary disease,nottingham,80.47591603702197,6439.832850598584
@@ -970,11 +1076,13 @@ Deaths,Male,85 to 89,motor vehicle road injuries,nottingham,0.7372694435372253,6
 Deaths,Male,85 to 89,motorcyclist road injuries,nottingham,0.017466929929367225,6439.832850598587
 Deaths,Male,85 to 89,multiple myeloma,nottingham,4.527265504600904,6439.832850598588
 Deaths,Male,85 to 89,neoplasms,nottingham,241.34195585631443,6439.832850598589
+Deaths,Male,85 to 89,non-rheumatic valvular heart disease,nottingham,9.86403272369387,6439.832850598601
 Deaths,Male,85 to 89,other road injuries,nottingham,0.0039138772842510295,6439.8328505985855
 Deaths,Male,85 to 89,other transport injuries,nottingham,0.0407907246187793,6439.832850598591
 Deaths,Male,85 to 89,parkinson's disease,nottingham,17.92187985695322,6439.832850598591
 Deaths,Male,85 to 89,pedestrian road injuries,nottingham,0.6429745227426822,6439.832850598598
 Deaths,Male,85 to 89,prostate cancer,nottingham,60.73388560616595,6439.832850598591
+Deaths,Male,85 to 89,rheumatic heart disease,nottingham,1.2372342652371173,6439.832850598588
 Deaths,Male,85 to 89,road injuries,nottingham,1.4536423038654058,6439.832850598593
 Deaths,Male,85 to 89,stomach cancer,nottingham,12.72601316300052,6439.832850598592
 Deaths,Male,85 to 89,stroke,nottingham,74.15817084315532,6439.832850598592
@@ -983,6 +1091,7 @@ Deaths,Male,90 to 94,all causes,nottingham,552.9432114292172,2371.894623421519
 Deaths,Male,90 to 94,alzheimer's disease and other dementias,nottingham,41.53998238842539,2371.894623421516
 Deaths,Male,90 to 94,bladder cancer,nottingham,9.131167872540834,2371.894623421521
 Deaths,Male,90 to 94,breast cancer,nottingham,0.12449228611383757,2371.8946234215164
+Deaths,Male,90 to 94,cardiomyopathy and myocarditis,nottingham,2.6481930402576133,2371.894623421518
 Deaths,Male,90 to 94,cardiovascular diseases,nottingham,183.23952162624815,2371.8946234215155
 Deaths,Male,90 to 94,chronic myeloid leukemia,nottingham,0.22586339925943902,2371.8946234215164
 Deaths,Male,90 to 94,chronic obstructive pulmonary disease,nottingham,49.75486009601296,2371.8946234215214
@@ -998,11 +1107,13 @@ Deaths,Male,90 to 94,motor vehicle road injuries,nottingham,0.3452812827180798,2
 Deaths,Male,90 to 94,motorcyclist road injuries,nottingham,0.012689967554705237,2371.894623421521
 Deaths,Male,90 to 94,multiple myeloma,nottingham,1.8685163025159628,2371.894623421519
 Deaths,Male,90 to 94,neoplasms,nottingham,120.29200451584698,2371.89462342152
+Deaths,Male,90 to 94,non-rheumatic valvular heart disease,nottingham,7.175263686780759,2371.894623421517
 Deaths,Male,90 to 94,other road injuries,nottingham,0.0036368498443499378,2371.8946234215164
 Deaths,Male,90 to 94,other transport injuries,nottingham,0.02114337923083895,2371.8946234215214
 Deaths,Male,90 to 94,parkinson's disease,nottingham,8.664294288768154,2371.894623421519
 Deaths,Male,90 to 94,pedestrian road injuries,nottingham,0.32004124482556995,2371.894623421516
 Deaths,Male,90 to 94,prostate cancer,nottingham,36.620013259050836,2371.894623421516
+Deaths,Male,90 to 94,rheumatic heart disease,nottingham,0.7249136628335106,2371.8946234215127
 Deaths,Male,90 to 94,road injuries,nottingham,0.7072195055674335,2371.894623421519
 Deaths,Male,90 to 94,stomach cancer,nottingham,6.050246787031989,2371.8946234215146
 Deaths,Male,90 to 94,stroke,nottingham,51.6170870027233,2371.894623421518
@@ -1011,6 +1122,7 @@ Deaths,Male,95 to 99,all causes,nottingham,160.96912819967056,438.75405520282015
 Deaths,Male,95 to 99,alzheimer's disease and other dementias,nottingham,13.85682450209531,438.7540552028207
 Deaths,Male,95 to 99,bladder cancer,nottingham,2.4321552865049254,438.7540552028207
 Deaths,Male,95 to 99,breast cancer,nottingham,0.031271289599545816,438.7540552028209
+Deaths,Male,95 to 99,cardiomyopathy and myocarditis,nottingham,0.8713192151393833,438.75405520282044
 Deaths,Male,95 to 99,cardiovascular diseases,nottingham,55.05502470666122,438.75405520282044
 Deaths,Male,95 to 99,chronic myeloid leukemia,nottingham,0.0532445105200416,438.75405520282015
 Deaths,Male,95 to 99,chronic obstructive pulmonary disease,nottingham,14.52071685320476,438.7540552028205
@@ -1026,16 +1138,19 @@ Deaths,Male,95 to 99,motor vehicle road injuries,nottingham,0.09042774325218865,
 Deaths,Male,95 to 99,motorcyclist road injuries,nottingham,0.0059538982316016675,438.7540552028203
 Deaths,Male,95 to 99,multiple myeloma,nottingham,0.4724922712046742,438.7540552028203
 Deaths,Male,95 to 99,neoplasms,nottingham,29.659185188469166,438.7540552028207
+Deaths,Male,95 to 99,non-rheumatic valvular heart disease,nottingham,2.0484017987940826,438.7540552028207
 Deaths,Male,95 to 99,other road injuries,nottingham,0.0020993888326019733,438.7540552028203
 Deaths,Male,95 to 99,other transport injuries,nottingham,0.006532414746261997,438.75405520282044
 Deaths,Male,95 to 99,parkinson's disease,nottingham,1.555027132930409,438.7540552028213
 Deaths,Male,95 to 99,pedestrian road injuries,nottingham,0.08687947639476055,438.7540552028212
 Deaths,Male,95 to 99,prostate cancer,nottingham,9.21841188095302,438.75405520282084
+Deaths,Male,95 to 99,rheumatic heart disease,nottingham,0.19999658857938846,438.7540552028207
 Deaths,Male,95 to 99,road injuries,nottingham,0.18586492723069345,438.75405520282004
 Deaths,Male,95 to 99,stomach cancer,nottingham,1.491971699321709,438.754055202821
 Deaths,Male,95 to 99,stroke,nottingham,16.038556161641655,438.75405520282015
 Deaths,Male,95 to 99,"tracheal, bronchus, and lung cancer",nottingham,3.9187860367396916,438.75405520282095
 YLLs (Years of Life Lost),Female,0 to 5,all causes,nottingham,2372.92717659853,32274.196421241013
+YLLs (Years of Life Lost),Female,0 to 5,cardiomyopathy and myocarditis,nottingham,12.707566627687324,32274.196421241028
 YLLs (Years of Life Lost),Female,0 to 5,cardiovascular diseases,nottingham,27.986764365965154,32274.196421241024
 YLLs (Years of Life Lost),Female,0 to 5,chronic myeloid leukemia,nottingham,0.3316688796037567,32274.196421240988
 YLLs (Years of Life Lost),Female,0 to 5,chronic obstructive pulmonary disease,nottingham,0.7902048674567008,32274.19642124101
@@ -1049,9 +1164,11 @@ YLLs (Years of Life Lost),Female,0 to 5,neoplasms,nottingham,67.26966653274806,3
 YLLs (Years of Life Lost),Female,0 to 5,other road injuries,nottingham,0.5861974075288728,32274.196421240973
 YLLs (Years of Life Lost),Female,0 to 5,other transport injuries,nottingham,0.7801046499400245,32274.196421241024
 YLLs (Years of Life Lost),Female,0 to 5,pedestrian road injuries,nottingham,5.8610244381101495,32274.196421241046
+YLLs (Years of Life Lost),Female,0 to 5,rheumatic heart disease,nottingham,0.38545995403786915,32274.196421241017
 YLLs (Years of Life Lost),Female,0 to 5,road injuries,nottingham,14.626092293730562,32274.19642124103
 YLLs (Years of Life Lost),Female,0 to 5,stroke,nottingham,3.2990192565821084,32274.19642124104
 YLLs (Years of Life Lost),Female,10 to 14,all causes,nottingham,217.83190947239262,33003.876601569515
+YLLs (Years of Life Lost),Female,10 to 14,cardiomyopathy and myocarditis,nottingham,2.4996677793385054,33003.87660156953
 YLLs (Years of Life Lost),Female,10 to 14,cardiovascular diseases,nottingham,8.618250365341007,33003.87660156955
 YLLs (Years of Life Lost),Female,10 to 14,chronic myeloid leukemia,nottingham,0.3915202340470651,33003.876601569486
 YLLs (Years of Life Lost),Female,10 to 14,chronic obstructive pulmonary disease,nottingham,0.6330624307143482,33003.87660156949
@@ -1066,12 +1183,14 @@ YLLs (Years of Life Lost),Female,10 to 14,neoplasms,nottingham,64.28756700806045
 YLLs (Years of Life Lost),Female,10 to 14,other road injuries,nottingham,1.0158372689576805,33003.87660156955
 YLLs (Years of Life Lost),Female,10 to 14,other transport injuries,nottingham,1.1617660176634703,33003.8766015695
 YLLs (Years of Life Lost),Female,10 to 14,pedestrian road injuries,nottingham,8.470692787354619,33003.87660156955
+YLLs (Years of Life Lost),Female,10 to 14,rheumatic heart disease,nottingham,0.2418397167534208,33003.87660156954
 YLLs (Years of Life Lost),Female,10 to 14,road injuries,nottingham,21.50334145358391,33003.876601569486
 YLLs (Years of Life Lost),Female,10 to 14,stroke,nottingham,2.709787401167052,33003.876601569515
 YLLs (Years of Life Lost),Female,10 to 14,"tracheal, bronchus, and lung cancer",nottingham,0.39349724362807614,33003.87660156951
 YLLs (Years of Life Lost),Female,15 to 19,all causes,nottingham,349.8991609141107,31710.86271120485
 YLLs (Years of Life Lost),Female,15 to 19,bladder cancer,nottingham,0.23332759022611077,31710.862711204845
 YLLs (Years of Life Lost),Female,15 to 19,breast cancer,nottingham,0.9985562747607384,31710.862711204856
+YLLs (Years of Life Lost),Female,15 to 19,cardiomyopathy and myocarditis,nottingham,3.628303740215892,31710.862711204853
 YLLs (Years of Life Lost),Female,15 to 19,cardiovascular diseases,nottingham,18.468787151198097,31710.86271120484
 YLLs (Years of Life Lost),Female,15 to 19,chronic myeloid leukemia,nottingham,0.44728746324271934,31710.86271120486
 YLLs (Years of Life Lost),Female,15 to 19,chronic obstructive pulmonary disease,nottingham,1.417974475963051,31710.862711204845
@@ -1085,9 +1204,11 @@ YLLs (Years of Life Lost),Female,15 to 19,lower respiratory infections,nottingha
 YLLs (Years of Life Lost),Female,15 to 19,motor vehicle road injuries,nottingham,37.0945077453099,31710.862711204925
 YLLs (Years of Life Lost),Female,15 to 19,motorcyclist road injuries,nottingham,4.694269941129914,31710.86271120487
 YLLs (Years of Life Lost),Female,15 to 19,neoplasms,nottingham,73.11338428756918,31710.862711204885
+YLLs (Years of Life Lost),Female,15 to 19,non-rheumatic valvular heart disease,nottingham,0.9194122303307626,31710.862711204827
 YLLs (Years of Life Lost),Female,15 to 19,other road injuries,nottingham,1.8096102236228369,31710.86271120483
 YLLs (Years of Life Lost),Female,15 to 19,other transport injuries,nottingham,1.7627918962147857,31710.86271120487
 YLLs (Years of Life Lost),Female,15 to 19,pedestrian road injuries,nottingham,11.288326385161225,31710.862711204827
+YLLs (Years of Life Lost),Female,15 to 19,rheumatic heart disease,nottingham,0.33155265542261436,31710.86271120487
 YLLs (Years of Life Lost),Female,15 to 19,road injuries,nottingham,57.32078305896091,31710.86271120485
 YLLs (Years of Life Lost),Female,15 to 19,stomach cancer,nottingham,0.2960762050705162,31710.862711204856
 YLLs (Years of Life Lost),Female,15 to 19,stroke,nottingham,5.654976933238356,31710.86271120484
@@ -1095,6 +1216,7 @@ YLLs (Years of Life Lost),Female,15 to 19,"tracheal, bronchus, and lung cancer",
 YLLs (Years of Life Lost),Female,20 to 24,all causes,nottingham,561.24201661437,38386.13200303937
 YLLs (Years of Life Lost),Female,20 to 24,bladder cancer,nottingham,0.29313493442471394,38386.13200303934
 YLLs (Years of Life Lost),Female,20 to 24,breast cancer,nottingham,4.010292166908393,38386.13200303934
+YLLs (Years of Life Lost),Female,20 to 24,cardiomyopathy and myocarditis,nottingham,5.6049880125141005,38386.13200303934
 YLLs (Years of Life Lost),Female,20 to 24,cardiovascular diseases,nottingham,38.12005518666499,38386.13200303938
 YLLs (Years of Life Lost),Female,20 to 24,chronic myeloid leukemia,nottingham,0.6483089899947478,38386.13200303936
 YLLs (Years of Life Lost),Female,20 to 24,chronic obstructive pulmonary disease,nottingham,2.5659395810111754,38386.13200303934
@@ -1110,10 +1232,12 @@ YLLs (Years of Life Lost),Female,20 to 24,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,20 to 24,motorcyclist road injuries,nottingham,5.489064408973553,38386.13200303935
 YLLs (Years of Life Lost),Female,20 to 24,multiple myeloma,nottingham,0.17961772405230775,38386.13200303943
 YLLs (Years of Life Lost),Female,20 to 24,neoplasms,nottingham,121.30194141154414,38386.132003039354
+YLLs (Years of Life Lost),Female,20 to 24,non-rheumatic valvular heart disease,nottingham,1.627956422213948,38386.132003039434
 YLLs (Years of Life Lost),Female,20 to 24,other road injuries,nottingham,2.2028122614298,38386.13200303934
 YLLs (Years of Life Lost),Female,20 to 24,other transport injuries,nottingham,2.3556013929271664,38386.13200303938
 YLLs (Years of Life Lost),Female,20 to 24,parkinson's disease,nottingham,0.033298493790494946,38386.13200303935
 YLLs (Years of Life Lost),Female,20 to 24,pedestrian road injuries,nottingham,10.296816778847258,38386.13200303934
+YLLs (Years of Life Lost),Female,20 to 24,rheumatic heart disease,nottingham,0.7960785491879625,38386.13200303937
 YLLs (Years of Life Lost),Female,20 to 24,road injuries,nottingham,66.1912250745172,38386.1320030394
 YLLs (Years of Life Lost),Female,20 to 24,stomach cancer,nottingham,1.2372368383151766,38386.13200303937
 YLLs (Years of Life Lost),Female,20 to 24,stroke,nottingham,12.700285226816604,38386.132003039456
@@ -1122,6 +1246,7 @@ YLLs (Years of Life Lost),Female,20 to 24,uterine cancer,nottingham,0.3096203523
 YLLs (Years of Life Lost),Female,25 to 29,all causes,nottingham,875.6458842720797,41519.41215548167
 YLLs (Years of Life Lost),Female,25 to 29,bladder cancer,nottingham,1.1290843950204204,41519.412155481696
 YLLs (Years of Life Lost),Female,25 to 29,breast cancer,nottingham,43.84296358001647,41519.41215548168
+YLLs (Years of Life Lost),Female,25 to 29,cardiomyopathy and myocarditis,nottingham,9.303824388942761,41519.412155481754
 YLLs (Years of Life Lost),Female,25 to 29,cardiovascular diseases,nottingham,90.32244612276429,41519.412155481696
 YLLs (Years of Life Lost),Female,25 to 29,chronic myeloid leukemia,nottingham,1.4829390077773912,41519.41215548165
 YLLs (Years of Life Lost),Female,25 to 29,chronic obstructive pulmonary disease,nottingham,4.764374282295768,41519.4121554817
@@ -1137,10 +1262,12 @@ YLLs (Years of Life Lost),Female,25 to 29,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,25 to 29,motorcyclist road injuries,nottingham,4.848126640993726,41519.41215548167
 YLLs (Years of Life Lost),Female,25 to 29,multiple myeloma,nottingham,0.37259643056771263,41519.412155481696
 YLLs (Years of Life Lost),Female,25 to 29,neoplasms,nottingham,255.04889375390502,41519.41215548164
+YLLs (Years of Life Lost),Female,25 to 29,non-rheumatic valvular heart disease,nottingham,3.5515003680107853,41519.41215548168
 YLLs (Years of Life Lost),Female,25 to 29,other road injuries,nottingham,2.246870843082707,41519.41215548164
 YLLs (Years of Life Lost),Female,25 to 29,other transport injuries,nottingham,2.708243496239591,41519.41215548167
 YLLs (Years of Life Lost),Female,25 to 29,parkinson's disease,nottingham,0.021657870685366072,41519.41215548166
 YLLs (Years of Life Lost),Female,25 to 29,pedestrian road injuries,nottingham,8.813678358288474,41519.41215548164
+YLLs (Years of Life Lost),Female,25 to 29,rheumatic heart disease,nottingham,1.8687332850223428,41519.412155481696
 YLLs (Years of Life Lost),Female,25 to 29,road injuries,nottingham,53.96759726311056,41519.41215548171
 YLLs (Years of Life Lost),Female,25 to 29,stomach cancer,nottingham,5.510098777824208,41519.41215548167
 YLLs (Years of Life Lost),Female,25 to 29,stroke,nottingham,33.8373173352587,41519.412155481674
@@ -1149,6 +1276,7 @@ YLLs (Years of Life Lost),Female,25 to 29,uterine cancer,nottingham,1.4735252240
 YLLs (Years of Life Lost),Female,30 to 34,all causes,nottingham,1074.2496186176495,39423.68667759697
 YLLs (Years of Life Lost),Female,30 to 34,bladder cancer,nottingham,3.050693903219817,39423.68667759694
 YLLs (Years of Life Lost),Female,30 to 34,breast cancer,nottingham,121.25938865884726,39423.68667759697
+YLLs (Years of Life Lost),Female,30 to 34,cardiomyopathy and myocarditis,nottingham,8.738235339159377,39423.68667759698
 YLLs (Years of Life Lost),Female,30 to 34,cardiovascular diseases,nottingham,120.61346913495339,39423.68667759694
 YLLs (Years of Life Lost),Female,30 to 34,chronic myeloid leukemia,nottingham,1.485832546875719,39423.68667759694
 YLLs (Years of Life Lost),Female,30 to 34,chronic obstructive pulmonary disease,nottingham,6.409825374056041,39423.68667759698
@@ -1164,10 +1292,12 @@ YLLs (Years of Life Lost),Female,30 to 34,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,30 to 34,motorcyclist road injuries,nottingham,3.283888905975648,39423.686677596896
 YLLs (Years of Life Lost),Female,30 to 34,multiple myeloma,nottingham,1.0282782542403153,39423.68667759695
 YLLs (Years of Life Lost),Female,30 to 34,neoplasms,nottingham,396.66889591175965,39423.686677596976
+YLLs (Years of Life Lost),Female,30 to 34,non-rheumatic valvular heart disease,nottingham,3.787036674964708,39423.686677596925
 YLLs (Years of Life Lost),Female,30 to 34,other road injuries,nottingham,1.4165108469612797,39423.686677597
 YLLs (Years of Life Lost),Female,30 to 34,other transport injuries,nottingham,1.795888098064668,39423.686677597
 YLLs (Years of Life Lost),Female,30 to 34,parkinson's disease,nottingham,0.0489964653302727,39423.686677596925
 YLLs (Years of Life Lost),Female,30 to 34,pedestrian road injuries,nottingham,5.919677357625259,39423.6866775969
+YLLs (Years of Life Lost),Female,30 to 34,rheumatic heart disease,nottingham,2.026747222681476,39423.68667759698
 YLLs (Years of Life Lost),Female,30 to 34,road injuries,nottingham,33.74653523149011,39423.68667759696
 YLLs (Years of Life Lost),Female,30 to 34,stomach cancer,nottingham,10.644500181469587,39423.686677596976
 YLLs (Years of Life Lost),Female,30 to 34,stroke,nottingham,43.8488608808544,39423.68667759697
@@ -1176,6 +1306,7 @@ YLLs (Years of Life Lost),Female,30 to 34,uterine cancer,nottingham,2.6679642528
 YLLs (Years of Life Lost),Female,35 to 39,all causes,nottingham,1358.9649062240012,35559.033186798646
 YLLs (Years of Life Lost),Female,35 to 39,bladder cancer,nottingham,4.793780849176198,35559.03318679868
 YLLs (Years of Life Lost),Female,35 to 39,breast cancer,nottingham,193.97997315633864,35559.033186798566
+YLLs (Years of Life Lost),Female,35 to 39,cardiomyopathy and myocarditis,nottingham,10.436820826664032,35559.033186798646
 YLLs (Years of Life Lost),Female,35 to 39,cardiovascular diseases,nottingham,168.9259076711784,35559.033186798624
 YLLs (Years of Life Lost),Female,35 to 39,chronic myeloid leukemia,nottingham,1.7224153313109012,35559.0331867987
 YLLs (Years of Life Lost),Female,35 to 39,chronic obstructive pulmonary disease,nottingham,9.90330167062863,35559.03318679864
@@ -1191,10 +1322,12 @@ YLLs (Years of Life Lost),Female,35 to 39,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,35 to 39,motorcyclist road injuries,nottingham,2.658710283746887,35559.03318679858
 YLLs (Years of Life Lost),Female,35 to 39,multiple myeloma,nottingham,2.4862746924712504,35559.03318679867
 YLLs (Years of Life Lost),Female,35 to 39,neoplasms,nottingham,555.4806481347218,35559.03318679869
+YLLs (Years of Life Lost),Female,35 to 39,non-rheumatic valvular heart disease,nottingham,3.9275631563042808,35559.03318679865
 YLLs (Years of Life Lost),Female,35 to 39,other road injuries,nottingham,1.2787583511546399,35559.03318679865
 YLLs (Years of Life Lost),Female,35 to 39,other transport injuries,nottingham,1.539271522086487,35559.03318679865
 YLLs (Years of Life Lost),Female,35 to 39,parkinson's disease,nottingham,0.15045899027120727,35559.03318679864
 YLLs (Years of Life Lost),Female,35 to 39,pedestrian road injuries,nottingham,5.451864801163884,35559.03318679857
+YLLs (Years of Life Lost),Female,35 to 39,rheumatic heart disease,nottingham,2.6139711045477068,35559.03318679865
 YLLs (Years of Life Lost),Female,35 to 39,road injuries,nottingham,28.321350189983225,35559.03318679864
 YLLs (Years of Life Lost),Female,35 to 39,stomach cancer,nottingham,14.533739325765437,35559.03318679867
 YLLs (Years of Life Lost),Female,35 to 39,stroke,nottingham,61.44357291209839,35559.03318679864
@@ -1204,6 +1337,7 @@ YLLs (Years of Life Lost),Female,40 to 44,all causes,nottingham,1584.60475363459
 YLLs (Years of Life Lost),Female,40 to 44,alzheimer's disease and other dementias,nottingham,1.7402550404256503,33485.073127078715
 YLLs (Years of Life Lost),Female,40 to 44,bladder cancer,nottingham,7.350060933663842,33485.073127078744
 YLLs (Years of Life Lost),Female,40 to 44,breast cancer,nottingham,247.32667365756777,33485.07312707881
+YLLs (Years of Life Lost),Female,40 to 44,cardiomyopathy and myocarditis,nottingham,10.765937090578586,33485.07312707876
 YLLs (Years of Life Lost),Female,40 to 44,cardiovascular diseases,nottingham,211.49857975896415,33485.07312707877
 YLLs (Years of Life Lost),Female,40 to 44,chronic myeloid leukemia,nottingham,1.4062700170683478,33485.073127078795
 YLLs (Years of Life Lost),Female,40 to 44,chronic obstructive pulmonary disease,nottingham,16.647474349710226,33485.07312707872
@@ -1219,10 +1353,12 @@ YLLs (Years of Life Lost),Female,40 to 44,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,40 to 44,motorcyclist road injuries,nottingham,1.95789975920662,33485.07312707875
 YLLs (Years of Life Lost),Female,40 to 44,multiple myeloma,nottingham,4.477781196358356,33485.07312707876
 YLLs (Years of Life Lost),Female,40 to 44,neoplasms,nottingham,701.9794368039145,33485.07312707878
+YLLs (Years of Life Lost),Female,40 to 44,non-rheumatic valvular heart disease,nottingham,4.5578680020683215,33485.073127078795
 YLLs (Years of Life Lost),Female,40 to 44,other road injuries,nottingham,0.8943952552047646,33485.07312707874
 YLLs (Years of Life Lost),Female,40 to 44,other transport injuries,nottingham,1.1798764935609127,33485.073127078715
 YLLs (Years of Life Lost),Female,40 to 44,parkinson's disease,nottingham,0.803097592506415,33485.07312707878
 YLLs (Years of Life Lost),Female,40 to 44,pedestrian road injuries,nottingham,5.025462728950893,33485.073127078744
+YLLs (Years of Life Lost),Female,40 to 44,rheumatic heart disease,nottingham,3.9002040916751515,33485.073127078766
 YLLs (Years of Life Lost),Female,40 to 44,road injuries,nottingham,23.896297615640343,33485.07312707874
 YLLs (Years of Life Lost),Female,40 to 44,stomach cancer,nottingham,19.01610346413888,33485.07312707878
 YLLs (Years of Life Lost),Female,40 to 44,stroke,nottingham,72.80758501997731,33485.07312707877
@@ -1232,6 +1368,7 @@ YLLs (Years of Life Lost),Female,45 to 49,all causes,nottingham,2754.65941576441
 YLLs (Years of Life Lost),Female,45 to 49,alzheimer's disease and other dementias,nottingham,11.087820467591666,38394.22105024184
 YLLs (Years of Life Lost),Female,45 to 49,bladder cancer,nottingham,14.536224687121269,38394.22105024173
 YLLs (Years of Life Lost),Female,45 to 49,breast cancer,nottingham,428.1272231845459,38394.22105024176
+YLLs (Years of Life Lost),Female,45 to 49,cardiomyopathy and myocarditis,nottingham,16.32493957483762,38394.22105024178
 YLLs (Years of Life Lost),Female,45 to 49,cardiovascular diseases,nottingham,401.16614208040437,38394.221050241795
 YLLs (Years of Life Lost),Female,45 to 49,chronic myeloid leukemia,nottingham,2.3312847592598165,38394.2210502418
 YLLs (Years of Life Lost),Female,45 to 49,chronic obstructive pulmonary disease,nottingham,44.62918624125899,38394.22105024178
@@ -1247,16 +1384,19 @@ YLLs (Years of Life Lost),Female,45 to 49,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,45 to 49,motorcyclist road injuries,nottingham,2.494544514201764,38394.22105024179
 YLLs (Years of Life Lost),Female,45 to 49,multiple myeloma,nottingham,11.030470892209005,38394.22105024179
 YLLs (Years of Life Lost),Female,45 to 49,neoplasms,nottingham,1297.7475536315242,38394.221050241744
+YLLs (Years of Life Lost),Female,45 to 49,non-rheumatic valvular heart disease,nottingham,7.837443075599516,38394.22105024184
 YLLs (Years of Life Lost),Female,45 to 49,other road injuries,nottingham,1.4163044766428226,38394.22105024178
 YLLs (Years of Life Lost),Female,45 to 49,other transport injuries,nottingham,1.3540350744784941,38394.221050241795
 YLLs (Years of Life Lost),Female,45 to 49,parkinson's disease,nottingham,2.908721578231681,38394.22105024184
 YLLs (Years of Life Lost),Female,45 to 49,pedestrian road injuries,nottingham,6.861179901865812,38394.22105024179
+YLLs (Years of Life Lost),Female,45 to 49,rheumatic heart disease,nottingham,6.814280353669075,38394.22105024179
 YLLs (Years of Life Lost),Female,45 to 49,road injuries,nottingham,31.984065442607594,38394.22105024181
 YLLs (Years of Life Lost),Female,45 to 49,stomach cancer,nottingham,33.305753600303404,38394.22105024182
 YLLs (Years of Life Lost),Female,45 to 49,stroke,nottingham,133.2678813998578,38394.22105024178
 YLLs (Years of Life Lost),Female,45 to 49,"tracheal, bronchus, and lung cancer",nottingham,150.7652451329144,38394.221050241766
 YLLs (Years of Life Lost),Female,45 to 49,uterine cancer,nottingham,17.6597819791189,38394.22105024177
 YLLs (Years of Life Lost),Female,5 to 9,all causes,nottingham,153.0816539027799,33154.37049694957
+YLLs (Years of Life Lost),Female,5 to 9,cardiomyopathy and myocarditis,nottingham,1.5043764109612434,33154.3704969496
 YLLs (Years of Life Lost),Female,5 to 9,cardiovascular diseases,nottingham,5.142941813563514,33154.370496949574
 YLLs (Years of Life Lost),Female,5 to 9,chronic myeloid leukemia,nottingham,0.23967259188237308,33154.370496949596
 YLLs (Years of Life Lost),Female,5 to 9,chronic obstructive pulmonary disease,nottingham,0.47168641308469483,33154.37049694959
@@ -1271,12 +1411,14 @@ YLLs (Years of Life Lost),Female,5 to 9,neoplasms,nottingham,48.24163030462243,3
 YLLs (Years of Life Lost),Female,5 to 9,other road injuries,nottingham,0.43535648243881897,33154.37049694963
 YLLs (Years of Life Lost),Female,5 to 9,other transport injuries,nottingham,0.5277664670542372,33154.3704969496
 YLLs (Years of Life Lost),Female,5 to 9,pedestrian road injuries,nottingham,5.318222032743368,33154.37049694963
+YLLs (Years of Life Lost),Female,5 to 9,rheumatic heart disease,nottingham,0.20413274444737728,33154.37049694956
 YLLs (Years of Life Lost),Female,5 to 9,road injuries,nottingham,12.973358585831416,33154.3704969496
 YLLs (Years of Life Lost),Female,5 to 9,stroke,nottingham,1.201887654998111,33154.37049694961
 YLLs (Years of Life Lost),Female,50 to 54,all causes,nottingham,4008.5824961886174,41383.672044238774
 YLLs (Years of Life Lost),Female,50 to 54,alzheimer's disease and other dementias,nottingham,22.20611099521177,41383.67204423879
 YLLs (Years of Life Lost),Female,50 to 54,bladder cancer,nottingham,24.21950544433809,41383.672044238796
 YLLs (Years of Life Lost),Female,50 to 54,breast cancer,nottingham,561.972046800846,41383.67204423881
+YLLs (Years of Life Lost),Female,50 to 54,cardiomyopathy and myocarditis,nottingham,17.794209811490383,41383.67204423876
 YLLs (Years of Life Lost),Female,50 to 54,cardiovascular diseases,nottingham,606.2439176974618,41383.672044238796
 YLLs (Years of Life Lost),Female,50 to 54,chronic myeloid leukemia,nottingham,2.2220039843419626,41383.67204423877
 YLLs (Years of Life Lost),Female,50 to 54,chronic obstructive pulmonary disease,nottingham,133.19728517000843,41383.672044238854
@@ -1292,10 +1434,12 @@ YLLs (Years of Life Lost),Female,50 to 54,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,50 to 54,motorcyclist road injuries,nottingham,1.9374992645975082,41383.67204423882
 YLLs (Years of Life Lost),Female,50 to 54,multiple myeloma,nottingham,24.16232169357775,41383.672044238854
 YLLs (Years of Life Lost),Female,50 to 54,neoplasms,nottingham,2107.537881097729,41383.67204423884
+YLLs (Years of Life Lost),Female,50 to 54,non-rheumatic valvular heart disease,nottingham,11.72160152657603,41383.67204423873
 YLLs (Years of Life Lost),Female,50 to 54,other road injuries,nottingham,1.2639312937712823,41383.67204423888
 YLLs (Years of Life Lost),Female,50 to 54,other transport injuries,nottingham,1.1637798208423327,41383.67204423878
 YLLs (Years of Life Lost),Female,50 to 54,parkinson's disease,nottingham,6.634327222426245,41383.67204423873
 YLLs (Years of Life Lost),Female,50 to 54,pedestrian road injuries,nottingham,6.052184882437491,41383.67204423883
+YLLs (Years of Life Lost),Female,50 to 54,rheumatic heart disease,nottingham,10.203725899300585,41383.67204423887
 YLLs (Years of Life Lost),Female,50 to 54,road injuries,nottingham,25.758850897483306,41383.67204423877
 YLLs (Years of Life Lost),Female,50 to 54,stomach cancer,nottingham,48.344795806985495,41383.67204423881
 YLLs (Years of Life Lost),Female,50 to 54,stroke,nottingham,195.5602307372749,41383.67204423876
@@ -1305,6 +1449,7 @@ YLLs (Years of Life Lost),Female,55 to 59,all causes,nottingham,5109.44122473579
 YLLs (Years of Life Lost),Female,55 to 59,alzheimer's disease and other dementias,nottingham,38.49192285827616,38587.27517928597
 YLLs (Years of Life Lost),Female,55 to 59,bladder cancer,nottingham,34.396129785059465,38587.27517928594
 YLLs (Years of Life Lost),Female,55 to 59,breast cancer,nottingham,664.6281641451938,38587.27517928591
+YLLs (Years of Life Lost),Female,55 to 59,cardiomyopathy and myocarditis,nottingham,20.472717614468586,38587.27517928589
 YLLs (Years of Life Lost),Female,55 to 59,cardiovascular diseases,nottingham,754.2479052013906,38587.275179285934
 YLLs (Years of Life Lost),Female,55 to 59,chronic myeloid leukemia,nottingham,2.6356202398171327,38587.27517928592
 YLLs (Years of Life Lost),Female,55 to 59,chronic obstructive pulmonary disease,nottingham,231.3800122464984,38587.27517928592
@@ -1320,10 +1465,12 @@ YLLs (Years of Life Lost),Female,55 to 59,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,55 to 59,motorcyclist road injuries,nottingham,1.6679661976212459,38587.27517928596
 YLLs (Years of Life Lost),Female,55 to 59,multiple myeloma,nottingham,35.14179752566885,38587.27517928595
 YLLs (Years of Life Lost),Female,55 to 59,neoplasms,nottingham,2797.1180361052534,38587.27517928597
+YLLs (Years of Life Lost),Female,55 to 59,non-rheumatic valvular heart disease,nottingham,15.341639073176335,38587.275179285934
 YLLs (Years of Life Lost),Female,55 to 59,other road injuries,nottingham,1.2606989665786599,38587.27517928598
 YLLs (Years of Life Lost),Female,55 to 59,other transport injuries,nottingham,1.0582403155895252,38587.27517928598
 YLLs (Years of Life Lost),Female,55 to 59,parkinson's disease,nottingham,11.284923544642645,38587.275179286
 YLLs (Years of Life Lost),Female,55 to 59,pedestrian road injuries,nottingham,6.086141226272617,38587.27517928596
+YLLs (Years of Life Lost),Female,55 to 59,rheumatic heart disease,nottingham,12.245440019913568,38587.275179285985
 YLLs (Years of Life Lost),Female,55 to 59,road injuries,nottingham,24.77312495442994,38587.275179285905
 YLLs (Years of Life Lost),Female,55 to 59,stomach cancer,nottingham,62.392446088954,38587.27517928594
 YLLs (Years of Life Lost),Female,55 to 59,stroke,nottingham,224.51913584932066,38587.27517928599
@@ -1333,6 +1480,7 @@ YLLs (Years of Life Lost),Female,60 to 64,all causes,nottingham,5864.24967421673
 YLLs (Years of Life Lost),Female,60 to 64,alzheimer's disease and other dementias,nottingham,62.62380566893465,32470.991284367752
 YLLs (Years of Life Lost),Female,60 to 64,bladder cancer,nottingham,45.72170525410202,32470.991284367774
 YLLs (Years of Life Lost),Female,60 to 64,breast cancer,nottingham,611.2022048412085,32470.991284367796
+YLLs (Years of Life Lost),Female,60 to 64,cardiomyopathy and myocarditis,nottingham,20.825881829196607,32470.99128436777
 YLLs (Years of Life Lost),Female,60 to 64,cardiovascular diseases,nottingham,977.3398997575866,32470.991284367767
 YLLs (Years of Life Lost),Female,60 to 64,chronic myeloid leukemia,nottingham,2.7399536280757175,32470.991284367796
 YLLs (Years of Life Lost),Female,60 to 64,chronic obstructive pulmonary disease,nottingham,420.26269296417325,32470.991284367825
@@ -1348,10 +1496,12 @@ YLLs (Years of Life Lost),Female,60 to 64,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,60 to 64,motorcyclist road injuries,nottingham,0.808577496643849,32470.99128436781
 YLLs (Years of Life Lost),Female,60 to 64,multiple myeloma,nottingham,49.06390882955314,32470.991284367763
 YLLs (Years of Life Lost),Female,60 to 64,neoplasms,nottingham,3172.12526202197,32470.99128436779
+YLLs (Years of Life Lost),Female,60 to 64,non-rheumatic valvular heart disease,nottingham,23.143769664723774,32470.99128436781
 YLLs (Years of Life Lost),Female,60 to 64,other road injuries,nottingham,0.6024335399704763,32470.99128436776
 YLLs (Years of Life Lost),Female,60 to 64,other transport injuries,nottingham,0.79669657542168,32470.991284367807
 YLLs (Years of Life Lost),Female,60 to 64,parkinson's disease,nottingham,20.67405971805376,32470.99128436779
 YLLs (Years of Life Lost),Female,60 to 64,pedestrian road injuries,nottingham,5.935965713297575,32470.99128436771
+YLLs (Years of Life Lost),Female,60 to 64,rheumatic heart disease,nottingham,14.094739605415295,32470.991284367752
 YLLs (Years of Life Lost),Female,60 to 64,road injuries,nottingham,18.69559933574367,32470.991284367807
 YLLs (Years of Life Lost),Female,60 to 64,stomach cancer,nottingham,70.10139992373182,32470.991284367767
 YLLs (Years of Life Lost),Female,60 to 64,stroke,nottingham,246.92009326430008,32470.991284367796
@@ -1361,6 +1511,7 @@ YLLs (Years of Life Lost),Female,65 to 69,all causes,nottingham,6992.24442537864
 YLLs (Years of Life Lost),Female,65 to 69,alzheimer's disease and other dementias,nottingham,115.78422397867165,29113.39524202477
 YLLs (Years of Life Lost),Female,65 to 69,bladder cancer,nottingham,61.63082164206675,29113.395242024744
 YLLs (Years of Life Lost),Female,65 to 69,breast cancer,nottingham,564.7244282417311,29113.395242024788
+YLLs (Years of Life Lost),Female,65 to 69,cardiomyopathy and myocarditis,nottingham,19.07224892719085,29113.39524202473
 YLLs (Years of Life Lost),Female,65 to 69,cardiovascular diseases,nottingham,1253.5640651352542,29113.395242024824
 YLLs (Years of Life Lost),Female,65 to 69,chronic myeloid leukemia,nottingham,3.247199055569436,29113.395242024766
 YLLs (Years of Life Lost),Female,65 to 69,chronic obstructive pulmonary disease,nottingham,577.2472632213278,29113.395242024766
@@ -1376,10 +1527,12 @@ YLLs (Years of Life Lost),Female,65 to 69,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,65 to 69,motorcyclist road injuries,nottingham,0.6339553408820561,29113.39524202474
 YLLs (Years of Life Lost),Female,65 to 69,multiple myeloma,nottingham,68.49971861442829,29113.395242024748
 YLLs (Years of Life Lost),Female,65 to 69,neoplasms,nottingham,3679.9337813041525,29113.395242024784
+YLLs (Years of Life Lost),Female,65 to 69,non-rheumatic valvular heart disease,nottingham,31.289172050195074,29113.395242024715
 YLLs (Years of Life Lost),Female,65 to 69,other road injuries,nottingham,0.399786829187056,29113.39524202475
 YLLs (Years of Life Lost),Female,65 to 69,other transport injuries,nottingham,0.7470261657774425,29113.395242024748
 YLLs (Years of Life Lost),Female,65 to 69,parkinson's disease,nottingham,42.32424636450077,29113.395242024773
 YLLs (Years of Life Lost),Female,65 to 69,pedestrian road injuries,nottingham,6.289928867431793,29113.395242024795
+YLLs (Years of Life Lost),Female,65 to 69,rheumatic heart disease,nottingham,19.77613945098947,29113.39524202469
 YLLs (Years of Life Lost),Female,65 to 69,road injuries,nottingham,18.656564231848662,29113.395242024748
 YLLs (Years of Life Lost),Female,65 to 69,stomach cancer,nottingham,85.06214764646775,29113.395242024802
 YLLs (Years of Life Lost),Female,65 to 69,stroke,nottingham,300.95668418101843,29113.395242024795
@@ -1389,6 +1542,7 @@ YLLs (Years of Life Lost),Female,70 to 74,all causes,nottingham,9586.69765556882
 YLLs (Years of Life Lost),Female,70 to 74,alzheimer's disease and other dementias,nottingham,236.32736763005457,29281.28656370134
 YLLs (Years of Life Lost),Female,70 to 74,bladder cancer,nottingham,92.4636409212625,29281.286563701364
 YLLs (Years of Life Lost),Female,70 to 74,breast cancer,nottingham,638.0247536697916,29281.286563701407
+YLLs (Years of Life Lost),Female,70 to 74,cardiomyopathy and myocarditis,nottingham,25.406402921534436,29281.286563701407
 YLLs (Years of Life Lost),Female,70 to 74,cardiovascular diseases,nottingham,2005.4272594326694,29281.286563701404
 YLLs (Years of Life Lost),Female,70 to 74,chronic myeloid leukemia,nottingham,4.337558453342574,29281.286563701335
 YLLs (Years of Life Lost),Female,70 to 74,chronic obstructive pulmonary disease,nottingham,851.7664219460094,29281.286563701356
@@ -1404,10 +1558,12 @@ YLLs (Years of Life Lost),Female,70 to 74,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,70 to 74,motorcyclist road injuries,nottingham,0.25219535941873594,29281.2865637014
 YLLs (Years of Life Lost),Female,70 to 74,multiple myeloma,nottingham,89.01263588281745,29281.28656370143
 YLLs (Years of Life Lost),Female,70 to 74,neoplasms,nottingham,4548.469844883389,29281.286563701375
+YLLs (Years of Life Lost),Female,70 to 74,non-rheumatic valvular heart disease,nottingham,58.845277693864986,29281.286563701415
 YLLs (Years of Life Lost),Female,70 to 74,other road injuries,nottingham,0.2251316696378055,29281.28656370141
 YLLs (Years of Life Lost),Female,70 to 74,other transport injuries,nottingham,0.548524448448671,29281.286563701382
 YLLs (Years of Life Lost),Female,70 to 74,parkinson's disease,nottingham,99.14426080904306,29281.28656370141
 YLLs (Years of Life Lost),Female,70 to 74,pedestrian road injuries,nottingham,8.240439085990614,29281.28656370141
+YLLs (Years of Life Lost),Female,70 to 74,rheumatic heart disease,nottingham,29.667123885439647,29281.28656370137
 YLLs (Years of Life Lost),Female,70 to 74,road injuries,nottingham,22.157073499200663,29281.286563701437
 YLLs (Years of Life Lost),Female,70 to 74,stomach cancer,nottingham,126.64657636550588,29281.286563701433
 YLLs (Years of Life Lost),Female,70 to 74,stroke,nottingham,528.6686882307382,29281.28656370141
@@ -1417,6 +1573,7 @@ YLLs (Years of Life Lost),Female,75 to 79,all causes,nottingham,9840.11146087047
 YLLs (Years of Life Lost),Female,75 to 79,alzheimer's disease and other dementias,nottingham,350.79215470620443,21169.52104903455
 YLLs (Years of Life Lost),Female,75 to 79,bladder cancer,nottingham,103.56788410082774,21169.521049034593
 YLLs (Years of Life Lost),Female,75 to 79,breast cancer,nottingham,519.1007633395717,21169.521049034527
+YLLs (Years of Life Lost),Female,75 to 79,cardiomyopathy and myocarditis,nottingham,27.355496290711965,21169.521049034505
 YLLs (Years of Life Lost),Female,75 to 79,cardiovascular diseases,nottingham,2534.176676137168,21169.521049034505
 YLLs (Years of Life Lost),Female,75 to 79,chronic myeloid leukemia,nottingham,4.428991718427523,21169.521049034553
 YLLs (Years of Life Lost),Female,75 to 79,chronic obstructive pulmonary disease,nottingham,908.4460064578219,21169.52104903455
@@ -1432,10 +1589,12 @@ YLLs (Years of Life Lost),Female,75 to 79,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,75 to 79,motorcyclist road injuries,nottingham,0.13734287476170612,21169.52104903454
 YLLs (Years of Life Lost),Female,75 to 79,multiple myeloma,nottingham,86.1289382035209,21169.521049034527
 YLLs (Years of Life Lost),Female,75 to 79,neoplasms,nottingham,3795.1142411537426,21169.52104903452
+YLLs (Years of Life Lost),Female,75 to 79,non-rheumatic valvular heart disease,nottingham,83.73707425308075,21169.52104903451
 YLLs (Years of Life Lost),Female,75 to 79,other road injuries,nottingham,0.12886010909920714,21169.52104903453
 YLLs (Years of Life Lost),Female,75 to 79,other transport injuries,nottingham,0.5049475118663864,21169.521049034553
 YLLs (Years of Life Lost),Female,75 to 79,parkinson's disease,nottingham,150.10680753283341,21169.521049034538
 YLLs (Years of Life Lost),Female,75 to 79,pedestrian road injuries,nottingham,9.842843967520006,21169.521049034553
+YLLs (Years of Life Lost),Female,75 to 79,rheumatic heart disease,nottingham,36.80415182457149,21169.521049034567
 YLLs (Years of Life Lost),Female,75 to 79,road injuries,nottingham,22.90529075136831,21169.521049034513
 YLLs (Years of Life Lost),Female,75 to 79,stomach cancer,nottingham,134.04305015897214,21169.52104903457
 YLLs (Years of Life Lost),Female,75 to 79,stroke,nottingham,735.7712518177652,21169.521049034538
@@ -1445,6 +1604,7 @@ YLLs (Years of Life Lost),Female,80 to 84,all causes,nottingham,10513.6382446141
 YLLs (Years of Life Lost),Female,80 to 84,alzheimer's disease and other dementias,nottingham,688.9098096383316,15770.261314781692
 YLLs (Years of Life Lost),Female,80 to 84,bladder cancer,nottingham,102.37896426763368,15770.261314781666
 YLLs (Years of Life Lost),Female,80 to 84,breast cancer,nottingham,462.50696341748477,15770.261314781663
+YLLs (Years of Life Lost),Female,80 to 84,cardiomyopathy and myocarditis,nottingham,34.17232640597685,15770.261314781661
 YLLs (Years of Life Lost),Female,80 to 84,cardiovascular diseases,nottingham,3178.7310091900604,15770.261314781654
 YLLs (Years of Life Lost),Female,80 to 84,chronic myeloid leukemia,nottingham,4.723552527854295,15770.26131478167
 YLLs (Years of Life Lost),Female,80 to 84,chronic obstructive pulmonary disease,nottingham,900.1886954016394,15770.261314781634
@@ -1460,10 +1620,12 @@ YLLs (Years of Life Lost),Female,80 to 84,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,80 to 84,motorcyclist road injuries,nottingham,0.07209007546938434,15770.261314781672
 YLLs (Years of Life Lost),Female,80 to 84,multiple myeloma,nottingham,65.65421367143401,15770.261314781643
 YLLs (Years of Life Lost),Female,80 to 84,neoplasms,nottingham,3064.6250482604282,15770.26131478167
+YLLs (Years of Life Lost),Female,80 to 84,non-rheumatic valvular heart disease,nottingham,114.70372388868364,15770.26131478165
 YLLs (Years of Life Lost),Female,80 to 84,other road injuries,nottingham,0.07368978122907237,15770.261314781663
 YLLs (Years of Life Lost),Female,80 to 84,other transport injuries,nottingham,0.2622632174772573,15770.261314781654
 YLLs (Years of Life Lost),Female,80 to 84,parkinson's disease,nottingham,165.22431284876913,15770.26131478167
 YLLs (Years of Life Lost),Female,80 to 84,pedestrian road injuries,nottingham,7.787063201456962,15770.261314781657
+YLLs (Years of Life Lost),Female,80 to 84,rheumatic heart disease,nottingham,35.43221590437146,15770.261314781666
 YLLs (Years of Life Lost),Female,80 to 84,road injuries,nottingham,17.33393076733519,15770.26131478168
 YLLs (Years of Life Lost),Female,80 to 84,stomach cancer,nottingham,127.4431904712799,15770.261314781668
 YLLs (Years of Life Lost),Female,80 to 84,stroke,nottingham,1018.7123418526619,15770.261314781654
@@ -1473,6 +1635,7 @@ YLLs (Years of Life Lost),Female,85 to 89,all causes,nottingham,9599.33687605009
 YLLs (Years of Life Lost),Female,85 to 89,alzheimer's disease and other dementias,nottingham,834.8519681503016,10027.48954570296
 YLLs (Years of Life Lost),Female,85 to 89,bladder cancer,nottingham,83.37350486386379,10027.489545702949
 YLLs (Years of Life Lost),Female,85 to 89,breast cancer,nottingham,352.01054073360126,10027.489545702943
+YLLs (Years of Life Lost),Female,85 to 89,cardiomyopathy and myocarditis,nottingham,38.503326238937525,10027.489545702938
 YLLs (Years of Life Lost),Female,85 to 89,cardiovascular diseases,nottingham,3274.6555606332613,10027.489545702954
 YLLs (Years of Life Lost),Female,85 to 89,chronic myeloid leukemia,nottingham,4.588715836521544,10027.489545702947
 YLLs (Years of Life Lost),Female,85 to 89,chronic obstructive pulmonary disease,nottingham,691.27136086096,10027.48954570294
@@ -1488,10 +1651,12 @@ YLLs (Years of Life Lost),Female,85 to 89,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,85 to 89,motorcyclist road injuries,nottingham,0.04955495627394213,10027.48954570294
 YLLs (Years of Life Lost),Female,85 to 89,multiple myeloma,nottingham,42.89315647808377,10027.489545702934
 YLLs (Years of Life Lost),Female,85 to 89,neoplasms,nottingham,2071.7293600179787,10027.489545702945
+YLLs (Years of Life Lost),Female,85 to 89,non-rheumatic valvular heart disease,nottingham,127.93951667496053,10027.489545702956
 YLLs (Years of Life Lost),Female,85 to 89,other road injuries,nottingham,0.044065665665292214,10027.489545702943
 YLLs (Years of Life Lost),Female,85 to 89,other transport injuries,nottingham,0.16987099901195551,10027.489545702969
 YLLs (Years of Life Lost),Female,85 to 89,parkinson's disease,nottingham,121.07553397129902,10027.48954570295
 YLLs (Years of Life Lost),Female,85 to 89,pedestrian road injuries,nottingham,5.654442905534918,10027.489545702945
+YLLs (Years of Life Lost),Female,85 to 89,rheumatic heart disease,nottingham,30.516047832224466,10027.489545702952
 YLLs (Years of Life Lost),Female,85 to 89,road injuries,nottingham,11.439212708322579,10027.489545702938
 YLLs (Years of Life Lost),Female,85 to 89,stomach cancer,nottingham,96.63060189745211,10027.489545702938
 YLLs (Years of Life Lost),Female,85 to 89,stroke,nottingham,1068.7646842818483,10027.489545702942
@@ -1501,6 +1666,7 @@ YLLs (Years of Life Lost),Female,90 to 94,all causes,nottingham,6578.84475665866
 YLLs (Years of Life Lost),Female,90 to 94,alzheimer's disease and other dementias,nottingham,633.1113526955359,4526.468955733497
 YLLs (Years of Life Lost),Female,90 to 94,bladder cancer,nottingham,48.3855314047708,4526.468955733494
 YLLs (Years of Life Lost),Female,90 to 94,breast cancer,nottingham,202.3312749218315,4526.468955733503
+YLLs (Years of Life Lost),Female,90 to 94,cardiomyopathy and myocarditis,nottingham,31.276815548620874,4526.468955733499
 YLLs (Years of Life Lost),Female,90 to 94,cardiovascular diseases,nottingham,2485.311921593253,4526.468955733491
 YLLs (Years of Life Lost),Female,90 to 94,chronic myeloid leukemia,nottingham,2.2739760870672563,4526.468955733501
 YLLs (Years of Life Lost),Female,90 to 94,chronic obstructive pulmonary disease,nottingham,409.6444012018168,4526.4689557335005
@@ -1516,10 +1682,12 @@ YLLs (Years of Life Lost),Female,90 to 94,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,90 to 94,motorcyclist road injuries,nottingham,0.0854155662533923,4526.468955733499
 YLLs (Years of Life Lost),Female,90 to 94,multiple myeloma,nottingham,17.397740878252996,4526.46895573349
 YLLs (Years of Life Lost),Female,90 to 94,neoplasms,nottingham,1017.833451503726,4526.468955733497
+YLLs (Years of Life Lost),Female,90 to 94,non-rheumatic valvular heart disease,nottingham,101.8625315318491,4526.468955733507
 YLLs (Years of Life Lost),Female,90 to 94,other road injuries,nottingham,0.05399467989631544,4526.468955733503
 YLLs (Years of Life Lost),Female,90 to 94,other transport injuries,nottingham,0.12599566702720286,4526.4689557335005
 YLLs (Years of Life Lost),Female,90 to 94,parkinson's disease,nottingham,55.62717497193155,4526.468955733497
 YLLs (Years of Life Lost),Female,90 to 94,pedestrian road injuries,nottingham,2.4128842817955327,4526.468955733502
+YLLs (Years of Life Lost),Female,90 to 94,rheumatic heart disease,nottingham,17.564859556822903,4526.468955733504
 YLLs (Years of Life Lost),Female,90 to 94,road injuries,nottingham,4.8061243422915565,4526.468955733504
 YLLs (Years of Life Lost),Female,90 to 94,stomach cancer,nottingham,50.702993638411606,4526.4689557335005
 YLLs (Years of Life Lost),Female,90 to 94,stroke,nottingham,832.5069923925903,4526.468955733493
@@ -1529,6 +1697,7 @@ YLLs (Years of Life Lost),Female,95 to 99,all causes,nottingham,2121.83882265944
 YLLs (Years of Life Lost),Female,95 to 99,alzheimer's disease and other dementias,nottingham,215.37846338847447,1086.20528884284
 YLLs (Years of Life Lost),Female,95 to 99,bladder cancer,nottingham,13.801993837837767,1086.2052888428404
 YLLs (Years of Life Lost),Female,95 to 99,breast cancer,nottingham,57.67154369023496,1086.205288842838
+YLLs (Years of Life Lost),Female,95 to 99,cardiomyopathy and myocarditis,nottingham,11.868053662320657,1086.2052888428395
 YLLs (Years of Life Lost),Female,95 to 99,cardiovascular diseases,nottingham,830.3562868108972,1086.2052888428384
 YLLs (Years of Life Lost),Female,95 to 99,chronic myeloid leukemia,nottingham,0.5968872469368232,1086.2052888428382
 YLLs (Years of Life Lost),Female,95 to 99,chronic obstructive pulmonary disease,nottingham,130.22266276883337,1086.205288842838
@@ -1544,16 +1713,19 @@ YLLs (Years of Life Lost),Female,95 to 99,motor vehicle road injuries,nottingham
 YLLs (Years of Life Lost),Female,95 to 99,motorcyclist road injuries,nottingham,0.04299591151816791,1086.2052888428389
 YLLs (Years of Life Lost),Female,95 to 99,multiple myeloma,nottingham,3.5061904020278396,1086.2052888428389
 YLLs (Years of Life Lost),Female,95 to 99,neoplasms,nottingham,276.2607056996633,1086.205288842838
+YLLs (Years of Life Lost),Female,95 to 99,non-rheumatic valvular heart disease,nottingham,32.15798143626391,1086.2052888428407
 YLLs (Years of Life Lost),Female,95 to 99,other road injuries,nottingham,0.022981913510919598,1086.2052888428398
 YLLs (Years of Life Lost),Female,95 to 99,other transport injuries,nottingham,0.06290351164800718,1086.205288842838
 YLLs (Years of Life Lost),Female,95 to 99,parkinson's disease,nottingham,11.432884921417713,1086.2052888428389
 YLLs (Years of Life Lost),Female,95 to 99,pedestrian road injuries,nottingham,0.6226660672121843,1086.205288842837
+YLLs (Years of Life Lost),Female,95 to 99,rheumatic heart disease,nottingham,5.305139070391267,1086.2052888428384
 YLLs (Years of Life Lost),Female,95 to 99,road injuries,nottingham,1.2632392067333624,1086.2052888428393
 YLLs (Years of Life Lost),Female,95 to 99,stomach cancer,nottingham,14.04289425759364,1086.205288842837
 YLLs (Years of Life Lost),Female,95 to 99,stroke,nottingham,282.8350741488653,1086.2052888428386
 YLLs (Years of Life Lost),Female,95 to 99,"tracheal, bronchus, and lung cancer",nottingham,36.09021305885794,1086.2052888428389
 YLLs (Years of Life Lost),Female,95 to 99,uterine cancer,nottingham,4.8961544022268955,1086.2052888428389
 YLLs (Years of Life Lost),Male,0 to 5,all causes,nottingham,2876.907097102637,33894.04191177171
+YLLs (Years of Life Lost),Male,0 to 5,cardiomyopathy and myocarditis,nottingham,15.884588902247202,33894.04191177167
 YLLs (Years of Life Lost),Male,0 to 5,cardiovascular diseases,nottingham,32.35815703389516,33894.04191177167
 YLLs (Years of Life Lost),Male,0 to 5,chronic myeloid leukemia,nottingham,0.5776452946200309,33894.04191177165
 YLLs (Years of Life Lost),Male,0 to 5,chronic obstructive pulmonary disease,nottingham,0.6680341028794561,33894.04191177166
@@ -1567,9 +1739,11 @@ YLLs (Years of Life Lost),Male,0 to 5,neoplasms,nottingham,77.99210073558416,338
 YLLs (Years of Life Lost),Male,0 to 5,other road injuries,nottingham,0.5489105721625016,33894.04191177163
 YLLs (Years of Life Lost),Male,0 to 5,other transport injuries,nottingham,1.3650809318569659,33894.04191177157
 YLLs (Years of Life Lost),Male,0 to 5,pedestrian road injuries,nottingham,8.805810129821602,33894.04191177163
+YLLs (Years of Life Lost),Male,0 to 5,rheumatic heart disease,nottingham,0.32889357322479723,33894.04191177162
 YLLs (Years of Life Lost),Male,0 to 5,road injuries,nottingham,18.257123610971725,33894.041911771725
 YLLs (Years of Life Lost),Male,0 to 5,stroke,nottingham,4.098146036959632,33894.04191177167
 YLLs (Years of Life Lost),Male,10 to 14,all causes,nottingham,264.8897815939612,34603.57923311663
+YLLs (Years of Life Lost),Male,10 to 14,cardiomyopathy and myocarditis,nottingham,4.20100271175495,34603.579233116616
 YLLs (Years of Life Lost),Male,10 to 14,cardiovascular diseases,nottingham,10.586506712207528,34603.57923311662
 YLLs (Years of Life Lost),Male,10 to 14,chronic myeloid leukemia,nottingham,0.2927488627858912,34603.5792331166
 YLLs (Years of Life Lost),Male,10 to 14,chronic obstructive pulmonary disease,nottingham,0.4957466949916108,34603.57923311666
@@ -1584,12 +1758,14 @@ YLLs (Years of Life Lost),Male,10 to 14,neoplasms,nottingham,67.36759999947424,3
 YLLs (Years of Life Lost),Male,10 to 14,other road injuries,nottingham,1.0072291886704066,34603.57923311668
 YLLs (Years of Life Lost),Male,10 to 14,other transport injuries,nottingham,2.2893372682433735,34603.579233116696
 YLLs (Years of Life Lost),Male,10 to 14,pedestrian road injuries,nottingham,13.953636739031625,34603.57923311662
+YLLs (Years of Life Lost),Male,10 to 14,rheumatic heart disease,nottingham,0.24456938812711598,34603.57923311664
 YLLs (Years of Life Lost),Male,10 to 14,road injuries,nottingham,40.772721330422556,34603.57923311667
 YLLs (Years of Life Lost),Male,10 to 14,stroke,nottingham,2.649077430313229,34603.57923311668
 YLLs (Years of Life Lost),Male,10 to 14,"tracheal, bronchus, and lung cancer",nottingham,0.25348658359513343,34603.579233116616
 YLLs (Years of Life Lost),Male,15 to 19,all causes,nottingham,785.4983620481175,33206.96625827855
 YLLs (Years of Life Lost),Male,15 to 19,bladder cancer,nottingham,0.2358756057930037,33206.96625827854
 YLLs (Years of Life Lost),Male,15 to 19,breast cancer,nottingham,0.2338788495158256,33206.96625827851
+YLLs (Years of Life Lost),Male,15 to 19,cardiomyopathy and myocarditis,nottingham,12.347511278912332,33206.96625827851
 YLLs (Years of Life Lost),Male,15 to 19,cardiovascular diseases,nottingham,33.05385490456402,33206.966258278524
 YLLs (Years of Life Lost),Male,15 to 19,chronic myeloid leukemia,nottingham,0.4076173435936412,33206.96625827855
 YLLs (Years of Life Lost),Male,15 to 19,chronic obstructive pulmonary disease,nottingham,1.6303451788081043,33206.96625827848
@@ -1603,9 +1779,11 @@ YLLs (Years of Life Lost),Male,15 to 19,lower respiratory infections,nottingham,
 YLLs (Years of Life Lost),Male,15 to 19,motor vehicle road injuries,nottingham,122.96715894170984,33206.96625827853
 YLLs (Years of Life Lost),Male,15 to 19,motorcyclist road injuries,nottingham,57.04773320659011,33206.966258278495
 YLLs (Years of Life Lost),Male,15 to 19,neoplasms,nottingham,104.86334832227799,33206.96625827853
+YLLs (Years of Life Lost),Male,15 to 19,non-rheumatic valvular heart disease,nottingham,1.7396290960145506,33206.96625827851
 YLLs (Years of Life Lost),Male,15 to 19,other road injuries,nottingham,2.4552147466983625,33206.96625827851
 YLLs (Years of Life Lost),Male,15 to 19,other transport injuries,nottingham,7.657310114033056,33206.966258278546
 YLLs (Years of Life Lost),Male,15 to 19,pedestrian road injuries,nottingham,27.83837132673778,33206.966258278546
+YLLs (Years of Life Lost),Male,15 to 19,rheumatic heart disease,nottingham,0.32459834890775996,33206.96625827855
 YLLs (Years of Life Lost),Male,15 to 19,road injuries,nottingham,223.18397883667308,33206.96625827854
 YLLs (Years of Life Lost),Male,15 to 19,stomach cancer,nottingham,0.4536279687531436,33206.9662582786
 YLLs (Years of Life Lost),Male,15 to 19,stroke,nottingham,8.208558459569838,33206.9662582785
@@ -1613,6 +1791,7 @@ YLLs (Years of Life Lost),Male,15 to 19,"tracheal, bronchus, and lung cancer",no
 YLLs (Years of Life Lost),Male,20 to 24,all causes,nottingham,1411.7268753248225,39401.074419835364
 YLLs (Years of Life Lost),Male,20 to 24,bladder cancer,nottingham,0.33236872565962416,39401.07441983535
 YLLs (Years of Life Lost),Male,20 to 24,breast cancer,nottingham,0.2625409465343868,39401.07441983539
+YLLs (Years of Life Lost),Male,20 to 24,cardiomyopathy and myocarditis,nottingham,19.673012695200054,39401.07441983535
 YLLs (Years of Life Lost),Male,20 to 24,cardiovascular diseases,nottingham,71.61364208035236,39401.07441983531
 YLLs (Years of Life Lost),Male,20 to 24,chronic myeloid leukemia,nottingham,0.9587115159986317,39401.07441983535
 YLLs (Years of Life Lost),Male,20 to 24,chronic obstructive pulmonary disease,nottingham,2.8668229768367937,39401.07441983535
@@ -1628,11 +1807,13 @@ YLLs (Years of Life Lost),Male,20 to 24,motor vehicle road injuries,nottingham,2
 YLLs (Years of Life Lost),Male,20 to 24,motorcyclist road injuries,nottingham,83.11597163821406,39401.074419835335
 YLLs (Years of Life Lost),Male,20 to 24,multiple myeloma,nottingham,0.3706538292879855,39401.0744198354
 YLLs (Years of Life Lost),Male,20 to 24,neoplasms,nottingham,161.63611820467924,39401.07441983538
+YLLs (Years of Life Lost),Male,20 to 24,non-rheumatic valvular heart disease,nottingham,3.2149605994149626,39401.074419835364
 YLLs (Years of Life Lost),Male,20 to 24,other road injuries,nottingham,2.4633703144769323,39401.07441983539
 YLLs (Years of Life Lost),Male,20 to 24,other transport injuries,nottingham,14.202723623240448,39401.074419835364
 YLLs (Years of Life Lost),Male,20 to 24,parkinson's disease,nottingham,0.09852702333085372,39401.07441983541
 YLLs (Years of Life Lost),Male,20 to 24,pedestrian road injuries,nottingham,40.28349294958095,39401.074419835335
 YLLs (Years of Life Lost),Male,20 to 24,prostate cancer,nottingham,0.8268467175736349,39401.07441983539
+YLLs (Years of Life Lost),Male,20 to 24,rheumatic heart disease,nottingham,0.8757876106994813,39401.074419835364
 YLLs (Years of Life Lost),Male,20 to 24,road injuries,nottingham,350.61756033221513,39401.074419835386
 YLLs (Years of Life Lost),Male,20 to 24,stomach cancer,nottingham,1.489158738086083,39401.074419835415
 YLLs (Years of Life Lost),Male,20 to 24,stroke,nottingham,19.353167363813494,39401.07441983535
@@ -1640,6 +1821,7 @@ YLLs (Years of Life Lost),Male,20 to 24,"tracheal, bronchus, and lung cancer",no
 YLLs (Years of Life Lost),Male,25 to 29,all causes,nottingham,1622.0560759153486,42592.82518181237
 YLLs (Years of Life Lost),Male,25 to 29,bladder cancer,nottingham,0.977689887906747,42592.82518181233
 YLLs (Years of Life Lost),Male,25 to 29,breast cancer,nottingham,0.2748235342953712,42592.8251818125
+YLLs (Years of Life Lost),Male,25 to 29,cardiomyopathy and myocarditis,nottingham,26.218404294710556,42592.82518181247
 YLLs (Years of Life Lost),Male,25 to 29,cardiovascular diseases,nottingham,166.263279442108,42592.82518181238
 YLLs (Years of Life Lost),Male,25 to 29,chronic myeloid leukemia,nottingham,1.9882631097779866,42592.82518181247
 YLLs (Years of Life Lost),Male,25 to 29,chronic obstructive pulmonary disease,nottingham,5.384025957152188,42592.825181812346
@@ -1655,11 +1837,13 @@ YLLs (Years of Life Lost),Male,25 to 29,motor vehicle road injuries,nottingham,1
 YLLs (Years of Life Lost),Male,25 to 29,motorcyclist road injuries,nottingham,67.26875882831366,42592.825181812426
 YLLs (Years of Life Lost),Male,25 to 29,multiple myeloma,nottingham,0.8477676065778199,42592.82518181248
 YLLs (Years of Life Lost),Male,25 to 29,neoplasms,nottingham,218.59092570134797,42592.82518181241
+YLLs (Years of Life Lost),Male,25 to 29,non-rheumatic valvular heart disease,nottingham,5.422938316269079,42592.82518181241
 YLLs (Years of Life Lost),Male,25 to 29,other road injuries,nottingham,2.1349965820298444,42592.82518181241
 YLLs (Years of Life Lost),Male,25 to 29,other transport injuries,nottingham,14.781247792023963,42592.8251818124
 YLLs (Years of Life Lost),Male,25 to 29,parkinson's disease,nottingham,0.039631504839377815,42592.8251818124
 YLLs (Years of Life Lost),Male,25 to 29,pedestrian road injuries,nottingham,27.767204542498305,42592.82518181238
 YLLs (Years of Life Lost),Male,25 to 29,prostate cancer,nottingham,1.3014904902452118,42592.825181812346
+YLLs (Years of Life Lost),Male,25 to 29,rheumatic heart disease,nottingham,1.7256545757790223,42592.82518181245
 YLLs (Years of Life Lost),Male,25 to 29,road injuries,nottingham,247.96039741041102,42592.82518181244
 YLLs (Years of Life Lost),Male,25 to 29,stomach cancer,nottingham,4.681054642034811,42592.8251818124
 YLLs (Years of Life Lost),Male,25 to 29,stroke,nottingham,39.062739032592056,42592.8251818124
@@ -1667,6 +1851,7 @@ YLLs (Years of Life Lost),Male,25 to 29,"tracheal, bronchus, and lung cancer",no
 YLLs (Years of Life Lost),Male,30 to 34,all causes,nottingham,1938.740966269932,41018.62987568334
 YLLs (Years of Life Lost),Male,30 to 34,bladder cancer,nottingham,2.542885906778757,41018.629875683335
 YLLs (Years of Life Lost),Male,30 to 34,breast cancer,nottingham,0.24789756189304868,41018.62987568333
+YLLs (Years of Life Lost),Male,30 to 34,cardiomyopathy and myocarditis,nottingham,28.30078091023945,41018.629875683284
 YLLs (Years of Life Lost),Male,30 to 34,cardiovascular diseases,nottingham,283.02452805772447,41018.629875683284
 YLLs (Years of Life Lost),Male,30 to 34,chronic myeloid leukemia,nottingham,2.2604706082741526,41018.6298756834
 YLLs (Years of Life Lost),Male,30 to 34,chronic obstructive pulmonary disease,nottingham,9.314749091376333,41018.62987568331
@@ -1682,11 +1867,13 @@ YLLs (Years of Life Lost),Male,30 to 34,motor vehicle road injuries,nottingham,8
 YLLs (Years of Life Lost),Male,30 to 34,motorcyclist road injuries,nottingham,50.24228050996342,41018.62987568333
 YLLs (Years of Life Lost),Male,30 to 34,multiple myeloma,nottingham,2.4367246679313554,41018.629875683335
 YLLs (Years of Life Lost),Male,30 to 34,neoplasms,nottingham,313.7889588955413,41018.62987568332
+YLLs (Years of Life Lost),Male,30 to 34,non-rheumatic valvular heart disease,nottingham,6.903316440245424,41018.62987568331
 YLLs (Years of Life Lost),Male,30 to 34,other road injuries,nottingham,1.3156031735544838,41018.6298756833
 YLLs (Years of Life Lost),Male,30 to 34,other transport injuries,nottingham,11.236873880977813,41018.62987568331
 YLLs (Years of Life Lost),Male,30 to 34,parkinson's disease,nottingham,0.06909259751546624,41018.62987568332
 YLLs (Years of Life Lost),Male,30 to 34,pedestrian road injuries,nottingham,24.633379075741026,41018.62987568334
 YLLs (Years of Life Lost),Male,30 to 34,prostate cancer,nottingham,1.4580064242675697,41018.6298756833
+YLLs (Years of Life Lost),Male,30 to 34,rheumatic heart disease,nottingham,2.2852521360284688,41018.62987568336
 YLLs (Years of Life Lost),Male,30 to 34,road injuries,nottingham,170.36511059990391,41018.629875683306
 YLLs (Years of Life Lost),Male,30 to 34,stomach cancer,nottingham,12.290241309210312,41018.62987568331
 YLLs (Years of Life Lost),Male,30 to 34,stroke,nottingham,57.93122612575959,41018.62987568333
@@ -1694,6 +1881,7 @@ YLLs (Years of Life Lost),Male,30 to 34,"tracheal, bronchus, and lung cancer",no
 YLLs (Years of Life Lost),Male,35 to 39,all causes,nottingham,2256.0530983938543,38363.14636184493
 YLLs (Years of Life Lost),Male,35 to 39,bladder cancer,nottingham,4.694083846195433,38363.14636184489
 YLLs (Years of Life Lost),Male,35 to 39,breast cancer,nottingham,0.44347511501776904,38363.14636184495
+YLLs (Years of Life Lost),Male,35 to 39,cardiomyopathy and myocarditis,nottingham,30.83788813587463,38363.14636184496
 YLLs (Years of Life Lost),Male,35 to 39,cardiovascular diseases,nottingham,409.60706329378786,38363.14636184494
 YLLs (Years of Life Lost),Male,35 to 39,chronic myeloid leukemia,nottingham,2.47535844236652,38363.14636184485
 YLLs (Years of Life Lost),Male,35 to 39,chronic obstructive pulmonary disease,nottingham,15.785230744750514,38363.14636184498
@@ -1709,11 +1897,13 @@ YLLs (Years of Life Lost),Male,35 to 39,motor vehicle road injuries,nottingham,5
 YLLs (Years of Life Lost),Male,35 to 39,motorcyclist road injuries,nottingham,43.437259649702014,38363.14636184496
 YLLs (Years of Life Lost),Male,35 to 39,multiple myeloma,nottingham,4.897970025086412,38363.14636184498
 YLLs (Years of Life Lost),Male,35 to 39,neoplasms,nottingham,426.89101732942265,38363.146361844876
+YLLs (Years of Life Lost),Male,35 to 39,non-rheumatic valvular heart disease,nottingham,7.842524162695705,38363.14636184499
 YLLs (Years of Life Lost),Male,35 to 39,other road injuries,nottingham,0.7689005001244467,38363.146361844905
 YLLs (Years of Life Lost),Male,35 to 39,other transport injuries,nottingham,9.475754627221281,38363.14636184489
 YLLs (Years of Life Lost),Male,35 to 39,parkinson's disease,nottingham,0.14401478199728202,38363.146361844934
 YLLs (Years of Life Lost),Male,35 to 39,pedestrian road injuries,nottingham,21.01062670014341,38363.14636184496
 YLLs (Years of Life Lost),Male,35 to 39,prostate cancer,nottingham,1.7245890638049879,38363.146361844934
+YLLs (Years of Life Lost),Male,35 to 39,rheumatic heart disease,nottingham,2.7591421475014757,38363.14636184497
 YLLs (Years of Life Lost),Male,35 to 39,road injuries,nottingham,131.03446362042553,38363.14636184492
 YLLs (Years of Life Lost),Male,35 to 39,stomach cancer,nottingham,20.42093231303884,38363.14636184492
 YLLs (Years of Life Lost),Male,35 to 39,stroke,nottingham,72.89045808765965,38363.14636184488
@@ -1722,6 +1912,7 @@ YLLs (Years of Life Lost),Male,40 to 44,all causes,nottingham,2886.2599409093878
 YLLs (Years of Life Lost),Male,40 to 44,alzheimer's disease and other dementias,nottingham,1.701810073530091,35049.13314924364
 YLLs (Years of Life Lost),Male,40 to 44,bladder cancer,nottingham,9.252667251817861,35049.13314924364
 YLLs (Years of Life Lost),Male,40 to 44,breast cancer,nottingham,0.8098715536976483,35049.13314924366
+YLLs (Years of Life Lost),Male,40 to 44,cardiomyopathy and myocarditis,nottingham,37.70211595164605,35049.13314924366
 YLLs (Years of Life Lost),Male,40 to 44,cardiovascular diseases,nottingham,605.2235162785814,35049.133149243615
 YLLs (Years of Life Lost),Male,40 to 44,chronic myeloid leukemia,nottingham,2.669083745759986,35049.13314924367
 YLLs (Years of Life Lost),Male,40 to 44,chronic obstructive pulmonary disease,nottingham,29.891051563697406,35049.133149243644
@@ -1737,11 +1928,13 @@ YLLs (Years of Life Lost),Male,40 to 44,motor vehicle road injuries,nottingham,5
 YLLs (Years of Life Lost),Male,40 to 44,motorcyclist road injuries,nottingham,43.143601312960556,35049.133149243615
 YLLs (Years of Life Lost),Male,40 to 44,multiple myeloma,nottingham,9.127454989892788,35049.13314924357
 YLLs (Years of Life Lost),Male,40 to 44,neoplasms,nottingham,626.3761208134367,35049.13314924359
+YLLs (Years of Life Lost),Male,40 to 44,non-rheumatic valvular heart disease,nottingham,10.023023806212612,35049.133149243586
 YLLs (Years of Life Lost),Male,40 to 44,other road injuries,nottingham,0.5652627822175497,35049.133149243615
 YLLs (Years of Life Lost),Male,40 to 44,other transport injuries,nottingham,8.157936387288675,35049.13314924371
 YLLs (Years of Life Lost),Male,40 to 44,parkinson's disease,nottingham,1.3804843161670972,35049.13314924363
 YLLs (Years of Life Lost),Male,40 to 44,pedestrian road injuries,nottingham,20.79818468746332,35049.13314924366
 YLLs (Years of Life Lost),Male,40 to 44,prostate cancer,nottingham,3.3717493566296772,35049.13314924364
+YLLs (Years of Life Lost),Male,40 to 44,rheumatic heart disease,nottingham,3.318290231119019,35049.13314924363
 YLLs (Years of Life Lost),Male,40 to 44,road injuries,nottingham,124.46023545693727,35049.13314924365
 YLLs (Years of Life Lost),Male,40 to 44,stomach cancer,nottingham,32.450908891675525,35049.13314924358
 YLLs (Years of Life Lost),Male,40 to 44,stroke,nottingham,101.51736102689222,35049.13314924367
@@ -1750,6 +1943,7 @@ YLLs (Years of Life Lost),Male,45 to 49,all causes,nottingham,3884.415397013166,
 YLLs (Years of Life Lost),Male,45 to 49,alzheimer's disease and other dementias,nottingham,10.459313995449884,38042.16019295009
 YLLs (Years of Life Lost),Male,45 to 49,bladder cancer,nottingham,18.15030511108366,38042.16019295015
 YLLs (Years of Life Lost),Male,45 to 49,breast cancer,nottingham,1.1666616401819094,38042.16019295015
+YLLs (Years of Life Lost),Male,45 to 49,cardiomyopathy and myocarditis,nottingham,45.9676122296884,38042.160192950076
 YLLs (Years of Life Lost),Male,45 to 49,cardiovascular diseases,nottingham,909.2661769066949,38042.16019295016
 YLLs (Years of Life Lost),Male,45 to 49,chronic myeloid leukemia,nottingham,3.007934002615883,38042.160192950076
 YLLs (Years of Life Lost),Male,45 to 49,chronic obstructive pulmonary disease,nottingham,57.08646051927768,38042.160192950105
@@ -1765,16 +1959,19 @@ YLLs (Years of Life Lost),Male,45 to 49,motor vehicle road injuries,nottingham,5
 YLLs (Years of Life Lost),Male,45 to 49,motorcyclist road injuries,nottingham,39.711885200169625,38042.16019295015
 YLLs (Years of Life Lost),Male,45 to 49,multiple myeloma,nottingham,17.711916342215815,38042.16019295008
 YLLs (Years of Life Lost),Male,45 to 49,neoplasms,nottingham,1020.1554726125985,38042.160192950134
+YLLs (Years of Life Lost),Male,45 to 49,non-rheumatic valvular heart disease,nottingham,13.24134158083287,38042.16019295018
 YLLs (Years of Life Lost),Male,45 to 49,other road injuries,nottingham,0.682783695775113,38042.16019295014
 YLLs (Years of Life Lost),Male,45 to 49,other transport injuries,nottingham,7.9518988636829695,38042.16019295012
 YLLs (Years of Life Lost),Male,45 to 49,parkinson's disease,nottingham,4.09604574354773,38042.1601929502
 YLLs (Years of Life Lost),Male,45 to 49,pedestrian road injuries,nottingham,23.46745420657806,38042.160192950156
 YLLs (Years of Life Lost),Male,45 to 49,prostate cancer,nottingham,13.020623867392121,38042.160192950214
+YLLs (Years of Life Lost),Male,45 to 49,rheumatic heart disease,nottingham,4.829918156619157,38042.16019295012
 YLLs (Years of Life Lost),Male,45 to 49,road injuries,nottingham,126.38304181531434,38042.16019295016
 YLLs (Years of Life Lost),Male,45 to 49,stomach cancer,nottingham,51.093571306518996,38042.16019295019
 YLLs (Years of Life Lost),Male,45 to 49,stroke,nottingham,136.28410442654888,38042.160192950134
 YLLs (Years of Life Lost),Male,45 to 49,"tracheal, bronchus, and lung cancer",nottingham,174.92564054026687,38042.16019295012
 YLLs (Years of Life Lost),Male,5 to 9,all causes,nottingham,188.6895226455954,34763.20567399744
+YLLs (Years of Life Lost),Male,5 to 9,cardiomyopathy and myocarditis,nottingham,1.6733467800921398,34763.20567399749
 YLLs (Years of Life Lost),Male,5 to 9,cardiovascular diseases,nottingham,5.095580675152666,34763.20567399741
 YLLs (Years of Life Lost),Male,5 to 9,chronic myeloid leukemia,nottingham,0.2850365210644675,34763.20567399742
 YLLs (Years of Life Lost),Male,5 to 9,chronic obstructive pulmonary disease,nottingham,0.4094481967244654,34763.205673997385
@@ -1789,12 +1986,14 @@ YLLs (Years of Life Lost),Male,5 to 9,neoplasms,nottingham,60.439567370961115,34
 YLLs (Years of Life Lost),Male,5 to 9,other road injuries,nottingham,0.38720965743084773,34763.205673997494
 YLLs (Years of Life Lost),Male,5 to 9,other transport injuries,nottingham,1.159142149523908,34763.205673997436
 YLLs (Years of Life Lost),Male,5 to 9,pedestrian road injuries,nottingham,11.098676405743193,34763.205673997436
+YLLs (Years of Life Lost),Male,5 to 9,rheumatic heart disease,nottingham,0.22224769794634935,34763.205673997436
 YLLs (Years of Life Lost),Male,5 to 9,road injuries,nottingham,22.7249167235733,34763.20567399742
 YLLs (Years of Life Lost),Male,5 to 9,stroke,nottingham,1.1342481354824419,34763.20567399745
 YLLs (Years of Life Lost),Male,50 to 54,all causes,nottingham,5328.312174028838,41563.3064828018
 YLLs (Years of Life Lost),Male,50 to 54,alzheimer's disease and other dementias,nottingham,21.401716551274955,41563.306482801614
 YLLs (Years of Life Lost),Male,50 to 54,bladder cancer,nottingham,39.304030686056066,41563.30648280171
 YLLs (Years of Life Lost),Male,50 to 54,breast cancer,nottingham,1.8206410998421163,41563.30648280167
+YLLs (Years of Life Lost),Male,50 to 54,cardiomyopathy and myocarditis,nottingham,51.94299519445792,41563.306482801665
 YLLs (Years of Life Lost),Male,50 to 54,cardiovascular diseases,nottingham,1470.3248196443117,41563.306482801665
 YLLs (Years of Life Lost),Male,50 to 54,chronic myeloid leukemia,nottingham,2.7058618194898942,41563.30648280175
 YLLs (Years of Life Lost),Male,50 to 54,chronic obstructive pulmonary disease,nottingham,150.99856121755735,41563.30648280167
@@ -1810,11 +2009,13 @@ YLLs (Years of Life Lost),Male,50 to 54,motor vehicle road injuries,nottingham,3
 YLLs (Years of Life Lost),Male,50 to 54,motorcyclist road injuries,nottingham,21.34245630697218,41563.30648280171
 YLLs (Years of Life Lost),Male,50 to 54,multiple myeloma,nottingham,34.428303942383366,41563.30648280168
 YLLs (Years of Life Lost),Male,50 to 54,neoplasms,nottingham,1884.3276365830125,41563.30648280169
+YLLs (Years of Life Lost),Male,50 to 54,non-rheumatic valvular heart disease,nottingham,21.752135744383324,41563.30648280171
 YLLs (Years of Life Lost),Male,50 to 54,other road injuries,nottingham,0.8919151847707711,41563.306482801745
 YLLs (Years of Life Lost),Male,50 to 54,other transport injuries,nottingham,6.838236774642895,41563.30648280174
 YLLs (Years of Life Lost),Male,50 to 54,parkinson's disease,nottingham,8.515228844977178,41563.306482801665
 YLLs (Years of Life Lost),Male,50 to 54,pedestrian road injuries,nottingham,17.5844653120051,41563.30648280175
 YLLs (Years of Life Lost),Male,50 to 54,prostate cancer,nottingham,51.189593273962586,41563.30648280171
+YLLs (Years of Life Lost),Male,50 to 54,rheumatic heart disease,nottingham,6.314687617102521,41563.30648280168
 YLLs (Years of Life Lost),Male,50 to 54,road injuries,nottingham,80.92355333923337,41563.30648280173
 YLLs (Years of Life Lost),Male,50 to 54,stomach cancer,nottingham,84.81520791842051,41563.306482801694
 YLLs (Years of Life Lost),Male,50 to 54,stroke,nottingham,199.76429113255722,41563.306482801716
@@ -1823,6 +2024,7 @@ YLLs (Years of Life Lost),Male,55 to 59,all causes,nottingham,7095.8261851082725
 YLLs (Years of Life Lost),Male,55 to 59,alzheimer's disease and other dementias,nottingham,36.89208908290346,38698.72823357998
 YLLs (Years of Life Lost),Male,55 to 59,bladder cancer,nottingham,66.39450380695392,38698.728233580005
 YLLs (Years of Life Lost),Male,55 to 59,breast cancer,nottingham,2.5986922292757213,38698.72823357997
+YLLs (Years of Life Lost),Male,55 to 59,cardiomyopathy and myocarditis,nottingham,59.75685828511499,38698.72823357997
 YLLs (Years of Life Lost),Male,55 to 59,cardiovascular diseases,nottingham,2006.3400589548287,38698.72823358001
 YLLs (Years of Life Lost),Male,55 to 59,chronic myeloid leukemia,nottingham,3.1123246318776463,38698.728233579954
 YLLs (Years of Life Lost),Male,55 to 59,chronic obstructive pulmonary disease,nottingham,245.56066532012392,38698.72823358001
@@ -1838,11 +2040,13 @@ YLLs (Years of Life Lost),Male,55 to 59,motor vehicle road injuries,nottingham,2
 YLLs (Years of Life Lost),Male,55 to 59,motorcyclist road injuries,nottingham,15.13973066538701,38698.728233579954
 YLLs (Years of Life Lost),Male,55 to 59,multiple myeloma,nottingham,52.77284898677038,38698.72823357994
 YLLs (Years of Life Lost),Male,55 to 59,neoplasms,nottingham,2833.82726231541,38698.72823358001
+YLLs (Years of Life Lost),Male,55 to 59,non-rheumatic valvular heart disease,nottingham,31.582289532213586,38698.72823358002
 YLLs (Years of Life Lost),Male,55 to 59,other road injuries,nottingham,0.7435204538690353,38698.72823358001
 YLLs (Years of Life Lost),Male,55 to 59,other transport injuries,nottingham,5.8093823948608225,38698.72823358003
 YLLs (Years of Life Lost),Male,55 to 59,parkinson's disease,nottingham,14.85795677228681,38698.72823357998
 YLLs (Years of Life Lost),Male,55 to 59,pedestrian road injuries,nottingham,16.23437387251549,38698.72823357994
 YLLs (Years of Life Lost),Male,55 to 59,prostate cancer,nottingham,115.5153278669964,38698.72823358005
+YLLs (Years of Life Lost),Male,55 to 59,rheumatic heart disease,nottingham,8.591989772484038,38698.728233579895
 YLLs (Years of Life Lost),Male,55 to 59,road injuries,nottingham,69.58919281744045,38698.72823358001
 YLLs (Years of Life Lost),Male,55 to 59,stomach cancer,nottingham,122.95439483470761,38698.728233579895
 YLLs (Years of Life Lost),Male,55 to 59,stroke,nottingham,271.12474892110953,38698.728233579925
@@ -1851,6 +2055,7 @@ YLLs (Years of Life Lost),Male,60 to 64,all causes,nottingham,8719.204877688153,
 YLLs (Years of Life Lost),Male,60 to 64,alzheimer's disease and other dementias,nottingham,57.192653762138974,32129.416445457267
 YLLs (Years of Life Lost),Male,60 to 64,bladder cancer,nottingham,105.51476727132534,32129.41644545731
 YLLs (Years of Life Lost),Male,60 to 64,breast cancer,nottingham,3.1791374167320225,32129.416445457297
+YLLs (Years of Life Lost),Male,60 to 64,cardiomyopathy and myocarditis,nottingham,56.84689184702876,32129.4164454572
 YLLs (Years of Life Lost),Male,60 to 64,cardiovascular diseases,nottingham,2447.087600196279,32129.41644545716
 YLLs (Years of Life Lost),Male,60 to 64,chronic myeloid leukemia,nottingham,3.9580347219053986,32129.41644545724
 YLLs (Years of Life Lost),Male,60 to 64,chronic obstructive pulmonary disease,nottingham,514.0305666721792,32129.416445457307
@@ -1866,11 +2071,13 @@ YLLs (Years of Life Lost),Male,60 to 64,motor vehicle road injuries,nottingham,2
 YLLs (Years of Life Lost),Male,60 to 64,motorcyclist road injuries,nottingham,7.422171586271448,32129.416445457246
 YLLs (Years of Life Lost),Male,60 to 64,multiple myeloma,nottingham,66.76850939263184,32129.416445457224
 YLLs (Years of Life Lost),Male,60 to 64,neoplasms,nottingham,3856.325741898262,32129.41644545729
+YLLs (Years of Life Lost),Male,60 to 64,non-rheumatic valvular heart disease,nottingham,40.818037772408765,32129.416445457293
 YLLs (Years of Life Lost),Male,60 to 64,other road injuries,nottingham,0.4253818476966395,32129.416445457216
 YLLs (Years of Life Lost),Male,60 to 64,other transport injuries,nottingham,4.510518158575513,32129.416445457326
 YLLs (Years of Life Lost),Male,60 to 64,parkinson's disease,nottingham,33.86911565576382,32129.41644545729
 YLLs (Years of Life Lost),Male,60 to 64,pedestrian road injuries,nottingham,13.326933875251857,32129.41644545733
 YLLs (Years of Life Lost),Male,60 to 64,prostate cancer,nottingham,263.0974528565558,32129.416445457267
+YLLs (Years of Life Lost),Male,60 to 64,rheumatic heart disease,nottingham,9.867316458278273,32129.41644545727
 YLLs (Years of Life Lost),Male,60 to 64,road injuries,nottingham,47.291558931999795,32129.416445457297
 YLLs (Years of Life Lost),Male,60 to 64,stomach cancer,nottingham,168.86330626708926,32129.416445457267
 YLLs (Years of Life Lost),Male,60 to 64,stroke,nottingham,323.68393038780016,32129.416445457315
@@ -1879,6 +2086,7 @@ YLLs (Years of Life Lost),Male,65 to 69,all causes,nottingham,9966.776085043894,
 YLLs (Years of Life Lost),Male,65 to 69,alzheimer's disease and other dementias,nottingham,98.83758489084191,28558.79255275728
 YLLs (Years of Life Lost),Male,65 to 69,bladder cancer,nottingham,157.40449074232555,28558.7925527573
 YLLs (Years of Life Lost),Male,65 to 69,breast cancer,nottingham,3.5367410327785787,28558.792552757226
+YLLs (Years of Life Lost),Male,65 to 69,cardiomyopathy and myocarditis,nottingham,54.380073356074476,28558.79255275727
 YLLs (Years of Life Lost),Male,65 to 69,cardiovascular diseases,nottingham,2613.645438335525,28558.792552757255
 YLLs (Years of Life Lost),Male,65 to 69,chronic myeloid leukemia,nottingham,4.814893999382958,28558.792552757244
 YLLs (Years of Life Lost),Male,65 to 69,chronic obstructive pulmonary disease,nottingham,743.313932177592,28558.792552757266
@@ -1894,11 +2102,13 @@ YLLs (Years of Life Lost),Male,65 to 69,motor vehicle road injuries,nottingham,1
 YLLs (Years of Life Lost),Male,65 to 69,motorcyclist road injuries,nottingham,4.096959089169973,28558.792552757284
 YLLs (Years of Life Lost),Male,65 to 69,multiple myeloma,nottingham,90.12465447459292,28558.79255275731
 YLLs (Years of Life Lost),Male,65 to 69,neoplasms,nottingham,4631.963204375154,28558.7925527573
+YLLs (Years of Life Lost),Male,65 to 69,non-rheumatic valvular heart disease,nottingham,52.449877648900454,28558.792552757266
 YLLs (Years of Life Lost),Male,65 to 69,other road injuries,nottingham,0.2802491850679928,28558.792552757317
 YLLs (Years of Life Lost),Male,65 to 69,other transport injuries,nottingham,3.3238042813212907,28558.792552757295
 YLLs (Years of Life Lost),Male,65 to 69,parkinson's disease,nottingham,73.27826683665813,28558.792552757237
 YLLs (Years of Life Lost),Male,65 to 69,pedestrian road injuries,nottingham,11.509824867207453,28558.79255275727
 YLLs (Years of Life Lost),Male,65 to 69,prostate cancer,nottingham,435.9097235575246,28558.792552757237
+YLLs (Years of Life Lost),Male,65 to 69,rheumatic heart disease,nottingham,11.553170568461749,28558.792552757324
 YLLs (Years of Life Lost),Male,65 to 69,road injuries,nottingham,36.33832070251491,28558.79255275731
 YLLs (Years of Life Lost),Male,65 to 69,stomach cancer,nottingham,195.95397152986843,28558.792552757233
 YLLs (Years of Life Lost),Male,65 to 69,stroke,nottingham,380.9790356525151,28558.792552757222
@@ -1907,6 +2117,7 @@ YLLs (Years of Life Lost),Male,70 to 74,all causes,nottingham,12870.808080774756
 YLLs (Years of Life Lost),Male,70 to 74,alzheimer's disease and other dementias,nottingham,195.750785747059,28002.61142225366
 YLLs (Years of Life Lost),Male,70 to 74,bladder cancer,nottingham,226.4174846853092,28002.611422253653
 YLLs (Years of Life Lost),Male,70 to 74,breast cancer,nottingham,4.507018958046281,28002.611422253627
+YLLs (Years of Life Lost),Male,70 to 74,cardiomyopathy and myocarditis,nottingham,55.578132603381555,28002.61142225363
 YLLs (Years of Life Lost),Male,70 to 74,cardiovascular diseases,nottingham,3558.6978256272364,28002.611422253583
 YLLs (Years of Life Lost),Male,70 to 74,chronic myeloid leukemia,nottingham,6.805695181492772,28002.611422253605
 YLLs (Years of Life Lost),Male,70 to 74,chronic obstructive pulmonary disease,nottingham,1088.8505193506494,28002.61142225362
@@ -1922,11 +2133,13 @@ YLLs (Years of Life Lost),Male,70 to 74,motor vehicle road injuries,nottingham,1
 YLLs (Years of Life Lost),Male,70 to 74,motorcyclist road injuries,nottingham,1.9660890903462405,28002.61142225362
 YLLs (Years of Life Lost),Male,70 to 74,multiple myeloma,nottingham,117.35633639157753,28002.61142225362
 YLLs (Years of Life Lost),Male,70 to 74,neoplasms,nottingham,5663.194285652787,28002.611422253598
+YLLs (Years of Life Lost),Male,70 to 74,non-rheumatic valvular heart disease,nottingham,83.01698439393115,28002.611422253613
 YLLs (Years of Life Lost),Male,70 to 74,other road injuries,nottingham,0.22239631633055643,28002.611422253613
 YLLs (Years of Life Lost),Male,70 to 74,other transport injuries,nottingham,2.484910526398143,28002.611422253616
 YLLs (Years of Life Lost),Male,70 to 74,parkinson's disease,nottingham,182.99636405691837,28002.611422253638
 YLLs (Years of Life Lost),Male,70 to 74,pedestrian road injuries,nottingham,12.854035703510775,28002.611422253653
 YLLs (Years of Life Lost),Male,70 to 74,prostate cancer,nottingham,647.0092380803276,28002.611422253605
+YLLs (Years of Life Lost),Male,70 to 74,rheumatic heart disease,nottingham,17.353754749508,28002.611422253703
 YLLs (Years of Life Lost),Male,70 to 74,road injuries,nottingham,34.01346463917575,28002.611422253613
 YLLs (Years of Life Lost),Male,70 to 74,stomach cancer,nottingham,269.0397923133588,28002.61142225363
 YLLs (Years of Life Lost),Male,70 to 74,stroke,nottingham,616.7857883216881,28002.611422253634
@@ -1935,6 +2148,7 @@ YLLs (Years of Life Lost),Male,75 to 79,all causes,nottingham,11521.093523522919
 YLLs (Years of Life Lost),Male,75 to 79,alzheimer's disease and other dementias,nottingham,263.5505769842458,18499.334224944163
 YLLs (Years of Life Lost),Male,75 to 79,bladder cancer,nottingham,219.6693253613943,18499.334224944178
 YLLs (Years of Life Lost),Male,75 to 79,breast cancer,nottingham,3.335092191911479,18499.334224944174
+YLLs (Years of Life Lost),Male,75 to 79,cardiomyopathy and myocarditis,nottingham,44.668720039402565,18499.33422494417
 YLLs (Years of Life Lost),Male,75 to 79,cardiovascular diseases,nottingham,3379.8414677899405,18499.334224944185
 YLLs (Years of Life Lost),Male,75 to 79,chronic myeloid leukemia,nottingham,6.149482771145525,18499.334224944185
 YLLs (Years of Life Lost),Male,75 to 79,chronic obstructive pulmonary disease,nottingham,1053.3691237851117,18499.33422494418
@@ -1950,11 +2164,13 @@ YLLs (Years of Life Lost),Male,75 to 79,motor vehicle road injuries,nottingham,1
 YLLs (Years of Life Lost),Male,75 to 79,motorcyclist road injuries,nottingham,0.8503347663563905,18499.334224944196
 YLLs (Years of Life Lost),Male,75 to 79,multiple myeloma,nottingham,91.0130996174729,18499.33422494412
 YLLs (Years of Life Lost),Male,75 to 79,neoplasms,nottingham,4476.341794424975,18499.334224944178
+YLLs (Years of Life Lost),Male,75 to 79,non-rheumatic valvular heart disease,nottingham,93.95879429798093,18499.334224944163
 YLLs (Years of Life Lost),Male,75 to 79,other road injuries,nottingham,0.15075384229318592,18499.334224944134
 YLLs (Years of Life Lost),Male,75 to 79,other transport injuries,nottingham,1.4002194286174332,18499.33422494419
 YLLs (Years of Life Lost),Male,75 to 79,parkinson's disease,nottingham,253.13733613245077,18499.334224944192
 YLLs (Years of Life Lost),Male,75 to 79,pedestrian road injuries,nottingham,11.395246388998313,18499.334224944185
 YLLs (Years of Life Lost),Male,75 to 79,prostate cancer,nottingham,701.1453589230389,18499.334224944134
+YLLs (Years of Life Lost),Male,75 to 79,rheumatic heart disease,nottingham,16.61952311851617,18499.334224944152
 YLLs (Years of Life Lost),Male,75 to 79,road injuries,nottingham,26.980580506463166,18499.334224944178
 YLLs (Years of Life Lost),Male,75 to 79,stomach cancer,nottingham,243.92879548571818,18499.33422494418
 YLLs (Years of Life Lost),Male,75 to 79,stroke,nottingham,713.7922704825852,18499.334224944163
@@ -1963,6 +2179,7 @@ YLLs (Years of Life Lost),Male,80 to 84,all causes,nottingham,11075.404852466121
 YLLs (Years of Life Lost),Male,80 to 84,alzheimer's disease and other dementias,nottingham,476.5933681429991,12477.096160336416
 YLLs (Years of Life Lost),Male,80 to 84,bladder cancer,nottingham,207.1400119292241,12477.096160336441
 YLLs (Years of Life Lost),Male,80 to 84,breast cancer,nottingham,2.3496262116818167,12477.096160336434
+YLLs (Years of Life Lost),Male,80 to 84,cardiomyopathy and myocarditis,nottingham,40.62822696884935,12477.096160336418
 YLLs (Years of Life Lost),Male,80 to 84,cardiovascular diseases,nottingham,3456.324172704125,12477.096160336412
 YLLs (Years of Life Lost),Male,80 to 84,chronic myeloid leukemia,nottingham,5.382334158694861,12477.09616033643
 YLLs (Years of Life Lost),Male,80 to 84,chronic obstructive pulmonary disease,nottingham,993.1259415410806,12477.09616033642
@@ -1978,11 +2195,13 @@ YLLs (Years of Life Lost),Male,80 to 84,motor vehicle road injuries,nottingham,1
 YLLs (Years of Life Lost),Male,80 to 84,motorcyclist road injuries,nottingham,0.39259803888103073,12477.096160336416
 YLLs (Years of Life Lost),Male,80 to 84,multiple myeloma,nottingham,71.27656361700858,12477.096160336427
 YLLs (Years of Life Lost),Male,80 to 84,neoplasms,nottingham,3608.9723321824295,12477.09616033643
+YLLs (Years of Life Lost),Male,80 to 84,non-rheumatic valvular heart disease,nottingham,111.9460496529714,12477.09616033642
 YLLs (Years of Life Lost),Male,80 to 84,other road injuries,nottingham,0.08725052857339914,12477.09616033643
 YLLs (Years of Life Lost),Male,80 to 84,other transport injuries,nottingham,0.8504423254409076,12477.096160336454
 YLLs (Years of Life Lost),Male,80 to 84,parkinson's disease,nottingham,257.1327913731017,12477.096160336412
 YLLs (Years of Life Lost),Male,80 to 84,pedestrian road injuries,nottingham,9.115362584968743,12477.096160336407
 YLLs (Years of Life Lost),Male,80 to 84,prostate cancer,nottingham,735.3066114761672,12477.096160336441
+YLLs (Years of Life Lost),Male,80 to 84,rheumatic heart disease,nottingham,16.073998211330164,12477.096160336447
 YLLs (Years of Life Lost),Male,80 to 84,road injuries,nottingham,21.27076960132205,12477.09616033642
 YLLs (Years of Life Lost),Male,80 to 84,stomach cancer,nottingham,190.75098129267542,12477.096160336427
 YLLs (Years of Life Lost),Male,80 to 84,stroke,nottingham,839.7667546445045,12477.096160336438
@@ -1991,6 +2210,7 @@ YLLs (Years of Life Lost),Male,85 to 89,all causes,nottingham,7778.448000745292,
 YLLs (Years of Life Lost),Male,85 to 89,alzheimer's disease and other dementias,nottingham,470.47024431479343,6439.83285059859
 YLLs (Years of Life Lost),Male,85 to 89,bladder cancer,nottingham,152.13706464277055,6439.832850598584
 YLLs (Years of Life Lost),Male,85 to 89,breast cancer,nottingham,1.7647523800253617,6439.832850598597
+YLLs (Years of Life Lost),Male,85 to 89,cardiomyopathy and myocarditis,nottingham,31.946607547551956,6439.832850598595
 YLLs (Years of Life Lost),Male,85 to 89,cardiovascular diseases,nottingham,2485.730121273699,6439.832850598594
 YLLs (Years of Life Lost),Male,85 to 89,chronic myeloid leukemia,nottingham,4.168371359403123,6439.832850598589
 YLLs (Years of Life Lost),Male,85 to 89,chronic obstructive pulmonary disease,nottingham,710.655146391641,6439.832850598588
@@ -2006,11 +2226,13 @@ YLLs (Years of Life Lost),Male,85 to 89,motor vehicle road injuries,nottingham,6
 YLLs (Years of Life Lost),Male,85 to 89,motorcyclist road injuries,nottingham,0.15422126453295848,6439.83285059859
 YLLs (Years of Life Lost),Male,85 to 89,multiple myeloma,nottingham,39.97790196908884,6439.832850598593
 YLLs (Years of Life Lost),Male,85 to 89,neoplasms,nottingham,2131.1304830200474,6439.832850598599
+YLLs (Years of Life Lost),Male,85 to 89,non-rheumatic valvular heart disease,nottingham,87.10313917431414,6439.832850598586
 YLLs (Years of Life Lost),Male,85 to 89,other road injuries,nottingham,0.03455697033590239,6439.832850598589
 YLLs (Years of Life Lost),Male,85 to 89,other transport injuries,nottingham,0.3601869075150895,6439.8328505985955
 YLLs (Years of Life Lost),Male,85 to 89,parkinson's disease,nottingham,158.25798120452612,6439.832850598586
 YLLs (Years of Life Lost),Male,85 to 89,pedestrian road injuries,nottingham,5.677888209027744,6439.832850598594
 YLLs (Years of Life Lost),Male,85 to 89,prostate cancer,nottingham,536.2880310905852,6439.832850598588
+YLLs (Years of Life Lost),Male,85 to 89,rheumatic heart disease,nottingham,10.925439344517184,6439.832850598601
 YLLs (Years of Life Lost),Male,85 to 89,road injuries,nottingham,12.83559187561513,6439.832850598592
 YLLs (Years of Life Lost),Male,85 to 89,stomach cancer,nottingham,112.37794032139425,6439.832850598587
 YLLs (Years of Life Lost),Male,85 to 89,stroke,nottingham,654.8551025176232,6439.832850598584
@@ -2019,6 +2241,7 @@ YLLs (Years of Life Lost),Male,90 to 94,all causes,nottingham,3792.8979435186225
 YLLs (Years of Life Lost),Male,90 to 94,alzheimer's disease and other dementias,nottingham,284.9420922736834,2371.8946234215155
 YLLs (Years of Life Lost),Male,90 to 94,bladder cancer,nottingham,62.63449840785802,2371.89462342152
 YLLs (Years of Life Lost),Male,90 to 94,breast cancer,nottingham,0.853924006143583,2371.8946234215223
+YLLs (Years of Life Lost),Male,90 to 94,cardiomyopathy and myocarditis,nottingham,18.165508029270434,2371.8946234215186
 YLLs (Years of Life Lost),Male,90 to 94,cardiovascular diseases,nottingham,1256.9291271443697,2371.8946234215173
 YLLs (Years of Life Lost),Male,90 to 94,chronic myeloid leukemia,nottingham,1.5492154885305671,2371.8946234215146
 YLLs (Years of Life Lost),Male,90 to 94,chronic obstructive pulmonary disease,nottingham,341.2943248310628,2371.894623421513
@@ -2034,11 +2257,13 @@ YLLs (Years of Life Lost),Male,90 to 94,motor vehicle road injuries,nottingham,2
 YLLs (Years of Life Lost),Male,90 to 94,motorcyclist road injuries,nottingham,0.08703971899294446,2371.8946234215186
 YLLs (Years of Life Lost),Male,90 to 94,multiple myeloma,nottingham,12.816897434729581,2371.8946234215205
 YLLs (Years of Life Lost),Male,90 to 94,neoplasms,nottingham,825.1305795777961,2371.894623421515
+YLLs (Years of Life Lost),Male,90 to 94,non-rheumatic valvular heart disease,nottingham,49.21755989664975,2371.894623421518
 YLLs (Years of Life Lost),Male,90 to 94,other road injuries,nottingham,0.024944842848892486,2371.894623421521
 YLLs (Years of Life Lost),Male,90 to 94,other transport injuries,nottingham,0.14502892310139626,2371.8946234215127
 YLLs (Years of Life Lost),Male,90 to 94,parkinson's disease,nottingham,59.4324850228579,2371.894623421521
 YLLs (Years of Life Lost),Male,90 to 94,pedestrian road injuries,nottingham,2.195328961974013,2371.894623421516
 YLLs (Years of Life Lost),Male,90 to 94,prostate cancer,nottingham,251.18809894906062,2371.8946234215196
+YLLs (Years of Life Lost),Male,90 to 94,rheumatic heart disease,nottingham,4.972513786767535,2371.894623421516
 YLLs (Years of Life Lost),Male,90 to 94,road injuries,nottingham,4.850970631231312,2371.8946234215196
 YLLs (Years of Life Lost),Male,90 to 94,stomach cancer,nottingham,41.501605436788125,2371.894623421515
 YLLs (Years of Life Lost),Male,90 to 94,stroke,nottingham,354.06636060380146,2371.8946234215205
@@ -2047,6 +2272,7 @@ YLLs (Years of Life Lost),Male,95 to 99,all causes,nottingham,854.9239574783114,
 YLLs (Years of Life Lost),Male,95 to 99,alzheimer's disease and other dementias,nottingham,73.59369968335862,438.7540552028203
 YLLs (Years of Life Lost),Male,95 to 99,bladder cancer,nottingham,12.917982620823995,438.7540552028206
 YLLs (Years of Life Lost),Male,95 to 99,breast cancer,nottingham,0.16611492808044104,438.7540552028204
+YLLs (Years of Life Lost),Male,95 to 99,cardiomyopathy and myocarditis,nottingham,4.627552718761138,438.75405520282027
 YLLs (Years of Life Lost),Male,95 to 99,cardiovascular diseases,nottingham,292.40467655741077,438.754055202821
 YLLs (Years of Life Lost),Male,95 to 99,chronic myeloid leukemia,nottingham,0.28287411933096057,438.7540552028202
 YLLs (Years of Life Lost),Male,95 to 99,chronic obstructive pulmonary disease,nottingham,77.1190393054774,438.75405520282044
@@ -2062,11 +2288,13 @@ YLLs (Years of Life Lost),Male,95 to 99,motor vehicle road injuries,nottingham,0
 YLLs (Years of Life Lost),Male,95 to 99,motorcyclist road injuries,nottingham,0.031636211681757426,438.7540552028201
 YLLs (Years of Life Lost),Male,95 to 99,multiple myeloma,nottingham,2.5096413859402746,438.7540552028201
 YLLs (Years of Life Lost),Male,95 to 99,neoplasms,nottingham,157.53352913781563,438.7540552028209
+YLLs (Years of Life Lost),Male,95 to 99,non-rheumatic valvular heart disease,nottingham,10.880516497737446,438.7540552028207
 YLLs (Years of Life Lost),Male,95 to 99,other road injuries,nottingham,0.011155714920205402,438.75405520282084
 YLLs (Years of Life Lost),Male,95 to 99,other transport injuries,nottingham,0.03470388000142674,438.7540552028206
 YLLs (Years of Life Lost),Male,95 to 99,parkinson's disease,nottingham,8.25913041472082,438.7540552028206
 YLLs (Years of Life Lost),Male,95 to 99,pedestrian road injuries,nottingham,0.46141457834158855,438.75405520281953
 YLLs (Years of Life Lost),Male,95 to 99,prostate cancer,nottingham,48.96568395413104,438.75405520282146
+YLLs (Years of Life Lost),Male,95 to 99,rheumatic heart disease,nottingham,1.0622313660157559,438.7540552028206
 YLLs (Years of Life Lost),Male,95 to 99,road injuries,nottingham,0.9873657769305431,438.75405520282067
 YLLs (Years of Life Lost),Male,95 to 99,stomach cancer,nottingham,7.92402907120441,438.7540552028206
 YLLs (Years of Life Lost),Male,95 to 99,stroke,nottingham,85.18142930804815,438.7540552028196

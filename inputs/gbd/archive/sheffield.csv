@@ -1,0 +1,1079 @@
+measure_name,sex_name,age_name,cause_name,cityregion,val,population_number
+Deaths,Female,10 to 14,All causes,sheffield,4.6957413524184535,39364.17750883702
+Deaths,Female,10 to 14,Cardiovascular diseases,sheffield,0.2199929837892341,39364.17750883702
+Deaths,Female,10 to 14,Chronic obstructive pulmonary disease,sheffield,0.034595073926690936,39364.17750883702
+Deaths,Female,10 to 14,Liver cancer,sheffield,0.021169469689124254,39364.17750883702
+Deaths,Female,10 to 14,Lower respiratory infections,sheffield,0.18391004449539633,39364.17750883702
+Deaths,Female,10 to 14,Neoplasms,sheffield,1.3098874663406883,39364.17750883702
+Deaths,Female,10 to 14,Road injuries,sheffield,0.4252064552619181,39364.17750883702
+Deaths,Female,10 to 14,Stroke,sheffield,0.08689984660924237,39364.17750883702
+Deaths,Female,15 to 19,All causes,sheffield,4.985223965699938,40749.09171154611
+Deaths,Female,15 to 19,Breast cancer,sheffield,0.006508695133888442,40749.09171154611
+Deaths,Female,15 to 19,Cardiovascular diseases,sheffield,0.2900492237011254,40749.09171154611
+Deaths,Female,15 to 19,Chronic obstructive pulmonary disease,sheffield,0.026787067370918065,40749.09171154611
+Deaths,Female,15 to 19,Colon and rectum cancer,sheffield,0.008778571550326656,40749.09171154611
+Deaths,Female,15 to 19,Diabetes mellitus type 2,sheffield,0.003817679974943467,40749.09171154611
+Deaths,Female,15 to 19,Ischemic heart disease,sheffield,0.02603792585310907,40749.09171154611
+Deaths,Female,15 to 19,Liver cancer,sheffield,0.02779460846842908,40749.09171154611
+Deaths,Female,15 to 19,Lower respiratory infections,sheffield,0.11942347796774146,40749.09171154611
+Deaths,Female,15 to 19,Neoplasms,sheffield,0.9473810410093143,40749.09171154611
+Deaths,Female,15 to 19,Road injuries,sheffield,0.7342222964406326,40749.09171154611
+Deaths,Female,15 to 19,Stomach cancer,sheffield,0.005759834018147931,40749.09171154611
+Deaths,Female,15 to 19,Stroke,sheffield,0.08493845506551781,40749.09171154611
+Deaths,Female,15 to 19,"Tracheal, bronchus, and lung cancer",sheffield,0.011654514303030763,40749.09171154611
+Deaths,Female,15 to 19,Uterine cancer,sheffield,0.003236270137232286,40749.09171154611
+Deaths,Female,20 to 24,All causes,sheffield,12.29673371170504,49557.69659764297
+Deaths,Female,20 to 24,Breast cancer,sheffield,0.05811926523518886,49557.69659764297
+Deaths,Female,20 to 24,Cardiovascular diseases,sheffield,0.9482091608735824,49557.69659764297
+Deaths,Female,20 to 24,Chronic obstructive pulmonary disease,sheffield,0.05898087761036963,49557.69659764297
+Deaths,Female,20 to 24,Colon and rectum cancer,sheffield,0.07381026437273987,49557.69659764297
+Deaths,Female,20 to 24,Diabetes mellitus type 2,sheffield,0.009575056968183157,49557.69659764297
+Deaths,Female,20 to 24,Ischemic heart disease,sheffield,0.11083157850001027,49557.69659764297
+Deaths,Female,20 to 24,Liver cancer,sheffield,0.058238365961034946,49557.69659764297
+Deaths,Female,20 to 24,Lower respiratory infections,sheffield,0.3086010010866479,49557.69659764297
+Deaths,Female,20 to 24,Neoplasms,sheffield,2.381410258131186,49557.69659764297
+Deaths,Female,20 to 24,Road injuries,sheffield,1.3364010060088054,49557.69659764297
+Deaths,Female,20 to 24,Stomach cancer,sheffield,0.030632214647149065,49557.69659764297
+Deaths,Female,20 to 24,Stroke,sheffield,0.3027032754621869,49557.69659764297
+Deaths,Female,20 to 24,"Tracheal, bronchus, and lung cancer",sheffield,0.04335882393267675,49557.69659764297
+Deaths,Female,20 to 24,Uterine cancer,sheffield,0.009388172777699731,49557.69659764297
+Deaths,Female,25 to 29,All causes,sheffield,15.808565203744227,53436.590546638676
+Deaths,Female,25 to 29,Breast cancer,sheffield,0.4632873195988986,53436.590546638676
+Deaths,Female,25 to 29,Cardiovascular diseases,sheffield,1.3774357248590445,53436.590546638676
+Deaths,Female,25 to 29,Chronic obstructive pulmonary disease,sheffield,0.0695497806057076,53436.590546638676
+Deaths,Female,25 to 29,Colon and rectum cancer,sheffield,0.20567758920417642,53436.590546638676
+Deaths,Female,25 to 29,Diabetes mellitus type 2,sheffield,0.016155768660670464,53436.590546638676
+Deaths,Female,25 to 29,Ischemic heart disease,sheffield,0.19900804534637528,53436.590546638676
+Deaths,Female,25 to 29,Liver cancer,sheffield,0.08860075229461026,53436.590546638676
+Deaths,Female,25 to 29,Lower respiratory infections,sheffield,0.39403994577834517,53436.590546638676
+Deaths,Female,25 to 29,Neoplasms,sheffield,4.1207900293581465,53436.590546638676
+Deaths,Female,25 to 29,Road injuries,sheffield,0.8675429409002464,53436.590546638676
+Deaths,Female,25 to 29,Stomach cancer,sheffield,0.11396779120212713,53436.590546638676
+Deaths,Female,25 to 29,Stroke,sheffield,0.48253498845617065,53436.590546638676
+Deaths,Female,25 to 29,"Tracheal, bronchus, and lung cancer",sheffield,0.09667854545266331,53436.590546638676
+Deaths,Female,25 to 29,Uterine cancer,sheffield,0.023874711555239965,53436.590546638676
+Deaths,Female,30 to 34,All causes,sheffield,20.7240486562018,47614.47915797056
+Deaths,Female,30 to 34,Breast cancer,sheffield,1.618072480072755,47614.47915797056
+Deaths,Female,30 to 34,Cardiovascular diseases,sheffield,2.1813761038816444,47614.47915797056
+Deaths,Female,30 to 34,Chronic obstructive pulmonary disease,sheffield,0.09442846705214919,47614.47915797056
+Deaths,Female,30 to 34,Colon and rectum cancer,sheffield,0.4662522758897024,47614.47915797056
+Deaths,Female,30 to 34,Diabetes mellitus type 2,sheffield,0.04152026276187062,47614.47915797056
+Deaths,Female,30 to 34,Ischemic heart disease,sheffield,0.5172853345588678,47614.47915797056
+Deaths,Female,30 to 34,Liver cancer,sheffield,0.10715555897213769,47614.47915797056
+Deaths,Female,30 to 34,Lower respiratory infections,sheffield,0.489420681093683,47614.47915797056
+Deaths,Female,30 to 34,Neoplasms,sheffield,6.880469539241258,47614.47915797056
+Deaths,Female,30 to 34,Road injuries,sheffield,0.5688758484849985,47614.47915797056
+Deaths,Female,30 to 34,Stomach cancer,sheffield,0.2572309241054418,47614.47915797056
+Deaths,Female,30 to 34,Stroke,sheffield,0.7571416352837883,47614.47915797056
+Deaths,Female,30 to 34,"Tracheal, bronchus, and lung cancer",sheffield,0.30088867692134913,47614.47915797056
+Deaths,Female,30 to 34,Uterine cancer,sheffield,0.04013668875175183,47614.47915797056
+Deaths,Female,35 to 39,All causes,sheffield,36.43965886308425,43707.904789890206
+Deaths,Female,35 to 39,Breast cancer,sheffield,4.680265988380619,43707.904789890206
+Deaths,Female,35 to 39,Cardiovascular diseases,sheffield,4.479897049598052,43707.904789890206
+Deaths,Female,35 to 39,Chronic obstructive pulmonary disease,sheffield,0.22821987481068623,43707.904789890206
+Deaths,Female,35 to 39,Colon and rectum cancer,sheffield,0.9594120885010233,43707.904789890206
+Deaths,Female,35 to 39,Diabetes mellitus type 2,sheffield,0.07518592106446062,43707.904789890206
+Deaths,Female,35 to 39,Ischemic heart disease,sheffield,1.4295987230324938,43707.904789890206
+Deaths,Female,35 to 39,Liver cancer,sheffield,0.20465796318279308,43707.904789890206
+Deaths,Female,35 to 39,Lower respiratory infections,sheffield,0.936410441343934,43707.904789890206
+Deaths,Female,35 to 39,Neoplasms,sheffield,14.269506113071843,43707.904789890206
+Deaths,Female,35 to 39,Road injuries,sheffield,0.625785466194798,43707.904789890206
+Deaths,Female,35 to 39,Stomach cancer,sheffield,0.4987721896547811,43707.904789890206
+Deaths,Female,35 to 39,Stroke,sheffield,1.546258844983203,43707.904789890206
+Deaths,Female,35 to 39,"Tracheal, bronchus, and lung cancer",sheffield,0.8010290953307472,43707.904789890206
+Deaths,Female,35 to 39,Uterine cancer,sheffield,0.09798487724758143,43707.904789890206
+Deaths,Female,40 to 44,All causes,sheffield,47.00460859255429,41453.10701467732
+Deaths,Female,40 to 44,Breast cancer,sheffield,7.035104043019091,41453.10701467732
+Deaths,Female,40 to 44,Cardiovascular diseases,sheffield,6.812404690718153,41453.10701467732
+Deaths,Female,40 to 44,Chronic obstructive pulmonary disease,sheffield,0.56577165476764,41453.10701467732
+Deaths,Female,40 to 44,Colon and rectum cancer,sheffield,1.4514996173806636,41453.10701467732
+Deaths,Female,40 to 44,Diabetes mellitus type 2,sheffield,0.09318441708733885,41453.10701467732
+Deaths,Female,40 to 44,Ischemic heart disease,sheffield,2.5270363907664875,41453.10701467732
+Deaths,Female,40 to 44,Liver cancer,sheffield,0.2841109128502325,41453.10701467732
+Deaths,Female,40 to 44,Lower respiratory infections,sheffield,1.2333787004148082,41453.10701467732
+Deaths,Female,40 to 44,Neoplasms,sheffield,20.5498321555692,41453.10701467732
+Deaths,Female,40 to 44,Road injuries,sheffield,0.5339221664448025,41453.10701467732
+Deaths,Female,40 to 44,Stomach cancer,sheffield,0.7551446005761108,41453.10701467732
+Deaths,Female,40 to 44,Stroke,sheffield,2.204043264739769,41453.10701467732
+Deaths,Female,40 to 44,"Tracheal, bronchus, and lung cancer",sheffield,1.8963280678878656,41453.10701467732
+Deaths,Female,40 to 44,Uterine cancer,sheffield,0.19659132756380762,41453.10701467732
+Deaths,Female,45 to 49,All causes,sheffield,90.25268231370882,48946.811052895995
+Deaths,Female,45 to 49,Breast cancer,sheffield,13.838071114058259,48946.811052895995
+Deaths,Female,45 to 49,Cardiovascular diseases,sheffield,13.462975500564054,48946.811052895995
+Deaths,Female,45 to 49,Chronic obstructive pulmonary disease,sheffield,1.647957743551884,48946.811052895995
+Deaths,Female,45 to 49,Colon and rectum cancer,sheffield,3.3419028631384364,48946.811052895995
+Deaths,Female,45 to 49,Diabetes mellitus type 2,sheffield,0.40296274805396826,48946.811052895995
+Deaths,Female,45 to 49,Ischemic heart disease,sheffield,5.5869729381778965,48946.811052895995
+Deaths,Female,45 to 49,Liver cancer,sheffield,0.6641561513139156,48946.811052895995
+Deaths,Female,45 to 49,Lower respiratory infections,sheffield,2.1558464715379704,48946.811052895995
+Deaths,Female,45 to 49,Neoplasms,sheffield,44.45641497649116,48946.811052895995
+Deaths,Female,45 to 49,Road injuries,sheffield,0.704363460253674,48946.811052895995
+Deaths,Female,45 to 49,Stomach cancer,sheffield,1.263924636433287,48946.811052895995
+Deaths,Female,45 to 49,Stroke,sheffield,3.9595217659682573,48946.811052895995
+Deaths,Female,45 to 49,"Tracheal, bronchus, and lung cancer",sheffield,6.413402170267851,48946.811052895995
+Deaths,Female,45 to 49,Uterine cancer,sheffield,0.5389953542269814,48946.811052895995
+Deaths,Female,5 to 9,All causes,sheffield,3.315994567687551,42923.72152754824
+Deaths,Female,5 to 9,Cardiovascular diseases,sheffield,0.12624107411924,42923.72152754824
+Deaths,Female,5 to 9,Chronic obstructive pulmonary disease,sheffield,0.027977920938845352,42923.72152754824
+Deaths,Female,5 to 9,Liver cancer,sheffield,0.01289104965757358,42923.72152754824
+Deaths,Female,5 to 9,Lower respiratory infections,sheffield,0.1641814041013396,42923.72152754824
+Deaths,Female,5 to 9,Neoplasms,sheffield,1.0908702921053444,42923.72152754824
+Deaths,Female,5 to 9,Road injuries,sheffield,0.23293950021443577,42923.72152754824
+Deaths,Female,5 to 9,Stroke,sheffield,0.036841494471121165,42923.72152754824
+Deaths,Female,50 to 54,All causes,sheffield,139.3627850769902,48590.690618855406
+Deaths,Female,50 to 54,Breast cancer,sheffield,20.150286422166882,48590.690618855406
+Deaths,Female,50 to 54,Cardiovascular diseases,sheffield,21.58532102898073,48590.690618855406
+Deaths,Female,50 to 54,Chronic obstructive pulmonary disease,sheffield,4.503020246284042,48590.690618855406
+Deaths,Female,50 to 54,Colon and rectum cancer,sheffield,5.738096172784709,48590.690618855406
+Deaths,Female,50 to 54,Diabetes mellitus type 2,sheffield,0.5793038423392802,48590.690618855406
+Deaths,Female,50 to 54,Ischemic heart disease,sheffield,9.985705679824736,48590.690618855406
+Deaths,Female,50 to 54,Liver cancer,sheffield,1.3352096938249665,48590.690618855406
+Deaths,Female,50 to 54,Lower respiratory infections,sheffield,3.4833002645549422,48590.690618855406
+Deaths,Female,50 to 54,Neoplasms,sheffield,74.25281084090608,48590.690618855406
+Deaths,Female,50 to 54,Road injuries,sheffield,0.7494391192675158,48590.690618855406
+Deaths,Female,50 to 54,Stomach cancer,sheffield,2.013221307628371,48590.690618855406
+Deaths,Female,50 to 54,Stroke,sheffield,6.1712415914379175,48590.690618855406
+Deaths,Female,50 to 54,"Tracheal, bronchus, and lung cancer",sheffield,13.63948117056258,48590.690618855406
+Deaths,Female,50 to 54,Uterine cancer,sheffield,1.2354939519556378,48590.690618855406
+Deaths,Female,55 to 59,All causes,sheffield,183.9292542796197,43964.94048123858
+Deaths,Female,55 to 59,Breast cancer,sheffield,21.55237476532477,43964.94048123858
+Deaths,Female,55 to 59,Cardiovascular diseases,sheffield,28.74090139488946,43964.94048123858
+Deaths,Female,55 to 59,Chronic obstructive pulmonary disease,sheffield,8.948154301871416,43964.94048123858
+Deaths,Female,55 to 59,Colon and rectum cancer,sheffield,8.107076542544798,43964.94048123858
+Deaths,Female,55 to 59,Diabetes mellitus type 2,sheffield,0.8053484895656892,43964.94048123858
+Deaths,Female,55 to 59,Ischemic heart disease,sheffield,14.435536182630662,43964.94048123858
+Deaths,Female,55 to 59,Liver cancer,sheffield,1.9611766380035414,43964.94048123858
+Deaths,Female,55 to 59,Lower respiratory infections,sheffield,4.442736754204588,43964.94048123858
+Deaths,Female,55 to 59,Neoplasms,sheffield,102.34369161819335,43964.94048123858
+Deaths,Female,55 to 59,Road injuries,sheffield,0.6995071621089194,43964.94048123858
+Deaths,Female,55 to 59,Stomach cancer,sheffield,2.7827587617666296,43964.94048123858
+Deaths,Female,55 to 59,Stroke,sheffield,7.120528286900545,43964.94048123858
+Deaths,Female,55 to 59,"Tracheal, bronchus, and lung cancer",sheffield,24.53847163824304,43964.94048123858
+Deaths,Female,55 to 59,Uterine cancer,sheffield,2.2462920490081517,43964.94048123858
+Deaths,Female,60 to 64,All causes,sheffield,271.1927566027175,37394.53333400559
+Deaths,Female,60 to 64,Breast cancer,sheffield,24.22857351417022,37394.53333400559
+Deaths,Female,60 to 64,Cardiovascular diseases,sheffield,45.21498670648877,37394.53333400559
+Deaths,Female,60 to 64,Chronic obstructive pulmonary disease,sheffield,20.689771853228795,37394.53333400559
+Deaths,Female,60 to 64,Colon and rectum cancer,sheffield,11.677394861724274,37394.53333400559
+Deaths,Female,60 to 64,Diabetes mellitus type 2,sheffield,1.4365800378021996,37394.53333400559
+Deaths,Female,60 to 64,Ischemic heart disease,sheffield,22.7037653476292,37394.53333400559
+Deaths,Female,60 to 64,Liver cancer,sheffield,2.941400969037145,37394.53333400559
+Deaths,Female,60 to 64,Lower respiratory infections,sheffield,7.000657635763718,37394.53333400559
+Deaths,Female,60 to 64,Neoplasms,sheffield,147.68584104827622,37394.53333400559
+Deaths,Female,60 to 64,Road injuries,sheffield,0.7110807838127886,37394.53333400559
+Deaths,Female,60 to 64,Stomach cancer,sheffield,4.17583782662094,37394.53333400559
+Deaths,Female,60 to 64,Stroke,sheffield,10.589161490506557,37394.53333400559
+Deaths,Female,60 to 64,"Tracheal, bronchus, and lung cancer",sheffield,41.145283675142984,37394.53333400559
+Deaths,Female,60 to 64,Uterine cancer,sheffield,3.90870017010183,37394.53333400559
+Deaths,Female,65 to 69,All causes,sheffield,431.73211765414095,36413.69823093218
+Deaths,Female,65 to 69,Breast cancer,sheffield,29.88202875956316,36413.69823093218
+Deaths,Female,65 to 69,Cardiovascular diseases,sheffield,83.35665756280848,36413.69823093218
+Deaths,Female,65 to 69,Chronic obstructive pulmonary disease,sheffield,40.72900324734664,36413.69823093218
+Deaths,Female,65 to 69,Colon and rectum cancer,sheffield,17.269286142811005,36413.69823093218
+Deaths,Female,65 to 69,Diabetes mellitus type 2,sheffield,2.351473259378916,36413.69823093218
+Deaths,Female,65 to 69,Ischemic heart disease,sheffield,41.773770071213306,36413.69823093218
+Deaths,Female,65 to 69,Liver cancer,sheffield,4.634171245931837,36413.69823093218
+Deaths,Female,65 to 69,Lower respiratory infections,sheffield,11.427607904258338,36413.69823093218
+Deaths,Female,65 to 69,Neoplasms,sheffield,219.51743941097493,36413.69823093218
+Deaths,Female,65 to 69,Road injuries,sheffield,0.9514851936038471,36413.69823093218
+Deaths,Female,65 to 69,Stomach cancer,sheffield,6.491689814737972,36413.69823093218
+Deaths,Female,65 to 69,Stroke,sheffield,19.69011835709789,36413.69823093218
+Deaths,Female,65 to 69,"Tracheal, bronchus, and lung cancer",sheffield,66.62244991513799,36413.69823093218
+Deaths,Female,65 to 69,Uterine cancer,sheffield,6.235758041209935,36413.69823093218
+Deaths,Female,70 to 74,All causes,sheffield,589.6192172948166,32912.95430149214
+Deaths,Female,70 to 74,Breast cancer,sheffield,30.916009670404968,32912.95430149214
+Deaths,Female,70 to 74,Cardiovascular diseases,sheffield,131.6898233494318,32912.95430149214
+Deaths,Female,70 to 74,Chronic obstructive pulmonary disease,sheffield,61.88714564702,32912.95430149214
+Deaths,Female,70 to 74,Colon and rectum cancer,sheffield,21.207745909353342,32912.95430149214
+Deaths,Female,70 to 74,Diabetes mellitus type 2,sheffield,3.7709012628623664,32912.95430149214
+Deaths,Female,70 to 74,Ischemic heart disease,sheffield,62.949712017023344,32912.95430149214
+Deaths,Female,70 to 74,Liver cancer,sheffield,5.92603200356681,32912.95430149214
+Deaths,Female,70 to 74,Lower respiratory infections,sheffield,20.57082592214995,32912.95430149214
+Deaths,Female,70 to 74,Neoplasms,sheffield,258.45632660200323,32912.95430149214
+Deaths,Female,70 to 74,Road injuries,sheffield,1.1154378077297267,32912.95430149214
+Deaths,Female,70 to 74,Stomach cancer,sheffield,9.23850360384809,32912.95430149214
+Deaths,Female,70 to 74,Stroke,sheffield,32.68722126330661,32912.95430149214
+Deaths,Female,70 to 74,"Tracheal, bronchus, and lung cancer",sheffield,76.67805676430055,32912.95430149214
+Deaths,Female,70 to 74,Uterine cancer,sheffield,7.158240850133091,32912.95430149214
+Deaths,Female,75 to 79,All causes,sheffield,839.1442897188522,25266.4950855469
+Deaths,Female,75 to 79,Breast cancer,sheffield,34.00587305493181,25266.4950855469
+Deaths,Female,75 to 79,Cardiovascular diseases,sheffield,222.5651725921971,25266.4950855469
+Deaths,Female,75 to 79,Chronic obstructive pulmonary disease,sheffield,83.14978361062101,25266.4950855469
+Deaths,Female,75 to 79,Colon and rectum cancer,sheffield,28.01350152713359,25266.4950855469
+Deaths,Female,75 to 79,Diabetes mellitus type 2,sheffield,5.87261057937479,25266.4950855469
+Deaths,Female,75 to 79,Ischemic heart disease,sheffield,103.43510511773536,25266.4950855469
+Deaths,Female,75 to 79,Liver cancer,sheffield,7.5439729209125765,25266.4950855469
+Deaths,Female,75 to 79,Lower respiratory infections,sheffield,38.553153551362875,25266.4950855469
+Deaths,Female,75 to 79,Neoplasms,sheffield,291.75355030053106,25266.4950855469
+Deaths,Female,75 to 79,Road injuries,sheffield,1.4365954006804011,25266.4950855469
+Deaths,Female,75 to 79,Stomach cancer,sheffield,13.456121876939555,25266.4950855469
+Deaths,Female,75 to 79,Stroke,sheffield,60.794110873704724,25266.4950855469
+Deaths,Female,75 to 79,"Tracheal, bronchus, and lung cancer",sheffield,79.56568922249458,25266.4950855469
+Deaths,Female,75 to 79,Uterine cancer,sheffield,7.1005021456978366,25266.4950855469
+Deaths,Female,80 to 84,All causes,sheffield,1136.5057188085525,19375.059794937413
+Deaths,Female,80 to 84,Breast cancer,sheffield,35.9144844479186,19375.059794937413
+Deaths,Female,80 to 84,Cardiovascular diseases,sheffield,344.1900395681827,19375.059794937413
+Deaths,Female,80 to 84,Chronic obstructive pulmonary disease,sheffield,99.06699093554943,19375.059794937413
+Deaths,Female,80 to 84,Colon and rectum cancer,sheffield,33.33428996152316,19375.059794937413
+Deaths,Female,80 to 84,Diabetes mellitus type 2,sheffield,9.471699387136482,19375.059794937413
+Deaths,Female,80 to 84,Ischemic heart disease,sheffield,156.43659949469338,19375.059794937413
+Deaths,Female,80 to 84,Liver cancer,sheffield,7.550692334826029,19375.059794937413
+Deaths,Female,80 to 84,Lower respiratory infections,sheffield,70.53544057829404,19375.059794937413
+Deaths,Female,80 to 84,Neoplasms,sheffield,289.89999477176445,19375.059794937413
+Deaths,Female,80 to 84,Road injuries,sheffield,1.5352840786000603,19375.059794937413
+Deaths,Female,80 to 84,Stomach cancer,sheffield,16.093985261472707,19375.059794937413
+Deaths,Female,80 to 84,Stroke,sheffield,98.90705863922341,19375.059794937413
+Deaths,Female,80 to 84,"Tracheal, bronchus, and lung cancer",sheffield,69.13661535152103,19375.059794937413
+Deaths,Female,80 to 84,Uterine cancer,sheffield,6.415403858703471,19375.059794937413
+Deaths,Female,85 to 89,All causes,sheffield,1401.6814460839923,12126.826056968135
+Deaths,Female,85 to 89,Breast cancer,sheffield,36.927265467110004,12126.826056968135
+Deaths,Female,85 to 89,Cardiovascular diseases,sheffield,450.8495663902762,12126.826056968135
+Deaths,Female,85 to 89,Chronic obstructive pulmonary disease,sheffield,93.86855066995383,12126.826056968135
+Deaths,Female,85 to 89,Colon and rectum cancer,sheffield,34.62251256765321,12126.826056968135
+Deaths,Female,85 to 89,Diabetes mellitus type 2,sheffield,11.047595361734217,12126.826056968135
+Deaths,Female,85 to 89,Ischemic heart disease,sheffield,202.02695417752375,12126.826056968135
+Deaths,Female,85 to 89,Liver cancer,sheffield,6.538736772896705,12126.826056968135
+Deaths,Female,85 to 89,Lower respiratory infections,sheffield,131.93172033077815,12126.826056968135
+Deaths,Female,85 to 89,Neoplasms,sheffield,254.6834166060059,12126.826056968135
+Deaths,Female,85 to 89,Road injuries,sheffield,1.163137074520986,12126.826056968135
+Deaths,Female,85 to 89,Stomach cancer,sheffield,15.149323288218987,12126.826056968135
+Deaths,Female,85 to 89,Stroke,sheffield,135.77395114591766,12126.826056968135
+Deaths,Female,85 to 89,"Tracheal, bronchus, and lung cancer",sheffield,49.673198141448935,12126.826056968135
+Deaths,Female,85 to 89,Uterine cancer,sheffield,5.0338240754390835,12126.826056968135
+Deaths,Female,90 to 94,All causes,sheffield,1076.1014240523712,5567.470754834946
+Deaths,Female,90 to 94,Breast cancer,sheffield,22.519553657012935,5567.470754834946
+Deaths,Female,90 to 94,Cardiovascular diseases,sheffield,357.00050377466704,5567.470754834946
+Deaths,Female,90 to 94,Chronic obstructive pulmonary disease,sheffield,64.13048425078976,5567.470754834946
+Deaths,Female,90 to 94,Colon and rectum cancer,sheffield,21.937173389644396,5567.470754834946
+Deaths,Female,90 to 94,Diabetes mellitus type 2,sheffield,8.24148372439463,5567.470754834946
+Deaths,Female,90 to 94,Ischemic heart disease,sheffield,160.29257875223175,5567.470754834946
+Deaths,Female,90 to 94,Liver cancer,sheffield,3.14973890147749,5567.470754834946
+Deaths,Female,90 to 94,Lower respiratory infections,sheffield,108.14828880212384,5567.470754834946
+Deaths,Female,90 to 94,Neoplasms,sheffield,141.94486115259446,5567.470754834946
+Deaths,Female,90 to 94,Road injuries,sheffield,0.6806861024335581,5567.470754834946
+Deaths,Female,90 to 94,Stomach cancer,sheffield,9.851165545877818,5567.470754834946
+Deaths,Female,90 to 94,Stroke,sheffield,107.2419851863482,5567.470754834946
+Deaths,Female,90 to 94,"Tracheal, bronchus, and lung cancer",sheffield,22.636214054606874,5567.470754834946
+Deaths,Female,90 to 94,Uterine cancer,sheffield,2.4975873715909396,5567.470754834946
+Deaths,Female,95 to 99,All causes,sheffield,580.3287209405084,1704.4608552428076
+Deaths,Female,95 to 99,Breast cancer,sheffield,9.85694350643943,1704.4608552428076
+Deaths,Female,95 to 99,Cardiovascular diseases,sheffield,196.2432754811114,1704.4608552428076
+Deaths,Female,95 to 99,Chronic obstructive pulmonary disease,sheffield,34.16389758863306,1704.4608552428076
+Deaths,Female,95 to 99,Colon and rectum cancer,sheffield,8.940460425002575,1704.4608552428076
+Deaths,Female,95 to 99,Diabetes mellitus type 2,sheffield,4.507060908905039,1704.4608552428076
+Deaths,Female,95 to 99,Ischemic heart disease,sheffield,88.69588587589013,1704.4608552428076
+Deaths,Female,95 to 99,Liver cancer,sheffield,1.1389508332304665,1704.4608552428076
+Deaths,Female,95 to 99,Lower respiratory infections,sheffield,66.40736740898751,1704.4608552428076
+Deaths,Female,95 to 99,Neoplasms,sheffield,56.42904906703202,1704.4608552428076
+Deaths,Female,95 to 99,Road injuries,sheffield,0.31958922755174307,1704.4608552428076
+Deaths,Female,95 to 99,Stomach cancer,sheffield,4.368168082047905,1704.4608552428076
+Deaths,Female,95 to 99,Stroke,sheffield,61.39272972554673,1704.4608552428076
+Deaths,Female,95 to 99,"Tracheal, bronchus, and lung cancer",sheffield,7.828604431565986,1704.4608552428076
+Deaths,Female,95 to 99,Uterine cancer,sheffield,0.8926040495678729,1704.4608552428076
+Deaths,Female,0 to 4,All causes,sheffield,36.16460592923239,40225.63053716712
+Deaths,Female,0 to 4,Cardiovascular diseases,sheffield,0.5143235460199082,40225.63053716712
+Deaths,Female,0 to 4,Chronic obstructive pulmonary disease,sheffield,0.03490738446765819,40225.63053716712
+Deaths,Female,0 to 4,Lower respiratory infections,sheffield,1.3847457261550669,40225.63053716712
+Deaths,Female,0 to 4,Neoplasms,sheffield,1.194621502085715,40225.63053716712
+Deaths,Female,0 to 4,Road injuries,sheffield,0.22421659378893902,40225.63053716712
+Deaths,Female,0 to 4,Stroke,sheffield,0.08686707836154978,40225.63053716712
+Deaths,Male,10 to 14,All causes,sheffield,4.126190831764441,40597.01644448475
+Deaths,Male,10 to 14,Cardiovascular diseases,sheffield,0.19381115165785517,40597.01644448475
+Deaths,Male,10 to 14,Chronic obstructive pulmonary disease,sheffield,0.01146950598159409,40597.01644448475
+Deaths,Male,10 to 14,Liver cancer,sheffield,0.01889409376908437,40597.01644448475
+Deaths,Male,10 to 14,Lower respiratory infections,sheffield,0.10392173392264789,40597.01644448475
+Deaths,Male,10 to 14,Neoplasms,sheffield,1.086610541853665,40597.01644448475
+Deaths,Male,10 to 14,Road injuries,sheffield,0.5359069919695414,40597.01644448475
+Deaths,Male,10 to 14,Stroke,sheffield,0.05194987812503394,40597.01644448475
+Deaths,Male,15 to 19,All causes,sheffield,13.946870376688446,41471.28707151522
+Deaths,Male,15 to 19,Breast cancer,sheffield,0.004348926524863173,41471.28707151522
+Deaths,Male,15 to 19,Cardiovascular diseases,sheffield,0.6454098088932073,41471.28707151522
+Deaths,Male,15 to 19,Chronic obstructive pulmonary disease,sheffield,0.03909513380825352,41471.28707151522
+Deaths,Male,15 to 19,Colon and rectum cancer,sheffield,0.02166916694887504,41471.28707151522
+Deaths,Male,15 to 19,Diabetes mellitus type 2,sheffield,0.004603677008323572,41471.28707151522
+Deaths,Male,15 to 19,Ischemic heart disease,sheffield,0.058569714946419604,41471.28707151522
+Deaths,Male,15 to 19,Liver cancer,sheffield,0.03256634714475755,41471.28707151522
+Deaths,Male,15 to 19,Lower respiratory infections,sheffield,0.17787876721121718,41471.28707151522
+Deaths,Male,15 to 19,Neoplasms,sheffield,1.7584818481305362,41471.28707151522
+Deaths,Male,15 to 19,Road injuries,sheffield,3.4924678295322784,41471.28707151522
+Deaths,Male,15 to 19,Stomach cancer,sheffield,0.010573028049032792,41471.28707151522
+Deaths,Male,15 to 19,Stroke,sheffield,0.15515671952529853,41471.28707151522
+Deaths,Male,15 to 19,"Tracheal, bronchus, and lung cancer",sheffield,0.007640854311395786,41471.28707151522
+Deaths,Male,20 to 24,All causes,sheffield,28.821172631272297,49734.43575450948
+Deaths,Male,20 to 24,Breast cancer,sheffield,0.005367305718405509,49734.43575450948
+Deaths,Male,20 to 24,Cardiovascular diseases,sheffield,1.3782778163219145,49734.43575450948
+Deaths,Male,20 to 24,Chronic obstructive pulmonary disease,sheffield,0.06450574510224985,49734.43575450948
+Deaths,Male,20 to 24,Colon and rectum cancer,sheffield,0.09178522099274655,49734.43575450948
+Deaths,Male,20 to 24,Diabetes mellitus type 2,sheffield,0.010395707659319534,49734.43575450948
+Deaths,Male,20 to 24,Ischemic heart disease,sheffield,0.2397021247567028,49734.43575450948
+Deaths,Male,20 to 24,Liver cancer,sheffield,0.06186973173681534,49734.43575450948
+Deaths,Male,20 to 24,Lower respiratory infections,sheffield,0.3059632810437564,49734.43575450948
+Deaths,Male,20 to 24,Neoplasms,sheffield,2.6678869129239984,49734.43575450948
+Deaths,Male,20 to 24,Road injuries,sheffield,5.890467450931895,49734.43575450948
+Deaths,Male,20 to 24,Stomach cancer,sheffield,0.034081380190055646,49734.43575450948
+Deaths,Male,20 to 24,Stroke,sheffield,0.3372563186505245,49734.43575450948
+Deaths,Male,20 to 24,"Tracheal, bronchus, and lung cancer",sheffield,0.03722461395626857,49734.43575450948
+Deaths,Male,25 to 29,All causes,sheffield,33.00140828916967,53188.05264420935
+Deaths,Male,25 to 29,Breast cancer,sheffield,0.006439375150797021,53188.05264420935
+Deaths,Male,25 to 29,Cardiovascular diseases,sheffield,2.453481996612616,53188.05264420935
+Deaths,Male,25 to 29,Chronic obstructive pulmonary disease,sheffield,0.07823637217869697,53188.05264420935
+Deaths,Male,25 to 29,Colon and rectum cancer,sheffield,0.2444859039515767,53188.05264420935
+Deaths,Male,25 to 29,Diabetes mellitus type 2,sheffield,0.01642386098298701,53188.05264420935
+Deaths,Male,25 to 29,Ischemic heart disease,sheffield,0.7782897407976834,53188.05264420935
+Deaths,Male,25 to 29,Liver cancer,sheffield,0.09726325471029132,53188.05264420935
+Deaths,Male,25 to 29,Lower respiratory infections,sheffield,0.4577670755107339,53188.05264420935
+Deaths,Male,25 to 29,Neoplasms,sheffield,3.498318241800613,53188.05264420935
+Deaths,Male,25 to 29,Road injuries,sheffield,4.134243717973441,53188.05264420935
+Deaths,Male,25 to 29,Stomach cancer,sheffield,0.0928559747241592,53188.05264420935
+Deaths,Male,25 to 29,Stroke,sheffield,0.5623361125282113,53188.05264420935
+Deaths,Male,25 to 29,"Tracheal, bronchus, and lung cancer",sheffield,0.0841314175403983,53188.05264420935
+Deaths,Male,30 to 34,All causes,sheffield,39.857235418124084,48379.92392416743
+Deaths,Male,30 to 34,Breast cancer,sheffield,0.011419895938739598,48379.92392416743
+Deaths,Male,30 to 34,Cardiovascular diseases,sheffield,4.375022210437428,48379.92392416743
+Deaths,Male,30 to 34,Chronic obstructive pulmonary disease,sheffield,0.12543211621106812,48379.92392416743
+Deaths,Male,30 to 34,Colon and rectum cancer,sheffield,0.5747163196724898,48379.92392416743
+Deaths,Male,30 to 34,Diabetes mellitus type 2,sheffield,0.06824475822717756,48379.92392416743
+Deaths,Male,30 to 34,Ischemic heart disease,sheffield,1.9104105871753052,48379.92392416743
+Deaths,Male,30 to 34,Liver cancer,sheffield,0.1711340205334833,48379.92392416743
+Deaths,Male,30 to 34,Lower respiratory infections,sheffield,0.6992763515432319,48379.92392416743
+Deaths,Male,30 to 34,Neoplasms,sheffield,5.176527860610668,48379.92392416743
+Deaths,Male,30 to 34,Road injuries,sheffield,2.8941672598170745,48379.92392416743
+Deaths,Male,30 to 34,Stomach cancer,sheffield,0.23239920620129711,48379.92392416743
+Deaths,Male,30 to 34,Stroke,sheffield,0.8812694381561662,48379.92392416743
+Deaths,Male,30 to 34,"Tracheal, bronchus, and lung cancer",sheffield,0.2643155006647294,48379.92392416743
+Deaths,Male,35 to 39,All causes,sheffield,57.47199157269401,45744.64492265842
+Deaths,Male,35 to 39,Breast cancer,sheffield,0.03034598789302446,45744.64492265842
+Deaths,Male,35 to 39,Cardiovascular diseases,sheffield,9.179768023540074,45744.64492265842
+Deaths,Male,35 to 39,Chronic obstructive pulmonary disease,sheffield,0.34294209140022847,45744.64492265842
+Deaths,Male,35 to 39,Colon and rectum cancer,sheffield,1.0982108405373026,45744.64492265842
+Deaths,Male,35 to 39,Diabetes mellitus type 2,sheffield,0.11807845061398514,45744.64492265842
+Deaths,Male,35 to 39,Ischemic heart disease,sheffield,4.956221577940896,45744.64492265842
+Deaths,Male,35 to 39,Liver cancer,sheffield,0.2389765371184834,45744.64492265842
+Deaths,Male,35 to 39,Lower respiratory infections,sheffield,1.1495244537892693,45744.64492265842
+Deaths,Male,35 to 39,Neoplasms,sheffield,9.055864320227148,45744.64492265842
+Deaths,Male,35 to 39,Road injuries,sheffield,2.737954486574098,45744.64492265842
+Deaths,Male,35 to 39,Stomach cancer,sheffield,0.5416475355172301,45744.64492265842
+Deaths,Male,35 to 39,Stroke,sheffield,1.6802455530239837,45744.64492265842
+Deaths,Male,35 to 39,"Tracheal, bronchus, and lung cancer",sheffield,0.8810866868859076,45744.64492265842
+Deaths,Male,40 to 44,All causes,sheffield,79.4727753685051,42424.13266414138
+Deaths,Male,40 to 44,Breast cancer,sheffield,0.052569694810972484,42424.13266414138
+Deaths,Male,40 to 44,Cardiovascular diseases,sheffield,16.965870506402844,42424.13266414138
+Deaths,Male,40 to 44,Chronic obstructive pulmonary disease,sheffield,0.9311680568914713,42424.13266414138
+Deaths,Male,40 to 44,Colon and rectum cancer,sheffield,1.888284009536371,42424.13266414138
+Deaths,Male,40 to 44,Diabetes mellitus type 2,sheffield,0.17133828485252825,42424.13266414138
+Deaths,Male,40 to 44,Ischemic heart disease,sheffield,10.110390576544988,42424.13266414138
+Deaths,Male,40 to 44,Liver cancer,sheffield,0.4809711596301009,42424.13266414138
+Deaths,Male,40 to 44,Lower respiratory infections,sheffield,1.7749811753478586,42424.13266414138
+Deaths,Male,40 to 44,Neoplasms,sheffield,16.340973338524858,42424.13266414138
+Deaths,Male,40 to 44,Road injuries,sheffield,2.514237732019562,42424.13266414138
+Deaths,Male,40 to 44,Stomach cancer,sheffield,0.9938774371152036,42424.13266414138
+Deaths,Male,40 to 44,Stroke,sheffield,2.7211695796967295,42424.13266414138
+Deaths,Male,40 to 44,"Tracheal, bronchus, and lung cancer",sheffield,2.409238867441569,42424.13266414138
+Deaths,Male,45 to 49,All causes,sheffield,131.81393026949368,49420.484102665694
+Deaths,Male,45 to 49,Breast cancer,sheffield,0.1015393092556621,49420.484102665694
+Deaths,Male,45 to 49,Cardiovascular diseases,sheffield,35.54638811761302,49420.484102665694
+Deaths,Male,45 to 49,Chronic obstructive pulmonary disease,sheffield,2.2495484157175483,49420.484102665694
+Deaths,Male,45 to 49,Colon and rectum cancer,sheffield,4.095017380073694,49420.484102665694
+Deaths,Male,45 to 49,Diabetes mellitus type 2,sheffield,0.7137916192395966,49420.484102665694
+Deaths,Male,45 to 49,Ischemic heart disease,sheffield,23.299462621665178,49420.484102665694
+Deaths,Male,45 to 49,Liver cancer,sheffield,1.1726948734987683,49420.484102665694
+Deaths,Male,45 to 49,Lower respiratory infections,sheffield,3.109875489257182,49420.484102665694
+Deaths,Male,45 to 49,Neoplasms,sheffield,35.51135699988318,49420.484102665694
+Deaths,Male,45 to 49,Road injuries,sheffield,2.6075527199473125,49420.484102665694
+Deaths,Male,45 to 49,Stomach cancer,sheffield,2.1355044842567277,49420.484102665694
+Deaths,Male,45 to 49,Stroke,sheffield,5.068530190504902,49420.484102665694
+Deaths,Male,45 to 49,"Tracheal, bronchus, and lung cancer",sheffield,6.856586236881384,49420.484102665694
+Deaths,Male,5 to 9,All causes,sheffield,3.5936626515388777,45125.281781319536
+Deaths,Male,5 to 9,Cardiovascular diseases,sheffield,0.11185498077195516,45125.281781319536
+Deaths,Male,5 to 9,Chronic obstructive pulmonary disease,sheffield,0.009388921660857008,45125.281781319536
+Deaths,Male,5 to 9,Liver cancer,sheffield,0.016058386237936775,45125.281781319536
+Deaths,Male,5 to 9,Lower respiratory infections,sheffield,0.12841652439959123,45125.281781319536
+Deaths,Male,5 to 9,Neoplasms,sheffield,1.2538982555876064,45125.281781319536
+Deaths,Male,5 to 9,Road injuries,sheffield,0.2862292656497818,45125.281781319536
+Deaths,Male,5 to 9,Stroke,sheffield,0.02980859989515998,45125.281781319536
+Deaths,Male,50 to 54,All causes,sheffield,173.48001301948483,49771.065031783386
+Deaths,Male,50 to 54,Breast cancer,sheffield,0.15974174473137293,49771.065031783386
+Deaths,Male,50 to 54,Cardiovascular diseases,sheffield,50.92322195826646,49771.065031783386
+Deaths,Male,50 to 54,Chronic obstructive pulmonary disease,sheffield,4.493204719458691,49771.065031783386
+Deaths,Male,50 to 54,Colon and rectum cancer,sheffield,6.852001611612513,49771.065031783386
+Deaths,Male,50 to 54,Diabetes mellitus type 2,sheffield,0.8627005589004075,49771.065031783386
+Deaths,Male,50 to 54,Ischemic heart disease,sheffield,35.23424257179516,49771.065031783386
+Deaths,Male,50 to 54,Liver cancer,sheffield,2.094209832369451,49771.065031783386
+Deaths,Male,50 to 54,Lower respiratory infections,sheffield,4.2012253283483085,49771.065031783386
+Deaths,Male,50 to 54,Neoplasms,sheffield,60.34188926597399,49771.065031783386
+Deaths,Male,50 to 54,Road injuries,sheffield,2.279471962785781,49771.065031783386
+Deaths,Male,50 to 54,Stomach cancer,sheffield,3.369442765609275,49771.065031783386
+Deaths,Male,50 to 54,Stroke,sheffield,6.533951636288139,49771.065031783386
+Deaths,Male,50 to 54,"Tracheal, bronchus, and lung cancer",sheffield,13.835393315953105,49771.065031783386
+Deaths,Male,55 to 59,All causes,sheffield,270.001387523655,44260.8019592883
+Deaths,Male,55 to 59,Breast cancer,sheffield,0.2764933458769895,44260.8019592883
+Deaths,Male,55 to 59,Cardiovascular diseases,sheffield,81.08545635867789,44260.8019592883
+Deaths,Male,55 to 59,Chronic obstructive pulmonary disease,sheffield,10.270688177363121,44260.8019592883
+Deaths,Male,55 to 59,Colon and rectum cancer,sheffield,12.75192521553174,44260.8019592883
+Deaths,Male,55 to 59,Diabetes mellitus type 2,sheffield,1.333938014603763,44260.8019592883
+Deaths,Male,55 to 59,Ischemic heart disease,sheffield,56.834259176109455,44260.8019592883
+Deaths,Male,55 to 59,Liver cancer,sheffield,3.8511065157268902,44260.8019592883
+Deaths,Male,55 to 59,Lower respiratory infections,sheffield,5.9473078880674235,44260.8019592883
+Deaths,Male,55 to 59,Neoplasms,sheffield,111.00346402731812,44260.8019592883
+Deaths,Male,55 to 59,Road injuries,sheffield,2.136375754690404,44260.8019592883
+Deaths,Male,55 to 59,Stomach cancer,sheffield,5.68963458918233,44260.8019592883
+Deaths,Male,55 to 59,Stroke,sheffield,10.003488662023635,44260.8019592883
+Deaths,Male,55 to 59,"Tracheal, bronchus, and lung cancer",sheffield,29.425236140835057,44260.8019592883
+Deaths,Male,60 to 64,All causes,sheffield,391.0261302860775,37213.037417394116
+Deaths,Male,60 to 64,Breast cancer,sheffield,0.4660538225642056,37213.037417394116
+Deaths,Male,60 to 64,Cardiovascular diseases,sheffield,113.40141441603788,37213.037417394116
+Deaths,Male,60 to 64,Chronic obstructive pulmonary disease,sheffield,22.438645480324276,37213.037417394116
+Deaths,Male,60 to 64,Colon and rectum cancer,sheffield,19.196509549659098,37213.037417394116
+Deaths,Male,60 to 64,Diabetes mellitus type 2,sheffield,2.2730667741039348,37213.037417394116
+Deaths,Male,60 to 64,Ischemic heart disease,sheffield,78.15021615479688,37213.037417394116
+Deaths,Male,60 to 64,Liver cancer,sheffield,5.601412538974236,37213.037417394116
+Deaths,Male,60 to 64,Lower respiratory infections,sheffield,9.113741117634618,37213.037417394116
+Deaths,Male,60 to 64,Neoplasms,sheffield,175.9532025743431,37213.037417394116
+Deaths,Male,60 to 64,Road injuries,sheffield,1.9004187374074135,37213.037417394116
+Deaths,Male,60 to 64,Stomach cancer,sheffield,9.072728383611503,37213.037417394116
+Deaths,Male,60 to 64,Stroke,sheffield,14.226137885634826,37213.037417394116
+Deaths,Male,60 to 64,"Tracheal, bronchus, and lung cancer",sheffield,51.530419351106794,37213.037417394116
+Deaths,Male,65 to 69,All causes,sheffield,600.158709768923,35594.25243038589
+Deaths,Male,65 to 69,Breast cancer,sheffield,0.7085167301214076,35594.25243038589
+Deaths,Male,65 to 69,Cardiovascular diseases,sheffield,172.24615044727784,35594.25243038589
+Deaths,Male,65 to 69,Chronic obstructive pulmonary disease,sheffield,42.88546022321576,35594.25243038589
+Deaths,Male,65 to 69,Colon and rectum cancer,sheffield,29.13036082717788,35594.25243038589
+Deaths,Male,65 to 69,Diabetes mellitus type 2,sheffield,3.637898770634158,35594.25243038589
+Deaths,Male,65 to 69,Ischemic heart disease,sheffield,114.82057235958588,35594.25243038589
+Deaths,Male,65 to 69,Liver cancer,sheffield,8.340902079472023,35594.25243038589
+Deaths,Male,65 to 69,Lower respiratory infections,sheffield,15.022950191399971,35594.25243038589
+Deaths,Male,65 to 69,Neoplasms,sheffield,274.7044749269147,35594.25243038589
+Deaths,Male,65 to 69,Road injuries,sheffield,1.9321332490754966,35594.25243038589
+Deaths,Male,65 to 69,Stomach cancer,sheffield,14.855204449340064,35594.25243038589
+Deaths,Male,65 to 69,Stroke,sheffield,24.080480507183353,35594.25243038589
+Deaths,Male,65 to 69,"Tracheal, bronchus, and lung cancer",sheffield,84.25819424451105,35594.25243038589
+Deaths,Male,70 to 74,All causes,sheffield,774.0602665358215,30209.91461355498
+Deaths,Male,70 to 74,Breast cancer,sheffield,0.8854263112290354,30209.91461355498
+Deaths,Male,70 to 74,Cardiovascular diseases,sheffield,226.50741205335078,30209.91461355498
+Deaths,Male,70 to 74,Chronic obstructive pulmonary disease,sheffield,64.18444187337481,30209.91461355498
+Deaths,Male,70 to 74,Colon and rectum cancer,sheffield,35.45429280234994,30209.91461355498
+Deaths,Male,70 to 74,Diabetes mellitus type 2,sheffield,5.078256723735786,30209.91461355498
+Deaths,Male,70 to 74,Ischemic heart disease,sheffield,142.1242937529388,30209.91461355498
+Deaths,Male,70 to 74,Liver cancer,sheffield,9.734267071762694,30209.91461355498
+Deaths,Male,70 to 74,Lower respiratory infections,sheffield,23.90562604559768,30209.91461355498
+Deaths,Male,70 to 74,Neoplasms,sheffield,332.40650330126414,30209.91461355498
+Deaths,Male,70 to 74,Road injuries,sheffield,1.8384212762904786,30209.91461355498
+Deaths,Male,70 to 74,Stomach cancer,sheffield,19.1483324656319,30209.91461355498
+Deaths,Male,70 to 74,Stroke,sheffield,38.243695706059654,30209.91461355498
+Deaths,Male,70 to 74,"Tracheal, bronchus, and lung cancer",sheffield,97.99972683397989,30209.91461355498
+Deaths,Male,75 to 79,All causes,sheffield,982.27008279967,21267.42423491765
+Deaths,Male,75 to 79,Breast cancer,sheffield,0.9301551473883028,21267.42423491765
+Deaths,Male,75 to 79,Cardiovascular diseases,sheffield,302.82418472883944,21267.42423491765
+Deaths,Male,75 to 79,Chronic obstructive pulmonary disease,sheffield,84.9058884827641,21267.42423491765
+Deaths,Male,75 to 79,Colon and rectum cancer,sheffield,40.249357810118525,21267.42423491765
+Deaths,Male,75 to 79,Diabetes mellitus type 2,sheffield,6.838599337080163,21267.42423491765
+Deaths,Male,75 to 79,Ischemic heart disease,sheffield,181.25397789058323,21267.42423491765
+Deaths,Male,75 to 79,Liver cancer,sheffield,9.912548501253577,21267.42423491765
+Deaths,Male,75 to 79,Lower respiratory infections,sheffield,39.80583644789725,21267.42423491765
+Deaths,Male,75 to 79,Neoplasms,sheffield,361.8830441368378,21267.42423491765
+Deaths,Male,75 to 79,Road injuries,sheffield,1.933256083063543,21267.42423491765
+Deaths,Male,75 to 79,Stomach cancer,sheffield,23.438534101080364,21267.42423491765
+Deaths,Male,75 to 79,Stroke,sheffield,60.11572003874429,21267.42423491765
+Deaths,Male,75 to 79,"Tracheal, bronchus, and lung cancer",sheffield,99.14668674104458,21267.42423491765
+Deaths,Male,80 to 84,All causes,sheffield,1134.4393832788226,14293.187352377716
+Deaths,Male,80 to 84,Breast cancer,sheffield,0.8696466021137726,14293.187352377716
+Deaths,Male,80 to 84,Cardiovascular diseases,sheffield,360.0143954760954,14293.187352377716
+Deaths,Male,80 to 84,Chronic obstructive pulmonary disease,sheffield,96.5245636282549,14293.187352377716
+Deaths,Male,80 to 84,Colon and rectum cancer,sheffield,40.32705404219178,14293.187352377716
+Deaths,Male,80 to 84,Diabetes mellitus type 2,sheffield,8.392295381275373,14293.187352377716
+Deaths,Male,80 to 84,Ischemic heart disease,sheffield,206.3203200093934,14293.187352377716
+Deaths,Male,80 to 84,Liver cancer,sheffield,8.308082992403627,14293.187352377716
+Deaths,Male,80 to 84,Lower respiratory infections,sheffield,60.99642817240176,14293.187352377716
+Deaths,Male,80 to 84,Neoplasms,sheffield,347.3001141665786,14293.187352377716
+Deaths,Male,80 to 84,Road injuries,sheffield,1.8540873375833211,14293.187352377716
+Deaths,Male,80 to 84,Stomach cancer,sheffield,23.719720074669453,14293.187352377716
+Deaths,Male,80 to 84,Stroke,sheffield,79.63692436549098,14293.187352377716
+Deaths,Male,80 to 84,"Tracheal, bronchus, and lung cancer",sheffield,82.96374159649568,14293.187352377716
+Deaths,Male,85 to 89,All causes,sheffield,1105.1431674420953,7373.41019308561
+Deaths,Male,85 to 89,Breast cancer,sheffield,0.6891766602311409,7373.41019308561
+Deaths,Male,85 to 89,Cardiovascular diseases,sheffield,352.36631391732004,7373.41019308561
+Deaths,Male,85 to 89,Chronic obstructive pulmonary disease,sheffield,89.12406193341722,7373.41019308561
+Deaths,Male,85 to 89,Colon and rectum cancer,sheffield,32.229488544840756,7373.41019308561
+Deaths,Male,85 to 89,Diabetes mellitus type 2,sheffield,8.300536516532834,7373.41019308561
+Deaths,Male,85 to 89,Ischemic heart disease,sheffield,195.64955656373004,7373.41019308561
+Deaths,Male,85 to 89,Liver cancer,sheffield,5.393167983770117,7373.41019308561
+Deaths,Male,85 to 89,Lower respiratory infections,sheffield,92.8956380199305,7373.41019308561
+Deaths,Male,85 to 89,Neoplasms,sheffield,270.58503662030523,7373.41019308561
+Deaths,Male,85 to 89,Road injuries,sheffield,1.4092976056029203,7373.41019308561
+Deaths,Male,85 to 89,Stomach cancer,sheffield,18.09997670109886,7373.41019308561
+Deaths,Male,85 to 89,Stroke,sheffield,83.63862174474971,7373.41019308561
+Deaths,Male,85 to 89,"Tracheal, bronchus, and lung cancer",sheffield,57.36819355967383,7373.41019308561
+Deaths,Male,90 to 94,All causes,sheffield,620.8511723635643,2704.6095236582764
+Deaths,Male,90 to 94,Breast cancer,sheffield,0.3873187771601827,2704.6095236582764
+Deaths,Male,90 to 94,Cardiovascular diseases,sheffield,208.6666459315785,2704.6095236582764
+Deaths,Male,90 to 94,Chronic obstructive pulmonary disease,sheffield,48.00102021429594,2704.6095236582764
+Deaths,Male,90 to 94,Colon and rectum cancer,sheffield,14.878442967961895,2704.6095236582764
+Deaths,Male,90 to 94,Diabetes mellitus type 2,sheffield,4.778335577497631,2704.6095236582764
+Deaths,Male,90 to 94,Ischemic heart disease,sheffield,115.33653480755046,2704.6095236582764
+Deaths,Male,90 to 94,Liver cancer,sheffield,1.8836940615344515,2704.6095236582764
+Deaths,Male,90 to 94,Lower respiratory infections,sheffield,57.24763123930056,2704.6095236582764
+Deaths,Male,90 to 94,Neoplasms,sheffield,117.62217927575483,2704.6095236582764
+Deaths,Male,90 to 94,Road injuries,sheffield,0.6363887813213854,2704.6095236582764
+Deaths,Male,90 to 94,Stomach cancer,sheffield,8.528082526008763,2704.6095236582764
+Deaths,Male,90 to 94,Stroke,sheffield,51.55096820603477,2704.6095236582764
+Deaths,Male,90 to 94,"Tracheal, bronchus, and lung cancer",sheffield,19.315438749651673,2704.6095236582764
+Deaths,Male,95 to 99,All causes,sheffield,192.7578952257643,529.7230257513099
+Deaths,Male,95 to 99,Breast cancer,sheffield,0.1287967675670478,529.7230257513099
+Deaths,Male,95 to 99,Cardiovascular diseases,sheffield,68.71108712537976,529.7230257513099
+Deaths,Male,95 to 99,Chronic obstructive pulmonary disease,sheffield,14.94053330677502,529.7230257513099
+Deaths,Male,95 to 99,Colon and rectum cancer,sheffield,3.574052064794185,529.7230257513099
+Deaths,Male,95 to 99,Diabetes mellitus type 2,sheffield,1.5907528178102353,529.7230257513099
+Deaths,Male,95 to 99,Ischemic heart disease,sheffield,37.441755330668116,529.7230257513099
+Deaths,Male,95 to 99,Liver cancer,sheffield,0.3859906341633187,529.7230257513099
+Deaths,Male,95 to 99,Lower respiratory infections,sheffield,20.82511833655498,529.7230257513099
+Deaths,Male,95 to 99,Neoplasms,sheffield,28.092620237709053,529.7230257513099
+Deaths,Male,95 to 99,Road injuries,sheffield,0.18325749095942756,529.7230257513099
+Deaths,Male,95 to 99,Stomach cancer,sheffield,2.2690348903519775,529.7230257513099
+Deaths,Male,95 to 99,Stroke,sheffield,18.373161106495836,529.7230257513099
+Deaths,Male,95 to 99,"Tracheal, bronchus, and lung cancer",sheffield,3.5368258484824513,529.7230257513099
+Deaths,Male,0 to 4,All causes,sheffield,42.107667631023055,42470.485732048335
+Deaths,Male,0 to 4,Cardiovascular diseases,sheffield,0.5530772559026002,42470.485732048335
+Deaths,Male,0 to 4,Chronic obstructive pulmonary disease,sheffield,0.025928648635873026,42470.485732048335
+Deaths,Male,0 to 4,Lower respiratory infections,sheffield,1.4394920137509906,42470.485732048335
+Deaths,Male,0 to 4,Neoplasms,sheffield,1.2055108103995222,42470.485732048335
+Deaths,Male,0 to 4,Road injuries,sheffield,0.2692140012382996,42470.485732048335
+Deaths,Male,0 to 4,Stroke,sheffield,0.07684973816871714,42470.485732048335
+YLLs (Years of Life Lost),Female,10 to 14,All causes,sheffield,353.94410228181334,39364.17750883702
+YLLs (Years of Life Lost),Female,10 to 14,Cardiovascular diseases,sheffield,16.58225791726885,39364.17750883702
+YLLs (Years of Life Lost),Female,10 to 14,Chronic obstructive pulmonary disease,sheffield,2.607626081131488,39364.17750883702
+YLLs (Years of Life Lost),Female,10 to 14,Liver cancer,sheffield,1.5956577330222963,39364.17750883702
+YLLs (Years of Life Lost),Female,10 to 14,Lower respiratory infections,sheffield,13.862285270080758,39364.17750883702
+YLLs (Years of Life Lost),Female,10 to 14,Neoplasms,sheffield,98.73336434461088,39364.17750883702
+YLLs (Years of Life Lost),Female,10 to 14,Road injuries,sheffield,32.04999849803648,39364.17750883702
+YLLs (Years of Life Lost),Female,10 to 14,Stroke,sheffield,6.550214827159038,39364.17750883702
+YLLs (Years of Life Lost),Female,15 to 19,All causes,sheffield,350.28997417159957,40749.09171154611
+YLLs (Years of Life Lost),Female,15 to 19,Breast cancer,sheffield,0.45737689150583505,40749.09171154611
+YLLs (Years of Life Lost),Female,15 to 19,Cardiovascular diseases,sheffield,20.378191817706927,40749.09171154611
+YLLs (Years of Life Lost),Female,15 to 19,Chronic obstructive pulmonary disease,sheffield,1.8819645630034203,40749.09171154611
+YLLs (Years of Life Lost),Female,15 to 19,Colon and rectum cancer,sheffield,0.6167855731528098,40749.09171154611
+YLLs (Years of Life Lost),Female,15 to 19,Diabetes mellitus type 2,sheffield,0.26825914795761274,40749.09171154611
+YLLs (Years of Life Lost),Female,15 to 19,Ischemic heart disease,sheffield,1.8286676040499987,40749.09171154611
+YLLs (Years of Life Lost),Female,15 to 19,Liver cancer,sheffield,1.952199936464288,40749.09171154611
+YLLs (Years of Life Lost),Female,15 to 19,Lower respiratory infections,sheffield,8.388181608021048,40749.09171154611
+YLLs (Years of Life Lost),Female,15 to 19,Neoplasms,sheffield,66.56481497364275,40749.09171154611
+YLLs (Years of Life Lost),Female,15 to 19,Road injuries,sheffield,51.58709744143426,40749.09171154611
+YLLs (Years of Life Lost),Female,15 to 19,Stomach cancer,sheffield,0.4047703130864884,40749.09171154611
+YLLs (Years of Life Lost),Female,15 to 19,Stroke,sheffield,5.9674197719338835,40749.09171154611
+YLLs (Years of Life Lost),Female,15 to 19,"Tracheal, bronchus, and lung cancer",sheffield,0.8188113742636958,40749.09171154611
+YLLs (Years of Life Lost),Female,15 to 19,Uterine cancer,sheffield,0.22738491605956496,40749.09171154611
+YLLs (Years of Life Lost),Female,20 to 24,All causes,sheffield,805.1548459179447,49557.69659764297
+YLLs (Years of Life Lost),Female,20 to 24,Breast cancer,sheffield,3.805369689044816,49557.69659764297
+YLLs (Years of Life Lost),Female,20 to 24,Cardiovascular diseases,sheffield,62.08899981212393,49557.69659764297
+YLLs (Years of Life Lost),Female,20 to 24,Chronic obstructive pulmonary disease,sheffield,3.8621771675950525,49557.69659764297
+YLLs (Years of Life Lost),Female,20 to 24,Colon and rectum cancer,sheffield,4.832970061976986,49557.69659764297
+YLLs (Years of Life Lost),Female,20 to 24,Diabetes mellitus type 2,sheffield,0.626946509893375,49557.69659764297
+YLLs (Years of Life Lost),Female,20 to 24,Ischemic heart disease,sheffield,7.258130351075671,49557.69659764297
+YLLs (Years of Life Lost),Female,20 to 24,Liver cancer,sheffield,3.8136373648751727,49557.69659764297
+YLLs (Years of Life Lost),Female,20 to 24,Lower respiratory infections,sheffield,20.20812400404958,49557.69659764297
+YLLs (Years of Life Lost),Female,20 to 24,Neoplasms,sheffield,155.9281935709843,49557.69659764297
+YLLs (Years of Life Lost),Female,20 to 24,Road injuries,sheffield,87.50426177702057,49557.69659764297
+YLLs (Years of Life Lost),Female,20 to 24,Stomach cancer,sheffield,2.005636919494947,49557.69659764297
+YLLs (Years of Life Lost),Female,20 to 24,Stroke,sheffield,19.821655292779965,49557.69659764297
+YLLs (Years of Life Lost),Female,20 to 24,"Tracheal, bronchus, and lung cancer",sheffield,2.8390204056682933,49557.69659764297
+YLLs (Years of Life Lost),Female,20 to 24,Uterine cancer,sheffield,0.6147659881210796,49557.69659764297
+YLLs (Years of Life Lost),Female,25 to 29,All causes,sheffield,958.4485636474087,53436.590546638676
+YLLs (Years of Life Lost),Female,25 to 29,Breast cancer,sheffield,28.08804812401644,53436.590546638676
+YLLs (Years of Life Lost),Female,25 to 29,Cardiovascular diseases,sheffield,83.52033225669538,53436.590546638676
+YLLs (Years of Life Lost),Female,25 to 29,Chronic obstructive pulmonary disease,sheffield,4.21700639199397,53436.590546638676
+YLLs (Years of Life Lost),Female,25 to 29,Colon and rectum cancer,sheffield,12.470595732393267,53436.590546638676
+YLLs (Years of Life Lost),Female,25 to 29,Diabetes mellitus type 2,sheffield,0.9795606063291256,53436.590546638676
+YLLs (Years of Life Lost),Female,25 to 29,Ischemic heart disease,sheffield,12.069527225379328,53436.590546638676
+YLLs (Years of Life Lost),Female,25 to 29,Liver cancer,sheffield,5.373021543543415,53436.590546638676
+YLLs (Years of Life Lost),Female,25 to 29,Lower respiratory infections,sheffield,23.897206046040417,53436.590546638676
+YLLs (Years of Life Lost),Female,25 to 29,Neoplasms,sheffield,249.85024730866905,53436.590546638676
+YLLs (Years of Life Lost),Female,25 to 29,Road injuries,sheffield,52.60399487946677,53436.590546638676
+YLLs (Years of Life Lost),Female,25 to 29,Stomach cancer,sheffield,6.909659951009221,53436.590546638676
+YLLs (Years of Life Lost),Female,25 to 29,Stroke,sheffield,29.25847652409248,53436.590546638676
+YLLs (Years of Life Lost),Female,25 to 29,"Tracheal, bronchus, and lung cancer",sheffield,5.861780498921106,53436.590546638676
+YLLs (Years of Life Lost),Female,25 to 29,Uterine cancer,sheffield,1.4476728065024527,53436.590546638676
+YLLs (Years of Life Lost),Female,30 to 34,All causes,sheffield,1149.2880940078708,47614.47915797056
+YLLs (Years of Life Lost),Female,30 to 34,Breast cancer,sheffield,89.73020757316016,47614.47915797056
+YLLs (Years of Life Lost),Female,30 to 34,Cardiovascular diseases,sheffield,120.96299906831389,47614.47915797056
+YLLs (Years of Life Lost),Female,30 to 34,Chronic obstructive pulmonary disease,sheffield,5.2365712717505195,47614.47915797056
+YLLs (Years of Life Lost),Female,30 to 34,Colon and rectum cancer,sheffield,25.856421090953628,47614.47915797056
+YLLs (Years of Life Lost),Female,30 to 34,Diabetes mellitus type 2,sheffield,2.302390394974181,47614.47915797056
+YLLs (Years of Life Lost),Female,30 to 34,Ischemic heart disease,sheffield,28.68153138601341,47614.47915797056
+YLLs (Years of Life Lost),Female,30 to 34,Liver cancer,sheffield,5.941802315989651,47614.47915797056
+YLLs (Years of Life Lost),Female,30 to 34,Lower respiratory infections,sheffield,27.13815442083369,47614.47915797056
+YLLs (Years of Life Lost),Female,30 to 34,Neoplasms,sheffield,381.5616580839176,47614.47915797056
+YLLs (Years of Life Lost),Female,30 to 34,Road injuries,sheffield,31.54340897288659,47614.47915797056
+YLLs (Years of Life Lost),Female,30 to 34,Stomach cancer,sheffield,14.264974740401232,47614.47915797056
+YLLs (Years of Life Lost),Female,30 to 34,Stroke,sheffield,41.984136293641185,47614.47915797056
+YLLs (Years of Life Lost),Female,30 to 34,"Tracheal, bronchus, and lung cancer",sheffield,16.686409398266093,47614.47915797056
+YLLs (Years of Life Lost),Female,30 to 34,Uterine cancer,sheffield,2.2257116582965706,47614.47915797056
+YLLs (Years of Life Lost),Female,35 to 39,All causes,sheffield,1846.0800114940998,43707.904789890206
+YLLs (Years of Life Lost),Female,35 to 39,Breast cancer,sheffield,237.10643634010768,43707.904789890206
+YLLs (Years of Life Lost),Female,35 to 39,Cardiovascular diseases,sheffield,226.95735350097846,43707.904789890206
+YLLs (Years of Life Lost),Female,35 to 39,Chronic obstructive pulmonary disease,sheffield,11.562220155698602,43707.904789890206
+YLLs (Years of Life Lost),Female,35 to 39,Colon and rectum cancer,sheffield,48.60476054342506,43707.904789890206
+YLLs (Years of Life Lost),Female,35 to 39,Diabetes mellitus type 2,sheffield,3.8091479242500714,43707.904789890206
+YLLs (Years of Life Lost),Female,35 to 39,Ischemic heart disease,sheffield,72.42562743886911,43707.904789890206
+YLLs (Years of Life Lost),Female,35 to 39,Liver cancer,sheffield,10.367678964368437,43707.904789890206
+YLLs (Years of Life Lost),Female,35 to 39,Lower respiratory infections,sheffield,47.44020835688081,43707.904789890206
+YLLs (Years of Life Lost),Female,35 to 39,Neoplasms,sheffield,722.9078335819698,43707.904789890206
+YLLs (Years of Life Lost),Female,35 to 39,Road injuries,sheffield,31.702000944786768,43707.904789890206
+YLLs (Years of Life Lost),Female,35 to 39,Stomach cancer,sheffield,25.268521036655475,43707.904789890206
+YLLs (Years of Life Lost),Female,35 to 39,Stroke,sheffield,78.334505025289,43707.904789890206
+YLLs (Years of Life Lost),Female,35 to 39,"Tracheal, bronchus, and lung cancer",sheffield,40.58080956757516,43707.904789890206
+YLLs (Years of Life Lost),Female,35 to 39,Uterine cancer,sheffield,4.96401749496558,43707.904789890206
+YLLs (Years of Life Lost),Female,40 to 44,All causes,sheffield,2152.2615899654534,41453.10701467732
+YLLs (Years of Life Lost),Female,40 to 44,Breast cancer,sheffield,322.1285632639566,41453.10701467732
+YLLs (Years of Life Lost),Female,40 to 44,Cardiovascular diseases,sheffield,311.94109504197144,41453.10701467732
+YLLs (Years of Life Lost),Female,40 to 44,Chronic obstructive pulmonary disease,sheffield,25.90551760826638,41453.10701467732
+YLLs (Years of Life Lost),Female,40 to 44,Colon and rectum cancer,sheffield,66.46238576688644,41453.10701467732
+YLLs (Years of Life Lost),Female,40 to 44,Diabetes mellitus type 2,sheffield,4.266813985246839,41453.10701467732
+YLLs (Years of Life Lost),Female,40 to 44,Ischemic heart disease,sheffield,115.71803221247924,41453.10701467732
+YLLs (Years of Life Lost),Female,40 to 44,Liver cancer,sheffield,13.009976897232521,41453.10701467732
+YLLs (Years of Life Lost),Female,40 to 44,Lower respiratory infections,sheffield,56.47649105275042,41453.10701467732
+YLLs (Years of Life Lost),Female,40 to 44,Neoplasms,sheffield,940.9465290493803,41453.10701467732
+YLLs (Years of Life Lost),Female,40 to 44,Road injuries,sheffield,24.44885498591563,41453.10701467732
+YLLs (Years of Life Lost),Female,40 to 44,Stomach cancer,sheffield,34.57651549586437,41453.10701467732
+YLLs (Years of Life Lost),Female,40 to 44,Stroke,sheffield,100.92557300711397,41453.10701467732
+YLLs (Years of Life Lost),Female,40 to 44,"Tracheal, bronchus, and lung cancer",sheffield,86.82897394354659,41453.10701467732
+YLLs (Years of Life Lost),Female,40 to 44,Uterine cancer,sheffield,9.002015246413816,41453.10701467732
+YLLs (Years of Life Lost),Female,45 to 49,All causes,sheffield,3691.899653451098,48946.811052895995
+YLLs (Years of Life Lost),Female,45 to 49,Breast cancer,sheffield,566.0691096886826,48946.811052895995
+YLLs (Years of Life Lost),Female,45 to 49,Cardiovascular diseases,sheffield,550.7030977850525,48946.811052895995
+YLLs (Years of Life Lost),Female,45 to 49,Chronic obstructive pulmonary disease,sheffield,67.41415700937388,48946.811052895995
+YLLs (Years of Life Lost),Female,45 to 49,Colon and rectum cancer,sheffield,136.70351754133162,48946.811052895995
+YLLs (Years of Life Lost),Female,45 to 49,Diabetes mellitus type 2,sheffield,16.484138838453042,48946.811052895995
+YLLs (Years of Life Lost),Female,45 to 49,Ischemic heart disease,sheffield,228.53281831162423,48946.811052895995
+YLLs (Years of Life Lost),Female,45 to 49,Liver cancer,sheffield,27.165994594569867,48946.811052895995
+YLLs (Years of Life Lost),Female,45 to 49,Lower respiratory infections,sheffield,88.18726262348805,48946.811052895995
+YLLs (Years of Life Lost),Female,45 to 49,Neoplasms,sheffield,1818.5472443496578,48946.811052895995
+YLLs (Years of Life Lost),Female,45 to 49,Road injuries,sheffield,28.81151069744961,48946.811052895995
+YLLs (Years of Life Lost),Female,45 to 49,Stomach cancer,sheffield,51.702866629725534,48946.811052895995
+YLLs (Years of Life Lost),Female,45 to 49,Stroke,sheffield,161.9594005237315,48946.811052895995
+YLLs (Years of Life Lost),Female,45 to 49,"Tracheal, bronchus, and lung cancer",sheffield,262.34927203851424,48946.811052895995
+YLLs (Years of Life Lost),Female,45 to 49,Uterine cancer,sheffield,22.047619701257307,48946.811052895995
+YLLs (Years of Life Lost),Female,5 to 9,All causes,sheffield,267.8063527176454,42923.72152754824
+YLLs (Years of Life Lost),Female,5 to 9,Cardiovascular diseases,sheffield,10.195394886465152,42923.72152754824
+YLLs (Years of Life Lost),Female,5 to 9,Chronic obstructive pulmonary disease,sheffield,2.259590950240029,42923.72152754824
+YLLs (Years of Life Lost),Female,5 to 9,Liver cancer,sheffield,1.0411021489963272,42923.72152754824
+YLLs (Years of Life Lost),Female,5 to 9,Lower respiratory infections,sheffield,13.259646290542818,42923.72152754824
+YLLs (Years of Life Lost),Female,5 to 9,Neoplasms,sheffield,88.10127860225404,42923.72152754824
+YLLs (Years of Life Lost),Female,5 to 9,Road injuries,sheffield,18.812766652260795,42923.72152754824
+YLLs (Years of Life Lost),Female,5 to 9,Stroke,sheffield,2.9753587107666295,42923.72152754824
+YLLs (Years of Life Lost),Female,50 to 54,All causes,sheffield,5047.668726585996,48590.690618855406
+YLLs (Years of Life Lost),Female,50 to 54,Breast cancer,sheffield,729.8158907624702,48590.690618855406
+YLLs (Years of Life Lost),Female,50 to 54,Cardiovascular diseases,sheffield,781.8333664690495,48590.690618855406
+YLLs (Years of Life Lost),Female,50 to 54,Chronic obstructive pulmonary disease,sheffield,163.09457869649557,48590.690618855406
+YLLs (Years of Life Lost),Female,50 to 54,Colon and rectum cancer,sheffield,207.8337788748205,48590.690618855406
+YLLs (Years of Life Lost),Female,50 to 54,Diabetes mellitus type 2,sheffield,20.98249132713062,48590.690618855406
+YLLs (Years of Life Lost),Female,50 to 54,Ischemic heart disease,sheffield,361.69401455283656,48590.690618855406
+YLLs (Years of Life Lost),Female,50 to 54,Liver cancer,sheffield,48.363384129923105,48590.690618855406
+YLLs (Years of Life Lost),Female,50 to 54,Lower respiratory infections,sheffield,126.16547190028555,48590.690618855406
+YLLs (Years of Life Lost),Female,50 to 54,Neoplasms,sheffield,2689.398944848195,48590.690618855406
+YLLs (Years of Life Lost),Female,50 to 54,Road injuries,sheffield,27.145086334140338,48590.690618855406
+YLLs (Years of Life Lost),Female,50 to 54,Stomach cancer,sheffield,72.91661786916369,48590.690618855406
+YLLs (Years of Life Lost),Female,50 to 54,Stroke,sheffield,223.53007621948186,48590.690618855406
+YLLs (Years of Life Lost),Female,50 to 54,"Tracheal, bronchus, and lung cancer",sheffield,494.01712570863015,48590.690618855406
+YLLs (Years of Life Lost),Female,50 to 54,Uterine cancer,sheffield,44.75184226716408,48590.690618855406
+YLLs (Years of Life Lost),Female,55 to 59,All causes,sheffield,5788.487443656356,43964.94048123858
+YLLs (Years of Life Lost),Female,55 to 59,Breast cancer,sheffield,678.2934735165675,43964.94048123858
+YLLs (Years of Life Lost),Female,55 to 59,Cardiovascular diseases,sheffield,904.4957055780329,43964.94048123858
+YLLs (Years of Life Lost),Female,55 to 59,Chronic obstructive pulmonary disease,sheffield,281.61036728618706,43964.94048123858
+YLLs (Years of Life Lost),Female,55 to 59,Colon and rectum cancer,sheffield,255.1407337389989,43964.94048123858
+YLLs (Years of Life Lost),Female,55 to 59,Diabetes mellitus type 2,sheffield,25.345123680320338,43964.94048123858
+YLLs (Years of Life Lost),Female,55 to 59,Ischemic heart disease,sheffield,454.2916316683543,43964.94048123858
+YLLs (Years of Life Lost),Female,55 to 59,Liver cancer,sheffield,61.719703634504896,43964.94048123858
+YLLs (Years of Life Lost),Female,55 to 59,Lower respiratory infections,sheffield,139.8174377662153,43964.94048123858
+YLLs (Years of Life Lost),Female,55 to 59,Neoplasms,sheffield,3220.89936319398,43964.94048123858
+YLLs (Years of Life Lost),Female,55 to 59,Road injuries,sheffield,22.0142809468418,43964.94048123858
+YLLs (Years of Life Lost),Female,55 to 59,Stomach cancer,sheffield,87.578178989575,43964.94048123858
+YLLs (Years of Life Lost),Female,55 to 59,Stroke,sheffield,224.08671769744723,43964.94048123858
+YLLs (Years of Life Lost),Female,55 to 59,"Tracheal, bronchus, and lung cancer",sheffield,772.2581879156552,43964.94048123858
+YLLs (Years of Life Lost),Female,55 to 59,Uterine cancer,sheffield,70.69170928284271,43964.94048123858
+YLLs (Years of Life Lost),Female,60 to 64,All causes,sheffield,7281.243390950289,37394.53333400559
+YLLs (Years of Life Lost),Female,60 to 64,Breast cancer,sheffield,650.5110065232057,37394.53333400559
+YLLs (Years of Life Lost),Female,60 to 64,Cardiovascular diseases,sheffield,1213.9606056701944,37394.53333400559
+YLLs (Years of Life Lost),Female,60 to 64,Chronic obstructive pulmonary disease,sheffield,555.5046651265183,37394.53333400559
+YLLs (Years of Life Lost),Female,60 to 64,Colon and rectum cancer,sheffield,313.52495415941945,37394.53333400559
+YLLs (Years of Life Lost),Female,60 to 64,Diabetes mellitus type 2,sheffield,38.57054188503261,37394.53333400559
+YLLs (Years of Life Lost),Female,60 to 64,Ischemic heart disease,sheffield,609.559022653366,37394.53333400559
+YLLs (Years of Life Lost),Female,60 to 64,Liver cancer,sheffield,78.97209040339983,37394.53333400559
+YLLs (Years of Life Lost),Female,60 to 64,Lower respiratory infections,sheffield,187.95771870939092,37394.53333400559
+YLLs (Years of Life Lost),Female,60 to 64,Neoplasms,sheffield,3965.216506040749,37394.53333400559
+YLLs (Years of Life Lost),Female,60 to 64,Road injuries,sheffield,19.091699745109388,37394.53333400559
+YLLs (Years of Life Lost),Female,60 to 64,Stomach cancer,sheffield,112.11783650456017,37394.53333400559
+YLLs (Years of Life Lost),Female,60 to 64,Stroke,sheffield,284.3036838322702,37394.53333400559
+YLLs (Years of Life Lost),Female,60 to 64,"Tracheal, bronchus, and lung cancer",sheffield,1104.7172536613066,37394.53333400559
+YLLs (Years of Life Lost),Female,60 to 64,Uterine cancer,sheffield,104.9429433280703,37394.53333400559
+YLLs (Years of Life Lost),Female,65 to 69,All causes,sheffield,9666.331572573792,36413.69823093218
+YLLs (Years of Life Lost),Female,65 to 69,Breast cancer,sheffield,669.0506660238984,36413.69823093218
+YLLs (Years of Life Lost),Female,65 to 69,Cardiovascular diseases,sheffield,1866.3160845386985,36413.69823093218
+YLLs (Years of Life Lost),Female,65 to 69,Chronic obstructive pulmonary disease,sheffield,911.8904050847725,36413.69823093218
+YLLs (Years of Life Lost),Female,65 to 69,Colon and rectum cancer,sheffield,386.6586836802553,36413.69823093218
+YLLs (Years of Life Lost),Female,65 to 69,Diabetes mellitus type 2,sheffield,52.64757290347285,36413.69823093218
+YLLs (Years of Life Lost),Female,65 to 69,Ischemic heart disease,sheffield,935.2742380455687,36413.69823093218
+YLLs (Years of Life Lost),Female,65 to 69,Liver cancer,sheffield,103.75745656229756,36413.69823093218
+YLLs (Years of Life Lost),Female,65 to 69,Lower respiratory infections,sheffield,255.84644425441527,36413.69823093218
+YLLs (Years of Life Lost),Female,65 to 69,Neoplasms,sheffield,4914.937972147191,36413.69823093218
+YLLs (Years of Life Lost),Female,65 to 69,Road injuries,sheffield,21.303539259789396,36413.69823093218
+YLLs (Years of Life Lost),Female,65 to 69,Stomach cancer,sheffield,145.34766946918882,36413.69823093218
+YLLs (Years of Life Lost),Female,65 to 69,Stroke,sheffield,440.8617569201794,36413.69823093218
+YLLs (Years of Life Lost),Female,65 to 69,"Tracheal, bronchus, and lung cancer",sheffield,1491.643937297753,36413.69823093218
+YLLs (Years of Life Lost),Female,65 to 69,Uterine cancer,sheffield,139.61862671828754,36413.69823093218
+YLLs (Years of Life Lost),Female,70 to 74,All causes,sheffield,10645.765649427873,32912.95430149214
+YLLs (Years of Life Lost),Female,70 to 74,Breast cancer,sheffield,558.2101329428007,32912.95430149214
+YLLs (Years of Life Lost),Female,70 to 74,Cardiovascular diseases,sheffield,2377.7082265342924,32912.95430149214
+YLLs (Years of Life Lost),Female,70 to 74,Chronic obstructive pulmonary disease,sheffield,1117.367289990432,32912.95430149214
+YLLs (Years of Life Lost),Female,70 to 74,Colon and rectum cancer,sheffield,382.9155885172322,32912.95430149214
+YLLs (Years of Life Lost),Female,70 to 74,Diabetes mellitus type 2,sheffield,68.08275392593228,32912.95430149214
+YLLs (Years of Life Lost),Female,70 to 74,Ischemic heart disease,sheffield,1136.5738745556423,32912.95430149214
+YLLs (Years of Life Lost),Female,70 to 74,Liver cancer,sheffield,106.99851736012324,32912.95430149214
+YLLs (Years of Life Lost),Female,70 to 74,Lower respiratory infections,sheffield,371.4013593060371,32912.95430149214
+YLLs (Years of Life Lost),Female,70 to 74,Neoplasms,sheffield,4666.52914312807,32912.95430149214
+YLLs (Years of Life Lost),Female,70 to 74,Road injuries,sheffield,20.14002971682984,32912.95430149214
+YLLs (Years of Life Lost),Female,70 to 74,Stomach cancer,sheffield,166.8067058171567,32912.95430149214
+YLLs (Years of Life Lost),Female,70 to 74,Stroke,sheffield,590.1863561016522,32912.95430149214
+YLLs (Years of Life Lost),Female,70 to 74,"Tracheal, bronchus, and lung cancer",sheffield,1384.4375843608395,32912.95430149214
+YLLs (Years of Life Lost),Female,70 to 74,Uterine cancer,sheffield,129.24298077774273,32912.95430149214
+YLLs (Years of Life Lost),Female,75 to 79,All causes,sheffield,11762.347386630592,25266.4950855469
+YLLs (Years of Life Lost),Female,75 to 79,Breast cancer,sheffield,476.6520946474284,25266.4950855469
+YLLs (Years of Life Lost),Female,75 to 79,Cardiovascular diseases,sheffield,3119.7984723347745,25266.4950855469
+YLLs (Years of Life Lost),Female,75 to 79,Chronic obstructive pulmonary disease,sheffield,1165.5432648089234,25266.4950855469
+YLLs (Years of Life Lost),Female,75 to 79,Colon and rectum cancer,sheffield,392.65855467877526,25266.4950855469
+YLLs (Years of Life Lost),Female,75 to 79,Diabetes mellitus type 2,sheffield,82.32072152676811,25266.4950855469
+YLLs (Years of Life Lost),Female,75 to 79,Ischemic heart disease,sheffield,1449.965756282704,25266.4950855469
+YLLs (Years of Life Lost),Female,75 to 79,Liver cancer,sheffield,105.74750704528574,25266.4950855469
+YLLs (Years of Life Lost),Female,75 to 79,Lower respiratory infections,sheffield,540.4701616938204,25266.4950855469
+YLLs (Years of Life Lost),Female,75 to 79,Neoplasms,sheffield,4089.4494597174235,25266.4950855469
+YLLs (Years of Life Lost),Female,75 to 79,Road injuries,sheffield,20.137539495677807,25266.4950855469
+YLLs (Years of Life Lost),Female,75 to 79,Stomach cancer,sheffield,188.61055260083856,25266.4950855469
+YLLs (Years of Life Lost),Female,75 to 79,Stroke,sheffield,852.1639740540228,25266.4950855469
+YLLs (Years of Life Lost),Female,75 to 79,"Tracheal, bronchus, and lung cancer",sheffield,1115.2519030434837,25266.4950855469
+YLLs (Years of Life Lost),Female,75 to 79,Uterine cancer,sheffield,99.53255854854689,25266.4950855469
+YLLs (Years of Life Lost),Female,80 to 84,All causes,sheffield,11795.481992223016,19375.059794937413
+YLLs (Years of Life Lost),Female,80 to 84,Breast cancer,sheffield,372.7337510371486,19375.059794937413
+YLLs (Years of Life Lost),Female,80 to 84,Cardiovascular diseases,sheffield,3572.203982580351,19375.059794937413
+YLLs (Years of Life Lost),Female,80 to 84,Chronic obstructive pulmonary disease,sheffield,1028.2530661421617,19375.059794937413
+YLLs (Years of Life Lost),Female,80 to 84,Colon and rectum cancer,sheffield,345.9611642089628,19375.059794937413
+YLLs (Years of Life Lost),Female,80 to 84,Diabetes mellitus type 2,sheffield,98.30913100757007,19375.059794937413
+YLLs (Years of Life Lost),Female,80 to 84,Ischemic heart disease,sheffield,1623.660942349127,19375.059794937413
+YLLs (Years of Life Lost),Female,80 to 84,Liver cancer,sheffield,78.36544181967783,19375.059794937413
+YLLs (Years of Life Lost),Female,80 to 84,Lower respiratory infections,sheffield,732.1910991186614,19375.059794937413
+YLLs (Years of Life Lost),Female,80 to 84,Neoplasms,sheffield,3008.77611331127,19375.059794937413
+YLLs (Years of Life Lost),Female,80 to 84,Road injuries,sheffield,15.935268256885598,19375.059794937413
+YLLs (Years of Life Lost),Female,80 to 84,Stomach cancer,sheffield,167.0285170060165,19375.059794937413
+YLLs (Years of Life Lost),Female,80 to 84,Stroke,sheffield,1026.456082269931,19375.059794937413
+YLLs (Years of Life Lost),Female,80 to 84,"Tracheal, bronchus, and lung cancer",sheffield,717.5703445295967,19375.059794937413
+YLLs (Years of Life Lost),Female,80 to 84,Uterine cancer,sheffield,66.58119295435353,19375.059794937413
+YLLs (Years of Life Lost),Female,85 to 89,All causes,sheffield,10391.283129483141,12126.826056968135
+YLLs (Years of Life Lost),Female,85 to 89,Breast cancer,sheffield,273.75320218752455,12126.826056968135
+YLLs (Years of Life Lost),Female,85 to 89,Cardiovascular diseases,sheffield,3342.279934005429,12126.826056968135
+YLLs (Years of Life Lost),Female,85 to 89,Chronic obstructive pulmonary disease,sheffield,695.9104969033283,12126.826056968135
+YLLs (Years of Life Lost),Female,85 to 89,Colon and rectum cancer,sheffield,256.67244520381286,12126.826056968135
+YLLs (Years of Life Lost),Female,85 to 89,Diabetes mellitus type 2,sheffield,81.90508880063332,12126.826056968135
+YLLs (Years of Life Lost),Female,85 to 89,Ischemic heart disease,sheffield,1497.7290046311869,12126.826056968135
+YLLs (Years of Life Lost),Female,85 to 89,Liver cancer,sheffield,48.47517587260014,12126.826056968135
+YLLs (Years of Life Lost),Female,85 to 89,Lower respiratory infections,sheffield,978.238328262643,12126.826056968135
+YLLs (Years of Life Lost),Female,85 to 89,Neoplasms,sheffield,1888.0614427749629,12126.826056968135
+YLLs (Years of Life Lost),Female,85 to 89,Road injuries,sheffield,8.62326558234042,12126.826056968135
+YLLs (Years of Life Lost),Female,85 to 89,Stomach cancer,sheffield,112.30550631588304,12126.826056968135
+YLLs (Years of Life Lost),Female,85 to 89,Stroke,sheffield,1006.4955201993552,12126.826056968135
+YLLs (Years of Life Lost),Female,85 to 89,"Tracheal, bronchus, and lung cancer",sheffield,368.2432846312865,12126.826056968135
+YLLs (Years of Life Lost),Female,85 to 89,Uterine cancer,sheffield,37.318334902531994,12126.826056968135
+YLLs (Years of Life Lost),Female,90 to 94,All causes,sheffield,5452.245432904434,5567.470754834946
+YLLs (Years of Life Lost),Female,90 to 94,Breast cancer,sheffield,114.09426694716258,5567.470754834946
+YLLs (Years of Life Lost),Female,90 to 94,Cardiovascular diseases,sheffield,1808.8233090220228,5567.470754834946
+YLLs (Years of Life Lost),Female,90 to 94,Chronic obstructive pulmonary disease,sheffield,324.94414060082136,5567.470754834946
+YLLs (Years of Life Lost),Female,90 to 94,Colon and rectum cancer,sheffield,111.14712879738515,5567.470754834946
+YLLs (Years of Life Lost),Female,90 to 94,Diabetes mellitus type 2,sheffield,41.761227843475,5567.470754834946
+YLLs (Years of Life Lost),Female,90 to 94,Ischemic heart disease,sheffield,812.1988125019338,5567.470754834946
+YLLs (Years of Life Lost),Female,90 to 94,Liver cancer,sheffield,15.959537489610646,5567.470754834946
+YLLs (Years of Life Lost),Female,90 to 94,Lower respiratory infections,sheffield,548.0746935711915,5567.470754834946
+YLLs (Years of Life Lost),Female,90 to 94,Neoplasms,sheffield,719.1618139560521,5567.470754834946
+YLLs (Years of Life Lost),Female,90 to 94,Road injuries,sheffield,3.448927706242174,5567.470754834946
+YLLs (Years of Life Lost),Female,90 to 94,Stomach cancer,sheffield,49.90877741392106,5567.470754834946
+YLLs (Years of Life Lost),Female,90 to 94,Stroke,sheffield,543.3590072005845,5567.470754834946
+YLLs (Years of Life Lost),Female,90 to 94,"Tracheal, bronchus, and lung cancer",sheffield,114.68262507743582,5567.470754834946
+YLLs (Years of Life Lost),Female,90 to 94,Uterine cancer,sheffield,12.655588400754445,5567.470754834946
+YLLs (Years of Life Lost),Female,95 to 99,All causes,sheffield,1681.0437236808575,1704.4608552428076
+YLLs (Years of Life Lost),Female,95 to 99,Breast cancer,sheffield,28.549758529831298,1704.4608552428076
+YLLs (Years of Life Lost),Female,95 to 99,Cardiovascular diseases,sheffield,568.4870842273184,1704.4608552428076
+YLLs (Years of Life Lost),Female,95 to 99,Chronic obstructive pulmonary disease,sheffield,98.97152877760418,1704.4608552428076
+YLLs (Years of Life Lost),Female,95 to 99,Colon and rectum cancer,sheffield,25.897044126069297,1704.4608552428076
+YLLs (Years of Life Lost),Female,95 to 99,Diabetes mellitus type 2,sheffield,13.057510818352881,1704.4608552428076
+YLLs (Years of Life Lost),Female,95 to 99,Ischemic heart disease,sheffield,256.9685332155454,1704.4608552428076
+YLLs (Years of Life Lost),Female,95 to 99,Liver cancer,sheffield,3.3000447168736238,1704.4608552428076
+YLLs (Years of Life Lost),Female,95 to 99,Lower respiratory infections,sheffield,192.46362475027743,1704.4608552428076
+YLLs (Years of Life Lost),Female,95 to 99,Neoplasms,sheffield,163.44401128053704,1704.4608552428076
+YLLs (Years of Life Lost),Female,95 to 99,Road injuries,sheffield,0.925892727942516,1704.4608552428076
+YLLs (Years of Life Lost),Female,95 to 99,Stomach cancer,sheffield,12.650892479379142,1704.4608552428076
+YLLs (Years of Life Lost),Female,95 to 99,Stroke,sheffield,177.84290523202395,1704.4608552428076
+YLLs (Years of Life Lost),Female,95 to 99,"Tracheal, bronchus, and lung cancer",sheffield,22.673984327971677,1704.4608552428076
+YLLs (Years of Life Lost),Female,95 to 99,Uterine cancer,sheffield,2.5863022032240455,1704.4608552428076
+YLLs (Years of Life Lost),Female,0 to 4,All causes,sheffield,3160.2629329230685,40225.63053716712
+YLLs (Years of Life Lost),Female,0 to 4,Cardiovascular diseases,sheffield,44.57946625972826,40225.63053716712
+YLLs (Years of Life Lost),Female,0 to 4,Chronic obstructive pulmonary disease,sheffield,2.98269083975854,40225.63053716712
+YLLs (Years of Life Lost),Female,0 to 4,Lower respiratory infections,sheffield,120.30902781264295,40225.63053716712
+YLLs (Years of Life Lost),Female,0 to 4,Neoplasms,sheffield,102.65241736158265,40225.63053716712
+YLLs (Years of Life Lost),Female,0 to 4,Road injuries,sheffield,19.230679641008482,40225.63053716712
+YLLs (Years of Life Lost),Female,0 to 4,Stroke,sheffield,7.53374100778803,40225.63053716712
+YLLs (Years of Life Lost),Male,10 to 14,All causes,sheffield,310.47996959085924,40597.01644448475
+YLLs (Years of Life Lost),Male,10 to 14,Cardiovascular diseases,sheffield,14.584264261227258,40597.01644448475
+YLLs (Years of Life Lost),Male,10 to 14,Chronic obstructive pulmonary disease,sheffield,0.8631375007442499,40597.01644448475
+YLLs (Years of Life Lost),Male,10 to 14,Liver cancer,sheffield,1.4217425445997853,40597.01644448475
+YLLs (Years of Life Lost),Male,10 to 14,Lower respiratory infections,sheffield,7.819997434177169,40597.01644448475
+YLLs (Years of Life Lost),Male,10 to 14,Neoplasms,sheffield,81.76086542302623,40597.01644448475
+YLLs (Years of Life Lost),Male,10 to 14,Road injuries,sheffield,40.326457019142225,40597.01644448475
+YLLs (Years of Life Lost),Male,10 to 14,Stroke,sheffield,3.909342225620473,40597.01644448475
+YLLs (Years of Life Lost),Male,15 to 19,All causes,sheffield,979.8337127045896,41471.28707151522
+YLLs (Years of Life Lost),Male,15 to 19,Breast cancer,sheffield,0.3055627249976193,41471.28707151522
+YLLs (Years of Life Lost),Male,15 to 19,Cardiovascular diseases,sheffield,45.34415137207092,41471.28707151522
+YLLs (Years of Life Lost),Male,15 to 19,Chronic obstructive pulmonary disease,sheffield,2.7466367748140246,41471.28707151522
+YLLs (Years of Life Lost),Male,15 to 19,Colon and rectum cancer,sheffield,1.5223830909916911,41471.28707151522
+YLLs (Years of Life Lost),Male,15 to 19,Diabetes mellitus type 2,sheffield,0.32341858949130786,41471.28707151522
+YLLs (Years of Life Lost),Male,15 to 19,Ischemic heart disease,sheffield,4.114962609003143,41471.28707151522
+YLLs (Years of Life Lost),Male,15 to 19,Liver cancer,sheffield,2.2880196409233533,41471.28707151522
+YLLs (Years of Life Lost),Male,15 to 19,Lower respiratory infections,sheffield,12.49715779418921,41471.28707151522
+YLLs (Years of Life Lost),Male,15 to 19,Neoplasms,sheffield,123.54388663179702,41471.28707151522
+YLLs (Years of Life Lost),Male,15 to 19,Road injuries,sheffield,245.35710750220392,41471.28707151522
+YLLs (Years of Life Lost),Male,15 to 19,Stomach cancer,sheffield,0.7428143215756358,41471.28707151522
+YLLs (Years of Life Lost),Male,15 to 19,Stroke,sheffield,10.900964824189614,41471.28707151522
+YLLs (Years of Life Lost),Male,15 to 19,"Tracheal, bronchus, and lung cancer",sheffield,0.5368035474469537,41471.28707151522
+YLLs (Years of Life Lost),Male,20 to 24,All causes,sheffield,1889.1276159613192,49734.43575450948
+YLLs (Years of Life Lost),Male,20 to 24,Breast cancer,sheffield,0.3518426935288176,49734.43575450948
+YLLs (Years of Life Lost),Male,20 to 24,Cardiovascular diseases,sheffield,90.33682387210852,49734.43575450948
+YLLs (Years of Life Lost),Male,20 to 24,Chronic obstructive pulmonary disease,sheffield,4.227577294099289,49734.43575450948
+YLLs (Years of Life Lost),Male,20 to 24,Colon and rectum cancer,sheffield,6.015943472687915,49734.43575450948
+YLLs (Years of Life Lost),Male,20 to 24,Diabetes mellitus type 2,sheffield,0.6813861683182716,49734.43575450948
+YLLs (Years of Life Lost),Male,20 to 24,Ischemic heart disease,sheffield,15.709950595547152,49734.43575450948
+YLLs (Years of Life Lost),Male,20 to 24,Liver cancer,sheffield,4.055189005251204,49734.43575450948
+YLLs (Years of Life Lost),Male,20 to 24,Lower respiratory infections,sheffield,20.053856349745143,49734.43575450948
+YLLs (Years of Life Lost),Male,20 to 24,Neoplasms,sheffield,174.87323796428862,49734.43575450948
+YLLs (Years of Life Lost),Male,20 to 24,Road injuries,sheffield,386.1130768775714,49734.43575450948
+YLLs (Years of Life Lost),Male,20 to 24,Stomach cancer,sheffield,2.2338218171006607,49734.43575450948
+YLLs (Years of Life Lost),Male,20 to 24,Stroke,sheffield,22.10427853309954,49734.43575450948
+YLLs (Years of Life Lost),Male,20 to 24,"Tracheal, bronchus, and lung cancer",sheffield,2.4398950580325263,49734.43575450948
+YLLs (Years of Life Lost),Male,25 to 29,All causes,sheffield,2001.3984414798683,53188.05264420935
+YLLs (Years of Life Lost),Male,25 to 29,Breast cancer,sheffield,0.3905210392958185,53188.05264420935
+YLLs (Years of Life Lost),Male,25 to 29,Cardiovascular diseases,sheffield,148.79517766418704,53188.05264420935
+YLLs (Years of Life Lost),Male,25 to 29,Chronic obstructive pulmonary disease,sheffield,4.7453856353065325,53188.05264420935
+YLLs (Years of Life Lost),Male,25 to 29,Colon and rectum cancer,sheffield,14.827371762600803,53188.05264420935
+YLLs (Years of Life Lost),Male,25 to 29,Diabetes mellitus type 2,sheffield,0.9960679367871161,53188.05264420935
+YLLs (Years of Life Lost),Male,25 to 29,Ischemic heart disease,sheffield,47.20165720369458,53188.05264420935
+YLLs (Years of Life Lost),Male,25 to 29,Liver cancer,sheffield,5.89875439231907,53188.05264420935
+YLLs (Years of Life Lost),Male,25 to 29,Lower respiratory infections,sheffield,27.764621906015535,53188.05264420935
+YLLs (Years of Life Lost),Male,25 to 29,Neoplasms,sheffield,212.16404108277865,53188.05264420935
+YLLs (Years of Life Lost),Male,25 to 29,Road injuries,sheffield,250.7258267374102,53188.05264420935
+YLLs (Years of Life Lost),Male,25 to 29,Stomach cancer,sheffield,5.631314790733886,53188.05264420935
+YLLs (Years of Life Lost),Male,25 to 29,Stroke,sheffield,34.10223188598531,53188.05264420935
+YLLs (Years of Life Lost),Male,25 to 29,"Tracheal, bronchus, and lung cancer",sheffield,5.102221677022268,53188.05264420935
+YLLs (Years of Life Lost),Male,30 to 34,All causes,sheffield,2215.4432231412857,48379.92392416743
+YLLs (Years of Life Lost),Male,30 to 34,Breast cancer,sheffield,0.6347995294843796,48379.92392416743
+YLLs (Years of Life Lost),Male,30 to 34,Cardiovascular diseases,sheffield,243.18807225048607,48379.92392416743
+YLLs (Years of Life Lost),Male,30 to 34,Chronic obstructive pulmonary disease,sheffield,6.972937357490588,48379.92392416743
+YLLs (Years of Life Lost),Male,30 to 34,Colon and rectum cancer,sheffield,31.945313157615274,48379.92392416743
+YLLs (Years of Life Lost),Male,30 to 34,Diabetes mellitus type 2,sheffield,3.793409355876338,48379.92392416743
+YLLs (Years of Life Lost),Male,30 to 34,Ischemic heart disease,sheffield,106.19303607355562,48379.92392416743
+YLLs (Years of Life Lost),Male,30 to 34,Liver cancer,sheffield,9.512232174985401,48379.92392416743
+YLLs (Years of Life Lost),Male,30 to 34,Lower respiratory infections,sheffield,38.866866941329555,48379.92392416743
+YLLs (Years of Life Lost),Male,30 to 34,Neoplasms,sheffield,287.72734810391324,48379.92392416743
+YLLs (Years of Life Lost),Male,30 to 34,Road injuries,sheffield,160.867433099828,48379.92392416743
+YLLs (Years of Life Lost),Male,30 to 34,Stomach cancer,sheffield,12.917826887341716,48379.92392416743
+YLLs (Years of Life Lost),Male,30 to 34,Stroke,sheffield,48.986463219866536,48379.92392416743
+YLLs (Years of Life Lost),Male,30 to 34,"Tracheal, bronchus, and lung cancer",sheffield,14.691883327188089,48379.92392416743
+YLLs (Years of Life Lost),Male,35 to 39,All causes,sheffield,2911.2646679763334,45744.64492265842
+YLLs (Years of Life Lost),Male,35 to 39,Breast cancer,sheffield,1.5371530621591942,45744.64492265842
+YLLs (Years of Life Lost),Male,35 to 39,Cardiovascular diseases,sheffield,465.01901395242646,45744.64492265842
+YLLs (Years of Life Lost),Male,35 to 39,Chronic obstructive pulmonary disease,sheffield,17.37340835814404,45744.64492265842
+YLLs (Years of Life Lost),Male,35 to 39,Colon and rectum cancer,sheffield,55.631366390529436,45744.64492265842
+YLLs (Years of Life Lost),Male,35 to 39,Diabetes mellitus type 2,sheffield,5.981305504598487,45744.64492265842
+YLLs (Years of Life Lost),Male,35 to 39,Ischemic heart disease,sheffield,251.074484248492,45744.64492265842
+YLLs (Years of Life Lost),Male,35 to 39,Liver cancer,sheffield,12.105656129638957,45744.64492265842
+YLLs (Years of Life Lost),Male,35 to 39,Lower respiratory infections,sheffield,58.23169475689586,45744.64492265842
+YLLs (Years of Life Lost),Male,35 to 39,Neoplasms,sheffield,458.7287291634732,45744.64492265842
+YLLs (Years of Life Lost),Male,35 to 39,Road injuries,sheffield,138.69782195107365,45744.64492265842
+YLLs (Years of Life Lost),Male,35 to 39,Stomach cancer,sheffield,27.437911402599216,45744.64492265842
+YLLs (Years of Life Lost),Male,35 to 39,Stroke,sheffield,85.11572647066241,45744.64492265842
+YLLs (Years of Life Lost),Male,35 to 39,"Tracheal, bronchus, and lung cancer",sheffield,44.632011797126125,45744.64492265842
+YLLs (Years of Life Lost),Male,40 to 44,All causes,sheffield,3637.970571702595,42424.13266414138
+YLLs (Years of Life Lost),Male,40 to 44,Breast cancer,sheffield,2.406399819647715,42424.13266414138
+YLLs (Years of Life Lost),Male,40 to 44,Cardiovascular diseases,sheffield,776.6421710418743,42424.13266414138
+YLLs (Years of Life Lost),Male,40 to 44,Chronic obstructive pulmonary disease,sheffield,42.62604348803448,42424.13266414138
+YLLs (Years of Life Lost),Male,40 to 44,Colon and rectum cancer,sheffield,86.439253250995293,42424.13266414138
+YLLs (Years of Life Lost),Male,40 to 44,Diabetes mellitus type 2,sheffield,7.84321250711879,42424.13266414138
+YLLs (Years of Life Lost),Male,40 to 44,Ischemic heart disease,sheffield,462.8248470011741,42424.13266414138
+YLLs (Years of Life Lost),Male,40 to 44,Liver cancer,sheffield,22.01722946199543,42424.13266414138
+YLLs (Years of Life Lost),Male,40 to 44,Lower respiratory infections,sheffield,81.25396220600906,42424.13266414138
+YLLs (Years of Life Lost),Male,40 to 44,Neoplasms,sheffield,748.0314663537979,42424.13266414138
+YLLs (Years of Life Lost),Male,40 to 44,Road injuries,sheffield,115.09452085061801,42424.13266414138
+YLLs (Years of Life Lost),Male,40 to 44,Stomach cancer,sheffield,45.49646190818412,42424.13266414138
+YLLs (Years of Life Lost),Male,40 to 44,Stroke,sheffield,124.56609696239227,42424.13266414138
+YLLs (Years of Life Lost),Male,40 to 44,"Tracheal, bronchus, and lung cancer",sheffield,110.28660129658005,42424.13266414138
+YLLs (Years of Life Lost),Male,45 to 49,All causes,sheffield,5405.835774890963,49420.484102665694
+YLLs (Years of Life Lost),Male,45 to 49,Breast cancer,sheffield,4.164332581753261,49420.484102665694
+YLLs (Years of Life Lost),Male,45 to 49,Cardiovascular diseases,sheffield,1457.7831907194616,49420.484102665694
+YLLs (Years of Life Lost),Male,45 to 49,Chronic obstructive pulmonary disease,sheffield,92.25445360977145,49420.484102665694
+YLLs (Years of Life Lost),Male,45 to 49,Colon and rectum cancer,sheffield,167.94028303745432,49420.484102665694
+YLLs (Years of Life Lost),Male,45 to 49,Diabetes mellitus type 2,sheffield,29.27353643705982,49420.484102665694
+YLLs (Years of Life Lost),Male,45 to 49,Ischemic heart disease,sheffield,955.5195822291145,49420.484102665694
+YLLs (Years of Life Lost),Male,45 to 49,Liver cancer,sheffield,48.09327951338237,49420.484102665694
+YLLs (Years of Life Lost),Male,45 to 49,Lower respiratory infections,sheffield,127.53664435329254,49420.484102665694
+YLLs (Years of Life Lost),Male,45 to 49,Neoplasms,sheffield,1456.3551665844118,49420.484102665694
+YLLs (Years of Life Lost),Male,45 to 49,Road injuries,sheffield,106.93734259761848,49420.484102665694
+YLLs (Years of Life Lost),Male,45 to 49,Stomach cancer,sheffield,87.57863922312242,49420.484102665694
+YLLs (Years of Life Lost),Male,45 to 49,Stroke,sheffield,207.86483444272176,49420.484102665694
+YLLs (Years of Life Lost),Male,45 to 49,"Tracheal, bronchus, and lung cancer",sheffield,281.19268982410347,49420.484102665694
+YLLs (Years of Life Lost),Male,5 to 9,All causes,sheffield,289.7846800516489,45125.281781319536
+YLLs (Years of Life Lost),Male,5 to 9,Cardiovascular diseases,sheffield,9.019720115020426,45125.281781319536
+YLLs (Years of Life Lost),Male,5 to 9,Chronic obstructive pulmonary disease,sheffield,0.7570996404749262,45125.281781319536
+YLLs (Years of Life Lost),Male,5 to 9,Liver cancer,sheffield,1.2949102934085173,45125.281781319536
+YLLs (Years of Life Lost),Male,5 to 9,Lower respiratory infections,sheffield,10.355263284318903,45125.281781319536
+YLLs (Years of Life Lost),Male,5 to 9,Neoplasms,sheffield,101.11152688354242,45125.281781319536
+YLLs (Years of Life Lost),Male,5 to 9,Road injuries,sheffield,23.080968811401483,45125.281781319536
+YLLs (Years of Life Lost),Male,5 to 9,Stroke,sheffield,2.40369283154126,45125.281781319536
+YLLs (Years of Life Lost),Male,50 to 54,All causes,sheffield,6277.406970576177,49771.065031783386
+YLLs (Years of Life Lost),Male,50 to 54,Breast cancer,sheffield,5.779987293742655,49771.065031783386
+YLLs (Years of Life Lost),Male,50 to 54,Cardiovascular diseases,sheffield,1842.6486401592078,49771.065031783386
+YLLs (Years of Life Lost),Male,50 to 54,Chronic obstructive pulmonary disease,sheffield,162.58492883180168,49771.065031783386
+YLLs (Years of Life Lost),Male,50 to 54,Colon and rectum cancer,sheffield,247.9371427307526,49771.065031783386
+YLLs (Years of Life Lost),Male,50 to 54,Diabetes mellitus type 2,sheffield,31.21684336942819,49771.065031783386
+YLLs (Years of Life Lost),Male,50 to 54,Ischemic heart disease,sheffield,1274.9524928527437,49771.065031783386
+YLLs (Years of Life Lost),Male,50 to 54,Liver cancer,sheffield,75.77954301588687,49771.065031783386
+YLLs (Years of Life Lost),Male,50 to 54,Lower respiratory infections,sheffield,152.02915957244505,49771.065031783386
+YLLs (Years of Life Lost),Male,50 to 54,Neoplasms,sheffield,2183.497249118201,49771.065031783386
+YLLs (Years of Life Lost),Male,50 to 54,Road injuries,sheffield,82.48360034426193,49771.065031783386
+YLLs (Years of Life Lost),Male,50 to 54,Stomach cancer,sheffield,121.92319943125902,49771.065031783386
+YLLs (Years of Life Lost),Male,50 to 54,Stroke,sheffield,236.42546333226198,49771.065031783386
+YLLs (Years of Life Lost),Male,50 to 54,"Tracheal, bronchus, and lung cancer",sheffield,500.6480534010846,49771.065031783386
+YLLs (Years of Life Lost),Male,55 to 59,All causes,sheffield,8488.631188554044,44260.8019592883
+YLLs (Years of Life Lost),Male,55 to 59,Breast cancer,sheffield,8.69229888652635,44260.8019592883
+YLLs (Years of Life Lost),Male,55 to 59,Cardiovascular diseases,sheffield,2549.2795048718167,44260.8019592883
+YLLs (Years of Life Lost),Male,55 to 59,Chronic obstructive pulmonary disease,sheffield,322.9051544217275,44260.8019592883
+YLLs (Years of Life Lost),Male,55 to 59,Colon and rectum cancer,sheffield,400.9069558127899,44260.8019592883
+YLLs (Years of Life Lost),Male,55 to 59,Diabetes mellitus type 2,sheffield,41.937336995131986,44260.8019592883
+YLLs (Years of Life Lost),Male,55 to 59,Ischemic heart disease,sheffield,1786.8530043515445,44260.8019592883
+YLLs (Years of Life Lost),Male,55 to 59,Liver cancer,sheffield,121.07645035530832,44260.8019592883
+YLLs (Years of Life Lost),Male,55 to 59,Lower respiratory infections,sheffield,186.98773404567117,44260.8019592883
+YLLs (Years of Life Lost),Male,55 to 59,Neoplasms,sheffield,3489.867489293943,44260.8019592883
+YLLs (Years of Life Lost),Male,55 to 59,Road injuries,sheffield,67.16617099796733,44260.8019592883
+YLLs (Years of Life Lost),Male,55 to 59,Stomach cancer,sheffield,178.8787827433563,44260.8019592883
+YLLs (Years of Life Lost),Male,55 to 59,Stroke,sheffield,314.5005562993539,44260.8019592883
+YLLs (Years of Life Lost),Male,55 to 59,"Tracheal, bronchus, and lung cancer",sheffield,925.1221247256979,44260.8019592883
+YLLs (Years of Life Lost),Male,60 to 64,All causes,sheffield,10506.272867735048,37213.037417394116
+YLLs (Years of Life Lost),Male,60 to 64,Breast cancer,sheffield,12.522337516044848,37213.037417394116
+YLLs (Years of Life Lost),Male,60 to 64,Cardiovascular diseases,sheffield,3046.9501247602466,37213.037417394116
+YLLs (Years of Life Lost),Male,60 to 64,Chronic obstructive pulmonary disease,sheffield,602.8842911979368,37213.037417394116
+YLLs (Years of Life Lost),Male,60 to 64,Colon and rectum cancer,sheffield,515.7843236565134,37213.037417394116
+YLLs (Years of Life Lost),Male,60 to 64,Diabetes mellitus type 2,sheffield,61.07366518207726,37213.037417394116
+YLLs (Years of Life Lost),Male,60 to 64,Ischemic heart disease,sheffield,2099.797090404777,37213.037417394116
+YLLs (Years of Life Lost),Male,60 to 64,Liver cancer,sheffield,150.5028720647123,37213.037417394116
+YLLs (Years of Life Lost),Male,60 to 64,Lower respiratory infections,sheffield,244.8687791671651,37213.037417394116
+YLLs (Years of Life Lost),Male,60 to 64,Neoplasms,sheffield,4727.581738739188,37213.037417394116
+YLLs (Years of Life Lost),Male,60 to 64,Road injuries,sheffield,51.0616444227062,37213.037417394116
+YLLs (Years of Life Lost),Male,60 to 64,Stomach cancer,sheffield,243.77161059530073,37213.037417394116
+YLLs (Years of Life Lost),Male,60 to 64,Stroke,sheffield,382.2428580498252,37213.037417394116
+YLLs (Years of Life Lost),Male,60 to 64,"Tracheal, bronchus, and lung cancer",sheffield,1384.5397496589517,37213.037417394116
+YLLs (Years of Life Lost),Male,65 to 69,All causes,sheffield,13443.587894635224,35594.25243038589
+YLLs (Years of Life Lost),Male,65 to 69,Breast cancer,sheffield,15.871086082167121,35594.25243038589
+YLLs (Years of Life Lost),Male,65 to 69,Cardiovascular diseases,sheffield,3858.338316834758,35594.25243038589
+YLLs (Years of Life Lost),Male,65 to 69,Chronic obstructive pulmonary disease,sheffield,960.6271957490502,35594.25243038589
+YLLs (Years of Life Lost),Male,65 to 69,Colon and rectum cancer,sheffield,652.5214452320831,35594.25243038589
+YLLs (Years of Life Lost),Male,65 to 69,Diabetes mellitus type 2,sheffield,81.48973937160449,35594.25243038589
+YLLs (Years of Life Lost),Male,65 to 69,Ischemic heart disease,sheffield,2571.9944077985083,35594.25243038589
+YLLs (Years of Life Lost),Male,65 to 69,Liver cancer,sheffield,186.83607753397655,35594.25243038589
+YLLs (Years of Life Lost),Male,65 to 69,Lower respiratory infections,sheffield,336.50824734579976,35594.25243038589
+YLLs (Years of Life Lost),Male,65 to 69,Neoplasms,sheffield,6153.385749877299,35594.25243038589
+YLLs (Years of Life Lost),Male,65 to 69,Road injuries,sheffield,43.27978651026653,35594.25243038589
+YLLs (Years of Life Lost),Male,65 to 69,Stomach cancer,sheffield,332.75637940112244,35594.25243038589
+YLLs (Years of Life Lost),Male,65 to 69,Stroke,sheffield,539.407496070432,35594.25243038589
+YLLs (Years of Life Lost),Male,65 to 69,"Tracheal, bronchus, and lung cancer",sheffield,1887.3809088854114,35594.25243038589
+YLLs (Years of Life Lost),Male,70 to 74,All causes,sheffield,13991.25882483202,30209.91461355498
+YLLs (Years of Life Lost),Male,70 to 74,Breast cancer,sheffield,16.004256136953632,30209.91461355498
+YLLs (Years of Life Lost),Male,70 to 74,Cardiovascular diseases,sheffield,4094.068983885552,30209.91461355498
+YLLs (Years of Life Lost),Male,70 to 74,Chronic obstructive pulmonary disease,sheffield,1160.1369748131272,30209.91461355498
+YLLs (Years of Life Lost),Male,70 to 74,Colon and rectum cancer,sheffield,640.8397012453519,30209.91461355498
+YLLs (Years of Life Lost),Male,70 to 74,Diabetes mellitus type 2,sheffield,91.79040173812261,30209.91461355498
+YLLs (Years of Life Lost),Male,70 to 74,Ischemic heart disease,sheffield,2568.8351860186763,30209.91461355498
+YLLs (Years of Life Lost),Male,70 to 74,Liver cancer,sheffield,175.94943067132724,30209.91461355498
+YLLs (Years of Life Lost),Male,70 to 74,Lower respiratory infections,sheffield,432.0825212428308,30209.91461355498
+YLLs (Years of Life Lost),Male,70 to 74,Neoplasms,sheffield,6008.40565896689,30209.91461355498
+YLLs (Years of Life Lost),Male,70 to 74,Road injuries,sheffield,33.229537447505585,30209.91461355498
+YLLs (Years of Life Lost),Male,70 to 74,Stomach cancer,sheffield,346.1060265976648,30209.91461355498
+YLLs (Years of Life Lost),Male,70 to 74,Stroke,sheffield,691.2519614131359,30209.91461355498
+YLLs (Years of Life Lost),Male,70 to 74,"Tracheal, bronchus, and lung cancer",sheffield,1771.377707926564,30209.91461355498
+YLLs (Years of Life Lost),Male,75 to 79,All causes,sheffield,13793.06083658823,21267.42423491765
+YLLs (Years of Life Lost),Male,75 to 79,Breast cancer,sheffield,13.061270465305563,21267.42423491765
+YLLs (Years of Life Lost),Male,75 to 79,Cardiovascular diseases,sheffield,4252.114191918004,21267.42423491765
+YLLs (Years of Life Lost),Male,75 to 79,Chronic obstructive pulmonary disease,sheffield,1192.3419979378173,21267.42423491765
+YLLs (Years of Life Lost),Male,75 to 79,Colon and rectum cancer,sheffield,565.176400709335,21267.42423491765
+YLLs (Years of Life Lost),Male,75 to 79,Diabetes mellitus type 2,sheffield,96.02853366717325,21267.42423491765
+YLLs (Years of Life Lost),Male,75 to 79,Ischemic heart disease,sheffield,2545.095026338206,21267.42423491765
+YLLs (Years of Life Lost),Male,75 to 79,Liver cancer,sheffield,139.18606168528044,21267.42423491765
+YLLs (Years of Life Lost),Male,75 to 79,Lower respiratory infections,sheffield,558.9904642408554,21267.42423491765
+YLLs (Years of Life Lost),Male,75 to 79,Neoplasms,sheffield,5081.609983356416,21267.42423491765
+YLLs (Years of Life Lost),Male,75 to 79,Road injuries,sheffield,27.148704786386023,21267.42423491765
+YLLs (Years of Life Lost),Male,75 to 79,Stomach cancer,sheffield,329.1246730394979,21267.42423491765
+YLLs (Years of Life Lost),Male,75 to 79,Stroke,sheffield,844.0988173297849,21267.42423491765
+YLLs (Years of Life Lost),Male,75 to 79,"Tracheal, bronchus, and lung cancer",sheffield,1392.2710205401984,21267.42423491765
+YLLs (Years of Life Lost),Male,80 to 84,All causes,sheffield,11819.668534468225,14293.187352377716
+YLLs (Years of Life Lost),Male,80 to 84,Breast cancer,sheffield,9.061145054781614,14293.187352377716
+YLLs (Years of Life Lost),Male,80 to 84,Cardiovascular diseases,sheffield,3750.978395481216,14293.187352377716
+YLLs (Years of Life Lost),Male,80 to 84,Chronic obstructive pulmonary disease,sheffield,1005.6974582047994,14293.187352377716
+YLLs (Years of Life Lost),Male,80 to 84,Colon and rectum cancer,sheffield,420.1636908469905,14293.187352377716
+YLLs (Years of Life Lost),Male,80 to 84,Diabetes mellitus type 2,sheffield,87.44078566817237,14293.187352377716
+YLLs (Years of Life Lost),Male,80 to 84,Ischemic heart disease,sheffield,2149.637910496582,14293.187352377716
+YLLs (Years of Life Lost),Male,80 to 84,Liver cancer,sheffield,86.56085827441291,14293.187352377716
+YLLs (Years of Life Lost),Male,80 to 84,Lower respiratory infections,sheffield,635.4948115908605,14293.187352377716
+YLLs (Years of Life Lost),Male,80 to 84,Neoplasms,sheffield,3618.4908126967,14293.187352377716
+YLLs (Years of Life Lost),Male,80 to 84,Road injuries,sheffield,19.317638811370752,14293.187352377716
+YLLs (Years of Life Lost),Male,80 to 84,Stomach cancer,sheffield,247.13338734791273,14293.187352377716
+YLLs (Years of Life Lost),Male,80 to 84,Stroke,sheffield,829.746609141736,14293.187352377716
+YLLs (Years of Life Lost),Male,80 to 84,"Tracheal, bronchus, and lung cancer",sheffield,864.403158256566,14293.187352377716
+YLLs (Years of Life Lost),Male,85 to 89,All causes,sheffield,8242.488904467693,7373.41019308561
+YLLs (Years of Life Lost),Male,85 to 89,Breast cancer,sheffield,5.139897338448354,7373.41019308561
+YLLs (Years of Life Lost),Male,85 to 89,Cardiovascular diseases,sheffield,2628.093047253488,7373.41019308561
+YLLs (Years of Life Lost),Male,85 to 89,Chronic obstructive pulmonary disease,sheffield,664.7185378452631,7373.41019308561
+YLLs (Years of Life Lost),Male,85 to 89,Colon and rectum cancer,sheffield,240.3765756351448,7373.41019308561
+YLLs (Years of Life Lost),Male,85 to 89,Diabetes mellitus type 2,sheffield,61.90714632017101,7373.41019308561
+YLLs (Years of Life Lost),Male,85 to 89,Ischemic heart disease,sheffield,1459.2489076483155,7373.41019308561
+YLLs (Years of Life Lost),Male,85 to 89,Liver cancer,sheffield,40.22435158977036,7373.41019308561
+YLLs (Years of Life Lost),Male,85 to 89,Lower respiratory infections,sheffield,692.8958288474556,7373.41019308561
+YLLs (Years of Life Lost),Male,85 to 89,Neoplasms,sheffield,2018.052727628528,7373.41019308561
+YLLs (Years of Life Lost),Male,85 to 89,Road injuries,sheffield,10.511128505987672,7373.41019308561
+YLLs (Years of Life Lost),Male,85 to 89,Stomach cancer,sheffield,134.99758881767733,7373.41019308561
+YLLs (Years of Life Lost),Male,85 to 89,Stroke,sheffield,623.8174092577057,7373.41019308561
+YLLs (Years of Life Lost),Male,85 to 89,"Tracheal, bronchus, and lung cancer",sheffield,427.8575731083482,7373.41019308561
+YLLs (Years of Life Lost),Male,90 to 94,All causes,sheffield,3178.3135981435216,2704.6095236582764
+YLLs (Years of Life Lost),Male,90 to 94,Breast cancer,sheffield,1.9822406363473342,2704.6095236582764
+YLLs (Years of Life Lost),Male,90 to 94,Cardiovascular diseases,sheffield,1068.2017245879663,2704.6095236582764
+YLLs (Years of Life Lost),Male,90 to 94,Chronic obstructive pulmonary disease,sheffield,245.7840316764612,2704.6095236582764
+YLLs (Years of Life Lost),Male,90 to 94,Colon and rectum cancer,sheffield,76.169573686379,2704.6095236582764
+YLLs (Years of Life Lost),Male,90 to 94,Diabetes mellitus type 2,sheffield,24.45935226096882,2704.6095236582764
+YLLs (Years of Life Lost),Male,90 to 94,Ischemic heart disease,sheffield,590.4709803113857,2704.6095236582764
+YLLs (Years of Life Lost),Male,90 to 94,Liver cancer,sheffield,9.643781092181397,2704.6095236582764
+YLLs (Years of Life Lost),Male,90 to 94,Lower respiratory infections,sheffield,293.231084508052,2704.6095236582764
+YLLs (Years of Life Lost),Male,90 to 94,Neoplasms,sheffield,602.0976290872499,2704.6095236582764
+YLLs (Years of Life Lost),Male,90 to 94,Road injuries,sheffield,3.2587582050256,2704.6095236582764
+YLLs (Years of Life Lost),Male,90 to 94,Stomach cancer,sheffield,43.66013966098956,2704.6095236582764
+YLLs (Years of Life Lost),Male,90 to 94,Stroke,sheffield,263.87909401649785,2704.6095236582764
+YLLs (Years of Life Lost),Male,90 to 94,"Tracheal, bronchus, and lung cancer",sheffield,98.87333619824585,2704.6095236582764
+YLLs (Years of Life Lost),Male,95 to 99,All causes,sheffield,577.0228440905706,529.7230257513099
+YLLs (Years of Life Lost),Male,95 to 99,Breast cancer,sheffield,0.385201830351353,529.7230257513099
+YLLs (Years of Life Lost),Male,95 to 99,Cardiovascular diseases,sheffield,205.68131682720906,529.7230257513099
+YLLs (Years of Life Lost),Male,95 to 99,Chronic obstructive pulmonary disease,sheffield,44.74914187745839,529.7230257513099
+YLLs (Years of Life Lost),Male,95 to 99,Colon and rectum cancer,sheffield,10.699462538964863,529.7230257513099
+YLLs (Years of Life Lost),Male,95 to 99,Diabetes mellitus type 2,sheffield,4.760087974733415,529.7230257513099
+YLLs (Years of Life Lost),Male,95 to 99,Ischemic heart disease,sheffield,112.10942231207014,529.7230257513099
+YLLs (Years of Life Lost),Male,95 to 99,Liver cancer,sheffield,1.1556247361864018,529.7230257513099
+YLLs (Years of Life Lost),Male,95 to 99,Lower respiratory infections,sheffield,62.42395215932055,529.7230257513099
+YLLs (Years of Life Lost),Male,95 to 99,Neoplasms,sheffield,84.07533006939174,529.7230257513099
+YLLs (Years of Life Lost),Male,95 to 99,Road injuries,sheffield,0.5489357640304031,529.7230257513099
+YLLs (Years of Life Lost),Male,95 to 99,Stomach cancer,sheffield,6.792835820435249,529.7230257513099
+YLLs (Years of Life Lost),Male,95 to 99,Stroke,sheffield,54.986694415038585,529.7230257513099
+YLLs (Years of Life Lost),Male,95 to 99,"Tracheal, bronchus, and lung cancer",sheffield,10.584877976755578,529.7230257513099
+YLLs (Years of Life Lost),Male,0 to 4,All causes,sheffield,3680.1596367902807,42470.485732048335
+YLLs (Years of Life Lost),Male,0 to 4,Cardiovascular diseases,sheffield,48.000430215079604,42470.485732048335
+YLLs (Years of Life Lost),Male,0 to 4,Chronic obstructive pulmonary disease,sheffield,2.213411368859299,42470.485732048335
+YLLs (Years of Life Lost),Male,0 to 4,Lower respiratory infections,sheffield,125.14814567092199,42470.485732048335
+YLLs (Years of Life Lost),Male,0 to 4,Neoplasms,sheffield,103.4371963139398,42470.485732048335
+YLLs (Years of Life Lost),Male,0 to 4,Road injuries,sheffield,23.08121450597254,42470.485732048335
+YLLs (Years of Life Lost),Male,0 to 4,Stroke,sheffield,6.668828365794279,42470.485732048335

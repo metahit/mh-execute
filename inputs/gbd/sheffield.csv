@@ -1,5 +1,6 @@
 measure,sex,age,cause,cityregion,number,pop
 Deaths,Female,0 to 5,all causes,sheffield,30.65401955615579,40141.64807808504
+Deaths,Female,0 to 5,cardiomyopathy and myocarditis,sheffield,0.19840943968184027,40141.64807808503
 Deaths,Female,0 to 5,cardiovascular diseases,sheffield,0.4566243841937816,40141.648078085054
 Deaths,Female,0 to 5,chronic myeloid leukemia,sheffield,0.0051167631455026775,40141.648078084996
 Deaths,Female,0 to 5,chronic obstructive pulmonary disease,sheffield,0.01509072248767809,40141.64807808504
@@ -13,9 +14,11 @@ Deaths,Female,0 to 5,neoplasms,sheffield,1.0562924444392787,40141.64807808499
 Deaths,Female,0 to 5,other road injuries,sheffield,0.007086159389395339,40141.64807808507
 Deaths,Female,0 to 5,other transport injuries,sheffield,0.015069921969057995,40141.64807808503
 Deaths,Female,0 to 5,pedestrian road injuries,sheffield,0.08040139027266363,40141.64807808504
+Deaths,Female,0 to 5,rheumatic heart disease,sheffield,0.006620725868215179,40141.64807808502
 Deaths,Female,0 to 5,road injuries,sheffield,0.18223698789085657,40141.64807808501
 Deaths,Female,0 to 5,stroke,sheffield,0.057016673639575216,40141.64807808505
 Deaths,Female,10 to 14,all causes,sheffield,4.855130405878621,41331.92524367604
+Deaths,Female,10 to 14,cardiomyopathy and myocarditis,sheffield,0.06083986506734858,41331.92524367606
 Deaths,Female,10 to 14,cardiovascular diseases,sheffield,0.22137093491687865,41331.92524367602
 Deaths,Female,10 to 14,chronic myeloid leukemia,sheffield,0.00935001323546945,41331.925243676
 Deaths,Female,10 to 14,chronic obstructive pulmonary disease,sheffield,0.016845197283224856,41331.925243676014
@@ -30,12 +33,14 @@ Deaths,Female,10 to 14,neoplasms,sheffield,1.4373029769465013,41331.92524367597
 Deaths,Female,10 to 14,other road injuries,sheffield,0.013736347750286695,41331.92524367601
 Deaths,Female,10 to 14,other transport injuries,sheffield,0.03336002424523636,41331.92524367601
 Deaths,Female,10 to 14,pedestrian road injuries,sheffield,0.2021418412649199,41331.92524367609
+Deaths,Female,10 to 14,rheumatic heart disease,sheffield,0.006462623094338106,41331.92524367597
 Deaths,Female,10 to 14,road injuries,sheffield,0.40598762829922613,41331.925243676
 Deaths,Female,10 to 14,stroke,sheffield,0.06928055204989628,41331.92524367599
 Deaths,Female,10 to 14,"tracheal, bronchus, and lung cancer",sheffield,0.009621544927023523,41331.925243676
 Deaths,Female,15 to 19,all causes,sheffield,6.217492478156371,39699.04640156173
 Deaths,Female,15 to 19,bladder cancer,sheffield,0.004087709120749658,39699.046401561776
 Deaths,Female,15 to 19,breast cancer,sheffield,0.01671233029158413,39699.046401561725
+Deaths,Female,15 to 19,cardiomyopathy and myocarditis,sheffield,0.06613482751409454,39699.04640156174
 Deaths,Female,15 to 19,cardiovascular diseases,sheffield,0.36057689600714676,39699.04640156177
 Deaths,Female,15 to 19,chronic myeloid leukemia,sheffield,0.007646628690070172,39699.04640156177
 Deaths,Female,15 to 19,chronic obstructive pulmonary disease,sheffield,0.028832667882143934,39699.04640156169
@@ -49,9 +54,11 @@ Deaths,Female,15 to 19,lower respiratory infections,sheffield,0.1510524127928447
 Deaths,Female,15 to 19,motor vehicle road injuries,sheffield,0.5563069122293095,39699.046401561725
 Deaths,Female,15 to 19,motorcyclist road injuries,sheffield,0.06310102269300948,39699.0464015617
 Deaths,Female,15 to 19,neoplasms,sheffield,1.3078091038720754,39699.046401561696
+Deaths,Female,15 to 19,non-rheumatic valvular heart disease,sheffield,0.01713428237253257,39699.04640156171
 Deaths,Female,15 to 19,other road injuries,sheffield,0.022591926095678623,39699.04640156169
 Deaths,Female,15 to 19,other transport injuries,sheffield,0.037055829518052655,39699.04640156171
 Deaths,Female,15 to 19,pedestrian road injuries,sheffield,0.20769959733134347,39699.04640156171
+Deaths,Female,15 to 19,rheumatic heart disease,sheffield,0.007145741561701586,39699.046401561754
 Deaths,Female,15 to 19,road injuries,sheffield,0.8890720577919681,39699.046401561725
 Deaths,Female,15 to 19,stomach cancer,sheffield,0.006234122301501517,39699.04640156171
 Deaths,Female,15 to 19,stroke,sheffield,0.10740761351671903,39699.046401561754
@@ -59,6 +66,7 @@ Deaths,Female,15 to 19,"tracheal, bronchus, and lung cancer",sheffield,0.0187034
 Deaths,Female,20 to 24,all causes,sheffield,9.565427291306834,47649.094036452836
 Deaths,Female,20 to 24,bladder cancer,sheffield,0.005146748844996987,47649.094036452785
 Deaths,Female,20 to 24,breast cancer,sheffield,0.064216916452045,47649.09403645284
+Deaths,Female,20 to 24,cardiomyopathy and myocarditis,sheffield,0.09360937888753496,47649.094036452836
 Deaths,Female,20 to 24,cardiovascular diseases,sheffield,0.704483079159789,47649.094036452734
 Deaths,Female,20 to 24,chronic myeloid leukemia,sheffield,0.010982812309444718,47649.094036452785
 Deaths,Female,20 to 24,chronic obstructive pulmonary disease,sheffield,0.04722120664696352,47649.09403645282
@@ -74,10 +82,12 @@ Deaths,Female,20 to 24,motor vehicle road injuries,sheffield,0.670769623843105,4
 Deaths,Female,20 to 24,motorcyclist road injuries,sheffield,0.07060993695381648,47649.094036452814
 Deaths,Female,20 to 24,multiple myeloma,sheffield,0.0032324009572162406,47649.094036452836
 Deaths,Female,20 to 24,neoplasms,sheffield,2.0708355243195165,47649.094036452814
+Deaths,Female,20 to 24,non-rheumatic valvular heart disease,sheffield,0.028551481292443788,47649.09403645286
 Deaths,Female,20 to 24,other road injuries,sheffield,0.026955102989245246,47649.09403645281
 Deaths,Female,20 to 24,other transport injuries,sheffield,0.04885350261770858,47649.094036452836
 Deaths,Female,20 to 24,parkinson's disease,sheffield,6.224048246952278e-4,47649.09403645283
 Deaths,Female,20 to 24,pedestrian road injuries,sheffield,0.18043322869192116,47649.09403645284
+Deaths,Female,20 to 24,rheumatic heart disease,sheffield,0.016265817202316603,47649.09403645285
 Deaths,Female,20 to 24,road injuries,sheffield,0.9866251510732365,47649.09403645282
 Deaths,Female,20 to 24,stomach cancer,sheffield,0.02469318484304816,47649.09403645282
 Deaths,Female,20 to 24,stroke,sheffield,0.23190620000244905,47649.094036452785
@@ -86,6 +96,7 @@ Deaths,Female,20 to 24,uterine cancer,sheffield,0.005549558724494456,47649.09403
 Deaths,Female,25 to 29,all causes,sheffield,14.356021092315181,52646.14443178829
 Deaths,Female,25 to 29,bladder cancer,sheffield,0.01836534562976776,52646.144431788285
 Deaths,Female,25 to 29,breast cancer,sheffield,0.6487483021902187,52646.144431788314
+Deaths,Female,25 to 29,cardiomyopathy and myocarditis,sheffield,0.1451283321001154,52646.14443178825
 Deaths,Female,25 to 29,cardiovascular diseases,sheffield,1.5150189004830885,52646.14443178831
 Deaths,Female,25 to 29,chronic myeloid leukemia,sheffield,0.022491946072115868,52646.14443178828
 Deaths,Female,25 to 29,chronic obstructive pulmonary disease,sheffield,0.08313205530075678,52646.14443178831
@@ -101,10 +112,12 @@ Deaths,Female,25 to 29,motor vehicle road injuries,sheffield,0.48749190644881596
 Deaths,Female,25 to 29,motorcyclist road injuries,sheffield,0.05351053044490226,52646.1444317883
 Deaths,Female,25 to 29,multiple myeloma,sheffield,0.006749557430130801,52646.14443178828
 Deaths,Female,25 to 29,neoplasms,sheffield,4.158176960000746,52646.14443178828
+Deaths,Female,25 to 29,non-rheumatic valvular heart disease,sheffield,0.05742493134861912,52646.14443178821
 Deaths,Female,25 to 29,other road injuries,sheffield,0.023811608174568386,52646.14443178832
 Deaths,Female,25 to 29,other transport injuries,sheffield,0.048630479122880176,52646.144431788314
 Deaths,Female,25 to 29,parkinson's disease,sheffield,3.7844994195018175e-4,52646.1444317883
 Deaths,Female,25 to 29,pedestrian road injuries,sheffield,0.1323415531303853,52646.14443178834
+Deaths,Female,25 to 29,rheumatic heart disease,sheffield,0.03398285557007611,52646.144431788256
 Deaths,Female,25 to 29,road injuries,sheffield,0.7301272781459586,52646.14443178824
 Deaths,Female,25 to 29,stomach cancer,sheffield,0.10159307159996309,52646.14443178826
 Deaths,Female,25 to 29,stroke,sheffield,0.5497305523932609,52646.144431788285
@@ -113,6 +126,7 @@ Deaths,Female,25 to 29,uterine cancer,sheffield,0.024391733227773656,52646.14443
 Deaths,Female,30 to 34,all causes,sheffield,24.97164943078513,51064.168103838325
 Deaths,Female,30 to 34,bladder cancer,sheffield,0.06991212500775684,51064.16810383838
 Deaths,Female,30 to 34,breast cancer,sheffield,2.6352610749763477,51064.16810383832
+Deaths,Female,30 to 34,cardiomyopathy and myocarditis,sheffield,0.18690849761326797,51064.168103838354
 Deaths,Female,30 to 34,cardiovascular diseases,sheffield,2.9153386891541704,51064.16810383831
 Deaths,Female,30 to 34,chronic myeloid leukemia,sheffield,0.0352892989479406,51064.168103838296
 Deaths,Female,30 to 34,chronic obstructive pulmonary disease,sheffield,0.16438228728350276,51064.168103838274
@@ -128,10 +142,12 @@ Deaths,Female,30 to 34,motor vehicle road injuries,sheffield,0.3945084480845111,
 Deaths,Female,30 to 34,motorcyclist road injuries,sheffield,0.05251761256917205,51064.168103838296
 Deaths,Female,30 to 34,multiple myeloma,sheffield,0.025084243681701965,51064.16810383839
 Deaths,Female,30 to 34,neoplasms,sheffield,9.074726602865713,51064.16810383828
+Deaths,Female,30 to 34,non-rheumatic valvular heart disease,sheffield,0.0857011614994739,51064.16810383833
 Deaths,Female,30 to 34,other road injuries,sheffield,0.021919729912223466,51064.16810383837
 Deaths,Female,30 to 34,other transport injuries,sheffield,0.04977896534067917,51064.16810383834
 Deaths,Female,30 to 34,parkinson's disease,sheffield,0.001253749255016555,51064.16810383838
 Deaths,Female,30 to 34,pedestrian road injuries,sheffield,0.13232708219659883,51064.16810383837
+Deaths,Female,30 to 34,rheumatic heart disease,sheffield,0.05386271933040254,51064.168103838296
 Deaths,Female,30 to 34,road injuries,sheffield,0.6301474461875061,51064.16810383834
 Deaths,Female,30 to 34,stomach cancer,sheffield,0.28516532771162606,51064.16810383832
 Deaths,Female,30 to 34,stroke,sheffield,1.011992094479036,51064.16810383835
@@ -140,6 +156,7 @@ Deaths,Female,30 to 34,uterine cancer,sheffield,0.06341249742679136,51064.168103
 Deaths,Female,35 to 39,all causes,sheffield,38.022734021617964,45886.69360870175
 Deaths,Female,35 to 39,bladder cancer,sheffield,0.13023507228372838,45886.69360870173
 Deaths,Female,35 to 39,breast cancer,sheffield,5.2108368989019045,45886.69360870174
+Deaths,Female,35 to 39,cardiomyopathy and myocarditis,sheffield,0.2696436137525293,45886.69360870172
 Deaths,Female,35 to 39,cardiovascular diseases,sheffield,4.971477804994429,45886.69360870173
 Deaths,Female,35 to 39,chronic myeloid leukemia,sheffield,0.0518182505488057,45886.69360870176
 Deaths,Female,35 to 39,chronic obstructive pulmonary disease,sheffield,0.30989418062763013,45886.69360870172
@@ -155,10 +172,12 @@ Deaths,Female,35 to 39,motor vehicle road injuries,sheffield,0.340695359731174,4
 Deaths,Female,35 to 39,motorcyclist road injuries,sheffield,0.051004535747187274,45886.693608701775
 Deaths,Female,35 to 39,multiple myeloma,sheffield,0.07002438426617322,45886.693608701724
 Deaths,Female,35 to 39,neoplasms,sheffield,15.40005399559892,45886.69360870178
+Deaths,Female,35 to 39,non-rheumatic valvular heart disease,sheffield,0.10816897925682151,45886.69360870176
 Deaths,Female,35 to 39,other road injuries,sheffield,0.02310623597668257,45886.693608701746
 Deaths,Female,35 to 39,other transport injuries,sheffield,0.050064159443787504,45886.693608701746
 Deaths,Female,35 to 39,parkinson's disease,sheffield,0.0046707199826446985,45886.69360870177
 Deaths,Female,35 to 39,pedestrian road injuries,sheffield,0.14842551418213368,45886.69360870176
+Deaths,Female,35 to 39,rheumatic heart disease,sheffield,0.08433218783514915,45886.693608701724
 Deaths,Female,35 to 39,road injuries,sheffield,0.5906040761514545,45886.69360870176
 Deaths,Female,35 to 39,stomach cancer,sheffield,0.47910915074980537,45886.69360870178
 Deaths,Female,35 to 39,stroke,sheffield,1.703333967525825,45886.6936087018
@@ -168,6 +187,7 @@ Deaths,Female,40 to 44,all causes,sheffield,50.18465475478082,40612.006162073754
 Deaths,Female,40 to 44,alzheimer's disease and other dementias,sheffield,0.04659472085829407,40612.00616207377
 Deaths,Female,40 to 44,bladder cancer,sheffield,0.22577677422280418,40612.00616207374
 Deaths,Female,40 to 44,breast cancer,sheffield,7.477447136996808,40612.00616207374
+Deaths,Female,40 to 44,cardiomyopathy and myocarditis,sheffield,0.3115962955905578,40612.00616207376
 Deaths,Female,40 to 44,cardiovascular diseases,sheffield,7.116600118495415,40612.00616207373
 Deaths,Female,40 to 44,chronic myeloid leukemia,sheffield,0.050668778429868534,40612.006162073754
 Deaths,Female,40 to 44,chronic obstructive pulmonary disease,sheffield,0.594282503972193,40612.006162073805
@@ -183,10 +203,12 @@ Deaths,Female,40 to 44,motor vehicle road injuries,sheffield,0.3234755158185586,
 Deaths,Female,40 to 44,motorcyclist road injuries,sheffield,0.04439229209161791,40612.00616207379
 Deaths,Female,40 to 44,multiple myeloma,sheffield,0.1416573955214462,40612.006162073776
 Deaths,Female,40 to 44,neoplasms,sheffield,22.194727212194948,40612.00616207371
+Deaths,Female,40 to 44,non-rheumatic valvular heart disease,sheffield,0.14185578459405754,40612.0061620737
 Deaths,Female,40 to 44,other road injuries,sheffield,0.019115411121287413,40612.0061620737
 Deaths,Female,40 to 44,other transport injuries,sheffield,0.044784731005792874,40612.00616207376
 Deaths,Female,40 to 44,parkinson's disease,sheffield,0.028234941804143272,40612.00616207378
 Deaths,Female,40 to 44,pedestrian road injuries,sheffield,0.1599639763493125,40612.00616207374
+Deaths,Female,40 to 44,rheumatic heart disease,sheffield,0.14190638891567803,40612.00616207377
 Deaths,Female,40 to 44,road injuries,sheffield,0.5729641800006714,40612.00616207374
 Deaths,Female,40 to 44,stomach cancer,sheffield,0.7140963711119601,40612.00616207377
 Deaths,Female,40 to 44,stroke,sheffield,2.2952239309302955,40612.00616207378
@@ -196,6 +218,7 @@ Deaths,Female,45 to 49,all causes,sheffield,82.84566531151674,46189.485479193245
 Deaths,Female,45 to 49,alzheimer's disease and other dementias,sheffield,0.3230932624851407,46189.485479193274
 Deaths,Female,45 to 49,bladder cancer,sheffield,0.4190988058700662,46189.48547919326
 Deaths,Female,45 to 49,breast cancer,sheffield,12.412885236384733,46189.48547919327
+Deaths,Female,45 to 49,cardiomyopathy and myocarditis,sheffield,0.44767459929115216,46189.48547919322
 Deaths,Female,45 to 49,cardiovascular diseases,sheffield,12.51348438620929,46189.4854791932
 Deaths,Female,45 to 49,chronic myeloid leukemia,sheffield,0.0755836665266394,46189.48547919315
 Deaths,Female,45 to 49,chronic obstructive pulmonary disease,sheffield,1.5102847910872288,46189.485479193296
@@ -211,16 +234,19 @@ Deaths,Female,45 to 49,motor vehicle road injuries,sheffield,0.40470682410074166
 Deaths,Female,45 to 49,motorcyclist road injuries,sheffield,0.05186302362500529,46189.48547919324
 Deaths,Female,45 to 49,multiple myeloma,sheffield,0.33464682528941536,46189.48547919322
 Deaths,Female,45 to 49,neoplasms,sheffield,39.574126053744536,46189.4854791932
+Deaths,Female,45 to 49,non-rheumatic valvular heart disease,sheffield,0.22649780477612352,46189.48547919317
 Deaths,Female,45 to 49,other road injuries,sheffield,0.028093955353994764,46189.48547919328
 Deaths,Female,45 to 49,other transport injuries,sheffield,0.04676847928153377,46189.485479193274
 Deaths,Female,45 to 49,parkinson's disease,sheffield,0.09614274359299045,46189.48547919324
 Deaths,Female,45 to 49,pedestrian road injuries,sheffield,0.20961183095610905,46189.4854791932
+Deaths,Female,45 to 49,rheumatic heart disease,sheffield,0.22997966779558587,46189.48547919322
 Deaths,Female,45 to 49,road injuries,sheffield,0.7292758832888346,46189.48547919326
 Deaths,Female,45 to 49,stomach cancer,sheffield,1.1690868526606983,46189.48547919323
 Deaths,Female,45 to 49,stroke,sheffield,3.7968800104950953,46189.485479193216
 Deaths,Female,45 to 49,"tracheal, bronchus, and lung cancer",sheffield,5.291281120639221,46189.48547919319
 Deaths,Female,45 to 49,uterine cancer,sheffield,0.5451113722223584,46189.485479193194
 Deaths,Female,5 to 9,all causes,sheffield,2.683721541610441,41672.09999016591
+Deaths,Female,5 to 9,cardiomyopathy and myocarditis,sheffield,0.030132634871911014,41672.09999016594
 Deaths,Female,5 to 9,cardiovascular diseases,sheffield,0.09867448305411207,41672.09999016589
 Deaths,Female,5 to 9,chronic myeloid leukemia,sheffield,0.0038342054075584065,41672.099990165894
 Deaths,Female,5 to 9,chronic obstructive pulmonary disease,sheffield,0.0093894665164552,41672.09999016595
@@ -235,12 +261,14 @@ Deaths,Female,5 to 9,neoplasms,sheffield,0.879491770020894,41672.099990165974
 Deaths,Female,5 to 9,other road injuries,sheffield,0.004791576046232501,41672.099990165916
 Deaths,Female,5 to 9,other transport injuries,sheffield,0.011823201835606747,41672.09999016591
 Deaths,Female,5 to 9,pedestrian road injuries,sheffield,0.08297353092790981,41672.09999016591
+Deaths,Female,5 to 9,rheumatic heart disease,sheffield,0.00418300193871555,41672.09999016594
 Deaths,Female,5 to 9,road injuries,sheffield,0.17514851773180629,41672.09999016585
 Deaths,Female,5 to 9,stroke,sheffield,0.02315220432398405,41672.09999016592
 Deaths,Female,50 to 54,all causes,sheffield,131.34990158928684,49407.490435170286
 Deaths,Female,50 to 54,alzheimer's disease and other dementias,sheffield,0.7096257169107469,49407.49043517028
 Deaths,Female,50 to 54,bladder cancer,sheffield,0.7514815173934076,49407.490435170286
 Deaths,Female,50 to 54,breast cancer,sheffield,18.188425918023047,49407.4904351703
+Deaths,Female,50 to 54,cardiomyopathy and myocarditis,sheffield,0.5247196888230974,49407.49043517027
 Deaths,Female,50 to 54,cardiovascular diseases,sheffield,20.753879906935357,49407.49043517028
 Deaths,Female,50 to 54,chronic myeloid leukemia,sheffield,0.07635329718100523,49407.49043517033
 Deaths,Female,50 to 54,chronic obstructive pulmonary disease,sheffield,4.704434710761506,49407.49043517026
@@ -256,10 +284,12 @@ Deaths,Female,50 to 54,motor vehicle road injuries,sheffield,0.3694964771046225,
 Deaths,Female,50 to 54,motorcyclist road injuries,sheffield,0.04413512425807599,49407.49043517034
 Deaths,Female,50 to 54,multiple myeloma,sheffield,0.7888000530289443,49407.49043517024
 Deaths,Female,50 to 54,neoplasms,sheffield,69.84406595759997,49407.490435170286
+Deaths,Female,50 to 54,non-rheumatic valvular heart disease,sheffield,0.3619426891492175,49407.490435170286
 Deaths,Female,50 to 54,other road injuries,sheffield,0.02862517198539402,49407.49043517027
 Deaths,Female,50 to 54,other transport injuries,sheffield,0.042450775945000935,49407.49043517033
 Deaths,Female,50 to 54,parkinson's disease,sheffield,0.23599584894801914,49407.49043517031
 Deaths,Female,50 to 54,pedestrian road injuries,sheffield,0.2108241479401879,49407.490435170315
+Deaths,Female,50 to 54,rheumatic heart disease,sheffield,0.3712764428656862,49407.49043517031
 Deaths,Female,50 to 54,road injuries,sheffield,0.6924524305630565,49407.490435170235
 Deaths,Female,50 to 54,stomach cancer,sheffield,1.8343338369635867,49407.490435170315
 Deaths,Female,50 to 54,stroke,sheffield,5.861733001216486,49407.490435170286
@@ -269,6 +299,7 @@ Deaths,Female,55 to 59,all causes,sheffield,202.7542751282738,45555.33704590983
 Deaths,Female,55 to 59,alzheimer's disease and other dementias,sheffield,1.3792847322038866,45555.33704590984
 Deaths,Female,55 to 59,bladder cancer,sheffield,1.3049847416351634,45555.33704590988
 Deaths,Female,55 to 59,breast cancer,sheffield,25.375270430213583,45555.33704590984
+Deaths,Female,55 to 59,cardiomyopathy and myocarditis,sheffield,0.7526302797649471,45555.337045909844
 Deaths,Female,55 to 59,cardiovascular diseases,sheffield,32.935989773809304,45555.337045909866
 Deaths,Female,55 to 59,chronic myeloid leukemia,sheffield,0.11659576949005082,45555.33704590986
 Deaths,Female,55 to 59,chronic obstructive pulmonary disease,sheffield,9.734701335257043,45555.337045909866
@@ -284,10 +315,12 @@ Deaths,Female,55 to 59,motor vehicle road injuries,sheffield,0.3789650137872162,
 Deaths,Female,55 to 59,motorcyclist road injuries,sheffield,0.04487961953389767,45555.337045909866
 Deaths,Female,55 to 59,multiple myeloma,sheffield,1.4042770276719254,45555.33704590981
 Deaths,Female,55 to 59,neoplasms,sheffield,111.17101455399725,45555.33704590984
+Deaths,Female,55 to 59,non-rheumatic valvular heart disease,sheffield,0.6023442167534856,45555.33704590983
 Deaths,Female,55 to 59,other road injuries,sheffield,0.03209444251312317,45555.33704590987
 Deaths,Female,55 to 59,other transport injuries,sheffield,0.04249521994035138,45555.33704590981
 Deaths,Female,55 to 59,parkinson's disease,sheffield,0.48047059027200184,45555.3370459099
 Deaths,Female,55 to 59,pedestrian road injuries,sheffield,0.2382939271373059,45555.337045909844
+Deaths,Female,55 to 59,rheumatic heart disease,sheffield,0.5593529034346734,45555.33704590984
 Deaths,Female,55 to 59,road injuries,sheffield,0.7343092293365616,45555.33704590986
 Deaths,Female,55 to 59,stomach cancer,sheffield,2.901093549832498,45555.337045909815
 Deaths,Female,55 to 59,stroke,sheffield,8.356729449563604,45555.33704590978
@@ -297,6 +330,7 @@ Deaths,Female,60 to 64,all causes,sheffield,275.89968780859397,39200.94261374405
 Deaths,Female,60 to 64,alzheimer's disease and other dementias,sheffield,2.7449469151720587,39200.9426137441
 Deaths,Female,60 to 64,bladder cancer,sheffield,2.040492789730316,39200.94261374408
 Deaths,Female,60 to 64,breast cancer,sheffield,24.495943868372247,39200.94261374406
+Deaths,Female,60 to 64,cardiomyopathy and myocarditis,sheffield,0.929101326309999,39200.94261374402
 Deaths,Female,60 to 64,cardiovascular diseases,sheffield,50.13671111694849,39200.94261374402
 Deaths,Female,60 to 64,chronic myeloid leukemia,sheffield,0.1536601798597459,39200.94261374409
 Deaths,Female,60 to 64,chronic obstructive pulmonary disease,sheffield,20.03631089057932,39200.94261374404
@@ -312,10 +346,12 @@ Deaths,Female,60 to 64,motor vehicle road injuries,sheffield,0.3347374798016851,
 Deaths,Female,60 to 64,motorcyclist road injuries,sheffield,0.026661705403070578,39200.942613744046
 Deaths,Female,60 to 64,multiple myeloma,sheffield,2.4234891109866115,39200.94261374407
 Deaths,Female,60 to 64,neoplasms,sheffield,148.53309360657875,39200.94261374407
+Deaths,Female,60 to 64,non-rheumatic valvular heart disease,sheffield,1.0845527301938505,39200.94261374404
 Deaths,Female,60 to 64,other road injuries,sheffield,0.018374717603234593,39200.9426137441
 Deaths,Female,60 to 64,other transport injuries,sheffield,0.03777558836501259,39200.94261374403
 Deaths,Female,60 to 64,parkinson's disease,sheffield,1.069865674121988,39200.942613744075
 Deaths,Female,60 to 64,pedestrian road injuries,sheffield,0.2933900497046591,39200.94261374403
+Deaths,Female,60 to 64,rheumatic heart disease,sheffield,0.7745240634401718,39200.94261374403
 Deaths,Female,60 to 64,road injuries,sheffield,0.700789238102742,39200.942613744046
 Deaths,Female,60 to 64,stomach cancer,sheffield,4.020071747949719,39200.94261374405
 Deaths,Female,60 to 64,stroke,sheffield,11.850097808560475,39200.94261374407
@@ -325,6 +361,7 @@ Deaths,Female,65 to 69,all causes,sheffield,384.6565241790929,34700.05350153223
 Deaths,Female,65 to 69,alzheimer's disease and other dementias,sheffield,5.85809218846799,34700.05350153223
 Deaths,Female,65 to 69,bladder cancer,sheffield,3.2624148318525625,34700.05350153218
 Deaths,Female,65 to 69,breast cancer,sheffield,27.930493283630742,34700.05350153221
+Deaths,Female,65 to 69,cardiomyopathy and myocarditis,sheffield,1.0165152444616847,34700.053501532224
 Deaths,Female,65 to 69,cardiovascular diseases,sheffield,75.500086499655,34700.05350153221
 Deaths,Female,65 to 69,chronic myeloid leukemia,sheffield,0.20475075793927544,34700.053501532195
 Deaths,Female,65 to 69,chronic obstructive pulmonary disease,sheffield,34.77943302855362,34700.053501532224
@@ -340,10 +377,12 @@ Deaths,Female,65 to 69,motor vehicle road injuries,sheffield,0.3992327613399993,
 Deaths,Female,65 to 69,motorcyclist road injuries,sheffield,0.025321263185373758,34700.0535015322
 Deaths,Female,65 to 69,multiple myeloma,sheffield,3.669033224355889,34700.05350153222
 Deaths,Female,65 to 69,neoplasms,sheffield,198.96831782420793,34700.05350153225
+Deaths,Female,65 to 69,non-rheumatic valvular heart disease,sheffield,1.7942306819729739,34700.05350153221
 Deaths,Female,65 to 69,other road injuries,sheffield,0.01467547627360004,34700.05350153223
 Deaths,Female,65 to 69,other transport injuries,sheffield,0.03808639140185911,34700.053501532224
 Deaths,Female,65 to 69,parkinson's disease,sheffield,2.4816040337435097,34700.05350153221
 Deaths,Female,65 to 69,pedestrian road injuries,sheffield,0.3710723196607652,34700.0535015322
+Deaths,Female,65 to 69,rheumatic heart disease,sheffield,1.2582485538123267,34700.05350153223
 Deaths,Female,65 to 69,road injuries,sheffield,0.8347412646702796,34700.05350153224
 Deaths,Female,65 to 69,stomach cancer,sheffield,5.418824778976114,34700.05350153224
 Deaths,Female,65 to 69,stroke,sheffield,16.911320962830576,34700.05350153221
@@ -353,6 +392,7 @@ Deaths,Female,70 to 74,all causes,sheffield,647.794329531754,35044.880788588714
 Deaths,Female,70 to 74,alzheimer's disease and other dementias,sheffield,14.58389373954112,35044.88078858873
 Deaths,Female,70 to 74,bladder cancer,sheffield,5.805106469248946,35044.880788588714
 Deaths,Female,70 to 74,breast cancer,sheffield,36.957784448064324,35044.88078858869
+Deaths,Female,70 to 74,cardiomyopathy and myocarditis,sheffield,1.7070402773100453,35044.88078858871
 Deaths,Female,70 to 74,cardiovascular diseases,sheffield,152.6097626254093,35044.88078858869
 Deaths,Female,70 to 74,chronic myeloid leukemia,sheffield,0.33339158151834514,35044.88078858869
 Deaths,Female,70 to 74,chronic obstructive pulmonary disease,sheffield,66.00641611165757,35044.88078858873
@@ -368,10 +408,12 @@ Deaths,Female,70 to 74,motor vehicle road injuries,sheffield,0.5276233594724656,
 Deaths,Female,70 to 74,motorcyclist road injuries,sheffield,0.012575866095083463,35044.88078858866
 Deaths,Female,70 to 74,multiple myeloma,sheffield,6.013605537172241,35044.880788588736
 Deaths,Female,70 to 74,neoplasms,sheffield,294.49841615826153,35044.88078858871
+Deaths,Female,70 to 74,non-rheumatic valvular heart disease,sheffield,4.1774475423120885,35044.88078858868
 Deaths,Female,70 to 74,other road injuries,sheffield,0.009302209067692462,35044.88078858871
 Deaths,Female,70 to 74,other transport injuries,sheffield,0.034941130824205725,35044.880788588714
 Deaths,Female,70 to 74,parkinson's disease,sheffield,6.990747700620104,35044.8807885887
 Deaths,Female,70 to 74,pedestrian road injuries,sheffield,0.5767641811984127,35044.88078858867
+Deaths,Female,70 to 74,rheumatic heart disease,sheffield,2.2918952314851535,35044.88078858872
 Deaths,Female,70 to 74,road injuries,sheffield,1.1451515013211477,35044.88078858868
 Deaths,Female,70 to 74,stomach cancer,sheffield,9.556899297463671,35044.88078858868
 Deaths,Female,70 to 74,stroke,sheffield,38.548136089639144,35044.88078858872
@@ -381,6 +423,7 @@ Deaths,Female,75 to 79,all causes,sheffield,830.5586384011423,26098.327742752175
 Deaths,Female,75 to 79,alzheimer's disease and other dementias,sheffield,28.505215377265117,26098.32774275211
 Deaths,Female,75 to 79,bladder cancer,sheffield,7.860865285148873,26098.327742752117
 Deaths,Female,75 to 79,breast cancer,sheffield,37.79756048898489,26098.32774275213
+Deaths,Female,75 to 79,cardiomyopathy and myocarditis,sheffield,2.173940287656167,26098.327742752113
 Deaths,Female,75 to 79,cardiovascular diseases,sheffield,230.79710509737725,26098.32774275211
 Deaths,Female,75 to 79,chronic myeloid leukemia,sheffield,0.41483008488429296,26098.327742752164
 Deaths,Female,75 to 79,chronic obstructive pulmonary disease,sheffield,86.57148900160405,26098.327742752143
@@ -396,10 +439,12 @@ Deaths,Female,75 to 79,motor vehicle road injuries,sheffield,0.5657203052745587,
 Deaths,Female,75 to 79,motorcyclist road injuries,sheffield,0.006994028848435615,26098.32774275212
 Deaths,Female,75 to 79,multiple myeloma,sheffield,7.037941893254673,26098.32774275214
 Deaths,Female,75 to 79,neoplasms,sheffield,308.02819580210513,26098.32774275212
+Deaths,Female,75 to 79,non-rheumatic valvular heart disease,sheffield,6.574101402657539,26098.32774275214
 Deaths,Female,75 to 79,other road injuries,sheffield,0.0069042028354998,26098.32774275211
 Deaths,Female,75 to 79,other transport injuries,sheffield,0.040205146125506686,26098.327742752153
 Deaths,Female,75 to 79,parkinson's disease,sheffield,12.479412709677264,26098.327742752117
 Deaths,Female,75 to 79,pedestrian road injuries,sheffield,0.7886167528842962,26098.327742752143
+Deaths,Female,75 to 79,rheumatic heart disease,sheffield,3.395576184758753,26098.327742752143
 Deaths,Female,75 to 79,road injuries,sheffield,1.382820468352287,26098.32774275212
 Deaths,Female,75 to 79,stomach cancer,sheffield,12.4551704477769,26098.327742752153
 Deaths,Female,75 to 79,stroke,sheffield,64.47801565591334,26098.327742752117
@@ -409,6 +454,7 @@ Deaths,Female,80 to 84,all causes,sheffield,1185.8556393970332,19865.17278263689
 Deaths,Female,80 to 84,alzheimer's disease and other dementias,sheffield,75.38143817156448,19865.172782636924
 Deaths,Female,80 to 84,bladder cancer,sheffield,10.40218088526521,19865.172782636902
 Deaths,Female,80 to 84,breast cancer,sheffield,44.41717533154146,19865.1727826369
+Deaths,Female,80 to 84,cardiomyopathy and myocarditis,sheffield,3.840232100606146,19865.172782636895
 Deaths,Female,80 to 84,cardiovascular diseases,sheffield,384.65605500242805,19865.17278263693
 Deaths,Female,80 to 84,chronic myeloid leukemia,sheffield,0.5707076736557111,19865.172782636917
 Deaths,Female,80 to 84,chronic obstructive pulmonary disease,sheffield,107.65077949134715,19865.172782636895
@@ -424,10 +470,12 @@ Deaths,Female,80 to 84,motor vehicle road injuries,sheffield,0.5583677486509535,
 Deaths,Female,80 to 84,motorcyclist road injuries,sheffield,0.004924708612381482,19865.17278263691
 Deaths,Female,80 to 84,multiple myeloma,sheffield,7.765693915728686,19865.172782636902
 Deaths,Female,80 to 84,neoplasms,sheffield,333.6201969594207,19865.172782636906
+Deaths,Female,80 to 84,non-rheumatic valvular heart disease,sheffield,12.319425817580608,19865.17278263691
 Deaths,Female,80 to 84,other road injuries,sheffield,0.005711135807492666,19865.1727826369
 Deaths,Female,80 to 84,other transport injuries,sheffield,0.03197492419030712,19865.1727826369
 Deaths,Female,80 to 84,parkinson's disease,sheffield,18.349999611635067,19865.172782636902
 Deaths,Female,80 to 84,pedestrian road injuries,sheffield,0.8229453342718002,19865.172782636888
+Deaths,Female,80 to 84,rheumatic heart disease,sheffield,4.548102472936959,19865.172782636924
 Deaths,Female,80 to 84,road injuries,sheffield,1.4023872362087548,19865.1727826369
 Deaths,Female,80 to 84,stomach cancer,sheffield,16.205051022859017,19865.172782636906
 Deaths,Female,80 to 84,stroke,sheffield,116.24810747883868,19865.17278263689
@@ -437,6 +485,7 @@ Deaths,Female,85 to 89,all causes,sheffield,1340.815896957522,12267.216739479669
 Deaths,Female,85 to 89,alzheimer's disease and other dementias,sheffield,117.81322669833762,12267.216739479658
 Deaths,Female,85 to 89,bladder cancer,sheffield,10.946329746566999,12267.216739479667
 Deaths,Female,85 to 89,breast cancer,sheffield,40.128579079682915,12267.216739479667
+Deaths,Female,85 to 89,cardiomyopathy and myocarditis,sheffield,5.632387686967311,12267.216739479669
 Deaths,Female,85 to 89,cardiovascular diseases,sheffield,475.7180361014591,12267.216739479663
 Deaths,Female,85 to 89,chronic myeloid leukemia,sheffield,0.6588602502859299,12267.216739479678
 Deaths,Female,85 to 89,chronic obstructive pulmonary disease,sheffield,102.47204079969538,12267.216739479674
@@ -452,10 +501,12 @@ Deaths,Female,85 to 89,motor vehicle road injuries,sheffield,0.3974835510557559,
 Deaths,Female,85 to 89,motorcyclist road injuries,sheffield,0.003876394451793587,12267.216739479667
 Deaths,Female,85 to 89,multiple myeloma,sheffield,6.2489727408129925,12267.216739479663
 Deaths,Female,85 to 89,neoplasms,sheffield,279.8151117344213,12267.216739479678
+Deaths,Female,85 to 89,non-rheumatic valvular heart disease,sheffield,17.07251199118929,12267.216739479669
 Deaths,Female,85 to 89,other road injuries,sheffield,0.005050132984626178,12267.216739479662
 Deaths,Female,85 to 89,other transport injuries,sheffield,0.026357624477226286,12267.216739479663
 Deaths,Female,85 to 89,parkinson's disease,sheffield,17.223862808638838,12267.216739479662
 Deaths,Female,85 to 89,pedestrian road injuries,sheffield,0.7031176596603423,12267.21673947967
+Deaths,Female,85 to 89,rheumatic heart disease,sheffield,4.7017506983014945,12267.216739479674
 Deaths,Female,85 to 89,road injuries,sheffield,1.1173039543260428,12267.216739479662
 Deaths,Female,85 to 89,stomach cancer,sheffield,15.468532671486273,12267.216739479672
 Deaths,Female,85 to 89,stroke,sheffield,145.35689208518778,12267.216739479678
@@ -465,6 +516,7 @@ Deaths,Female,90 to 94,all causes,sheffield,1080.2426166408602,5346.403158537668
 Deaths,Female,90 to 94,alzheimer's disease and other dementias,sheffield,109.73786290988765,5346.403158537669
 Deaths,Female,90 to 94,bladder cancer,sheffield,7.415365824661305,5346.403158537668
 Deaths,Female,90 to 94,breast cancer,sheffield,27.78755138105997,5346.403158537663
+Deaths,Female,90 to 94,cardiomyopathy and myocarditis,sheffield,5.501322690580341,5346.403158537672
 Deaths,Female,90 to 94,cardiovascular diseases,sheffield,412.22022558195596,5346.403158537668
 Deaths,Female,90 to 94,chronic myeloid leukemia,sheffield,0.40596435384888974,5346.403158537673
 Deaths,Female,90 to 94,chronic obstructive pulmonary disease,sheffield,70.21776781196314,5346.403158537671
@@ -480,10 +532,12 @@ Deaths,Female,90 to 94,motor vehicle road injuries,sheffield,0.18315937593366033
 Deaths,Female,90 to 94,motorcyclist road injuries,sheffield,0.007936131331586823,5346.403158537671
 Deaths,Female,90 to 94,multiple myeloma,sheffield,3.0640100165755526,5346.403158537669
 Deaths,Female,90 to 94,neoplasms,sheffield,162.6625265549746,5346.403158537673
+Deaths,Female,90 to 94,non-rheumatic valvular heart disease,sheffield,15.212145287398517,5346.403158537668
 Deaths,Female,90 to 94,other road injuries,sheffield,0.005133388157337176,5346.4031585376715
 Deaths,Female,90 to 94,other transport injuries,sheffield,0.02247359335333702,5346.403158537672
 Deaths,Female,90 to 94,parkinson's disease,sheffield,9.595958217536811,5346.403158537674
 Deaths,Female,90 to 94,pedestrian road injuries,sheffield,0.34734779381770314,5346.40315853767
+Deaths,Female,90 to 94,rheumatic heart disease,sheffield,3.221255027798932,5346.4031585376715
 Deaths,Female,90 to 94,road injuries,sheffield,0.5511914648565311,5346.403158537665
 Deaths,Female,90 to 94,stomach cancer,sheffield,9.396634284647963,5346.403158537667
 Deaths,Female,90 to 94,stroke,sheffield,126.0181311927033,5346.403158537672
@@ -493,6 +547,7 @@ Deaths,Female,95 to 99,all causes,sheffield,490.71458788960643,1413.766798614942
 Deaths,Female,95 to 99,alzheimer's disease and other dementias,sheffield,52.96882337951236,1413.766798614944
 Deaths,Female,95 to 99,bladder cancer,sheffield,2.971369584584488,1413.7667986149443
 Deaths,Female,95 to 99,breast cancer,sheffield,11.2595683436373,1413.7667986149445
+Deaths,Female,95 to 99,cardiomyopathy and myocarditis,sheffield,2.826310340137233,1413.766798614944
 Deaths,Female,95 to 99,cardiovascular diseases,sheffield,193.00229170770848,1413.7667986149443
 Deaths,Female,95 to 99,chronic myeloid leukemia,sheffield,0.14497724182330368,1413.7667986149438
 Deaths,Female,95 to 99,chronic obstructive pulmonary disease,sheffield,31.398314450665296,1413.7667986149431
@@ -508,16 +563,19 @@ Deaths,Female,95 to 99,motor vehicle road injuries,sheffield,0.07002660136406005
 Deaths,Female,95 to 99,motorcyclist road injuries,sheffield,0.005632406075177045,1413.7667986149431
 Deaths,Female,95 to 99,multiple myeloma,sheffield,0.8258251145435181,1413.7667986149436
 Deaths,Female,95 to 99,neoplasms,sheffield,60.986415064135116,1413.766798614944
+Deaths,Female,95 to 99,non-rheumatic valvular heart disease,sheffield,6.888147142861104,1413.7667986149427
 Deaths,Female,95 to 99,other road injuries,sheffield,0.0029842945439930296,1413.7667986149422
 Deaths,Female,95 to 99,other transport injuries,sheffield,0.01574131152984958,1413.766798614944
 Deaths,Female,95 to 99,parkinson's disease,sheffield,2.811634859438278,1413.7667986149438
 Deaths,Female,95 to 99,pedestrian road injuries,sheffield,0.12503583918786382,1413.7667986149422
+Deaths,Female,95 to 99,rheumatic heart disease,sheffield,1.3495613343115858,1413.7667986149452
 Deaths,Female,95 to 99,road injuries,sheffield,0.20392564136723648,1413.7667986149434
 Deaths,Female,95 to 99,stomach cancer,sheffield,3.658247402657274,1413.7667986149438
 Deaths,Female,95 to 99,stroke,sheffield,60.6058031911044,1413.7667986149438
 Deaths,Female,95 to 99,"tracheal, bronchus, and lung cancer",sheffield,9.188330210633554,1413.7667986149447
 Deaths,Female,95 to 99,uterine cancer,sheffield,1.1501784632562586,1413.7667986149436
 Deaths,Male,0 to 5,all causes,sheffield,38.49495108512938,42401.02641081721
+Deaths,Male,0 to 5,cardiomyopathy and myocarditis,sheffield,0.253008055132855,42401.026410817234
 Deaths,Male,0 to 5,cardiovascular diseases,sheffield,0.4918085094697782,42401.026410817205
 Deaths,Male,0 to 5,chronic myeloid leukemia,sheffield,0.00852344405133963,42401.02641081718
 Deaths,Male,0 to 5,chronic obstructive pulmonary disease,sheffield,0.013345925280442343,42401.02641081719
@@ -531,9 +589,11 @@ Deaths,Male,0 to 5,neoplasms,sheffield,1.2203646336430771,42401.0264108172
 Deaths,Male,0 to 5,other road injuries,sheffield,0.008447751183998098,42401.02641081723
 Deaths,Male,0 to 5,other transport injuries,sheffield,0.023105790112985358,42401.02641081722
 Deaths,Male,0 to 5,pedestrian road injuries,sheffield,0.12872467644390023,42401.02641081719
+Deaths,Male,0 to 5,rheumatic heart disease,sheffield,0.005821137728976007,42401.026410817176
 Deaths,Male,0 to 5,road injuries,sheffield,0.24610706778037494,42401.02641081722
 Deaths,Male,0 to 5,stroke,sheffield,0.054544852301467134,42401.026410817176
 Deaths,Male,10 to 14,all causes,sheffield,4.0383256807995656,42816.38912687324
+Deaths,Male,10 to 14,cardiomyopathy and myocarditis,sheffield,0.07893685969722254,42816.389126873284
 Deaths,Male,10 to 14,cardiovascular diseases,sheffield,0.1765809656703578,42816.389126873226
 Deaths,Male,10 to 14,chronic myeloid leukemia,sheffield,0.00498619742082012,42816.3891268733
 Deaths,Male,10 to 14,chronic obstructive pulmonary disease,sheffield,0.009220377421334606,42816.38912687325
@@ -548,12 +608,14 @@ Deaths,Male,10 to 14,neoplasms,sheffield,1.0957800903459785,42816.389126873306
 Deaths,Male,10 to 14,other road injuries,sheffield,0.012196258396704709,42816.389126873284
 Deaths,Male,10 to 14,other transport injuries,sheffield,0.040688746586499576,42816.38912687325
 Deaths,Male,10 to 14,pedestrian road injuries,sheffield,0.20194530074912312,42816.38912687326
+Deaths,Male,10 to 14,rheumatic heart disease,sheffield,0.003989796332179578,42816.389126873284
 Deaths,Male,10 to 14,road injuries,sheffield,0.5177863420136158,42816.389126873306
 Deaths,Male,10 to 14,stroke,sheffield,0.03976723060867417,42816.38912687324
 Deaths,Male,10 to 14,"tracheal, bronchus, and lung cancer",sheffield,0.004328680950003817,42816.38912687326
 Deaths,Male,15 to 19,all causes,sheffield,13.311979415141892,40410.543048612904
 Deaths,Male,15 to 19,bladder cancer,sheffield,0.004658407388498425,40410.54304861285
 Deaths,Male,15 to 19,breast cancer,sheffield,0.004638634729426639,40410.54304861286
+Deaths,Male,15 to 19,cardiomyopathy and myocarditis,sheffield,0.25446224500988857,40410.543048612875
 Deaths,Male,15 to 19,cardiovascular diseases,sheffield,0.6201081449165222,40410.54304861285
 Deaths,Male,15 to 19,chronic myeloid leukemia,sheffield,0.006703798618523277,40410.54304861288
 Deaths,Male,15 to 19,chronic obstructive pulmonary disease,sheffield,0.03310089418185892,40410.54304861287
@@ -567,9 +629,11 @@ Deaths,Male,15 to 19,lower respiratory infections,sheffield,0.1720475858426267,4
 Deaths,Male,15 to 19,motor vehicle road injuries,sheffield,1.7309305196804712,40410.54304861291
 Deaths,Male,15 to 19,motorcyclist road injuries,sheffield,0.7831415929201406,40410.54304861292
 Deaths,Male,15 to 19,neoplasms,sheffield,1.8566928915603462,40410.54304861295
+Deaths,Male,15 to 19,non-rheumatic valvular heart disease,sheffield,0.031893445791268904,40410.54304861287
 Deaths,Male,15 to 19,other road injuries,sheffield,0.03315151968962624,40410.54304861291
 Deaths,Male,15 to 19,other transport injuries,sheffield,0.1464905560412884,40410.54304861282
 Deaths,Male,15 to 19,pedestrian road injuries,sheffield,0.47299552708517456,40410.54304861288
+Deaths,Male,15 to 19,rheumatic heart disease,sheffield,0.006646673486697223,40410.5430486129
 Deaths,Male,15 to 19,road injuries,sheffield,3.198016468352567,40410.543048612926
 Deaths,Male,15 to 19,stomach cancer,sheffield,0.008882772469745216,40410.54304861286
 Deaths,Male,15 to 19,stroke,sheffield,0.13998763524840718,40410.54304861287
@@ -577,6 +641,7 @@ Deaths,Male,15 to 19,"tracheal, bronchus, and lung cancer",sheffield,0.010596484
 Deaths,Male,20 to 24,all causes,sheffield,23.028344821221893,48017.67308522893
 Deaths,Male,20 to 24,bladder cancer,sheffield,0.005866046182581717,48017.673085228904
 Deaths,Male,20 to 24,breast cancer,sheffield,0.005052421724819553,48017.673085228904
+Deaths,Male,20 to 24,cardiomyopathy and myocarditis,sheffield,0.3949279904620983,48017.67308522891
 Deaths,Male,20 to 24,cardiovascular diseases,sheffield,1.2909539817117257,48017.67308522892
 Deaths,Male,20 to 24,chronic myeloid leukemia,sheffield,0.014030354442453109,48017.67308522883
 Deaths,Male,20 to 24,chronic obstructive pulmonary disease,sheffield,0.054003946172301774,48017.673085228904
@@ -592,11 +657,13 @@ Deaths,Male,20 to 24,motor vehicle road injuries,sheffield,2.8093270041508758,48
 Deaths,Male,20 to 24,motorcyclist road injuries,sheffield,1.1098753418093814,48017.673085228955
 Deaths,Male,20 to 24,multiple myeloma,sheffield,0.006585129073781087,48017.673085228984
 Deaths,Male,20 to 24,neoplasms,sheffield,2.7164939995852757,48017.67308522893
+Deaths,Male,20 to 24,non-rheumatic valvular heart disease,sheffield,0.05763973275942151,48017.67308522892
 Deaths,Male,20 to 24,other road injuries,sheffield,0.03318088342917943,48017.67308522895
 Deaths,Male,20 to 24,other transport injuries,sheffield,0.25389003932645127,48017.673085228875
 Deaths,Male,20 to 24,parkinson's disease,sheffield,0.0018441093084439757,48017.67308522892
 Deaths,Male,20 to 24,pedestrian road injuries,sheffield,0.6458879260426618,48017.67308522889
 Deaths,Male,20 to 24,prostate cancer,sheffield,0.013657899958668644,48017.67308522893
+Deaths,Male,20 to 24,rheumatic heart disease,sheffield,0.01704878283044709,48017.67308522899
 Deaths,Male,20 to 24,road injuries,sheffield,4.770419188705135,48017.67308522895
 Deaths,Male,20 to 24,stomach cancer,sheffield,0.02737699768480552,48017.67308522885
 Deaths,Male,20 to 24,stroke,sheffield,0.3194423171536939,48017.67308522898
@@ -604,6 +671,7 @@ Deaths,Male,20 to 24,"tracheal, bronchus, and lung cancer",sheffield,0.035661397
 Deaths,Male,25 to 29,all causes,sheffield,32.56064845177926,52415.75144241518
 Deaths,Male,25 to 29,bladder cancer,sheffield,0.01926739106980395,52415.75144241528
 Deaths,Male,25 to 29,breast cancer,sheffield,0.005580117506284147,52415.75144241519
+Deaths,Male,25 to 29,cardiomyopathy and myocarditis,sheffield,0.6120270114640257,52415.75144241522
 Deaths,Male,25 to 29,cardiovascular diseases,sheffield,3.544958939210848,52415.75144241518
 Deaths,Male,25 to 29,chronic myeloid leukemia,sheffield,0.037093133711452696,52415.75144241522
 Deaths,Male,25 to 29,chronic obstructive pulmonary disease,sheffield,0.12136580402162207,52415.75144241523
@@ -619,11 +687,13 @@ Deaths,Male,25 to 29,motor vehicle road injuries,sheffield,2.375906208084193,524
 Deaths,Male,25 to 29,motorcyclist road injuries,sheffield,1.0740769866658681,52415.75144241519
 Deaths,Male,25 to 29,multiple myeloma,sheffield,0.01800947668038928,52415.75144241524
 Deaths,Male,25 to 29,neoplasms,sheffield,4.360012236941662,52415.75144241523
+Deaths,Male,25 to 29,non-rheumatic valvular heart disease,sheffield,0.11559554488938334,52415.751442415174
 Deaths,Male,25 to 29,other road injuries,sheffield,0.03270096388540039,52415.751442415254
 Deaths,Male,25 to 29,other transport injuries,sheffield,0.2999775821133781,52415.751442415196
 Deaths,Male,25 to 29,parkinson's disease,sheffield,8.778961547226211e-4,52415.75144241522
 Deaths,Male,25 to 29,pedestrian road injuries,sheffield,0.5323755419893428,52415.75144241525
 Deaths,Male,25 to 29,prostate cancer,sheffield,0.024047717947474293,52415.75144241521
+Deaths,Male,25 to 29,rheumatic heart disease,sheffield,0.040359627716449784,52415.75144241523
 Deaths,Male,25 to 29,road injuries,sheffield,4.177467629274993,52415.75144241519
 Deaths,Male,25 to 29,stomach cancer,sheffield,0.1048150278896353,52415.75144241526
 Deaths,Male,25 to 29,stroke,sheffield,0.7648630292218076,52415.751442415196
@@ -631,6 +701,7 @@ Deaths,Male,25 to 29,"tracheal, bronchus, and lung cancer",sheffield,0.150150734
 Deaths,Male,30 to 34,all causes,sheffield,44.00881715611412,51680.73483383183
 Deaths,Male,30 to 34,bladder cancer,sheffield,0.055537079687262,51680.73483383176
 Deaths,Male,30 to 34,breast cancer,sheffield,0.006181384445722148,51680.73483383179
+Deaths,Male,30 to 34,cardiomyopathy and myocarditis,sheffield,0.7104888595539341,51680.73483383174
 Deaths,Male,30 to 34,cardiovascular diseases,sheffield,6.509797997612458,51680.73483383179
 Deaths,Male,30 to 34,chronic myeloid leukemia,sheffield,0.046961009698084005,51680.73483383179
 Deaths,Male,30 to 34,chronic obstructive pulmonary disease,sheffield,0.22745689322769905,51680.7348338318
@@ -646,11 +717,13 @@ Deaths,Male,30 to 34,motor vehicle road injuries,sheffield,1.6871311713199737,51
 Deaths,Male,30 to 34,motorcyclist road injuries,sheffield,0.908866149700817,51680.734833831775
 Deaths,Male,30 to 34,multiple myeloma,sheffield,0.057524269600875935,51680.734833831826
 Deaths,Male,30 to 34,neoplasms,sheffield,7.013107257519724,51680.73483383173
+Deaths,Male,30 to 34,non-rheumatic valvular heart disease,sheffield,0.156261017510687,51680.734833831775
 Deaths,Male,30 to 34,other road injuries,sheffield,0.023351794774209324,51680.734833831775
 Deaths,Male,30 to 34,other transport injuries,sheffield,0.2768412890524955,51680.73483383184
 Deaths,Male,30 to 34,parkinson's disease,sheffield,0.0017209820571730645,51680.73483383175
 Deaths,Male,30 to 34,pedestrian road injuries,sheffield,0.5400187419295608,51680.7348338318
 Deaths,Male,30 to 34,prostate cancer,sheffield,0.030993771313090456,51680.73483383175
+Deaths,Male,30 to 34,rheumatic heart disease,sheffield,0.05768865793146334,51680.73483383172
 Deaths,Male,30 to 34,road injuries,sheffield,3.3266486413102228,51680.73483383173
 Deaths,Male,30 to 34,stomach cancer,sheffield,0.30412314568930965,51680.734833831775
 Deaths,Male,30 to 34,stroke,sheffield,1.1972050837165316,51680.73483383179
@@ -658,6 +731,7 @@ Deaths,Male,30 to 34,"tracheal, bronchus, and lung cancer",sheffield,0.519936071
 Deaths,Male,35 to 39,all causes,sheffield,56.40627744883578,47889.159466679324
 Deaths,Male,35 to 39,bladder cancer,sheffield,0.11236033283180205,47889.15946667934
 Deaths,Male,35 to 39,breast cancer,sheffield,0.014857340072868715,47889.159466679295
+Deaths,Male,35 to 39,cardiomyopathy and myocarditis,sheffield,0.8573834223937675,47889.159466679346
 Deaths,Male,35 to 39,cardiovascular diseases,sheffield,10.402408175836875,47889.15946667932
 Deaths,Male,35 to 39,chronic myeloid leukemia,sheffield,0.05655268913116114,47889.159466679375
 Deaths,Male,35 to 39,chronic obstructive pulmonary disease,sheffield,0.4231028107668978,47889.15946667932
@@ -673,11 +747,13 @@ Deaths,Male,35 to 39,motor vehicle road injuries,sheffield,1.1588993750780978,47
 Deaths,Male,35 to 39,motorcyclist road injuries,sheffield,0.8240228551781645,47889.1594666793
 Deaths,Male,35 to 39,multiple myeloma,sheffield,0.12432675176565146,47889.15946667937
 Deaths,Male,35 to 39,neoplasms,sheffield,10.442875035029946,47889.159466679295
+Deaths,Male,35 to 39,non-rheumatic valvular heart disease,sheffield,0.19870696773020613,47889.159466679346
 Deaths,Male,35 to 39,other road injuries,sheffield,0.014259037869176629,47889.15946667929
 Deaths,Male,35 to 39,other transport injuries,sheffield,0.24452724008938304,47889.15946667933
 Deaths,Male,35 to 39,parkinson's disease,sheffield,0.003976925842328269,47889.159466679346
 Deaths,Male,35 to 39,pedestrian road injuries,sheffield,0.4847218318400899,47889.15946667933
 Deaths,Male,35 to 39,prostate cancer,sheffield,0.03692400933431099,47889.15946667933
+Deaths,Male,35 to 39,rheumatic heart disease,sheffield,0.0761316615389976,47889.15946667928
 Deaths,Male,35 to 39,road injuries,sheffield,2.626070862398089,47889.15946667931
 Deaths,Male,35 to 39,stomach cancer,sheffield,0.5537335667218136,47889.15946667936
 Deaths,Male,35 to 39,stroke,sheffield,1.704046106774646,47889.1594666793
@@ -686,6 +762,7 @@ Deaths,Male,40 to 44,all causes,sheffield,80.82665821036673,42208.232502612445
 Deaths,Male,40 to 44,alzheimer's disease and other dementias,sheffield,0.04427223892472046,42208.23250261241
 Deaths,Male,40 to 44,bladder cancer,sheffield,0.24931834886770107,42208.2325026124
 Deaths,Male,40 to 44,breast cancer,sheffield,0.03000510895486251,42208.23250261245
+Deaths,Male,40 to 44,cardiomyopathy and myocarditis,sheffield,1.2015912590510522,42208.23250261243
 Deaths,Male,40 to 44,cardiovascular diseases,sheffield,17.512875257718992,42208.23250261244
 Deaths,Male,40 to 44,chronic myeloid leukemia,sheffield,0.06639437380214643,42208.23250261245
 Deaths,Male,40 to 44,chronic obstructive pulmonary disease,sheffield,0.8877743641459404,42208.232502612416
@@ -701,11 +778,13 @@ Deaths,Male,40 to 44,motor vehicle road injuries,sheffield,1.1509868148685802,42
 Deaths,Male,40 to 44,motorcyclist road injuries,sheffield,0.8847063539774042,42208.23250261245
 Deaths,Male,40 to 44,multiple myeloma,sheffield,0.25948268010668224,42208.23250261243
 Deaths,Male,40 to 44,neoplasms,sheffield,17.514935914371673,42208.23250261241
+Deaths,Male,40 to 44,non-rheumatic valvular heart disease,sheffield,0.2847798008709736,42208.23250261244
 Deaths,Male,40 to 44,other road injuries,sheffield,0.011509499636838052,42208.23250261239
 Deaths,Male,40 to 44,other transport injuries,sheffield,0.2603477431634773,42208.23250261248
 Deaths,Male,40 to 44,parkinson's disease,sheffield,0.04335167787354188,42208.2325026124
 Deaths,Male,40 to 44,pedestrian road injuries,sheffield,0.5578142236685295,42208.232502612445
 Deaths,Male,40 to 44,prostate cancer,sheffield,0.08612425987671672,42208.2325026124
+Deaths,Male,40 to 44,rheumatic heart disease,sheffield,0.10552493337304215,42208.23250261243
 Deaths,Male,40 to 44,road injuries,sheffield,2.7761984162911837,42208.23250261238
 Deaths,Male,40 to 44,stomach cancer,sheffield,0.9950742673576708,42208.23250261243
 Deaths,Male,40 to 44,stroke,sheffield,2.7061631034406264,42208.23250261243
@@ -714,6 +793,7 @@ Deaths,Male,45 to 49,all causes,sheffield,129.49793157650905,46799.057938296
 Deaths,Male,45 to 49,alzheimer's disease and other dementias,sheffield,0.30948066086081405,46799.05793829597
 Deaths,Male,45 to 49,bladder cancer,sheffield,0.5786853329451757,46799.05793829603
 Deaths,Male,45 to 49,breast cancer,sheffield,0.05084143437946832,46799.05793829596
+Deaths,Male,45 to 49,cardiomyopathy and myocarditis,sheffield,1.7377402097776562,46799.057938295875
 Deaths,Male,45 to 49,cardiovascular diseases,sheffield,32.41322002236226,46799.05793829595
 Deaths,Male,45 to 49,chronic myeloid leukemia,sheffield,0.08488012773893276,46799.057938295984
 Deaths,Male,45 to 49,chronic obstructive pulmonary disease,sheffield,2.0667296708102483,46799.057938295904
@@ -729,16 +809,19 @@ Deaths,Male,45 to 49,motor vehicle road injuries,sheffield,1.369610198720571,467
 Deaths,Male,45 to 49,motorcyclist road injuries,sheffield,0.952970236931677,46799.05793829598
 Deaths,Male,45 to 49,multiple myeloma,sheffield,0.5957194264382631,46799.05793829591
 Deaths,Male,45 to 49,neoplasms,sheffield,34.05182300477478,46799.05793829594
+Deaths,Male,45 to 49,non-rheumatic valvular heart disease,sheffield,0.4476365061646561,46799.05793829591
 Deaths,Male,45 to 49,other road injuries,sheffield,0.015771169009492103,46799.05793829592
 Deaths,Male,45 to 49,other transport injuries,sheffield,0.28905154867766736,46799.057938295984
 Deaths,Male,45 to 49,parkinson's disease,sheffield,0.15174187739414396,46799.05793829593
 Deaths,Male,45 to 49,pedestrian road injuries,sheffield,0.7531455271644215,46799.05793829595
 Deaths,Male,45 to 49,prostate cancer,sheffield,0.3962921659978748,46799.057938295926
+Deaths,Male,45 to 49,rheumatic heart disease,sheffield,0.18741461190788178,46799.05793829594
 Deaths,Male,45 to 49,road injuries,sheffield,3.3062702118492773,46799.05793829597
 Deaths,Male,45 to 49,stomach cancer,sheffield,1.8784394547412695,46799.057938295926
 Deaths,Male,45 to 49,stroke,sheffield,4.580373159067281,46799.05793829593
 Deaths,Male,45 to 49,"tracheal, bronchus, and lung cancer",sheffield,6.169194847008468,46799.057938295926
 Deaths,Male,5 to 9,all causes,sheffield,3.8967005435054243,43858.83018514415
+Deaths,Male,5 to 9,cardiomyopathy and myocarditis,sheffield,0.04438909570966397,43858.83018514413
 Deaths,Male,5 to 9,cardiovascular diseases,sheffield,0.1219615791519022,43858.83018514416
 Deaths,Male,5 to 9,chronic myeloid leukemia,sheffield,0.005074928888295582,43858.8301851441
 Deaths,Male,5 to 9,chronic obstructive pulmonary disease,sheffield,0.008660558356519289,43858.83018514415
@@ -753,12 +836,14 @@ Deaths,Male,5 to 9,neoplasms,sheffield,1.2603000023994364,43858.83018514418
 Deaths,Male,5 to 9,other road injuries,sheffield,0.006045610618002854,43858.83018514413
 Deaths,Male,5 to 9,other transport injuries,sheffield,0.02396907170897844,43858.830185144136
 Deaths,Male,5 to 9,pedestrian road injuries,sheffield,0.21664731115591257,43858.83018514409
+Deaths,Male,5 to 9,rheumatic heart disease,sheffield,0.004493945072262733,43858.83018514412
 Deaths,Male,5 to 9,road injuries,sheffield,0.40416994129901374,43858.83018514412
 Deaths,Male,5 to 9,stroke,sheffield,0.02619364814127255,43858.83018514413
 Deaths,Male,50 to 54,all causes,sheffield,189.92576675600282,50329.06227869285
 Deaths,Male,50 to 54,alzheimer's disease and other dementias,sheffield,0.6989017145068247,50329.062278692814
 Deaths,Male,50 to 54,bladder cancer,sheffield,1.3737130444561432,50329.062278692814
 Deaths,Male,50 to 54,breast cancer,sheffield,0.08454689242443361,50329.06227869288
+Deaths,Male,50 to 54,cardiomyopathy and myocarditis,sheffield,2.247727361296202,50329.06227869282
 Deaths,Male,50 to 54,cardiovascular diseases,sheffield,56.13742382219283,50329.06227869284
 Deaths,Male,50 to 54,chronic myeloid leukemia,sheffield,0.08658710963858796,50329.06227869277
 Deaths,Male,50 to 54,chronic obstructive pulmonary disease,sheffield,5.645826419421109,50329.06227869287
@@ -774,11 +859,13 @@ Deaths,Male,50 to 54,motor vehicle road injuries,sheffield,1.0340696459578176,50
 Deaths,Male,50 to 54,motorcyclist road injuries,sheffield,0.585618765346008,50329.06227869279
 Deaths,Male,50 to 54,multiple myeloma,sheffield,1.3089845553636166,50329.06227869283
 Deaths,Male,50 to 54,neoplasms,sheffield,67.61842829022598,50329.0622786928
+Deaths,Male,50 to 54,non-rheumatic valvular heart disease,sheffield,0.8180310903004415,50329.06227869282
 Deaths,Male,50 to 54,other road injuries,sheffield,0.025079997997680858,50329.06227869284
 Deaths,Male,50 to 54,other transport injuries,sheffield,0.2748708839551369,50329.0622786928
 Deaths,Male,50 to 54,parkinson's disease,sheffield,0.33933718249977984,50329.06227869274
 Deaths,Male,50 to 54,pedestrian road injuries,sheffield,0.6377374128381275,50329.06227869277
 Deaths,Male,50 to 54,prostate cancer,sheffield,1.7778537969788188,50329.06227869284
+Deaths,Male,50 to 54,rheumatic heart disease,sheffield,0.26342800091429786,50329.0622786928
 Deaths,Male,50 to 54,road injuries,sheffield,2.5076012794316647,50329.062278692785
 Deaths,Male,50 to 54,stomach cancer,sheffield,3.419369531711676,50329.06227869286
 Deaths,Male,50 to 54,stroke,sheffield,6.9421415844889065,50329.062278692865
@@ -787,6 +874,7 @@ Deaths,Male,55 to 59,all causes,sheffield,287.16322489707125,46141.49869620913
 Deaths,Male,55 to 59,alzheimer's disease and other dementias,sheffield,1.3542710156833926,46141.49869620914
 Deaths,Male,55 to 59,bladder cancer,sheffield,2.647893424974516,46141.49869620919
 Deaths,Male,55 to 59,breast cancer,sheffield,0.13820786372543015,46141.49869620915
+Deaths,Male,55 to 59,cardiomyopathy and myocarditis,sheffield,2.8164674800086047,46141.49869620918
 Deaths,Male,55 to 59,cardiovascular diseases,sheffield,86.89882986609484,46141.49869620917
 Deaths,Male,55 to 59,chronic myeloid leukemia,sheffield,0.11678537612322763,46141.498696209135
 Deaths,Male,55 to 59,chronic obstructive pulmonary disease,sheffield,11.216505643589985,46141.49869620915
@@ -802,11 +890,13 @@ Deaths,Male,55 to 59,motor vehicle road injuries,sheffield,0.9635678443413701,46
 Deaths,Male,55 to 59,motorcyclist road injuries,sheffield,0.4530121628905265,46141.498696209164
 Deaths,Male,55 to 59,multiple myeloma,sheffield,2.241183038094328,46141.49869620917
 Deaths,Male,55 to 59,neoplasms,sheffield,115.38052436870358,46141.498696209164
+Deaths,Male,55 to 59,non-rheumatic valvular heart disease,sheffield,1.3631653678613684,46141.49869620915
 Deaths,Male,55 to 59,other road injuries,sheffield,0.022471646542022012,46141.49869620922
 Deaths,Male,55 to 59,other transport injuries,sheffield,0.26224701230286235,46141.498696209164
 Deaths,Male,55 to 59,parkinson's disease,sheffield,0.6625774956522903,46141.49869620919
 Deaths,Male,55 to 59,pedestrian road injuries,sheffield,0.6456254373990645,46141.498696209215
 Deaths,Male,55 to 59,prostate cancer,sheffield,4.498797114303495,46141.49869620912
+Deaths,Male,55 to 59,rheumatic heart disease,sheffield,0.4028765594095927,46141.498696209186
 Deaths,Male,55 to 59,road injuries,sheffield,2.338054378321071,46141.49869620917
 Deaths,Male,55 to 59,stomach cancer,sheffield,5.615281801248904,46141.49869620912
 Deaths,Male,55 to 59,stroke,sheffield,10.62673339137785,46141.49869620919
@@ -815,6 +905,7 @@ Deaths,Male,60 to 64,all causes,sheffield,396.6350406042199,39077.907515632
 Deaths,Male,60 to 64,alzheimer's disease and other dementias,sheffield,2.5347249587164877,39077.907515632
 Deaths,Male,60 to 64,bladder cancer,sheffield,4.860735274031943,39077.90751563204
 Deaths,Male,60 to 64,breast cancer,sheffield,0.18915020836604984,39077.907515632
+Deaths,Male,60 to 64,cardiomyopathy and myocarditis,sheffield,3.0026403527048346,39077.90751563199
 Deaths,Male,60 to 64,cardiovascular diseases,sheffield,116.0046590064963,39077.90751563201
 Deaths,Male,60 to 64,chronic myeloid leukemia,sheffield,0.14455713320746194,39077.90751563199
 Deaths,Male,60 to 64,chronic obstructive pulmonary disease,sheffield,23.829976767117124,39077.90751563201
@@ -830,11 +921,13 @@ Deaths,Male,60 to 64,motor vehicle road injuries,sheffield,0.7885503196829886,39
 Deaths,Male,60 to 64,motorcyclist road injuries,sheffield,0.25902483245165964,39077.90751563202
 Deaths,Male,60 to 64,multiple myeloma,sheffield,3.427617497833214,39077.90751563203
 Deaths,Male,60 to 64,neoplasms,sheffield,177.36697472176496,39077.90751563199
+Deaths,Male,60 to 64,non-rheumatic valvular heart disease,sheffield,2.0018826902961884,39077.907515632
 Deaths,Male,60 to 64,other road injuries,sheffield,0.014928174422302227,39077.907515631996
 Deaths,Male,60 to 64,other transport injuries,sheffield,0.22508078812269167,39077.90751563203
 Deaths,Male,60 to 64,parkinson's disease,sheffield,1.7254699561703324,39077.907515631996
 Deaths,Male,60 to 64,pedestrian road injuries,sheffield,0.6345457265413328,39077.90751563201
 Deaths,Male,60 to 64,prostate cancer,sheffield,11.224109810359266,39077.907515632
+Deaths,Male,60 to 64,rheumatic heart disease,sheffield,0.5154020869216456,39077.907515632
 Deaths,Male,60 to 64,road injuries,sheffield,1.8829608331400138,39077.90751563205
 Deaths,Male,60 to 64,stomach cancer,sheffield,8.15856790443222,39077.907515632
 Deaths,Male,60 to 64,stroke,sheffield,13.785764442070985,39077.90751563198
@@ -843,6 +936,7 @@ Deaths,Male,65 to 69,all causes,sheffield,558.1766989483247,34158.74423370266
 Deaths,Male,65 to 69,alzheimer's disease and other dementias,sheffield,5.084000033383861,34158.74423370257
 Deaths,Male,65 to 69,bladder cancer,sheffield,8.231702733832844,34158.744233702644
 Deaths,Male,65 to 69,breast cancer,sheffield,0.2563194931471634,34158.74423370264
+Deaths,Male,65 to 69,cardiomyopathy and myocarditis,sheffield,3.6093085556571545,34158.74423370263
 Deaths,Male,65 to 69,cardiovascular diseases,sheffield,161.58529450259786,34158.74423370263
 Deaths,Male,65 to 69,chronic myeloid leukemia,sheffield,0.22541567288591474,34158.74423370262
 Deaths,Male,65 to 69,chronic obstructive pulmonary disease,sheffield,41.094720541406524,34158.74423370257
@@ -858,11 +952,13 @@ Deaths,Male,65 to 69,motor vehicle road injuries,sheffield,0.7377924128182621,34
 Deaths,Male,65 to 69,motorcyclist road injuries,sheffield,0.17443290336665462,34158.74423370262
 Deaths,Male,65 to 69,multiple myeloma,sheffield,5.116614454346447,34158.74423370258
 Deaths,Male,65 to 69,neoplasms,sheffield,256.5572814105233,34158.744233702615
+Deaths,Male,65 to 69,non-rheumatic valvular heart disease,sheffield,3.2104918242819993,34158.744233702586
 Deaths,Male,65 to 69,other road injuries,sheffield,0.011898451327748725,34158.74423370258
 Deaths,Male,65 to 69,other transport injuries,sheffield,0.19345703298984201,34158.74423370261
 Deaths,Male,65 to 69,parkinson's disease,sheffield,4.430408985907551,34158.7442337026
 Deaths,Male,65 to 69,pedestrian road injuries,sheffield,0.673573667351789,34158.744233702586
 Deaths,Male,65 to 69,prostate cancer,sheffield,21.876219032051118,34158.74423370261
+Deaths,Male,65 to 69,rheumatic heart disease,sheffield,0.7744845366043966,34158.74423370258
 Deaths,Male,65 to 69,road injuries,sheffield,1.7777010375846423,34158.7442337026
 Deaths,Male,65 to 69,stomach cancer,sheffield,12.258468257364461,34158.7442337026
 Deaths,Male,65 to 69,stroke,sheffield,22.604109708113697,34158.74423370263
@@ -871,6 +967,7 @@ Deaths,Male,70 to 74,all causes,sheffield,880.7359114842865,32472.240513284407
 Deaths,Male,70 to 74,alzheimer's disease and other dementias,sheffield,11.972888944615338,32472.240513284436
 Deaths,Male,70 to 74,bladder cancer,sheffield,14.93352340175581,32472.24051328445
 Deaths,Male,70 to 74,breast cancer,sheffield,0.39694789444419365,32472.240513284407
+Deaths,Male,70 to 74,cardiomyopathy and myocarditis,sheffield,4.250963689977856,32472.24051328442
 Deaths,Male,70 to 74,cardiovascular diseases,sheffield,260.4281237999614,32472.2405132844
 Deaths,Male,70 to 74,chronic myeloid leukemia,sheffield,0.3821304631884159,32472.2405132844
 Deaths,Male,70 to 74,chronic obstructive pulmonary disease,sheffield,73.17181141868451,32472.2405132844
@@ -886,11 +983,13 @@ Deaths,Male,70 to 74,motor vehicle road injuries,sheffield,0.8316658638123167,32
 Deaths,Male,70 to 74,motorcyclist road injuries,sheffield,0.09593359853111381,32472.240513284407
 Deaths,Male,70 to 74,multiple myeloma,sheffield,8.1867259146028,32472.240513284414
 Deaths,Male,70 to 74,neoplasms,sheffield,386.8694717510074,32472.240513284414
+Deaths,Male,70 to 74,non-rheumatic valvular heart disease,sheffield,5.837168996654016,32472.240513284443
 Deaths,Male,70 to 74,other road injuries,sheffield,0.010541114928761763,32472.24051328442
 Deaths,Male,70 to 74,other transport injuries,sheffield,0.17406400756570808,32472.240513284425
 Deaths,Male,70 to 74,parkinson's disease,sheffield,13.010313326359217,32472.24051328444
 Deaths,Male,70 to 74,pedestrian road injuries,sheffield,0.8802715332264952,32472.240513284414
 Deaths,Male,70 to 74,prostate cancer,sheffield,42.662978121666505,32472.24051328443
+Deaths,Male,70 to 74,rheumatic heart disease,sheffield,1.3695511024524596,32472.24051328443
 Deaths,Male,70 to 74,road injuries,sheffield,1.980052095238864,32472.240513284436
 Deaths,Male,70 to 74,stomach cancer,sheffield,19.57463539946668,32472.240513284425
 Deaths,Male,70 to 74,stroke,sheffield,43.458357204818334,32472.24051328442
@@ -899,6 +998,7 @@ Deaths,Male,75 to 79,all causes,sheffield,995.009658677495,22345.8534166188
 Deaths,Male,75 to 79,alzheimer's disease and other dementias,sheffield,21.25292956911264,22345.85341661884
 Deaths,Male,75 to 79,bladder cancer,sheffield,18.302834097657303,22345.853416618782
 Deaths,Male,75 to 79,breast cancer,sheffield,0.3678413636269801,22345.853416618775
+Deaths,Male,75 to 79,cardiomyopathy and myocarditis,sheffield,4.2788545563313285,22345.853416618786
 Deaths,Male,75 to 79,cardiovascular diseases,sheffield,304.9179988673045,22345.853416618782
 Deaths,Male,75 to 79,chronic myeloid leukemia,sheffield,0.4265601333120587,22345.853416618796
 Deaths,Male,75 to 79,chronic obstructive pulmonary disease,sheffield,91.5158142267155,22345.853416618786
@@ -914,11 +1014,13 @@ Deaths,Male,75 to 79,motor vehicle road injuries,sheffield,0.7660642007936568,22
 Deaths,Male,75 to 79,motorcyclist road injuries,sheffield,0.049484555928585416,22345.853416618807
 Deaths,Male,75 to 79,multiple myeloma,sheffield,8.076416405711717,22345.853416618836
 Deaths,Male,75 to 79,neoplasms,sheffield,389.6034791353433,22345.853416618815
+Deaths,Male,75 to 79,non-rheumatic valvular heart disease,sheffield,7.571588491357133,22345.853416618822
 Deaths,Male,75 to 79,other road injuries,sheffield,0.008637393664531753,22345.853416618775
 Deaths,Male,75 to 79,other transport injuries,sheffield,0.12253331048954888,22345.853416618793
 Deaths,Male,75 to 79,parkinson's disease,sheffield,22.318485556701084,22345.853416618786
 Deaths,Male,75 to 79,pedestrian road injuries,sheffield,0.9530979206637863,22345.853416618804
 Deaths,Male,75 to 79,prostate cancer,sheffield,59.50330666756807,22345.853416618807
+Deaths,Male,75 to 79,rheumatic heart disease,sheffield,1.6548600528438422,22345.853416618815
 Deaths,Male,75 to 79,road injuries,sheffield,1.8984191452763468,22345.853416618807
 Deaths,Male,75 to 79,stomach cancer,sheffield,21.093566523172477,22345.853416618807
 Deaths,Male,75 to 79,stroke,sheffield,59.9694505162904,22345.853416618826
@@ -927,6 +1029,7 @@ Deaths,Male,80 to 84,all causes,sheffield,1200.925912471975,15205.449465608828
 Deaths,Male,80 to 84,alzheimer's disease and other dementias,sheffield,50.868297297495204,15205.449465608839
 Deaths,Male,80 to 84,bladder cancer,sheffield,22.80391011328445,15205.449465608819
 Deaths,Male,80 to 84,breast cancer,sheffield,0.3254658867159064,15205.449465608857
+Deaths,Male,80 to 84,cardiomyopathy and myocarditis,sheffield,5.033690530009176,15205.449465608839
 Deaths,Male,80 to 84,cardiovascular diseases,sheffield,390.95890586207645,15205.449465608837
 Deaths,Male,80 to 84,chronic myeloid leukemia,sheffield,0.46221932369396657,15205.449465608828
 Deaths,Male,80 to 84,chronic obstructive pulmonary disease,sheffield,109.13497629610889,15205.449465608832
@@ -942,11 +1045,13 @@ Deaths,Male,80 to 84,motor vehicle road injuries,sheffield,0.8036253424850196,15
 Deaths,Male,80 to 84,motorcyclist road injuries,sheffield,0.029272103146578982,15205.449465608825
 Deaths,Male,80 to 84,multiple myeloma,sheffield,8.140538941242623,15205.44946560883
 Deaths,Male,80 to 84,neoplasms,sheffield,393.08272950350226,15205.449465608861
+Deaths,Male,80 to 84,non-rheumatic valvular heart disease,sheffield,12.057671309763256,15205.449465608817
 Deaths,Male,80 to 84,other road injuries,sheffield,0.006633360343278814,15205.449465608826
 Deaths,Male,80 to 84,other transport injuries,sheffield,0.09651818509196972,15205.449465608848
 Deaths,Male,80 to 84,parkinson's disease,sheffield,29.06241761100394,15205.449465608828
 Deaths,Male,80 to 84,pedestrian road injuries,sheffield,0.9696882581229618,15205.449465608817
 Deaths,Male,80 to 84,prostate cancer,sheffield,76.5361527082246,15205.449465608848
+Deaths,Male,80 to 84,rheumatic heart disease,sheffield,2.0131282143057443,15205.449465608835
 Deaths,Male,80 to 84,road injuries,sheffield,1.8930818689561086,15205.449465608841
 Deaths,Male,80 to 84,stomach cancer,sheffield,22.189881600794727,15205.449465608841
 Deaths,Male,80 to 84,stroke,sheffield,88.23199239955687,15205.449465608841
@@ -955,6 +1060,7 @@ Deaths,Male,85 to 89,all causes,sheffield,1069.4823177419257,7745.254450211255
 Deaths,Male,85 to 89,alzheimer's disease and other dementias,sheffield,64.4409675852927,7745.254450211256
 Deaths,Male,85 to 89,bladder cancer,sheffield,19.30415405052007,7745.254450211243
 Deaths,Male,85 to 89,breast cancer,sheffield,0.30865808226698943,7745.254450211244
+Deaths,Male,85 to 89,cardiomyopathy and myocarditis,sheffield,5.119505358347491,7745.254450211241
 Deaths,Male,85 to 89,cardiovascular diseases,sheffield,355.7333878385246,7745.2544502112505
 Deaths,Male,85 to 89,chronic myeloid leukemia,sheffield,0.44239709508954556,7745.25445021125
 Deaths,Male,85 to 89,chronic obstructive pulmonary disease,sheffield,97.91593454411624,7745.254450211245
@@ -970,11 +1076,13 @@ Deaths,Male,85 to 89,motor vehicle road injuries,sheffield,0.5877453211379904,77
 Deaths,Male,85 to 89,motorcyclist road injuries,sheffield,0.01409907180076059,7745.254450211257
 Deaths,Male,85 to 89,multiple myeloma,sheffield,6.015698697308453,7745.254450211249
 Deaths,Male,85 to 89,neoplasms,sheffield,288.4125159849546,7745.254450211245
+Deaths,Male,85 to 89,non-rheumatic valvular heart disease,sheffield,12.782927052361975,7745.254450211253
 Deaths,Male,85 to 89,other road injuries,sheffield,0.0031509142881167556,7745.254450211249
 Deaths,Male,85 to 89,other transport injuries,sheffield,0.051195511772531094,7745.254450211244
 Deaths,Male,85 to 89,parkinson's disease,sheffield,23.341865250185787,7745.254450211246
 Deaths,Male,85 to 89,pedestrian road injuries,sheffield,0.7201160703423872,7745.254450211251
 Deaths,Male,85 to 89,prostate cancer,sheffield,65.72114901007038,7745.254450211247
+Deaths,Male,85 to 89,rheumatic heart disease,sheffield,1.7221110287588697,7745.254450211243
 Deaths,Male,85 to 89,road injuries,sheffield,1.3687008302699795,7745.254450211237
 Deaths,Male,85 to 89,stomach cancer,sheffield,16.21892588302239,7745.254450211248
 Deaths,Male,85 to 89,stroke,sheffield,84.07752810650493,7745.2544502112405
@@ -983,6 +1091,7 @@ Deaths,Male,90 to 94,all causes,sheffield,641.4618039567983,2833.6951524612005
 Deaths,Male,90 to 94,alzheimer's disease and other dementias,sheffield,49.651510572716106,2833.6951524611964
 Deaths,Male,90 to 94,bladder cancer,sheffield,10.484374242368506,2833.6951524612014
 Deaths,Male,90 to 94,breast cancer,sheffield,0.1849469147147918,2833.695152461201
+Deaths,Male,90 to 94,cardiomyopathy and myocarditis,sheffield,3.6910103893630373,2833.695152461199
 Deaths,Male,90 to 94,cardiovascular diseases,sheffield,225.55189582296342,2833.6951524611977
 Deaths,Male,90 to 94,chronic myeloid leukemia,sheffield,0.22497057319107253,2833.695152461193
 Deaths,Male,90 to 94,chronic obstructive pulmonary disease,sheffield,55.81371698461341,2833.6951524611977
@@ -998,11 +1107,13 @@ Deaths,Male,90 to 94,motor vehicle road injuries,sheffield,0.25663161065815515,2
 Deaths,Male,90 to 94,motorcyclist road injuries,sheffield,0.009195903065476352,2833.6951524611973
 Deaths,Male,90 to 94,multiple myeloma,sheffield,2.2490257809098058,2833.6951524612014
 Deaths,Male,90 to 94,neoplasms,sheffield,135.52522067385172,2833.6951524611986
+Deaths,Male,90 to 94,non-rheumatic valvular heart disease,sheffield,8.624545125361864,2833.695152461199
 Deaths,Male,90 to 94,other road injuries,sheffield,0.002683571220404999,2833.6951524612
 Deaths,Male,90 to 94,other transport injuries,sheffield,0.02685031112206459,2833.6951524611977
 Deaths,Male,90 to 94,parkinson's disease,sheffield,11.109288413701696,2833.6951524612005
 Deaths,Male,90 to 94,pedestrian road injuries,sheffield,0.33909001134325634,2833.695152461199
 Deaths,Male,90 to 94,prostate cancer,sheffield,36.91286740321691,2833.695152461197
+Deaths,Male,90 to 94,rheumatic heart disease,sheffield,0.9668133700689014,2833.695152461198
 Deaths,Male,90 to 94,road injuries,sheffield,0.6281016324664349,2833.6951524611995
 Deaths,Male,90 to 94,stomach cancer,sheffield,7.453241169437838,2833.695152461195
 Deaths,Male,90 to 94,stroke,sheffield,57.240898461257395,2833.6951524611977
@@ -1011,6 +1122,7 @@ Deaths,Male,95 to 99,all causes,sheffield,204.90635072053664,579.7259319426546
 Deaths,Male,95 to 99,alzheimer's disease and other dementias,sheffield,18.24221085202793,579.7259319426544
 Deaths,Male,95 to 99,bladder cancer,sheffield,2.9959661251934366,579.7259319426538
 Deaths,Male,95 to 99,breast cancer,sheffield,0.05097362569339804,579.7259319426548
+Deaths,Male,95 to 99,cardiomyopathy and myocarditis,sheffield,1.3125036342088778,579.7259319426544
 Deaths,Male,95 to 99,cardiovascular diseases,sheffield,74.6692988168159,579.7259319426543
 Deaths,Male,95 to 99,chronic myeloid leukemia,sheffield,0.058255788181000724,579.7259319426538
 Deaths,Male,95 to 99,chronic obstructive pulmonary disease,sheffield,17.72065237591608,579.7259319426541
@@ -1026,16 +1138,19 @@ Deaths,Male,95 to 99,motor vehicle road injuries,sheffield,0.07238790543915127,5
 Deaths,Male,95 to 99,motorcyclist road injuries,sheffield,0.0045418369851879265,579.7259319426541
 Deaths,Male,95 to 99,multiple myeloma,sheffield,0.6081350353805401,579.7259319426537
 Deaths,Male,95 to 99,neoplasms,sheffield,36.3394624490192,579.7259319426545
+Deaths,Male,95 to 99,non-rheumatic valvular heart disease,sheffield,2.753483701195134,579.7259319426532
 Deaths,Male,95 to 99,other road injuries,sheffield,0.0015811634199239255,579.7259319426536
 Deaths,Male,95 to 99,other transport injuries,sheffield,0.00937507278918466,579.725931942654
 Deaths,Male,95 to 99,parkinson's disease,sheffield,2.1761968979758928,579.7259319426545
 Deaths,Male,95 to 99,pedestrian road injuries,sheffield,0.0994682075737729,579.7259319426535
 Deaths,Male,95 to 99,prostate cancer,sheffield,10.448212688985766,579.7259319426543
+Deaths,Male,95 to 99,rheumatic heart disease,sheffield,0.29465132040869957,579.7259319426536
 Deaths,Male,95 to 99,road injuries,sheffield,0.178532982819907,579.7259319426535
 Deaths,Male,95 to 99,stomach cancer,sheffield,2.0144437540942537,579.7259319426539
 Deaths,Male,95 to 99,stroke,sheffield,19.859123608486634,579.7259319426541
 Deaths,Male,95 to 99,"tracheal, bronchus, and lung cancer",sheffield,5.2405633291253455,579.7259319426541
 YLLs (Years of Life Lost),Female,0 to 5,all causes,sheffield,2706.1384912305725,40141.64807808496
+YLLs (Years of Life Lost),Female,0 to 5,cardiomyopathy and myocarditis,sheffield,17.359764344396407,40141.64807808505
 YLLs (Years of Life Lost),Female,0 to 5,cardiovascular diseases,sheffield,39.96028640248923,40141.64807808504
 YLLs (Years of Life Lost),Female,0 to 5,chronic myeloid leukemia,sheffield,0.4433114469140571,40141.64807808506
 YLLs (Years of Life Lost),Female,0 to 5,chronic obstructive pulmonary disease,sheffield,1.2980329548207692,40141.64807808508
@@ -1049,9 +1164,11 @@ YLLs (Years of Life Lost),Female,0 to 5,neoplasms,sheffield,91.46887965236465,40
 YLLs (Years of Life Lost),Female,0 to 5,other road injuries,sheffield,0.6130004281905674,40141.64807808503
 YLLs (Years of Life Lost),Female,0 to 5,other transport injuries,sheffield,1.3085756064244902,40141.648078084996
 YLLs (Years of Life Lost),Female,0 to 5,pedestrian road injuries,sheffield,6.934790507673734,40141.648078085
+YLLs (Years of Life Lost),Female,0 to 5,rheumatic heart disease,sheffield,0.5694836923013309,40141.64807808505
 YLLs (Years of Life Lost),Female,0 to 5,road injuries,sheffield,15.748918928622343,40141.64807808502
 YLLs (Years of Life Lost),Female,0 to 5,stroke,sheffield,4.989095035553853,40141.64807808505
 YLLs (Years of Life Lost),Female,10 to 14,all causes,sheffield,370.8024649422272,41331.925243676014
+YLLs (Years of Life Lost),Female,10 to 14,cardiomyopathy and myocarditis,sheffield,4.646536501163719,41331.925243676
 YLLs (Years of Life Lost),Female,10 to 14,cardiovascular diseases,sheffield,16.90684500340778,41331.925243676
 YLLs (Years of Life Lost),Female,10 to 14,chronic myeloid leukemia,sheffield,0.7141146535927437,41331.925243675985
 YLLs (Years of Life Lost),Female,10 to 14,chronic obstructive pulmonary disease,sheffield,1.286516273120056,41331.92524367601
@@ -1066,12 +1183,14 @@ YLLs (Years of Life Lost),Female,10 to 14,neoplasms,sheffield,109.77128597081867
 YLLs (Years of Life Lost),Female,10 to 14,other road injuries,sheffield,1.0490706830141914,41331.925243676
 YLLs (Years of Life Lost),Female,10 to 14,other transport injuries,sheffield,2.5478773800904415,41331.92524367603
 YLLs (Years of Life Lost),Female,10 to 14,pedestrian road injuries,sheffield,15.438375868987322,41331.925243676036
+YLLs (Years of Life Lost),Female,10 to 14,rheumatic heart disease,sheffield,0.4935677223501501,41331.925243675985
 YLLs (Years of Life Lost),Female,10 to 14,road injuries,sheffield,31.00672802840435,41331.925243676014
 YLLs (Years of Life Lost),Female,10 to 14,stroke,sheffield,5.291170171189665,41331.92524367604
 YLLs (Years of Life Lost),Female,10 to 14,"tracheal, bronchus, and lung cancer",sheffield,0.734816363637008,41331.92524367601
 YLLs (Years of Life Lost),Female,15 to 19,all causes,sheffield,444.41130389507674,39699.04640156171
 YLLs (Years of Life Lost),Female,15 to 19,bladder cancer,sheffield,0.2921771111026086,39699.04640156175
 YLLs (Years of Life Lost),Female,15 to 19,breast cancer,sheffield,1.194568741530138,39699.046401561696
+YLLs (Years of Life Lost),Female,15 to 19,cardiomyopathy and myocarditis,sheffield,4.727122646650221,39699.04640156174
 YLLs (Years of Life Lost),Female,15 to 19,cardiovascular diseases,sheffield,25.77269719352872,39699.046401561776
 YLLs (Years of Life Lost),Female,15 to 19,chronic myeloid leukemia,sheffield,0.5465744144325516,39699.046401561776
 YLLs (Years of Life Lost),Female,15 to 19,chronic obstructive pulmonary disease,sheffield,2.0608137517695058,39699.04640156171
@@ -1085,9 +1204,11 @@ YLLs (Years of Life Lost),Female,15 to 19,lower respiratory infections,sheffield
 YLLs (Years of Life Lost),Female,15 to 19,motor vehicle road injuries,sheffield,39.76398442810183,39699.04640156168
 YLLs (Years of Life Lost),Female,15 to 19,motorcyclist road injuries,sheffield,4.510424145893853,39699.046401561776
 YLLs (Years of Life Lost),Female,15 to 19,neoplasms,sheffield,93.478880307378,39699.0464015617
+YLLs (Years of Life Lost),Female,15 to 19,non-rheumatic valvular heart disease,sheffield,1.2247441156431422,39699.046401561725
 YLLs (Years of Life Lost),Female,15 to 19,other road injuries,sheffield,1.614682854569789,39699.04640156174
 YLLs (Years of Life Lost),Female,15 to 19,other transport injuries,sheffield,2.6488534220091826,39699.04640156169
 YLLs (Years of Life Lost),Female,15 to 19,pedestrian road injuries,sheffield,14.846221700762577,39699.046401561725
+YLLs (Years of Life Lost),Female,15 to 19,rheumatic heart disease,sheffield,0.5107644544248202,39699.04640156173
 YLLs (Years of Life Lost),Female,15 to 19,road injuries,sheffield,63.54954652921459,39699.0464015617
 YLLs (Years of Life Lost),Female,15 to 19,stomach cancer,sheffield,0.4456091421205261,39699.0464015617
 YLLs (Years of Life Lost),Female,15 to 19,stroke,sheffield,7.676976151897759,39699.04640156171
@@ -1095,6 +1216,7 @@ YLLs (Years of Life Lost),Female,15 to 19,"tracheal, bronchus, and lung cancer",
 YLLs (Years of Life Lost),Female,20 to 24,all causes,sheffield,636.4996498658237,47649.094036452836
 YLLs (Years of Life Lost),Female,20 to 24,bladder cancer,sheffield,0.34247715121554156,47649.094036452894
 YLLs (Years of Life Lost),Female,20 to 24,breast cancer,sheffield,4.273127432416084,47649.09403645282
+YLLs (Years of Life Lost),Female,20 to 24,cardiomyopathy and myocarditis,sheffield,6.228851256730173,47649.09403645278
 YLLs (Years of Life Lost),Female,20 to 24,cardiovascular diseases,sheffield,46.877055656339934,47649.09403645287
 YLLs (Years of Life Lost),Female,20 to 24,chronic myeloid leukemia,sheffield,0.7308005849004348,47649.09403645286
 YLLs (Years of Life Lost),Female,20 to 24,chronic obstructive pulmonary disease,sheffield,3.1421148760015587,47649.09403645279
@@ -1110,10 +1232,12 @@ YLLs (Years of Life Lost),Female,20 to 24,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,20 to 24,motorcyclist road injuries,sheffield,4.698476133378045,47649.09403645287
 YLLs (Years of Life Lost),Female,20 to 24,multiple myeloma,sheffield,0.21509292183911116,47649.09403645278
 YLLs (Years of Life Lost),Female,20 to 24,neoplasms,sheffield,137.79689131490545,47649.09403645284
+YLLs (Years of Life Lost),Female,20 to 24,non-rheumatic valvular heart disease,sheffield,1.8998735560606244,47649.09403645285
 YLLs (Years of Life Lost),Female,20 to 24,other road injuries,sheffield,1.7935760110918981,47649.094036452836
 YLLs (Years of Life Lost),Female,20 to 24,other transport injuries,sheffield,3.250970489031634,47649.09403645282
 YLLs (Years of Life Lost),Female,20 to 24,parkinson's disease,sheffield,0.041414843997303566,47649.094036452814
 YLLs (Years of Life Lost),Female,20 to 24,pedestrian road injuries,sheffield,12.006618153749212,47649.09403645276
+YLLs (Years of Life Lost),Female,20 to 24,rheumatic heart disease,sheffield,1.082352109374732,47649.09403645285
 YLLs (Years of Life Lost),Female,20 to 24,road injuries,sheffield,65.65292025631163,47649.094036452814
 YLLs (Years of Life Lost),Female,20 to 24,stomach cancer,sheffield,1.6431329636878258,47649.09403645287
 YLLs (Years of Life Lost),Female,20 to 24,stroke,sheffield,15.431232355741646,47649.094036452814
@@ -1122,6 +1246,7 @@ YLLs (Years of Life Lost),Female,20 to 24,uterine cancer,sheffield,0.36927363131
 YLLs (Years of Life Lost),Female,25 to 29,all causes,sheffield,882.584078709819,52646.14443178833
 YLLs (Years of Life Lost),Female,25 to 29,bladder cancer,sheffield,1.1290540822165422,52646.14443178832
 YLLs (Years of Life Lost),Female,25 to 29,breast cancer,sheffield,39.883340021752545,52646.14443178825
+YLLs (Years of Life Lost),Female,25 to 29,cardiomyopathy and myocarditis,sheffield,8.922793354263158,52646.14443178833
 YLLs (Years of Life Lost),Female,25 to 29,cardiovascular diseases,sheffield,93.1411949097236,52646.14443178831
 YLLs (Years of Life Lost),Female,25 to 29,chronic myeloid leukemia,sheffield,1.382966506030746,52646.144431788285
 YLLs (Years of Life Lost),Female,25 to 29,chronic obstructive pulmonary disease,sheffield,5.110954902669732,52646.14443178827
@@ -1137,10 +1262,12 @@ YLLs (Years of Life Lost),Female,25 to 29,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,25 to 29,motorcyclist road injuries,sheffield,3.290175455755369,52646.14443178831
 YLLs (Years of Life Lost),Female,25 to 29,multiple myeloma,sheffield,0.4149369082414289,52646.14443178826
 YLLs (Years of Life Lost),Female,25 to 29,neoplasms,sheffield,255.64024141761956,52646.14443178827
+YLLs (Years of Life Lost),Female,25 to 29,non-rheumatic valvular heart disease,sheffield,3.5304814027790172,52646.14443178833
 YLLs (Years of Life Lost),Female,25 to 29,other road injuries,sheffield,1.4638731794173894,52646.14443178826
 YLLs (Years of Life Lost),Female,25 to 29,other transport injuries,sheffield,2.9893536283262714,52646.14443178827
 YLLs (Years of Life Lost),Female,25 to 29,parkinson's disease,sheffield,0.023266737856468527,52646.144431788285
 YLLs (Years of Life Lost),Female,25 to 29,pedestrian road injuries,sheffield,8.135573948334798,52646.14443178833
+YLLs (Years of Life Lost),Female,25 to 29,rheumatic heart disease,sheffield,2.0891828439524684,52646.14443178833
 YLLs (Years of Life Lost),Female,25 to 29,road injuries,sheffield,44.88473151080978,52646.14443178826
 YLLs (Years of Life Lost),Female,25 to 29,stomach cancer,sheffield,6.245861054870498,52646.1444317883
 YLLs (Years of Life Lost),Female,25 to 29,stroke,sheffield,33.79604115656018,52646.1444317882
@@ -1149,6 +1276,7 @@ YLLs (Years of Life Lost),Female,25 to 29,uterine cancer,sheffield,1.49953626612
 YLLs (Years of Life Lost),Female,30 to 34,all causes,sheffield,1410.698067564789,51064.16810383836
 YLLs (Years of Life Lost),Female,30 to 34,bladder cancer,sheffield,3.949433208111138,51064.168103838325
 YLLs (Years of Life Lost),Female,30 to 34,breast cancer,sheffield,148.8703674630326,51064.16810383831
+YLLs (Years of Life Lost),Female,30 to 34,cardiomyopathy and myocarditis,sheffield,10.558895025242375,51064.1681038383
 YLLs (Years of Life Lost),Female,30 to 34,cardiovascular diseases,sheffield,164.69459441756754,51064.168103838325
 YLLs (Years of Life Lost),Female,30 to 34,chronic myeloid leukemia,sheffield,1.9936347138691772,51064.16810383834
 YLLs (Years of Life Lost),Female,30 to 34,chronic obstructive pulmonary disease,sheffield,9.286404078378904,51064.168103838354
@@ -1164,10 +1292,12 @@ YLLs (Years of Life Lost),Female,30 to 34,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,30 to 34,motorcyclist road injuries,sheffield,2.9669151526110182,51064.16810383836
 YLLs (Years of Life Lost),Female,30 to 34,multiple myeloma,sheffield,1.4170547851893647,51064.168103838325
 YLLs (Years of Life Lost),Female,30 to 34,neoplasms,sheffield,512.6498599413105,51064.168103838296
+YLLs (Years of Life Lost),Female,30 to 34,non-rheumatic valvular heart disease,sheffield,4.841388202642817,51064.16810383839
 YLLs (Years of Life Lost),Female,30 to 34,other road injuries,sheffield,1.2383326765778508,51064.168103838296
 YLLs (Years of Life Lost),Female,30 to 34,other transport injuries,sheffield,2.8119848549330855,51064.16810383834
 YLLs (Years of Life Lost),Female,30 to 34,parkinson's disease,sheffield,0.07082815963321745,51064.168103838354
 YLLs (Years of Life Lost),Female,30 to 34,pedestrian road injuries,sheffield,7.475338306173596,51064.16810383831
+YLLs (Years of Life Lost),Female,30 to 34,rheumatic heart disease,sheffield,3.042797254906233,51064.1681038383
 YLLs (Years of Life Lost),Female,30 to 34,road injuries,sheffield,35.598387652901835,51064.16810383826
 YLLs (Years of Life Lost),Female,30 to 34,stomach cancer,sheffield,16.10949701509656,51064.16810383834
 YLLs (Years of Life Lost),Female,30 to 34,stroke,sheffield,57.16977113194679,51064.16810383836
@@ -1176,6 +1306,7 @@ YLLs (Years of Life Lost),Female,30 to 34,uterine cancer,sheffield,3.58232533007
 YLLs (Years of Life Lost),Female,35 to 39,all causes,sheffield,1962.3390752760426,45886.693608701724
 YLLs (Years of Life Lost),Female,35 to 39,bladder cancer,sheffield,6.721578587159435,45886.69360870177
 YLLs (Years of Life Lost),Female,35 to 39,breast cancer,sheffield,268.92963638459025,45886.6936087017
+YLLs (Years of Life Lost),Female,35 to 39,cardiomyopathy and myocarditis,sheffield,13.91556476459126,45886.693608701746
 YLLs (Years of Life Lost),Female,35 to 39,cardiovascular diseases,sheffield,256.5820382760972,45886.69360870168
 YLLs (Years of Life Lost),Female,35 to 39,chronic myeloid leukemia,sheffield,2.673984986265536,45886.693608701804
 YLLs (Years of Life Lost),Female,35 to 39,chronic obstructive pulmonary disease,sheffield,15.993402442824628,45886.69360870171
@@ -1191,10 +1322,12 @@ YLLs (Years of Life Lost),Female,35 to 39,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,35 to 39,motorcyclist road injuries,sheffield,2.6318852481059207,45886.69360870177
 YLLs (Years of Life Lost),Female,35 to 39,multiple myeloma,sheffield,3.6141120304687124,45886.69360870174
 YLLs (Years of Life Lost),Female,35 to 39,neoplasms,sheffield,794.7825462435393,45886.6936087017
+YLLs (Years of Life Lost),Female,35 to 39,non-rheumatic valvular heart disease,sheffield,5.582221920706604,45886.693608701724
 YLLs (Years of Life Lost),Female,35 to 39,other road injuries,sheffield,1.1926370125493986,45886.6936087017
 YLLs (Years of Life Lost),Female,35 to 39,other transport injuries,sheffield,2.5839345222511834,45886.693608701775
 YLLs (Years of Life Lost),Female,35 to 39,parkinson's disease,sheffield,0.24106482798612247,45886.69360870174
 YLLs (Years of Life Lost),Female,35 to 39,pedestrian road injuries,sheffield,7.660409234110631,45886.69360870179
+YLLs (Years of Life Lost),Female,35 to 39,rheumatic heart disease,sheffield,4.3523532182630795,45886.69360870176
 YLLs (Years of Life Lost),Female,35 to 39,road injuries,sheffield,30.480656250865742,45886.69360870171
 YLLs (Years of Life Lost),Female,35 to 39,stomach cancer,sheffield,24.725783944025,45886.69360870174
 YLLs (Years of Life Lost),Female,35 to 39,stroke,sheffield,87.91272286505075,45886.6936087018
@@ -1204,6 +1337,7 @@ YLLs (Years of Life Lost),Female,40 to 44,all causes,sheffield,2345.108952725660
 YLLs (Years of Life Lost),Female,40 to 44,alzheimer's disease and other dementias,sheffield,2.1773824441028897,40612.00616207372
 YLLs (Years of Life Lost),Female,40 to 44,bladder cancer,sheffield,10.550448821749908,40612.00616207376
 YLLs (Years of Life Lost),Female,40 to 44,breast cancer,sheffield,349.41697630500425,40612.00616207375
+YLLs (Years of Life Lost),Female,40 to 44,cardiomyopathy and myocarditis,sheffield,14.560687721181747,40612.0061620737
 YLLs (Years of Life Lost),Female,40 to 44,cardiovascular diseases,sheffield,332.55670488055114,40612.006162073776
 YLLs (Years of Life Lost),Female,40 to 44,chronic myeloid leukemia,sheffield,2.3677224200441156,40612.00616207375
 YLLs (Years of Life Lost),Female,40 to 44,chronic obstructive pulmonary disease,sheffield,27.770667573158438,40612.00616207373
@@ -1219,10 +1353,12 @@ YLLs (Years of Life Lost),Female,40 to 44,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,40 to 44,motorcyclist road injuries,sheffield,2.074414468514862,40612.00616207377
 YLLs (Years of Life Lost),Female,40 to 44,multiple myeloma,sheffield,6.619632768982734,40612.006162073776
 YLLs (Years of Life Lost),Female,40 to 44,neoplasms,sheffield,1037.1501867675868,40612.00616207377
+YLLs (Years of Life Lost),Female,40 to 44,non-rheumatic valvular heart disease,sheffield,6.628781801958037,40612.006162073805
 YLLs (Years of Life Lost),Female,40 to 44,other road injuries,sheffield,0.8932783928236003,40612.006162073725
 YLLs (Years of Life Lost),Female,40 to 44,other transport injuries,sheffield,2.0927437275005962,40612.00616207374
 YLLs (Years of Life Lost),Female,40 to 44,parkinson's disease,sheffield,1.3194221842104228,40612.00616207373
 YLLs (Years of Life Lost),Female,40 to 44,pedestrian road injuries,sheffield,7.475036255231821,40612.00616207379
+YLLs (Years of Life Lost),Female,40 to 44,rheumatic heart disease,sheffield,6.631185898027753,40612.00616207377
 YLLs (Years of Life Lost),Female,40 to 44,road injuries,sheffield,26.77439901056738,40612.00616207374
 YLLs (Years of Life Lost),Female,40 to 44,stomach cancer,sheffield,33.36923356249797,40612.006162073725
 YLLs (Years of Life Lost),Female,40 to 44,stroke,sheffield,107.25525388925676,40612.00616207372
@@ -1232,6 +1368,7 @@ YLLs (Years of Life Lost),Female,45 to 49,all causes,sheffield,3471.308187517312
 YLLs (Years of Life Lost),Female,45 to 49,alzheimer's disease and other dementias,sheffield,13.53706900468064,46189.485479193274
 YLLs (Years of Life Lost),Female,45 to 49,bladder cancer,sheffield,17.560034395775592,46189.48547919326
 YLLs (Years of Life Lost),Female,45 to 49,breast cancer,sheffield,520.1309152925893,46189.48547919323
+YLLs (Years of Life Lost),Female,45 to 49,cardiomyopathy and myocarditis,sheffield,18.759027587426328,46189.48547919319
 YLLs (Years of Life Lost),Female,45 to 49,cardiovascular diseases,sheffield,524.3086713004028,46189.4854791932
 YLLs (Years of Life Lost),Female,45 to 49,chronic myeloid leukemia,sheffield,3.1674609505253373,46189.48547919323
 YLLs (Years of Life Lost),Female,45 to 49,chronic obstructive pulmonary disease,sheffield,63.28313676172162,46189.4854791932
@@ -1247,16 +1384,19 @@ YLLs (Years of Life Lost),Female,45 to 49,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,45 to 49,motorcyclist road injuries,sheffield,2.1735098045058248,46189.48547919324
 YLLs (Years of Life Lost),Female,45 to 49,multiple myeloma,sheffield,14.021256760797328,46189.485479193194
 YLLs (Years of Life Lost),Female,45 to 49,neoplasms,sheffield,1658.2119659259517,46189.48547919321
+YLLs (Years of Life Lost),Female,45 to 49,non-rheumatic valvular heart disease,sheffield,9.491309209124852,46189.4854791932
 YLLs (Years of Life Lost),Female,45 to 49,other road injuries,sheffield,1.176914697574019,46189.485479193216
 YLLs (Years of Life Lost),Female,45 to 49,other transport injuries,sheffield,1.9595701051859893,46189.485479193194
 YLLs (Years of Life Lost),Female,45 to 49,parkinson's disease,sheffield,4.0281437395666515,46189.48547919328
 YLLs (Years of Life Lost),Female,45 to 49,pedestrian road injuries,sheffield,8.782556954234886,46189.48547919325
+YLLs (Years of Life Lost),Female,45 to 49,rheumatic heart disease,sheffield,9.636391250705476,46189.48547919323
 YLLs (Years of Life Lost),Female,45 to 49,road injuries,sheffield,30.557067523566644,46189.48547919324
 YLLs (Years of Life Lost),Female,45 to 49,stomach cancer,sheffield,48.98774169372822,46189.48547919324
 YLLs (Years of Life Lost),Female,45 to 49,stroke,sheffield,159.0823630727188,46189.485479193274
 YLLs (Years of Life Lost),Female,45 to 49,"tracheal, bronchus, and lung cancer",sheffield,221.7066106554317,46189.4854791932
 YLLs (Years of Life Lost),Female,45 to 49,uterine cancer,sheffield,22.838472008093806,46189.485479193216
 YLLs (Years of Life Lost),Female,5 to 9,all causes,sheffield,219.39250819451803,41672.099990165916
+YLLs (Years of Life Lost),Female,5 to 9,cardiomyopathy and myocarditis,sheffield,2.463329865422488,41672.09999016593
 YLLs (Years of Life Lost),Female,5 to 9,cardiovascular diseases,sheffield,8.066579166425615,41672.09999016592
 YLLs (Years of Life Lost),Female,5 to 9,chronic myeloid leukemia,sheffield,0.3134424625477564,41672.099990165916
 YLLs (Years of Life Lost),Female,5 to 9,chronic obstructive pulmonary disease,sheffield,0.7675824680647156,41672.09999016592
@@ -1271,12 +1411,14 @@ YLLs (Years of Life Lost),Female,5 to 9,neoplasms,sheffield,71.89774091315834,41
 YLLs (Years of Life Lost),Female,5 to 9,other road injuries,sheffield,0.3917065457950888,41672.0999901659
 YLLs (Years of Life Lost),Female,5 to 9,other transport injuries,sheffield,0.9665422995403848,41672.09999016591
 YLLs (Years of Life Lost),Female,5 to 9,pedestrian road injuries,sheffield,6.783063385338801,41672.09999016593
+YLLs (Years of Life Lost),Female,5 to 9,rheumatic heart disease,sheffield,0.34195474202070464,41672.09999016589
 YLLs (Years of Life Lost),Female,5 to 9,road injuries,sheffield,14.318321511363775,41672.099990165974
 YLLs (Years of Life Lost),Female,5 to 9,stroke,sheffield,1.8926784692001366,41672.09999016591
 YLLs (Years of Life Lost),Female,50 to 54,all causes,sheffield,4872.698200320988,49407.49043517033
 YLLs (Years of Life Lost),Female,50 to 54,alzheimer's disease and other dementias,sheffield,26.323259058521927,49407.490435170315
 YLLs (Years of Life Lost),Female,50 to 54,bladder cancer,sheffield,27.878314296591046,49407.490435170235
 YLLs (Years of Life Lost),Female,50 to 54,breast cancer,sheffield,674.7082899392174,49407.490435170286
+YLLs (Years of Life Lost),Female,50 to 54,cardiomyopathy and myocarditis,sheffield,19.464834194469084,49407.49043517025
 YLLs (Years of Life Lost),Female,50 to 54,cardiovascular diseases,sheffield,769.942464534081,49407.490435170264
 YLLs (Years of Life Lost),Female,50 to 54,chronic myeloid leukemia,sheffield,2.8323535047831867,49407.490435170286
 YLLs (Years of Life Lost),Female,50 to 54,chronic obstructive pulmonary disease,sheffield,174.51605439397446,49407.49043517032
@@ -1292,10 +1434,12 @@ YLLs (Years of Life Lost),Female,50 to 54,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,50 to 54,motorcyclist road injuries,sheffield,1.637100200657851,49407.49043517024
 YLLs (Years of Life Lost),Female,50 to 54,multiple myeloma,sheffield,29.26254031206173,49407.49043517035
 YLLs (Years of Life Lost),Female,50 to 54,neoplasms,sheffield,2590.98348694693,49407.49043517027
+YLLs (Years of Life Lost),Female,50 to 54,non-rheumatic valvular heart disease,sheffield,13.42650894887007,49407.49043517027
 YLLs (Years of Life Lost),Female,50 to 54,other road injuries,sheffield,1.0620778286889523,49407.49043517031
 YLLs (Years of Life Lost),Female,50 to 54,other transport injuries,sheffield,1.5749213127909774,49407.49043517033
 YLLs (Years of Life Lost),Female,50 to 54,parkinson's disease,sheffield,8.755322454868054,49407.490435170264
 YLLs (Years of Life Lost),Female,50 to 54,pedestrian road injuries,sheffield,7.821449725546369,49407.490435170366
+YLLs (Years of Life Lost),Female,50 to 54,rheumatic heart disease,sheffield,13.773693669777227,49407.49043517026
 YLLs (Years of Life Lost),Female,50 to 54,road injuries,sheffield,25.688808831227345,49407.49043517031
 YLLs (Years of Life Lost),Female,50 to 54,stomach cancer,sheffield,68.04713538248036,49407.490435170235
 YLLs (Years of Life Lost),Female,50 to 54,stroke,sheffield,217.46724238682214,49407.49043517026
@@ -1305,6 +1449,7 @@ YLLs (Years of Life Lost),Female,55 to 59,all causes,sheffield,6571.329049027189
 YLLs (Years of Life Lost),Female,55 to 59,alzheimer's disease and other dementias,sheffield,44.702038716595844,45555.337045909844
 YLLs (Years of Life Lost),Female,55 to 59,bladder cancer,sheffield,42.294362954161734,45555.33704590985
 YLLs (Years of Life Lost),Female,55 to 59,breast cancer,sheffield,822.4114843950784,45555.33704590979
+YLLs (Years of Life Lost),Female,55 to 59,cardiomyopathy and myocarditis,sheffield,24.392957352175664,45555.33704590981
 YLLs (Years of Life Lost),Female,55 to 59,cardiovascular diseases,sheffield,1067.4720525431069,45555.33704590988
 YLLs (Years of Life Lost),Female,55 to 59,chronic myeloid leukemia,sheffield,3.7790425897532485,45555.337045909844
 YLLs (Years of Life Lost),Female,55 to 59,chronic obstructive pulmonary disease,sheffield,315.5094974619005,45555.337045909815
@@ -1320,10 +1465,12 @@ YLLs (Years of Life Lost),Female,55 to 59,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,55 to 59,motorcyclist road injuries,sheffield,1.4546135117598402,45555.337045909764
 YLLs (Years of Life Lost),Female,55 to 59,multiple myeloma,sheffield,45.512689577571194,45555.337045909844
 YLLs (Years of Life Lost),Female,55 to 59,neoplasms,sheffield,3603.0814130641243,45555.33704590989
+YLLs (Years of Life Lost),Female,55 to 59,non-rheumatic valvular heart disease,sheffield,19.521920569585046,45555.33704590981
 YLLs (Years of Life Lost),Female,55 to 59,other road injuries,sheffield,1.0402132628857867,45555.337045909866
 YLLs (Years of Life Lost),Female,55 to 59,other transport injuries,sheffield,1.3772378968799404,45555.33704590988
 YLLs (Years of Life Lost),Female,55 to 59,parkinson's disease,sheffield,15.572369720176964,45555.33704590988
 YLLs (Years of Life Lost),Female,55 to 59,pedestrian road injuries,sheffield,7.723067528356047,45555.33704590985
+YLLs (Years of Life Lost),Female,55 to 59,rheumatic heart disease,sheffield,18.128568251697253,45555.33704590982
 YLLs (Years of Life Lost),Female,55 to 59,road injuries,sheffield,23.79910763814693,45555.33704590985
 YLLs (Years of Life Lost),Female,55 to 59,stomach cancer,sheffield,94.02500963834183,45555.33704590985
 YLLs (Years of Life Lost),Female,55 to 59,stroke,sheffield,270.8439848817601,45555.337045909924
@@ -1333,6 +1480,7 @@ YLLs (Years of Life Lost),Female,60 to 64,all causes,sheffield,7675.932180741482
 YLLs (Years of Life Lost),Female,60 to 64,alzheimer's disease and other dementias,sheffield,76.36778837453741,39200.94261374399
 YLLs (Years of Life Lost),Female,60 to 64,bladder cancer,sheffield,56.76879821909901,39200.94261374406
 YLLs (Years of Life Lost),Female,60 to 64,breast cancer,sheffield,681.5032331529218,39200.94261374412
+YLLs (Years of Life Lost),Female,60 to 64,cardiomyopathy and myocarditis,sheffield,25.848777809041458,39200.94261374406
 YLLs (Years of Life Lost),Female,60 to 64,cardiovascular diseases,sheffield,1394.8795841529904,39200.94261374401
 YLLs (Years of Life Lost),Female,60 to 64,chronic myeloid leukemia,sheffield,4.275204800816374,39200.942613744
 YLLs (Years of Life Lost),Female,60 to 64,chronic obstructive pulmonary disease,sheffield,557.441015866399,39200.94261374408
@@ -1348,10 +1496,12 @@ YLLs (Years of Life Lost),Female,60 to 64,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,60 to 64,motorcyclist road injuries,sheffield,0.7417839742589057,39200.94261374407
 YLLs (Years of Life Lost),Female,60 to 64,multiple myeloma,sheffield,67.42484143245088,39200.94261374406
 YLLs (Years of Life Lost),Female,60 to 64,neoplasms,sheffield,4132.404095896808,39200.94261374406
+YLLs (Years of Life Lost),Female,60 to 64,non-rheumatic valvular heart disease,sheffield,30.17324356857553,39200.942613744075
 YLLs (Years of Life Lost),Female,60 to 64,other road injuries,sheffield,0.5112320704672626,39200.94261374401
 YLLs (Years of Life Lost),Female,60 to 64,other transport injuries,sheffield,1.0509465258571653,39200.94261374404
 YLLs (Years of Life Lost),Female,60 to 64,parkinson's disease,sheffield,29.76578818637163,39200.94261374405
 YLLs (Years of Life Lost),Female,60 to 64,pedestrian road injuries,sheffield,8.162406361120263,39200.94261374406
+YLLs (Years of Life Lost),Female,60 to 64,rheumatic heart disease,sheffield,21.548043492186665,39200.94261374401
 YLLs (Years of Life Lost),Female,60 to 64,road injuries,sheffield,19.496935586615553,39200.94261374403
 YLLs (Years of Life Lost),Female,60 to 64,stomach cancer,sheffield,111.84334016379951,39200.942613744075
 YLLs (Years of Life Lost),Female,60 to 64,stroke,sheffield,329.686586271209,39200.942613744046
@@ -1361,6 +1511,7 @@ YLLs (Years of Life Lost),Female,65 to 69,all causes,sheffield,8975.529607184422
 YLLs (Years of Life Lost),Female,65 to 69,alzheimer's disease and other dementias,sheffield,136.6889778497534,34700.05350153221
 YLLs (Years of Life Lost),Female,65 to 69,bladder cancer,sheffield,76.12388882110652,34700.05350153225
 YLLs (Years of Life Lost),Female,65 to 69,breast cancer,sheffield,651.7209734686481,34700.0535015322
+YLLs (Years of Life Lost),Female,65 to 69,cardiomyopathy and myocarditis,sheffield,23.71915032203464,34700.05350153222
 YLLs (Years of Life Lost),Female,65 to 69,cardiovascular diseases,sheffield,1761.6692225071613,34700.05350153224
 YLLs (Years of Life Lost),Female,65 to 69,chronic myeloid leukemia,sheffield,4.778127766262762,34700.053501532195
 YLLs (Years of Life Lost),Female,65 to 69,chronic obstructive pulmonary disease,sheffield,811.5473183734881,34700.05350153222
@@ -1376,10 +1527,12 @@ YLLs (Years of Life Lost),Female,65 to 69,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,65 to 69,motorcyclist road injuries,sheffield,0.5908927593734478,34700.053501532246
 YLLs (Years of Life Lost),Female,65 to 69,multiple myeloma,sheffield,85.61249500823678,34700.05350153223
 YLLs (Years of Life Lost),Female,65 to 69,neoplasms,sheffield,4642.7232226471715,34700.05350153227
+YLLs (Years of Life Lost),Female,65 to 69,non-rheumatic valvular heart disease,sheffield,41.86610541131126,34700.05350153223
 YLLs (Years of Life Lost),Female,65 to 69,other road injuries,sheffield,0.34243515962409016,34700.053501532224
 YLLs (Years of Life Lost),Female,65 to 69,other transport injuries,sheffield,0.8886885504743015,34700.05350153222
 YLLs (Years of Life Lost),Female,65 to 69,parkinson's disease,sheffield,57.90587835676022,34700.05350153221
 YLLs (Years of Life Lost),Female,65 to 69,pedestrian road injuries,sheffield,8.658347352692484,34700.053501532224
+YLLs (Years of Life Lost),Female,65 to 69,rheumatic heart disease,sheffield,29.359218982504377,34700.053501532166
 YLLs (Years of Life Lost),Female,65 to 69,road injuries,sheffield,19.477693913126014,34700.05350153221
 YLLs (Years of Life Lost),Female,65 to 69,stomach cancer,sheffield,126.44399082739139,34700.05350153221
 YLLs (Years of Life Lost),Female,65 to 69,stroke,sheffield,394.59526059020703,34700.053501532224
@@ -1389,6 +1542,7 @@ YLLs (Years of Life Lost),Female,70 to 74,all causes,sheffield,12343.56255192854
 YLLs (Years of Life Lost),Female,70 to 74,alzheimer's disease and other dementias,sheffield,277.8947926331382,35044.880788588714
 YLLs (Years of Life Lost),Female,70 to 74,bladder cancer,sheffield,110.61355888320352,35044.88078858867
 YLLs (Years of Life Lost),Female,70 to 74,breast cancer,sheffield,704.2301310387923,35044.88078858871
+YLLs (Years of Life Lost),Female,70 to 74,cardiomyopathy and myocarditis,sheffield,32.52792918993931,35044.8807885887
 YLLs (Years of Life Lost),Female,70 to 74,cardiovascular diseases,sheffield,2907.868457221133,35044.88078858871
 YLLs (Years of Life Lost),Female,70 to 74,chronic myeloid leukemia,sheffield,6.353252697362965,35044.88078858872
 YLLs (Years of Life Lost),Female,70 to 74,chronic obstructive pulmonary disease,sheffield,1257.7313953783814,35044.880788588714
@@ -1404,10 +1558,12 @@ YLLs (Years of Life Lost),Female,70 to 74,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,70 to 74,motorcyclist road injuries,sheffield,0.23963658936283577,35044.880788588714
 YLLs (Years of Life Lost),Female,70 to 74,multiple myeloma,sheffield,114.58705671598977,35044.88078858872
 YLLs (Years of Life Lost),Female,70 to 74,neoplasms,sheffield,5611.621142069641,35044.88078858869
+YLLs (Years of Life Lost),Female,70 to 74,non-rheumatic valvular heart disease,sheffield,79.60300133513057,35044.880788588736
 YLLs (Years of Life Lost),Female,70 to 74,other road injuries,sheffield,0.17723611273192996,35044.8807885887
 YLLs (Years of Life Lost),Female,70 to 74,other transport injuries,sheffield,0.665779082412396,35044.88078858866
 YLLs (Years of Life Lost),Female,70 to 74,parkinson's disease,sheffield,133.20249832745205,35044.88078858869
 YLLs (Years of Life Lost),Female,70 to 74,pedestrian road injuries,sheffield,10.989809930848933,35044.8807885887
+YLLs (Years of Life Lost),Female,70 to 74,rheumatic heart disease,sheffield,43.671683961205865,35044.88078858867
 YLLs (Years of Life Lost),Female,70 to 74,road injuries,sheffield,21.82044142997937,35044.88078858871
 YLLs (Years of Life Lost),Female,70 to 74,stomach cancer,sheffield,182.1074799240596,35044.880788588714
 YLLs (Years of Life Lost),Female,70 to 74,stroke,sheffield,734.471063037061,35044.88078858871
@@ -1417,6 +1573,7 @@ YLLs (Years of Life Lost),Female,75 to 79,all causes,sheffield,12485.07582639695
 YLLs (Years of Life Lost),Female,75 to 79,alzheimer's disease and other dementias,sheffield,428.4946623804126,26098.32774275216
 YLLs (Years of Life Lost),Female,75 to 79,bladder cancer,sheffield,118.16599185018997,26098.327742752117
 YLLs (Years of Life Lost),Female,75 to 79,breast cancer,sheffield,568.202915547241,26098.32774275212
+YLLs (Years of Life Lost),Female,75 to 79,cardiomyopathy and myocarditis,sheffield,32.67783626329184,26098.32774275216
 YLLs (Years of Life Lost),Female,75 to 79,cardiovascular diseases,sheffield,3469.5339866486675,26098.327742752128
 YLLs (Years of Life Lost),Female,75 to 79,chronic myeloid leukemia,sheffield,6.2350659998164435,26098.327742752153
 YLLs (Years of Life Lost),Female,75 to 79,chronic obstructive pulmonary disease,sheffield,1301.368227568145,26098.327742752168
@@ -1432,10 +1589,12 @@ YLLs (Years of Life Lost),Female,75 to 79,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,75 to 79,motorcyclist road injuries,sheffield,0.10511924734128791,26098.32774275215
 YLLs (Years of Life Lost),Female,75 to 79,multiple myeloma,sheffield,105.79629401137461,26098.327742752168
 YLLs (Years of Life Lost),Female,75 to 79,neoplasms,sheffield,4630.216332879872,26098.327742752128
+YLLs (Years of Life Lost),Female,75 to 79,non-rheumatic valvular heart disease,sheffield,98.82021946784536,26098.327742752146
 YLLs (Years of Life Lost),Female,75 to 79,other road injuries,sheffield,0.10379208017053704,26098.32774275214
 YLLs (Years of Life Lost),Female,75 to 79,other transport injuries,sheffield,0.6043939322112437,26098.327742752113
 YLLs (Years of Life Lost),Female,75 to 79,parkinson's disease,sheffield,187.60045002431676,26098.327742752146
 YLLs (Years of Life Lost),Female,75 to 79,pedestrian road injuries,sheffield,11.85507808267714,26098.327742752153
+YLLs (Years of Life Lost),Female,75 to 79,rheumatic heart disease,sheffield,51.042556533463824,26098.327742752124
 YLLs (Years of Life Lost),Female,75 to 79,road injuries,sheffield,20.786780414679853,26098.327742752153
 YLLs (Years of Life Lost),Female,75 to 79,stomach cancer,sheffield,187.2226218520713,26098.32774275213
 YLLs (Years of Life Lost),Female,75 to 79,stroke,sheffield,969.2977513533099,26098.32774275214
@@ -1445,6 +1604,7 @@ YLLs (Years of Life Lost),Female,80 to 84,all causes,sheffield,13672.90469937335
 YLLs (Years of Life Lost),Female,80 to 84,alzheimer's disease and other dementias,sheffield,869.1472941390864,19865.17278263691
 YLLs (Years of Life Lost),Female,80 to 84,bladder cancer,sheffield,119.93705067017476,19865.1727826369
 YLLs (Years of Life Lost),Female,80 to 84,breast cancer,sheffield,512.1296261932198,19865.172782636895
+YLLs (Years of Life Lost),Female,80 to 84,cardiomyopathy and myocarditis,sheffield,44.277841071582955,19865.172782636895
 YLLs (Years of Life Lost),Female,80 to 84,cardiovascular diseases,sheffield,4435.080803561658,19865.172782636913
 YLLs (Years of Life Lost),Female,80 to 84,chronic myeloid leukemia,sheffield,6.580254268608344,19865.17278263692
 YLLs (Years of Life Lost),Female,80 to 84,chronic obstructive pulmonary disease,sheffield,1241.2125050456038,19865.172782636924
@@ -1460,10 +1620,12 @@ YLLs (Years of Life Lost),Female,80 to 84,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,80 to 84,motorcyclist road injuries,sheffield,0.05678184535472869,19865.172782636902
 YLLs (Years of Life Lost),Female,80 to 84,multiple myeloma,sheffield,89.53837997367918,19865.172782636877
 YLLs (Years of Life Lost),Female,80 to 84,neoplasms,sheffield,3846.637826111554,19865.172782636895
+YLLs (Years of Life Lost),Female,80 to 84,non-rheumatic valvular heart disease,sheffield,142.04286724177197,19865.17278263689
 YLLs (Years of Life Lost),Female,80 to 84,other road injuries,sheffield,0.06584934373692472,19865.17278263688
 YLLs (Years of Life Lost),Female,80 to 84,other transport injuries,sheffield,0.3686705840907024,19865.172782636928
 YLLs (Years of Life Lost),Female,80 to 84,parkinson's disease,sheffield,211.57532804835978,19865.172782636924
 YLLs (Years of Life Lost),Female,80 to 84,pedestrian road injuries,sheffield,9.488552193430197,19865.172782636917
+YLLs (Years of Life Lost),Female,80 to 84,rheumatic heart disease,sheffield,52.439580004081,19865.17278263691
 YLLs (Years of Life Lost),Female,80 to 84,road injuries,sheffield,16.169512034407138,19865.172782636895
 YLLs (Years of Life Lost),Female,80 to 84,stomach cancer,sheffield,186.84409039593962,19865.172782636902
 YLLs (Years of Life Lost),Female,80 to 84,stroke,sheffield,1340.3396182766833,19865.172782636902
@@ -1473,6 +1635,7 @@ YLLs (Years of Life Lost),Female,85 to 89,all causes,sheffield,11788.83255126538
 YLLs (Years of Life Lost),Female,85 to 89,alzheimer's disease and other dementias,sheffield,1035.814700469624,12267.216739479665
 YLLs (Years of Life Lost),Female,85 to 89,bladder cancer,sheffield,96.24075038182107,12267.21673947967
 YLLs (Years of Life Lost),Female,85 to 89,breast cancer,sheffield,352.826688949545,12267.216739479662
+YLLs (Years of Life Lost),Female,85 to 89,cardiomyopathy and myocarditis,sheffield,49.52222133652276,12267.21673947965
 YLLs (Years of Life Lost),Female,85 to 89,cardiovascular diseases,sheffield,4182.590765033245,12267.21673947966
 YLLs (Years of Life Lost),Female,85 to 89,chronic myeloid leukemia,sheffield,5.793595122261138,12267.216739479669
 YLLs (Years of Life Lost),Female,85 to 89,chronic obstructive pulmonary disease,sheffield,900.9748902377662,12267.216739479658
@@ -1488,10 +1651,12 @@ YLLs (Years of Life Lost),Female,85 to 89,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,85 to 89,motorcyclist road injuries,sheffield,0.03408710879257333,12267.21673947967
 YLLs (Years of Life Lost),Female,85 to 89,multiple myeloma,sheffield,54.94020926889514,12267.216739479667
 YLLs (Years of Life Lost),Female,85 to 89,neoplasms,sheffield,2460.2095646248094,12267.216739479667
+YLLs (Years of Life Lost),Female,85 to 89,non-rheumatic valvular heart disease,sheffield,150.0996029605029,12267.21673947967
 YLLs (Years of Life Lost),Female,85 to 89,other road injuries,sheffield,0.04440250734360495,12267.216739479656
 YLLs (Years of Life Lost),Female,85 to 89,other transport injuries,sheffield,0.2317262485152072,12267.216739479674
 YLLs (Years of Life Lost),Female,85 to 89,parkinson's disease,sheffield,151.43780443105163,12267.216739479678
 YLLs (Years of Life Lost),Female,85 to 89,pedestrian road injuries,sheffield,6.1819398808607815,12267.216739479672
+YLLs (Years of Life Lost),Female,85 to 89,rheumatic heart disease,sheffield,41.33842358868664,12267.216739479669
 YLLs (Years of Life Lost),Female,85 to 89,road injuries,sheffield,9.8237778613482991,12267.21673947966
 YLLs (Years of Life Lost),Female,85 to 89,stomach cancer,sheffield,136.00449207943487,12267.216739479663
 YLLs (Years of Life Lost),Female,85 to 89,stroke,sheffield,1277.9722458611998,12267.216739479683
@@ -1501,6 +1666,7 @@ YLLs (Years of Life Lost),Female,90 to 94,all causes,sheffield,7375.334714944227
 YLLs (Years of Life Lost),Female,90 to 94,alzheimer's disease and other dementias,sheffield,749.2164889507271,5346.403158537668
 YLLs (Years of Life Lost),Female,90 to 94,bladder cancer,sheffield,50.62765989057202,5346.403158537672
 YLLs (Years of Life Lost),Female,90 to 94,breast cancer,sheffield,189.71826733393496,5346.403158537674
+YLLs (Years of Life Lost),Female,90 to 94,cardiomyopathy and myocarditis,sheffield,37.56101229028671,5346.403158537663
 YLLs (Years of Life Lost),Female,90 to 94,cardiovascular diseases,sheffield,2814.411509361902,5346.403158537669
 YLLs (Years of Life Lost),Female,90 to 94,chronic myeloid leukemia,sheffield,2.771899932341389,5346.403158537666
 YLLs (Years of Life Lost),Female,90 to 94,chronic obstructive pulmonary disease,sheffield,479.41235310246617,5346.403158537667
@@ -1516,10 +1682,12 @@ YLLs (Years of Life Lost),Female,90 to 94,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,90 to 94,motorcyclist road injuries,sheffield,0.05418911849634838,5346.403158537672
 YLLs (Years of Life Lost),Female,90 to 94,multiple myeloma,sheffield,20.918979673470545,5346.403158537667
 YLLs (Years of Life Lost),Female,90 to 94,neoplasms,sheffield,1110.576893619795,5346.403158537671
+YLLs (Years of Life Lost),Female,90 to 94,non-rheumatic valvular heart disease,sheffield,103.85973419212544,5346.403158537674
 YLLs (Years of Life Lost),Female,90 to 94,other road injuries,sheffield,0.035048278908434254,5346.403158537674
 YLLs (Years of Life Lost),Female,90 to 94,other transport injuries,sheffield,0.15343817286625844,5346.403158537664
 YLLs (Years of Life Lost),Female,90 to 94,parkinson's disease,sheffield,65.51619404678274,5346.403158537671
 YLLs (Years of Life Lost),Female,90 to 94,pedestrian road injuries,sheffield,2.371516219178298,5346.403158537674
+YLLs (Years of Life Lost),Female,90 to 94,rheumatic heart disease,sheffield,21.993031594695797,5346.4031585376715
 YLLs (Years of Life Lost),Female,90 to 94,road injuries,sheffield,3.763310221809241,5346.4031585376615
 YLLs (Years of Life Lost),Female,90 to 94,stomach cancer,sheffield,64.15584785832047,5346.403158537674
 YLLs (Years of Life Lost),Female,90 to 94,stroke,sheffield,860.3758504951134,5346.403158537665
@@ -1529,6 +1697,7 @@ YLLs (Years of Life Lost),Female,95 to 99,all causes,sheffield,2589.10112273622,
 YLLs (Years of Life Lost),Female,95 to 99,alzheimer's disease and other dementias,sheffield,279.4162182302899,1413.766798614944
 YLLs (Years of Life Lost),Female,95 to 99,bladder cancer,sheffield,15.678048584037978,1413.7667986149436
 YLLs (Years of Life Lost),Female,95 to 99,breast cancer,sheffield,59.41080766873905,1413.7667986149447
+YLLs (Years of Life Lost),Female,95 to 99,cardiomyopathy and myocarditis,sheffield,14.916534931592107,1413.7667986149438
 YLLs (Years of Life Lost),Female,95 to 99,cardiovascular diseases,sheffield,1018.3176988724306,1413.7667986149427
 YLLs (Years of Life Lost),Female,95 to 99,chronic myeloid leukemia,sheffield,0.7651630089238988,1413.7667986149452
 YLLs (Years of Life Lost),Female,95 to 99,chronic obstructive pulmonary disease,sheffield,165.66455974196637,1413.7667986149445
@@ -1544,16 +1713,19 @@ YLLs (Years of Life Lost),Female,95 to 99,motor vehicle road injuries,sheffield,
 YLLs (Years of Life Lost),Female,95 to 99,motorcyclist road injuries,sheffield,0.02973191789380209,1413.7667986149454
 YLLs (Years of Life Lost),Female,95 to 99,multiple myeloma,sheffield,4.357111532082824,1413.7667986149447
 YLLs (Years of Life Lost),Female,95 to 99,neoplasms,sheffield,321.8119225474448,1413.7667986149438
+YLLs (Years of Life Lost),Female,95 to 99,non-rheumatic valvular heart disease,sheffield,36.35428070068529,1413.766798614944
 YLLs (Years of Life Lost),Female,95 to 99,other road injuries,sheffield,0.015736844287566047,1413.7667986149447
 YLLs (Years of Life Lost),Female,95 to 99,other transport injuries,sheffield,0.08308766648551912,1413.7667986149436
 YLLs (Years of Life Lost),Female,95 to 99,parkinson's disease,sheffield,14.832077483954732,1413.7667986149436
 YLLs (Years of Life Lost),Female,95 to 99,pedestrian road injuries,sheffield,0.659715953421315,1413.7667986149434
+YLLs (Years of Life Lost),Female,95 to 99,rheumatic heart disease,sheffield,7.121888135827138,1413.766798614944
 YLLs (Years of Life Lost),Female,95 to 99,road injuries,sheffield,1.0760227774532973,1413.766798614944
 YLLs (Years of Life Lost),Female,95 to 99,stomach cancer,sheffield,19.305018386656243,1413.7667986149438
 YLLs (Years of Life Lost),Female,95 to 99,stroke,sheffield,319.76731759317533,1413.7667986149422
 YLLs (Years of Life Lost),Female,95 to 99,"tracheal, bronchus, and lung cancer",sheffield,48.488169643336434,1413.7667986149438
 YLLs (Years of Life Lost),Female,95 to 99,uterine cancer,sheffield,6.067221848414629,1413.7667986149431
 YLLs (Years of Life Lost),Male,0 to 5,all causes,sheffield,3399.849386410502,42401.02641081721
+YLLs (Years of Life Lost),Male,0 to 5,cardiomyopathy and myocarditis,sheffield,22.181790845913785,42401.026410817234
 YLLs (Years of Life Lost),Male,0 to 5,cardiovascular diseases,sheffield,43.10474918369714,42401.026410817176
 YLLs (Years of Life Lost),Male,0 to 5,chronic myeloid leukemia,sheffield,0.738442232397464,42401.026410817205
 YLLs (Years of Life Lost),Male,0 to 5,chronic obstructive pulmonary disease,sheffield,1.1479537073678707,42401.02641081718
@@ -1567,9 +1739,11 @@ YLLs (Years of Life Lost),Male,0 to 5,neoplasms,sheffield,105.55399278876828,424
 YLLs (Years of Life Lost),Male,0 to 5,other road injuries,sheffield,0.7302710920094176,42401.02641081723
 YLLs (Years of Life Lost),Male,0 to 5,other transport injuries,sheffield,2.0001323189432543,42401.02641081718
 YLLs (Years of Life Lost),Male,0 to 5,pedestrian road injuries,sheffield,11.100784509530712,42401.02641081719
+YLLs (Years of Life Lost),Male,0 to 5,rheumatic heart disease,sheffield,0.500706882187453,42401.026410817176
 YLLs (Years of Life Lost),Male,0 to 5,road injuries,sheffield,21.26543243088517,42401.02641081719
 YLLs (Years of Life Lost),Male,0 to 5,stroke,sheffield,4.773929379675791,42401.02641081723
 YLLs (Years of Life Lost),Male,10 to 14,all causes,sheffield,307.8358589004791,42816.3891268733
+YLLs (Years of Life Lost),Male,10 to 14,cardiomyopathy and myocarditis,sheffield,6.017249804646967,42816.38912687326
 YLLs (Years of Life Lost),Male,10 to 14,cardiovascular diseases,sheffield,13.46043403859693,42816.3891268733
 YLLs (Years of Life Lost),Male,10 to 14,chronic myeloid leukemia,sheffield,0.38009851987139903,42816.38912687325
 YLLs (Years of Life Lost),Male,10 to 14,chronic obstructive pulmonary disease,sheffield,0.7028701251116843,42816.389126873284
@@ -1584,12 +1758,14 @@ YLLs (Years of Life Lost),Male,10 to 14,neoplasms,sheffield,83.53004818136804,42
 YLLs (Years of Life Lost),Male,10 to 14,other road injuries,sheffield,0.9296774384199324,42816.38912687325
 YLLs (Years of Life Lost),Male,10 to 14,other transport injuries,sheffield,3.1018782374730005,42816.389126873306
 YLLs (Years of Life Lost),Male,10 to 14,pedestrian road injuries,sheffield,15.393952300339118,42816.3891268733
+YLLs (Years of Life Lost),Male,10 to 14,rheumatic heart disease,sheffield,0.30412795287539535,42816.38912687324
 YLLs (Years of Life Lost),Male,10 to 14,road injuries,sheffield,39.47047357462444,42816.38912687335
 YLLs (Years of Life Lost),Male,10 to 14,stroke,sheffield,3.031353462797368,42816.389126873284
 YLLs (Years of Life Lost),Male,10 to 14,"tracheal, bronchus, and lung cancer",sheffield,0.32996198801691923,42816.389126873226
 YLLs (Years of Life Lost),Male,15 to 19,all causes,sheffield,949.801365959203,40410.54304861293
 YLLs (Years of Life Lost),Male,15 to 19,bladder cancer,sheffield,0.3324067584192154,40410.543048612875
 YLLs (Years of Life Lost),Male,15 to 19,breast cancer,sheffield,0.33099648873449805,40410.54304861288
+YLLs (Years of Life Lost),Male,15 to 19,cardiomyopathy and myocarditis,sheffield,18.155317555698563,40410.54304861286
 YLLs (Years of Life Lost),Male,15 to 19,cardiovascular diseases,sheffield,44.24310522398794,40410.54304861288
 YLLs (Years of Life Lost),Male,15 to 19,chronic myeloid leukemia,sheffield,0.4783341483930298,40410.54304861292
 YLLs (Years of Life Lost),Male,15 to 19,chronic obstructive pulmonary disease,sheffield,2.361516536476906,40410.54304861293
@@ -1603,9 +1779,11 @@ YLLs (Years of Life Lost),Male,15 to 19,lower respiratory infections,sheffield,1
 YLLs (Years of Life Lost),Male,15 to 19,motor vehicle road injuries,sheffield,123.49703299873151,40410.543048612875
 YLLs (Years of Life Lost),Male,15 to 19,motorcyclist road injuries,sheffield,55.87073898988223,40410.54304861288
 YLLs (Years of Life Lost),Male,15 to 19,neoplasms,sheffield,132.47606116036016,40410.54304861289
+YLLs (Years of Life Lost),Male,15 to 19,non-rheumatic valvular heart disease,sheffield,2.2756008630936835,40410.54304861287
 YLLs (Years of Life Lost),Male,15 to 19,other road injuries,sheffield,2.3649666058601895,40410.54304861289
 YLLs (Years of Life Lost),Male,15 to 19,other transport injuries,sheffield,10.452102830536015,40410.54304861293
 YLLs (Years of Life Lost),Male,15 to 19,pedestrian road injuries,sheffield,33.749643117270935,40410.54304861291
+YLLs (Years of Life Lost),Male,15 to 19,rheumatic heart disease,sheffield,0.47421996408703826,40410.54304861293
 YLLs (Years of Life Lost),Male,15 to 19,road injuries,sheffield,228.16830061766584,40410.5430486129
 YLLs (Years of Life Lost),Male,15 to 19,stomach cancer,sheffield,0.6337662223264464,40410.543048612904
 YLLs (Years of Life Lost),Male,15 to 19,stroke,sheffield,9.987459830574222,40410.5430486129
@@ -1613,6 +1791,7 @@ YLLs (Years of Life Lost),Male,15 to 19,"tracheal, bronchus, and lung cancer",sh
 YLLs (Years of Life Lost),Male,20 to 24,all causes,sheffield,1531.9136363670098,48017.67308522892
 YLLs (Years of Life Lost),Male,20 to 24,bladder cancer,sheffield,0.39022912974478413,48017.673085228955
 YLLs (Years of Life Lost),Male,20 to 24,breast cancer,sheffield,0.3361071836850718,48017.67308522895
+YLLs (Years of Life Lost),Male,20 to 24,cardiomyopathy and myocarditis,sheffield,26.27169316443731,48017.67308522894
 YLLs (Years of Life Lost),Male,20 to 24,cardiovascular diseases,sheffield,85.87811781627613,48017.67308522901
 YLLs (Years of Life Lost),Male,20 to 24,chronic myeloid leukemia,sheffield,0.9333255495392068,48017.673085228875
 YLLs (Years of Life Lost),Male,20 to 24,chronic obstructive pulmonary disease,sheffield,3.592424214526948,48017.67308522887
@@ -1628,11 +1807,13 @@ YLLs (Years of Life Lost),Male,20 to 24,motor vehicle road injuries,sheffield,18
 YLLs (Years of Life Lost),Male,20 to 24,motorcyclist road injuries,sheffield,73.83154044002885,48017.67308522896
 YLLs (Years of Life Lost),Male,20 to 24,multiple myeloma,sheffield,0.43806121926027325,48017.67308522892
 YLLs (Years of Life Lost),Male,20 to 24,neoplasms,sheffield,180.70947647210954,48017.67308522888
+YLLs (Years of Life Lost),Male,20 to 24,non-rheumatic valvular heart disease,sheffield,3.8343325993898065,48017.67308522887
 YLLs (Years of Life Lost),Male,20 to 24,other road injuries,sheffield,2.2073150537481228,48017.673085228824
 YLLs (Years of Life Lost),Male,20 to 24,other transport injuries,sheffield,16.889085395671845,48017.67308522896
 YLLs (Years of Life Lost),Male,20 to 24,parkinson's disease,sheffield,0.12267634076712297,48017.673085228955
 YLLs (Years of Life Lost),Male,20 to 24,pedestrian road injuries,sheffield,42.96645088967831,48017.67308522892
 YLLs (Years of Life Lost),Male,20 to 24,prostate cancer,sheffield,0.9085718055269918,48017.67308522889
+YLLs (Years of Life Lost),Male,20 to 24,rheumatic heart disease,sheffield,1.1341426865862438,48017.67308522892
 YLLs (Years of Life Lost),Male,20 to 24,road injuries,sheffield,317.34230732199336,48017.67308522894
 YLLs (Years of Life Lost),Male,20 to 24,stomach cancer,sheffield,1.8212000621551803,48017.6730852289
 YLLs (Years of Life Lost),Male,20 to 24,stroke,sheffield,21.25034751939294,48017.6730852289
@@ -1640,6 +1821,7 @@ YLLs (Years of Life Lost),Male,20 to 24,"tracheal, bronchus, and lung cancer",sh
 YLLs (Years of Life Lost),Male,25 to 29,all causes,sheffield,2004.535919309039,52415.75144241525
 YLLs (Years of Life Lost),Male,25 to 29,bladder cancer,sheffield,1.1861608846023732,52415.75144241523
 YLLs (Years of Life Lost),Male,25 to 29,breast cancer,sheffield,0.34350949717346124,52415.75144241525
+YLLs (Years of Life Lost),Male,25 to 29,cardiomyopathy and myocarditis,sheffield,37.67817639331831,52415.75144241524
 YLLs (Years of Life Lost),Male,25 to 29,cardiovascular diseases,sheffield,218.24131565280885,52415.7514424152
 YLLs (Years of Life Lost),Male,25 to 29,chronic myeloid leukemia,sheffield,2.2835385833078767,52415.751442415174
 YLLs (Years of Life Lost),Male,25 to 29,chronic obstructive pulmonary disease,sheffield,7.4719749433850025,52415.75144241523
@@ -1655,11 +1837,13 @@ YLLs (Years of Life Lost),Male,25 to 29,motor vehicle road injuries,sheffield,14
 YLLs (Years of Life Lost),Male,25 to 29,motorcyclist road injuries,sheffield,66.12431425741457,52415.75144241523
 YLLs (Years of Life Lost),Male,25 to 29,multiple myeloma,sheffield,1.1087083930216082,52415.75144241528
 YLLs (Years of Life Lost),Male,25 to 29,neoplasms,sheffield,268.41447570514896,52415.75144241522
+YLLs (Years of Life Lost),Male,25 to 29,non-rheumatic valvular heart disease,sheffield,7.1163891081202575,52415.75144241522
 YLLs (Years of Life Lost),Male,25 to 29,other road injuries,sheffield,2.0132371447991675,52415.75144241516
 YLLs (Years of Life Lost),Male,25 to 29,other transport injuries,sheffield,18.467365403018487,52415.751442415225
 YLLs (Years of Life Lost),Male,25 to 29,parkinson's disease,sheffield,0.0540462665571182,52415.751442415254
 YLLs (Years of Life Lost),Male,25 to 29,pedestrian road injuries,sheffield,32.77422082592382,52415.75144241521
 YLLs (Years of Life Lost),Male,25 to 29,prostate cancer,sheffield,1.480401664526443,52415.75144241518
+YLLs (Years of Life Lost),Male,25 to 29,rheumatic heart disease,sheffield,2.4846810399439447,52415.75144241528
 YLLs (Years of Life Lost),Male,25 to 29,road injuries,sheffield,257.1761517614067,52415.751442415254
 YLLs (Years of Life Lost),Male,25 to 29,stomach cancer,sheffield,6.4528279245618245,52415.75144241523
 YLLs (Years of Life Lost),Male,25 to 29,stroke,sheffield,47.08796257600248,52415.751442415225
@@ -1667,6 +1851,7 @@ YLLs (Years of Life Lost),Male,25 to 29,"tracheal, bronchus, and lung cancer",sh
 YLLs (Years of Life Lost),Male,30 to 34,all causes,sheffield,2491.9064138331614,51680.73483383176
 YLLs (Years of Life Lost),Male,30 to 34,bladder cancer,sheffield,3.144685900626535,51680.73483383181
 YLLs (Years of Life Lost),Male,30 to 34,breast cancer,sheffield,0.3500067738692212,51680.73483383182
+YLLs (Years of Life Lost),Male,30 to 34,cardiomyopathy and myocarditis,sheffield,40.23026111232706,51680.734833831804
 YLLs (Years of Life Lost),Male,30 to 34,cardiovascular diseases,sheffield,368.60149001121476,51680.73483383177
 YLLs (Years of Life Lost),Male,30 to 34,chronic myeloid leukemia,sheffield,2.65915652821861,51680.73483383178
 YLLs (Years of Life Lost),Male,30 to 34,chronic obstructive pulmonary disease,sheffield,12.879715242460602,51680.734833831746
@@ -1682,11 +1867,13 @@ YLLs (Years of Life Lost),Male,30 to 34,motor vehicle road injuries,sheffield,95
 YLLs (Years of Life Lost),Male,30 to 34,motorcyclist road injuries,sheffield,51.46393743967482,51680.73483383181
 YLLs (Years of Life Lost),Male,30 to 34,multiple myeloma,sheffield,3.2572384584166967,51680.73483383176
 YLLs (Years of Life Lost),Male,30 to 34,neoplasms,sheffield,397.1021959976523,51680.734833831746
+YLLs (Years of Life Lost),Male,30 to 34,non-rheumatic valvular heart disease,sheffield,8.848106021124458,51680.73483383179
 YLLs (Years of Life Lost),Male,30 to 34,other road injuries,sheffield,1.3222169355816398,51680.7348338318
 YLLs (Years of Life Lost),Male,30 to 34,other transport injuries,sheffield,15.676571561987922,51680.73483383177
 YLLs (Years of Life Lost),Male,30 to 34,parkinson's disease,sheffield,0.09744583296149376,51680.73483383177
 YLLs (Years of Life Lost),Male,30 to 34,pedestrian road injuries,sheffield,30.577308771958684,51680.73483383175
 YLLs (Years of Life Lost),Male,30 to 34,prostate cancer,sheffield,1.7549236876234122,51680.73483383174
+YLLs (Years of Life Lost),Male,30 to 34,rheumatic heart disease,sheffield,3.2664450004862813,51680.73483383176
 YLLs (Years of Life Lost),Male,30 to 34,road injuries,sheffield,188.3648991122904,51680.73483383181
 YLLs (Years of Life Lost),Male,30 to 34,stomach cancer,sheffield,17.220309262810463,51680.73483383171
 YLLs (Years of Life Lost),Male,30 to 34,stroke,sheffield,67.78807627423376,51680.73483383178
@@ -1694,6 +1881,7 @@ YLLs (Years of Life Lost),Male,30 to 34,"tracheal, bronchus, and lung cancer",sh
 YLLs (Years of Life Lost),Male,35 to 39,all causes,sheffield,2911.334567799157,47889.15946667936
 YLLs (Years of Life Lost),Male,35 to 39,bladder cancer,sheffield,5.799280317856056,47889.15946667928
 YLLs (Years of Life Lost),Male,35 to 39,breast cancer,sheffield,0.7668456665945047,47889.15946667934
+YLLs (Years of Life Lost),Male,35 to 39,cardiomyopathy and myocarditis,sheffield,44.25196276774557,47889.15946667934
 YLLs (Years of Life Lost),Male,35 to 39,cardiovascular diseases,sheffield,536.9143221299396,47889.159466679324
 YLLs (Years of Life Lost),Male,35 to 39,chronic myeloid leukemia,sheffield,2.9188304212394103,47889.159466679295
 YLLs (Years of Life Lost),Male,35 to 39,chronic obstructive pulmonary disease,sheffield,21.839141727426906,47889.1594666793
@@ -1709,11 +1897,13 @@ YLLs (Years of Life Lost),Male,35 to 39,motor vehicle road injuries,sheffield,59
 YLLs (Years of Life Lost),Male,35 to 39,motorcyclist road injuries,sheffield,42.53323809999671,47889.15946667935
 YLLs (Years of Life Lost),Male,35 to 39,multiple myeloma,sheffield,6.416819818156797,47889.15946667931
 YLLs (Years of Life Lost),Male,35 to 39,neoplasms,sheffield,538.9936838483467,47889.159466679295
+YLLs (Years of Life Lost),Male,35 to 39,non-rheumatic valvular heart disease,sheffield,10.255755883677331,47889.15946667933
 YLLs (Years of Life Lost),Male,35 to 39,other road injuries,sheffield,0.7360014455089463,47889.15946667933
 YLLs (Years of Life Lost),Male,35 to 39,other transport injuries,sheffield,12.62061072472761,47889.15946667928
 YLLs (Years of Life Lost),Male,35 to 39,parkinson's disease,sheffield,0.20526409967884715,47889.15946667932
 YLLs (Years of Life Lost),Male,35 to 39,pedestrian road injuries,sheffield,25.017960100677975,47889.15946667933
 YLLs (Years of Life Lost),Male,35 to 39,prostate cancer,sheffield,1.9057198286295542,47889.1594666793
+YLLs (Years of Life Lost),Male,35 to 39,rheumatic heart disease,sheffield,3.9294241641541996,47889.1594666793
 YLLs (Years of Life Lost),Male,35 to 39,road injuries,sheffield,135.54325968897246,47889.15946667936
 YLLs (Years of Life Lost),Male,35 to 39,stomach cancer,sheffield,28.580828166169375,47889.15946667936
 YLLs (Years of Life Lost),Male,35 to 39,stroke,sheffield,87.95310805300213,47889.15946667935
@@ -1722,6 +1912,7 @@ YLLs (Years of Life Lost),Male,40 to 44,all causes,sheffield,3774.7190150388956,
 YLLs (Years of Life Lost),Male,40 to 44,alzheimer's disease and other dementias,sheffield,2.0674746612177204,42208.23250261241
 YLLs (Years of Life Lost),Male,40 to 44,bladder cancer,sheffield,11.64350102066284,42208.232502612474
 YLLs (Years of Life Lost),Male,40 to 44,breast cancer,sheffield,1.40134842411921,42208.2325026124
+YLLs (Years of Life Lost),Male,40 to 44,cardiomyopathy and myocarditis,sheffield,56.1160629389841,42208.23250261242
 YLLs (Years of Life Lost),Male,40 to 44,cardiovascular diseases,sheffield,817.8831504888367,42208.23250261232
 YLLs (Years of Life Lost),Male,40 to 44,chronic myeloid leukemia,sheffield,3.1007635840328605,42208.23250261244
 YLLs (Years of Life Lost),Male,40 to 44,chronic obstructive pulmonary disease,sheffield,41.46428331219018,42208.232502612445
@@ -1737,11 +1928,13 @@ YLLs (Years of Life Lost),Male,40 to 44,motor vehicle road injuries,sheffield,53
 YLLs (Years of Life Lost),Male,40 to 44,motorcyclist road injuries,sheffield,41.3220754777031,42208.23250261245
 YLLs (Years of Life Lost),Male,40 to 44,multiple myeloma,sheffield,12.118393756573969,42208.23250261247
 YLLs (Years of Life Lost),Male,40 to 44,neoplasms,sheffield,817.9748007072444,42208.232502612474
+YLLs (Years of Life Lost),Male,40 to 44,non-rheumatic valvular heart disease,sheffield,13.299743861807926,42208.2325026124
 YLLs (Years of Life Lost),Male,40 to 44,other road injuries,sheffield,0.5375289719491001,42208.23250261241
 YLLs (Years of Life Lost),Male,40 to 44,other transport injuries,sheffield,12.16082405620637,42208.23250261244
 YLLs (Years of Life Lost),Male,40 to 44,parkinson's disease,sheffield,2.024530669631135,42208.23250261242
 YLLs (Years of Life Lost),Male,40 to 44,pedestrian road injuries,sheffield,26.050706863436673,42208.23250261239
 YLLs (Years of Life Lost),Male,40 to 44,prostate cancer,sheffield,4.021974591685618,42208.23250261243
+YLLs (Years of Life Lost),Male,40 to 44,rheumatic heart disease,sheffield,4.927998233064118,42208.23250261242
 YLLs (Years of Life Lost),Male,40 to 44,road injuries,sheffield,129.66066918275862,42208.23250261243
 YLLs (Years of Life Lost),Male,40 to 44,stomach cancer,sheffield,46.471694112678136,42208.23250261244
 YLLs (Years of Life Lost),Male,40 to 44,stroke,sheffield,126.37862667476355,42208.23250261246
@@ -1750,6 +1943,7 @@ YLLs (Years of Life Lost),Male,45 to 49,all causes,sheffield,5430.276034895446,4
 YLLs (Years of Life Lost),Male,45 to 49,alzheimer's disease and other dementias,sheffield,12.977786353622307,46799.0579382959
 YLLs (Years of Life Lost),Male,45 to 49,bladder cancer,sheffield,24.26648758105069,46799.057938295955
 YLLs (Years of Life Lost),Male,45 to 49,breast cancer,sheffield,2.1319750364482832,46799.057938295984
+YLLs (Years of Life Lost),Male,45 to 49,cardiomyopathy and myocarditis,sheffield,72.86985088994142,46799.057938295955
 YLLs (Years of Life Lost),Male,45 to 49,cardiovascular diseases,sheffield,1359.1649208693527,46799.05793829591
 YLLs (Years of Life Lost),Male,45 to 49,chronic myeloid leukemia,sheffield,3.559449732944284,46799.05793829591
 YLLs (Years of Life Lost),Male,45 to 49,chronic obstructive pulmonary disease,sheffield,86.66070694215453,46799.057938295984
@@ -1765,16 +1959,19 @@ YLLs (Years of Life Lost),Male,45 to 49,motor vehicle road injuries,sheffield,57
 YLLs (Years of Life Lost),Male,45 to 49,motorcyclist road injuries,sheffield,39.95892972242117,46799.05793829595
 YLLs (Years of Life Lost),Male,45 to 49,multiple myeloma,sheffield,24.980927879736164,46799.05793829594
 YLLs (Years of Life Lost),Male,45 to 49,neoplasms,sheffield,1427.8975419482329,46799.05793829596
+YLLs (Years of Life Lost),Male,45 to 49,non-rheumatic valvular heart disease,sheffield,18.771370953798503,46799.057938295955
 YLLs (Years of Life Lost),Male,45 to 49,other road injuries,sheffield,0.6612905649965871,46799.05793829597
 YLLs (Years of Life Lost),Male,45 to 49,other transport injuries,sheffield,12.121252684419474,46799.057938296
 YLLs (Years of Life Lost),Male,45 to 49,parkinson's disease,sheffield,6.363018126135706,46799.05793829595
 YLLs (Years of Life Lost),Male,45 to 49,pedestrian road injuries,sheffield,31.58295469774563,46799.05793829593
 YLLs (Years of Life Lost),Male,45 to 49,prostate cancer,sheffield,16.61838849684485,46799.05793829594
+YLLs (Years of Life Lost),Male,45 to 49,rheumatic heart disease,sheffield,7.858914680418611,46799.05793829592
 YLLs (Years of Life Lost),Male,45 to 49,road injuries,sheffield,138.64064178687386,46799.05793829595
 YLLs (Years of Life Lost),Male,45 to 49,stomach cancer,sheffield,78.76758733910657,46799.05793829594
 YLLs (Years of Life Lost),Male,45 to 49,stroke,sheffield,192.0673732376173,46799.05793829597
 YLLs (Years of Life Lost),Male,45 to 49,"tracheal, bronchus, and lung cancer",sheffield,258.6858143853267,46799.057938296
 YLLs (Years of Life Lost),Male,5 to 9,all causes,sheffield,318.11878656331857,43858.83018514409
+YLLs (Years of Life Lost),Male,5 to 9,cardiomyopathy and myocarditis,sheffield,3.6238022126766753,43858.83018514416
 YLLs (Years of Life Lost),Male,5 to 9,cardiovascular diseases,sheffield,9.956707004071744,43858.83018514421
 YLLs (Years of Life Lost),Male,5 to 9,chronic myeloid leukemia,sheffield,0.41430009940410695,43858.83018514415
 YLLs (Years of Life Lost),Male,5 to 9,chronic obstructive pulmonary disease,sheffield,0.7070140696705504,43858.830185144136
@@ -1789,12 +1986,14 @@ YLLs (Years of Life Lost),Male,5 to 9,neoplasms,sheffield,102.88753315143519,438
 YLLs (Years of Life Lost),Male,5 to 9,other road injuries,sheffield,0.4935357770177058,43858.83018514411
 YLLs (Years of Life Lost),Male,5 to 9,other transport injuries,sheffield,1.9567718681935478,43858.83018514409
 YLLs (Years of Life Lost),Male,5 to 9,pedestrian road injuries,sheffield,17.686816395889494,43858.830185144194
+YLLs (Years of Life Lost),Male,5 to 9,rheumatic heart disease,sheffield,0.3668711480432663,43858.83018514412
 YLLs (Years of Life Lost),Male,5 to 9,road injuries,sheffield,32.995593526688396,43858.830185144136
 YLLs (Years of Life Lost),Male,5 to 9,stroke,sheffield,2.1383988786093022,43858.83018514409
 YLLs (Years of Life Lost),Male,50 to 54,all causes,sheffield,7050.516746288963,50329.0622786928
 YLLs (Years of Life Lost),Male,50 to 54,alzheimer's disease and other dementias,sheffield,25.945266240573822,50329.062278692814
 YLLs (Years of Life Lost),Male,50 to 54,bladder cancer,sheffield,50.995408891003564,50329.062278692865
 YLLs (Years of Life Lost),Male,50 to 54,breast cancer,sheffield,3.138450725337755,50329.062278692814
+YLLs (Years of Life Lost),Male,50 to 54,cardiomyopathy and myocarditis,sheffield,83.44183314533359,50329.06227869283
 YLLs (Years of Life Lost),Male,50 to 54,cardiovascular diseases,sheffield,2083.9964045226625,50329.06227869281
 YLLs (Years of Life Lost),Male,50 to 54,chronic myeloid leukemia,sheffield,3.2141601085836435,50329.062278692785
 YLLs (Years of Life Lost),Male,50 to 54,chronic obstructive pulmonary disease,sheffield,209.58445374836103,50329.06227869289
@@ -1810,11 +2009,13 @@ YLLs (Years of Life Lost),Male,50 to 54,motor vehicle road injuries,sheffield,38
 YLLs (Years of Life Lost),Male,50 to 54,motorcyclist road injuries,sheffield,21.7392275520427,50329.0622786928
 YLLs (Years of Life Lost),Male,50 to 54,multiple myeloma,sheffield,48.591860721016516,50329.06227869287
 YLLs (Years of Life Lost),Male,50 to 54,neoplasms,sheffield,2510.1494515949285,50329.06227869284
+YLLs (Years of Life Lost),Male,50 to 54,non-rheumatic valvular heart disease,sheffield,30.366728205258074,50329.062278692814
 YLLs (Years of Life Lost),Male,50 to 54,other road injuries,sheffield,0.931086190750506,50329.06227869279
 YLLs (Years of Life Lost),Male,50 to 54,other transport injuries,sheffield,10.202806081508097,50329.0622786928
 YLLs (Years of Life Lost),Male,50 to 54,parkinson's disease,sheffield,12.597324431532584,50329.06227869277
 YLLs (Years of Life Lost),Male,50 to 54,pedestrian road injuries,sheffield,23.674602806770437,50329.06227869282
 YLLs (Years of Life Lost),Male,50 to 54,prostate cancer,sheffield,65.9987008434413,50329.0622786928
+YLLs (Years of Life Lost),Male,50 to 54,rheumatic heart disease,sheffield,9.779398331386322,50329.06227869284
 YLLs (Years of Life Lost),Male,50 to 54,road injuries,sheffield,93.08851222972683,50329.06227869286
 YLLs (Years of Life Lost),Male,50 to 54,stomach cancer,sheffield,126.93673657205417,50329.06227869284
 YLLs (Years of Life Lost),Male,50 to 54,stroke,sheffield,257.71742035081104,50329.062278692785
@@ -1823,6 +2024,7 @@ YLLs (Years of Life Lost),Male,55 to 59,all causes,sheffield,9304.713050255268,4
 YLLs (Years of Life Lost),Male,55 to 59,alzheimer's disease and other dementias,sheffield,43.878986325396326,46141.498696209186
 YLLs (Years of Life Lost),Male,55 to 59,bladder cancer,sheffield,85.79814895594744,46141.498696209164
 YLLs (Years of Life Lost),Male,55 to 59,breast cancer,sheffield,4.478373932451443,46141.49869620921
+YLLs (Years of Life Lost),Male,55 to 59,cardiomyopathy and myocarditis,sheffield,91.25678958346103,46141.4986962092
 YLLs (Years of Life Lost),Male,55 to 59,cardiovascular diseases,sheffield,2815.687830224851,46141.49869620921
 YLLs (Years of Life Lost),Male,55 to 59,chronic myeloid leukemia,sheffield,3.7841780911449456,46141.498696209135
 YLLs (Years of Life Lost),Male,55 to 59,chronic obstructive pulmonary disease,sheffield,363.4581707940826,46141.49869620911
@@ -1838,11 +2040,13 @@ YLLs (Years of Life Lost),Male,55 to 59,motor vehicle road injuries,sheffield,31
 YLLs (Years of Life Lost),Male,55 to 59,motorcyclist road injuries,sheffield,14.679682943217802,46141.498696209186
 YLLs (Years of Life Lost),Male,55 to 59,multiple myeloma,sheffield,72.61953523143166,46141.498696209164
 YLLs (Years of Life Lost),Male,55 to 59,neoplasms,sheffield,3738.5946060895603,46141.49869620913
+YLLs (Years of Life Lost),Male,55 to 59,non-rheumatic valvular heart disease,sheffield,44.16919883559623,46141.49869620916
 YLLs (Years of Life Lost),Male,55 to 59,other road injuries,sheffield,0.7281242841308846,46141.498696209164
 YLLs (Years of Life Lost),Male,55 to 59,other transport injuries,sheffield,8.498336543299123,46141.49869620921
 YLLs (Years of Life Lost),Male,55 to 59,parkinson's disease,sheffield,21.46823092852124,46141.498696209164
 YLLs (Years of Life Lost),Male,55 to 59,pedestrian road injuries,sheffield,20.918643011226408,46141.49869620919
 YLLs (Years of Life Lost),Male,55 to 59,prostate cancer,sheffield,145.76658243948125,46141.49869620919
+YLLs (Years of Life Lost),Male,55 to 59,rheumatic heart disease,sheffield,13.053413381183464,46141.498696209164
 YLLs (Years of Life Lost),Male,55 to 59,road injuries,sheffield,75.7583578493698,46141.498696209135
 YLLs (Years of Life Lost),Male,55 to 59,stomach cancer,sheffield,181.94667945284885,46141.49869620918
 YLLs (Years of Life Lost),Male,55 to 59,stroke,sheffield,344.3130206900497,46141.49869620916
@@ -1851,6 +2055,7 @@ YLLs (Years of Life Lost),Male,60 to 64,all causes,sheffield,11032.121580491408,
 YLLs (Years of Life Lost),Male,60 to 64,alzheimer's disease and other dementias,sheffield,70.5015071484069,39077.907515632025
 YLLs (Years of Life Lost),Male,60 to 64,bladder cancer,sheffield,135.196736993118,39077.90751563201
 YLLs (Years of Life Lost),Male,60 to 64,breast cancer,sheffield,5.260916173919422,39077.907515632
+YLLs (Years of Life Lost),Male,60 to 64,cardiomyopathy and myocarditis,sheffield,83.51625288598623,39077.90751563201
 YLLs (Years of Life Lost),Male,60 to 64,cardiovascular diseases,sheffield,3226.62243388451,39077.90751563199
 YLLs (Years of Life Lost),Male,60 to 64,chronic myeloid leukemia,sheffield,4.020601486921248,39077.90751563202
 YLLs (Years of Life Lost),Male,60 to 64,chronic obstructive pulmonary disease,sheffield,662.7893577519502,39077.90751563199
@@ -1866,11 +2071,13 @@ YLLs (Years of Life Lost),Male,60 to 64,motor vehicle road injuries,sheffield,21
 YLLs (Years of Life Lost),Male,60 to 64,motorcyclist road injuries,sheffield,7.204592034226053,39077.90751563203
 YLLs (Years of Life Lost),Male,60 to 64,multiple myeloma,sheffield,95.33512656482584,39077.907515632
 YLLs (Years of Life Lost),Male,60 to 64,neoplasms,sheffield,4933.322417004649,39077.90751563203
+YLLs (Years of Life Lost),Male,60 to 64,non-rheumatic valvular heart disease,sheffield,55.67986947064125,39077.907515632
 YLLs (Years of Life Lost),Male,60 to 64,other road injuries,sheffield,0.41524297446923,39077.90751563201
 YLLs (Years of Life Lost),Male,60 to 64,other transport injuries,sheffield,6.2602281950260394,39077.90751563197
 YLLs (Years of Life Lost),Male,60 to 64,parkinson's disease,sheffield,47.99355120785246,39077.90751563201
 YLLs (Years of Life Lost),Male,60 to 64,pedestrian road injuries,sheffield,17.64983557303574,39077.907515631974
 YLLs (Years of Life Lost),Male,60 to 64,prostate cancer,sheffield,312.19182583732675,39077.90751563201
+YLLs (Years of Life Lost),Male,60 to 64,rheumatic heart disease,sheffield,14.33587246120247,39077.90751563206
 YLLs (Years of Life Lost),Male,60 to 64,road injuries,sheffield,52.37388190809356,39077.907515632
 YLLs (Years of Life Lost),Male,60 to 64,stomach cancer,sheffield,226.9241902058365,39077.907515631996
 YLLs (Years of Life Lost),Male,60 to 64,stroke,sheffield,383.4567638288994,39077.907515631945
@@ -1879,6 +2086,7 @@ YLLs (Years of Life Lost),Male,65 to 69,all causes,sheffield,13024.755044374648,
 YLLs (Years of Life Lost),Male,65 to 69,alzheimer's disease and other dementias,sheffield,118.63083486879665,34158.74423370258
 YLLs (Years of Life Lost),Male,65 to 69,bladder cancer,sheffield,192.08252716277863,34158.74423370262
 YLLs (Years of Life Lost),Male,65 to 69,breast cancer,sheffield,5.980960076822798,34158.74423370259
+YLLs (Years of Life Lost),Male,65 to 69,cardiomyopathy and myocarditis,sheffield,84.21984249646047,34158.74423370258
 YLLs (Years of Life Lost),Male,65 to 69,cardiovascular diseases,sheffield,3770.4786956976827,34158.744233702615
 YLLs (Years of Life Lost),Male,65 to 69,chronic myeloid leukemia,sheffield,5.259772399014418,34158.744233702586
 YLLs (Years of Life Lost),Male,65 to 69,chronic obstructive pulmonary disease,sheffield,958.9343555859022,34158.74423370262
@@ -1894,11 +2102,13 @@ YLLs (Years of Life Lost),Male,65 to 69,motor vehicle road injuries,sheffield,17
 YLLs (Years of Life Lost),Male,65 to 69,motorcyclist road injuries,sheffield,4.070397735682741,34158.74423370257
 YLLs (Years of Life Lost),Male,65 to 69,multiple myeloma,sheffield,119.39202328867813,34158.744233702644
 YLLs (Years of Life Lost),Male,65 to 69,neoplasms,sheffield,5986.644934592428,34158.744233702586
+YLLs (Years of Life Lost),Male,65 to 69,non-rheumatic valvular heart disease,sheffield,74.9137887323564,34158.7442337026
 YLLs (Years of Life Lost),Male,65 to 69,other road injuries,sheffield,0.2776519278252134,34158.7442337026
 YLLs (Years of Life Lost),Male,65 to 69,other transport injuries,sheffield,4.514165962937953,34158.7442337026
 YLLs (Years of Life Lost),Male,65 to 69,parkinson's disease,sheffield,103.38184655466443,34158.744233702586
 YLLs (Years of Life Lost),Male,65 to 69,pedestrian road injuries,sheffield,15.717155087092157,34158.74423370262
 YLLs (Years of Life Lost),Male,65 to 69,prostate cancer,sheffield,510.46519577430416,34158.7442337026
+YLLs (Years of Life Lost),Male,65 to 69,rheumatic heart disease,sheffield,18.07221417697026,34158.744233702615
 YLLs (Years of Life Lost),Male,65 to 69,road injuries,sheffield,41.48170164503598,34158.7442337026
 YLLs (Years of Life Lost),Male,65 to 69,stomach cancer,sheffield,286.04921951434216,34158.74423370258
 YLLs (Years of Life Lost),Male,65 to 69,stroke,sheffield,527.4509420972096,34158.74423370261
@@ -1907,6 +2117,7 @@ YLLs (Years of Life Lost),Male,70 to 74,all causes,sheffield,16801.96612129468,3
 YLLs (Years of Life Lost),Male,70 to 74,alzheimer's disease and other dementias,sheffield,228.40445974435968,32472.24051328446
 YLLs (Years of Life Lost),Male,70 to 74,bladder cancer,sheffield,284.89002242748415,32472.2405132844
 YLLs (Years of Life Lost),Male,70 to 74,breast cancer,sheffield,7.572873138890393,32472.2405132844
+YLLs (Years of Life Lost),Male,70 to 74,cardiomyopathy and myocarditis,sheffield,81.09516948493703,32472.240513284407
 YLLs (Years of Life Lost),Male,70 to 74,cardiovascular diseases,sheffield,4968.1801172434325,32472.24051328439
 YLLs (Years of Life Lost),Male,70 to 74,chronic myeloid leukemia,sheffield,7.289912227755421,32472.24051328444
 YLLs (Years of Life Lost),Male,70 to 74,chronic obstructive pulmonary disease,sheffield,1395.9812520314254,32472.240513284414
@@ -1922,11 +2133,13 @@ YLLs (Years of Life Lost),Male,70 to 74,motor vehicle road injuries,sheffield,15
 YLLs (Years of Life Lost),Male,70 to 74,motorcyclist road injuries,sheffield,1.8302911151477634,32472.240513284418
 YLLs (Years of Life Lost),Male,70 to 74,multiple myeloma,sheffield,156.18028342155424,32472.240513284432
 YLLs (Years of Life Lost),Male,70 to 74,neoplasms,sheffield,7380.367823679161,32472.240513284378
+YLLs (Years of Life Lost),Male,70 to 74,non-rheumatic valvular heart disease,sheffield,111.35685228762051,32472.240513284385
 YLLs (Years of Life Lost),Male,70 to 74,other road injuries,sheffield,0.2010951001385891,32472.240513284414
 YLLs (Years of Life Lost),Male,70 to 74,other transport injuries,sheffield,3.320580303457016,32472.24051328443
 YLLs (Years of Life Lost),Male,70 to 74,parkinson's disease,sheffield,248.1941428527277,32472.240513284403
 YLLs (Years of Life Lost),Male,70 to 74,pedestrian road injuries,sheffield,16.79296227940139,32472.2405132844
 YLLs (Years of Life Lost),Male,70 to 74,prostate cancer,sheffield,813.868305006886,32472.240513284378
+YLLs (Years of Life Lost),Male,70 to 74,rheumatic heart disease,sheffield,26.12626680749652,32472.24051328442
 YLLs (Years of Life Lost),Male,70 to 74,road injuries,sheffield,37.774458310531585,32472.240513284418
 YLLs (Years of Life Lost),Male,70 to 74,stomach cancer,sheffield,373.4254140268642,32472.24051328442
 YLLs (Years of Life Lost),Male,70 to 74,stroke,sheffield,829.0438155907206,32472.24051328443
@@ -1935,6 +2148,7 @@ YLLs (Years of Life Lost),Male,75 to 79,all causes,sheffield,14997.211024344018,
 YLLs (Years of Life Lost),Male,75 to 79,alzheimer's disease and other dementias,sheffield,320.33123505068204,22345.853416618807
 YLLs (Years of Life Lost),Male,75 to 79,bladder cancer,sheffield,275.86879089490225,22345.85341661881
 YLLs (Years of Life Lost),Male,75 to 79,breast cancer,sheffield,5.544092421514239,22345.85341661879
+YLLs (Years of Life Lost),Male,75 to 79,cardiomyopathy and myocarditis,sheffield,64.49226246926202,22345.853416618793
 YLLs (Years of Life Lost),Male,75 to 79,cardiovascular diseases,sheffield,4595.862763597539,22345.85341661881
 YLLs (Years of Life Lost),Male,75 to 79,chronic myeloid leukemia,sheffield,6.429050020541654,22345.85341661879
 YLLs (Years of Life Lost),Male,75 to 79,chronic obstructive pulmonary disease,sheffield,1379.3582047987857,22345.853416618796
@@ -1950,11 +2164,13 @@ YLLs (Years of Life Lost),Male,75 to 79,motor vehicle road injuries,sheffield,11
 YLLs (Years of Life Lost),Male,75 to 79,motorcyclist road injuries,sheffield,0.7458594020482602,22345.8534166188
 YLLs (Years of Life Lost),Male,75 to 79,multiple myeloma,sheffield,121.73031978320579,22345.853416618804
 YLLs (Years of Life Lost),Male,75 to 79,neoplasms,sheffield,5872.262835781419,22345.853416618807
+YLLs (Years of Life Lost),Male,75 to 79,non-rheumatic valvular heart disease,sheffield,114.12089388789917,22345.85341661882
 YLLs (Years of Life Lost),Male,75 to 79,other road injuries,sheffield,0.1301900389836575,22345.853416618796
 YLLs (Years of Life Lost),Male,75 to 79,other transport injuries,sheffield,1.8468535666782258,22345.85341661878
 YLLs (Years of Life Lost),Male,75 to 79,parkinson's disease,sheffield,336.395609803973,22345.853416618786
 YLLs (Years of Life Lost),Male,75 to 79,pedestrian road injuries,sheffield,14.36533674991476,22345.853416618786
 YLLs (Years of Life Lost),Male,75 to 79,prostate cancer,sheffield,896.8573059052354,22345.853416618804
+YLLs (Years of Life Lost),Male,75 to 79,rheumatic heart disease,sheffield,24.94307156216034,22345.853416618793
 YLLs (Years of Life Lost),Male,75 to 79,road injuries,sheffield,28.613758355372994,22345.85341661877
 YLLs (Years of Life Lost),Male,75 to 79,stomach cancer,sheffield,317.9358243111217,22345.853416618786
 YLLs (Years of Life Lost),Male,75 to 79,stroke,sheffield,903.8869096201727,22345.853416618796
@@ -1963,6 +2179,7 @@ YLLs (Years of Life Lost),Male,80 to 84,all causes,sheffield,13890.584239699598,
 YLLs (Years of Life Lost),Male,80 to 84,alzheimer's disease and other dementias,sheffield,588.362782735672,15205.44946560885
 YLLs (Years of Life Lost),Male,80 to 84,bladder cancer,sheffield,263.7581536610328,15205.449465608832
 YLLs (Years of Life Lost),Male,80 to 84,breast cancer,sheffield,3.7643397492478883,15205.449465608837
+YLLs (Years of Life Lost),Male,80 to 84,cardiomyopathy and myocarditis,sheffield,58.221688229075085,15205.449465608817
 YLLs (Years of Life Lost),Male,80 to 84,cardiovascular diseases,sheffield,4522.071939403442,15205.449465608835
 YLLs (Years of Life Lost),Male,80 to 84,chronic myeloid leukemia,sheffield,5.345840705219504,15205.449465608832
 YLLs (Years of Life Lost),Male,80 to 84,chronic obstructive pulmonary disease,sheffield,1262.3137285564692,15205.449465608843
@@ -1978,11 +2195,13 @@ YLLs (Years of Life Lost),Male,80 to 84,motor vehicle road injuries,sheffield,9.
 YLLs (Years of Life Lost),Male,80 to 84,motorcyclist road injuries,sheffield,0.3385886178625589,15205.449465608832
 YLLs (Years of Life Lost),Male,80 to 84,multiple myeloma,sheffield,94.15690138830274,15205.449465608835
 YLLs (Years of Life Lost),Male,80 to 84,neoplasms,sheffield,4546.5552379491855,15205.449465608843
+YLLs (Years of Life Lost),Male,80 to 84,non-rheumatic valvular heart disease,sheffield,139.46094622195685,15205.449465608832
 YLLs (Years of Life Lost),Male,80 to 84,other road injuries,sheffield,0.07673040175219822,15205.449465608835
 YLLs (Years of Life Lost),Male,80 to 84,other transport injuries,sheffield,1.1163519073673795,15205.449465608832
 YLLs (Years of Life Lost),Male,80 to 84,parkinson's disease,sheffield,336.1546621847049,15205.449465608839
 YLLs (Years of Life Lost),Male,80 to 84,pedestrian road injuries,sheffield,11.215694574217933,15205.449465608846
 YLLs (Years of Life Lost),Male,80 to 84,prostate cancer,sheffield,885.2433890494493,15205.449465608841
+YLLs (Years of Life Lost),Male,80 to 84,rheumatic heart disease,sheffield,23.285174716662905,15205.44946560885
 YLLs (Years of Life Lost),Male,80 to 84,road injuries,sheffield,21.896480314813065,15205.449465608846
 YLLs (Years of Life Lost),Male,80 to 84,stomach cancer,sheffield,256.6599159568374,15205.449465608828
 YLLs (Years of Life Lost),Male,80 to 84,stroke,sheffield,1020.5424103159003,15205.449465608854
@@ -1991,6 +2210,7 @@ YLLs (Years of Life Lost),Male,85 to 89,all causes,sheffield,9449.454180754783,7
 YLLs (Years of Life Lost),Male,85 to 89,alzheimer's disease and other dementias,sheffield,569.3595195838361,7745.254450211246
 YLLs (Years of Life Lost),Male,85 to 89,bladder cancer,sheffield,170.55738722692996,7745.254450211252
 YLLs (Years of Life Lost),Male,85 to 89,breast cancer,sheffield,2.727005542994384,7745.254450211245
+YLLs (Years of Life Lost),Male,85 to 89,cardiomyopathy and myocarditis,sheffield,45.232492494406294,7745.254450211242
 YLLs (Years of Life Lost),Male,85 to 89,cardiovascular diseases,sheffield,3143.043946256458,7745.254450211247
 YLLs (Years of Life Lost),Male,85 to 89,chronic myeloid leukemia,sheffield,3.9083579306468033,7745.254450211244
 YLLs (Years of Life Lost),Male,85 to 89,chronic obstructive pulmonary disease,sheffield,865.1422087375914,7745.2544502112505
@@ -2006,11 +2226,13 @@ YLLs (Years of Life Lost),Male,85 to 89,motor vehicle road injuries,sheffield,5.
 YLLs (Years of Life Lost),Male,85 to 89,motorcyclist road injuries,sheffield,0.1245888864762848,7745.254450211241
 YLLs (Years of Life Lost),Male,85 to 89,multiple myeloma,sheffield,53.150622261277576,7745.254450211249
 YLLs (Years of Life Lost),Male,85 to 89,neoplasms,sheffield,2548.2350183908084,7745.254450211244
+YLLs (Years of Life Lost),Male,85 to 89,non-rheumatic valvular heart disease,sheffield,112.9366608241711,7745.254450211245
 YLLs (Years of Life Lost),Male,85 to 89,other road injuries,sheffield,0.027843002513156037,7745.254450211247
 YLLs (Years of Life Lost),Male,85 to 89,other transport injuries,sheffield,0.4523246561918779,7745.25445021125
 YLLs (Years of Life Lost),Male,85 to 89,parkinson's disease,sheffield,206.23943674398407,7745.254450211245
 YLLs (Years of Life Lost),Male,85 to 89,pedestrian road injuries,sheffield,6.3625776251692585,7745.254450211249
 YLLs (Years of Life Lost),Male,85 to 89,prostate cancer,sheffield,580.6637284558194,7745.254450211257
+YLLs (Years of Life Lost),Male,85 to 89,rheumatic heart disease,sheffield,15.21564508327834,7745.254450211255
 YLLs (Years of Life Lost),Male,85 to 89,road injuries,sheffield,12.093797218713226,7745.254450211247
 YLLs (Years of Life Lost),Male,85 to 89,stomach cancer,sheffield,143.3052940151328,7745.254450211257
 YLLs (Years of Life Lost),Male,85 to 89,stroke,sheffield,742.8363593796666,7745.254450211252
@@ -2019,6 +2241,7 @@ YLLs (Years of Life Lost),Male,90 to 94,all causes,sheffield,4400.31717143098,28
 YLLs (Years of Life Lost),Male,90 to 94,alzheimer's disease and other dementias,sheffield,340.5965009718469,2833.6951524612023
 YLLs (Years of Life Lost),Male,90 to 94,bladder cancer,sheffield,71.92097371156196,2833.695152461197
 YLLs (Years of Life Lost),Male,90 to 94,breast cancer,sheffield,1.268683040524697,2833.695152461196
+YLLs (Years of Life Lost),Male,90 to 94,cardiomyopathy and myocarditis,sheffield,25.319361969654537,2833.6951524611954
 YLLs (Years of Life Lost),Male,90 to 94,cardiovascular diseases,sheffield,1547.2125373515591,2833.6951524612
 YLLs (Years of Life Lost),Male,90 to 94,chronic myeloid leukemia,sheffield,1.5431729314687388,2833.6951524611973
 YLLs (Years of Life Lost),Male,90 to 94,chronic obstructive pulmonary disease,sheffield,382.8865062721054,2833.6951524611977
@@ -2034,11 +2257,13 @@ YLLs (Years of Life Lost),Male,90 to 94,motor vehicle road injuries,sheffield,1.
 YLLs (Years of Life Lost),Male,90 to 94,motorcyclist road injuries,sheffield,0.06309023274206076,2833.695152461196
 YLLs (Years of Life Lost),Male,90 to 94,multiple myeloma,sheffield,15.42779453527664,2833.695152461198
 YLLs (Years of Life Lost),Male,90 to 94,neoplasms,sheffield,929.6753057515243,2833.6951524611954
+YLLs (Years of Life Lost),Male,90 to 94,non-rheumatic valvular heart disease,sheffield,59.15992920980821,2833.6951524611954
 YLLs (Years of Life Lost),Male,90 to 94,other road injuries,sheffield,0.01841065220822396,2833.695152461198
 YLLs (Years of Life Lost),Male,90 to 94,other transport injuries,sheffield,0.18419584600799668,2833.6951524611977
 YLLs (Years of Life Lost),Male,90 to 94,parkinson's disease,sheffield,76.20752858612204,2833.695152461197
 YLLs (Years of Life Lost),Male,90 to 94,pedestrian road injuries,sheffield,2.3261348842767573,2833.695152461199
 YLLs (Years of Life Lost),Male,90 to 94,prostate cancer,sheffield,253.2130218745736,2833.695152461199
+YLLs (Years of Life Lost),Male,90 to 94,rheumatic heart disease,sheffield,6.631990678638593,2833.6951524611964
 YLLs (Years of Life Lost),Male,90 to 94,road injuries,sheffield,4.308924226695764,2833.6951524611995
 YLLs (Years of Life Lost),Male,90 to 94,stomach cancer,sheffield,51.12872599672142,2833.6951524611986
 YLLs (Years of Life Lost),Male,90 to 94,stroke,sheffield,392.6396596878528,2833.695152461197
@@ -2047,6 +2272,7 @@ YLLs (Years of Life Lost),Male,95 to 99,all causes,sheffield,1083.417856707825,5
 YLLs (Years of Life Lost),Male,95 to 99,alzheimer's disease and other dementias,sheffield,96.4501039452109,579.7259319426541
 YLLs (Years of Life Lost),Male,95 to 99,bladder cancer,sheffield,15.83997365523835,579.7259319426544
 YLLs (Years of Life Lost),Male,95 to 99,breast cancer,sheffield,0.26946537708221174,579.7259319426539
+YLLs (Years of Life Lost),Male,95 to 99,cardiomyopathy and myocarditis,sheffield,6.938940328388764,579.7259319426544
 YLLs (Years of Life Lost),Male,95 to 99,cardiovascular diseases,sheffield,394.78962297251235,579.7259319426539
 YLLs (Years of Life Lost),Male,95 to 99,chronic myeloid leukemia,sheffield,0.30790665251617627,579.725931942654
 YLLs (Years of Life Lost),Male,95 to 99,chronic obstructive pulmonary disease,sheffield,93.6997446200718,579.7259319426544
@@ -2062,11 +2288,13 @@ YLLs (Years of Life Lost),Male,95 to 99,motor vehicle road injuries,sheffield,0.
 YLLs (Years of Life Lost),Male,95 to 99,motorcyclist road injuries,sheffield,0.024023540175310658,579.7259319426549
 YLLs (Years of Life Lost),Male,95 to 99,multiple myeloma,sheffield,3.2151851244216463,579.7259319426546
 YLLs (Years of Life Lost),Male,95 to 99,neoplasms,sheffield,192.12912918377233,579.7259319426543
+YLLs (Years of Life Lost),Male,95 to 99,non-rheumatic valvular heart disease,sheffield,14.555462151912572,579.7259319426538
 YLLs (Years of Life Lost),Male,95 to 99,other road injuries,sheffield,0.008364195198525624,579.7259319426539
 YLLs (Years of Life Lost),Male,95 to 99,other transport injuries,sheffield,0.049572665550570244,579.7259319426548
 YLLs (Years of Life Lost),Male,95 to 99,parkinson's disease,sheffield,11.506555433096757,579.7259319426545
 YLLs (Years of Life Lost),Male,95 to 99,pedestrian road injuries,sheffield,0.5259165451449839,579.725931942654
 YLLs (Years of Life Lost),Male,95 to 99,prostate cancer,sheffield,55.238105931810566,579.7259319426536
+YLLs (Years of Life Lost),Male,95 to 99,rheumatic heart disease,sheffield,1.557841671110484,579.725931942654
 YLLs (Years of Life Lost),Male,95 to 99,road injuries,sheffield,0.944101509751235,579.725931942654
 YLLs (Years of Life Lost),Male,95 to 99,stomach cancer,sheffield,10.651653382074787,579.7259319426545
 YLLs (Years of Life Lost),Male,95 to 99,stroke,sheffield,104.98969060981636,579.7259319426539

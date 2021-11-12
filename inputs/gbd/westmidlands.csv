@@ -1,5 +1,6 @@
 measure,sex,age,cause,cityregion,number,pop
 Deaths,Female,0 to 5,all causes,westmidlands,115.5069383135764,95610.74027966666
+Deaths,Female,0 to 5,cardiomyopathy and myocarditis,westmidlands,0.6803312524738697,95610.74027966663
 Deaths,Female,0 to 5,cardiovascular diseases,westmidlands,1.3635714869154163,95610.7402796666
 Deaths,Female,0 to 5,chronic myeloid leukemia,westmidlands,0.014279206536730874,95610.74027966664
 Deaths,Female,0 to 5,chronic obstructive pulmonary disease,westmidlands,0.03078673124022247,95610.74027966667
@@ -13,9 +14,11 @@ Deaths,Female,0 to 5,neoplasms,westmidlands,2.7246218833029654,95610.7402796667
 Deaths,Female,0 to 5,other road injuries,westmidlands,0.018327746392894296,95610.74027966666
 Deaths,Female,0 to 5,other transport injuries,westmidlands,0.030901032873570336,95610.74027966657
 Deaths,Female,0 to 5,pedestrian road injuries,westmidlands,0.23248104772226305,95610.74027966663
+Deaths,Female,0 to 5,rheumatic heart disease,westmidlands,0.014045140495429473,95610.74027966666
 Deaths,Female,0 to 5,road injuries,westmidlands,0.49840377625438353,95610.74027966669
 Deaths,Female,0 to 5,stroke,westmidlands,0.15286469910412911,95610.74027966661
 Deaths,Female,10 to 14,all causes,westmidlands,7.721002926939342,96105.74012547504
+Deaths,Female,10 to 14,cardiomyopathy and myocarditis,westmidlands,0.10679342267013257,96105.74012547517
 Deaths,Female,10 to 14,cardiovascular diseases,westmidlands,0.3110890257304779,96105.7401254751
 Deaths,Female,10 to 14,chronic myeloid leukemia,westmidlands,0.012981103906497723,96105.74012547509
 Deaths,Female,10 to 14,chronic obstructive pulmonary disease,westmidlands,0.02202505700048702,96105.74012547513
@@ -30,12 +33,14 @@ Deaths,Female,10 to 14,neoplasms,westmidlands,2.3004830329737884,96105.740125475
 Deaths,Female,10 to 14,other road injuries,westmidlands,0.01697166233015994,96105.74012547512
 Deaths,Female,10 to 14,other transport injuries,westmidlands,0.03326361449278927,96105.74012547522
 Deaths,Female,10 to 14,pedestrian road injuries,westmidlands,0.3009225002957764,96105.74012547507
+Deaths,Female,10 to 14,rheumatic heart disease,westmidlands,0.008729344965680457,96105.7401254752
 Deaths,Female,10 to 14,road injuries,westmidlands,0.5923894033375593,96105.74012547515
 Deaths,Female,10 to 14,stroke,westmidlands,0.08702715169684723,96105.74012547519
 Deaths,Female,10 to 14,"tracheal, bronchus, and lung cancer",westmidlands,0.015189860999726001,96105.74012547507
 Deaths,Female,15 to 19,all causes,westmidlands,15.832849459315174,89329.18678498741
 Deaths,Female,15 to 19,bladder cancer,westmidlands,0.009583028065362795,89329.18678498743
 Deaths,Female,15 to 19,breast cancer,westmidlands,0.043420537815782374,89329.18678498747
+Deaths,Female,15 to 19,cardiomyopathy and myocarditis,westmidlands,0.19948768181258178,89329.18678498728
 Deaths,Female,15 to 19,cardiovascular diseases,westmidlands,0.8678134546351904,89329.18678498741
 Deaths,Female,15 to 19,chronic myeloid leukemia,westmidlands,0.020253335994575627,89329.18678498738
 Deaths,Female,15 to 19,chronic obstructive pulmonary disease,westmidlands,0.0596290138178016,89329.18678498737
@@ -49,9 +54,11 @@ Deaths,Female,15 to 19,lower respiratory infections,westmidlands,0.3732018715956
 Deaths,Female,15 to 19,motor vehicle road injuries,westmidlands,1.3730257898700637,89329.18678498738
 Deaths,Female,15 to 19,motorcyclist road injuries,westmidlands,0.13028529730388305,89329.18678498747
 Deaths,Female,15 to 19,neoplasms,westmidlands,3.2451283911480115,89329.18678498743
+Deaths,Female,15 to 19,non-rheumatic valvular heart disease,westmidlands,0.03821068991850656,89329.18678498732
 Deaths,Female,15 to 19,other road injuries,westmidlands,0.04512890647812367,89329.18678498741
 Deaths,Female,15 to 19,other transport injuries,westmidlands,0.07264279634692158,89329.18678498743
 Deaths,Female,15 to 19,pedestrian road injuries,westmidlands,0.5848936531643527,89329.18678498743
+Deaths,Female,15 to 19,rheumatic heart disease,westmidlands,0.01573278090131222,89329.1867849874
 Deaths,Female,15 to 19,road injuries,westmidlands,2.2176471134531397,89329.18678498743
 Deaths,Female,15 to 19,stomach cancer,westmidlands,0.014694983020956056,89329.18678498745
 Deaths,Female,15 to 19,stroke,westmidlands,0.2607299644260403,89329.18678498737
@@ -59,6 +66,7 @@ Deaths,Female,15 to 19,"tracheal, bronchus, and lung cancer",westmidlands,0.0398
 Deaths,Female,20 to 24,all causes,westmidlands,25.604870908107095,99803.71742893061
 Deaths,Female,20 to 24,bladder cancer,westmidlands,0.011872861266771994,99803.71742893066
 Deaths,Female,20 to 24,breast cancer,westmidlands,0.18078521329665523,99803.71742893061
+Deaths,Female,20 to 24,cardiomyopathy and myocarditis,westmidlands,0.32516959099244,99803.71742893064
 Deaths,Female,20 to 24,cardiovascular diseases,westmidlands,1.8675540742183445,99803.71742893061
 Deaths,Female,20 to 24,chronic myeloid leukemia,westmidlands,0.032367883083939536,99803.71742893048
 Deaths,Female,20 to 24,chronic obstructive pulmonary disease,westmidlands,0.10708135742824516,99803.71742893061
@@ -74,10 +82,12 @@ Deaths,Female,20 to 24,motor vehicle road injuries,westmidlands,1.52342414981833
 Deaths,Female,20 to 24,motorcyclist road injuries,westmidlands,0.1514942400153965,99803.7174289306
 Deaths,Female,20 to 24,multiple myeloma,westmidlands,0.006999049933951522,99803.71742893064
 Deaths,Female,20 to 24,neoplasms,westmidlands,5.291412545377823,99803.71742893054
+Deaths,Female,20 to 24,non-rheumatic valvular heart disease,westmidlands,0.07118940633458251,99803.7174289306
 Deaths,Female,20 to 24,other road injuries,westmidlands,0.05761628267212878,99803.71742893069
 Deaths,Female,20 to 24,other transport injuries,westmidlands,0.09313745602826083,99803.7174289306
 Deaths,Female,20 to 24,parkinson's disease,westmidlands,0.001519287728248403,99803.71742893058
 Deaths,Female,20 to 24,pedestrian road injuries,westmidlands,0.5544966796966818,99803.71742893064
+Deaths,Female,20 to 24,rheumatic heart disease,westmidlands,0.04190866811871571,99803.7174289305
 Deaths,Female,20 to 24,road injuries,westmidlands,2.369769792189838,99803.71742893055
 Deaths,Female,20 to 24,stomach cancer,westmidlands,0.06352878199881459,99803.71742893051
 Deaths,Female,20 to 24,stroke,westmidlands,0.6370885069320872,99803.71742893054
@@ -86,6 +96,7 @@ Deaths,Female,20 to 24,uterine cancer,westmidlands,0.014628951189483343,99803.71
 Deaths,Female,25 to 29,all causes,westmidlands,32.741081716963286,109685.50737187515
 Deaths,Female,25 to 29,bladder cancer,westmidlands,0.04035297911515551,109685.50737187506
 Deaths,Female,25 to 29,breast cancer,westmidlands,1.5410854183828728,109685.50737187502
+Deaths,Female,25 to 29,cardiomyopathy and myocarditis,westmidlands,0.4428037402553925,109685.50737187506
 Deaths,Female,25 to 29,cardiovascular diseases,westmidlands,3.2812602685784715,109685.5073718751
 Deaths,Female,25 to 29,chronic myeloid leukemia,westmidlands,0.04682117256247069,109685.50737187518
 Deaths,Female,25 to 29,chronic obstructive pulmonary disease,westmidlands,0.1598626631651234,109685.50737187515
@@ -101,10 +112,12 @@ Deaths,Female,25 to 29,motor vehicle road injuries,westmidlands,1.06029535955656
 Deaths,Female,25 to 29,motorcyclist road injuries,westmidlands,0.09236108313312909,109685.50737187506
 Deaths,Female,25 to 29,multiple myeloma,westmidlands,0.014854534396069742,109685.50737187525
 Deaths,Female,25 to 29,neoplasms,westmidlands,9.3427132769779,109685.50737187506
+Deaths,Female,25 to 29,non-rheumatic valvular heart disease,westmidlands,0.11601722630963687,109685.50737187499
 Deaths,Female,25 to 29,other road injuries,westmidlands,0.04098685306563046,109685.5073718751
 Deaths,Female,25 to 29,other transport injuries,westmidlands,0.08280073516350894,109685.50737187506
 Deaths,Female,25 to 29,parkinson's disease,westmidlands,7.697794699987099e-4,109685.5073718751
 Deaths,Female,25 to 29,pedestrian road injuries,westmidlands,0.32201854398884416,109685.50737187515
+Deaths,Female,25 to 29,rheumatic heart disease,westmidlands,0.06672547685672617,109685.50737187498
 Deaths,Female,25 to 29,road injuries,westmidlands,1.5811798058374276,109685.50737187504
 Deaths,Female,25 to 29,stomach cancer,westmidlands,0.21423363080419847,109685.50737187493
 Deaths,Female,25 to 29,stroke,westmidlands,1.215614834062195,109685.50737187515
@@ -113,6 +126,7 @@ Deaths,Female,25 to 29,uterine cancer,westmidlands,0.05508461772738995,109685.50
 Deaths,Female,30 to 34,all causes,westmidlands,47.263261181694574,111593.38882352173
 Deaths,Female,30 to 34,bladder cancer,westmidlands,0.12558292802056661,111593.38882352173
 Deaths,Female,30 to 34,breast cancer,westmidlands,4.969188884196587,111593.388823522
+Deaths,Female,30 to 34,cardiomyopathy and myocarditis,westmidlands,0.50226459847694,111593.38882352177
 Deaths,Female,30 to 34,cardiovascular diseases,westmidlands,5.313366420706056,111593.38882352175
 Deaths,Female,30 to 34,chronic myeloid leukemia,westmidlands,0.05746261977432506,111593.3888235217
 Deaths,Female,30 to 34,chronic obstructive pulmonary disease,westmidlands,0.2586596655467902,111593.38882352175
@@ -128,10 +142,12 @@ Deaths,Female,30 to 34,motor vehicle road injuries,westmidlands,0.76854111026802
 Deaths,Female,30 to 34,motorcyclist road injuries,westmidlands,0.07121183031216867,111593.38882352193
 Deaths,Female,30 to 34,multiple myeloma,westmidlands,0.04886230286967826,111593.38882352175
 Deaths,Female,30 to 34,neoplasms,westmidlands,16.841408760064283,111593.38882352186
+Deaths,Female,30 to 34,non-rheumatic valvular heart disease,westmidlands,0.15334805082454192,111593.38882352164
 Deaths,Female,30 to 34,other road injuries,westmidlands,0.030024655324908556,111593.38882352182
 Deaths,Female,30 to 34,other transport injuries,westmidlands,0.061689336665527124,111593.38882352182
 Deaths,Female,30 to 34,parkinson's disease,westmidlands,0.002050614223389979,111593.38882352182
 Deaths,Female,30 to 34,pedestrian road injuries,westmidlands,0.26098391100282325,111593.38882352166
+Deaths,Female,30 to 34,rheumatic heart disease,westmidlands,0.0913702299357925,111593.38882352186
 Deaths,Female,30 to 34,road injuries,westmidlands,1.1786485392926536,111593.38882352177
 Deaths,Female,30 to 34,stomach cancer,westmidlands,0.4933391214362428,111593.3888235218
 Deaths,Female,30 to 34,stroke,westmidlands,1.9072370543905257,111593.3888235219
@@ -140,6 +156,7 @@ Deaths,Female,30 to 34,uterine cancer,westmidlands,0.11763681465044017,111593.38
 Deaths,Female,35 to 39,all causes,westmidlands,75.75582191586749,104841.64984599128
 Deaths,Female,35 to 39,bladder cancer,westmidlands,0.24818229945781947,104841.64984599131
 Deaths,Female,35 to 39,breast cancer,westmidlands,10.184360639126291,104841.64984599124
+Deaths,Female,35 to 39,cardiomyopathy and myocarditis,westmidlands,0.7467797194653071,104841.6498459913
 Deaths,Female,35 to 39,cardiovascular diseases,westmidlands,9.494917935224997,104841.64984599139
 Deaths,Female,35 to 39,chronic myeloid leukemia,westmidlands,0.09053973041788765,104841.64984599128
 Deaths,Female,35 to 39,chronic obstructive pulmonary disease,westmidlands,0.5190310873374591,104841.64984599125
@@ -155,10 +172,12 @@ Deaths,Female,35 to 39,motor vehicle road injuries,westmidlands,0.74401442585697
 Deaths,Female,35 to 39,motorcyclist road injuries,westmidlands,0.07468648008768428,104841.64984599123
 Deaths,Female,35 to 39,multiple myeloma,westmidlands,0.13967464122280954,104841.64984599137
 Deaths,Female,35 to 39,neoplasms,westmidlands,29.81435476717346,104841.64984599125
+Deaths,Female,35 to 39,non-rheumatic valvular heart disease,westmidlands,0.19838360447206693,104841.6498459912
 Deaths,Female,35 to 39,other road injuries,westmidlands,0.035109215759273615,104841.64984599131
 Deaths,Female,35 to 39,other transport injuries,westmidlands,0.06759461677566835,104841.64984599128
 Deaths,Female,35 to 39,parkinson's disease,westmidlands,0.008204926466418431,104841.64984599125
 Deaths,Female,35 to 39,pedestrian road injuries,westmidlands,0.32348152007801845,104841.6498459913
+Deaths,Female,35 to 39,rheumatic heart disease,westmidlands,0.15413238364427212,104841.64984599127
 Deaths,Female,35 to 39,road injuries,westmidlands,1.2261639840317045,104841.64984599128
 Deaths,Female,35 to 39,stomach cancer,westmidlands,0.8851176643951775,104841.6498459913
 Deaths,Female,35 to 39,stroke,westmidlands,3.4094483724820535,104841.64984599134
@@ -168,6 +187,7 @@ Deaths,Female,40 to 44,all causes,westmidlands,102.29618221669713,89308.17403401
 Deaths,Female,40 to 44,alzheimer's disease and other dementias,westmidlands,0.10148635276515493,89308.17403401161
 Deaths,Female,40 to 44,bladder cancer,westmidlands,0.44352724035488345,89308.17403401164
 Deaths,Female,40 to 44,breast cancer,westmidlands,15.163152871349354,89308.17403401155
+Deaths,Female,40 to 44,cardiomyopathy and myocarditis,westmidlands,0.8841286888766403,89308.1740340116
 Deaths,Female,40 to 44,cardiovascular diseases,westmidlands,14.06542963547286,89308.1740340117
 Deaths,Female,40 to 44,chronic myeloid leukemia,westmidlands,0.09173903561335454,89308.17403401168
 Deaths,Female,40 to 44,chronic obstructive pulmonary disease,westmidlands,1.0373832263709744,89308.17403401162
@@ -183,10 +203,12 @@ Deaths,Female,40 to 44,motor vehicle road injuries,westmidlands,0.72964198183174
 Deaths,Female,40 to 44,motorcyclist road injuries,westmidlands,0.06782601005765838,89308.17403401162
 Deaths,Female,40 to 44,multiple myeloma,westmidlands,0.27964078172630386,89308.1740340116
 Deaths,Female,40 to 44,neoplasms,westmidlands,43.8162954057723,89308.17403401161
+Deaths,Female,40 to 44,non-rheumatic valvular heart disease,westmidlands,0.26963191841490314,89308.17403401165
 Deaths,Female,40 to 44,other road injuries,westmidlands,0.03073882456622946,89308.17403401168
 Deaths,Female,40 to 44,other transport injuries,westmidlands,0.06329155374222005,89308.17403401164
 Deaths,Female,40 to 44,parkinson's disease,westmidlands,0.051957663485416326,89308.17403401158
 Deaths,Female,40 to 44,pedestrian road injuries,westmidlands,0.3630976711687515,89308.17403401158
+Deaths,Female,40 to 44,rheumatic heart disease,westmidlands,0.27075213146685445,89308.17403401156
 Deaths,Female,40 to 44,road injuries,westmidlands,1.2363935940840525,89308.17403401168
 Deaths,Female,40 to 44,stomach cancer,westmidlands,1.3669614719051981,89308.17403401155
 Deaths,Female,40 to 44,stroke,westmidlands,4.7761123147145055,89308.17403401154
@@ -196,6 +218,7 @@ Deaths,Female,45 to 49,all causes,westmidlands,164.91861286865108,94614.97138815
 Deaths,Female,45 to 49,alzheimer's disease and other dementias,westmidlands,0.6545875711086466,94614.97138815066
 Deaths,Female,45 to 49,bladder cancer,westmidlands,0.8110769034586398,94614.97138815066
 Deaths,Female,45 to 49,breast cancer,westmidlands,24.381235764542655,94614.97138815072
+Deaths,Female,45 to 49,cardiomyopathy and myocarditis,westmidlands,1.265938078390276,94614.97138815069
 Deaths,Female,45 to 49,cardiovascular diseases,westmidlands,23.903846736264796,94614.9713881506
 Deaths,Female,45 to 49,chronic myeloid leukemia,westmidlands,0.13489930718858723,94614.9713881507
 Deaths,Female,45 to 49,chronic obstructive pulmonary disease,westmidlands,2.626814707275888,94614.9713881507
@@ -211,16 +234,19 @@ Deaths,Female,45 to 49,motor vehicle road injuries,westmidlands,0.84741239712968
 Deaths,Female,45 to 49,motorcyclist road injuries,westmidlands,0.07728196578765889,94614.97138815062
 Deaths,Female,45 to 49,multiple myeloma,westmidlands,0.66443592474495206,94614.97138815065
 Deaths,Female,45 to 49,neoplasms,westmidlands,76.64702176957728,94614.97138815066
+Deaths,Female,45 to 49,non-rheumatic valvular heart disease,westmidlands,0.4256294841897197,94614.97138815057
 Deaths,Female,45 to 49,other road injuries,westmidlands,0.04402599107578862,94614.97138815062
 Deaths,Female,45 to 49,other transport injuries,westmidlands,0.07111249839299119,94614.97138815065
 Deaths,Female,45 to 49,parkinson's disease,westmidlands,0.17306721404887432,94614.97138815065
 Deaths,Female,45 to 49,pedestrian road injuries,westmidlands,0.4561457523794832,94614.97138815068
+Deaths,Female,45 to 49,rheumatic heart disease,westmidlands,0.43181744246832926,94614.97138815069
 Deaths,Female,45 to 49,road injuries,westmidlands,1.4869033812643955,94614.97138815056
 Deaths,Female,45 to 49,stomach cancer,westmidlands,2.1825475409230486,94614.97138815072
 Deaths,Female,45 to 49,stroke,westmidlands,7.6551015940858305,94614.97138815056
 Deaths,Female,45 to 49,"tracheal, bronchus, and lung cancer",westmidlands,8.990333366065627,94614.97138815073
 Deaths,Female,45 to 49,uterine cancer,westmidlands,1.0886780168242638,94614.97138815069
 Deaths,Female,5 to 9,all causes,westmidlands,8.227313879019412,98130.88988955652
+Deaths,Female,5 to 9,cardiomyopathy and myocarditis,westmidlands,0.10983572629273049,98130.88988955652
 Deaths,Female,5 to 9,cardiovascular diseases,westmidlands,0.31368168712946964,98130.88988955646
 Deaths,Female,5 to 9,chronic myeloid leukemia,westmidlands,0.01179877453162624,98130.88988955643
 Deaths,Female,5 to 9,chronic obstructive pulmonary disease,westmidlands,0.025493422606709868,98130.88988955632
@@ -235,12 +261,14 @@ Deaths,Female,5 to 9,neoplasms,westmidlands,2.4843190938289967,98130.88988955643
 Deaths,Female,5 to 9,other road injuries,westmidlands,0.012065868985558111,98130.88988955645
 Deaths,Female,5 to 9,other transport injuries,westmidlands,0.027225255860221717,98130.8898895564
 Deaths,Female,5 to 9,pedestrian road injuries,westmidlands,0.30553746606092297,98130.88988955646
+Deaths,Female,5 to 9,rheumatic heart disease,westmidlands,0.00960033739049775,98130.88988955646
 Deaths,Female,5 to 9,road injuries,westmidlands,0.5481660364774975,98130.8898895566
 Deaths,Female,5 to 9,stroke,westmidlands,0.07678157050880294,98130.88988955649
 Deaths,Female,50 to 54,all causes,westmidlands,258.5647516616631,95989.69395485631
 Deaths,Female,50 to 54,alzheimer's disease and other dementias,westmidlands,1.36308324241765,95989.69395485624
 Deaths,Female,50 to 54,bladder cancer,westmidlands,1.4471995914388185,95989.6939548562
 Deaths,Female,50 to 54,breast cancer,westmidlands,35.05344912687411,95989.69395485631
+Deaths,Female,50 to 54,cardiomyopathy and myocarditis,westmidlands,1.4817403006076675,95989.69395485622
 Deaths,Female,50 to 54,cardiovascular diseases,westmidlands,40.23031459173321,95989.69395485632
 Deaths,Female,50 to 54,chronic myeloid leukemia,westmidlands,0.14135997795439753,95989.69395485624
 Deaths,Female,50 to 54,chronic obstructive pulmonary disease,westmidlands,8.382528878939478,95989.69395485635
@@ -256,10 +284,12 @@ Deaths,Female,50 to 54,motor vehicle road injuries,westmidlands,0.76255654438561
 Deaths,Female,50 to 54,motorcyclist road injuries,westmidlands,0.06563733618786555,95989.69395485627
 Deaths,Female,50 to 54,multiple myeloma,westmidlands,1.5558052012758916,95989.69395485628
 Deaths,Female,50 to 54,neoplasms,westmidlands,133.78094573260188,95989.6939548562
+Deaths,Female,50 to 54,non-rheumatic valvular heart disease,westmidlands,0.6948572166177815,95989.69395485622
 Deaths,Female,50 to 54,other road injuries,westmidlands,0.044266619298084946,95989.69395485627
 Deaths,Female,50 to 54,other transport injuries,westmidlands,0.07036222640682621,95989.69395485634
 Deaths,Female,50 to 54,parkinson's disease,westmidlands,0.4142140097090918,95989.69395485625
 Deaths,Female,50 to 54,pedestrian road injuries,westmidlands,0.45293743030377837,95989.6939548563
+Deaths,Female,50 to 54,rheumatic heart disease,westmidlands,0.6903851163015441,95989.69395485621
 Deaths,Female,50 to 54,road injuries,westmidlands,1.3941591234365656,95989.69395485624
 Deaths,Female,50 to 54,stomach cancer,westmidlands,3.410430651409144,95989.69395485627
 Deaths,Female,50 to 54,stroke,westmidlands,11.920738393199423,95989.69395485628
@@ -269,6 +299,7 @@ Deaths,Female,55 to 59,all causes,westmidlands,363.09759087042306,85102.78387219
 Deaths,Female,55 to 59,alzheimer's disease and other dementias,westmidlands,2.54782882803445,85102.7838721961
 Deaths,Female,55 to 59,bladder cancer,westmidlands,2.2778510114148633,85102.78387219615
 Deaths,Female,55 to 59,breast cancer,westmidlands,45.31419260911044,85102.78387219615
+Deaths,Female,55 to 59,cardiomyopathy and myocarditis,westmidlands,1.8799302149530173,85102.7838721961
 Deaths,Female,55 to 59,cardiovascular diseases,westmidlands,57.120684202802984,85102.78387219613
 Deaths,Female,55 to 59,chronic myeloid leukemia,westmidlands,0.18907868135004538,85102.78387219599
 Deaths,Female,55 to 59,chronic obstructive pulmonary disease,westmidlands,15.917934211504717,85102.78387219609
@@ -284,10 +315,12 @@ Deaths,Female,55 to 59,motor vehicle road injuries,westmidlands,0.70170670033912
 Deaths,Female,55 to 59,motorcyclist road injuries,westmidlands,0.05932491047937746,85102.7838721961
 Deaths,Female,55 to 59,multiple myeloma,westmidlands,2.5028655500134853,85102.78387219601
 Deaths,Female,55 to 59,neoplasms,westmidlands,195.06429375207784,85102.78387219609
+Deaths,Female,55 to 59,non-rheumatic valvular heart disease,westmidlands,1.0016541388851348,85102.78387219617
 Deaths,Female,55 to 59,other road injuries,westmidlands,0.045950748810166926,85102.78387219606
 Deaths,Female,55 to 59,other transport injuries,westmidlands,0.06910849438764091,85102.78387219604
 Deaths,Female,55 to 59,parkinson's disease,westmidlands,0.7719271709833637,85102.78387219601
 Deaths,Female,55 to 59,pedestrian road injuries,westmidlands,0.4676029541761617,85102.78387219613
+Deaths,Female,55 to 59,rheumatic heart disease,westmidlands,0.9170243864175137,85102.78387219606
 Deaths,Female,55 to 59,road injuries,westmidlands,1.338977354099555,85102.7838721961
 Deaths,Female,55 to 59,stomach cancer,westmidlands,4.909584561218524,85102.78387219609
 Deaths,Female,55 to 59,stroke,westmidlands,15.277850748618391,85102.7838721961
@@ -297,6 +330,7 @@ Deaths,Female,60 to 64,all causes,westmidlands,479.9153280825198,69795.302017781
 Deaths,Female,60 to 64,alzheimer's disease and other dementias,westmidlands,4.836615761927814,69795.30201778171
 Deaths,Female,60 to 64,bladder cancer,westmidlands,3.4650502130043312,69795.30201778165
 Deaths,Female,60 to 64,breast cancer,westmidlands,44.30112362715826,69795.30201778167
+Deaths,Female,60 to 64,cardiomyopathy and myocarditis,westmidlands,2.2147773859822144,69795.30201778172
 Deaths,Female,60 to 64,cardiovascular diseases,westmidlands,86.41430229797722,69795.30201778167
 Deaths,Female,60 to 64,chronic myeloid leukemia,westmidlands,0.24196188346383043,69795.30201778171
 Deaths,Female,60 to 64,chronic obstructive pulmonary disease,westmidlands,32.72606740158844,69795.30201778165
@@ -312,10 +346,12 @@ Deaths,Female,60 to 64,motor vehicle road injuries,westmidlands,0.60503206715154
 Deaths,Female,60 to 64,motorcyclist road injuries,westmidlands,0.034466490283511286,69795.30201778165
 Deaths,Female,60 to 64,multiple myeloma,westmidlands,4.166077031256107,69795.30201778168
 Deaths,Female,60 to 64,neoplasms,westmidlands,253.41199718163818,69795.30201778165
+Deaths,Female,60 to 64,non-rheumatic valvular heart disease,westmidlands,1.7545503386505372,69795.30201778165
 Deaths,Female,60 to 64,other road injuries,westmidlands,0.025397669755513087,69795.30201778171
 Deaths,Female,60 to 64,other transport injuries,westmidlands,0.0616873372352954,69795.30201778168
 Deaths,Female,60 to 64,parkinson's disease,westmidlands,1.6645988430036482,69795.30201778167
 Deaths,Female,60 to 64,pedestrian road injuries,westmidlands,0.5474934270291458,69795.30201778165
+Deaths,Female,60 to 64,rheumatic heart disease,westmidlands,1.2425309322964697,69795.30201778171
 Deaths,Female,60 to 64,road injuries,westmidlands,1.2539798014516206,69795.30201778164
 Deaths,Female,60 to 64,stomach cancer,westmidlands,6.6136003841500735,69795.30201778175
 Deaths,Female,60 to 64,stroke,westmidlands,21.040340071479843,69795.30201778167
@@ -325,6 +361,7 @@ Deaths,Female,65 to 69,all causes,westmidlands,665.7589931275231,62186.406863043
 Deaths,Female,65 to 69,alzheimer's disease and other dementias,westmidlands,10.559593128999344,62186.40686304316
 Deaths,Female,65 to 69,bladder cancer,westmidlands,5.5324039866318415,62186.40686304311
 Deaths,Female,65 to 69,breast cancer,westmidlands,50.72402643132756,62186.406863043165
+Deaths,Female,65 to 69,cardiomyopathy and myocarditis,westmidlands,2.459826137173281,62186.40686304317
 Deaths,Female,65 to 69,cardiovascular diseases,westmidlands,132.99729004980142,62186.40686304314
 Deaths,Female,65 to 69,chronic myeloid leukemia,westmidlands,0.32426421162061864,62186.40686304317
 Deaths,Female,65 to 69,chronic obstructive pulmonary disease,westmidlands,54.234451145395006,62186.40686304317
@@ -340,10 +377,12 @@ Deaths,Female,65 to 69,motor vehicle road injuries,westmidlands,0.70741113020251
 Deaths,Female,65 to 69,motorcyclist road injuries,westmidlands,0.03317927438837313,62186.40686304317
 Deaths,Female,65 to 69,multiple myeloma,westmidlands,6.449798630660108,62186.40686304316
 Deaths,Female,65 to 69,neoplasms,westmidlands,335.0159362295878,62186.40686304314
+Deaths,Female,65 to 69,non-rheumatic valvular heart disease,westmidlands,3.0254275525254495,62186.40686304318
 Deaths,Female,65 to 69,other road injuries,westmidlands,0.02051511887516028,62186.406863043165
 Deaths,Female,65 to 69,other transport injuries,westmidlands,0.0649948130032703,62186.406863043114
 Deaths,Female,65 to 69,parkinson's disease,westmidlands,3.9551506045220033,62186.40686304313
 Deaths,Female,65 to 69,pedestrian road injuries,westmidlands,0.688529144587436,62186.406863043136
+Deaths,Female,65 to 69,rheumatic heart disease,westmidlands,2.129906244075078,62186.40686304314
 Deaths,Female,65 to 69,road injuries,westmidlands,1.4865168184532709,62186.40686304319
 Deaths,Female,65 to 69,stomach cancer,westmidlands,8.724732755722545,62186.4068630432
 Deaths,Female,65 to 69,stroke,westmidlands,32.18484085422305,62186.40686304315
@@ -353,6 +392,7 @@ Deaths,Female,70 to 74,all causes,westmidlands,1045.6590743783433,60993.35915136
 Deaths,Female,70 to 74,alzheimer's disease and other dementias,westmidlands,25.330194162988665,60993.359151368706
 Deaths,Female,70 to 74,bladder cancer,westmidlands,8.983024428619558,60993.35915136866
 Deaths,Female,70 to 74,breast cancer,westmidlands,65.46414819970346,60993.35915136867
+Deaths,Female,70 to 74,cardiomyopathy and myocarditis,westmidlands,3.6822011684757707,60993.35915136869
 Deaths,Female,70 to 74,cardiovascular diseases,westmidlands,249.92339551267585,60993.3591513687
 Deaths,Female,70 to 74,chronic myeloid leukemia,westmidlands,0.4719117026391233,60993.35915136869
 Deaths,Female,70 to 74,chronic obstructive pulmonary disease,westmidlands,98.3460112386879,60993.35915136863
@@ -368,10 +408,12 @@ Deaths,Female,70 to 74,motor vehicle road injuries,westmidlands,0.86510539394779
 Deaths,Female,70 to 74,motorcyclist road injuries,westmidlands,0.018253841880301436,60993.359151368655
 Deaths,Female,70 to 74,multiple myeloma,westmidlands,9.82368264443107,60993.35915136871
 Deaths,Female,70 to 74,neoplasms,westmidlands,462.0464260739068,60993.35915136867
+Deaths,Female,70 to 74,non-rheumatic valvular heart disease,westmidlands,6.316187369930696,60993.35915136865
 Deaths,Female,70 to 74,other road injuries,westmidlands,0.012554526849212422,60993.35915136871
 Deaths,Female,70 to 74,other transport injuries,westmidlands,0.05593507852931046,60993.3591513687
 Deaths,Female,70 to 74,parkinson's disease,westmidlands,10.535385312779017,60993.35915136867
 Deaths,Female,70 to 74,pedestrian road injuries,westmidlands,0.9659538582489815,60993.359151368684
+Deaths,Female,70 to 74,rheumatic heart disease,westmidlands,3.6236733704696427,60993.35915136864
 Deaths,Female,70 to 74,road injuries,westmidlands,1.8893555798233754,60993.359151368626
 Deaths,Female,70 to 74,stomach cancer,westmidlands,14.295520180858308,60993.35915136863
 Deaths,Female,70 to 74,stroke,westmidlands,64.74631041036497,60993.35915136865
@@ -381,6 +423,7 @@ Deaths,Female,75 to 79,all causes,westmidlands,1362.0805947081988,47082.57184764
 Deaths,Female,75 to 79,alzheimer's disease and other dementias,westmidlands,51.00273457264865,47082.571847643085
 Deaths,Female,75 to 79,bladder cancer,westmidlands,12.88395492105038,47082.571847643136
 Deaths,Female,75 to 79,breast cancer,westmidlands,68.78654970307329,47082.57184764315
+Deaths,Female,75 to 79,cardiomyopathy and myocarditis,westmidlands,4.79618479390977,47082.571847643114
 Deaths,Female,75 to 79,cardiovascular diseases,westmidlands,373.80819278111244,47082.57184764313
 Deaths,Female,75 to 79,chronic myeloid leukemia,westmidlands,0.6258451113922111,47082.57184764314
 Deaths,Female,75 to 79,chronic obstructive pulmonary disease,westmidlands,127.69204499348847,47082.57184764315
@@ -396,10 +439,12 @@ Deaths,Female,75 to 79,motor vehicle road injuries,westmidlands,0.92616630091702
 Deaths,Female,75 to 79,motorcyclist road injuries,westmidlands,0.008702546215914564,47082.57184764315
 Deaths,Female,75 to 79,multiple myeloma,westmidlands,11.665971125520713,47082.57184764318
 Deaths,Female,75 to 79,neoplasms,westmidlands,497.8002161861103,47082.571847643136
+Deaths,Female,75 to 79,non-rheumatic valvular heart disease,westmidlands,10.545004039258655,47082.57184764313
 Deaths,Female,75 to 79,other road injuries,westmidlands,0.010471541422495002,47082.57184764317
 Deaths,Female,75 to 79,other transport injuries,westmidlands,0.06551775110184715,47082.571847643136
 Deaths,Female,75 to 79,parkinson's disease,westmidlands,19.556852775886544,47082.57184764315
 Deaths,Female,75 to 79,pedestrian road injuries,westmidlands,1.3304305459006434,47082.57184764309
+Deaths,Female,75 to 79,rheumatic heart disease,westmidlands,5.444441986036087,47082.57184764316
 Deaths,Female,75 to 79,road injuries,westmidlands,2.296533710928977,47082.57184764315
 Deaths,Female,75 to 79,stomach cancer,westmidlands,19.84159062045946,47082.57184764315
 Deaths,Female,75 to 79,stroke,westmidlands,110.80365977200675,47082.57184764309
@@ -409,6 +454,7 @@ Deaths,Female,80 to 84,all causes,westmidlands,2013.5073002737618,37099.23167616
 Deaths,Female,80 to 84,alzheimer's disease and other dementias,westmidlands,139.99477774073026,37099.23167616391
 Deaths,Female,80 to 84,bladder cancer,westmidlands,17.79104874541232,37099.23167616387
 Deaths,Female,80 to 84,breast cancer,westmidlands,81.55783122258003,37099.23167616387
+Deaths,Female,80 to 84,cardiomyopathy and myocarditis,westmidlands,8.453899859769065,37099.23167616388
 Deaths,Female,80 to 84,cardiovascular diseases,westmidlands,636.9889666045802,37099.23167616388
 Deaths,Female,80 to 84,chronic myeloid leukemia,westmidlands,0.8969227403424933,37099.23167616389
 Deaths,Female,80 to 84,chronic obstructive pulmonary disease,westmidlands,168.7283121633483,37099.23167616385
@@ -424,10 +470,12 @@ Deaths,Female,80 to 84,motor vehicle road injuries,westmidlands,0.94266092024051
 Deaths,Female,80 to 84,motorcyclist road injuries,westmidlands,0.00625660249652832,37099.23167616387
 Deaths,Female,80 to 84,multiple myeloma,westmidlands,13.222224386777633,37099.231676163894
 Deaths,Female,80 to 84,neoplasms,westmidlands,551.256117664702,37099.23167616387
+Deaths,Female,80 to 84,non-rheumatic valvular heart disease,westmidlands,20.18298447897167,37099.231676163894
 Deaths,Female,80 to 84,other road injuries,westmidlands,0.009396884192613515,37099.2316761639
 Deaths,Female,80 to 84,other transport injuries,westmidlands,0.043819974230386444,37099.231676163865
 Deaths,Female,80 to 84,parkinson's disease,westmidlands,30.592086932104717,37099.23167616387
 Deaths,Female,80 to 84,pedestrian road injuries,westmidlands,1.4479160678839644,37099.23167616387
+Deaths,Female,80 to 84,rheumatic heart disease,westmidlands,7.503702254562794,37099.23167616387
 Deaths,Female,80 to 84,road injuries,westmidlands,2.4216661628270715,37099.23167616386
 Deaths,Female,80 to 84,stomach cancer,westmidlands,26.830584428620732,37099.231676163836
 Deaths,Female,80 to 84,stroke,westmidlands,202.46077359399493,37099.23167616383
@@ -437,6 +485,7 @@ Deaths,Female,85 to 89,all causes,westmidlands,2386.736395340343,24052.679940402
 Deaths,Female,85 to 89,alzheimer's disease and other dementias,westmidlands,227.0202621446437,24052.679940402115
 Deaths,Female,85 to 89,bladder cancer,westmidlands,18.82190697194318,24052.679940402115
 Deaths,Female,85 to 89,breast cancer,westmidlands,82.71053144522297,24052.679940402104
+Deaths,Female,85 to 89,cardiomyopathy and myocarditis,westmidlands,12.241482460209,24052.6799404021
 Deaths,Female,85 to 89,cardiovascular diseases,westmidlands,820.5835392822502,24052.679940402122
 Deaths,Female,85 to 89,chronic myeloid leukemia,westmidlands,1.1014944125200354,24052.67994040209
 Deaths,Female,85 to 89,chronic obstructive pulmonary disease,westmidlands,171.41671090372597,24052.679940402086
@@ -452,10 +501,12 @@ Deaths,Female,85 to 89,motor vehicle road injuries,westmidlands,0.70174452241950
 Deaths,Female,85 to 89,motorcyclist road injuries,westmidlands,0.005197809882859292,24052.679940402104
 Deaths,Female,85 to 89,multiple myeloma,westmidlands,10.908759914252752,24052.679940402122
 Deaths,Female,85 to 89,neoplasms,westmidlands,501.56477669305303,24052.679940402115
+Deaths,Female,85 to 89,non-rheumatic valvular heart disease,westmidlands,28.22372944955187,24052.679940402097
 Deaths,Female,85 to 89,other road injuries,westmidlands,0.008818836692912255,24052.679940402126
 Deaths,Female,85 to 89,other transport injuries,westmidlands,0.03194430069319869,24052.679940402115
 Deaths,Female,85 to 89,parkinson's disease,westmidlands,29.73908566976258,24052.679940402108
 Deaths,Female,85 to 89,pedestrian road injuries,westmidlands,1.2981815879144372,24052.679940402104
+Deaths,Female,85 to 89,rheumatic heart disease,westmidlands,8.086504728046748,24052.679940402104
 Deaths,Female,85 to 89,road injuries,westmidlands,2.0261092450432594,24052.679940402108
 Deaths,Female,85 to 89,stomach cancer,westmidlands,26.904583575174776,24052.67994040211
 Deaths,Female,85 to 89,stroke,westmidlands,272.1017694857955,24052.67994040211
@@ -465,6 +516,7 @@ Deaths,Female,90 to 94,all causes,westmidlands,2077.5350732972834,11507.92236174
 Deaths,Female,90 to 94,alzheimer's disease and other dementias,westmidlands,231.1384103713155,11507.922361746027
 Deaths,Female,90 to 94,bladder cancer,westmidlands,13.85763488124747,11507.922361746025
 Deaths,Female,90 to 94,breast cancer,westmidlands,57.787853912845655,11507.922361746034
+Deaths,Female,90 to 94,cardiomyopathy and myocarditis,westmidlands,13.046339732267919,11507.922361746037
 Deaths,Female,90 to 94,cardiovascular diseases,westmidlands,768.9705858554767,11507.922361746023
 Deaths,Female,90 to 94,chronic myeloid leukemia,westmidlands,0.699924814764799,11507.922361746037
 Deaths,Female,90 to 94,chronic obstructive pulmonary disease,westmidlands,126.5660468895957,11507.922361746034
@@ -480,10 +532,12 @@ Deaths,Female,90 to 94,motor vehicle road injuries,westmidlands,0.34455547233977
 Deaths,Female,90 to 94,motorcyclist road injuries,westmidlands,0.011357769319071247,11507.92236174603
 Deaths,Female,90 to 94,multiple myeloma,westmidlands,5.628241175584188,11507.922361746023
 Deaths,Female,90 to 94,neoplasms,westmidlands,309.19109977889633,11507.92236174601
+Deaths,Female,90 to 94,non-rheumatic valvular heart disease,westmidlands,28.030027862562292,11507.922361746028
 Deaths,Female,90 to 94,other road injuries,westmidlands,0.00900136173564731,11507.922361746028
 Deaths,Female,90 to 94,other transport injuries,westmidlands,0.02803487985127308,11507.922361746028
 Deaths,Female,90 to 94,parkinson's disease,westmidlands,17.421207018405628,11507.922361746027
 Deaths,Female,90 to 94,pedestrian road injuries,westmidlands,0.694950847333545,11507.922361746028
+Deaths,Female,90 to 94,rheumatic heart disease,westmidlands,5.949086412472758,11507.922361746028
 Deaths,Female,90 to 94,road injuries,westmidlands,1.0724077258652742,11507.922361746027
 Deaths,Female,90 to 94,stomach cancer,westmidlands,17.153677565071703,11507.922361746036
 Deaths,Female,90 to 94,stroke,westmidlands,256.7923653759571,11507.922361746034
@@ -493,6 +547,7 @@ Deaths,Female,95 to 99,all causes,westmidlands,1134.4483403663658,3602.105808417
 Deaths,Female,95 to 99,alzheimer's disease and other dementias,westmidlands,132.3527911468624,3602.1058084170095
 Deaths,Female,95 to 99,bladder cancer,westmidlands,6.6548763923571626,3602.105808417009
 Deaths,Female,95 to 99,breast cancer,westmidlands,27.843686167476847,3602.1058084170063
+Deaths,Female,95 to 99,cardiomyopathy and myocarditis,westmidlands,8.295710872357677,3602.1058084170095
 Deaths,Female,95 to 99,cardiovascular diseases,westmidlands,432.0383666960745,3602.1058084170104
 Deaths,Female,95 to 99,chronic myeloid leukemia,westmidlands,0.29816842660544624,3602.105808417007
 Deaths,Female,95 to 99,chronic obstructive pulmonary disease,westmidlands,67.69879845429803,3602.1058084170118
@@ -508,16 +563,19 @@ Deaths,Female,95 to 99,motor vehicle road injuries,westmidlands,0.16110661939173
 Deaths,Female,95 to 99,motorcyclist road injuries,westmidlands,0.009821215101954496,3602.105808417013
 Deaths,Female,95 to 99,multiple myeloma,westmidlands,1.8289688719074613,3602.105808417011
 Deaths,Female,95 to 99,neoplasms,westmidlands,139.82588987758362,3602.105808417012
+Deaths,Female,95 to 99,non-rheumatic valvular heart disease,westmidlands,15.23549657702283,3602.1058084170104
 Deaths,Female,95 to 99,other road injuries,westmidlands,0.0057736454658819545,3602.1058084170077
 Deaths,Female,95 to 99,other transport injuries,westmidlands,0.023686986889759284,3602.10580841701
 Deaths,Female,95 to 99,parkinson's disease,westmidlands,5.952706037313334,3602.1058084170086
 Deaths,Female,95 to 99,pedestrian road injuries,westmidlands,0.31155686708149266,3602.105808417011
+Deaths,Female,95 to 99,rheumatic heart disease,westmidlands,2.9682983145276625,3602.1058084170127
 Deaths,Female,95 to 99,road injuries,westmidlands,0.4888211751170772,3602.1058084170136
 Deaths,Female,95 to 99,stomach cancer,westmidlands,7.982360131707964,3602.105808417008
 Deaths,Female,95 to 99,stroke,westmidlands,147.22089527983246,3602.1058084170154
 Deaths,Female,95 to 99,"tracheal, bronchus, and lung cancer",westmidlands,18.05193778501936,3602.1058084170077
 Deaths,Female,95 to 99,uterine cancer,westmidlands,2.6409522901783395,3602.1058084170127
 Deaths,Male,0 to 5,all causes,westmidlands,151.84003395310862,101108.8932271664
+Deaths,Male,0 to 5,cardiomyopathy and myocarditis,westmidlands,0.8964804630197706,101108.89322716635
 Deaths,Male,0 to 5,cardiovascular diseases,westmidlands,1.7117654122981674,101108.8932271664
 Deaths,Male,0 to 5,chronic myeloid leukemia,westmidlands,0.028125706116386838,101108.89322716638
 Deaths,Male,0 to 5,chronic obstructive pulmonary disease,westmidlands,0.029062270364850856,101108.89322716638
@@ -531,9 +589,11 @@ Deaths,Male,0 to 5,neoplasms,westmidlands,3.413342771114947,101108.89322716641
 Deaths,Male,0 to 5,other road injuries,westmidlands,0.018321816269118742,101108.89322716642
 Deaths,Male,0 to 5,other transport injuries,westmidlands,0.052963617926544825,101108.89322716647
 Deaths,Male,0 to 5,pedestrian road injuries,westmidlands,0.41878104376832376,101108.89322716642
+Deaths,Male,0 to 5,rheumatic heart disease,westmidlands,0.01338731330566653,101108.89322716642
 Deaths,Male,0 to 5,road injuries,westmidlands,0.7239357438994586,101108.89322716641
 Deaths,Male,0 to 5,stroke,westmidlands,0.21063142842178983,101108.8932271664
 Deaths,Male,10 to 14,all causes,westmidlands,14.787592142846323,101696.72352085542
+Deaths,Male,10 to 14,cardiomyopathy and myocarditis,westmidlands,0.2861009918877937,101696.72352085539
 Deaths,Male,10 to 14,cardiovascular diseases,westmidlands,0.6599643509193274,101696.72352085549
 Deaths,Male,10 to 14,chronic myeloid leukemia,westmidlands,0.0189258941281083,101696.72352085555
 Deaths,Male,10 to 14,chronic obstructive pulmonary disease,westmidlands,0.02254415248702387,101696.72352085554
@@ -548,12 +608,14 @@ Deaths,Male,10 to 14,neoplasms,westmidlands,3.550142620329058,101696.72352085556
 Deaths,Male,10 to 14,other road injuries,westmidlands,0.02671942141762516,101696.72352085562
 Deaths,Male,10 to 14,other transport injuries,westmidlands,0.11613784862800607,101696.72352085536
 Deaths,Male,10 to 14,pedestrian road injuries,westmidlands,0.8897792969181958,101696.72352085554
+Deaths,Male,10 to 14,rheumatic heart disease,westmidlands,0.013335641521820523,101696.72352085552
 Deaths,Male,10 to 14,road injuries,westmidlands,1.9441170072206346,101696.72352085545
 Deaths,Male,10 to 14,stroke,westmidlands,0.17369529746132517,101696.72352085545
 Deaths,Male,10 to 14,"tracheal, bronchus, and lung cancer",westmidlands,0.01347027681403768,101696.72352085546
 Deaths,Male,15 to 19,all causes,westmidlands,26.712260000051515,93605.22168564385
 Deaths,Male,15 to 19,bladder cancer,westmidlands,0.01033355360072422,93605.22168564395
 Deaths,Male,15 to 19,breast cancer,westmidlands,0.010308213106130915,93605.22168564393
+Deaths,Male,15 to 19,cardiomyopathy and myocarditis,westmidlands,0.5242657917021523,93605.22168564369
 Deaths,Male,15 to 19,cardiovascular diseases,westmidlands,1.2057487737080135,93605.22168564379
 Deaths,Male,15 to 19,chronic myeloid leukemia,westmidlands,0.014726470508051452,93605.22168564386
 Deaths,Male,15 to 19,chronic obstructive pulmonary disease,westmidlands,0.04907464193338944,93605.22168564388
@@ -567,9 +629,11 @@ Deaths,Male,15 to 19,lower respiratory infections,westmidlands,0.375551965789410
 Deaths,Male,15 to 19,motor vehicle road injuries,westmidlands,3.976522594469467,93605.22168564393
 Deaths,Male,15 to 19,motorcyclist road injuries,westmidlands,1.4214059341497263,93605.22168564396
 Deaths,Male,15 to 19,neoplasms,westmidlands,3.74183418524456,93605.22168564382
+Deaths,Male,15 to 19,non-rheumatic valvular heart disease,westmidlands,0.05182070110157949,93605.22168564379
 Deaths,Male,15 to 19,other road injuries,westmidlands,0.0508043321009192,93605.22168564383
 Deaths,Male,15 to 19,other transport injuries,westmidlands,0.24575840484225261,93605.22168564389
 Deaths,Male,15 to 19,pedestrian road injuries,westmidlands,1.0828391219750206,93605.22168564386
+Deaths,Male,15 to 19,rheumatic heart disease,westmidlands,0.012957261594160852,93605.22168564402
 Deaths,Male,15 to 19,road injuries,westmidlands,6.840978939725815,93605.22168564392
 Deaths,Male,15 to 19,stomach cancer,westmidlands,0.016020050144341266,93605.22168564395
 Deaths,Male,15 to 19,stroke,westmidlands,0.28273133960633706,93605.22168564399
@@ -577,6 +641,7 @@ Deaths,Male,15 to 19,"tracheal, bronchus, and lung cancer",westmidlands,0.019509
 Deaths,Male,20 to 24,all causes,westmidlands,50.35064822532223,101107.35910986381
 Deaths,Male,20 to 24,bladder cancer,westmidlands,0.012554916774796348,101107.35910986384
 Deaths,Male,20 to 24,breast cancer,westmidlands,0.011222719612411919,101107.35910986386
+Deaths,Male,20 to 24,cardiomyopathy and myocarditis,westmidlands,0.9373327727701312,101107.35910986396
 Deaths,Male,20 to 24,cardiovascular diseases,westmidlands,2.868036807226602,101107.35910986386
 Deaths,Male,20 to 24,chronic myeloid leukemia,westmidlands,0.03460136583098388,101107.359109864
 Deaths,Male,20 to 24,chronic obstructive pulmonary disease,westmidlands,0.08916580118098698,101107.35910986394
@@ -592,11 +657,13 @@ Deaths,Male,20 to 24,motor vehicle road injuries,westmidlands,6.642266500145551,
 Deaths,Male,20 to 24,motorcyclist road injuries,westmidlands,2.2071944152739222,101107.35910986392
 Deaths,Male,20 to 24,multiple myeloma,westmidlands,0.014360404203229166,101107.35910986393
 Deaths,Male,20 to 24,neoplasms,westmidlands,5.937305789972079,101107.35910986393
+Deaths,Male,20 to 24,non-rheumatic valvular heart disease,westmidlands,0.11096672224562674,101107.35910986383
 Deaths,Male,20 to 24,other road injuries,westmidlands,0.05502856279248461,101107.35910986381
 Deaths,Male,20 to 24,other transport injuries,westmidlands,0.48621071632266455,101107.3591098638
 Deaths,Male,20 to 24,parkinson's disease,westmidlands,0.0037621525881311566,101107.35910986386
 Deaths,Male,20 to 24,pedestrian road injuries,westmidlands,1.6481707430349237,101107.35910986381
 Deaths,Male,20 to 24,prostate cancer,westmidlands,0.03062828406225895,101107.35910986383
+Deaths,Male,20 to 24,rheumatic heart disease,westmidlands,0.03616477011404415,101107.35910986384
 Deaths,Male,20 to 24,road injuries,westmidlands,10.880248408316115,101107.359109864
 Deaths,Male,20 to 24,stomach cancer,westmidlands,0.055792408701097834,101107.35910986396
 Deaths,Male,20 to 24,stroke,westmidlands,0.7575906132230045,101107.35910986393
@@ -604,6 +671,7 @@ Deaths,Male,20 to 24,"tracheal, bronchus, and lung cancer",westmidlands,0.075053
 Deaths,Male,25 to 29,all causes,westmidlands,66.03979537205431,109434.00004948126
 Deaths,Male,25 to 29,bladder cancer,westmidlands,0.037467479465030484,109434.00004948127
 Deaths,Male,25 to 29,breast cancer,westmidlands,0.011813426169685106,109434.00004948126
+Deaths,Male,25 to 29,cardiomyopathy and myocarditis,westmidlands,1.402304843280636,109434.00004948123
 Deaths,Male,25 to 29,cardiovascular diseases,westmidlands,7.306353310253489,109434.00004948123
 Deaths,Male,25 to 29,chronic myeloid leukemia,westmidlands,0.08031562718611888,109434.00004948126
 Deaths,Male,25 to 29,chronic obstructive pulmonary disease,westmidlands,0.18662979135603983,109434.00004948114
@@ -619,11 +687,13 @@ Deaths,Male,25 to 29,motor vehicle road injuries,westmidlands,4.999348621779805,
 Deaths,Male,25 to 29,motorcyclist road injuries,westmidlands,1.9843897359143232,109434.00004948127
 Deaths,Male,25 to 29,multiple myeloma,westmidlands,0.03556792098827383,109434.00004948124
 Deaths,Male,25 to 29,neoplasms,westmidlands,8.663224086317856,109434.00004948124
+Deaths,Male,25 to 29,non-rheumatic valvular heart disease,westmidlands,0.20814013656683808,109434.00004948123
 Deaths,Male,25 to 29,other road injuries,westmidlands,0.04868669185236893,109434.0000494812
 Deaths,Male,25 to 29,other transport injuries,westmidlands,0.5363810587308973,109434.00004948127
 Deaths,Male,25 to 29,parkinson's disease,westmidlands,0.00166540296712042,109434.00004948126
 Deaths,Male,25 to 29,pedestrian road injuries,westmidlands,1.20459812999723,109434.00004948131
 Deaths,Male,25 to 29,prostate cancer,westmidlands,0.04953869929523196,109434.00004948126
+Deaths,Male,25 to 29,rheumatic heart disease,westmidlands,0.08076947045346913,109434.00004948127
 Deaths,Male,25 to 29,road injuries,westmidlands,8.513058408065639,109434.00004948131
 Deaths,Male,25 to 29,stomach cancer,westmidlands,0.19468200715071354,109434.00004948124
 Deaths,Male,25 to 29,stroke,westmidlands,1.7040037905412895,109434.0000494812
@@ -631,6 +701,7 @@ Deaths,Male,25 to 29,"tracheal, bronchus, and lung cancer",westmidlands,0.285158
 Deaths,Male,30 to 34,all causes,westmidlands,105.46232530110288,111696.271118265
 Deaths,Male,30 to 34,bladder cancer,westmidlands,0.1268244528464924,111696.27111826498
 Deaths,Male,30 to 34,breast cancer,westmidlands,0.013572348823527066,111696.27111826502
+Deaths,Male,30 to 34,cardiomyopathy and myocarditis,westmidlands,1.9038666565546496,111696.27111826513
 Deaths,Male,30 to 34,cardiovascular diseases,westmidlands,16.241228420797523,111696.27111826502
 Deaths,Male,30 to 34,chronic myeloid leukemia,westmidlands,0.12601803976797113,111696.27111826485
 Deaths,Male,30 to 34,chronic obstructive pulmonary disease,westmidlands,0.4374069036487938,111696.27111826504
@@ -646,11 +717,13 @@ Deaths,Male,30 to 34,motor vehicle road injuries,westmidlands,3.9363171970895676
 Deaths,Male,30 to 34,motorcyclist road injuries,westmidlands,1.8820639974337388,111696.27111826501
 Deaths,Male,30 to 34,multiple myeloma,westmidlands,0.13052613994835802,111696.27111826497
 Deaths,Male,30 to 34,neoplasms,westmidlands,16.24158838836679,111696.27111826497
+Deaths,Male,30 to 34,non-rheumatic valvular heart disease,westmidlands,0.34268001411969,111696.271118265
 Deaths,Male,30 to 34,other road injuries,westmidlands,0.03948140039663793,111696.27111826494
 Deaths,Male,30 to 34,other transport injuries,westmidlands,0.544278434805194,111696.27111826504
 Deaths,Male,30 to 34,parkinson's disease,westmidlands,0.0038517016624619103,111696.27111826497
 Deaths,Male,30 to 34,pedestrian road injuries,westmidlands,1.4625882396229017,111696.27111826488
 Deaths,Male,30 to 34,prostate cancer,westmidlands,0.07125634541948878,111696.27111826497
+Deaths,Male,30 to 34,rheumatic heart disease,westmidlands,0.1453698065714972,111696.27111826501
 Deaths,Male,30 to 34,road injuries,westmidlands,7.646743899434346,111696.27111826497
 Deaths,Male,30 to 34,stomach cancer,westmidlands,0.6875104649870316,111696.271118265
 Deaths,Male,30 to 34,stroke,westmidlands,3.3009549237376605,111696.27111826494
@@ -658,6 +731,7 @@ Deaths,Male,30 to 34,"tracheal, bronchus, and lung cancer",westmidlands,1.186940
 Deaths,Male,35 to 39,all causes,westmidlands,128.06380058167332,105351.75630325204
 Deaths,Male,35 to 39,bladder cancer,westmidlands,0.24165987657895588,105351.75630325192
 Deaths,Male,35 to 39,breast cancer,westmidlands,0.028464325460628753,105351.75630325208
+Deaths,Male,35 to 39,cardiomyopathy and myocarditis,westmidlands,2.254716838556594,105351.75630325191
 Deaths,Male,35 to 39,cardiovascular diseases,westmidlands,24.68402157916284,105351.75630325201
 Deaths,Male,35 to 39,chronic myeloid leukemia,westmidlands,0.13633244372297393,105351.75630325207
 Deaths,Male,35 to 39,chronic obstructive pulmonary disease,westmidlands,0.7888324763897523,105351.75630325206
@@ -673,11 +747,13 @@ Deaths,Male,35 to 39,motor vehicle road injuries,westmidlands,2.758998919296446,
 Deaths,Male,35 to 39,motorcyclist road injuries,westmidlands,1.5765536702764231,105351.75630325195
 Deaths,Male,35 to 39,multiple myeloma,westmidlands,0.2695704459609825,105351.75630325192
 Deaths,Male,35 to 39,neoplasms,westmidlands,22.628430768194185,105351.75630325201
+Deaths,Male,35 to 39,non-rheumatic valvular heart disease,westmidlands,0.42123175741893937,105351.75630325203
 Deaths,Male,35 to 39,other road injuries,westmidlands,0.02386107579335119,105351.75630325197
 Deaths,Male,35 to 39,other transport injuries,westmidlands,0.47932906052607516,105351.756303252
 Deaths,Male,35 to 39,parkinson's disease,westmidlands,0.008297745150600295,105351.75630325206
 Deaths,Male,35 to 39,pedestrian road injuries,westmidlands,1.2398514646451368,105351.75630325203
 Deaths,Male,35 to 39,prostate cancer,westmidlands,0.08626819561836385,105351.75630325206
+Deaths,Male,35 to 39,rheumatic heart disease,westmidlands,0.17853425932780803,105351.75630325213
 Deaths,Male,35 to 39,road injuries,westmidlands,5.863769468507442,105351.75630325203
 Deaths,Male,35 to 39,stomach cancer,westmidlands,1.1459265118864046,105351.75630325198
 Deaths,Male,35 to 39,stroke,westmidlands,4.521422957196375,105351.75630325198
@@ -686,6 +762,7 @@ Deaths,Male,40 to 44,all causes,westmidlands,176.3653147952928,89154.50322784147
 Deaths,Male,40 to 44,alzheimer's disease and other dementias,westmidlands,0.09063942265805516,89154.5032278415
 Deaths,Male,40 to 44,bladder cancer,westmidlands,0.5117069891480017,89154.50322784139
 Deaths,Male,40 to 44,breast cancer,westmidlands,0.056505178808838416,89154.50322784159
+Deaths,Male,40 to 44,cardiomyopathy and myocarditis,westmidlands,2.9509388116237254,89154.5032278415
 Deaths,Male,40 to 44,cardiovascular diseases,westmidlands,38.70426271181688,89154.50322784137
 Deaths,Male,40 to 44,chronic myeloid leukemia,westmidlands,0.1552964755350384,89154.50322784143
 Deaths,Male,40 to 44,chronic obstructive pulmonary disease,westmidlands,1.6760165508382143,89154.50322784147
@@ -701,11 +778,13 @@ Deaths,Male,40 to 44,motor vehicle road injuries,westmidlands,2.5890670848729096
 Deaths,Male,40 to 44,motorcyclist road injuries,westmidlands,1.671269343008715,89154.50322784133
 Deaths,Male,40 to 44,multiple myeloma,westmidlands,0.5411487229076457,89154.50322784146
 Deaths,Male,40 to 44,neoplasms,westmidlands,35.80207892786341,89154.50322784153
+Deaths,Male,40 to 44,non-rheumatic valvular heart disease,westmidlands,0.558786166922181,89154.50322784144
 Deaths,Male,40 to 44,other road injuries,westmidlands,0.018828337362601883,89154.50322784134
 Deaths,Male,40 to 44,other transport injuries,westmidlands,0.4431499319501377,89154.50322784147
 Deaths,Male,40 to 44,parkinson's disease,westmidlands,0.0848306179064118,89154.5032278414
 Deaths,Male,40 to 44,pedestrian road injuries,westmidlands,1.3911391514286917,89154.50322784146
 Deaths,Male,40 to 44,prostate cancer,westmidlands,0.18377201647805502,89154.50322784156
+Deaths,Male,40 to 44,rheumatic heart disease,westmidlands,0.2339231965948998,89154.50322784143
 Deaths,Male,40 to 44,road injuries,westmidlands,5.9762895692685465,89154.50322784146
 Deaths,Male,40 to 44,stomach cancer,westmidlands,1.9665159496981337,89154.50322784143
 Deaths,Male,40 to 44,stroke,westmidlands,6.616526933294613,89154.50322784149
@@ -714,6 +793,7 @@ Deaths,Male,45 to 49,all causes,westmidlands,278.9543948140959,94589.34021147362
 Deaths,Male,45 to 49,alzheimer's disease and other dementias,westmidlands,0.6018862620571824,94589.3402114738
 Deaths,Male,45 to 49,bladder cancer,westmidlands,1.1729065497615379,94589.34021147374
 Deaths,Male,45 to 49,breast cancer,westmidlands,0.09278463900820584,94589.34021147373
+Deaths,Male,45 to 49,cardiomyopathy and myocarditis,westmidlands,4.22906652074628,94589.34021147364
 Deaths,Male,45 to 49,cardiovascular diseases,westmidlands,68.8053297619908,94589.34021147364
 Deaths,Male,45 to 49,chronic myeloid leukemia,westmidlands,0.20290679475404022,94589.34021147374
 Deaths,Male,45 to 49,chronic obstructive pulmonary disease,westmidlands,4.028369371646221,94589.34021147371
@@ -729,16 +809,19 @@ Deaths,Male,45 to 49,motor vehicle road injuries,westmidlands,3.00054882180982,9
 Deaths,Male,45 to 49,motorcyclist road injuries,westmidlands,1.7648317705332088,94589.34021147373
 Deaths,Male,45 to 49,multiple myeloma,westmidlands,1.2360309626841184,94589.34021147374
 Deaths,Male,45 to 49,neoplasms,westmidlands,68.14617390345431,94589.34021147374
+Deaths,Male,45 to 49,non-rheumatic valvular heart disease,westmidlands,0.8737419693384858,94589.34021147371
 Deaths,Male,45 to 49,other road injuries,westmidlands,0.025394421861398134,94589.34021147368
 Deaths,Male,45 to 49,other transport injuries,westmidlands,0.48465823753359005,94589.34021147373
 Deaths,Male,45 to 49,parkinson's disease,westmidlands,0.295680632402496,94589.34021147371
 Deaths,Male,45 to 49,pedestrian road injuries,westmidlands,1.8753028385908197,94589.34021147374
 Deaths,Male,45 to 49,prostate cancer,westmidlands,0.8629631695391935,94589.34021147367
+Deaths,Male,45 to 49,rheumatic heart disease,westmidlands,0.4032244447981838,94589.34021147381
 Deaths,Male,45 to 49,road injuries,westmidlands,7.053374533099234,94589.3402114737
 Deaths,Male,45 to 49,stomach cancer,westmidlands,3.670691179564123,94589.34021147375
 Deaths,Male,45 to 49,stroke,westmidlands,10.875390124909996,94589.34021147371
 Deaths,Male,45 to 49,"tracheal, bronchus, and lung cancer",westmidlands,11.425705901283115,94589.34021147373
 Deaths,Male,5 to 9,all causes,westmidlands,11.58138127190822,103349.28996344871
+Deaths,Male,5 to 9,cardiomyopathy and myocarditis,westmidlands,0.1356343741231609,103349.28996344867
 Deaths,Male,5 to 9,cardiovascular diseases,westmidlands,0.35999089208637874,103349.28996344861
 Deaths,Male,5 to 9,chronic myeloid leukemia,westmidlands,0.015190947220574427,103349.28996344864
 Deaths,Male,5 to 9,chronic obstructive pulmonary disease,westmidlands,0.01946262696481385,103349.28996344862
@@ -753,12 +836,14 @@ Deaths,Male,5 to 9,neoplasms,westmidlands,3.4004825376989447,103349.2899634487
 Deaths,Male,5 to 9,other road injuries,westmidlands,0.013087026268955665,103349.28996344874
 Deaths,Male,5 to 9,other transport injuries,westmidlands,0.05812404610780156,103349.28996344861
 Deaths,Male,5 to 9,pedestrian road injuries,westmidlands,0.7229555644372712,103349.28996344852
+Deaths,Male,5 to 9,rheumatic heart disease,westmidlands,0.01181559266832404,103349.28996344848
 Deaths,Male,5 to 9,road injuries,westmidlands,1.2187743628617147,103349.28996344861
 Deaths,Male,5 to 9,stroke,westmidlands,0.08961197270409349,103349.28996344865
 Deaths,Male,50 to 54,all causes,westmidlands,403.0384296375517,93399.42451243408
 Deaths,Male,50 to 54,alzheimer's disease and other dementias,westmidlands,1.2603188462809818,93399.42451243411
 Deaths,Male,50 to 54,bladder cancer,westmidlands,2.7347113483389083,93399.42451243413
 Deaths,Male,50 to 54,breast cancer,westmidlands,0.15237800912865163,93399.4245124341
+Deaths,Male,50 to 54,cardiomyopathy and myocarditis,westmidlands,4.999393633015948,93399.42451243408
 Deaths,Male,50 to 54,cardiovascular diseases,westmidlands,115.34662083453154,93399.42451243408
 Deaths,Male,50 to 54,chronic myeloid leukemia,westmidlands,0.19414130531248494,93399.42451243402
 Deaths,Male,50 to 54,chronic obstructive pulmonary disease,westmidlands,11.284992099107084,93399.42451243418
@@ -774,11 +859,13 @@ Deaths,Male,50 to 54,motor vehicle road injuries,westmidlands,2.040079003631925,
 Deaths,Male,50 to 54,motorcyclist road injuries,westmidlands,1.0257056135524514,93399.42451243418
 Deaths,Male,50 to 54,multiple myeloma,westmidlands,2.605702956266977,93399.42451243402
 Deaths,Male,50 to 54,neoplasms,westmidlands,135.34873652099083,93399.42451243414
+Deaths,Male,50 to 54,non-rheumatic valvular heart disease,westmidlands,1.5188770656861468,93399.42451243415
 Deaths,Male,50 to 54,other road injuries,westmidlands,0.037046148080196274,93399.42451243408
 Deaths,Male,50 to 54,other transport injuries,westmidlands,0.4460939492955808,93399.42451243413
 Deaths,Male,50 to 54,parkinson's disease,westmidlands,0.6532409172066691,93399.42451243404
 Deaths,Male,50 to 54,pedestrian road injuries,westmidlands,1.4673806232101594,93399.42451243411
 Deaths,Male,50 to 54,prostate cancer,westmidlands,3.664370625918924,93399.4245124341
+Deaths,Male,50 to 54,rheumatic heart disease,westmidlands,0.5445313457164281,93399.4245124341
 Deaths,Male,50 to 54,road injuries,westmidlands,4.957957823822232,93399.42451243405
 Deaths,Male,50 to 54,stomach cancer,westmidlands,6.5241833864554115,93399.42451243408
 Deaths,Male,50 to 54,stroke,westmidlands,15.893042246770333,93399.42451243415
@@ -787,6 +874,7 @@ Deaths,Male,55 to 59,all causes,westmidlands,559.8535922886524,83132.86137105485
 Deaths,Male,55 to 59,alzheimer's disease and other dementias,westmidlands,2.3802833326618966,83132.86137105491
 Deaths,Male,55 to 59,bladder cancer,westmidlands,4.883284298439032,83132.86137105498
 Deaths,Male,55 to 59,breast cancer,westmidlands,0.2313728236334565,83132.86137105485
+Deaths,Male,55 to 59,cardiomyopathy and myocarditis,westmidlands,5.749101924781186,83132.86137105487
 Deaths,Male,55 to 59,cardiovascular diseases,westmidlands,163.46880607593727,83132.86137105491
 Deaths,Male,55 to 59,chronic myeloid leukemia,westmidlands,0.24134876182056786,83132.86137105491
 Deaths,Male,55 to 59,chronic obstructive pulmonary disease,westmidlands,20.944191378357047,83132.86137105487
@@ -802,11 +890,13 @@ Deaths,Male,55 to 59,motor vehicle road injuries,westmidlands,1.8204082329405542
 Deaths,Male,55 to 59,motorcyclist road injuries,westmidlands,0.7503873445689062,83132.86137105498
 Deaths,Male,55 to 59,multiple myeloma,westmidlands,4.10468057679561,83132.86137105488
 Deaths,Male,55 to 59,neoplasms,westmidlands,213.96634010626153,83132.86137105474
+Deaths,Male,55 to 59,non-rheumatic valvular heart disease,westmidlands,2.301380914265115,83132.86137105494
 Deaths,Male,55 to 59,other road injuries,westmidlands,0.03051023216641916,83132.86137105495
 Deaths,Male,55 to 59,other transport injuries,westmidlands,0.39741162162091426,83132.86137105487
 Deaths,Male,55 to 59,parkinson's disease,westmidlands,1.1868089961979913,83132.86137105494
 Deaths,Male,55 to 59,pedestrian road injuries,westmidlands,1.3728311593095814,83132.86137105487
 Deaths,Male,55 to 59,prostate cancer,westmidlands,8.610453662195155,83132.86137105485
+Deaths,Male,55 to 59,rheumatic heart disease,westmidlands,0.7673387849796666,83132.86137105488
 Deaths,Male,55 to 59,road injuries,westmidlands,4.378514581628157,83132.86137105493
 Deaths,Male,55 to 59,stomach cancer,westmidlands,9.883927079870602,83132.86137105487
 Deaths,Male,55 to 59,stroke,westmidlands,22.233409248583747,83132.8613710549
@@ -815,6 +905,7 @@ Deaths,Male,60 to 64,all causes,westmidlands,757.7604408145866,69556.24204605128
 Deaths,Male,60 to 64,alzheimer's disease and other dementias,westmidlands,4.392856607587115,69556.24204605127
 Deaths,Male,60 to 64,bladder cancer,westmidlands,8.942305355133314,69556.24204605121
 Deaths,Male,60 to 64,breast cancer,westmidlands,0.3129836927306771,69556.24204605125
+Deaths,Male,60 to 64,cardiomyopathy and myocarditis,westmidlands,5.9668366370886,69556.2420460512
 Deaths,Male,60 to 64,cardiovascular diseases,westmidlands,215.14510366728933,69556.24204605124
 Deaths,Male,60 to 64,chronic myeloid leukemia,westmidlands,0.32868756409834315,69556.24204605121
 Deaths,Male,60 to 64,chronic obstructive pulmonary disease,westmidlands,46.520699235548875,69556.24204605122
@@ -830,11 +921,13 @@ Deaths,Male,60 to 64,motor vehicle road injuries,westmidlands,1.4344994899072028
 Deaths,Male,60 to 64,motorcyclist road injuries,westmidlands,0.4126577909506739,69556.24204605118
 Deaths,Male,60 to 64,multiple myeloma,westmidlands,6.056318657780951,69556.24204605121
 Deaths,Male,60 to 64,neoplasms,westmidlands,327.6508982812009,69556.2420460512
+Deaths,Male,60 to 64,non-rheumatic valvular heart disease,westmidlands,3.246431675432589,69556.24204605121
 Deaths,Male,60 to 64,other road injuries,westmidlands,0.019894213343043237,69556.24204605128
 Deaths,Male,60 to 64,other transport injuries,westmidlands,0.36023141598950104,69556.24204605121
 Deaths,Male,60 to 64,parkinson's disease,westmidlands,3.016097415413603,69556.24204605125
 Deaths,Male,60 to 64,pedestrian road injuries,westmidlands,1.2700859970257479,69556.24204605121
 Deaths,Male,60 to 64,prostate cancer,westmidlands,21.564890364483524,69556.2420460512
+Deaths,Male,60 to 64,rheumatic heart disease,westmidlands,0.960371539732893,69556.24204605121
 Deaths,Male,60 to 64,road injuries,westmidlands,3.4221968085286703,69556.24204605125
 Deaths,Male,60 to 64,stomach cancer,westmidlands,13.898082946207797,69556.24204605121
 Deaths,Male,60 to 64,stroke,westmidlands,28.399442171195382,69556.24204605118
@@ -843,6 +936,7 @@ Deaths,Male,65 to 69,all causes,westmidlands,1004.0772175393644,59710.5391813172
 Deaths,Male,65 to 69,alzheimer's disease and other dementias,westmidlands,8.750577704013931,59710.53918131716
 Deaths,Male,65 to 69,bladder cancer,westmidlands,13.884599272154551,59710.53918131716
 Deaths,Male,65 to 69,breast cancer,westmidlands,0.3971766551205652,59710.53918131718
+Deaths,Male,65 to 69,cardiomyopathy and myocarditis,westmidlands,6.579056914193452,59710.53918131719
 Deaths,Male,65 to 69,cardiovascular diseases,westmidlands,282.1087146859404,59710.539181317195
 Deaths,Male,65 to 69,chronic myeloid leukemia,westmidlands,0.46758932808069537,59710.539181317225
 Deaths,Male,65 to 69,chronic obstructive pulmonary disease,westmidlands,75.21808202711411,59710.53918131723
@@ -858,11 +952,13 @@ Deaths,Male,65 to 69,motor vehicle road injuries,westmidlands,1.2634795948736408
 Deaths,Male,65 to 69,motorcyclist road injuries,westmidlands,0.25693800727110044,59710.53918131716
 Deaths,Male,65 to 69,multiple myeloma,westmidlands,8.614263071196563,59710.53918131721
 Deaths,Male,65 to 69,neoplasms,westmidlands,446.7547898309258,59710.539181317166
+Deaths,Male,65 to 69,non-rheumatic valvular heart disease,westmidlands,4.906479920643877,59710.53918131724
 Deaths,Male,65 to 69,other road injuries,westmidlands,0.014780830654083869,59710.53918131723
 Deaths,Male,65 to 69,other transport injuries,westmidlands,0.3068911334183276,59710.53918131714
 Deaths,Male,65 to 69,parkinson's disease,westmidlands,7.516038459623227,59710.53918131721
 Deaths,Male,65 to 69,pedestrian road injuries,westmidlands,1.2615327477700602,59710.53918131727
 Deaths,Male,65 to 69,prostate cancer,westmidlands,39.653558023409644,59710.53918131719
+Deaths,Male,65 to 69,rheumatic heart disease,westmidlands,1.3561171264909313,59710.539181317254
 Deaths,Male,65 to 69,road injuries,westmidlands,3.059529759675454,59710.53918131724
 Deaths,Male,65 to 69,stomach cancer,westmidlands,19.75120022576569,59710.53918131725
 Deaths,Male,65 to 69,stroke,westmidlands,41.925965693775126,59710.53918131718
@@ -871,6 +967,7 @@ Deaths,Male,70 to 74,all causes,westmidlands,1452.3288834745126,55646.8428744595
 Deaths,Male,70 to 74,alzheimer's disease and other dementias,westmidlands,20.148318910552664,55646.84287445954
 Deaths,Male,70 to 74,bladder cancer,westmidlands,23.259022102132306,55646.84287445961
 Deaths,Male,70 to 74,breast cancer,westmidlands,0.5610777195510593,55646.84287445953
+Deaths,Male,70 to 74,cardiomyopathy and myocarditis,westmidlands,7.459784499236771,55646.84287445957
 Deaths,Male,70 to 74,cardiovascular diseases,westmidlands,429.2517326771566,55646.84287445956
 Deaths,Male,70 to 74,chronic myeloid leukemia,westmidlands,0.6857458366189308,55646.842874459566
 Deaths,Male,70 to 74,chronic obstructive pulmonary disease,westmidlands,125.60115943229978,55646.84287445961
@@ -886,11 +983,13 @@ Deaths,Male,70 to 74,motor vehicle road injuries,westmidlands,1.3146980441746328
 Deaths,Male,70 to 74,motorcyclist road injuries,westmidlands,0.13090204321159998,55646.842874459544
 Deaths,Male,70 to 74,multiple myeloma,westmidlands,13.158680929333332,55646.84287445955
 Deaths,Male,70 to 74,neoplasms,westmidlands,608.7329911535954,55646.84287445962
+Deaths,Male,70 to 74,non-rheumatic valvular heart disease,westmidlands,8.834132247196447,55646.84287445955
 Deaths,Male,70 to 74,other road injuries,westmidlands,0.012216522636493641,55646.84287445959
 Deaths,Male,70 to 74,other transport injuries,westmidlands,0.2692799358701159,55646.84287445956
 Deaths,Male,70 to 74,parkinson's disease,westmidlands,20.707549773355343,55646.842874459566
 Deaths,Male,70 to 74,pedestrian road injuries,westmidlands,1.4907660400839964,55646.84287445953
 Deaths,Male,70 to 74,prostate cancer,westmidlands,68.50821177717933,55646.84287445953
+Deaths,Male,70 to 74,rheumatic heart disease,westmidlands,2.283772764000692,55646.84287445957
 Deaths,Male,70 to 74,road injuries,westmidlands,3.16703729923495,55646.84287445957
 Deaths,Male,70 to 74,stomach cancer,westmidlands,29.715571011970276,55646.84287445959
 Deaths,Male,70 to 74,stroke,westmidlands,78.12763618520991,55646.84287445962
@@ -899,6 +998,7 @@ Deaths,Male,75 to 79,all causes,westmidlands,1746.308408564568,40187.4768715133
 Deaths,Male,75 to 79,alzheimer's disease and other dementias,westmidlands,37.97515658793932,40187.4768715133
 Deaths,Male,75 to 79,bladder cancer,westmidlands,30.006199085848447,40187.47687151329
 Deaths,Male,75 to 79,breast cancer,westmidlands,0.5624418531448258,40187.47687151327
+Deaths,Male,75 to 79,cardiomyopathy and myocarditis,westmidlands,7.988560041320509,40187.476871513296
 Deaths,Male,75 to 79,cardiovascular diseases,westmidlands,531.0438022098626,40187.476871513274
 Deaths,Male,75 to 79,chronic myeloid leukemia,westmidlands,0.8359935784882877,40187.47687151328
 Deaths,Male,75 to 79,chronic obstructive pulmonary disease,westmidlands,162.10216277306787,40187.47687151331
@@ -914,11 +1014,13 @@ Deaths,Male,75 to 79,motor vehicle road injuries,westmidlands,1.3174308394696421
 Deaths,Male,75 to 79,motorcyclist road injuries,westmidlands,0.0732138140526835,40187.47687151332
 Deaths,Male,75 to 79,multiple myeloma,westmidlands,14.169915901205146,40187.4768715133
 Deaths,Male,75 to 79,neoplasms,westmidlands,659.6400066168821,40187.47687151328
+Deaths,Male,75 to 79,non-rheumatic valvular heart disease,westmidlands,12.658943659046567,40187.47687151328
 Deaths,Male,75 to 79,other road injuries,westmidlands,0.01090337738341019,40187.47687151327
 Deaths,Male,75 to 79,other transport injuries,westmidlands,0.2094786931692546,40187.47687151331
 Deaths,Male,75 to 79,parkinson's disease,westmidlands,38.97240373084847,40187.47687151333
 Deaths,Male,75 to 79,pedestrian road injuries,westmidlands,1.7372516813560699,40187.476871513274
 Deaths,Male,75 to 79,prostate cancer,westmidlands,105.57953227877302,40187.476871513296
+Deaths,Male,75 to 79,rheumatic heart disease,westmidlands,2.9820538651490547,40187.4768715133
 Deaths,Male,75 to 79,road injuries,westmidlands,3.310838956550681,40187.476871513296
 Deaths,Male,75 to 79,stomach cancer,westmidlands,34.44147089258787,40187.476871513325
 Deaths,Male,75 to 79,stroke,westmidlands,117.4257403189902,40187.476871513296
@@ -927,6 +1029,7 @@ Deaths,Male,80 to 84,all causes,westmidlands,2112.9093534243257,28320.6617024223
 Deaths,Male,80 to 84,alzheimer's disease and other dementias,westmidlands,93.5477511427137,28320.66170242237
 Deaths,Male,80 to 84,bladder cancer,westmidlands,37.74015777001647,28320.66170242236
 Deaths,Male,80 to 84,breast cancer,westmidlands,0.49822749608606137,28320.66170242238
+Deaths,Male,80 to 84,cardiomyopathy and myocarditis,westmidlands,9.420818012862366,28320.661702422367
 Deaths,Male,80 to 84,cardiovascular diseases,westmidlands,671.940195296863,28320.661702422367
 Deaths,Male,80 to 84,chronic myeloid leukemia,westmidlands,0.9309881092489178,28320.661702422403
 Deaths,Male,80 to 84,chronic obstructive pulmonary disease,westmidlands,195.15454009269,28320.661702422374
@@ -942,11 +1045,13 @@ Deaths,Male,80 to 84,motor vehicle road injuries,westmidlands,1.371641661542076,
 Deaths,Male,80 to 84,motorcyclist road injuries,westmidlands,0.04157674181756465,28320.6617024224
 Deaths,Male,80 to 84,multiple myeloma,westmidlands,14.523050193520156,28320.661702422374
 Deaths,Male,80 to 84,neoplasms,westmidlands,667.8611545184532,28320.66170242238
+Deaths,Male,80 to 84,non-rheumatic valvular heart disease,westmidlands,18.98598113996911,28320.661702422374
 Deaths,Male,80 to 84,other road injuries,westmidlands,0.008555118092262271,28320.661702422374
 Deaths,Male,80 to 84,other transport injuries,westmidlands,0.16036723517038168,28320.661702422367
 Deaths,Male,80 to 84,parkinson's disease,westmidlands,49.56585551661382,28320.661702422356
 Deaths,Male,80 to 84,pedestrian road injuries,westmidlands,1.7281505072100758,28320.66170242238
 Deaths,Male,80 to 84,prostate cancer,westmidlands,134.3650052905626,28320.6617024224
+Deaths,Male,80 to 84,rheumatic heart disease,westmidlands,3.5920261729433247,28320.661702422374
 Deaths,Male,80 to 84,road injuries,westmidlands,3.2661555413069365,28320.66170242237
 Deaths,Male,80 to 84,stomach cancer,westmidlands,37.306379910570165,28320.661702422367
 Deaths,Male,80 to 84,stroke,westmidlands,166.5635402539685,28320.661702422363
@@ -955,6 +1060,7 @@ Deaths,Male,85 to 89,all causes,westmidlands,2013.9777800311763,15314.0691576651
 Deaths,Male,85 to 89,alzheimer's disease and other dementias,westmidlands,126.0865277816381,15314.069157665186
 Deaths,Male,85 to 89,bladder cancer,westmidlands,35.32697502833405,15314.069157665188
 Deaths,Male,85 to 89,breast cancer,westmidlands,0.4993813328363193,15314.069157665197
+Deaths,Male,85 to 89,cardiomyopathy and myocarditis,westmidlands,10.165608502904346,15314.069157665197
 Deaths,Male,85 to 89,cardiovascular diseases,westmidlands,649.0855675570136,15314.069157665192
 Deaths,Male,85 to 89,chronic myeloid leukemia,westmidlands,0.9996648972765401,15314.06915766518
 Deaths,Male,85 to 89,chronic obstructive pulmonary disease,westmidlands,174.55619250555645,15314.069157665188
@@ -970,11 +1076,13 @@ Deaths,Male,85 to 89,motor vehicle road injuries,westmidlands,1.0815271465468883
 Deaths,Male,85 to 89,motorcyclist road injuries,westmidlands,0.021117027920442438,15314.069157665188
 Deaths,Male,85 to 89,multiple myeloma,westmidlands,11.075566476397093,15314.069157665186
 Deaths,Male,85 to 89,neoplasms,westmidlands,539.9909584855275,15314.069157665183
+Deaths,Male,85 to 89,non-rheumatic valvular heart disease,westmidlands,21.679838105459627,15314.06915766518
 Deaths,Male,85 to 89,other road injuries,westmidlands,0.004657367609812791,15314.069157665188
 Deaths,Male,85 to 89,other transport injuries,westmidlands,0.09117793406018887,15314.069157665186
 Deaths,Male,85 to 89,parkinson's disease,westmidlands,43.18697687084331,15314.06915766519
 Deaths,Male,85 to 89,pedestrian road injuries,westmidlands,1.3940749729055928,15314.069157665184
 Deaths,Male,85 to 89,prostate cancer,westmidlands,133.977948115332,15314.06915766519
+Deaths,Male,85 to 89,rheumatic heart disease,westmidlands,3.296474936392919,15314.069157665183
 Deaths,Male,85 to 89,road injuries,westmidlands,2.5672665289392045,15314.069157665193
 Deaths,Male,85 to 89,stomach cancer,westmidlands,29.263713801198953,15314.069157665183
 Deaths,Male,85 to 89,stroke,westmidlands,173.1063224393502,15314.06915766517
@@ -983,6 +1091,7 @@ Deaths,Male,90 to 94,all causes,westmidlands,1296.3380402927148,5769.04619381573
 Deaths,Male,90 to 94,alzheimer's disease and other dementias,westmidlands,99.89007391616504,5769.04619381573
 Deaths,Male,90 to 94,bladder cancer,westmidlands,20.877805868929052,5769.046193815728
 Deaths,Male,90 to 94,breast cancer,westmidlands,0.31895113180363344,5769.0461938157305
+Deaths,Male,90 to 94,cardiomyopathy and myocarditis,westmidlands,7.678378792148216,5769.046193815728
 Deaths,Male,90 to 94,cardiovascular diseases,westmidlands,436.24652216083496,5769.04619381573
 Deaths,Male,90 to 94,chronic myeloid leukemia,westmidlands,0.5069966663975454,5769.046193815726
 Deaths,Male,90 to 94,chronic obstructive pulmonary disease,westmidlands,103.94615437033806,5769.04619381573
@@ -998,11 +1107,13 @@ Deaths,Male,90 to 94,motor vehicle road injuries,westmidlands,0.5055317886148769
 Deaths,Male,90 to 94,motorcyclist road injuries,westmidlands,0.015454021652029179,5769.046193815731
 Deaths,Male,90 to 94,multiple myeloma,westmidlands,4.354721215350408,5769.0461938157305
 Deaths,Male,90 to 94,neoplasms,westmidlands,272.6880048392019,5769.046193815728
+Deaths,Male,90 to 94,non-rheumatic valvular heart disease,westmidlands,15.435749692682206,5769.04619381573
 Deaths,Male,90 to 94,other road injuries,westmidlands,0.0037377936437894724,5769.046193815731
 Deaths,Male,90 to 94,other transport injuries,westmidlands,0.04844790846874053,5769.046193815724
 Deaths,Male,90 to 94,parkinson's disease,westmidlands,21.226237160128807,5769.046193815731
 Deaths,Male,90 to 94,pedestrian road injuries,westmidlands,0.6991559171780516,5769.046193815727
 Deaths,Male,90 to 94,prostate cancer,westmidlands,80.2311904367199,5769.046193815726
+Deaths,Male,90 to 94,rheumatic heart disease,westmidlands,1.9654348119991323,5769.046193815727
 Deaths,Male,90 to 94,road injuries,westmidlands,1.2576304955173911,5769.046193815729
 Deaths,Male,90 to 94,stomach cancer,westmidlands,14.037088962327033,5769.0461938157305
 Deaths,Male,90 to 94,stroke,westmidlands,126.75511915454669,5769.046193815732
@@ -1011,6 +1122,7 @@ Deaths,Male,95 to 99,all causes,westmidlands,412.9568610319766,1157.477069126771
 Deaths,Male,95 to 99,alzheimer's disease and other dementias,westmidlands,36.154903225820874,1157.4770691267713
 Deaths,Male,95 to 99,bladder cancer,westmidlands,5.766040888208544,1157.4770691267724
 Deaths,Male,95 to 99,breast cancer,westmidlands,0.08771027441412922,1157.4770691267722
+Deaths,Male,95 to 99,cardiomyopathy and myocarditis,westmidlands,2.7406049885356545,1157.4770691267738
 Deaths,Male,95 to 99,cardiovascular diseases,westmidlands,142.81193720134965,1157.477069126772
 Deaths,Male,95 to 99,chronic myeloid leukemia,westmidlands,0.13023139709767234,1157.4770691267715
 Deaths,Male,95 to 99,chronic obstructive pulmonary disease,westmidlands,33.08380266704413,1157.4770691267722
@@ -1026,16 +1138,19 @@ Deaths,Male,95 to 99,motor vehicle road injuries,westmidlands,0.1446634158140363
 Deaths,Male,95 to 99,motorcyclist road injuries,westmidlands,0.007691591010377618,1157.4770691267724
 Deaths,Male,95 to 99,multiple myeloma,westmidlands,1.1607426909345908,1157.4770691267718
 Deaths,Male,95 to 99,neoplasms,westmidlands,71.91708676686805,1157.4770691267715
+Deaths,Male,95 to 99,non-rheumatic valvular heart disease,westmidlands,4.77254312049542,1157.477069126772
 Deaths,Male,95 to 99,other road injuries,westmidlands,0.0022186008285745283,1157.4770691267709
 Deaths,Male,95 to 99,other transport injuries,westmidlands,0.014620419485024582,1157.4770691267722
 Deaths,Male,95 to 99,parkinson's disease,westmidlands,4.0435200367683075,1157.4770691267718
 Deaths,Male,95 to 99,pedestrian road injuries,westmidlands,0.20856488873874557,1157.4770691267731
 Deaths,Male,95 to 99,prostate cancer,westmidlands,21.626352434456887,1157.4770691267718
+Deaths,Male,95 to 99,rheumatic heart disease,westmidlands,0.5833842478133521,1157.4770691267718
 Deaths,Male,95 to 99,road injuries,westmidlands,0.3641765494144019,1157.4770691267722
 Deaths,Male,95 to 99,stomach cancer,westmidlands,3.7752203968502718,1157.4770691267715
 Deaths,Male,95 to 99,stroke,westmidlands,42.91364853508634,1157.477069126772
 Deaths,Male,95 to 99,"tracheal, bronchus, and lung cancer",westmidlands,9.907769587890956,1157.4770691267722
 YLLs (Years of Life Lost),Female,0 to 5,all causes,westmidlands,10214.049502932792,95610.74027966657
+YLLs (Years of Life Lost),Female,0 to 5,cardiomyopathy and myocarditis,westmidlands,59.630734457781095,95610.74027966664
 YLLs (Years of Life Lost),Female,0 to 5,cardiovascular diseases,westmidlands,119.57175655927718,95610.7402796667
 YLLs (Years of Life Lost),Female,0 to 5,chronic myeloid leukemia,westmidlands,1.2383839504401855,95610.74027966664
 YLLs (Years of Life Lost),Female,0 to 5,chronic obstructive pulmonary disease,westmidlands,2.6481297866055673,95610.74027966663
@@ -1049,9 +1164,11 @@ YLLs (Years of Life Lost),Female,0 to 5,neoplasms,westmidlands,236.2852463910515
 YLLs (Years of Life Lost),Female,0 to 5,other road injuries,westmidlands,1.5871999092984348,95610.74027966666
 YLLs (Years of Life Lost),Female,0 to 5,other transport injuries,westmidlands,2.6857742002807656,95610.74027966661
 YLLs (Years of Life Lost),Female,0 to 5,pedestrian road injuries,westmidlands,20.07272453825626,95610.74027966663
+YLLs (Years of Life Lost),Female,0 to 5,rheumatic heart disease,westmidlands,1.2080969107371242,95610.7402796666
 YLLs (Years of Life Lost),Female,0 to 5,road injuries,westmidlands,43.12227260125562,95610.74027966657
 YLLs (Years of Life Lost),Female,0 to 5,stroke,westmidlands,13.40450082337914,95610.74027966648
 YLLs (Years of Life Lost),Female,10 to 14,all causes,westmidlands,589.5139502502612,96105.74012547522
+YLLs (Years of Life Lost),Female,10 to 14,cardiomyopathy and myocarditis,westmidlands,8.153988585700526,96105.7401254752
 YLLs (Years of Life Lost),Female,10 to 14,cardiovascular diseases,westmidlands,23.752341990238055,96105.74012547517
 YLLs (Years of Life Lost),Female,10 to 14,chronic myeloid leukemia,westmidlands,0.9911333464462067,96105.74012547515
 YLLs (Years of Life Lost),Female,10 to 14,chronic obstructive pulmonary disease,westmidlands,1.681658440598429,96105.74012547519
@@ -1066,12 +1183,14 @@ YLLs (Years of Life Lost),Female,10 to 14,neoplasms,westmidlands,175.64609015896
 YLLs (Years of Life Lost),Female,10 to 14,other road injuries,westmidlands,1.2958223347341824,96105.74012547515
 YLLs (Years of Life Lost),Female,10 to 14,other transport injuries,westmidlands,2.539718682738844,96105.7401254752
 YLLs (Years of Life Lost),Female,10 to 14,pedestrian road injuries,westmidlands,22.97598932373809,96105.74012547516
+YLLs (Years of Life Lost),Female,10 to 14,rheumatic heart disease,westmidlands,0.6664974779518213,96105.74012547522
 YLLs (Years of Life Lost),Female,10 to 14,road injuries,westmidlands,45.230011643115645,96105.74012547513
 YLLs (Years of Life Lost),Female,10 to 14,stroke,westmidlands,6.644688855460586,96105.74012547507
 YLLs (Years of Life Lost),Female,10 to 14,"tracheal, bronchus, and lung cancer",westmidlands,1.1597720231801305,96105.74012547516
 YLLs (Years of Life Lost),Female,15 to 19,all causes,westmidlands,1130.158868123508,89329.18678498744
 YLLs (Years of Life Lost),Female,15 to 19,bladder cancer,westmidlands,0.684050467995765,89329.18678498737
 YLLs (Years of Life Lost),Female,15 to 19,breast cancer,westmidlands,3.0993735863446514,89329.18678498745
+YLLs (Years of Life Lost),Female,15 to 19,cardiomyopathy and myocarditis,westmidlands,14.240647390322016,89329.18678498737
 YLLs (Years of Life Lost),Female,15 to 19,cardiovascular diseases,westmidlands,61.94512869285655,89329.18678498738
 YLLs (Years of Life Lost),Female,15 to 19,chronic myeloid leukemia,westmidlands,1.4456275968292172,89329.18678498734
 YLLs (Years of Life Lost),Female,15 to 19,chronic obstructive pulmonary disease,westmidlands,4.256365225614275,89329.18678498728
@@ -1085,9 +1204,11 @@ YLLs (Years of Life Lost),Female,15 to 19,lower respiratory infections,westmidla
 YLLs (Years of Life Lost),Female,15 to 19,motor vehicle road injuries,westmidlands,98.00605356295465,89329.18678498747
 YLLs (Years of Life Lost),Female,15 to 19,motorcyclist road injuries,westmidlands,9.299665396922505,89329.18678498737
 YLLs (Years of Life Lost),Female,15 to 19,neoplasms,westmidlands,231.63965471282995,89329.18678498741
+YLLs (Years of Life Lost),Female,15 to 19,non-rheumatic valvular heart disease,westmidlands,2.7275176077417234,89329.18678498744
 YLLs (Years of Life Lost),Female,15 to 19,other road injuries,westmidlands,3.221352893165806,89329.18678498744
 YLLs (Years of Life Lost),Female,15 to 19,other transport injuries,westmidlands,5.185161148281088,89329.18678498744
 YLLs (Years of Life Lost),Female,15 to 19,pedestrian road injuries,westmidlands,41.74950534934985,89329.18678498744
+YLLs (Years of Life Lost),Female,15 to 19,rheumatic heart disease,westmidlands,1.1229810948334598,89329.18678498741
 YLLs (Years of Life Lost),Female,15 to 19,road injuries,westmidlands,158.2949419735322,89329.1867849875
 YLLs (Years of Life Lost),Female,15 to 19,stomach cancer,westmidlands,1.048926479169128,89329.18678498731
 YLLs (Years of Life Lost),Female,15 to 19,stroke,westmidlands,18.61063984270062,89329.18678498745
@@ -1095,6 +1216,7 @@ YLLs (Years of Life Lost),Female,15 to 19,"tracheal, bronchus, and lung cancer",
 YLLs (Years of Life Lost),Female,20 to 24,all causes,westmidlands,1703.9152725222618,99803.71742893064
 YLLs (Years of Life Lost),Female,20 to 24,bladder cancer,westmidlands,0.7900808876352318,99803.71742893067
 YLLs (Years of Life Lost),Female,20 to 24,breast cancer,westmidlands,12.030420191136121,99803.71742893064
+YLLs (Years of Life Lost),Female,20 to 24,cardiomyopathy and myocarditis,westmidlands,21.63685899806216,99803.7174289305
 YLLs (Years of Life Lost),Female,20 to 24,cardiovascular diseases,westmidlands,124.27947129574339,99803.71742893054
 YLLs (Years of Life Lost),Female,20 to 24,chronic myeloid leukemia,westmidlands,2.154038896446643,99803.7174289306
 YLLs (Years of Life Lost),Female,20 to 24,chronic obstructive pulmonary disease,westmidlands,7.125845462590926,99803.71742893067
@@ -1110,10 +1232,12 @@ YLLs (Years of Life Lost),Female,20 to 24,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,20 to 24,motorcyclist road injuries,westmidlands,10.080970798762369,99803.71742893058
 YLLs (Years of Life Lost),Female,20 to 24,multiple myeloma,westmidlands,0.46575841905741167,99803.71742893064
 YLLs (Years of Life Lost),Female,20 to 24,neoplasms,westmidlands,352.1210019927961,99803.71742893057
+YLLs (Years of Life Lost),Female,20 to 24,non-rheumatic valvular heart disease,westmidlands,4.7374792753807515,99803.71742893055
 YLLs (Years of Life Lost),Female,20 to 24,other road injuries,westmidlands,3.8339022293504352,99803.71742893053
 YLLs (Years of Life Lost),Female,20 to 24,other transport injuries,westmidlands,6.198131173074221,99803.7174289306
 YLLs (Years of Life Lost),Female,20 to 24,parkinson's disease,westmidlands,0.10109953207996505,99803.71742893063
 YLLs (Years of Life Lost),Female,20 to 24,pedestrian road injuries,westmidlands,36.90212834068315,99803.71742893064
+YLLs (Years of Life Lost),Female,20 to 24,rheumatic heart disease,westmidlands,2.788975637273331,99803.71742893058
 YLLs (Years of Life Lost),Female,20 to 24,road injuries,westmidlands,157.69970697121335,99803.71742893057
 YLLs (Years of Life Lost),Female,20 to 24,stomach cancer,westmidlands,4.227650899785422,99803.71742893051
 YLLs (Years of Life Lost),Female,20 to 24,stroke,westmidlands,42.39704442403757,99803.71742893063
@@ -1122,6 +1246,7 @@ YLLs (Years of Life Lost),Female,20 to 24,uterine cancer,westmidlands,0.97350877
 YLLs (Years of Life Lost),Female,25 to 29,all causes,westmidlands,2016.7524791338562,109685.50737187511
 YLLs (Years of Life Lost),Female,25 to 29,bladder cancer,westmidlands,2.485649358996216,109685.5073718751
 YLLs (Years of Life Lost),Female,25 to 29,breast cancer,westmidlands,94.92630670717274,109685.50737187508
+YLLs (Years of Life Lost),Female,25 to 29,cardiomyopathy and myocarditis,westmidlands,27.273503105068226,109685.50737187518
 YLLs (Years of Life Lost),Female,25 to 29,cardiovascular diseases,westmidlands,202.11172275605398,109685.50737187505
 YLLs (Years of Life Lost),Female,25 to 29,chronic myeloid leukemia,westmidlands,2.884009864391354,109685.50737187505
 YLLs (Years of Life Lost),Female,25 to 29,chronic obstructive pulmonary disease,westmidlands,9.846734075673618,109685.50737187511
@@ -1137,10 +1262,12 @@ YLLs (Years of Life Lost),Female,25 to 29,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,25 to 29,motorcyclist road injuries,westmidlands,5.689424963786325,109685.50737187517
 YLLs (Years of Life Lost),Female,25 to 29,multiple myeloma,westmidlands,0.9150122283524176,109685.50737187518
 YLLs (Years of Life Lost),Female,25 to 29,neoplasms,westmidlands,575.4815555881639,109685.50737187511
+YLLs (Years of Life Lost),Female,25 to 29,non-rheumatic valvular heart disease,westmidlands,7.145950785909764,109685.50737187515
 YLLs (Years of Life Lost),Female,25 to 29,other road injuries,westmidlands,2.524638674241465,109685.50737187511
 YLLs (Years of Life Lost),Female,25 to 29,other transport injuries,westmidlands,5.1005161068928135,109685.50737187517
 YLLs (Years of Life Lost),Female,25 to 29,parkinson's disease,westmidlands,0.047415894945794984,109685.50737187504
 YLLs (Years of Life Lost),Female,25 to 29,pedestrian road injuries,westmidlands,19.83520507813026,109685.50737187506
+YLLs (Years of Life Lost),Female,25 to 29,rheumatic heart disease,westmidlands,4.110015481445083,109685.50737187511
 YLLs (Years of Life Lost),Female,25 to 29,road injuries,westmidlands,97.39781041339114,109685.50737187514
 YLLs (Years of Life Lost),Female,25 to 29,stomach cancer,westmidlands,13.195756790137699,109685.50737187512
 YLLs (Years of Life Lost),Female,25 to 29,stroke,westmidlands,74.8773966622717,109685.50737187508
@@ -1149,6 +1276,7 @@ YLLs (Years of Life Lost),Female,25 to 29,uterine cancer,westmidlands,3.39290539
 YLLs (Years of Life Lost),Female,30 to 34,all causes,westmidlands,2671.6095825982366,111593.38882352189
 YLLs (Years of Life Lost),Female,30 to 34,bladder cancer,westmidlands,7.098735968777964,111593.38882352183
 YLLs (Years of Life Lost),Female,30 to 34,breast cancer,westmidlands,280.8887494512418,111593.38882352186
+YLLs (Years of Life Lost),Female,30 to 34,cardiomyopathy and myocarditis,westmidlands,28.392932097444156,111593.38882352186
 YLLs (Years of Life Lost),Female,30 to 34,cardiovascular diseases,westmidlands,300.3429872229855,111593.38882352179
 YLLs (Years of Life Lost),Female,30 to 34,chronic myeloid leukemia,westmidlands,3.24803589738148,111593.38882352185
 YLLs (Years of Life Lost),Female,30 to 34,chronic obstructive pulmonary disease,westmidlands,14.621070023117676,111593.3888235218
@@ -1164,10 +1292,12 @@ YLLs (Years of Life Lost),Female,30 to 34,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,30 to 34,motorcyclist road injuries,westmidlands,4.025328847712265,111593.38882352189
 YLLs (Years of Life Lost),Female,30 to 34,multiple myeloma,westmidlands,2.761998799919308,111593.38882352188
 YLLs (Years of Life Lost),Female,30 to 34,neoplasms,westmidlands,951.9810948763156,111593.38882352186
+YLLs (Years of Life Lost),Female,30 to 34,non-rheumatic valvular heart disease,westmidlands,8.66825526720373,111593.38882352176
 YLLs (Years of Life Lost),Female,30 to 34,other road injuries,westmidlands,1.6971959464297488,111593.38882352185
 YLLs (Years of Life Lost),Female,30 to 34,other transport injuries,westmidlands,3.487002705975825,111593.38882352192
 YLLs (Years of Life Lost),Female,30 to 34,parkinson's disease,westmidlands,0.1159137765080473,111593.38882352183
 YLLs (Years of Life Lost),Female,30 to 34,pedestrian road injuries,westmidlands,14.752200297352655,111593.38882352185
+YLLs (Years of Life Lost),Female,30 to 34,rheumatic heart disease,westmidlands,5.1647406690793085,111593.38882352188
 YLLs (Years of Life Lost),Female,30 to 34,road injuries,westmidlands,66.62390274028192,111593.3888235218
 YLLs (Years of Life Lost),Female,30 to 34,stomach cancer,westmidlands,27.886371222369316,111593.3888235219
 YLLs (Years of Life Lost),Female,30 to 34,stroke,westmidlands,107.80769875900315,111593.38882352177
@@ -1176,6 +1306,7 @@ YLLs (Years of Life Lost),Female,30 to 34,uterine cancer,westmidlands,6.64956466
 YLLs (Years of Life Lost),Female,35 to 39,all causes,westmidlands,3907.899313454733,104841.64984599134
 YLLs (Years of Life Lost),Female,35 to 39,bladder cancer,westmidlands,12.802558915330538,104841.64984599134
 YLLs (Years of Life Lost),Female,35 to 39,breast cancer,westmidlands,525.3728353143332,104841.64984599131
+YLLs (Years of Life Lost),Female,35 to 39,cardiomyopathy and myocarditis,westmidlands,38.52551039667099,104841.6498459913
 YLLs (Years of Life Lost),Female,35 to 39,cardiovascular diseases,westmidlands,489.79719231408217,104841.64984599123
 YLLs (Years of Life Lost),Female,35 to 39,chronic myeloid leukemia,westmidlands,4.6705440493799255,104841.64984599125
 YLLs (Years of Life Lost),Female,35 to 39,chronic obstructive pulmonary disease,westmidlands,26.77496207353815,104841.64984599133
@@ -1191,10 +1322,12 @@ YLLs (Years of Life Lost),Female,35 to 39,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,35 to 39,motorcyclist road injuries,westmidlands,3.8527375246362046,104841.64984599121
 YLLs (Years of Life Lost),Female,35 to 39,multiple myeloma,westmidlands,7.205056628176086,104841.64984599128
 YLLs (Years of Life Lost),Female,35 to 39,neoplasms,westmidlands,1538.003164875259,104841.64984599136
+YLLs (Years of Life Lost),Female,35 to 39,non-rheumatic valvular heart disease,westmidlands,10.23383232991074,104841.64984599118
 YLLs (Years of Life Lost),Female,35 to 39,other road injuries,westmidlands,1.8111997406100342,104841.64984599131
 YLLs (Years of Life Lost),Female,35 to 39,other transport injuries,westmidlands,3.486734416009543,104841.64984599125
 YLLs (Years of Life Lost),Female,35 to 39,parkinson's disease,westmidlands,0.42326204276106866,104841.64984599137
 YLLs (Years of Life Lost),Female,35 to 39,pedestrian road injuries,westmidlands,16.686595104090063,104841.64984599125
+YLLs (Years of Life Lost),Female,35 to 39,rheumatic heart disease,westmidlands,7.9508717691538475,104841.64984599134
 YLLs (Years of Life Lost),Female,35 to 39,road injuries,westmidlands,63.25104745462523,104841.64984599128
 YLLs (Years of Life Lost),Female,35 to 39,stomach cancer,westmidlands,45.65990726047505,104841.64984599128
 YLLs (Years of Life Lost),Female,35 to 39,stroke,westmidlands,175.87591724726178,104841.64984599134
@@ -1204,6 +1337,7 @@ YLLs (Years of Life Lost),Female,40 to 44,all causes,westmidlands,4778.594322386
 YLLs (Years of Life Lost),Female,40 to 44,alzheimer's disease and other dementias,westmidlands,4.740738720661318,89308.17403401168
 YLLs (Years of Life Lost),Female,40 to 44,bladder cancer,westmidlands,20.718604359348824,89308.17403401172
 YLLs (Years of Life Lost),Female,40 to 44,breast cancer,westmidlands,708.3195358547755,89308.1740340116
+YLLs (Years of Life Lost),Female,40 to 44,cardiomyopathy and myocarditis,westmidlands,41.296930463000486,89308.1740340117
 YLLs (Years of Life Lost),Female,40 to 44,cardiovascular diseases,westmidlands,657.050422760343,89308.17403401167
 YLLs (Years of Life Lost),Female,40 to 44,chronic myeloid leukemia,westmidlands,4.28554889783605,89308.17403401161
 YLLs (Years of Life Lost),Female,40 to 44,chronic obstructive pulmonary disease,westmidlands,48.45904759191067,89308.17403401154
@@ -1219,10 +1353,12 @@ YLLs (Years of Life Lost),Female,40 to 44,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,40 to 44,motorcyclist road injuries,westmidlands,3.1683774215150646,89308.17403401156
 YLLs (Years of Life Lost),Female,40 to 44,multiple myeloma,westmidlands,13.06299742890967,89308.17403401168
 YLLs (Years of Life Lost),Female,40 to 44,neoplasms,westmidlands,2046.7918688322466,89308.17403401167
+YLLs (Years of Life Lost),Female,40 to 44,non-rheumatic valvular heart disease,westmidlands,12.595240795682672,89308.17403401177
 YLLs (Years of Life Lost),Female,40 to 44,other road injuries,westmidlands,1.4358708077852895,89308.17403401168
 YLLs (Years of Life Lost),Female,40 to 44,other transport injuries,westmidlands,2.956651052681714,89308.17403401156
 YLLs (Years of Life Lost),Female,40 to 44,parkinson's disease,westmidlands,2.42708846086484,89308.17403401164
 YLLs (Years of Life Lost),Female,40 to 44,pedestrian road injuries,westmidlands,16.961888431907127,89308.17403401162
+YLLs (Years of Life Lost),Female,40 to 44,rheumatic heart disease,westmidlands,12.647991751315205,89308.17403401172
 YLLs (Years of Life Lost),Female,40 to 44,road injuries,westmidlands,57.756829589841075,89308.17403401156
 YLLs (Years of Life Lost),Female,40 to 44,stomach cancer,westmidlands,63.855532650880875,89308.17403401161
 YLLs (Years of Life Lost),Female,40 to 44,stroke,westmidlands,223.11090330792018,89308.17403401171
@@ -1232,6 +1368,7 @@ YLLs (Years of Life Lost),Female,45 to 49,all causes,westmidlands,6905.895019059
 YLLs (Years of Life Lost),Female,45 to 49,alzheimer's disease and other dementias,westmidlands,27.410533567999376,94614.9713881507
 YLLs (Years of Life Lost),Female,45 to 49,bladder cancer,westmidlands,33.96355278882189,94614.97138815059
 YLLs (Years of Life Lost),Female,45 to 49,breast cancer,westmidlands,1020.9644582760433,94614.97138815066
+YLLs (Years of Life Lost),Female,45 to 49,cardiomyopathy and myocarditis,westmidlands,53.01137924736408,94614.97138815069
 YLLs (Years of Life Lost),Female,45 to 49,cardiovascular diseases,westmidlands,1000.9595759476681,94614.97138815068
 YLLs (Years of Life Lost),Female,45 to 49,chronic myeloid leukemia,westmidlands,5.648868849506936,94614.97138815057
 YLLs (Years of Life Lost),Female,45 to 49,chronic obstructive pulmonary disease,westmidlands,109.99628252090649,94614.9713881506
@@ -1247,16 +1384,19 @@ YLLs (Years of Life Lost),Female,45 to 49,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,45 to 49,motorcyclist road injuries,westmidlands,3.2362147788460063,94614.97138815062
 YLLs (Years of Life Lost),Female,45 to 49,multiple myeloma,westmidlands,27.822834895789843,94614.97138815069
 YLLs (Years of Life Lost),Female,45 to 49,neoplasms,westmidlands,3209.5736319043763,94614.97138815065
+YLLs (Years of Life Lost),Female,45 to 49,non-rheumatic valvular heart disease,westmidlands,17.82296722483542,94614.97138815056
 YLLs (Years of Life Lost),Female,45 to 49,other road injuries,westmidlands,1.843611239309345,94614.97138815065
 YLLs (Years of Life Lost),Female,45 to 49,other transport injuries,westmidlands,2.977814551653032,94614.9713881506
 YLLs (Years of Life Lost),Female,45 to 49,parkinson's disease,westmidlands,7.247198718192313,94614.97138815053
 YLLs (Years of Life Lost),Female,45 to 49,pedestrian road injuries,westmidlands,19.10060838236547,94614.97138815069
+YLLs (Years of Life Lost),Female,45 to 49,rheumatic heart disease,westmidlands,18.082076428008044,94614.97138815057
 YLLs (Years of Life Lost),Female,45 to 49,road injuries,westmidlands,62.263297697672975,94614.97138815065
 YLLs (Years of Life Lost),Female,45 to 49,stomach cancer,westmidlands,91.39301208541653,94614.97138815069
 YLLs (Years of Life Lost),Female,45 to 49,stroke,westmidlands,320.5533410334581,94614.9713881507
 YLLs (Years of Life Lost),Female,45 to 49,"tracheal, bronchus, and lung cancer",westmidlands,376.4665678816408,94614.9713881506
 YLLs (Years of Life Lost),Female,45 to 49,uterine cancer,westmidlands,45.58767456772452,94614.97138815072
 YLLs (Years of Life Lost),Female,5 to 9,all causes,westmidlands,672.6118290492603,98130.88988955648
+YLLs (Years of Life Lost),Female,5 to 9,cardiomyopathy and myocarditis,westmidlands,8.979416628435692,98130.88988955648
 YLLs (Years of Life Lost),Female,5 to 9,cardiovascular diseases,westmidlands,25.64462348796582,98130.88988955645
 YLLs (Years of Life Lost),Female,5 to 9,chronic myeloid leukemia,westmidlands,0.964589885007265,98130.88988955652
 YLLs (Years of Life Lost),Female,5 to 9,chronic obstructive pulmonary disease,westmidlands,2.08417838466534,98130.8898895565
@@ -1271,12 +1411,14 @@ YLLs (Years of Life Lost),Female,5 to 9,neoplasms,westmidlands,203.1015079389765
 YLLs (Years of Life Lost),Female,5 to 9,other road injuries,westmidlands,0.9864143197823001,98130.88988955636
 YLLs (Years of Life Lost),Female,5 to 9,other transport injuries,westmidlands,2.225766751049078,98130.88988955646
 YLLs (Years of Life Lost),Female,5 to 9,pedestrian road injuries,westmidlands,24.978944591948473,98130.88988955646
+YLLs (Years of Life Lost),Female,5 to 9,rheumatic heart disease,westmidlands,0.7848619163592193,98130.8898895565
 YLLs (Years of Life Lost),Female,5 to 9,road injuries,westmidlands,44.81462699448274,98130.88988955654
 YLLs (Years of Life Lost),Female,5 to 9,stroke,westmidlands,6.277201683506863,98130.8898895565
 YLLs (Years of Life Lost),Female,50 to 54,all causes,westmidlands,9595.899818713093,95989.69395485621
 YLLs (Years of Life Lost),Female,50 to 54,alzheimer's disease and other dementias,westmidlands,50.587129607021716,95989.69395485622
 YLLs (Years of Life Lost),Female,50 to 54,bladder cancer,westmidlands,53.70881605066016,95989.69395485624
 YLLs (Years of Life Lost),Female,50 to 54,breast cancer,westmidlands,1300.9163952829444,95989.69395485624
+YLLs (Years of Life Lost),Female,50 to 54,cardiomyopathy and myocarditis,westmidlands,54.98924978880378,95989.69395485621
 YLLs (Years of Life Lost),Female,50 to 54,cardiovascular diseases,westmidlands,1493.0365464290478,95989.69395485627
 YLLs (Years of Life Lost),Female,50 to 54,chronic myeloid leukemia,westmidlands,5.246245854747641,95989.69395485627
 YLLs (Years of Life Lost),Female,50 to 54,chronic obstructive pulmonary disease,westmidlands,311.09135827028473,95989.6939548563
@@ -1292,10 +1434,12 @@ YLLs (Years of Life Lost),Female,50 to 54,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,50 to 54,motorcyclist road injuries,westmidlands,2.4359707894887106,95989.69395485616
 YLLs (Years of Life Lost),Female,50 to 54,multiple myeloma,westmidlands,57.73928097163498,95989.69395485637
 YLLs (Years of Life Lost),Female,50 to 54,neoplasms,westmidlands,4964.903405927325,95989.69395485628
+YLLs (Years of Life Lost),Female,50 to 54,non-rheumatic valvular heart disease,westmidlands,25.78744274494919,95989.69395485627
 YLLs (Years of Life Lost),Female,50 to 54,other road injuries,westmidlands,1.6428423131800516,95989.69395485624
 YLLs (Years of Life Lost),Female,50 to 54,other transport injuries,westmidlands,2.6113126722017626,95989.6939548563
 YLLs (Years of Life Lost),Female,50 to 54,parkinson's disease,westmidlands,15.372443359233275,95989.6939548563
 YLLs (Years of Life Lost),Female,50 to 54,pedestrian road injuries,westmidlands,16.809514180420468,95989.6939548562
+YLLs (Years of Life Lost),Female,50 to 54,rheumatic heart disease,westmidlands,25.621745331638486,95989.69395485625
 YLLs (Years of Life Lost),Female,50 to 54,road injuries,westmidlands,51.740494429647804,95989.69395485624
 YLLs (Years of Life Lost),Female,50 to 54,stomach cancer,westmidlands,126.56872274627226,95989.69395485621
 YLLs (Years of Life Lost),Female,50 to 54,stroke,westmidlands,442.40541056542065,95989.6939548563
@@ -1305,6 +1449,7 @@ YLLs (Years of Life Lost),Female,55 to 59,all causes,westmidlands,11767.74109299
 YLLs (Years of Life Lost),Female,55 to 59,alzheimer's disease and other dementias,westmidlands,82.57337940586488,85102.78387219612
 YLLs (Years of Life Lost),Female,55 to 59,bladder cancer,westmidlands,73.82410487584364,85102.78387219613
 YLLs (Years of Life Lost),Female,55 to 59,breast cancer,westmidlands,1468.6360413469347,85102.783872196
+YLLs (Years of Life Lost),Female,55 to 59,cardiomyopathy and myocarditis,westmidlands,60.929377273544,85102.78387219612
 YLLs (Years of Life Lost),Female,55 to 59,cardiovascular diseases,westmidlands,1851.232346602595,85102.78387219604
 YLLs (Years of Life Lost),Female,55 to 59,chronic myeloid leukemia,westmidlands,6.1280182414091025,85102.78387219609
 YLLs (Years of Life Lost),Female,55 to 59,chronic obstructive pulmonary disease,westmidlands,515.8823220517264,85102.78387219603
@@ -1320,10 +1465,12 @@ YLLs (Years of Life Lost),Female,55 to 59,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,55 to 59,motorcyclist road injuries,westmidlands,1.9227810074731992,85102.78387219603
 YLLs (Years of Life Lost),Female,55 to 59,multiple myeloma,westmidlands,81.1151809146661,85102.78387219612
 YLLs (Years of Life Lost),Female,55 to 59,neoplasms,westmidlands,6321.952184464594,85102.78387219609
+YLLs (Years of Life Lost),Female,55 to 59,non-rheumatic valvular heart disease,westmidlands,32.462819278642854,85102.78387219613
 YLLs (Years of Life Lost),Female,55 to 59,other road injuries,westmidlands,1.4893341563817248,85102.78387219615
 YLLs (Years of Life Lost),Female,55 to 59,other transport injuries,westmidlands,2.2397711958168482,85102.78387219601
 YLLs (Years of Life Lost),Female,55 to 59,parkinson's disease,westmidlands,25.01839616517868,85102.78387219609
 YLLs (Years of Life Lost),Female,55 to 59,pedestrian road injuries,westmidlands,15.154161344016606,85102.78387219604
+YLLs (Years of Life Lost),Female,55 to 59,rheumatic heart disease,westmidlands,29.71990647067972,85102.78387219607
 YLLs (Years of Life Lost),Female,55 to 59,road injuries,westmidlands,43.39518832953245,85102.78387219601
 YLLs (Years of Life Lost),Female,55 to 59,stomach cancer,westmidlands,159.11732411077762,85102.78387219601
 YLLs (Years of Life Lost),Female,55 to 59,stroke,westmidlands,495.14917744733634,85102.78387219604
@@ -1333,6 +1480,7 @@ YLLs (Years of Life Lost),Female,60 to 64,all causes,westmidlands,13348.97572535
 YLLs (Years of Life Lost),Female,60 to 64,alzheimer's disease and other dementias,westmidlands,134.5288207392194,69795.30201778168
 YLLs (Years of Life Lost),Female,60 to 64,bladder cancer,westmidlands,96.38054493477196,69795.30201778168
 YLLs (Years of Life Lost),Female,60 to 64,breast cancer,westmidlands,1232.237055211676,69795.3020177817
+YLLs (Years of Life Lost),Female,60 to 64,cardiomyopathy and myocarditis,westmidlands,61.60482868231638,69795.30201778164
 YLLs (Years of Life Lost),Female,60 to 64,cardiovascular diseases,westmidlands,2403.6602256138103,69795.30201778168
 YLLs (Years of Life Lost),Female,60 to 64,chronic myeloid leukemia,westmidlands,6.730264867505621,69795.30201778164
 YLLs (Years of Life Lost),Female,60 to 64,chronic obstructive pulmonary disease,westmidlands,910.2846409469023,69795.30201778167
@@ -1348,10 +1496,12 @@ YLLs (Years of Life Lost),Female,60 to 64,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,60 to 64,motorcyclist road injuries,westmidlands,0.9586656077768316,69795.30201778162
 YLLs (Years of Life Lost),Female,60 to 64,multiple myeloma,westmidlands,115.88014887092154,69795.30201778171
 YLLs (Years of Life Lost),Female,60 to 64,neoplasms,westmidlands,7048.69547455463,69795.30201778167
+YLLs (Years of Life Lost),Female,60 to 64,non-rheumatic valvular heart disease,westmidlands,48.80377924918714,69795.3020177817
 YLLs (Years of Life Lost),Female,60 to 64,other road injuries,westmidlands,0.7064080925155937,69795.3020177817
 YLLs (Years of Life Lost),Female,60 to 64,other transport injuries,westmidlands,1.7158169323858072,69795.30201778171
 YLLs (Years of Life Lost),Female,60 to 64,parkinson's disease,westmidlands,46.3006117591749,69795.30201778164
 YLLs (Years of Life Lost),Female,60 to 64,pedestrian road injuries,westmidlands,15.22869719363614,69795.30201778165
+YLLs (Years of Life Lost),Female,60 to 64,rheumatic heart disease,westmidlands,34.56167603057339,69795.30201778167
 YLLs (Years of Life Lost),Female,60 to 64,road injuries,westmidlands,34.87942487933985,69795.30201778171
 YLLs (Years of Life Lost),Female,60 to 64,stomach cancer,westmidlands,183.96067858756368,69795.30201778167
 YLLs (Years of Life Lost),Female,60 to 64,stroke,westmidlands,585.2478087185362,69795.30201778165
@@ -1361,6 +1511,7 @@ YLLs (Years of Life Lost),Female,65 to 69,all causes,westmidlands,15539.75954508
 YLLs (Years of Life Lost),Female,65 to 69,alzheimer's disease and other dementias,westmidlands,246.4734192828396,62186.4068630432
 YLLs (Years of Life Lost),Female,65 to 69,bladder cancer,westmidlands,129.13298665776247,62186.40686304318
 YLLs (Years of Life Lost),Female,65 to 69,breast cancer,westmidlands,1183.9385648400491,62186.40686304319
+YLLs (Years of Life Lost),Female,65 to 69,cardiomyopathy and myocarditis,westmidlands,57.41409464667502,62186.40686304312
 YLLs (Years of Life Lost),Female,65 to 69,cardiovascular diseases,westmidlands,3104.4129975675723,62186.40686304314
 YLLs (Years of Life Lost),Female,65 to 69,chronic myeloid leukemia,westmidlands,7.568641476052765,62186.406863043165
 YLLs (Years of Life Lost),Female,65 to 69,chronic obstructive pulmonary disease,westmidlands,1265.9171464086776,62186.40686304313
@@ -1376,10 +1527,12 @@ YLLs (Years of Life Lost),Female,65 to 69,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,65 to 69,motorcyclist road injuries,westmidlands,0.7744288750935204,62186.40686304314
 YLLs (Years of Life Lost),Female,65 to 69,multiple myeloma,westmidlands,150.547138644257,62186.406863043194
 YLLs (Years of Life Lost),Female,65 to 69,neoplasms,westmidlands,7819.653458221364,62186.406863043136
+YLLs (Years of Life Lost),Female,65 to 69,non-rheumatic valvular heart disease,westmidlands,70.6166027850058,62186.40686304317
 YLLs (Years of Life Lost),Female,65 to 69,other road injuries,westmidlands,0.4788021786934359,62186.40686304315
 YLLs (Years of Life Lost),Female,65 to 69,other transport injuries,westmidlands,1.517038238361168,62186.406863043136
 YLLs (Years of Life Lost),Female,65 to 69,parkinson's disease,westmidlands,92.31624753560205,62186.40686304314
 YLLs (Years of Life Lost),Female,65 to 69,pedestrian road injuries,westmidlands,16.071421502224734,62186.406863043165
+YLLs (Years of Life Lost),Female,65 to 69,rheumatic heart disease,westmidlands,49.71542720825608,62186.40686304318
 YLLs (Years of Life Lost),Female,65 to 69,road injuries,westmidlands,34.69688584011238,62186.406863043165
 YLLs (Years of Life Lost),Female,65 to 69,stomach cancer,westmidlands,203.64277837607548,62186.406863043194
 YLLs (Years of Life Lost),Female,65 to 69,stroke,westmidlands,751.2442680563187,62186.40686304312
@@ -1389,6 +1542,7 @@ YLLs (Years of Life Lost),Female,70 to 74,all causes,westmidlands,19934.16124888
 YLLs (Years of Life Lost),Female,70 to 74,alzheimer's disease and other dementias,westmidlands,482.88661505171706,60993.359151368684
 YLLs (Years of Life Lost),Female,70 to 74,bladder cancer,westmidlands,171.248237209718,60993.3591513687
 YLLs (Years of Life Lost),Female,70 to 74,breast cancer,westmidlands,1247.980430306837,60993.359151368626
+YLLs (Years of Life Lost),Female,70 to 74,cardiomyopathy and myocarditis,westmidlands,70.19558509402697,60993.3591513687
 YLLs (Years of Life Lost),Female,70 to 74,cardiovascular diseases,westmidlands,4764.497129859554,60993.35915136865
 YLLs (Years of Life Lost),Female,70 to 74,chronic myeloid leukemia,westmidlands,8.996184673204288,60993.35915136873
 YLLs (Years of Life Lost),Female,70 to 74,chronic obstructive pulmonary disease,westmidlands,1874.8744163052115,60993.359151368655
@@ -1404,10 +1558,12 @@ YLLs (Years of Life Lost),Female,70 to 74,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,70 to 74,motorcyclist road injuries,westmidlands,0.3479762087964987,60993.35915136867
 YLLs (Years of Life Lost),Female,70 to 74,multiple myeloma,westmidlands,187.27684544887848,60993.359151368684
 YLLs (Years of Life Lost),Female,70 to 74,neoplasms,westmidlands,8808.264391108636,60993.359151368626
+YLLs (Years of Life Lost),Female,70 to 74,non-rheumatic valvular heart disease,westmidlands,120.40870529093749,60993.35915136865
 YLLs (Years of Life Lost),Female,70 to 74,other road injuries,westmidlands,0.23931403377371632,60993.35915136867
 YLLs (Years of Life Lost),Female,70 to 74,other transport injuries,westmidlands,1.0663146447087253,60993.359151368655
 YLLs (Years of Life Lost),Female,70 to 74,parkinson's disease,westmidlands,200.83911299278356,60993.35915136867
 YLLs (Years of Life Lost),Female,70 to 74,pedestrian road injuries,westmidlands,18.414826402444724,60993.35915136861
+YLLs (Years of Life Lost),Female,70 to 74,rheumatic heart disease,westmidlands,69.0810432799043,60993.35915136868
 YLLs (Years of Life Lost),Female,70 to 74,road injuries,westmidlands,36.01781044595851,60993.35915136869
 YLLs (Years of Life Lost),Female,70 to 74,stomach cancer,westmidlands,272.52342566202503,60993.35915136866
 YLLs (Years of Life Lost),Female,70 to 74,stroke,westmidlands,1234.3044931840109,60993.35915136869
@@ -1417,6 +1573,7 @@ YLLs (Years of Life Lost),Female,75 to 79,all causes,westmidlands,20474.19869336
 YLLs (Years of Life Lost),Female,75 to 79,alzheimer's disease and other dementias,westmidlands,766.6177095567184,47082.57184764309
 YLLs (Years of Life Lost),Female,75 to 79,bladder cancer,westmidlands,193.6623892218353,47082.571847643136
 YLLs (Years of Life Lost),Female,75 to 79,breast cancer,westmidlands,1033.9379467220017,47082.57184764312
+YLLs (Years of Life Lost),Female,75 to 79,cardiomyopathy and myocarditis,westmidlands,72.10189879350517,47082.57184764309
 YLLs (Years of Life Lost),Female,75 to 79,cardiovascular diseases,westmidlands,5618.994366534761,47082.57184764313
 YLLs (Years of Life Lost),Female,75 to 79,chronic myeloid leukemia,westmidlands,9.406866341864458,47082.57184764312
 YLLs (Years of Life Lost),Female,75 to 79,chronic obstructive pulmonary disease,westmidlands,1919.4476036644887,47082.571847643136
@@ -1432,10 +1589,12 @@ YLLs (Years of Life Lost),Female,75 to 79,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,75 to 79,motorcyclist road injuries,westmidlands,0.13080788580256753,47082.571847643136
 YLLs (Years of Life Lost),Female,75 to 79,multiple myeloma,westmidlands,175.35372120061984,47082.571847643165
 YLLs (Years of Life Lost),Female,75 to 79,neoplasms,westmidlands,7482.622335485901,47082.5718476431
+YLLs (Years of Life Lost),Female,75 to 79,non-rheumatic valvular heart disease,westmidlands,158.51002773528748,47082.57184764311
 YLLs (Years of Life Lost),Female,75 to 79,other road injuries,westmidlands,0.1573900628984893,47082.57184764314
 YLLs (Years of Life Lost),Female,75 to 79,other transport injuries,westmidlands,0.9847972278586664,47082.57184764308
 YLLs (Years of Life Lost),Female,75 to 79,parkinson's disease,westmidlands,293.96351100130255,47082.57184764315
 YLLs (Years of Life Lost),Female,75 to 79,pedestrian road injuries,westmidlands,19.998519402282952,47082.57184764315
+YLLs (Years of Life Lost),Female,75 to 79,rheumatic heart disease,westmidlands,81.83856615652256,47082.57184764315
 YLLs (Years of Life Lost),Female,75 to 79,road injuries,westmidlands,34.519891859877916,47082.57184764316
 YLLs (Years of Life Lost),Female,75 to 79,stomach cancer,westmidlands,298.2525264375168,47082.571847643165
 YLLs (Years of Life Lost),Female,75 to 79,stroke,westmidlands,1665.5508232229408,47082.57184764311
@@ -1445,6 +1604,7 @@ YLLs (Years of Life Lost),Female,80 to 84,all causes,westmidlands,23202.53306328
 YLLs (Years of Life Lost),Female,80 to 84,alzheimer's disease and other dementias,westmidlands,1613.195723678634,37099.23167616386
 YLLs (Years of Life Lost),Female,80 to 84,bladder cancer,westmidlands,205.0120123841843,37099.23167616385
 YLLs (Years of Life Lost),Female,80 to 84,breast cancer,westmidlands,939.8132823824569,37099.23167616385
+YLLs (Years of Life Lost),Female,80 to 84,cardiomyopathy and myocarditis,westmidlands,97.42018490073897,37099.23167616388
 YLLs (Years of Life Lost),Female,80 to 84,cardiovascular diseases,westmidlands,7340.341211511892,37099.23167616385
 YLLs (Years of Life Lost),Female,80 to 84,chronic myeloid leukemia,westmidlands,10.335375971853436,37099.231676163865
 YLLs (Years of Life Lost),Female,80 to 84,chronic obstructive pulmonary disease,westmidlands,1944.349524344108,37099.23167616389
@@ -1460,10 +1620,12 @@ YLLs (Years of Life Lost),Female,80 to 84,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,80 to 84,motorcyclist road injuries,westmidlands,0.07209789241780494,37099.23167616385
 YLLs (Years of Life Lost),Female,80 to 84,multiple myeloma,westmidlands,152.36476801009792,37099.23167616386
 YLLs (Years of Life Lost),Female,80 to 84,neoplasms,westmidlands,6352.319710649267,37099.23167616389
+YLLs (Years of Life Lost),Female,80 to 84,non-rheumatic valvular heart disease,westmidlands,232.57663052446318,37099.23167616389
 YLLs (Years of Life Lost),Female,80 to 84,other road injuries,westmidlands,0.10828116733015282,37099.231676163836
 YLLs (Years of Life Lost),Female,80 to 84,other transport injuries,westmidlands,0.5049378197987308,37099.23167616389
 YLLs (Years of Life Lost),Female,80 to 84,parkinson's disease,westmidlands,352.5192771701747,37099.23167616386
 YLLs (Years of Life Lost),Female,80 to 84,pedestrian road injuries,westmidlands,16.685268168297565,37099.23167616388
+YLLs (Years of Life Lost),Female,80 to 84,rheumatic heart disease,westmidlands,86.46781079814204,37099.231676163894
 YLLs (Years of Life Lost),Female,80 to 84,road injuries,westmidlands,27.906038343284006,37099.23167616387
 YLLs (Years of Life Lost),Female,80 to 84,stomach cancer,westmidlands,309.1812673354885,37099.231676163865
 YLLs (Years of Life Lost),Female,80 to 84,stroke,westmidlands,2333.0445573392703,37099.23167616384
@@ -1473,6 +1635,7 @@ YLLs (Years of Life Lost),Female,85 to 89,all causes,westmidlands,20966.73355743
 YLLs (Years of Life Lost),Female,85 to 89,alzheimer's disease and other dementias,westmidlands,1994.2341513481708,24052.67994040211
 YLLs (Years of Life Lost),Female,85 to 89,bladder cancer,westmidlands,165.3468607998026,24052.67994040211
 YLLs (Years of Life Lost),Female,85 to 89,breast cancer,westmidlands,726.5892334180261,24052.679940402097
+YLLs (Years of Life Lost),Female,85 to 89,cardiomyopathy and myocarditis,westmidlands,107.54550113084119,24052.679940402115
 YLLs (Years of Life Lost),Female,85 to 89,cardiovascular diseases,westmidlands,7208.70606853281,24052.67994040209
 YLLs (Years of Life Lost),Female,85 to 89,chronic myeloid leukemia,westmidlands,9.675927184965646,24052.679940402086
 YLLs (Years of Life Lost),Female,85 to 89,chronic obstructive pulmonary disease,westmidlands,1505.9025091412072,24052.679940402108
@@ -1488,10 +1651,12 @@ YLLs (Years of Life Lost),Female,85 to 89,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,85 to 89,motorcyclist road injuries,westmidlands,0.04566476082929066,24052.679940402093
 YLLs (Years of Life Lost),Female,85 to 89,multiple myeloma,westmidlands,95.82806256038148,24052.67994040211
 YLLs (Years of Life Lost),Female,85 to 89,neoplasms,westmidlands,4406.029485534606,24052.67994040211
+YLLs (Years of Life Lost),Female,85 to 89,non-rheumatic valvular heart disease,westmidlands,247.93145868879492,24052.67994040212
 YLLs (Years of Life Lost),Female,85 to 89,other road injuries,westmidlands,0.07746911091273086,24052.6799404021
 YLLs (Years of Life Lost),Female,85 to 89,other transport injuries,westmidlands,0.2805792770174103,24052.679940402104
 YLLs (Years of Life Lost),Female,85 to 89,parkinson's disease,westmidlands,261.2541782113223,24052.67994040211
 YLLs (Years of Life Lost),Female,85 to 89,pedestrian road injuries,westmidlands,11.403935246860783,24052.679940402115
+YLLs (Years of Life Lost),Female,85 to 89,rheumatic heart disease,westmidlands,71.03816995594714,24052.67994040211
 YLLs (Years of Life Lost),Female,85 to 89,road injuries,westmidlands,17.798605259792872,24052.679940402115
 YLLs (Years of Life Lost),Female,85 to 89,stomach cancer,westmidlands,236.3518439582621,24052.679940402093
 YLLs (Years of Life Lost),Female,85 to 89,stroke,westmidlands,2390.361902505061,24052.679940402122
@@ -1501,6 +1666,7 @@ YLLs (Years of Life Lost),Female,90 to 94,all causes,westmidlands,14159.37763061
 YLLs (Years of Life Lost),Female,90 to 94,alzheimer's disease and other dementias,westmidlands,1575.2661919035008,11507.922361746028
 YLLs (Years of Life Lost),Female,90 to 94,bladder cancer,westmidlands,94.44737692458989,11507.922361746037
 YLLs (Years of Life Lost),Female,90 to 94,breast cancer,westmidlands,393.84527251718947,11507.922361746021
+YLLs (Years of Life Lost),Female,90 to 94,cardiomyopathy and myocarditis,westmidlands,88.93168823593754,11507.922361746023
 YLLs (Years of Life Lost),Female,90 to 94,cardiovascular diseases,westmidlands,5241.033421321142,11507.92236174603
 YLLs (Years of Life Lost),Female,90 to 94,chronic myeloid leukemia,westmidlands,4.770097360952667,11507.92236174603
 YLLs (Years of Life Lost),Female,90 to 94,chronic obstructive pulmonary disease,westmidlands,862.6549719716836,11507.92236174603
@@ -1516,10 +1682,12 @@ YLLs (Years of Life Lost),Female,90 to 94,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,90 to 94,motorcyclist road injuries,westmidlands,0.0774184380955492,11507.922361746027
 YLLs (Years of Life Lost),Female,90 to 94,multiple myeloma,westmidlands,38.358147884125714,11507.92236174602
 YLLs (Years of Life Lost),Female,90 to 94,neoplasms,westmidlands,2107.255637603793,11507.92236174603
+YLLs (Years of Life Lost),Female,90 to 94,non-rheumatic valvular heart disease,westmidlands,191.03720823451476,11507.922361746032
 YLLs (Years of Life Lost),Female,90 to 94,other road injuries,westmidlands,0.061350514352117726,11507.92236174603
 YLLs (Years of Life Lost),Female,90 to 94,other transport injuries,westmidlands,0.191024674956071,11507.922361746028
 YLLs (Years of Life Lost),Female,90 to 94,parkinson's disease,westmidlands,118.74032960248644,11507.922361746034
 YLLs (Years of Life Lost),Female,90 to 94,pedestrian road injuries,westmidlands,4.736198649472257,11507.92236174603
+YLLs (Years of Life Lost),Female,90 to 94,rheumatic heart disease,westmidlands,40.54544893803856,11507.922361746021
 YLLs (Years of Life Lost),Female,90 to 94,road injuries,westmidlands,7.308836490689422,11507.922361746023
 YLLs (Years of Life Lost),Female,90 to 94,stomach cancer,westmidlands,116.91382439514153,11507.922361746028
 YLLs (Years of Life Lost),Female,90 to 94,stroke,westmidlands,1750.2043020916403,11507.922361746034
@@ -1529,6 +1697,7 @@ YLLs (Years of Life Lost),Female,95 to 99,all causes,westmidlands,5910.526256834
 YLLs (Years of Life Lost),Female,95 to 99,alzheimer's disease and other dementias,westmidlands,689.4991566266742,3602.105808417007
 YLLs (Years of Life Lost),Female,95 to 99,bladder cancer,westmidlands,34.67057905479602,3602.1058084170104
 YLLs (Years of Life Lost),Female,95 to 99,breast cancer,westmidlands,145.04850420328907,3602.1058084170118
+YLLs (Years of Life Lost),Female,95 to 99,cardiomyopathy and myocarditis,westmidlands,43.22693767367166,3602.105808417011
 YLLs (Years of Life Lost),Female,95 to 99,cardiovascular diseases,westmidlands,2251.0935098574028,3602.105808417012
 YLLs (Years of Life Lost),Female,95 to 99,chronic myeloid leukemia,westmidlands,1.5532735351333298,3602.105808417011
 YLLs (Years of Life Lost),Female,95 to 99,chronic obstructive pulmonary disease,westmidlands,352.7859440475343,3602.10580841701
@@ -1544,16 +1713,19 @@ YLLs (Years of Life Lost),Female,95 to 99,motor vehicle road injuries,westmidlan
 YLLs (Years of Life Lost),Female,95 to 99,motorcyclist road injuries,westmidlands,0.05117265887111357,3602.105808417008
 YLLs (Years of Life Lost),Female,95 to 99,multiple myeloma,westmidlands,9.528030503046464,3602.1058084170086
 YLLs (Years of Life Lost),Female,95 to 99,neoplasms,westmidlands,728.4287397635258,3602.1058084170063
+YLLs (Years of Life Lost),Female,95 to 99,non-rheumatic valvular heart disease,westmidlands,79.37298383779378,3602.10580841701
 YLLs (Years of Life Lost),Female,95 to 99,other road injuries,westmidlands,0.030065555928377372,3602.1058084170095
 YLLs (Years of Life Lost),Female,95 to 99,other transport injuries,westmidlands,0.12329270743604569,3602.1058084170104
 YLLs (Years of Life Lost),Female,95 to 99,parkinson's disease,westmidlands,31.0118503315166,3602.1058084170054
 YLLs (Years of Life Lost),Female,95 to 99,pedestrian road injuries,westmidlands,1.6232922362116382,3602.1058084170113
+YLLs (Years of Life Lost),Female,95 to 99,rheumatic heart disease,westmidlands,15.465272923090508,3602.105808417015
 YLLs (Years of Life Lost),Female,95 to 99,road injuries,westmidlands,2.546740605802673,3602.105808417011
 YLLs (Years of Life Lost),Female,95 to 99,stomach cancer,westmidlands,41.59170462878597,3602.1058084170113
 YLLs (Years of Life Lost),Female,95 to 99,stroke,westmidlands,767.0518700344833,3602.1058084170077
 YLLs (Years of Life Lost),Female,95 to 99,"tracheal, bronchus, and lung cancer",westmidlands,94.04019270897875,3602.1058084170118
 YLLs (Years of Life Lost),Female,95 to 99,uterine cancer,westmidlands,13.758916225820778,3602.105808417007
 YLLs (Years of Life Lost),Male,0 to 5,all causes,westmidlands,13425.6762295273,101108.89322716647
+YLLs (Years of Life Lost),Male,0 to 5,cardiomyopathy and myocarditis,westmidlands,78.7138444698839,101108.8932271665
 YLLs (Years of Life Lost),Male,0 to 5,cardiovascular diseases,westmidlands,150.26385498134397,101108.89322716637
 YLLs (Years of Life Lost),Male,0 to 5,chronic myeloid leukemia,westmidlands,2.435542199205521,101108.89322716645
 YLLs (Years of Life Lost),Male,0 to 5,chronic obstructive pulmonary disease,westmidlands,2.4997997747483414,101108.89322716647
@@ -1567,9 +1739,11 @@ YLLs (Years of Life Lost),Male,0 to 5,neoplasms,westmidlands,295.5153504205968,1
 YLLs (Years of Life Lost),Male,0 to 5,other road injuries,westmidlands,1.5858012839686502,101108.89322716637
 YLLs (Years of Life Lost),Male,0 to 5,other transport injuries,westmidlands,4.5899806742019456,101108.89322716642
 YLLs (Years of Life Lost),Male,0 to 5,pedestrian road injuries,westmidlands,36.1570469739965,101108.89322716641
+YLLs (Years of Life Lost),Male,0 to 5,rheumatic heart disease,westmidlands,1.1515137105897049,101108.8932271664
 YLLs (Years of Life Lost),Male,0 to 5,road injuries,westmidlands,62.631540189299514,101108.89322716635
 YLLs (Years of Life Lost),Male,0 to 5,stroke,westmidlands,18.462370936305657,101108.89322716641
 YLLs (Years of Life Lost),Male,10 to 14,all causes,westmidlands,1127.8741165588003,101696.72352085545
+YLLs (Years of Life Lost),Male,10 to 14,cardiomyopathy and myocarditis,westmidlands,21.821236992293947,101696.72352085561
 YLLs (Years of Life Lost),Male,10 to 14,cardiovascular diseases,westmidlands,50.33669318263169,101696.72352085539
 YLLs (Years of Life Lost),Male,10 to 14,chronic myeloid leukemia,westmidlands,1.4435364823703825,101696.72352085543
 YLLs (Years of Life Lost),Male,10 to 14,chronic obstructive pulmonary disease,westmidlands,1.7195141112574273,101696.72352085556
@@ -1584,12 +1758,14 @@ YLLs (Years of Life Lost),Male,10 to 14,neoplasms,westmidlands,270.7740032316854
 YLLs (Years of Life Lost),Male,10 to 14,other road injuries,westmidlands,2.037943082797458,101696.7235208554
 YLLs (Years of Life Lost),Male,10 to 14,other transport injuries,westmidlands,8.85805237410341,101696.72352085546
 YLLs (Years of Life Lost),Male,10 to 14,pedestrian road injuries,westmidlands,67.86634434744585,101696.72352085542
+YLLs (Years of Life Lost),Male,10 to 14,rheumatic heart disease,westmidlands,1.0171539735336628,101696.72352085546
 YLLs (Years of Life Lost),Male,10 to 14,road injuries,westmidlands,148.2815529208219,101696.72352085549
 YLLs (Years of Life Lost),Male,10 to 14,stroke,westmidlands,13.248232404060348,101696.72352085538
 YLLs (Years of Life Lost),Male,10 to 14,"tracheal, bronchus, and lung cancer",westmidlands,1.0274017346498932,101696.72352085545
 YLLs (Years of Life Lost),Male,15 to 19,all causes,westmidlands,1904.4468844426347,93605.22168564399
 YLLs (Years of Life Lost),Male,15 to 19,bladder cancer,westmidlands,0.7366895608843484,93605.22168564382
 YLLs (Years of Life Lost),Male,15 to 19,breast cancer,westmidlands,0.734882914260511,93605.22168564383
+YLLs (Years of Life Lost),Male,15 to 19,cardiomyopathy and myocarditis,westmidlands,37.37689255023554,93605.22168564392
 YLLs (Years of Life Lost),Male,15 to 19,cardiovascular diseases,westmidlands,85.96552584947376,93605.22168564385
 YLLs (Years of Life Lost),Male,15 to 19,chronic myeloid leukemia,westmidlands,1.0500772666607483,93605.22168564383
 YLLs (Years of Life Lost),Male,15 to 19,chronic obstructive pulmonary disease,westmidlands,3.4990867305858107,93605.221685644
@@ -1603,9 +1779,11 @@ YLLs (Years of Life Lost),Male,15 to 19,lower respiratory infections,westmidland
 YLLs (Years of Life Lost),Male,15 to 19,motor vehicle road injuries,westmidlands,283.4914413959354,93605.22168564392
 YLLs (Years of Life Lost),Male,15 to 19,motorcyclist road injuries,westmidlands,101.35080854042562,93605.2216856438
 YLLs (Years of Life Lost),Male,15 to 19,neoplasms,westmidlands,266.78199871199206,93605.2216856439
+YLLs (Years of Life Lost),Male,15 to 19,non-rheumatic valvular heart disease,westmidlands,3.6947641912369398,93605.22168564392
 YLLs (Years of Life Lost),Male,15 to 19,other road injuries,westmidlands,3.6220307838502848,93605.22168564395
 YLLs (Years of Life Lost),Male,15 to 19,other transport injuries,westmidlands,17.520802297053912,93605.22168564386
 YLLs (Years of Life Lost),Male,15 to 19,pedestrian road injuries,westmidlands,77.1930105783581,93605.22168564392
+YLLs (Years of Life Lost),Male,15 to 19,rheumatic heart disease,westmidlands,0.9239321755384772,93605.22168564393
 YLLs (Years of Life Lost),Male,15 to 19,road injuries,westmidlands,487.7152845858829,93605.22168564376
 YLLs (Years of Life Lost),Male,15 to 19,stomach cancer,westmidlands,1.1422080368016196,93605.22168564389
 YLLs (Years of Life Lost),Male,15 to 19,stroke,westmidlands,20.158797703563124,93605.22168564395
@@ -1613,6 +1791,7 @@ YLLs (Years of Life Lost),Male,15 to 19,"tracheal, bronchus, and lung cancer",we
 YLLs (Years of Life Lost),Male,20 to 24,all causes,westmidlands,3349.5931246327386,101107.35910986396
 YLLs (Years of Life Lost),Male,20 to 24,bladder cancer,westmidlands,0.8352581339295791,101107.3591098639
 YLLs (Years of Life Lost),Male,20 to 24,breast cancer,westmidlands,0.7466477251206527,101107.35910986393
+YLLs (Years of Life Lost),Male,20 to 24,cardiomyopathy and myocarditis,westmidlands,62.35508972738579,101107.35910986393
 YLLs (Years of Life Lost),Male,20 to 24,cardiovascular diseases,westmidlands,190.79789916907214,101107.35910986378
 YLLs (Years of Life Lost),Male,20 to 24,chronic myeloid leukemia,westmidlands,2.3021152211234575,101107.35910986386
 YLLs (Years of Life Lost),Male,20 to 24,chronic obstructive pulmonary disease,westmidlands,5.932321677708034,101107.35910986383
@@ -1628,11 +1807,13 @@ YLLs (Years of Life Lost),Male,20 to 24,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,20 to 24,motorcyclist road injuries,westmidlands,146.84492732873227,101107.35910986393
 YLLs (Years of Life Lost),Male,20 to 24,multiple myeloma,westmidlands,0.9553345414156079,101107.35910986381
 YLLs (Years of Life Lost),Male,20 to 24,neoplasms,westmidlands,394.99481786960854,101107.35910986397
+YLLs (Years of Life Lost),Male,20 to 24,non-rheumatic valvular heart disease,westmidlands,7.38220312884138,101107.35910986387
 YLLs (Years of Life Lost),Male,20 to 24,other road injuries,westmidlands,3.6609941963279384,101107.35910986394
 YLLs (Years of Life Lost),Male,20 to 24,other transport injuries,westmidlands,32.345239441315925,101107.35910986373
 YLLs (Years of Life Lost),Male,20 to 24,parkinson's disease,westmidlands,0.250280330387884,101107.3591098638
 YLLs (Years of Life Lost),Male,20 to 24,pedestrian road injuries,westmidlands,109.64391388782104,101107.3591098639
 YLLs (Years of Life Lost),Male,20 to 24,prostate cancer,westmidlands,2.0375723175060965,101107.35910986383
+YLLs (Years of Life Lost),Male,20 to 24,rheumatic heart disease,westmidlands,2.4061346623701483,101107.35910986381
 YLLs (Years of Life Lost),Male,20 to 24,road injuries,westmidlands,723.808242929229,101107.35910986387
 YLLs (Years of Life Lost),Male,20 to 24,stomach cancer,westmidlands,3.711752178516063,101107.35910986374
 YLLs (Years of Life Lost),Male,20 to 24,stroke,westmidlands,50.4006846030333,101107.35910986383
@@ -1640,6 +1821,7 @@ YLLs (Years of Life Lost),Male,20 to 24,"tracheal, bronchus, and lung cancer",we
 YLLs (Years of Life Lost),Male,25 to 29,all causes,westmidlands,4062.8240937086143,109434.00004948112
 YLLs (Years of Life Lost),Male,25 to 29,bladder cancer,westmidlands,2.305019119921181,109434.00004948136
 YLLs (Years of Life Lost),Male,25 to 29,breast cancer,westmidlands,0.7266403051675759,109434.00004948136
+YLLs (Years of Life Lost),Male,25 to 29,cardiomyopathy and myocarditis,westmidlands,86.27271569734194,109434.00004948137
 YLLs (Years of Life Lost),Male,25 to 29,cardiovascular diseases,westmidlands,449.5058107748871,109434.00004948115
 YLLs (Years of Life Lost),Male,25 to 29,chronic myeloid leukemia,westmidlands,4.940507208860906,109434.00004948124
 YLLs (Years of Life Lost),Male,25 to 29,chronic obstructive pulmonary disease,westmidlands,11.480721105747675,109434.00004948115
@@ -1655,11 +1837,13 @@ YLLs (Years of Life Lost),Male,25 to 29,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,25 to 29,motorcyclist road injuries,westmidlands,122.07462978887563,109434.00004948131
 YLLs (Years of Life Lost),Male,25 to 29,multiple myeloma,westmidlands,2.188149775470731,109434.00004948114
 YLLs (Years of Life Lost),Male,25 to 29,neoplasms,westmidlands,532.9410470356888,109434.00004948111
+YLLs (Years of Life Lost),Male,25 to 29,non-rheumatic valvular heart disease,westmidlands,12.804906680189475,109434.00004948123
 YLLs (Years of Life Lost),Male,25 to 29,other road injuries,westmidlands,2.9951618300568086,109434.00004948134
 YLLs (Years of Life Lost),Male,25 to 29,other transport injuries,westmidlands,33.0001245788861,109434.00004948124
 YLLs (Years of Life Lost),Male,25 to 29,parkinson's disease,westmidlands,0.10245761252821392,109434.00004948127
 YLLs (Years of Life Lost),Male,25 to 29,pedestrian road injuries,westmidlands,74.11282664882701,109434.00004948131
 YLLs (Years of Life Lost),Male,25 to 29,prostate cancer,westmidlands,3.0476006013675203,109434.00004948121
+YLLs (Years of Life Lost),Male,25 to 29,rheumatic heart disease,westmidlands,4.968318248757371,109434.00004948128
 YLLs (Years of Life Lost),Male,25 to 29,road injuries,westmidlands,523.7550891396735,109434.00004948124
 YLLs (Years of Life Lost),Male,25 to 29,stomach cancer,westmidlands,11.976844453650687,109434.00004948133
 YLLs (Years of Life Lost),Male,25 to 29,stroke,westmidlands,104.83212649142637,109434.00004948126
@@ -1667,6 +1851,7 @@ YLLs (Years of Life Lost),Male,25 to 29,"tracheal, bronchus, and lung cancer",we
 YLLs (Years of Life Lost),Male,30 to 34,all causes,westmidlands,5970.0699587153595,111696.27111826498
 YLLs (Years of Life Lost),Male,30 to 34,bladder cancer,westmidlands,7.179440922289725,111696.27111826513
 YLLs (Years of Life Lost),Male,30 to 34,breast cancer,westmidlands,0.7683121089949676,111696.27111826505
+YLLs (Years of Life Lost),Male,30 to 34,cardiomyopathy and myocarditis,westmidlands,107.77635527503556,111696.27111826511
 YLLs (Years of Life Lost),Male,30 to 34,cardiovascular diseases,westmidlands,919.3745342084063,111696.27111826491
 YLLs (Years of Life Lost),Male,30 to 34,chronic myeloid leukemia,westmidlands,7.13357751650995,111696.27111826494
 YLLs (Years of Life Lost),Male,30 to 34,chronic obstructive pulmonary disease,westmidlands,24.760725339379547,111696.27111826502
@@ -1682,11 +1867,13 @@ YLLs (Years of Life Lost),Male,30 to 34,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,30 to 34,motorcyclist road injuries,westmidlands,106.54181276903459,111696.27111826507
 YLLs (Years of Life Lost),Male,30 to 34,multiple myeloma,westmidlands,7.388908342215973,111696.2711182651
 YLLs (Years of Life Lost),Male,30 to 34,neoplasms,westmidlands,919.4176038687148,111696.27111826504
+YLLs (Years of Life Lost),Male,30 to 34,non-rheumatic valvular heart disease,westmidlands,19.398519452447037,111696.27111826498
 YLLs (Years of Life Lost),Male,30 to 34,other road injuries,westmidlands,2.234968110964454,111696.27111826489
 YLLs (Years of Life Lost),Male,30 to 34,other transport injuries,westmidlands,30.810404624413717,111696.27111826502
 YLLs (Years of Life Lost),Male,30 to 34,parkinson's disease,westmidlands,0.21804245495574162,111696.271118265
 YLLs (Years of Life Lost),Male,30 to 34,pedestrian road injuries,westmidlands,82.79115675364314,111696.27111826504
 YLLs (Years of Life Lost),Male,30 to 34,prostate cancer,westmidlands,4.033701147076965,111696.27111826501
+YLLs (Years of Life Lost),Male,30 to 34,rheumatic heart disease,westmidlands,8.229053970744285,111696.271118265
 YLLs (Years of Life Lost),Male,30 to 34,road injuries,westmidlands,432.86800995762025,111696.27111826501
 YLLs (Years of Life Lost),Male,30 to 34,stomach cancer,westmidlands,38.91852264726151,111696.27111826501
 YLLs (Years of Life Lost),Male,30 to 34,stroke,westmidlands,186.85779866911116,111696.27111826497
@@ -1694,6 +1881,7 @@ YLLs (Years of Life Lost),Male,30 to 34,"tracheal, bronchus, and lung cancer",we
 YLLs (Years of Life Lost),Male,35 to 39,all causes,westmidlands,6612.371601614837,105351.75630325211
 YLLs (Years of Life Lost),Male,35 to 39,bladder cancer,westmidlands,12.478082254106166,105351.75630325207
 YLLs (Years of Life Lost),Male,35 to 39,breast cancer,westmidlands,1.469774890398397,105351.75630325204
+YLLs (Years of Life Lost),Male,35 to 39,cardiomyopathy and myocarditis,westmidlands,116.42102899655184,105351.75630325192
 YLLs (Years of Life Lost),Male,35 to 39,cardiovascular diseases,westmidlands,1274.4804951517447,105351.756303252
 YLLs (Years of Life Lost),Male,35 to 39,chronic myeloid leukemia,westmidlands,7.039379809220541,105351.7563032521
 YLLs (Years of Life Lost),Male,35 to 39,chronic obstructive pulmonary disease,westmidlands,40.73100124242699,105351.75630325213
@@ -1709,11 +1897,13 @@ YLLs (Years of Life Lost),Male,35 to 39,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,35 to 39,motorcyclist road injuries,westmidlands,81.40622518005979,105351.75630325198
 YLLs (Years of Life Lost),Male,35 to 39,multiple myeloma,westmidlands,13.919005979594074,105351.75630325192
 YLLs (Years of Life Lost),Male,35 to 39,neoplasms,westmidlands,1168.4018948197609,105351.75630325203
+YLLs (Years of Life Lost),Male,35 to 39,non-rheumatic valvular heart disease,westmidlands,21.74974515399987,105351.75630325207
 YLLs (Years of Life Lost),Male,35 to 39,other road injuries,westmidlands,1.2320722489539129,105351.75630325204
 YLLs (Years of Life Lost),Male,35 to 39,other transport injuries,westmidlands,24.748585621420908,105351.7563032521
 YLLs (Years of Life Lost),Male,35 to 39,parkinson's disease,westmidlands,0.4284574953042584,105351.75630325201
 YLLs (Years of Life Lost),Male,35 to 39,pedestrian road injuries,westmidlands,64.01315278929438,105351.75630325197
 YLLs (Years of Life Lost),Male,35 to 39,prostate cancer,westmidlands,4.454256798702119,105351.75630325207
+YLLs (Years of Life Lost),Male,35 to 39,rheumatic heart disease,westmidlands,9.21831332078312,105351.75630325211
 YLLs (Years of Life Lost),Male,35 to 39,road injuries,westmidlands,302.7631850075453,105351.75630325213
 YLLs (Years of Life Lost),Male,35 to 39,stomach cancer,westmidlands,59.168484013348646,105351.75630325207
 YLLs (Years of Life Lost),Male,35 to 39,stroke,westmidlands,233.45045606854734,105351.75630325191
@@ -1722,6 +1912,7 @@ YLLs (Years of Life Lost),Male,40 to 44,all causes,westmidlands,8235.82389889850
 YLLs (Years of Life Lost),Male,40 to 44,alzheimer's disease and other dementias,westmidlands,4.232691360516455,89154.50322784149
 YLLs (Years of Life Lost),Male,40 to 44,bladder cancer,westmidlands,23.895897646421783,89154.50322784137
 YLLs (Years of Life Lost),Male,40 to 44,breast cancer,westmidlands,2.638835825008618,89154.50322784149
+YLLs (Years of Life Lost),Male,40 to 44,cardiomyopathy and myocarditis,westmidlands,137.80055546325858,89154.50322784139
 YLLs (Years of Life Lost),Male,40 to 44,cardiovascular diseases,westmidlands,1807.3989207672535,89154.50322784143
 YLLs (Years of Life Lost),Male,40 to 44,chronic myeloid leukemia,westmidlands,7.252336406547232,89154.50322784141
 YLLs (Years of Life Lost),Male,40 to 44,chronic obstructive pulmonary disease,westmidlands,78.26685992690129,89154.5032278415
@@ -1737,11 +1928,13 @@ YLLs (Years of Life Lost),Male,40 to 44,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,40 to 44,motorcyclist road injuries,westmidlands,78.0478271085294,89154.50322784152
 YLLs (Years of Life Lost),Male,40 to 44,multiple myeloma,westmidlands,25.270435215034777,89154.50322784144
 YLLs (Years of Life Lost),Male,40 to 44,neoplasms,westmidlands,1671.9036160368958,89154.50322784146
+YLLs (Years of Life Lost),Male,40 to 44,non-rheumatic valvular heart disease,westmidlands,26.094392034592097,89154.50322784146
 YLLs (Years of Life Lost),Male,40 to 44,other road injuries,westmidlands,0.8792564155457264,89154.50322784137
 YLLs (Years of Life Lost),Male,40 to 44,other transport injuries,westmidlands,20.694145942059393,89154.50322784136
 YLLs (Years of Life Lost),Male,40 to 44,parkinson's disease,westmidlands,3.961481869460806,89154.50322784131
 YLLs (Years of Life Lost),Male,40 to 44,pedestrian road injuries,westmidlands,64.95941886027094,89154.50322784137
 YLLs (Years of Life Lost),Male,40 to 44,prostate cancer,westmidlands,8.581771129317294,89154.50322784147
+YLLs (Years of Life Lost),Male,40 to 44,rheumatic heart disease,westmidlands,10.924244701903723,89154.50322784143
 YLLs (Years of Life Lost),Male,40 to 44,road injuries,westmidlands,279.07734947503934,89154.50322784146
 YLLs (Years of Life Lost),Male,40 to 44,stomach cancer,westmidlands,91.83359650508373,89154.50322784137
 YLLs (Years of Life Lost),Male,40 to 44,stroke,westmidlands,308.9792280258117,89154.50322784139
@@ -1750,6 +1943,7 @@ YLLs (Years of Life Lost),Male,45 to 49,all causes,westmidlands,11687.1649195775
 YLLs (Years of Life Lost),Male,45 to 49,alzheimer's disease and other dementias,westmidlands,25.219985373979306,94589.34021147377
 YLLs (Years of Life Lost),Male,45 to 49,bladder cancer,westmidlands,49.14223615185336,94589.34021147364
 YLLs (Years of Life Lost),Male,45 to 49,breast cancer,westmidlands,3.8879813404619545,94589.34021147374
+YLLs (Years of Life Lost),Male,45 to 49,cardiomyopathy and myocarditis,westmidlands,177.17996795973679,94589.34021147373
 YLLs (Years of Life Lost),Male,45 to 49,cardiovascular diseases,westmidlands,2882.6851596069546,94589.34021147374
 YLLs (Years of Life Lost),Male,45 to 49,chronic myeloid leukemia,westmidlands,8.501869306996976,94589.3402114737
 YLLs (Years of Life Lost),Male,45 to 49,chronic obstructive pulmonary disease,westmidlands,168.7756813524181,94589.3402114737
@@ -1765,16 +1959,19 @@ YLLs (Years of Life Lost),Male,45 to 49,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,45 to 49,motorcyclist road injuries,westmidlands,73.9476825941804,94589.34021147371
 YLLs (Years of Life Lost),Male,45 to 49,multiple myeloma,westmidlands,51.78575427829959,94589.34021147368
 YLLs (Years of Life Lost),Male,45 to 49,neoplasms,westmidlands,2855.209765114066,94589.34021147374
+YLLs (Years of Life Lost),Male,45 to 49,non-rheumatic valvular heart disease,westmidlands,36.60708234036352,94589.34021147371
 YLLs (Years of Life Lost),Male,45 to 49,other road injuries,westmidlands,1.0639633775631152,94589.34021147361
 YLLs (Years of Life Lost),Male,45 to 49,other transport injuries,westmidlands,20.30585541234544,94589.3402114738
 YLLs (Years of Life Lost),Male,45 to 49,parkinson's disease,westmidlands,12.388398024951073,94589.34021147374
 YLLs (Years of Life Lost),Male,45 to 49,pedestrian road injuries,westmidlands,78.55978606817145,94589.3402114737
 YLLs (Years of Life Lost),Male,45 to 49,prostate cancer,westmidlands,36.15649748235591,94589.34021147374
+YLLs (Years of Life Lost),Male,45 to 49,rheumatic heart disease,westmidlands,16.895378403600038,94589.34021147368
 YLLs (Years of Life Lost),Male,45 to 49,road injuries,westmidlands,295.5079974936263,94589.34021147361
 YLLs (Years of Life Lost),Male,45 to 49,stomach cancer,westmidlands,153.79241532952415,94589.34021147373
 YLLs (Years of Life Lost),Male,45 to 49,stroke,westmidlands,455.638636576584,94589.3402114737
 YLLs (Years of Life Lost),Male,45 to 49,"tracheal, bronchus, and lung cancer",westmidlands,478.7240565786824,94589.34021147373
 YLLs (Years of Life Lost),Male,5 to 9,all causes,westmidlands,945.58929074603,103349.28996344861
+YLLs (Years of Life Lost),Male,5 to 9,cardiomyopathy and myocarditis,westmidlands,11.074153838803298,103349.28996344875
 YLLs (Years of Life Lost),Male,5 to 9,cardiovascular diseases,westmidlands,29.39233107044196,103349.28996344867
 YLLs (Years of Life Lost),Male,5 to 9,chronic myeloid leukemia,westmidlands,1.2403094147266358,103349.28996344855
 YLLs (Years of Life Lost),Male,5 to 9,chronic obstructive pulmonary disease,westmidlands,1.5890921477101163,103349.28996344871
@@ -1789,12 +1986,14 @@ YLLs (Years of Life Lost),Male,5 to 9,neoplasms,westmidlands,277.64023218138533,
 YLLs (Years of Life Lost),Male,5 to 9,other road injuries,westmidlands,1.0685227386410645,103349.28996344877
 YLLs (Years of Life Lost),Male,5 to 9,other transport injuries,westmidlands,4.745686136341449,103349.2899634486
 YLLs (Years of Life Lost),Male,5 to 9,pedestrian road injuries,westmidlands,59.02764225715606,103349.28996344864
+YLLs (Years of Life Lost),Male,5 to 9,rheumatic heart disease,westmidlands,0.9647216014257779,103349.28996344864
 YLLs (Years of Life Lost),Male,5 to 9,road injuries,westmidlands,99.50967532075305,103349.2899634486
 YLLs (Years of Life Lost),Male,5 to 9,stroke,westmidlands,7.316666561325923,103349.28996344857
 YLLs (Years of Life Lost),Male,50 to 54,all causes,westmidlands,14964.032571632382,93399.42451243415
 YLLs (Years of Life Lost),Male,50 to 54,alzheimer's disease and other dementias,westmidlands,46.785821429493964,93399.42451243414
 YLLs (Years of Life Lost),Male,50 to 54,bladder cancer,westmidlands,101.52922340397154,93399.42451243405
 YLLs (Years of Life Lost),Male,50 to 54,breast cancer,westmidlands,5.656820816181728,93399.42451243405
+YLLs (Years of Life Lost),Male,50 to 54,cardiomyopathy and myocarditis,westmidlands,185.6154795821417,93399.42451243414
 YLLs (Years of Life Lost),Male,50 to 54,cardiovascular diseases,westmidlands,4282.687624892551,93399.42451243413
 YLLs (Years of Life Lost),Male,50 to 54,chronic myeloid leukemia,westmidlands,7.207588337777963,93399.4245124341
 YLLs (Years of Life Lost),Male,50 to 54,chronic obstructive pulmonary disease,westmidlands,418.99743291590585,93399.42451243418
@@ -1810,11 +2009,13 @@ YLLs (Years of Life Lost),Male,50 to 54,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,50 to 54,motorcyclist road injuries,westmidlands,38.07729501416293,93399.4245124341
 YLLs (Years of Life Lost),Male,50 to 54,multiple myeloma,westmidlands,96.74348985642926,93399.42451243407
 YLLs (Years of Life Lost),Male,50 to 54,neoplasms,westmidlands,5025.049705164133,93399.42451243411
+YLLs (Years of Life Lost),Male,50 to 54,non-rheumatic valvular heart disease,westmidlands,56.39166782348503,93399.4245124342
 YLLs (Years of Life Lost),Male,50 to 54,other road injuries,westmidlands,1.3754125436323568,93399.42451243417
 YLLs (Years of Life Lost),Male,50 to 54,other transport injuries,westmidlands,16.56204049612786,93399.4245124341
 YLLs (Years of Life Lost),Male,50 to 54,parkinson's disease,westmidlands,24.25252211124545,93399.42451243407
 YLLs (Years of Life Lost),Male,50 to 54,pedestrian road injuries,westmidlands,54.48658084842182,93399.42451243405
 YLLs (Years of Life Lost),Male,50 to 54,prostate cancer,westmidlands,136.0448454661896,93399.42451243405
+YLLs (Years of Life Lost),Male,50 to 54,rheumatic heart disease,westmidlands,20.21562457040407,93399.42451243414
 YLLs (Years of Life Lost),Male,50 to 54,road injuries,westmidlands,184.07669282180936,93399.42451243415
 YLLs (Years of Life Lost),Male,50 to 54,stomach cancer,westmidlands,242.22521703783812,93399.42451243408
 YLLs (Years of Life Lost),Male,50 to 54,stroke,westmidlands,590.088149137192,93399.42451243407
@@ -1823,6 +2024,7 @@ YLLs (Years of Life Lost),Male,55 to 59,all causes,westmidlands,18148.5403478905
 YLLs (Years of Life Lost),Male,55 to 59,alzheimer's disease and other dementias,westmidlands,77.15827421461736,83132.86137105485
 YLLs (Years of Life Lost),Male,55 to 59,bladder cancer,westmidlands,158.29391834360723,83132.86137105493
 YLLs (Years of Life Lost),Male,55 to 59,breast cancer,westmidlands,7.499111758665163,83132.861371055
+YLLs (Years of Life Lost),Male,55 to 59,cardiomyopathy and myocarditis,westmidlands,186.36714039846183,83132.86137105487
 YLLs (Years of Life Lost),Male,55 to 59,cardiovascular diseases,westmidlands,5299.159505364566,83132.86137105491
 YLLs (Years of Life Lost),Male,55 to 59,chronic myeloid leukemia,westmidlands,7.823198500024818,83132.86137105494
 YLLs (Years of Life Lost),Male,55 to 59,chronic obstructive pulmonary disease,westmidlands,678.9382409573825,83132.86137105488
@@ -1838,11 +2040,13 @@ YLLs (Years of Life Lost),Male,55 to 59,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,55 to 59,motorcyclist road injuries,westmidlands,24.322400692970884,83132.86137105491
 YLLs (Years of Life Lost),Male,55 to 59,multiple myeloma,westmidlands,133.05868306296475,83132.86137105495
 YLLs (Years of Life Lost),Male,55 to 59,neoplasms,westmidlands,6935.895172938696,83132.86137105488
+YLLs (Years of Life Lost),Male,55 to 59,non-rheumatic valvular heart disease,westmidlands,74.60142812691154,83132.86137105487
 YLLs (Years of Life Lost),Male,55 to 59,other road injuries,westmidlands,0.988981644041815,83132.86137105494
 YLLs (Years of Life Lost),Male,55 to 59,other transport injuries,westmidlands,12.882457910243524,83132.8613710549
 YLLs (Years of Life Lost),Male,55 to 59,parkinson's disease,westmidlands,38.47151797620455,83132.86137105493
 YLLs (Years of Life Lost),Male,55 to 59,pedestrian road injuries,westmidlands,44.50399481095639,83132.86137105491
 YLLs (Years of Life Lost),Male,55 to 59,prostate cancer,westmidlands,279.1166750725594,83132.86137105495
+YLLs (Years of Life Lost),Male,55 to 59,rheumatic heart disease,westmidlands,24.872754293101288,83132.8613710549
 YLLs (Years of Life Lost),Male,55 to 59,road injuries,westmidlands,141.93496541315267,83132.86137105494
 YLLs (Years of Life Lost),Male,55 to 59,stomach cancer,westmidlands,320.3952984963753,83132.86137105484
 YLLs (Years of Life Lost),Male,55 to 59,stroke,westmidlands,720.7417666962132,83132.86137105495
@@ -1851,6 +2055,7 @@ YLLs (Years of Life Lost),Male,60 to 64,all causes,westmidlands,21078.3773603782
 YLLs (Years of Life Lost),Male,60 to 64,alzheimer's disease and other dementias,westmidlands,122.19851519541628,69556.2420460512
 YLLs (Years of Life Lost),Male,60 to 64,bladder cancer,westmidlands,248.75355812444027,69556.24204605127
 YLLs (Years of Life Lost),Male,60 to 64,breast cancer,westmidlands,8.707273721376469,69556.2420460512
+YLLs (Years of Life Lost),Male,60 to 64,cardiomyopathy and myocarditis,westmidlands,165.97657873320568,69556.24204605124
 YLLs (Years of Life Lost),Male,60 to 64,cardiovascular diseases,westmidlands,5984.474153223417,69556.24204605124
 YLLs (Years of Life Lost),Male,60 to 64,chronic myeloid leukemia,westmidlands,9.14374241078433,69556.2420460513
 YLLs (Years of Life Lost),Male,60 to 64,chronic obstructive pulmonary disease,westmidlands,1294.072972757402,69556.24204605121
@@ -1866,11 +2071,13 @@ YLLs (Years of Life Lost),Male,60 to 64,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,60 to 64,motorcyclist road injuries,westmidlands,11.480557181193177,69556.24204605128
 YLLs (Years of Life Lost),Male,60 to 64,multiple myeloma,westmidlands,168.4662443878001,69556.24204605125
 YLLs (Years of Life Lost),Male,60 to 64,neoplasms,westmidlands,9114.336572876991,69556.24204605122
+YLLs (Years of Life Lost),Male,60 to 64,non-rheumatic valvular heart disease,westmidlands,90.30671638546782,69556.24204605124
 YLLs (Years of Life Lost),Male,60 to 64,other road injuries,westmidlands,0.5534155229251454,69556.24204605122
 YLLs (Years of Life Lost),Male,60 to 64,other transport injuries,westmidlands,10.020987769809981,69556.24204605118
 YLLs (Years of Life Lost),Male,60 to 64,parkinson's disease,westmidlands,83.89976049531288,69556.24204605118
 YLLs (Years of Life Lost),Male,60 to 64,pedestrian road injuries,westmidlands,35.328294316825854,69556.2420460512
 YLLs (Years of Life Lost),Male,60 to 64,prostate cancer,westmidlands,599.8877887273676,69556.24204605118
+YLLs (Years of Life Lost),Male,60 to 64,rheumatic heart disease,westmidlands,26.716818161938885,69556.24204605121
 YLLs (Years of Life Lost),Male,60 to 64,road injuries,westmidlands,95.196717365811807,69556.2420460513
 YLLs (Years of Life Lost),Male,60 to 64,stomach cancer,westmidlands,386.60511133892834,69556.2420460512
 YLLs (Years of Life Lost),Male,60 to 64,stroke,westmidlands,789.9657467240115,69556.24204605118
@@ -1879,6 +2086,7 @@ YLLs (Years of Life Lost),Male,65 to 69,all causes,westmidlands,23459.8189036999
 YLLs (Years of Life Lost),Male,65 to 69,alzheimer's disease and other dementias,westmidlands,204.45372464640047,59710.539181317195
 YLLs (Years of Life Lost),Male,65 to 69,bladder cancer,westmidlands,324.4009078251446,59710.53918131723
 YLLs (Years of Life Lost),Male,65 to 69,breast cancer,westmidlands,9.280621831126885,59710.5391813172
+YLLs (Years of Life Lost),Male,65 to 69,cardiomyopathy and myocarditis,westmidlands,153.70766942028212,59710.53918131718
 YLLs (Years of Life Lost),Male,65 to 69,cardiovascular diseases,westmidlands,6591.338484200379,59710.53918131722
 YLLs (Years of Life Lost),Male,65 to 69,chronic myeloid leukemia,westmidlands,10.925445865319812,59710.53918131728
 YLLs (Years of Life Lost),Male,65 to 69,chronic obstructive pulmonary disease,westmidlands,1757.461704703941,59710.539181317195
@@ -1894,11 +2102,13 @@ YLLs (Years of Life Lost),Male,65 to 69,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,65 to 69,motorcyclist road injuries,westmidlands,6.003295227241878,59710.5391813172
 YLLs (Years of Life Lost),Male,65 to 69,multiple myeloma,westmidlands,201.26211121571413,59710.539181317145
 YLLs (Years of Life Lost),Male,65 to 69,neoplasms,westmidlands,10438.203369911795,59710.53918131719
+YLLs (Years of Life Lost),Male,65 to 69,non-rheumatic valvular heart disease,westmidlands,114.63381040378877,59710.53918131723
 YLLs (Years of Life Lost),Male,65 to 69,other road injuries,westmidlands,0.34535071017200575,59710.53918131722
 YLLs (Years of Life Lost),Male,65 to 69,other transport injuries,westmidlands,7.170330969699878,59710.53918131722
 YLLs (Years of Life Lost),Male,65 to 69,parkinson's disease,westmidlands,175.60448589383552,59710.53918131718
 YLLs (Years of Life Lost),Male,65 to 69,pedestrian road injuries,westmidlands,29.476326523196118,59710.5391813172
 YLLs (Years of Life Lost),Male,65 to 69,prostate cancer,westmidlands,926.4895050122467,59710.539181317254
+YLLs (Years of Life Lost),Male,65 to 69,rheumatic heart disease,westmidlands,31.685855812119694,59710.53918131721
 YLLs (Years of Life Lost),Male,65 to 69,road injuries,westmidlands,71.48431271187492,59710.53918131723
 YLLs (Years of Life Lost),Male,65 to 69,stomach cancer,westmidlands,461.4836785362388,59710.53918131718
 YLLs (Years of Life Lost),Male,65 to 69,stroke,westmidlands,979.571071855691,59710.539181317195
@@ -1907,6 +2117,7 @@ YLLs (Years of Life Lost),Male,70 to 74,all causes,westmidlands,27704.2073865141
 YLLs (Years of Life Lost),Male,70 to 74,alzheimer's disease and other dementias,westmidlands,384.3014297857789,55646.84287445952
 YLLs (Years of Life Lost),Male,70 to 74,bladder cancer,westmidlands,443.6515144844533,55646.84287445957
 YLLs (Years of Life Lost),Male,70 to 74,breast cancer,westmidlands,10.70157346456926,55646.84287445958
+YLLs (Years of Life Lost),Male,70 to 74,cardiomyopathy and myocarditis,westmidlands,142.29640878109836,55646.84287445957
 YLLs (Years of Life Lost),Male,70 to 74,cardiovascular diseases,westmidlands,8188.51360327202,55646.84287445955
 YLLs (Years of Life Lost),Male,70 to 74,chronic myeloid leukemia,westmidlands,13.080151514724001,55646.84287445955
 YLLs (Years of Life Lost),Male,70 to 74,chronic obstructive pulmonary disease,westmidlands,2396.013386294952,55646.84287445954
@@ -1922,11 +2133,13 @@ YLLs (Years of Life Lost),Male,70 to 74,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,70 to 74,motorcyclist road injuries,westmidlands,2.496481011652011,55646.84287445957
 YLLs (Years of Life Lost),Male,70 to 74,multiple myeloma,westmidlands,251.00255496062215,55646.84287445957
 YLLs (Years of Life Lost),Male,70 to 74,neoplasms,westmidlands,11611.632848427109,55646.842874459544
+YLLs (Years of Life Lost),Male,70 to 74,non-rheumatic valvular heart disease,westmidlands,168.508743024918,55646.84287445953
 YLLs (Years of Life Lost),Male,70 to 74,other road injuries,westmidlands,0.23301018478027338,55646.842874459624
 YLLs (Years of Life Lost),Male,70 to 74,other transport injuries,westmidlands,5.136167457230243,55646.84287445959
 YLLs (Years of Life Lost),Male,70 to 74,parkinson's disease,westmidlands,394.98595708873296,55646.84287445959
 YLLs (Years of Life Lost),Male,70 to 74,pedestrian road injuries,westmidlands,28.4386159617568,55646.84287445956
 YLLs (Years of Life Lost),Male,70 to 74,prostate cancer,westmidlands,1306.7470670982848,55646.842874459595
+YLLs (Years of Life Lost),Male,70 to 74,rheumatic heart disease,westmidlands,43.55997732471943,55646.84287445954
 YLLs (Years of Life Lost),Male,70 to 74,road injuries,westmidlands,60.41016491448054,55646.84287445959
 YLLs (Years of Life Lost),Male,70 to 74,stomach cancer,westmidlands,566.8317468987013,55646.8428744596
 YLLs (Years of Life Lost),Male,70 to 74,stroke,westmidlands,1490.360672992522,55646.84287445954
@@ -1935,6 +2148,7 @@ YLLs (Years of Life Lost),Male,75 to 79,all causes,westmidlands,26325.0143856855
 YLLs (Years of Life Lost),Male,75 to 79,alzheimer's disease and other dementias,westmidlands,572.4189806960368,40187.4768715133
 YLLs (Years of Life Lost),Male,75 to 79,bladder cancer,westmidlands,452.31517344610353,40187.476871513325
 YLLs (Years of Life Lost),Male,75 to 79,breast cancer,westmidlands,8.477774704889907,40187.47687151331
+YLLs (Years of Life Lost),Male,75 to 79,cardiomyopathy and myocarditis,westmidlands,120.43249786033644,40187.476871513296
 YLLs (Years of Life Lost),Male,75 to 79,cardiovascular diseases,westmidlands,8005.376789863538,40187.4768715133
 YLLs (Years of Life Lost),Male,75 to 79,chronic myeloid leukemia,westmidlands,12.601386633186102,40187.47687151333
 YLLs (Years of Life Lost),Male,75 to 79,chronic obstructive pulmonary disease,westmidlands,2443.7000860592652,40187.4768715133
@@ -1950,11 +2164,13 @@ YLLs (Years of Life Lost),Male,75 to 79,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,75 to 79,motorcyclist road injuries,westmidlands,1.1034952557587914,40187.476871513296
 YLLs (Years of Life Lost),Male,75 to 79,multiple myeloma,westmidlands,213.6030371470004,40187.47687151332
 YLLs (Years of Life Lost),Male,75 to 79,neoplasms,westmidlands,9943.671968863144,40187.47687151332
+YLLs (Years of Life Lost),Male,75 to 79,non-rheumatic valvular heart disease,westmidlands,190.82850774127175,40187.47687151329
 YLLs (Years of Life Lost),Male,75 to 79,other road injuries,westmidlands,0.16435108348725808,40187.47687151331
 YLLs (Years of Life Lost),Male,75 to 79,other transport injuries,westmidlands,3.1575874692845147,40187.4768715133
 YLLs (Years of Life Lost),Male,75 to 79,parkinson's disease,westmidlands,587.4796500338007,40187.476871513296
 YLLs (Years of Life Lost),Male,75 to 79,pedestrian road injuries,westmidlands,26.187916778338398,40187.476871513296
 YLLs (Years of Life Lost),Male,75 to 79,prostate cancer,westmidlands,1591.4981286433804,40187.4768715133
+YLLs (Years of Life Lost),Male,75 to 79,rheumatic heart disease,westmidlands,44.949762336690725,40187.47687151332
 YLLs (Years of Life Lost),Male,75 to 79,road injuries,westmidlands,49.90736836183336,40187.47687151328
 YLLs (Years of Life Lost),Male,75 to 79,stomach cancer,westmidlands,519.1744117519748,40187.47687151329
 YLLs (Years of Life Lost),Male,75 to 79,stroke,westmidlands,1770.1560128869778,40187.47687151329
@@ -1963,6 +2179,7 @@ YLLs (Years of Life Lost),Male,80 to 84,all causes,westmidlands,24440.4238895917
 YLLs (Years of Life Lost),Male,80 to 84,alzheimer's disease and other dementias,westmidlands,1082.0228540628227,28320.661702422367
 YLLs (Years of Life Lost),Male,80 to 84,bladder cancer,westmidlands,436.5418841823408,28320.661702422396
 YLLs (Years of Life Lost),Male,80 to 84,breast cancer,westmidlands,5.762816273005912,28320.661702422392
+YLLs (Years of Life Lost),Male,80 to 84,cardiomyopathy and myocarditis,westmidlands,108.97660197665908,28320.661702422378
 YLLs (Years of Life Lost),Male,80 to 84,cardiovascular diseases,westmidlands,7772.56706105455,28320.661702422363
 YLLs (Years of Life Lost),Male,80 to 84,chronic myeloid leukemia,westmidlands,10.768609725230245,28320.66170242238
 YLLs (Years of Life Lost),Male,80 to 84,chronic obstructive pulmonary disease,westmidlands,2257.4135793709956,28320.66170242237
@@ -1978,11 +2195,13 @@ YLLs (Years of Life Lost),Male,80 to 84,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,80 to 84,motorcyclist road injuries,westmidlands,0.4808611908824075,28320.66170242237
 YLLs (Years of Life Lost),Male,80 to 84,multiple myeloma,westmidlands,167.98572854747738,28320.66170242239
 YLLs (Years of Life Lost),Male,80 to 84,neoplasms,westmidlands,7725.119043345005,28320.661702422352
+YLLs (Years of Life Lost),Male,80 to 84,non-rheumatic valvular heart disease,westmidlands,219.60919470287868,28320.661702422396
 YLLs (Years of Life Lost),Male,80 to 84,other road injuries,westmidlands,0.09895112269175584,28320.661702422385
 YLLs (Years of Life Lost),Male,80 to 84,other transport injuries,westmidlands,1.8548796875281655,28320.661702422378
 YLLs (Years of Life Lost),Male,80 to 84,parkinson's disease,westmidlands,573.3209902036165,28320.661702422363
 YLLs (Years of Life Lost),Male,80 to 84,pedestrian road injuries,westmidlands,19.989465244999934,28320.661702422352
 YLLs (Years of Life Lost),Male,80 to 84,prostate cancer,westmidlands,1554.2159227595093,28320.661702422367
+YLLs (Years of Life Lost),Male,80 to 84,rheumatic heart disease,westmidlands,41.54782830319396,28320.661702422363
 YLLs (Years of Life Lost),Male,80 to 84,road injuries,westmidlands,37.778359824173094,28320.66170242238
 YLLs (Years of Life Lost),Male,80 to 84,stomach cancer,westmidlands,431.52588479292706,28320.66170242236
 YLLs (Years of Life Lost),Male,80 to 84,stroke,westmidlands,1926.715163850129,28320.661702422367
@@ -1991,6 +2210,7 @@ YLLs (Years of Life Lost),Male,85 to 89,all causes,westmidlands,17767.2660371116
 YLLs (Years of Life Lost),Male,85 to 89,alzheimer's disease and other dementias,westmidlands,1112.2750074077978,15314.0691576652
 YLLs (Years of Life Lost),Male,85 to 89,bladder cancer,westmidlands,311.6508845043425,15314.069157665188
 YLLs (Years of Life Lost),Male,85 to 89,breast cancer,westmidlands,4.405115792153959,15314.069157665195
+YLLs (Years of Life Lost),Male,85 to 89,cardiomyopathy and myocarditis,westmidlands,89.68331724219452,15314.069157665186
 YLLs (Years of Life Lost),Male,85 to 89,cardiovascular diseases,westmidlands,5726.283495423908,15314.069157665188
 YLLs (Years of Life Lost),Male,85 to 89,chronic myeloid leukemia,westmidlands,8.81883228775798,15314.069157665188
 YLLs (Years of Life Lost),Male,85 to 89,chronic obstructive pulmonary disease,westmidlands,1539.9737722077184,15314.069157665184
@@ -2006,11 +2226,13 @@ YLLs (Years of Life Lost),Male,85 to 89,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,85 to 89,motorcyclist road injuries,westmidlands,0.1862683647468688,15314.069157665197
 YLLs (Years of Life Lost),Male,85 to 89,multiple myeloma,westmidlands,97.70376910788157,15314.069157665188
 YLLs (Years of Life Lost),Male,85 to 89,neoplasms,westmidlands,4763.715224085622,15314.069157665184
+YLLs (Years of Life Lost),Male,85 to 89,non-rheumatic valvular heart disease,westmidlands,191.257651640234,15314.069157665188
 YLLs (Years of Life Lost),Male,85 to 89,other road injuries,westmidlands,0.04108326936922526,15314.069157665208
 YLLs (Years of Life Lost),Male,85 to 89,other transport injuries,westmidlands,0.8043067513501864,15314.069157665188
 YLLs (Years of Life Lost),Male,85 to 89,parkinson's disease,westmidlands,380.983026787702,15314.06915766518
 YLLs (Years of Life Lost),Male,85 to 89,pedestrian road injuries,westmidlands,12.297962797989433,15314.06915766519
 YLLs (Years of Life Lost),Male,85 to 89,prostate cancer,westmidlands,1181.949294084682,15314.069157665206
+YLLs (Years of Life Lost),Male,85 to 89,rheumatic heart disease,westmidlands,29.080182674275832,15314.069157665193
 YLLs (Years of Life Lost),Male,85 to 89,road injuries,westmidlands,22.647007693441566,15314.069157665173
 YLLs (Years of Life Lost),Male,85 to 89,stomach cancer,westmidlands,258.16270423104385,15314.069157665193
 YLLs (Years of Life Lost),Male,85 to 89,stroke,westmidlands,1527.1281514072325,15314.06915766519
@@ -2019,6 +2241,7 @@ YLLs (Years of Life Lost),Male,90 to 94,all causes,westmidlands,8883.96906464428
 YLLs (Years of Life Lost),Male,90 to 94,alzheimer's disease and other dementias,westmidlands,684.5349389028435,5769.0461938157305
 YLLs (Years of Life Lost),Male,90 to 94,bladder cancer,westmidlands,143.07818650186442,5769.0461938157305
 YLLs (Years of Life Lost),Male,90 to 94,breast cancer,westmidlands,2.1856413332878644,5769.046193815735
+YLLs (Years of Life Lost),Male,90 to 94,cardiomyopathy and myocarditis,westmidlands,52.62457049305255,5769.046193815733
 YLLs (Years of Life Lost),Male,90 to 94,cardiovascular diseases,westmidlands,2989.671148100724,5769.046193815736
 YLLs (Years of Life Lost),Male,90 to 94,chronic myeloid leukemia,westmidlands,3.474453922624634,5769.046193815732
 YLLs (Years of Life Lost),Male,90 to 94,chronic obstructive pulmonary disease,westmidlands,712.3960519752444,5769.046193815728
@@ -2034,11 +2257,13 @@ YLLs (Years of Life Lost),Male,90 to 94,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,90 to 94,motorcyclist road injuries,westmidlands,0.10589765804669406,5769.046193815735
 YLLs (Years of Life Lost),Male,90 to 94,multiple myeloma,westmidlands,29.842028382736327,5769.0461938157305
 YLLs (Years of Life Lost),Male,90 to 94,neoplasms,westmidlands,1868.7327738725437,5769.046193815725
+YLLs (Years of Life Lost),Male,90 to 94,non-rheumatic valvular heart disease,westmidlands,105.78295415428617,5769.046193815731
 YLLs (Years of Life Lost),Male,90 to 94,other road injuries,westmidlands,0.025613736192754283,5769.046193815735
 YLLs (Years of Life Lost),Male,90 to 94,other transport injuries,westmidlands,0.33199321338040766,5769.046193815728
 YLLs (Years of Life Lost),Male,90 to 94,parkinson's disease,westmidlands,145.4637172253805,5769.046193815731
 YLLs (Years of Life Lost),Male,90 to 94,pedestrian road injuries,westmidlands,4.791049041765338,5769.0461938157305
 YLLs (Years of Life Lost),Male,90 to 94,prostate cancer,westmidlands,549.8271391943688,5769.046193815726
+YLLs (Years of Life Lost),Male,90 to 94,rheumatic heart disease,westmidlands,13.468943242572202,5769.046193815726
 YLLs (Years of Life Lost),Male,90 to 94,road injuries,westmidlands,8.61812553504713,5769.046193815725
 YLLs (Years of Life Lost),Male,90 to 94,stomach cancer,westmidlands,96.19580787218956,5769.04619381573
 YLLs (Years of Life Lost),Male,90 to 94,stroke,westmidlands,868.6820847460845,5769.04619381573
@@ -2047,6 +2272,7 @@ YLLs (Years of Life Lost),Male,95 to 99,all causes,westmidlands,2186.10292554814
 YLLs (Years of Life Lost),Male,95 to 99,alzheimer's disease and other dementias,westmidlands,191.36300402051296,1157.4770691267702
 YLLs (Years of Life Lost),Male,95 to 99,bladder cancer,westmidlands,30.5218655769821,1157.4770691267722
 YLLs (Years of Life Lost),Male,95 to 99,breast cancer,westmidlands,0.4645619690593139,1157.4770691267713
+YLLs (Years of Life Lost),Male,95 to 99,cardiomyopathy and myocarditis,westmidlands,14.509192761187016,1157.4770691267734
 YLLs (Years of Life Lost),Male,95 to 99,cardiovascular diseases,westmidlands,756.0049070783214,1157.4770691267724
 YLLs (Years of Life Lost),Male,95 to 99,chronic myeloid leukemia,westmidlands,0.6894717535173402,1157.4770691267706
 YLLs (Years of Life Lost),Male,95 to 99,chronic obstructive pulmonary disease,westmidlands,175.1903991996684,1157.4770691267731
@@ -2062,11 +2288,13 @@ YLLs (Years of Life Lost),Male,95 to 99,motor vehicle road injuries,westmidlands
 YLLs (Years of Life Lost),Male,95 to 99,motorcyclist road injuries,westmidlands,0.04070201781166647,1157.4770691267731
 YLLs (Years of Life Lost),Male,95 to 99,multiple myeloma,westmidlands,6.142742353412111,1157.4770691267713
 YLLs (Years of Life Lost),Male,95 to 99,neoplasms,westmidlands,380.6617603498902,1157.4770691267722
+YLLs (Years of Life Lost),Male,95 to 99,non-rheumatic valvular heart disease,westmidlands,25.263992173842002,1157.4770691267727
 YLLs (Years of Life Lost),Male,95 to 99,other road injuries,westmidlands,0.01174271604606313,1157.4770691267727
 YLLs (Years of Life Lost),Male,95 to 99,other transport injuries,westmidlands,0.07735854393398318,1157.4770691267718
 YLLs (Years of Life Lost),Male,95 to 99,parkinson's disease,westmidlands,21.402186468425352,1157.477069126771
 YLLs (Years of Life Lost),Male,95 to 99,pedestrian road injuries,westmidlands,1.1039401181080497,1157.4770691267713
 YLLs (Years of Life Lost),Male,95 to 99,prostate cancer,westmidlands,114.47122435461579,1157.4770691267722
+YLLs (Years of Life Lost),Male,95 to 99,rheumatic heart disease,westmidlands,3.0886412148201012,1157.4770691267722
 YLLs (Years of Life Lost),Male,95 to 99,road injuries,westmidlands,1.9272437079965439,1157.4770691267718
 YLLs (Years of Life Lost),Male,95 to 99,stomach cancer,westmidlands,19.98474018411498,1157.477069126773
 YLLs (Years of Life Lost),Male,95 to 99,stroke,westmidlands,227.20280513426164,1157.4770691267724

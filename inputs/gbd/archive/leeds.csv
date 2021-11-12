@@ -1,0 +1,1079 @@
+measure_name,sex_name,age_name,cause_name,cityregion,val,population_number
+Deaths,Female,10 to 14,All causes,leeds,6.369254567041608,70157.73829478935
+Deaths,Female,10 to 14,Cardiovascular diseases,leeds,0.2534679772157666,70157.73829478935
+Deaths,Female,10 to 14,Chronic obstructive pulmonary disease,leeds,0.05380226199659696,70157.73829478935
+Deaths,Female,10 to 14,Liver cancer,leeds,0.03167520570864702,70157.73829478935
+Deaths,Female,10 to 14,Lower respiratory infections,leeds,0.2311748612443274,70157.73829478935
+Deaths,Female,10 to 14,Neoplasms,leeds,1.9089970374310916,70157.73829478935
+Deaths,Female,10 to 14,Road injuries,leeds,0.6098239348965775,70157.73829478935
+Deaths,Female,10 to 14,Stroke,leeds,0.0938518032206393,70157.73829478935
+Deaths,Female,15 to 19,All causes,leeds,9.956914317636187,68855.23487886251
+Deaths,Female,15 to 19,Breast cancer,leeds,0.011482230002474867,68855.23487886251
+Deaths,Female,15 to 19,Cardiovascular diseases,leeds,0.54068154931884,68855.23487886251
+Deaths,Female,15 to 19,Chronic obstructive pulmonary disease,leeds,0.06268978499913412,68855.23487886251
+Deaths,Female,15 to 19,Colon and rectum cancer,leeds,0.016766003321027026,68855.23487886251
+Deaths,Female,15 to 19,Diabetes mellitus type 2,leeds,0.007067543112828273,68855.23487886251
+Deaths,Female,15 to 19,Ischemic heart disease,leeds,0.04658281324031977,68855.23487886251
+Deaths,Female,15 to 19,Liver cancer,leeds,0.05834599647440028,68855.23487886251
+Deaths,Female,15 to 19,Lower respiratory infections,leeds,0.2312586243648446,68855.23487886251
+Deaths,Female,15 to 19,Neoplasms,leeds,1.8712106943327964,68855.23487886251
+Deaths,Female,15 to 19,Road injuries,leeds,1.5451064343911896,68855.23487886251
+Deaths,Female,15 to 19,Stomach cancer,leeds,0.009795582206483938,68855.23487886251
+Deaths,Female,15 to 19,Stroke,leeds,0.16476048011864092,68855.23487886251
+Deaths,Female,15 to 19,"Tracheal, bronchus, and lung cancer",leeds,0.024007802397882597,68855.23487886251
+Deaths,Female,15 to 19,Uterine cancer,leeds,0.006034025348857436,68855.23487886251
+Deaths,Female,20 to 24,All causes,leeds,17.360035946227356,78179.81922340549
+Deaths,Female,20 to 24,Breast cancer,leeds,0.07473786670621624,78179.81922340549
+Deaths,Female,20 to 24,Cardiovascular diseases,leeds,1.28683226997131,78179.81922340549
+Deaths,Female,20 to 24,Chronic obstructive pulmonary disease,leeds,0.09577681696904916,78179.81922340549
+Deaths,Female,20 to 24,Colon and rectum cancer,leeds,0.0978480401120161,78179.81922340549
+Deaths,Female,20 to 24,Diabetes mellitus type 2,leeds,0.012310305749766076,78179.81922340549
+Deaths,Female,20 to 24,Ischemic heart disease,leeds,0.14598880237584824,78179.81922340549
+Deaths,Female,20 to 24,Liver cancer,leeds,0.08357553510356092,78179.81922340549
+Deaths,Female,20 to 24,Lower respiratory infections,leeds,0.4196562487480133,78179.81922340549
+Deaths,Female,20 to 24,Neoplasms,leeds,3.2041831821883857,78179.81922340549
+Deaths,Female,20 to 24,Road injuries,leeds,1.8765888884310749,78179.81922340549
+Deaths,Female,20 to 24,Stomach cancer,leeds,0.03776292822071755,78179.81922340549
+Deaths,Female,20 to 24,Stroke,leeds,0.43225007990673303,78179.81922340549
+Deaths,Female,20 to 24,"Tracheal, bronchus, and lung cancer",leeds,0.060056229494392946,78179.81922340549
+Deaths,Female,20 to 24,Uterine cancer,leeds,0.011602445462477186,78179.81922340549
+Deaths,Female,25 to 29,All causes,leeds,25.52594911358969,87634.94827588307
+Deaths,Female,25 to 29,Breast cancer,leeds,0.6691679103686401,87634.94827588307
+Deaths,Female,25 to 29,Cardiovascular diseases,leeds,2.145619252139838,87634.94827588307
+Deaths,Female,25 to 29,Chronic obstructive pulmonary disease,leeds,0.12871391888144057,87634.94827588307
+Deaths,Female,25 to 29,Colon and rectum cancer,leeds,0.3155688216285198,87634.94827588307
+Deaths,Female,25 to 29,Diabetes mellitus type 2,leeds,0.022905176927707376,87634.94827588307
+Deaths,Female,25 to 29,Ischemic heart disease,leeds,0.3050036797603109,87634.94827588307
+Deaths,Female,25 to 29,Liver cancer,leeds,0.15181657723329894,87634.94827588307
+Deaths,Female,25 to 29,Lower respiratory infections,leeds,0.6243862232790869,87634.94827588307
+Deaths,Female,25 to 29,Neoplasms,leeds,6.402474367037255,87634.94827588307
+Deaths,Female,25 to 29,Road injuries,leeds,1.5268615183345113,87634.94827588307
+Deaths,Female,25 to 29,Stomach cancer,leeds,0.15885110813790626,87634.94827588307
+Deaths,Female,25 to 29,Stroke,leeds,0.782209381112697,87634.94827588307
+Deaths,Female,25 to 29,"Tracheal, bronchus, and lung cancer",leeds,0.15696554304424495,87634.94827588307
+Deaths,Female,25 to 29,Uterine cancer,leeds,0.033543418450262784,87634.94827588307
+Deaths,Female,30 to 34,All causes,leeds,35.29914052930057,84015.39131287398
+Deaths,Female,30 to 34,Breast cancer,leeds,2.4886440485755243,84015.39131287398
+Deaths,Female,30 to 34,Cardiovascular diseases,leeds,3.5926147957521066,84015.39131287398
+Deaths,Female,30 to 34,Chronic obstructive pulmonary disease,leeds,0.1799551151833999,84015.39131287398
+Deaths,Female,30 to 34,Colon and rectum cancer,leeds,0.7661045882632513,84015.39131287398
+Deaths,Female,30 to 34,Diabetes mellitus type 2,leeds,0.06098136759147436,84015.39131287398
+Deaths,Female,30 to 34,Ischemic heart disease,leeds,0.8314323530400364,84015.39131287398
+Deaths,Female,30 to 34,Liver cancer,leeds,0.19971739112578957,84015.39131287398
+Deaths,Female,30 to 34,Lower respiratory infections,leeds,0.8331149191359669,84015.39131287398
+Deaths,Female,30 to 34,Neoplasms,leeds,11.326275846908809,84015.39131287398
+Deaths,Female,30 to 34,Road injuries,leeds,1.1199713695048774,84015.39131287398
+Deaths,Female,30 to 34,Stomach cancer,leeds,0.38319012903916083,84015.39131287398
+Deaths,Female,30 to 34,Stroke,leeds,1.2890296990201384,84015.39131287398
+Deaths,Female,30 to 34,"Tracheal, bronchus, and lung cancer",leeds,0.5309005653073513,84015.39131287398
+Deaths,Female,30 to 34,Uterine cancer,leeds,0.05907271997009392,84015.39131287398
+Deaths,Female,35 to 39,All causes,leeds,58.93520787915791,79503.34239509758
+Deaths,Female,35 to 39,Breast cancer,leeds,6.77356731200448,79503.34239509758
+Deaths,Female,35 to 39,Cardiovascular diseases,leeds,7.184008502241305,79503.34239509758
+Deaths,Female,35 to 39,Chronic obstructive pulmonary disease,leeds,0.4132283937001032,79503.34239509758
+Deaths,Female,35 to 39,Colon and rectum cancer,leeds,1.4883074766010793,79503.34239509758
+Deaths,Female,35 to 39,Diabetes mellitus type 2,leeds,0.10590311135184843,79503.34239509758
+Deaths,Female,35 to 39,Ischemic heart disease,leeds,2.2298024021885565,79503.34239509758
+Deaths,Female,35 to 39,Liver cancer,leeds,0.3574157337753947,79503.34239509758
+Deaths,Female,35 to 39,Lower respiratory infections,leeds,1.501483153159664,79503.34239509758
+Deaths,Female,35 to 39,Neoplasms,leeds,22.090681911082196,79503.34239509758
+Deaths,Female,35 to 39,Road injuries,leeds,1.1658540228692509,79503.34239509758
+Deaths,Female,35 to 39,Stomach cancer,leeds,0.7039151578981343,79503.34239509758
+Deaths,Female,35 to 39,Stroke,leeds,2.5542712373685443,79503.34239509758
+Deaths,Female,35 to 39,"Tracheal, bronchus, and lung cancer",leeds,1.3375745485179893,79503.34239509758
+Deaths,Female,35 to 39,Uterine cancer,leeds,0.135736216013479,79503.34239509758
+Deaths,Female,40 to 44,All causes,leeds,84.24932744464647,72459.6099674442
+Deaths,Female,40 to 44,Breast cancer,leeds,11.280695605867267,72459.6099674442
+Deaths,Female,40 to 44,Cardiovascular diseases,leeds,12.231576171238228,72459.6099674442
+Deaths,Female,40 to 44,Chronic obstructive pulmonary disease,leeds,1.0988757025528801,72459.6099674442
+Deaths,Female,40 to 44,Colon and rectum cancer,leeds,2.5194508180201214,72459.6099674442
+Deaths,Female,40 to 44,Diabetes mellitus type 2,leeds,0.14739562967002873,72459.6099674442
+Deaths,Female,40 to 44,Ischemic heart disease,leeds,4.4196543975874025,72459.6099674442
+Deaths,Female,40 to 44,Liver cancer,leeds,0.559081454742571,72459.6099674442
+Deaths,Female,40 to 44,Lower respiratory infections,leeds,2.227223702836731,72459.6099674442
+Deaths,Female,40 to 44,Neoplasms,leeds,35.29273069272842,72459.6099674442
+Deaths,Female,40 to 44,Road injuries,leeds,1.087374696792169,72459.6099674442
+Deaths,Female,40 to 44,Stomach cancer,leeds,1.2019418352895688,72459.6099674442
+Deaths,Female,40 to 44,Stroke,leeds,4.100246718229366,72459.6099674442
+Deaths,Female,40 to 44,"Tracheal, bronchus, and lung cancer",leeds,3.453227963918156,72459.6099674442
+Deaths,Female,40 to 44,Uterine cancer,leeds,0.3077749366694649,72459.6099674442
+Deaths,Female,45 to 49,All causes,leeds,126.27547490727237,80512.37085578268
+Deaths,Female,45 to 49,Breast cancer,leeds,17.99570498007951,80512.37085578268
+Deaths,Female,45 to 49,Cardiovascular diseases,leeds,19.156980875649786,80512.37085578268
+Deaths,Female,45 to 49,Chronic obstructive pulmonary disease,leeds,2.3981308911823036,80512.37085578268
+Deaths,Female,45 to 49,Colon and rectum cancer,leeds,4.485206546400502,80512.37085578268
+Deaths,Female,45 to 49,Diabetes mellitus type 2,leeds,0.504056583767834,80512.37085578268
+Deaths,Female,45 to 49,Ischemic heart disease,leeds,7.929678193280419,80512.37085578268
+Deaths,Female,45 to 49,Liver cancer,leeds,1.0201199733765298,80512.37085578268
+Deaths,Female,45 to 49,Lower respiratory infections,leeds,3.0448450499693096,80512.37085578268
+Deaths,Female,45 to 49,Neoplasms,leeds,60.27658992303792,80512.37085578268
+Deaths,Female,45 to 49,Road injuries,leeds,1.106494422903687,80512.37085578268
+Deaths,Female,45 to 49,Stomach cancer,leeds,1.5816901523416564,80512.37085578268
+Deaths,Female,45 to 49,Stroke,leeds,5.8336938872780415,80512.37085578268
+Deaths,Female,45 to 49,"Tracheal, bronchus, and lung cancer",leeds,9.093188792609219,80512.37085578268
+Deaths,Female,45 to 49,Uterine cancer,leeds,0.6635385878502855,80512.37085578268
+Deaths,Female,5 to 9,All causes,leeds,6.094000047640814,77400.05723288807
+Deaths,Female,5 to 9,Cardiovascular diseases,leeds,0.2540714783559405,77400.05723288807
+Deaths,Female,5 to 9,Chronic obstructive pulmonary disease,leeds,0.050488805464896626,77400.05723288807
+Deaths,Female,5 to 9,Liver cancer,leeds,0.026697827896700655,77400.05723288807
+Deaths,Female,5 to 9,Lower respiratory infections,leeds,0.30579488047501635,77400.05723288807
+Deaths,Female,5 to 9,Neoplasms,leeds,1.8493014832263643,77400.05723288807
+Deaths,Female,5 to 9,Road injuries,leeds,0.5174115280201037,77400.05723288807
+Deaths,Female,5 to 9,Stroke,leeds,0.08225185729143214,77400.05723288807
+Deaths,Female,50 to 54,All causes,leeds,209.65152481845575,78393.2049040556
+Deaths,Female,50 to 54,Breast cancer,leeds,28.050058380599637,78393.2049040556
+Deaths,Female,50 to 54,Cardiovascular diseases,leeds,33.357082312277626,78393.2049040556
+Deaths,Female,50 to 54,Chronic obstructive pulmonary disease,leeds,6.819762351263083,78393.2049040556
+Deaths,Female,50 to 54,Colon and rectum cancer,leeds,8.513508475256248,78393.2049040556
+Deaths,Female,50 to 54,Diabetes mellitus type 2,leeds,0.777839883227898,78393.2049040556
+Deaths,Female,50 to 54,Ischemic heart disease,leeds,15.402294737908093,78393.2049040556
+Deaths,Female,50 to 54,Liver cancer,leeds,2.2009163496000235,78393.2049040556
+Deaths,Female,50 to 54,Lower respiratory infections,leeds,5.296696021209778,78393.2049040556
+Deaths,Female,50 to 54,Neoplasms,leeds,109.23667859911387,78393.2049040556
+Deaths,Female,50 to 54,Road injuries,leeds,1.2099057440466439,78393.2049040556
+Deaths,Female,50 to 54,Stomach cancer,leeds,2.6839126964173246,78393.2049040556
+Deaths,Female,50 to 54,Stroke,leeds,9.684905844307721,78393.2049040556
+Deaths,Female,50 to 54,"Tracheal, bronchus, and lung cancer",leeds,21.361808466177703,78393.2049040556
+Deaths,Female,50 to 54,Uterine cancer,leeds,1.618781069200883,78393.2049040556
+Deaths,Female,55 to 59,All causes,leeds,282.1911756091421,70298.79690060277
+Deaths,Female,55 to 59,Breast cancer,leeds,30.037272278088604,70298.79690060277
+Deaths,Female,55 to 59,Cardiovascular diseases,leeds,45.29024267322881,70298.79690060277
+Deaths,Female,55 to 59,Chronic obstructive pulmonary disease,leeds,14.238121389821222,70298.79690060277
+Deaths,Female,55 to 59,Colon and rectum cancer,leeds,12.389152346266666,70298.79690060277
+Deaths,Female,55 to 59,Diabetes mellitus type 2,leeds,1.108629007928282,70298.79690060277
+Deaths,Female,55 to 59,Ischemic heart disease,leeds,22.627082137567065,70298.79690060277
+Deaths,Female,55 to 59,Liver cancer,leeds,3.29455603521168,70298.79690060277
+Deaths,Female,55 to 59,Lower respiratory infections,leeds,6.944286481358366,70298.79690060277
+Deaths,Female,55 to 59,Neoplasms,leeds,153.24106495899807,70298.79690060277
+Deaths,Female,55 to 59,Road injuries,leeds,1.1676766635959885,70298.79690060277
+Deaths,Female,55 to 59,Stomach cancer,leeds,3.7934781173389975,70298.79690060277
+Deaths,Female,55 to 59,Stroke,leeds,11.628395761078814,70298.79690060277
+Deaths,Female,55 to 59,"Tracheal, bronchus, and lung cancer",leeds,38.42194186249456,70298.79690060277
+Deaths,Female,55 to 59,Uterine cancer,leeds,3.023651569759783,70298.79690060277
+Deaths,Female,60 to 64,All causes,leeds,390.7725306880434,59442.46862208768
+Deaths,Female,60 to 64,Breast cancer,leeds,31.806227002241933,59442.46862208768
+Deaths,Female,60 to 64,Cardiovascular diseases,leeds,67.85102587650285,59442.46862208768
+Deaths,Female,60 to 64,Chronic obstructive pulmonary disease,leeds,30.618882366648343,59442.46862208768
+Deaths,Female,60 to 64,Colon and rectum cancer,leeds,16.672894659848296,59442.46862208768
+Deaths,Female,60 to 64,Diabetes mellitus type 2,leeds,1.8661324107448576,59442.46862208768
+Deaths,Female,60 to 64,Ischemic heart disease,leeds,34.18469686202617,59442.46862208768
+Deaths,Female,60 to 64,Liver cancer,leeds,4.558672154843798,59442.46862208768
+Deaths,Female,60 to 64,Lower respiratory infections,leeds,10.258432429957129,59442.46862208768
+Deaths,Female,60 to 64,Neoplasms,leeds,207.6694236662625,59442.46862208768
+Deaths,Female,60 to 64,Road injuries,leeds,1.1362325014803432,59442.46862208768
+Deaths,Female,60 to 64,Stomach cancer,leeds,5.3240960692273855,59442.46862208768
+Deaths,Female,60 to 64,Stroke,leeds,16.309564496391403,59442.46862208768
+Deaths,Female,60 to 64,"Tracheal, bronchus, and lung cancer",leeds,59.03828300637159,59442.46862208768
+Deaths,Female,60 to 64,Uterine cancer,leeds,4.912729248459187,59442.46862208768
+Deaths,Female,65 to 69,All causes,leeds,648.1093412628959,59424.52174218631
+Deaths,Female,65 to 69,Breast cancer,leeds,42.2500002175276,59424.52174218631
+Deaths,Female,65 to 69,Cardiovascular diseases,leeds,124.29806022615517,59424.52174218631
+Deaths,Female,65 to 69,Chronic obstructive pulmonary disease,leeds,62.02025869655778,59424.52174218631
+Deaths,Female,65 to 69,Colon and rectum cancer,leeds,25.24508273738718,59424.52174218631
+Deaths,Female,65 to 69,Diabetes mellitus type 2,leeds,3.2383954430331743,59424.52174218631
+Deaths,Female,65 to 69,Ischemic heart disease,leeds,61.101615083262196,59424.52174218631
+Deaths,Female,65 to 69,Liver cancer,leeds,7.630103904227798,59424.52174218631
+Deaths,Female,65 to 69,Lower respiratory infections,leeds,17.636403798721766,59424.52174218631
+Deaths,Female,65 to 69,Neoplasms,leeds,326.78270241168195,59424.52174218631
+Deaths,Female,65 to 69,Road injuries,leeds,1.556533273431624,59424.52174218631
+Deaths,Female,65 to 69,Stomach cancer,leeds,8.584712971279448,59424.52174218631
+Deaths,Female,65 to 69,Stroke,leeds,30.388308740147448,59424.52174218631
+Deaths,Female,65 to 69,"Tracheal, bronchus, and lung cancer",leeds,102.36144018034803,59424.52174218631
+Deaths,Female,65 to 69,Uterine cancer,leeds,8.39535011451641,59424.52174218631
+Deaths,Female,70 to 74,All causes,leeds,847.0185486880296,49538.000105097104
+Deaths,Female,70 to 74,Breast cancer,leeds,41.39587843595998,49538.000105097104
+Deaths,Female,70 to 74,Cardiovascular diseases,leeds,189.47399311538967,49538.000105097104
+Deaths,Female,70 to 74,Chronic obstructive pulmonary disease,leeds,92.83762113092912,49538.000105097104
+Deaths,Female,70 to 74,Colon and rectum cancer,leeds,30.478379781239177,49538.000105097104
+Deaths,Female,70 to 74,Diabetes mellitus type 2,leeds,5.1027954510723985,49538.000105097104
+Deaths,Female,70 to 74,Ischemic heart disease,leeds,90.75843499634959,49538.000105097104
+Deaths,Female,70 to 74,Liver cancer,leeds,9.370989688866736,49538.000105097104
+Deaths,Female,70 to 74,Lower respiratory infections,leeds,28.650930935112385,49538.000105097104
+Deaths,Female,70 to 74,Neoplasms,leeds,369.7361512151477,49538.000105097104
+Deaths,Female,70 to 74,Road injuries,leeds,1.7992000444625522,49538.000105097104
+Deaths,Female,70 to 74,Stomach cancer,leeds,11.848763939391816,49538.000105097104
+Deaths,Female,70 to 74,Stroke,leeds,49.190860122213536,49538.000105097104
+Deaths,Female,70 to 74,"Tracheal, bronchus, and lung cancer",leeds,115.14983358322364,49538.000105097104
+Deaths,Female,70 to 74,Uterine cancer,leeds,8.964706402396828,49538.000105097104
+Deaths,Female,75 to 79,All causes,leeds,1184.6507751605523,37301.84165975794
+Deaths,Female,75 to 79,Breast cancer,leeds,45.235142081403076,37301.84165975794
+Deaths,Female,75 to 79,Cardiovascular diseases,leeds,318.4879110125119,37301.84165975794
+Deaths,Female,75 to 79,Chronic obstructive pulmonary disease,leeds,122.58742293548373,37301.84165975794
+Deaths,Female,75 to 79,Colon and rectum cancer,leeds,39.68016644616129,37301.84165975794
+Deaths,Female,75 to 79,Diabetes mellitus type 2,leeds,7.9957797157255435,37301.84165975794
+Deaths,Female,75 to 79,Ischemic heart disease,leeds,147.76109571609243,37301.84165975794
+Deaths,Female,75 to 79,Liver cancer,leeds,11.600628644477618,37301.84165975794
+Deaths,Female,75 to 79,Lower respiratory infections,leeds,51.71640805406854,37301.84165975794
+Deaths,Female,75 to 79,Neoplasms,leeds,410.80366695542523,37301.84165975794
+Deaths,Female,75 to 79,Road injuries,leeds,2.3027193025424495,37301.84165975794
+Deaths,Female,75 to 79,Stomach cancer,leeds,17.242147965769757,37301.84165975794
+Deaths,Female,75 to 79,Stroke,leeds,90.61715539524255,37301.84165975794
+Deaths,Female,75 to 79,"Tracheal, bronchus, and lung cancer",leeds,115.97131816707872,37301.84165975794
+Deaths,Female,75 to 79,Uterine cancer,leeds,8.939231059937386,37301.84165975794
+Deaths,Female,80 to 84,All causes,leeds,1661.2451272479684,29176.58927947716
+Deaths,Female,80 to 84,Breast cancer,leeds,48.84589165391777,29176.58927947716
+Deaths,Female,80 to 84,Cardiovascular diseases,leeds,510.04116185285613,29176.58927947716
+Deaths,Female,80 to 84,Chronic obstructive pulmonary disease,leeds,151.90550865525196,29176.58927947716
+Deaths,Female,80 to 84,Colon and rectum cancer,leeds,49.04831443137486,29176.58927947716
+Deaths,Female,80 to 84,Diabetes mellitus type 2,leeds,13.179224065186602,29176.58927947716
+Deaths,Female,80 to 84,Ischemic heart disease,leeds,234.60227304622632,29176.58927947716
+Deaths,Female,80 to 84,Liver cancer,leeds,12.187889213539997,29176.58927947716
+Deaths,Female,80 to 84,Lower respiratory infections,leeds,95.67271731180658,29176.58927947716
+Deaths,Female,80 to 84,Neoplasms,leeds,426.63469800524854,29176.58927947716
+Deaths,Female,80 to 84,Road injuries,leeds,2.578493651529228,29176.58927947716
+Deaths,Female,80 to 84,Stomach cancer,leeds,20.983422282183014,29176.58927947716
+Deaths,Female,80 to 84,Stroke,leeds,150.19900199443848,29176.58927947716
+Deaths,Female,80 to 84,"Tracheal, bronchus, and lung cancer",leeds,107.06997432835564,29176.58927947716
+Deaths,Female,80 to 84,Uterine cancer,leeds,8.4726426544706,29176.58927947716
+Deaths,Female,85 to 89,All causes,leeds,2153.2348677410296,18685.780375587165
+Deaths,Female,85 to 89,Breast cancer,leeds,54.34759172069187,18685.780375587165
+Deaths,Female,85 to 89,Cardiovascular diseases,leeds,717.8795290337437,18685.780375587165
+Deaths,Female,85 to 89,Chronic obstructive pulmonary disease,leeds,153.26314657621944,18685.780375587165
+Deaths,Female,85 to 89,Colon and rectum cancer,leeds,53.57310610997097,18685.780375587165
+Deaths,Female,85 to 89,Diabetes mellitus type 2,leeds,16.361380843190823,18685.780375587165
+Deaths,Female,85 to 89,Ischemic heart disease,leeds,327.3655483498856,18685.780375587165
+Deaths,Female,85 to 89,Liver cancer,leeds,11.180388015098949,18685.780375587165
+Deaths,Female,85 to 89,Lower respiratory infections,leeds,180.14968530656117,18685.780375587165
+Deaths,Female,85 to 89,Neoplasms,leeds,395.6933459756453,18685.780375587165
+Deaths,Female,85 to 89,Road injuries,leeds,2.0815879627808633,18685.780375587165
+Deaths,Female,85 to 89,Stomach cancer,leeds,21.00803110598756,18685.780375587165
+Deaths,Female,85 to 89,Stroke,leeds,219.36051254617462,18685.780375587165
+Deaths,Female,85 to 89,"Tracheal, bronchus, and lung cancer",leeds,82.28545049471546,18685.780375587165
+Deaths,Female,85 to 89,Uterine cancer,leeds,6.94852011839772,18685.780375587165
+Deaths,Female,90 to 94,All causes,leeds,1691.1132093788576,8633.676911529907
+Deaths,Female,90 to 94,Breast cancer,leeds,33.759401435160264,8633.676911529907
+Deaths,Female,90 to 94,Cardiovascular diseases,leeds,585.2557161463548,8633.676911529907
+Deaths,Female,90 to 94,Chronic obstructive pulmonary disease,leeds,107.7457748253252,8633.676911529907
+Deaths,Female,90 to 94,Colon and rectum cancer,leeds,34.779661148987365,8633.676911529907
+Deaths,Female,90 to 94,Diabetes mellitus type 2,leeds,12.388651712480353,8633.676911529907
+Deaths,Female,90 to 94,Ischemic heart disease,leeds,266.59347262241056,8633.676911529907
+Deaths,Female,90 to 94,Liver cancer,leeds,5.4891698047649475,8633.676911529907
+Deaths,Female,90 to 94,Lower respiratory infections,leeds,149.52954514058004,8633.676911529907
+Deaths,Female,90 to 94,Neoplasms,leeds,224.38515063771854,8633.676911529907
+Deaths,Female,90 to 94,Road injuries,leeds,1.2424277251961588,8633.676911529907
+Deaths,Female,90 to 94,Stomach cancer,leeds,13.871375449694995,8633.676911529907
+Deaths,Female,90 to 94,Stroke,leeds,178.86268271133733,8633.676911529907
+Deaths,Female,90 to 94,"Tracheal, bronchus, and lung cancer",leeds,38.68646796401341,8633.676911529907
+Deaths,Female,90 to 94,Uterine cancer,leeds,3.4981237694833265,8633.676911529907
+Deaths,Female,95 to 99,All causes,leeds,884.3851226257228,2578.5461393104265
+Deaths,Female,95 to 99,Breast cancer,leeds,14.19308503432412,2578.5461393104265
+Deaths,Female,95 to 99,Cardiovascular diseases,leeds,313.9176931909661,2578.5461393104265
+Deaths,Female,95 to 99,Chronic obstructive pulmonary disease,leeds,55.9638597148354,2578.5461393104265
+Deaths,Female,95 to 99,Colon and rectum cancer,leeds,13.581413425320372,2578.5461393104265
+Deaths,Female,95 to 99,Diabetes mellitus type 2,leeds,6.4992534671498365,2578.5461393104265
+Deaths,Female,95 to 99,Ischemic heart disease,leeds,144.09986830824406,2578.5461393104265
+Deaths,Female,95 to 99,Liver cancer,leeds,1.9004234783534368,2578.5461393104265
+Deaths,Female,95 to 99,Lower respiratory infections,leeds,90.63121885682877,2578.5461393104265
+Deaths,Female,95 to 99,Neoplasms,leeds,85.38724777048108,2578.5461393104265
+Deaths,Female,95 to 99,Road injuries,leeds,0.5711081012333089,2578.5461393104265
+Deaths,Female,95 to 99,Stomach cancer,leeds,5.956150880511703,2578.5461393104265
+Deaths,Female,95 to 99,Stroke,leeds,99.87404230000737,2578.5461393104265
+Deaths,Female,95 to 99,"Tracheal, bronchus, and lung cancer",leeds,12.74481221287877,2578.5461393104265
+Deaths,Female,95 to 99,Uterine cancer,leeds,1.1987333089991656,2578.5461393104265
+Deaths,Female,0 to 4,All causes,leeds,69.9670692864295,74150.06279393773
+Deaths,Female,0 to 4,Cardiovascular diseases,leeds,0.981857820007016,74150.06279393773
+Deaths,Female,0 to 4,Chronic obstructive pulmonary disease,leeds,0.06546578083783934,74150.06279393773
+Deaths,Female,0 to 4,Lower respiratory infections,leeds,2.6641814634485517,74150.06279393773
+Deaths,Female,0 to 4,Neoplasms,leeds,2.2934017670889726,74150.06279393773
+Deaths,Female,0 to 4,Road injuries,leeds,0.4925752923309211,74150.06279393773
+Deaths,Female,0 to 4,Stroke,leeds,0.17552715828801566,74150.06279393773
+Deaths,Male,10 to 14,All causes,leeds,5.197506207816331,72528.09993363854
+Deaths,Male,10 to 14,Cardiovascular diseases,leeds,0.22607703932545392,72528.09993363854
+Deaths,Male,10 to 14,Chronic obstructive pulmonary disease,leeds,0.01019774781489469,72528.09993363854
+Deaths,Male,10 to 14,Liver cancer,leeds,0.02437567976283324,72528.09993363854
+Deaths,Male,10 to 14,Lower respiratory infections,leeds,0.14189512289382025,72528.09993363854
+Deaths,Male,10 to 14,Neoplasms,leeds,1.3796911699104288,72528.09993363854
+Deaths,Male,10 to 14,Road injuries,leeds,0.6649375234814456,72528.09993363854
+Deaths,Male,10 to 14,Stroke,leeds,0.06190565665788988,72528.09993363854
+Deaths,Male,15 to 19,All causes,leeds,24.27903872175219,69923.96206490307
+Deaths,Male,15 to 19,Breast cancer,leeds,0.006902417731788939,69923.96206490307
+Deaths,Male,15 to 19,Cardiovascular diseases,leeds,1.1293786073191288,69923.96206490307
+Deaths,Male,15 to 19,Chronic obstructive pulmonary disease,leeds,0.059024116741965574,69923.96206490307
+Deaths,Male,15 to 19,Colon and rectum cancer,leeds,0.03455361973266719,69923.96206490307
+Deaths,Male,15 to 19,Diabetes mellitus type 2,leeds,0.007536916598115832,69923.96206490307
+Deaths,Male,15 to 19,Ischemic heart disease,leeds,0.10281654603873619,69923.96206490307
+Deaths,Male,15 to 19,Liver cancer,leeds,0.06085984109705066,69923.96206490307
+Deaths,Male,15 to 19,Lower respiratory infections,leeds,0.35654799683868293,69923.96206490307
+Deaths,Male,15 to 19,Neoplasms,leeds,3.025992371475332,69923.96206490307
+Deaths,Male,15 to 19,Road injuries,leeds,5.986479123026919,69923.96206490307
+Deaths,Male,15 to 19,Stomach cancer,leeds,0.016134592462424432,69923.96206490307
+Deaths,Male,15 to 19,Stroke,leeds,0.2940794217270672,69923.96206490307
+Deaths,Male,15 to 19,"Tracheal, bronchus, and lung cancer",leeds,0.012243484167533738,69923.96206490307
+Deaths,Male,20 to 24,All causes,leeds,39.77380025632,78051.22525362874
+Deaths,Male,20 to 24,Breast cancer,leeds,0.007405384978502156,78051.22525362874
+Deaths,Male,20 to 24,Cardiovascular diseases,leeds,1.8983677909271441,78051.22525362874
+Deaths,Male,20 to 24,Chronic obstructive pulmonary disease,leeds,0.07710395190677889,78051.22525362874
+Deaths,Male,20 to 24,Colon and rectum cancer,leeds,0.11630423273853857,78051.22525362874
+Deaths,Male,20 to 24,Diabetes mellitus type 2,leeds,0.014371901513648791,78051.22525362874
+Deaths,Male,20 to 24,Ischemic heart disease,leeds,0.32584522991522746,78051.22525362874
+Deaths,Male,20 to 24,Liver cancer,leeds,0.09274514412593104,78051.22525362874
+Deaths,Male,20 to 24,Lower respiratory infections,leeds,0.4979673877365789,78051.22525362874
+Deaths,Male,20 to 24,Neoplasms,leeds,3.687432867579588,78051.22525362874
+Deaths,Male,20 to 24,Road injuries,leeds,8.090645406711529,78051.22525362874
+Deaths,Male,20 to 24,Stomach cancer,leeds,0.041114892943458436,78051.22525362874
+Deaths,Male,20 to 24,Stroke,leeds,0.49352536561385735,78051.22525362874
+Deaths,Male,20 to 24,"Tracheal, bronchus, and lung cancer",leeds,0.048438538283141104,78051.22525362874
+Deaths,Male,25 to 29,All causes,leeds,53.746101558276926,86913.03609159603
+Deaths,Male,25 to 29,Breast cancer,leeds,0.009937042110494202,86913.03609159603
+Deaths,Male,25 to 29,Cardiovascular diseases,leeds,3.916615074771176,86913.03609159603
+Deaths,Male,25 to 29,Chronic obstructive pulmonary disease,leeds,0.11015947203691492,86913.03609159603
+Deaths,Male,25 to 29,Colon and rectum cancer,leeds,0.36180039711201545,86913.03609159603
+Deaths,Male,25 to 29,Diabetes mellitus type 2,leeds,0.02637296430429172,86913.03609159603
+Deaths,Male,25 to 29,Ischemic heart disease,leeds,1.2070169036762566,86913.03609159603
+Deaths,Male,25 to 29,Liver cancer,leeds,0.1726553832595051,86913.03609159603
+Deaths,Male,25 to 29,Lower respiratory infections,leeds,0.8767634901108348,86913.03609159603
+Deaths,Male,25 to 29,Neoplasms,leeds,5.689885028732348,86913.03609159603
+Deaths,Male,25 to 29,Road injuries,leeds,6.657580155645556,86913.03609159603
+Deaths,Male,25 to 29,Stomach cancer,leeds,0.13021103969641895,86913.03609159603
+Deaths,Male,25 to 29,Stroke,leeds,0.9417813977960494,86913.03609159603
+Deaths,Male,25 to 29,"Tracheal, bronchus, and lung cancer",leeds,0.1285667400064051,86913.03609159603
+Deaths,Male,30 to 34,All causes,leeds,63.62173672520523,85246.20565972962
+Deaths,Male,30 to 34,Breast cancer,leeds,0.016620692517743448,85246.20565972962
+Deaths,Male,30 to 34,Cardiovascular diseases,leeds,6.907727235652394,85246.20565972962
+Deaths,Male,30 to 34,Chronic obstructive pulmonary disease,leeds,0.17093627306316003,85246.20565972962
+Deaths,Male,30 to 34,Colon and rectum cancer,leeds,0.8228844712063015,85246.20565972962
+Deaths,Male,30 to 34,Diabetes mellitus type 2,leeds,0.10784562107809745,85246.20565972962
+Deaths,Male,30 to 34,Ischemic heart disease,leeds,2.9351614784962656,85246.20565972962
+Deaths,Male,30 to 34,Liver cancer,leeds,0.2948879511503213,85246.20565972962
+Deaths,Male,30 to 34,Lower respiratory infections,leeds,1.2858343445554252,85246.20565972962
+Deaths,Male,30 to 34,Neoplasms,leeds,8.087866709083203,85246.20565972962
+Deaths,Male,30 to 34,Road injuries,leeds,4.686937580345083,85246.20565972962
+Deaths,Male,30 to 34,Stomach cancer,leeds,0.317518239659699,85246.20565972962
+Deaths,Male,30 to 34,Stroke,leeds,1.4600539659758562,85246.20565972962
+Deaths,Male,30 to 34,"Tracheal, bronchus, and lung cancer",leeds,0.3962753148012142,85246.20565972962
+Deaths,Male,35 to 39,All causes,leeds,93.97556633568587,84051.99260784857
+Deaths,Male,35 to 39,Breast cancer,leeds,0.04438995571671656,84051.99260784857
+Deaths,Male,35 to 39,Cardiovascular diseases,leeds,14.51510598245794,84051.99260784857
+Deaths,Male,35 to 39,Chronic obstructive pulmonary disease,leeds,0.4791106911562513,84051.99260784857
+Deaths,Male,35 to 39,Colon and rectum cancer,leeds,1.5911356958332856,84051.99260784857
+Deaths,Male,35 to 39,Diabetes mellitus type 2,leeds,0.18239449267808905,84051.99260784857
+Deaths,Male,35 to 39,Ischemic heart disease,leeds,7.599240662710371,84051.99260784857
+Deaths,Male,35 to 39,Liver cancer,leeds,0.42321056524452333,84051.99260784857
+Deaths,Male,35 to 39,Lower respiratory infections,leeds,2.1777178133346937,84051.99260784857
+Deaths,Male,35 to 39,Neoplasms,leeds,14.360049752812138,84051.99260784857
+Deaths,Male,35 to 39,Road injuries,leeds,4.566078008359951,84051.99260784857
+Deaths,Male,35 to 39,Stomach cancer,leeds,0.7415875374688454,84051.99260784857
+Deaths,Male,35 to 39,Stroke,leeds,2.7798337094764234,84051.99260784857
+Deaths,Male,35 to 39,"Tracheal, bronchus, and lung cancer",leeds,1.3185461699390202,84051.99260784857
+Deaths,Male,40 to 44,All causes,leeds,130.88728221673415,76500.86635013268
+Deaths,Male,40 to 44,Breast cancer,leeds,0.0776497946886088,76500.86635013268
+Deaths,Male,40 to 44,Cardiovascular diseases,leeds,28.06635600765184,76500.86635013268
+Deaths,Male,40 to 44,Chronic obstructive pulmonary disease,leeds,1.3696723233501986,76500.86635013268
+Deaths,Male,40 to 44,Colon and rectum cancer,leeds,2.7282151836377855,76500.86635013268
+Deaths,Male,40 to 44,Diabetes mellitus type 2,leeds,0.27338803126463335,76500.86635013268
+Deaths,Male,40 to 44,Ischemic heart disease,leeds,16.65907842719582,76500.86635013268
+Deaths,Male,40 to 44,Liver cancer,leeds,0.8356460461709325,76500.86635013268
+Deaths,Male,40 to 44,Lower respiratory infections,leeds,3.323156904158763,76500.86635013268
+Deaths,Male,40 to 44,Neoplasms,leeds,25.30495407980927,76500.86635013268
+Deaths,Male,40 to 44,Road injuries,leeds,4.306921545953095,76500.86635013268
+Deaths,Male,40 to 44,Stomach cancer,leeds,1.3819960023085331,76500.86635013268
+Deaths,Male,40 to 44,Stroke,leeds,4.699978388524314,76500.86635013268
+Deaths,Male,40 to 44,"Tracheal, bronchus, and lung cancer",leeds,3.6540359425606015,76500.86635013268
+Deaths,Male,45 to 49,All causes,leeds,199.1485576716397,82311.5567452259
+Deaths,Male,45 to 49,Breast cancer,leeds,0.14039757753921628,82311.5567452259
+Deaths,Male,45 to 49,Cardiovascular diseases,leeds,52.6287676199935,82311.5567452259
+Deaths,Male,45 to 49,Chronic obstructive pulmonary disease,leeds,3.1906554024083973,82311.5567452259
+Deaths,Male,45 to 49,Colon and rectum cancer,leeds,5.536029472367587,82311.5567452259
+Deaths,Male,45 to 49,Diabetes mellitus type 2,leeds,1.0798297397040304,82311.5567452259
+Deaths,Male,45 to 49,Ischemic heart disease,leeds,34.21747332177649,82311.5567452259
+Deaths,Male,45 to 49,Liver cancer,leeds,1.873429691216716,82311.5567452259
+Deaths,Male,45 to 49,Lower respiratory infections,leeds,5.423966728438376,82311.5567452259
+Deaths,Male,45 to 49,Neoplasms,leeds,51.281246415937545,82311.5567452259
+Deaths,Male,45 to 49,Road injuries,leeds,4.188081408865976,82311.5567452259
+Deaths,Male,45 to 49,Stomach cancer,leeds,2.771484860731136,82311.5567452259
+Deaths,Male,45 to 49,Stroke,leeds,7.829624014303166,82311.5567452259
+Deaths,Male,45 to 49,"Tracheal, bronchus, and lung cancer",leeds,9.804880518346977,82311.5567452259
+Deaths,Male,5 to 9,All causes,leeds,6.318966520398927,80213.40392744326
+Deaths,Male,5 to 9,Cardiovascular diseases,leeds,0.19344853309206525,80213.40392744326
+Deaths,Male,5 to 9,Chronic obstructive pulmonary disease,leeds,0.014321541474166118,80213.40392744326
+Deaths,Male,5 to 9,Liver cancer,leeds,0.02905115830579409,80213.40392744326
+Deaths,Male,5 to 9,Lower respiratory infections,leeds,0.24558629966437193,80213.40392744326
+Deaths,Male,5 to 9,Neoplasms,leeds,2.1258387902944604,80213.40392744326
+Deaths,Male,5 to 9,Road injuries,leeds,0.5418605898708511,80213.40392744326
+Deaths,Male,5 to 9,Stroke,leeds,0.056318440902289976,80213.40392744326
+Deaths,Male,50 to 54,All causes,leeds,264.14397012361604,78306.27904691035
+Deaths,Male,50 to 54,Breast cancer,leeds,0.22491375186856402,78306.27904691035
+Deaths,Male,50 to 54,Cardiovascular diseases,leeds,77.04438725368043,78306.27904691035
+Deaths,Male,50 to 54,Chronic obstructive pulmonary disease,leeds,6.640199122902549,78306.27904691035
+Deaths,Male,50 to 54,Colon and rectum cancer,leeds,9.397901741569735,78306.27904691035
+Deaths,Male,50 to 54,Diabetes mellitus type 2,leeds,1.3245518583930136,78306.27904691035
+Deaths,Male,50 to 54,Ischemic heart disease,leeds,53.023966401883506,78306.27904691035
+Deaths,Male,50 to 54,Liver cancer,leeds,3.3730318168739646,78306.27904691035
+Deaths,Male,50 to 54,Lower respiratory infections,leeds,7.292758462286822,78306.27904691035
+Deaths,Male,50 to 54,Neoplasms,leeds,87.82303130416196,78306.27904691035
+Deaths,Male,50 to 54,Road injuries,leeds,3.556038003438186,78306.27904691035
+Deaths,Male,50 to 54,Stomach cancer,leeds,4.4240820225871245,78306.27904691035
+Deaths,Male,50 to 54,Stroke,leeds,10.331903644362216,78306.27904691035
+Deaths,Male,50 to 54,"Tracheal, bronchus, and lung cancer",leeds,20.113347803551402,78306.27904691035
+Deaths,Male,55 to 59,All causes,leeds,415.71896331286916,69226.99579940022
+Deaths,Male,55 to 59,Breast cancer,leeds,0.3947705985557411,69226.99579940022
+Deaths,Male,55 to 59,Cardiovascular diseases,leeds,125.47360356109606,69226.99579940022
+Deaths,Male,55 to 59,Chronic obstructive pulmonary disease,leeds,16.17902864103862,69226.99579940022
+Deaths,Male,55 to 59,Colon and rectum cancer,leeds,17.885440022203497,69226.99579940022
+Deaths,Male,55 to 59,Diabetes mellitus type 2,leeds,2.055167307492491,69226.99579940022
+Deaths,Male,55 to 59,Ischemic heart disease,leeds,86.99718646599827,69226.99579940022
+Deaths,Male,55 to 59,Liver cancer,leeds,6.267064715490692,69226.99579940022
+Deaths,Male,55 to 59,Lower respiratory infections,leeds,10.884318015241188,69226.99579940022
+Deaths,Male,55 to 59,Neoplasms,leeds,162.59034308154617,69226.99579940022
+Deaths,Male,55 to 59,Road injuries,leeds,3.3964115618218633,69226.99579940022
+Deaths,Male,55 to 59,Stomach cancer,leeds,7.513623421779348,69226.99579940022
+Deaths,Male,55 to 59,Stroke,leeds,16.574137471665473,69226.99579940022
+Deaths,Male,55 to 59,"Tracheal, bronchus, and lung cancer",leeds,41.760261880059616,69226.99579940022
+Deaths,Male,60 to 64,All causes,leeds,559.6797376438938,59156.072530916856
+Deaths,Male,60 to 64,Breast cancer,leeds,0.6125647649854076,59156.072530916856
+Deaths,Male,60 to 64,Cardiovascular diseases,leeds,165.8053499590075,59156.072530916856
+Deaths,Male,60 to 64,Chronic obstructive pulmonary disease,leeds,33.42996214725968,59156.072530916856
+Deaths,Male,60 to 64,Colon and rectum cancer,leeds,26.11600728993485,59156.072530916856
+Deaths,Male,60 to 64,Diabetes mellitus type 2,leeds,3.2648311992536576,59156.072530916856
+Deaths,Male,60 to 64,Ischemic heart disease,leeds,113.46177649230206,59156.072530916856
+Deaths,Male,60 to 64,Liver cancer,leeds,8.587417900185038,59156.072530916856
+Deaths,Male,60 to 64,Lower respiratory infections,leeds,15.486969500924307,59156.072530916856
+Deaths,Male,60 to 64,Neoplasms,leeds,240.2204525572521,59156.072530916856
+Deaths,Male,60 to 64,Road injuries,leeds,2.7918583961266257,59156.072530916856
+Deaths,Male,60 to 64,Stomach cancer,leeds,10.719456986490137,59156.072530916856
+Deaths,Male,60 to 64,Stroke,leeds,22.304913549826434,59156.072530916856
+Deaths,Male,60 to 64,"Tracheal, bronchus, and lung cancer",leeds,68.04810787826558,59156.072530916856
+Deaths,Male,65 to 69,All causes,leeds,917.9934022357985,56595.74631532322
+Deaths,Male,65 to 69,Breast cancer,leeds,0.9981486470007884,56595.74631532322
+Deaths,Male,65 to 69,Cardiovascular diseases,leeds,272.14238726495813,56595.74631532322
+Deaths,Male,65 to 69,Chronic obstructive pulmonary disease,leeds,67.10199590241153,56595.74631532322
+Deaths,Male,65 to 69,Colon and rectum cancer,leeds,41.240170960096904,56595.74631532322
+Deaths,Male,65 to 69,Diabetes mellitus type 2,leeds,5.502251554433337,56595.74631532322
+Deaths,Male,65 to 69,Ischemic heart disease,leeds,181.61065626723274,56595.74631532322
+Deaths,Male,65 to 69,Liver cancer,leeds,13.655093283636639,56595.74631532322
+Deaths,Male,65 to 69,Lower respiratory infections,leeds,26.374317783600283,56595.74631532322
+Deaths,Male,65 to 69,Neoplasms,leeds,401.4127114350876,56595.74631532322
+Deaths,Male,65 to 69,Road injuries,leeds,3.0111099955718035,56595.74631532322
+Deaths,Male,65 to 69,Stomach cancer,leeds,18.759963062492833,56595.74631532322
+Deaths,Male,65 to 69,Stroke,leeds,40.44357409372941,56595.74631532322
+Deaths,Male,65 to 69,"Tracheal, bronchus, and lung cancer",leeds,120.62002957157242,56595.74631532322
+Deaths,Male,70 to 74,All causes,leeds,1114.3442826663693,44685.30477105352
+Deaths,Male,70 to 74,Breast cancer,leeds,1.1754669614110318,44685.30477105352
+Deaths,Male,70 to 74,Cardiovascular diseases,leeds,338.2745756678652,44685.30477105352
+Deaths,Male,70 to 74,Chronic obstructive pulmonary disease,leeds,93.80523938551951,44685.30477105352
+Deaths,Male,70 to 74,Colon and rectum cancer,leeds,47.59215878148945,44685.30477105352
+Deaths,Male,70 to 74,Diabetes mellitus type 2,leeds,7.547635345512875,44685.30477105352
+Deaths,Male,70 to 74,Ischemic heart disease,leeds,212.6812357324614,44685.30477105352
+Deaths,Male,70 to 74,Liver cancer,leeds,14.581627795885638,44685.30477105352
+Deaths,Male,70 to 74,Lower respiratory infections,leeds,38.18303320519013,44685.30477105352
+Deaths,Male,70 to 74,Neoplasms,leeds,457.9589269577102,44685.30477105352
+Deaths,Male,70 to 74,Road injuries,leeds,2.7253876620999193,44685.30477105352
+Deaths,Male,70 to 74,Stomach cancer,leeds,23.638340881427865,44685.30477105352
+Deaths,Male,70 to 74,Stroke,leeds,60.42166920547051,44685.30477105352
+Deaths,Male,70 to 74,"Tracheal, bronchus, and lung cancer",leeds,132.84937563471885,44685.30477105352
+Deaths,Male,75 to 79,All causes,leeds,1384.2036486460734,31185.73828149316
+Deaths,Male,75 to 79,Breast cancer,leeds,1.2205930252248391,31185.73828149316
+Deaths,Male,75 to 79,Cardiovascular diseases,leeds,434.5860871122255,31185.73828149316
+Deaths,Male,75 to 79,Chronic obstructive pulmonary disease,leeds,118.82120728025329,31185.73828149316
+Deaths,Male,75 to 79,Colon and rectum cancer,leeds,54.35909485073061,31185.73828149316
+Deaths,Male,75 to 79,Diabetes mellitus type 2,leeds,10.140258020587396,31185.73828149316
+Deaths,Male,75 to 79,Ischemic heart disease,leeds,260.5170956457005,31185.73828149316
+Deaths,Male,75 to 79,Liver cancer,leeds,14.75132011840012,31185.73828149316
+Deaths,Male,75 to 79,Lower respiratory infections,leeds,61.41240059572478,31185.73828149316
+Deaths,Male,75 to 79,Neoplasms,leeds,496.39506447278586,31185.73828149316
+Deaths,Male,75 to 79,Road injuries,leeds,2.9058352308078974,31185.73828149316
+Deaths,Male,75 to 79,Stomach cancer,leeds,28.354512754115746,31185.73828149316
+Deaths,Male,75 to 79,Stroke,leeds,90.28862434521176,31185.73828149316
+Deaths,Male,75 to 79,"Tracheal, bronchus, and lung cancer",leeds,133.35779897899644,31185.73828149316
+Deaths,Male,80 to 84,All causes,leeds,1665.21624867048,21543.985357470323
+Deaths,Male,80 to 84,Breast cancer,leeds,1.1708570769137625,21543.985357470323
+Deaths,Male,80 to 84,Cardiovascular diseases,leeds,549.7724373306188,21543.985357470323
+Deaths,Male,80 to 84,Chronic obstructive pulmonary disease,leeds,142.7460184529588,21543.985357470323
+Deaths,Male,80 to 84,Colon and rectum cancer,leeds,54.47981032071535,21543.985357470323
+Deaths,Male,80 to 84,Diabetes mellitus type 2,leeds,13.056389415774701,21543.985357470323
+Deaths,Male,80 to 84,Ischemic heart disease,leeds,312.0359577144554,21543.985357470323
+Deaths,Male,80 to 84,Liver cancer,leeds,13.067354637429057,21543.985357470323
+Deaths,Male,80 to 84,Lower respiratory infections,leeds,96.81299870747539,21543.985357470323
+Deaths,Male,80 to 84,Neoplasms,leeds,486.79050487572925,21543.985357470323
+Deaths,Male,80 to 84,Road injuries,leeds,2.918040923148453,21543.985357470323
+Deaths,Male,80 to 84,Stomach cancer,leeds,29.638171526384284,21543.985357470323
+Deaths,Male,80 to 84,Stroke,leeds,131.71863029130077,21543.985357470323
+Deaths,Male,80 to 84,"Tracheal, bronchus, and lung cancer",leeds,113.19861941333491,21543.985357470323
+Deaths,Male,85 to 89,All causes,leeds,1625.8415970511824,10610.714304401947
+Deaths,Male,85 to 89,Breast cancer,leeds,0.9355068166827485,10610.714304401947
+Deaths,Male,85 to 89,Cardiovascular diseases,leeds,534.1660910278873,10610.714304401947
+Deaths,Male,85 to 89,Chronic obstructive pulmonary disease,leeds,130.2126978595689,10610.714304401947
+Deaths,Male,85 to 89,Colon and rectum cancer,leeds,43.76746227199745,10610.714304401947
+Deaths,Male,85 to 89,Diabetes mellitus type 2,leeds,12.563471877510368,10610.714304401947
+Deaths,Male,85 to 89,Ischemic heart disease,leeds,292.8687254663083,10610.714304401947
+Deaths,Male,85 to 89,Liver cancer,leeds,8.625732286529093,10610.714304401947
+Deaths,Male,85 to 89,Lower respiratory infections,leeds,138.93962582413332,10610.714304401947
+Deaths,Male,85 to 89,Neoplasms,leeds,387.24090365337855,10610.714304401947
+Deaths,Male,85 to 89,Road injuries,leeds,2.2659902572547703,10610.714304401947
+Deaths,Male,85 to 89,Stomach cancer,leeds,22.93697221884134,10610.714304401947
+Deaths,Male,85 to 89,Stroke,leeds,136.42255401285036,10610.714304401947
+Deaths,Male,85 to 89,"Tracheal, bronchus, and lung cancer",leeds,81.00785852961474,10610.714304401947
+Deaths,Male,90 to 94,All causes,leeds,866.9399439494213,3651.1129874319213
+Deaths,Male,90 to 94,Breast cancer,leeds,0.49547974697854236,3651.1129874319213
+Deaths,Male,90 to 94,Cardiovascular diseases,leeds,299.5252961550391,3651.1129874319213
+Deaths,Male,90 to 94,Chronic obstructive pulmonary disease,leeds,66.96285080565292,3651.1129874319213
+Deaths,Male,90 to 94,Colon and rectum cancer,leeds,19.03787585123567,3651.1129874319213
+Deaths,Male,90 to 94,Diabetes mellitus type 2,leeds,6.77574165790163,3651.1129874319213
+Deaths,Male,90 to 94,Ischemic heart disease,leeds,163.5669723527047,3651.1129874319213
+Deaths,Male,90 to 94,Liver cancer,leeds,2.8185788234395353,3651.1129874319213
+Deaths,Male,90 to 94,Lower respiratory infections,leeds,81.90886198872495,3651.1129874319213
+Deaths,Male,90 to 94,Neoplasms,leeds,159.0477088120718,3651.1129874319213
+Deaths,Male,90 to 94,Road injuries,leeds,0.9663432707379751,3651.1129874319213
+Deaths,Male,90 to 94,Stomach cancer,leeds,10.33351554128717,3651.1129874319213
+Deaths,Male,90 to 94,Stroke,leeds,79.03318746233782,3651.1129874319213
+Deaths,Male,90 to 94,"Tracheal, bronchus, and lung cancer",leeds,25.887351913834834,3651.1129874319213
+Deaths,Male,95 to 99,All causes,leeds,264.08684974640624,695.301153366884
+Deaths,Male,95 to 99,Breast cancer,leeds,0.15911355729673315,695.301153366884
+Deaths,Male,95 to 99,Cardiovascular diseases,leeds,95.96526304509258,695.301153366884
+Deaths,Male,95 to 99,Chronic obstructive pulmonary disease,leeds,20.525691941379012,695.301153366884
+Deaths,Male,95 to 99,Colon and rectum cancer,leeds,4.466870587083703,695.301153366884
+Deaths,Male,95 to 99,Diabetes mellitus type 2,leeds,2.1855127747950314,695.301153366884
+Deaths,Male,95 to 99,Ischemic heart disease,leeds,51.75995265466406,695.301153366884
+Deaths,Male,95 to 99,Liver cancer,leeds,0.562732566689065,695.301153366884
+Deaths,Male,95 to 99,Lower respiratory infections,leeds,30.518404608390448,695.301153366884
+Deaths,Male,95 to 99,Neoplasms,leeds,36.747921422987176,695.301153366884
+Deaths,Male,95 to 99,Road injuries,leeds,0.2747652556245095,695.301153366884
+Deaths,Male,95 to 99,Stomach cancer,leeds,2.6997323078109514,695.301153366884
+Deaths,Male,95 to 99,Stroke,leeds,27.086460877380222,695.301153366884
+Deaths,Male,95 to 99,"Tracheal, bronchus, and lung cancer",leeds,4.615187884687481,695.301153366884
+Deaths,Male,0 to 4,All causes,leeds,84.03545323680213,77242.70569817214
+Deaths,Male,0 to 4,Cardiovascular diseases,leeds,1.1159910549633725,77242.70569817214
+Deaths,Male,0 to 4,Chronic obstructive pulmonary disease,leeds,0.05139585864134401,77242.70569817214
+Deaths,Male,0 to 4,Lower respiratory infections,leeds,3.248947950529805,77242.70569817214
+Deaths,Male,0 to 4,Neoplasms,leeds,2.5366783927675587,77242.70569817214
+Deaths,Male,0 to 4,Road injuries,leeds,0.6484041527126063,77242.70569817214
+Deaths,Male,0 to 4,Stroke,leeds,0.16910677980879535,77242.70569817214
+YLLs (Years of Life Lost),Female,10 to 14,All causes,leeds,480.0056420925497,70157.73829478935
+YLLs (Years of Life Lost),Female,10 to 14,Cardiovascular diseases,leeds,19.10213543510531,70157.73829478935
+YLLs (Years of Life Lost),Female,10 to 14,Chronic obstructive pulmonary disease,leeds,4.054701496204575,70157.73829478935
+YLLs (Years of Life Lost),Female,10 to 14,Liver cancer,leeds,2.3871456300108447,70157.73829478935
+YLLs (Years of Life Lost),Female,10 to 14,Lower respiratory infections,leeds,17.422117382959527,70157.73829478935
+YLLs (Years of Life Lost),Female,10 to 14,Neoplasms,leeds,143.86750651331997,70157.73829478935
+YLLs (Years of Life Lost),Female,10 to 14,Road injuries,leeds,45.95824714155544,70157.73829478935
+YLLs (Years of Life Lost),Female,10 to 14,Stroke,leeds,7.072944091879133,70157.73829478935
+YLLs (Years of Life Lost),Female,15 to 19,All causes,leeds,700.7990316179689,68855.23487886251
+YLLs (Years of Life Lost),Female,15 to 19,Breast cancer,leeds,0.808148976789047,68855.23487886251
+YLLs (Years of Life Lost),Female,15 to 19,Cardiovascular diseases,leeds,38.0524210102413,68855.23487886251
+YLLs (Years of Life Lost),Female,15 to 19,Chronic obstructive pulmonary disease,leeds,4.412398563797574,68855.23487886251
+YLLs (Years of Life Lost),Female,15 to 19,Colon and rectum cancer,leeds,1.1800209319059014,68855.23487886251
+YLLs (Years of Life Lost),Female,15 to 19,Diabetes mellitus type 2,leeds,0.4974713383598297,68855.23487886251
+YLLs (Years of Life Lost),Female,15 to 19,Ischemic heart disease,leeds,3.278211750332632,68855.23487886251
+YLLs (Years of Life Lost),Female,15 to 19,Liver cancer,leeds,4.106490634184195,68855.23487886251
+YLLs (Years of Life Lost),Female,15 to 19,Lower respiratory infections,leeds,16.274983100984294,68855.23487886251
+YLLs (Years of Life Lost),Female,15 to 19,Neoplasms,leeds,131.70547538010368,68855.23487886251
+YLLs (Years of Life Lost),Female,15 to 19,Road injuries,leeds,108.75926878679611,68855.23487886251
+YLLs (Years of Life Lost),Female,15 to 19,Stomach cancer,leeds,0.6894608453837204,68855.23487886251
+YLLs (Years of Life Lost),Female,15 to 19,Stroke,leeds,11.594817209029873,68855.23487886251
+YLLs (Years of Life Lost),Female,15 to 19,"Tracheal, bronchus, and lung cancer",leeds,1.6898418987632162,68855.23487886251
+YLLs (Years of Life Lost),Female,15 to 19,Uterine cancer,leeds,0.42474493545104863,68855.23487886251
+YLLs (Years of Life Lost),Female,20 to 24,All causes,leeds,1137.1098631777406,78179.81922340549
+YLLs (Years of Life Lost),Female,20 to 24,Breast cancer,leeds,4.895462507463524,78179.81922340549
+YLLs (Years of Life Lost),Female,20 to 24,Cardiovascular diseases,leeds,84.29024292493548,78179.81922340549
+YLLs (Years of Life Lost),Female,20 to 24,Chronic obstructive pulmonary disease,leeds,6.2735142080925295,78179.81922340549
+YLLs (Years of Life Lost),Female,20 to 24,Colon and rectum cancer,leeds,6.409208866170794,78179.81922340549
+YLLs (Years of Life Lost),Female,20 to 24,Diabetes mellitus type 2,leeds,0.8063511551998636,78179.81922340549
+YLLs (Years of Life Lost),Female,20 to 24,Ischemic heart disease,leeds,9.562662436400858,78179.81922340549
+YLLs (Years of Life Lost),Female,20 to 24,Liver cancer,leeds,5.474257319223642,78179.81922340549
+YLLs (Years of Life Lost),Female,20 to 24,Lower respiratory infections,leeds,27.488618373715934,78179.81922340549
+YLLs (Years of Life Lost),Female,20 to 24,Neoplasms,leeds,209.87827371109853,78179.81922340549
+YLLs (Years of Life Lost),Female,20 to 24,Road injuries,leeds,122.91859184680642,78179.81922340549
+YLLs (Years of Life Lost),Female,20 to 24,Stomach cancer,leeds,2.4735375438156666,78179.81922340549
+YLLs (Years of Life Lost),Female,20 to 24,Stroke,leeds,28.313468007175654,78179.81922340549
+YLLs (Years of Life Lost),Female,20 to 24,"Tracheal, bronchus, and lung cancer",leeds,3.933756028156495,78179.81922340549
+YLLs (Years of Life Lost),Female,20 to 24,Uterine cancer,leeds,0.7599846831573415,78179.81922340549
+YLLs (Years of Life Lost),Female,25 to 29,All causes,leeds,1546.2125425869792,87634.94827588307
+YLLs (Years of Life Lost),Female,25 to 29,Breast cancer,leeds,40.53318438231227,87634.94827588307
+YLLs (Years of Life Lost),Female,25 to 29,Cardiovascular diseases,leeds,129.97327736990638,87634.94827588307
+YLLs (Years of Life Lost),Female,25 to 29,Chronic obstructive pulmonary disease,leeds,7.796729997020006,87634.94827588307
+YLLs (Years of Life Lost),Female,25 to 29,Colon and rectum cancer,leeds,19.114931187901544,87634.94827588307
+YLLs (Years of Life Lost),Female,25 to 29,Diabetes mellitus type 2,leeds,1.387511610329905,87634.94827588307
+YLLs (Years of Life Lost),Female,25 to 29,Ischemic heart disease,leeds,18.476491198395138,87634.94827588307
+YLLs (Years of Life Lost),Female,25 to 29,Liver cancer,leeds,9.196279374529485,87634.94827588307
+YLLs (Years of Life Lost),Female,25 to 29,Lower respiratory infections,leeds,37.823937881629334,87634.94827588307
+YLLs (Years of Life Lost),Female,25 to 29,Neoplasms,leeds,387.81708861320266,87634.94827588307
+YLLs (Years of Life Lost),Female,25 to 29,Road injuries,leeds,92.48211154836179,87634.94827588307
+YLLs (Years of Life Lost),Female,25 to 29,Stomach cancer,leeds,9.621837702780214,87634.94827588307
+YLLs (Years of Life Lost),Female,25 to 29,Stroke,leeds,47.38573138176424,87634.94827588307
+YLLs (Years of Life Lost),Female,25 to 29,"Tracheal, bronchus, and lung cancer",leeds,9.507234771902084,87634.94827588307
+YLLs (Years of Life Lost),Female,25 to 29,Uterine cancer,leeds,2.0319015476033533,87634.94827588307
+YLLs (Years of Life Lost),Female,30 to 34,All causes,leeds,1960.3801750482846,84015.39131287398
+YLLs (Years of Life Lost),Female,30 to 34,Breast cancer,leeds,138.21143082196772,84015.39131287398
+YLLs (Years of Life Lost),Female,30 to 34,Cardiovascular diseases,leeds,199.52440157691035,84015.39131287398
+YLLs (Years of Life Lost),Female,30 to 34,Chronic obstructive pulmonary disease,leeds,9.993462904482042,84015.39131287398
+YLLs (Years of Life Lost),Female,30 to 34,Colon and rectum cancer,leeds,42.546785832064145,84015.39131287398
+YLLs (Years of Life Lost),Female,30 to 34,Diabetes mellitus type 2,leeds,3.3867714398318522,84015.39131287398
+YLLs (Years of Life Lost),Female,30 to 34,Ischemic heart disease,leeds,46.17492691932664,84015.39131287398
+YLLs (Years of Life Lost),Female,30 to 34,Liver cancer,leeds,11.091604635229729,84015.39131287398
+YLLs (Years of Life Lost),Female,30 to 34,Lower respiratory infections,leeds,46.26802597739123,84015.39131287398
+YLLs (Years of Life Lost),Female,30 to 34,Neoplasms,leeds,629.0239567539601,84015.39131287398
+YLLs (Years of Life Lost),Female,30 to 34,Road injuries,leeds,62.1974546091237,84015.39131287398
+YLLs (Years of Life Lost),Female,30 to 34,Stomach cancer,leeds,21.280448420636336,84015.39131287398
+YLLs (Years of Life Lost),Female,30 to 34,Stroke,leeds,71.59042225978929,84015.39131287398
+YLLs (Years of Life Lost),Female,30 to 34,"Tracheal, bronchus, and lung cancer",leeds,29.483654679559816,84015.39131287398
+YLLs (Years of Life Lost),Female,30 to 34,Uterine cancer,leeds,3.280854199077628,84015.39131287398
+YLLs (Years of Life Lost),Female,35 to 39,All causes,leeds,2981.9771203335995,79503.34239509758
+YLLs (Years of Life Lost),Female,35 to 39,Breast cancer,leeds,342.73212678717107,79503.34239509758
+YLLs (Years of Life Lost),Female,35 to 39,Cardiovascular diseases,leeds,363.4903960529666,79503.34239509758
+YLLs (Years of Life Lost),Female,35 to 39,Chronic obstructive pulmonary disease,leeds,20.908158348176645,79503.34239509758
+YLLs (Years of Life Lost),Female,35 to 39,Colon and rectum cancer,leeds,75.30481283462679,79503.34239509758
+YLLs (Years of Life Lost),Female,35 to 39,Diabetes mellitus type 2,leeds,5.358490720954322,79503.34239509758
+YLLs (Years of Life Lost),Female,35 to 39,Ischemic heart disease,leeds,112.8226290781117,79503.34239509758
+YLLs (Years of Life Lost),Female,35 to 39,Liver cancer,leeds,18.083538678980542,79503.34239509758
+YLLs (Years of Life Lost),Female,35 to 39,Lower respiratory infections,leeds,75.97170112101144,79503.34239509758
+YLLs (Years of Life Lost),Female,35 to 39,Neoplasms,leeds,1117.7393557206128,79503.34239509758
+YLLs (Years of Life Lost),Female,35 to 39,Road injuries,leeds,58.98949309320558,79503.34239509758
+YLLs (Years of Life Lost),Female,35 to 39,Stomach cancer,leeds,35.6166869804642,79503.34239509758
+YLLs (Years of Life Lost),Female,35 to 39,Stroke,leeds,129.23777991053566,79503.34239509758
+YLLs (Years of Life Lost),Female,35 to 39,"Tracheal, bronchus, and lung cancer",leeds,67.67836049123612,79503.34239509758
+YLLs (Years of Life Lost),Female,35 to 39,Uterine cancer,leeds,6.867945058104799,79503.34239509758
+YLLs (Years of Life Lost),Female,40 to 44,All causes,leeds,3860.74961920787,72459.6099674442
+YLLs (Years of Life Lost),Female,40 to 44,Breast cancer,leeds,516.9482627606137,72459.6099674442
+YLLs (Years of Life Lost),Female,40 to 44,Cardiovascular diseases,leeds,560.5129568430123,72459.6099674442
+YLLs (Years of Life Lost),Female,40 to 44,Chronic obstructive pulmonary disease,leeds,50.35750333220211,72459.6099674442
+YLLs (Years of Life Lost),Female,40 to 44,Colon and rectum cancer,leeds,115.45448750415947,72459.6099674442
+YLLs (Years of Life Lost),Female,40 to 44,Diabetes mellitus type 2,leeds,6.754647146398844,72459.6099674442
+YLLs (Years of Life Lost),Female,40 to 44,Ischemic heart disease,leeds,202.53396445749877,72459.6099674442
+YLLs (Years of Life Lost),Female,40 to 44,Liver cancer,leeds,25.619031616366197,72459.6099674442
+YLLs (Years of Life Lost),Female,40 to 44,Lower respiratory infections,leeds,102.06628215986736,72459.6099674442
+YLLs (Years of Life Lost),Female,40 to 44,Neoplasms,leeds,1617.3053292272625,72459.6099674442
+YLLs (Years of Life Lost),Female,40 to 44,Road injuries,leeds,49.82944476126861,72459.6099674442
+YLLs (Years of Life Lost),Female,40 to 44,Stomach cancer,leeds,55.08034824950422,72459.6099674442
+YLLs (Years of Life Lost),Female,40 to 44,Stroke,leeds,187.89384813814257,72459.6099674442
+YLLs (Years of Life Lost),Female,40 to 44,"Tracheal, bronchus, and lung cancer",leeds,158.2467570099755,72459.6099674442
+YLLs (Years of Life Lost),Female,40 to 44,Uterine cancer,leeds,14.103792830110029,72459.6099674442
+YLLs (Years of Life Lost),Female,45 to 49,All causes,leeds,5166.966676849619,80512.37085578268
+YLLs (Years of Life Lost),Female,45 to 49,Breast cancer,leeds,736.3562219606406,80512.37085578268
+YLLs (Years of Life Lost),Female,45 to 49,Cardiovascular diseases,leeds,783.8642841094537,80512.37085578268
+YLLs (Years of Life Lost),Female,45 to 49,Chronic obstructive pulmonary disease,leeds,98.12805573724216,80512.37085578268
+YLLs (Years of Life Lost),Female,45 to 49,Colon and rectum cancer,leeds,183.52602174799983,80512.37085578268
+YLLs (Years of Life Lost),Female,45 to 49,Diabetes mellitus type 2,leeds,20.62539138132547,80512.37085578268
+YLLs (Years of Life Lost),Female,45 to 49,Ischemic heart disease,leeds,324.4671684671152,80512.37085578268
+YLLs (Years of Life Lost),Female,45 to 49,Liver cancer,leeds,41.74067325886985,80512.37085578268
+YLLs (Years of Life Lost),Female,45 to 49,Lower respiratory infections,leeds,124.58974889767474,80512.37085578268
+YLLs (Years of Life Lost),Female,45 to 49,Neoplasms,leeds,2466.4114940215627,80512.37085578268
+YLLs (Years of Life Lost),Female,45 to 49,Road injuries,leeds,45.27546187515022,80512.37085578268
+YLLs (Years of Life Lost),Female,45 to 49,Stomach cancer,leeds,64.71906054941391,80512.37085578268
+YLLs (Years of Life Lost),Female,45 to 49,Stroke,leeds,238.70380920363198,80512.37085578268
+YLLs (Years of Life Lost),Female,45 to 49,"Tracheal, bronchus, and lung cancer",leeds,372.07431670170683,80512.37085578268
+YLLs (Years of Life Lost),Female,45 to 49,Uterine cancer,leeds,27.150598408254726,80512.37085578268
+YLLs (Years of Life Lost),Female,5 to 9,All causes,leeds,492.1274110603056,77400.05723288807
+YLLs (Years of Life Lost),Female,5 to 9,Cardiovascular diseases,leeds,20.517810946422337,77400.05723288807
+YLLs (Years of Life Lost),Female,5 to 9,Chronic obstructive pulmonary disease,leeds,4.077283019129068,77400.05723288807
+YLLs (Years of Life Lost),Female,5 to 9,Liver cancer,leeds,2.1560081067640002,77400.05723288807
+YLLs (Years of Life Lost),Female,5 to 9,Lower respiratory infections,leeds,24.694739958195417,77400.05723288807
+YLLs (Years of Life Lost),Female,5 to 9,Neoplasms,leeds,149.34229454216947,77400.05723288807
+YLLs (Years of Life Lost),Female,5 to 9,Road injuries,leeds,41.78446352716338,77400.05723288807
+YLLs (Years of Life Lost),Female,5 to 9,Stroke,leeds,6.6423206473510445,77400.05723288807
+YLLs (Years of Life Lost),Female,50 to 54,All causes,leeds,7584.8832698484875,78393.2049040556
+YLLs (Years of Life Lost),Female,50 to 54,Breast cancer,leeds,1014.8012651319957,78393.2049040556
+YLLs (Years of Life Lost),Female,50 to 54,Cardiovascular diseases,leeds,1206.8144715184571,78393.2049040556
+YLLs (Years of Life Lost),Female,50 to 54,Chronic obstructive pulmonary disease,leeds,246.72961339254783,78393.2049040556
+YLLs (Years of Life Lost),Female,50 to 54,Colon and rectum cancer,leeds,308.00527303646425,78393.2049040556
+YLLs (Years of Life Lost),Female,50 to 54,Diabetes mellitus type 2,leeds,28.139638906229443,78393.2049040556
+YLLs (Years of Life Lost),Female,50 to 54,Ischemic heart disease,leeds,557.2426627488891,78393.2049040556
+YLLs (Years of Life Lost),Female,50 to 54,Liver cancer,leeds,79.62747940275773,78393.2049040556
+YLLs (Years of Life Lost),Female,50 to 54,Lower respiratory infections,leeds,191.62391595848862,78393.2049040556
+YLLs (Years of Life Lost),Female,50 to 54,Neoplasms,leeds,3952.020453914815,78393.2049040556
+YLLs (Years of Life Lost),Female,50 to 54,Road injuries,leeds,43.77290867240719,78393.2049040556
+YLLs (Years of Life Lost),Female,50 to 54,Stomach cancer,leeds,97.10205601668223,78393.2049040556
+YLLs (Years of Life Lost),Female,50 to 54,Stroke,leeds,350.3745425620688,78393.2049040556
+YLLs (Years of Life Lost),Female,50 to 54,"Tracheal, bronchus, and lung cancer",leeds,772.8537279680181,78393.2049040556
+YLLs (Years of Life Lost),Female,50 to 54,Uterine cancer,leeds,58.56325845964816,78393.2049040556
+YLLs (Years of Life Lost),Female,55 to 59,All causes,leeds,8885.838839836171,70298.79690060277
+YLLs (Years of Life Lost),Female,55 to 59,Breast cancer,leeds,945.8307725021641,70298.79690060277
+YLLs (Years of Life Lost),Female,55 to 59,Cardiovascular diseases,leeds,1426.1442795063763,70298.79690060277
+YLLs (Years of Life Lost),Female,55 to 59,Chronic obstructive pulmonary disease,leeds,448.3484551732873,70298.79690060277
+YLLs (Years of Life Lost),Female,55 to 59,Colon and rectum cancer,leeds,390.1132605184629,70298.79690060277
+YLLs (Years of Life Lost),Female,55 to 59,Diabetes mellitus type 2,leeds,34.91121877252294,70298.79690060277
+YLLs (Years of Life Lost),Female,55 to 59,Ischemic heart disease,leeds,712.4966938731623,70298.79690060277
+YLLs (Years of Life Lost),Female,55 to 59,Liver cancer,leeds,103.74333296223739,70298.79690060277
+YLLs (Years of Life Lost),Female,55 to 59,Lower respiratory infections,leeds,218.6722747513385,70298.79690060277
+YLLs (Years of Life Lost),Female,55 to 59,Neoplasms,leeds,4825.3383424585445,70298.79690060277
+YLLs (Years of Life Lost),Female,55 to 59,Road injuries,leeds,36.767765340351765,70298.79690060277
+YLLs (Years of Life Lost),Female,55 to 59,Stomach cancer,leeds,119.45006463810934,70298.79690060277
+YLLs (Years of Life Lost),Female,55 to 59,Stroke,leeds,366.17987759304896,70298.79690060277
+YLLs (Years of Life Lost),Female,55 to 59,"Tracheal, bronchus, and lung cancer",leeds,1209.8301933818593,70298.79690060277
+YLLs (Years of Life Lost),Female,55 to 59,Uterine cancer,leeds,95.21340000292085,70298.79690060277
+YLLs (Years of Life Lost),Female,60 to 64,All causes,leeds,10494.639599190932,59442.46862208768
+YLLs (Years of Life Lost),Female,60 to 64,Breast cancer,leeds,854.2112597859123,59442.46862208768
+YLLs (Years of Life Lost),Female,60 to 64,Cardiovascular diseases,leeds,1822.1908929805857,59442.46862208768
+YLLs (Years of Life Lost),Female,60 to 64,Chronic obstructive pulmonary disease,leeds,822.2884143262892,59442.46862208768
+YLLs (Years of Life Lost),Female,60 to 64,Colon and rectum cancer,leeds,447.77328821136734,59442.46862208768
+YLLs (Years of Life Lost),Female,60 to 64,Diabetes mellitus type 2,leeds,50.11788403888431,59442.46862208768
+YLLs (Years of Life Lost),Female,60 to 64,Ischemic heart disease,leeds,918.0456755352662,59442.46862208768
+YLLs (Years of Life Lost),Female,60 to 64,Liver cancer,leeds,122.42121702457949,59442.46862208768
+YLLs (Years of Life Lost),Female,60 to 64,Lower respiratory infections,leeds,275.50327461705365,59442.46862208768
+YLLs (Years of Life Lost),Female,60 to 64,Neoplasms,leeds,5577.2563551612175,59442.46862208768
+YLLs (Years of Life Lost),Female,60 to 64,Road injuries,leeds,30.51492387177347,59442.46862208768
+YLLs (Years of Life Lost),Female,60 to 64,Stomach cancer,leeds,142.9870864236736,59442.46862208768
+YLLs (Years of Life Lost),Female,60 to 64,Stroke,leeds,438.0123003069293,59442.46862208768
+YLLs (Years of Life Lost),Female,60 to 64,"Tracheal, bronchus, and lung cancer",leeds,1585.584273193269,59442.46862208768
+YLLs (Years of Life Lost),Female,60 to 64,Uterine cancer,leeds,131.9387643155024,59442.46862208768
+YLLs (Years of Life Lost),Female,65 to 69,All causes,leeds,14501.231510774021,59424.52174218631
+YLLs (Years of Life Lost),Female,65 to 69,Breast cancer,leeds,945.336951804163,59424.52174218631
+YLLs (Years of Life Lost),Female,65 to 69,Cardiovascular diseases,leeds,2781.0698032847818,59424.52174218631
+YLLs (Years of Life Lost),Female,65 to 69,Chronic obstructive pulmonary disease,leeds,1387.6416391676903,59424.52174218631
+YLLs (Years of Life Lost),Female,65 to 69,Colon and rectum cancer,leeds,564.8546361937439,59424.52174218631
+YLLs (Years of Life Lost),Female,65 to 69,Diabetes mellitus type 2,leeds,72.45599806531504,59424.52174218631
+YLLs (Years of Life Lost),Female,65 to 69,Ischemic heart disease,leeds,1367.1098502215475,59424.52174218631
+YLLs (Years of Life Lost),Female,65 to 69,Liver cancer,leeds,170.71559481372537,59424.52174218631
+YLLs (Years of Life Lost),Female,65 to 69,Lower respiratory infections,leeds,394.6075492581223,59424.52174218631
+YLLs (Years of Life Lost),Female,65 to 69,Neoplasms,leeds,7311.781053571311,59424.52174218631
+YLLs (Years of Life Lost),Female,65 to 69,Road injuries,leeds,34.827314702727165,59424.52174218631
+YLLs (Years of Life Lost),Female,65 to 69,Stomach cancer,leeds,192.0833200977712,59424.52174218631
+YLLs (Years of Life Lost),Female,65 to 69,Stroke,leeds,679.8881135166266,59424.52174218631
+YLLs (Years of Life Lost),Female,65 to 69,"Tracheal, bronchus, and lung cancer",leeds,2290.429259018977,59424.52174218631
+YLLs (Years of Life Lost),Female,65 to 69,Uterine cancer,leeds,187.84401159216935,59424.52174218631
+YLLs (Years of Life Lost),Female,70 to 74,All causes,leeds,15286.926235960429,49538.000105097104
+YLLs (Years of Life Lost),Female,70 to 74,Breast cancer,leeds,747.1064603262244,49538.000105097104
+YLLs (Years of Life Lost),Female,70 to 74,Cardiovascular diseases,leeds,3419.642627041802,49538.000105097104
+YLLs (Years of Life Lost),Female,70 to 74,Chronic obstructive pulmonary disease,leeds,1675.5448831185588,49538.000105097104
+YLLs (Years of Life Lost),Female,70 to 74,Colon and rectum cancer,leeds,550.0769145382895,49538.000105097104
+YLLs (Years of Life Lost),Female,70 to 74,Diabetes mellitus type 2,leeds,92.09031987343006,49538.000105097104
+YLLs (Years of Life Lost),Female,70 to 74,Ischemic heart disease,leeds,1638.0291822160127,49538.000105097104
+YLLs (Years of Life Lost),Female,70 to 74,Liver cancer,leeds,169.13187308748823,49538.000105097104
+YLLs (Years of Life Lost),Female,70 to 74,Lower respiratory infections,leeds,517.0642377479073,49538.000105097104
+YLLs (Years of Life Lost),Female,70 to 74,Neoplasms,leeds,6673.00899648377,49538.000105097104
+YLLs (Years of Life Lost),Female,70 to 74,Road injuries,leeds,32.47224728208974,49538.000105097104
+YLLs (Years of Life Lost),Female,70 to 74,Stomach cancer,leeds,213.84338570346978,49538.000105097104
+YLLs (Years of Life Lost),Female,70 to 74,Stroke,leeds,887.7905158606256,49538.000105097104
+YLLs (Years of Life Lost),Female,70 to 74,"Tracheal, bronchus, and lung cancer",leeds,2078.266492895512,49538.000105097104
+YLLs (Years of Life Lost),Female,70 to 74,Uterine cancer,leeds,161.79343939765627,49538.000105097104
+YLLs (Years of Life Lost),Female,75 to 79,All causes,leeds,16602.45199755975,37301.84165975794
+YLLs (Years of Life Lost),Female,75 to 79,Breast cancer,leeds,633.9456664573428,37301.84165975794
+YLLs (Years of Life Lost),Female,75 to 79,Cardiovascular diseases,leeds,4463.462709110959,37301.84165975794
+YLLs (Years of Life Lost),Female,75 to 79,Chronic obstructive pulmonary disease,leeds,1718.0765798407656,37301.84165975794
+YLLs (Years of Life Lost),Female,75 to 79,Colon and rectum cancer,leeds,556.1013516909592,37301.84165975794
+YLLs (Years of Life Lost),Female,75 to 79,Diabetes mellitus type 2,leeds,112.0518882420694,37301.84165975794
+YLLs (Years of Life Lost),Female,75 to 79,Ischemic heart disease,leeds,2070.801517271565,37301.84165975794
+YLLs (Years of Life Lost),Female,75 to 79,Liver cancer,leeds,162.58477534055334,37301.84165975794
+YLLs (Years of Life Lost),Female,75 to 79,Lower respiratory infections,leeds,724.7605643423071,37301.84165975794
+YLLs (Years of Life Lost),Female,75 to 79,Neoplasms,leeds,5757.282505992367,37301.84165975794
+YLLs (Years of Life Lost),Female,75 to 79,Road injuries,leeds,32.27241621044107,37301.84165975794
+YLLs (Years of Life Lost),Female,75 to 79,Stomach cancer,leeds,241.64360155445934,37301.84165975794
+YLLs (Years of Life Lost),Female,75 to 79,Stroke,leeds,1269.9589225937261,37301.84165975794
+YLLs (Years of Life Lost),Female,75 to 79,"Tracheal, bronchus, and lung cancer",leeds,1625.3150515175807,37301.84165975794
+YLLs (Years of Life Lost),Female,75 to 79,Uterine cancer,leeds,125.27628137941878,37301.84165975794
+YLLs (Years of Life Lost),Female,80 to 84,All causes,leeds,17224.6457787451,29176.58927947716
+YLLs (Years of Life Lost),Female,80 to 84,Breast cancer,leeds,506.45485744071703,29176.58927947716
+YLLs (Years of Life Lost),Female,80 to 84,Cardiovascular diseases,leeds,5288.39167611663,29176.58927947716
+YLLs (Years of Life Lost),Female,80 to 84,Chronic obstructive pulmonary disease,leeds,1575.0984351808838,29176.58927947716
+YLLs (Years of Life Lost),Female,80 to 84,Colon and rectum cancer,leeds,508.55091710033776,29176.58927947716
+YLLs (Years of Life Lost),Female,80 to 84,Diabetes mellitus type 2,leeds,136.65713411992735,29176.58927947716
+YLLs (Years of Life Lost),Female,80 to 84,Ischemic heart disease,leeds,2432.4972115432192,29176.58927947716
+YLLs (Years of Life Lost),Female,80 to 84,Liver cancer,leeds,126.36909714061801,29176.58927947716
+YLLs (Years of Life Lost),Female,80 to 84,Lower respiratory infections,leeds,992.0245109804443,29176.58927947716
+YLLs (Years of Life Lost),Female,80 to 84,Neoplasms,leeds,4423.434656272552,29176.58927947716
+YLLs (Years of Life Lost),Female,80 to 84,Road injuries,leeds,26.734653475733516,29176.58927947716
+YLLs (Years of Life Lost),Female,80 to 84,Stomach cancer,leeds,217.55727300506518,29176.58927947716
+YLLs (Years of Life Lost),Female,80 to 84,Stroke,leeds,1557.3662839727647,29176.58927947716
+YLLs (Years of Life Lost),Female,80 to 84,"Tracheal, bronchus, and lung cancer",leeds,1110.0507757477776,29176.58927947716
+YLLs (Years of Life Lost),Female,80 to 84,Uterine cancer,leeds,87.84725329483922,29176.58927947716
+YLLs (Years of Life Lost),Female,85 to 89,All causes,leeds,15951.800079076023,18685.780375587165
+YLLs (Years of Life Lost),Female,85 to 89,Breast cancer,leeds,402.61980816564164,18685.780375587165
+YLLs (Years of Life Lost),Female,85 to 89,Cardiovascular diseases,leeds,5318.240520728097,18685.780375587165
+YLLs (Years of Life Lost),Female,85 to 89,Chronic obstructive pulmonary disease,leeds,1135.4446860521714,18685.780375587165
+YLLs (Years of Life Lost),Female,85 to 89,Colon and rectum cancer,leeds,396.8804153541979,18685.780375587165
+YLLs (Years of Life Lost),Female,85 to 89,Diabetes mellitus type 2,leeds,121.21296784526375,18685.780375587165
+YLLs (Years of Life Lost),Female,85 to 89,Ischemic heart disease,leeds,2425.2061753603293,18685.780375587165
+YLLs (Years of Life Lost),Female,85 to 89,Liver cancer,leeds,82.8280262364676,18685.780375587165
+YLLs (Years of Life Lost),Female,85 to 89,Lower respiratory infections,leeds,1334.6296900318314,18685.780375587165
+YLLs (Years of Life Lost),Female,85 to 89,Neoplasms,leeds,2931.36236113587,18685.780375587165
+YLLs (Years of Life Lost),Female,85 to 89,Road injuries,leeds,15.420986322825817,18685.780375587165
+YLLs (Years of Life Lost),Female,85 to 89,Stomach cancer,leeds,155.62791258369455,18685.780375587165
+YLLs (Years of Life Lost),Female,85 to 89,Stroke,leeds,1625.0968247752248,18685.780375587165
+YLLs (Years of Life Lost),Female,85 to 89,"Tracheal, bronchus, and lung cancer",leeds,609.557469197,18685.780375587165
+YLLs (Years of Life Lost),Female,85 to 89,Uterine cancer,leeds,51.475402064920075,18685.780375587165
+YLLs (Years of Life Lost),Female,90 to 94,All causes,leeds,8568.012241097418,8633.676911529907
+YLLs (Years of Life Lost),Female,90 to 94,Breast cancer,leeds,171.03839620131438,8633.676911529907
+YLLs (Years of Life Lost),Female,90 to 94,Cardiovascular diseases,leeds,2965.0431458158805,8633.676911529907
+YLLs (Years of Life Lost),Female,90 to 94,Chronic obstructive pulmonary disease,leeds,545.9289716154932,8633.676911529907
+YLLs (Years of Life Lost),Female,90 to 94,Colon and rectum cancer,leeds,176.21563451032355,8633.676911529907
+YLLs (Years of Life Lost),Female,90 to 94,Diabetes mellitus type 2,leeds,62.76208332172838,8633.676911529907
+YLLs (Years of Life Lost),Female,90 to 94,Ischemic heart disease,leeds,1350.6134513878674,8633.676911529907
+YLLs (Years of Life Lost),Female,90 to 94,Liver cancer,leeds,27.8113717412636,8633.676911529907
+YLLs (Years of Life Lost),Female,90 to 94,Lower respiratory infections,leeds,757.5838376841352,8633.676911529907
+YLLs (Years of Life Lost),Female,90 to 94,Neoplasms,leeds,1136.878307606071,8633.676911529907
+YLLs (Years of Life Lost),Female,90 to 94,Road injuries,leeds,6.295241778029021,8633.676911529907
+YLLs (Years of Life Lost),Female,90 to 94,Stomach cancer,leeds,70.28198448801338,8633.676911529907
+YLLs (Years of Life Lost),Female,90 to 94,Stroke,leeds,906.1314737527088,8633.676911529907
+YLLs (Years of Life Lost),Female,90 to 94,"Tracheal, bronchus, and lung cancer",leeds,196.02272468110203,8633.676911529907
+YLLs (Years of Life Lost),Female,90 to 94,Uterine cancer,leeds,17.722248109726245,8633.676911529907
+YLLs (Years of Life Lost),Female,95 to 99,All causes,leeds,2564.252495908272,2578.5461393104265
+YLLs (Years of Life Lost),Female,95 to 99,Breast cancer,leeds,41.15668879563578,2578.5461393104265
+YLLs (Years of Life Lost),Female,95 to 99,Cardiovascular diseases,leeds,909.9490673225695,2578.5461393104265
+YLLs (Years of Life Lost),Female,95 to 99,Chronic obstructive pulmonary disease,leeds,162.3225338600443,2578.5461393104265
+YLLs (Years of Life Lost),Female,95 to 99,Colon and rectum cancer,leeds,39.385790942636305,2578.5461393104265
+YLLs (Years of Life Lost),Female,95 to 99,Diabetes mellitus type 2,leeds,18.834935245123162,2578.5461393104265
+YLLs (Years of Life Lost),Female,95 to 99,Ischemic heart disease,leeds,417.71413069400523,2578.5461393104265
+YLLs (Years of Life Lost),Female,95 to 99,Liver cancer,leeds,5.510427691893927,2578.5461393104265
+YLLs (Years of Life Lost),Female,95 to 99,Lower respiratory infections,leeds,262.75893210979723,2578.5461393104265
+YLLs (Years of Life Lost),Female,95 to 99,Neoplasms,leeds,247.62938400029762,2578.5461393104265
+YLLs (Years of Life Lost),Female,95 to 99,Road injuries,leeds,1.6568571860359054,2578.5461393104265
+YLLs (Years of Life Lost),Female,95 to 99,Stomach cancer,leeds,17.274376447915866,2578.5461393104265
+YLLs (Years of Life Lost),Female,95 to 99,Stroke,leeds,289.41054073801484,2578.5461393104265
+YLLs (Years of Life Lost),Female,95 to 99,"Tracheal, bronchus, and lung cancer",leeds,36.97510439146171,2578.5461393104265
+YLLs (Years of Life Lost),Female,95 to 99,Uterine cancer,leeds,3.474277044355699,2578.5461393104265
+YLLs (Years of Life Lost),Female,0 to 4,All causes,leeds,6114.776373363642,74150.06279393773
+YLLs (Years of Life Lost),Female,0 to 4,Cardiovascular diseases,leeds,85.10708590952976,74150.06279393773
+YLLs (Years of Life Lost),Female,0 to 4,Chronic obstructive pulmonary disease,leeds,5.593795881398536,74150.06279393773
+YLLs (Years of Life Lost),Female,0 to 4,Lower respiratory infections,leeds,231.50826272080585,74150.06279393773
+YLLs (Years of Life Lost),Female,0 to 4,Neoplasms,leeds,197.08188339977815,74150.06279393773
+YLLs (Years of Life Lost),Female,0 to 4,Road injuries,leeds,42.255815060818904,74150.06279393773
+YLLs (Years of Life Lost),Female,0 to 4,Stroke,leeds,15.220985375532349,74150.06279393773
+YLLs (Years of Life Lost),Male,10 to 14,All causes,leeds,390.87541760492536,72528.09993363854
+YLLs (Years of Life Lost),Male,10 to 14,Cardiovascular diseases,leeds,17.00215485399428,72528.09993363854
+YLLs (Years of Life Lost),Male,10 to 14,Chronic obstructive pulmonary disease,leeds,0.7668776776814481,72528.09993363854
+YLLs (Years of Life Lost),Male,10 to 14,Liver cancer,leeds,1.8331880752731529,72528.09993363854
+YLLs (Years of Life Lost),Male,10 to 14,Lower respiratory infections,leeds,10.67134324388276,72528.09993363854
+YLLs (Years of Life Lost),Male,10 to 14,Neoplasms,leeds,103.75989286223641,72528.09993363854
+YLLs (Years of Life Lost),Male,10 to 14,Road injuries,leeds,50.0053207330306,72528.09993363854
+YLLs (Years of Life Lost),Male,10 to 14,Stroke,leeds,4.6556035264570355,72528.09993363854
+YLLs (Years of Life Lost),Male,15 to 19,All causes,leeds,1707.0815740584874,69923.96206490307
+YLLs (Years of Life Lost),Male,15 to 19,Breast cancer,leeds,0.4853289591967104,69923.96206490307
+YLLs (Years of Life Lost),Male,15 to 19,Cardiovascular diseases,leeds,79.4078302958674,69923.96206490307
+YLLs (Years of Life Lost),Male,15 to 19,Chronic obstructive pulmonary disease,leeds,4.149925128084095,69923.96206490307
+YLLs (Years of Life Lost),Male,15 to 19,Colon and rectum cancer,leeds,2.4294701881456944,69923.96206490307
+YLLs (Years of Life Lost),Male,15 to 19,Diabetes mellitus type 2,leeds,0.5299662607931781,69923.96206490307
+YLLs (Years of Life Lost),Male,15 to 19,Ischemic heart disease,leeds,7.228915124653464,69923.96206490307
+YLLs (Years of Life Lost),Male,15 to 19,Liver cancer,leeds,4.279151101334682,69923.96206490307
+YLLs (Years of Life Lost),Male,15 to 19,Lower respiratory infections,leeds,25.068483842509437,69923.96206490307
+YLLs (Years of Life Lost),Male,15 to 19,Neoplasms,leeds,212.76492872327952,69923.96206490307
+YLLs (Years of Life Lost),Male,15 to 19,Road injuries,leeds,420.91164008131807,69923.96206490307
+YLLs (Years of Life Lost),Male,15 to 19,Stomach cancer,leeds,1.134418493800063,69923.96206490307
+YLLs (Years of Life Lost),Male,15 to 19,Stroke,leeds,20.676538921467905,69923.96206490307
+YLLs (Years of Life Lost),Male,15 to 19,"Tracheal, bronchus, and lung cancer",leeds,0.8608486687090576,69923.96206490307
+YLLs (Years of Life Lost),Male,20 to 24,All causes,leeds,2606.5665210640364,78051.22525362874
+YLLs (Years of Life Lost),Male,20 to 24,Breast cancer,leeds,0.48531345571929274,78051.22525362874
+YLLs (Years of Life Lost),Male,20 to 24,Cardiovascular diseases,leeds,124.40783220265881,78051.22525362874
+YLLs (Years of Life Lost),Male,20 to 24,Chronic obstructive pulmonary disease,leeds,5.052829817283148,78051.22525362874
+YLLs (Years of Life Lost),Male,20 to 24,Colon and rectum cancer,leeds,7.622064279901694,78051.22525362874
+YLLs (Years of Life Lost),Male,20 to 24,Diabetes mellitus type 2,leeds,0.9418617840909475,78051.22525362874
+YLLs (Years of Life Lost),Male,20 to 24,Ischemic heart disease,leeds,21.353843101198212,78051.22525362874
+YLLs (Years of Life Lost),Male,20 to 24,Liver cancer,leeds,6.077969210548411,78051.22525362874
+YLLs (Years of Life Lost),Male,20 to 24,Lower respiratory infections,leeds,32.63313195172396,78051.22525362874
+YLLs (Years of Life Lost),Male,20 to 24,Neoplasms,leeds,241.65737897957405,78051.22525362874
+YLLs (Years of Life Lost),Male,20 to 24,Road injuries,leeds,530.2219129986921,78051.22525362874
+YLLs (Years of Life Lost),Male,20 to 24,Stomach cancer,leeds,2.694486872865997,78051.22525362874
+YLLs (Years of Life Lost),Male,20 to 24,Stroke,leeds,32.34199138504622,78051.22525362874
+YLLs (Years of Life Lost),Male,20 to 24,"Tracheal, bronchus, and lung cancer",leeds,3.1744374027043203,78051.22525362874
+YLLs (Years of Life Lost),Male,25 to 29,All causes,leeds,3258.283442158869,86913.03609159603
+YLLs (Years of Life Lost),Male,25 to 29,Breast cancer,leeds,0.6024471252988982,86913.03609159603
+YLLs (Years of Life Lost),Male,25 to 29,Cardiovascular diseases,leeds,237.44063080321052,86913.03609159603
+YLLs (Years of Life Lost),Male,25 to 29,Chronic obstructive pulmonary disease,leeds,6.67855039524481,86913.03609159603
+YLLs (Years of Life Lost),Male,25 to 29,Colon and rectum cancer,leeds,21.93398319594573,86913.03609159603
+YLLs (Years of Life Lost),Male,25 to 29,Diabetes mellitus type 2,leeds,1.5987824315436252,86913.03609159603
+YLLs (Years of Life Lost),Male,25 to 29,Ischemic heart disease,leeds,73.17568964640562,86913.03609159603
+YLLs (Years of Life Lost),Male,25 to 29,Liver cancer,leeds,10.46673615000404,86913.03609159603
+YLLs (Years of Life Lost),Male,25 to 29,Lower respiratory infections,leeds,53.154902565071126,86913.03609159603
+YLLs (Years of Life Lost),Male,25 to 29,Neoplasms,leeds,344.9357313122526,86913.03609159603
+YLLs (Years of Life Lost),Male,25 to 29,Road injuries,leeds,403.5997078834316,86913.03609159603
+YLLs (Years of Life Lost),Male,25 to 29,Stomach cancer,leeds,7.894028049336487,86913.03609159603
+YLLs (Years of Life Lost),Male,25 to 29,Stroke,leeds,57.095546595556804,86913.03609159603
+YLLs (Years of Life Lost),Male,25 to 29,"Tracheal, bronchus, and lung cancer",leeds,7.794126494351984,86913.03609159603
+YLLs (Years of Life Lost),Male,30 to 34,All causes,leeds,3538.6787699096253,85246.20565972962
+YLLs (Years of Life Lost),Male,30 to 34,Breast cancer,leeds,0.9244856529877649,85246.20565972962
+YLLs (Years of Life Lost),Male,30 to 34,Cardiovascular diseases,leeds,384.21003993979,85246.20565972962
+YLLs (Years of Life Lost),Male,30 to 34,Chronic obstructive pulmonary disease,leeds,9.507646163311433,85246.20565972962
+YLLs (Years of Life Lost),Male,30 to 34,Colon and rectum cancer,leeds,45.76916447652462,85246.20565972962
+YLLs (Years of Life Lost),Male,30 to 34,Diabetes mellitus type 2,leeds,5.998524298410487,85246.20565972962
+YLLs (Years of Life Lost),Male,30 to 34,Ischemic heart disease,leeds,163.25549321473702,85246.20565972962
+YLLs (Years of Life Lost),Male,30 to 34,Liver cancer,leeds,16.401453528235937,85246.20565972962
+YLLs (Years of Life Lost),Male,30 to 34,Lower respiratory infections,leeds,71.52001681531613,85246.20565972962
+YLLs (Years of Life Lost),Male,30 to 34,Neoplasms,leeds,449.84883312146025,85246.20565972962
+YLLs (Years of Life Lost),Male,30 to 34,Road injuries,leeds,260.68805595526527,85246.20565972962
+YLLs (Years of Life Lost),Male,30 to 34,Stomach cancer,leeds,17.660466630938465,85246.20565972962
+YLLs (Years of Life Lost),Male,30 to 34,Stroke,leeds,81.20901572724964,85246.20565972962
+YLLs (Years of Life Lost),Male,30 to 34,"Tracheal, bronchus, and lung cancer",leeds,22.040655904269215,85246.20565972962
+YLLs (Years of Life Lost),Male,35 to 39,All causes,leeds,4759.342209685787,84051.99260784857
+YLLs (Years of Life Lost),Male,35 to 39,Breast cancer,leeds,2.2480688496314025,84051.99260784857
+YLLs (Years of Life Lost),Male,35 to 39,Cardiovascular diseases,leeds,735.1215092861634,84051.99260784857
+YLLs (Years of Life Lost),Male,35 to 39,Chronic obstructive pulmonary disease,leeds,24.26426722771369,84051.99260784857
+YLLs (Years of Life Lost),Male,35 to 39,Colon and rectum cancer,leeds,80.58249910857856,84051.99260784857
+YLLs (Years of Life Lost),Male,35 to 39,Diabetes mellitus type 2,leeds,9.237520622569834,84051.99260784857
+YLLs (Years of Life Lost),Male,35 to 39,Ischemic heart disease,leeds,384.86412887576034,84051.99260784857
+YLLs (Years of Life Lost),Male,35 to 39,Liver cancer,leeds,21.43385569658589,84051.99260784857
+YLLs (Years of Life Lost),Male,35 to 39,Lower respiratory infections,leeds,110.29252004530946,84051.99260784857
+YLLs (Years of Life Lost),Male,35 to 39,Neoplasms,leeds,727.2592423228926,84051.99260784857
+YLLs (Years of Life Lost),Male,35 to 39,Road injuries,leeds,231.24767927988995,84051.99260784857
+YLLs (Years of Life Lost),Male,35 to 39,Stomach cancer,leeds,37.556826320805044,84051.99260784857
+YLLs (Years of Life Lost),Male,35 to 39,Stroke,leeds,140.78865229775826,84051.99260784857
+YLLs (Years of Life Lost),Male,35 to 39,"Tracheal, bronchus, and lung cancer",leeds,66.77632471139368,84051.99260784857
+YLLs (Years of Life Lost),Male,40 to 44,All causes,leeds,5991.509046142692,76500.86635013268
+YLLs (Years of Life Lost),Male,40 to 44,Breast cancer,leeds,3.5546945161872503,76500.86635013268
+YLLs (Years of Life Lost),Male,40 to 44,Cardiovascular diseases,leeds,1284.7794358486192,76500.86635013268
+YLLs (Years of Life Lost),Male,40 to 44,Chronic obstructive pulmonary disease,leeds,62.69941874531844,76500.86635013268
+YLLs (Years of Life Lost),Male,40 to 44,Colon and rectum cancer,leeds,124.89050311761757,76500.86635013268
+YLLs (Years of Life Lost),Male,40 to 44,Diabetes mellitus type 2,leeds,12.514947648249098,76500.86635013268
+YLLs (Years of Life Lost),Male,40 to 44,Ischemic heart disease,leeds,762.5977571932679,76500.86635013268
+YLLs (Years of Life Lost),Male,40 to 44,Liver cancer,leeds,38.251966454560346,76500.86635013268
+YLLs (Years of Life Lost),Male,40 to 44,Lower respiratory infections,leeds,152.1235059824806,76500.86635013268
+YLLs (Years of Life Lost),Male,40 to 44,Neoplasms,leeds,1158.3744935687116,76500.86635013268
+YLLs (Years of Life Lost),Male,40 to 44,Road injuries,leeds,197.15288366819175,76500.86635013268
+YLLs (Years of Life Lost),Male,40 to 44,Stomach cancer,leeds,63.26364448557018,76500.86635013268
+YLLs (Years of Life Lost),Male,40 to 44,Stroke,leeds,215.1490042480812,76500.86635013268
+YLLs (Years of Life Lost),Male,40 to 44,"Tracheal, bronchus, and lung cancer",leeds,167.26939262514725,76500.86635013268
+YLLs (Years of Life Lost),Male,45 to 49,All causes,leeds,8166.084143616697,82311.5567452259
+YLLs (Years of Life Lost),Male,45 to 49,Breast cancer,leeds,5.757132800356606,82311.5567452259
+YLLs (Years of Life Lost),Male,45 to 49,Cardiovascular diseases,leeds,2158.022886557559,82311.5567452259
+YLLs (Years of Life Lost),Male,45 to 49,Chronic obstructive pulmonary disease,leeds,130.8374739859187,82311.5567452259
+YLLs (Years of Life Lost),Male,45 to 49,Colon and rectum cancer,leeds,227.0059526682804,82311.5567452259
+YLLs (Years of Life Lost),Male,45 to 49,Diabetes mellitus type 2,leeds,44.2764777681172,82311.5567452259
+YLLs (Years of Life Lost),Male,45 to 49,Ischemic heart disease,leeds,1403.0836534775005,82311.5567452259
+YLLs (Years of Life Lost),Male,45 to 49,Liver cancer,leeds,76.81801229185072,82311.5567452259
+YLLs (Years of Life Lost),Male,45 to 49,Lower respiratory infections,leeds,222.40763692500659,82311.5567452259
+YLLs (Years of Life Lost),Male,45 to 49,Neoplasms,leeds,2102.7973362454036,82311.5567452259
+YLLs (Years of Life Lost),Male,45 to 49,Road injuries,leeds,171.73209616296828,82311.5567452259
+YLLs (Years of Life Lost),Male,45 to 49,Stomach cancer,leeds,113.64816957962759,82311.5567452259
+YLLs (Years of Life Lost),Male,45 to 49,Stroke,leeds,321.04371395967786,82311.5567452259
+YLLs (Years of Life Lost),Male,45 to 49,"Tracheal, bronchus, and lung cancer",leeds,402.06115039535536,82311.5567452259
+YLLs (Years of Life Lost),Male,5 to 9,All causes,leeds,509.53923758758623,80213.40392744326
+YLLs (Years of Life Lost),Male,5 to 9,Cardiovascular diseases,leeds,15.599111885123696,80213.40392744326
+YLLs (Years of Life Lost),Male,5 to 9,Chronic obstructive pulmonary disease,leeds,1.154835881293631,80213.40392744326
+YLLs (Years of Life Lost),Male,5 to 9,Liver cancer,leeds,2.3425801253251772,80213.40392744326
+YLLs (Years of Life Lost),Male,5 to 9,Lower respiratory infections,leeds,19.8034911599686,80213.40392744326
+YLLs (Years of Life Lost),Male,5 to 9,Neoplasms,leeds,171.4199949265942,80213.40392744326
+YLLs (Years of Life Lost),Male,5 to 9,Road injuries,leeds,43.69322564223974,80213.40392744326
+YLLs (Years of Life Lost),Male,5 to 9,Stroke,leeds,4.54137944357397,80213.40392744326
+YLLs (Years of Life Lost),Male,50 to 54,All causes,leeds,9548.561975176324,78306.27904691035
+YLLs (Years of Life Lost),Male,50 to 54,Breast cancer,leeds,8.130421627369044,78306.27904691035
+YLLs (Years of Life Lost),Male,50 to 54,Cardiovascular diseases,leeds,2785.087050639073,78306.27904691035
+YLLs (Years of Life Lost),Male,50 to 54,Chronic obstructive pulmonary disease,leeds,240.03143529458387,78306.27904691035
+YLLs (Years of Life Lost),Male,50 to 54,Colon and rectum cancer,leeds,339.72600560543026,78306.27904691035
+YLLs (Years of Life Lost),Male,50 to 54,Diabetes mellitus type 2,leeds,47.88268566018632,78306.27904691035
+YLLs (Years of Life Lost),Male,50 to 54,Ischemic heart disease,leeds,1916.7580056884253,78306.27904691035
+YLLs (Years of Life Lost),Male,50 to 54,Liver cancer,leeds,121.93246156783624,78306.27904691035
+YLLs (Years of Life Lost),Male,50 to 54,Lower respiratory infections,leeds,263.6268581970497,78306.27904691035
+YLLs (Years of Life Lost),Male,50 to 54,Neoplasms,leeds,3174.7236173571546,78306.27904691035
+YLLs (Years of Life Lost),Male,50 to 54,Road injuries,leeds,128.54679012683292,78306.27904691035
+YLLs (Years of Life Lost),Male,50 to 54,Stomach cancer,leeds,159.92409637103762,78306.27904691035
+YLLs (Years of Life Lost),Male,50 to 54,Stroke,leeds,373.4949723459681,78306.27904691035
+YLLs (Years of Life Lost),Male,50 to 54,"Tracheal, bronchus, and lung cancer",leeds,727.0739856185533,78306.27904691035
+YLLs (Years of Life Lost),Male,55 to 59,All causes,leeds,13084.675013959592,69226.99579940022
+YLLs (Years of Life Lost),Male,55 to 59,Breast cancer,leeds,12.425095487763526,69226.99579940022
+YLLs (Years of Life Lost),Male,55 to 59,Cardiovascular diseases,leeds,3949.2702139877683,69226.99579940022
+YLLs (Years of Life Lost),Male,55 to 59,Chronic obstructive pulmonary disease,leeds,509.23927490502746,69226.99579940022
+YLLs (Years of Life Lost),Male,55 to 59,Colon and rectum cancer,leeds,562.93455208693,69226.99579940022
+YLLs (Years of Life Lost),Male,55 to 59,Diabetes mellitus type 2,leeds,64.68623451334888,69226.99579940022
+YLLs (Years of Life Lost),Male,55 to 59,Ischemic heart disease,leeds,2738.230858788709,69226.99579940022
+YLLs (Years of Life Lost),Male,55 to 59,Liver cancer,leeds,197.2551897572779,69226.99579940022
+YLLs (Years of Life Lost),Male,55 to 59,Lower respiratory infections,leeds,342.5828000145507,69226.99579940022
+YLLs (Years of Life Lost),Male,55 to 59,Neoplasms,leeds,5117.470958882308,69226.99579940022
+YLLs (Years of Life Lost),Male,55 to 59,Road injuries,leeds,106.90132665713617,69226.99579940022
+YLLs (Years of Life Lost),Male,55 to 59,Stomach cancer,leeds,236.4868864374872,69226.99579940022
+YLLs (Years of Life Lost),Male,55 to 59,Stroke,leeds,521.671544151242,69226.99579940022
+YLLs (Years of Life Lost),Male,55 to 59,"Tracheal, bronchus, and lung cancer",leeds,1314.3923081488977,69226.99579940022
+YLLs (Years of Life Lost),Male,60 to 64,All causes,leeds,15034.447370127597,59156.072530916856
+YLLs (Years of Life Lost),Male,60 to 64,Breast cancer,leeds,16.455483116052648,59156.072530916856
+YLLs (Years of Life Lost),Male,60 to 64,Cardiovascular diseases,leeds,4453.977633093331,59156.072530916856
+YLLs (Years of Life Lost),Male,60 to 64,Chronic obstructive pulmonary disease,leeds,898.0026939572964,59156.072530916856
+YLLs (Years of Life Lost),Male,60 to 64,Colon and rectum cancer,leeds,701.5523362890281,59156.072530916856
+YLLs (Years of Life Lost),Male,60 to 64,Diabetes mellitus type 2,leeds,87.69648012329121,59156.072530916856
+YLLs (Years of Life Lost),Male,60 to 64,Ischemic heart disease,leeds,3047.918298707529,59156.072530916856
+YLLs (Years of Life Lost),Male,60 to 64,Liver cancer,leeds,230.67674751020039,59156.072530916856
+YLLs (Years of Life Lost),Male,60 to 64,Lower respiratory infections,leeds,416.0114831171665,59156.072530916856
+YLLs (Years of Life Lost),Male,60 to 64,Neoplasms,leeds,6452.9857353752295,59156.072530916856
+YLLs (Years of Life Lost),Male,60 to 64,Road injuries,leeds,74.99664735724738,59156.072530916856
+YLLs (Years of Life Lost),Male,60 to 64,Stomach cancer,leeds,287.9603707750162,59156.072530916856
+YLLs (Years of Life Lost),Male,60 to 64,Stroke,leeds,599.1489351817817,59156.072530916856
+YLLs (Years of Life Lost),Male,60 to 64,"Tracheal, bronchus, and lung cancer",leeds,1827.9816167591762,59156.072530916856
+YLLs (Years of Life Lost),Male,65 to 69,All causes,leeds,20543.01705541796,56595.74631532322
+YLLs (Years of Life Lost),Male,65 to 69,Breast cancer,leeds,22.336658607558583,56595.74631532322
+YLLs (Years of Life Lost),Male,65 to 69,Cardiovascular diseases,leeds,6090.005518293701,56595.74631532322
+YLLs (Years of Life Lost),Male,65 to 69,Chronic obstructive pulmonary disease,leeds,1501.615600658834,56595.74631532322
+YLLs (Years of Life Lost),Male,65 to 69,Colon and rectum cancer,leeds,922.8940341068112,56595.74631532322
+YLLs (Years of Life Lost),Male,65 to 69,Diabetes mellitus type 2,leeds,123.13224700376142,56595.74631532322
+YLLs (Years of Life Lost),Male,65 to 69,Ischemic heart disease,leeds,4064.0431375761805,56595.74631532322
+YLLs (Years of Life Lost),Male,65 to 69,Liver cancer,leeds,305.5793717998344,56595.74631532322
+YLLs (Years of Life Lost),Male,65 to 69,Lower respiratory infections,leeds,590.224736187171,56595.74631532322
+YLLs (Years of Life Lost),Male,65 to 69,Neoplasms,leeds,8982.887976422155,56595.74631532322
+YLLs (Years of Life Lost),Male,65 to 69,Road injuries,leeds,67.38348341846861,56595.74631532322
+YLLs (Years of Life Lost),Male,65 to 69,Stomach cancer,leeds,419.8123579356498,56595.74631532322
+YLLs (Years of Life Lost),Male,65 to 69,Stroke,leeds,905.0826653026152,56595.74631532322
+YLLs (Years of Life Lost),Male,65 to 69,"Tracheal, bronchus, and lung cancer",leeds,2699.2508724535132,56595.74631532322
+YLLs (Years of Life Lost),Male,70 to 74,All causes,leeds,20145.08245998895,44685.30477105352
+YLLs (Years of Life Lost),Male,70 to 74,Breast cancer,leeds,21.248823398762703,44685.30477105352
+YLLs (Years of Life Lost),Male,70 to 74,Cardiovascular diseases,leeds,6115.364808309638,44685.30477105352
+YLLs (Years of Life Lost),Male,70 to 74,Chronic obstructive pulmonary disease,leeds,1695.8062315676077,44685.30477105352
+YLLs (Years of Life Lost),Male,70 to 74,Colon and rectum cancer,leeds,860.3578003844765,44685.30477105352
+YLLs (Years of Life Lost),Male,70 to 74,Diabetes mellitus type 2,leeds,136.4441666963196,44685.30477105352
+YLLs (Years of Life Lost),Male,70 to 74,Ischemic heart disease,leeds,3844.9304687326444,44685.30477105352
+YLLs (Years of Life Lost),Male,70 to 74,Liver cancer,leeds,263.61300257402814,44685.30477105352
+YLLs (Years of Life Lost),Male,70 to 74,Lower respiratory infections,leeds,690.2560730009494,44685.30477105352
+YLLs (Years of Life Lost),Male,70 to 74,Neoplasms,leeds,8278.95869818237,44685.30477105352
+YLLs (Years of Life Lost),Male,70 to 74,Road injuries,leeds,49.270243017214966,44685.30477105352
+YLLs (Years of Life Lost),Male,70 to 74,Stomach cancer,leeds,427.33157510602496,44685.30477105352
+YLLs (Years of Life Lost),Male,70 to 74,Stroke,leeds,1092.282490620289,44685.30477105352
+YLLs (Years of Life Lost),Male,70 to 74,"Tracheal, bronchus, and lung cancer",leeds,2401.6692969020573,44685.30477105352
+YLLs (Years of Life Lost),Male,75 to 79,All causes,leeds,19436.695317844522,31185.73828149316
+YLLs (Years of Life Lost),Male,75 to 79,Breast cancer,leeds,17.138732460143363,31185.73828149316
+YLLs (Years of Life Lost),Male,75 to 79,Cardiovascular diseases,leeds,6102.355736027608,31185.73828149316
+YLLs (Years of Life Lost),Male,75 to 79,Chronic obstructive pulmonary disease,leeds,1668.515523531835,31185.73828149316
+YLLs (Years of Life Lost),Male,75 to 79,Colon and rectum cancer,leeds,763.2966594481918,31185.73828149316
+YLLs (Years of Life Lost),Male,75 to 79,Diabetes mellitus type 2,leeds,142.38087197526826,31185.73828149316
+YLLs (Years of Life Lost),Male,75 to 79,Ischemic heart disease,leeds,3658.213036735843,31185.73828149316
+YLLs (Years of Life Lost),Male,75 to 79,Liver cancer,leeds,207.13501891196415,31185.73828149316
+YLLs (Years of Life Lost),Male,75 to 79,Lower respiratory infections,leeds,862.2867952929633,31185.73828149316
+YLLs (Years of Life Lost),Male,75 to 79,Neoplasms,leeds,6970.345958344002,31185.73828149316
+YLLs (Years of Life Lost),Male,75 to 79,Road injuries,leeds,40.804805995349994,31185.73828149316
+YLLs (Years of Life Lost),Male,75 to 79,Stomach cancer,leeds,398.15852682207503,31185.73828149316
+YLLs (Years of Life Lost),Male,75 to 79,Stroke,leeds,1267.7350438613,31185.73828149316
+YLLs (Years of Life Lost),Male,75 to 79,"Tracheal, bronchus, and lung cancer",leeds,1872.662655905058,31185.73828149316
+YLLs (Years of Life Lost),Male,80 to 84,All causes,leeds,17325.972694032127,21543.985357470323
+YLLs (Years of Life Lost),Male,80 to 84,Breast cancer,leeds,12.182238586468449,21543.985357470323
+YLLs (Years of Life Lost),Male,80 to 84,Cardiovascular diseases,leeds,5720.165648106334,21543.985357470323
+YLLs (Years of Life Lost),Male,80 to 84,Chronic obstructive pulmonary disease,leeds,1485.2638363167905,21543.985357470323
+YLLs (Years of Life Lost),Male,80 to 84,Colon and rectum cancer,leeds,566.8375276008004,21543.985357470323
+YLLs (Years of Life Lost),Male,80 to 84,Diabetes mellitus type 2,leeds,135.8490825603655,21543.985357470323
+YLLs (Years of Life Lost),Male,80 to 84,Ischemic heart disease,leeds,3246.6035608281377,21543.985357470323
+YLLs (Years of Life Lost),Male,80 to 84,Liver cancer,leeds,135.95975161081807,21543.985357470323
+YLLs (Years of Life Lost),Male,80 to 84,Lower respiratory infections,leeds,1007.3208449745403,21543.985357470323
+YLLs (Years of Life Lost),Male,80 to 84,Neoplasms,leeds,5064.828193204506,21543.985357470323
+YLLs (Years of Life Lost),Male,80 to 84,Road injuries,leeds,30.360842129368766,21543.985357470323
+YLLs (Years of Life Lost),Male,80 to 84,Stomach cancer,leeds,308.3671211974576,21543.985357470323
+YLLs (Years of Life Lost),Male,80 to 84,Stroke,leeds,1370.4987333341123,21543.985357470323
+YLLs (Years of Life Lost),Male,80 to 84,"Tracheal, bronchus, and lung cancer",leeds,1177.778178195502,21543.985357470323
+YLLs (Years of Life Lost),Male,85 to 89,All causes,leeds,12120.584040570713,10610.714304401947
+YLLs (Years of Life Lost),Male,85 to 89,Breast cancer,leeds,6.974447199450819,10610.714304401947
+YLLs (Years of Life Lost),Male,85 to 89,Cardiovascular diseases,leeds,3982.1665692761576,10610.714304401947
+YLLs (Years of Life Lost),Male,85 to 89,Chronic obstructive pulmonary disease,leeds,970.7740328512979,10610.714304401947
+YLLs (Years of Life Lost),Male,85 to 89,Colon and rectum cancer,leeds,326.28761704982765,10610.714304401947
+YLLs (Years of Life Lost),Male,85 to 89,Diabetes mellitus type 2,leeds,93.65639830465265,10610.714304401947
+YLLs (Years of Life Lost),Male,85 to 89,Ischemic heart disease,leeds,2183.319084276584,10610.714304401947
+YLLs (Years of Life Lost),Male,85 to 89,Liver cancer,leeds,64.30175058658715,10610.714304401947
+YLLs (Years of Life Lost),Male,85 to 89,Lower respiratory infections,leeds,1035.7970559838757,10610.714304401947
+YLLs (Years of Life Lost),Male,85 to 89,Neoplasms,leeds,2886.8614636633906,10610.714304401947
+YLLs (Years of Life Lost),Male,85 to 89,Road injuries,leeds,16.892871473464087,10610.714304401947
+YLLs (Years of Life Lost),Male,85 to 89,Stomach cancer,leeds,170.9999744063784,10610.714304401947
+YLLs (Years of Life Lost),Male,85 to 89,Stroke,leeds,1017.011703277894,10610.714304401947
+YLLs (Years of Life Lost),Male,85 to 89,"Tracheal, bronchus, and lung cancer",leeds,603.9098973161296,10610.714304401947
+YLLs (Years of Life Lost),Male,90 to 94,All causes,leeds,4444.967237538805,3651.1129874319213
+YLLs (Years of Life Lost),Male,90 to 94,Breast cancer,leeds,2.540937137275434,3651.1129874319213
+YLLs (Years of Life Lost),Male,90 to 94,Cardiovascular diseases,leeds,1535.701838929214,3651.1129874319213
+YLLs (Years of Life Lost),Male,90 to 94,Chronic obstructive pulmonary disease,leeds,343.3615957653057,3651.1129874319213
+YLLs (Years of Life Lost),Male,90 to 94,Colon and rectum cancer,leeds,97.61988243051518,3651.1129874319213
+YLLs (Years of Life Lost),Male,90 to 94,Diabetes mellitus type 2,leeds,34.73372739210809,3651.1129874319213
+YLLs (Years of Life Lost),Male,90 to 94,Ischemic heart disease,leeds,838.6498374170949,3651.1129874319213
+YLLs (Years of Life Lost),Male,90 to 94,Liver cancer,leeds,14.449404843401796,3651.1129874319213
+YLLs (Years of Life Lost),Male,90 to 94,Lower respiratory infections,leeds,419.95817790739267,3651.1129874319213
+YLLs (Years of Life Lost),Male,90 to 94,Neoplasms,leeds,815.5050127593795,3651.1129874319213
+YLLs (Years of Life Lost),Male,90 to 94,Road injuries,leeds,4.954794624289427,3651.1129874319213
+YLLs (Years of Life Lost),Male,90 to 94,Stomach cancer,leeds,52.99217074811607,3651.1129874319213
+YLLs (Years of Life Lost),Male,90 to 94,Stroke,leeds,405.1818119837716,3651.1129874319213
+YLLs (Years of Life Lost),Male,90 to 94,"Tracheal, bronchus, and lung cancer",leeds,132.73831187008363,3651.1129874319213
+YLLs (Years of Life Lost),Male,95 to 99,All causes,leeds,794.525762775502,695.301153366884
+YLLs (Years of Life Lost),Male,95 to 99,Breast cancer,leeds,0.47902764149921534,695.301153366884
+YLLs (Years of Life Lost),Male,95 to 99,Cardiovascular diseases,leeds,288.7045591062163,695.301153366884
+YLLs (Years of Life Lost),Male,95 to 99,Chronic obstructive pulmonary disease,leeds,61.767800789513295,695.301153366884
+YLLs (Years of Life Lost),Male,95 to 99,Colon and rectum cancer,leeds,13.444140312147274,695.301153366884
+YLLs (Years of Life Lost),Male,95 to 99,Diabetes mellitus type 2,leeds,6.570132393046494,695.301153366884
+YLLs (Years of Life Lost),Male,95 to 99,Ischemic heart disease,leeds,155.73441086645917,695.301153366884
+YLLs (Years of Life Lost),Male,95 to 99,Liver cancer,leeds,1.6924437577905347,695.301153366884
+YLLs (Years of Life Lost),Male,95 to 99,Lower respiratory infections,leeds,91.80501726055313,695.301153366884
+YLLs (Years of Life Lost),Male,95 to 99,Neoplasms,leeds,110.58573283569987,695.301153366884
+YLLs (Years of Life Lost),Male,95 to 99,Road injuries,leeds,0.8267463603788092,695.301153366884
+YLLs (Years of Life Lost),Male,95 to 99,Stomach cancer,leeds,8.127718570357802,695.301153366884
+YLLs (Years of Life Lost),Male,95 to 99,Stroke,leeds,81.45997410510964,695.301153366884
+YLLs (Years of Life Lost),Male,95 to 99,"Tracheal, bronchus, and lung cancer",leeds,13.891572744848599,695.301153366884
+YLLs (Years of Life Lost),Male,0 to 4,All causes,leeds,7342.169832304748,77242.70569817214
+YLLs (Years of Life Lost),Male,0 to 4,Cardiovascular diseases,leeds,96.75608627562204,77242.70569817214
+YLLs (Years of Life Lost),Male,0 to 4,Chronic obstructive pulmonary disease,leeds,4.388134756704423,77242.70569817214
+YLLs (Years of Life Lost),Male,0 to 4,Lower respiratory infections,leeds,282.21205634379,77242.70569817214
+YLLs (Years of Life Lost),Male,0 to 4,Neoplasms,leeds,217.58446878658822,77242.70569817214
+YLLs (Years of Life Lost),Male,0 to 4,Road injuries,leeds,55.56022678630441,77242.70569817214
+YLLs (Years of Life Lost),Male,0 to 4,Stroke,leeds,14.654126817446539,77242.70569817214

@@ -1,5 +1,6 @@
 measure,sex,age,cause,cityregion,number,pop
 Deaths,Female,0 to 5,all causes,greatermanchester,80.9302951834489,89404.8407527445
+Deaths,Female,0 to 5,cardiomyopathy and myocarditis,greatermanchester,0.6072966582597323,89404.84075274458
 Deaths,Female,0 to 5,cardiovascular diseases,greatermanchester,1.2725631331980853,89404.84075274448
 Deaths,Female,0 to 5,chronic myeloid leukemia,greatermanchester,0.015474857473072375,89404.8407527445
 Deaths,Female,0 to 5,chronic obstructive pulmonary disease,greatermanchester,0.05546099388720468,89404.84075274451
@@ -13,9 +14,11 @@ Deaths,Female,0 to 5,neoplasms,greatermanchester,2.7397244391463693,89404.840752
 Deaths,Female,0 to 5,other road injuries,greatermanchester,0.017073316699839036,89404.8407527445
 Deaths,Female,0 to 5,other transport injuries,greatermanchester,0.03137584353916084,89404.84075274451
 Deaths,Female,0 to 5,pedestrian road injuries,greatermanchester,0.2647454219628395,89404.8407527445
+Deaths,Female,0 to 5,rheumatic heart disease,greatermanchester,0.018128591603388623,89404.84075274454
 Deaths,Female,0 to 5,road injuries,greatermanchester,0.5295021531972787,89404.84075274457
 Deaths,Female,0 to 5,stroke,greatermanchester,0.1662142047516794,89404.8407527445
 Deaths,Female,10 to 14,all causes,greatermanchester,7.316961306439465,88733.34182881413
+Deaths,Female,10 to 14,cardiomyopathy and myocarditis,greatermanchester,0.09914846180821127,88733.34182881411
 Deaths,Female,10 to 14,cardiovascular diseases,greatermanchester,0.3235710836564933,88733.34182881407
 Deaths,Female,10 to 14,chronic myeloid leukemia,greatermanchester,0.010844790525467772,88733.34182881411
 Deaths,Female,10 to 14,chronic obstructive pulmonary disease,greatermanchester,0.035228110494519634,88733.34182881413
@@ -30,12 +33,14 @@ Deaths,Female,10 to 14,neoplasms,greatermanchester,2.1517525550507375,88733.3418
 Deaths,Female,10 to 14,other road injuries,greatermanchester,0.013329376783335999,88733.34182881414
 Deaths,Female,10 to 14,other transport injuries,greatermanchester,0.032149008448984225,88733.34182881405
 Deaths,Female,10 to 14,pedestrian road injuries,greatermanchester,0.2999649516228261,88733.34182881408
+Deaths,Female,10 to 14,rheumatic heart disease,greatermanchester,0.009611580749735381,88733.34182881408
 Deaths,Female,10 to 14,road injuries,greatermanchester,0.5838120582386801,88733.34182881408
 Deaths,Female,10 to 14,stroke,greatermanchester,0.09724419822385848,88733.34182881407
 Deaths,Female,10 to 14,"tracheal, bronchus, and lung cancer",greatermanchester,0.017362231010724233,88733.34182881413
 Deaths,Female,15 to 19,all causes,greatermanchester,15.831488050383635,80350.9637648816
 Deaths,Female,15 to 19,bladder cancer,greatermanchester,0.00901957999774462,80350.9637648816
 Deaths,Female,15 to 19,breast cancer,greatermanchester,0.038971376952127074,80350.96376488166
+Deaths,Female,15 to 19,cardiomyopathy and myocarditis,greatermanchester,0.17960039205239878,80350.96376488157
 Deaths,Female,15 to 19,cardiovascular diseases,greatermanchester,0.9205298253187311,80350.96376488161
 Deaths,Female,15 to 19,chronic myeloid leukemia,greatermanchester,0.01707029692291539,80350.9637648816
 Deaths,Female,15 to 19,chronic obstructive pulmonary disease,greatermanchester,0.0943689603080249,80350.9637648816
@@ -49,9 +54,11 @@ Deaths,Female,15 to 19,lower respiratory infections,greatermanchester,0.38404650
 Deaths,Female,15 to 19,motor vehicle road injuries,greatermanchester,1.2680325713975855,80350.96376488156
 Deaths,Female,15 to 19,motorcyclist road injuries,greatermanchester,0.1187803071897691,80350.96376488157
 Deaths,Female,15 to 19,neoplasms,greatermanchester,3.028910901150873,80350.96376488161
+Deaths,Female,15 to 19,non-rheumatic valvular heart disease,greatermanchester,0.0490821869114849,80350.96376488164
 Deaths,Female,15 to 19,other road injuries,greatermanchester,0.03780187835694781,80350.96376488163
 Deaths,Female,15 to 19,other transport injuries,greatermanchester,0.07286500369933142,80350.96376488161
 Deaths,Female,15 to 19,pedestrian road injuries,greatermanchester,0.6137410982977327,80350.96376488166
+Deaths,Female,15 to 19,rheumatic heart disease,greatermanchester,0.017089391277657386,80350.96376488158
 Deaths,Female,15 to 19,road injuries,greatermanchester,2.124874673246067,80350.96376488167
 Deaths,Female,15 to 19,stomach cancer,greatermanchester,0.014633506901484619,80350.96376488161
 Deaths,Female,15 to 19,stroke,greatermanchester,0.2844587796114216,80350.96376488163
@@ -59,6 +66,7 @@ Deaths,Female,15 to 19,"tracheal, bronchus, and lung cancer",greatermanchester,0
 Deaths,Female,20 to 24,all causes,greatermanchester,19.871690649749493,91103.83017794824
 Deaths,Female,20 to 24,bladder cancer,greatermanchester,0.010410663356316083,91103.83017794824
 Deaths,Female,20 to 24,breast cancer,greatermanchester,0.11762433750826747,91103.8301779483
+Deaths,Female,20 to 24,cardiomyopathy and myocarditis,greatermanchester,0.21280149944824725,91103.83017794824
 Deaths,Female,20 to 24,cardiovascular diseases,greatermanchester,1.4492030226561905,91103.83017794823
 Deaths,Female,20 to 24,chronic myeloid leukemia,greatermanchester,0.01740888226636822,91103.83017794827
 Deaths,Female,20 to 24,chronic obstructive pulmonary disease,greatermanchester,0.1289106794548785,91103.83017794823
@@ -74,10 +82,12 @@ Deaths,Female,20 to 24,motor vehicle road injuries,greatermanchester,1.272126373
 Deaths,Female,20 to 24,motorcyclist road injuries,greatermanchester,0.10370525121960115,91103.83017794827
 Deaths,Female,20 to 24,multiple myeloma,greatermanchester,0.00615516295225373,91103.83017794824
 Deaths,Female,20 to 24,neoplasms,greatermanchester,3.90607528389386,91103.83017794832
+Deaths,Female,20 to 24,non-rheumatic valvular heart disease,greatermanchester,0.06589093073144217,91103.83017794826
 Deaths,Female,20 to 24,other road injuries,greatermanchester,0.0334338523145734,91103.83017794829
 Deaths,Female,20 to 24,other transport injuries,greatermanchester,0.07361136491431597,91103.83017794827
 Deaths,Female,20 to 24,parkinson's disease,greatermanchester,0.0010528348870197806,91103.83017794832
 Deaths,Female,20 to 24,pedestrian road injuries,greatermanchester,0.41026101200057424,91103.83017794826
+Deaths,Female,20 to 24,rheumatic heart disease,greatermanchester,0.031095326856853796,91103.83017794823
 Deaths,Female,20 to 24,road injuries,greatermanchester,1.8891502630221284,91103.83017794818
 Deaths,Female,20 to 24,stomach cancer,greatermanchester,0.04590597866736334,91103.83017794821
 Deaths,Female,20 to 24,stroke,greatermanchester,0.48548997519262854,91103.83017794824
@@ -86,6 +96,7 @@ Deaths,Female,20 to 24,uterine cancer,greatermanchester,0.009940029292871112,911
 Deaths,Female,25 to 29,all causes,greatermanchester,28.427586228137102,106382.64346865534
 Deaths,Female,25 to 29,bladder cancer,greatermanchester,0.03630489371040075,106382.64346865533
 Deaths,Female,25 to 29,breast cancer,greatermanchester,1.111453713740971,106382.6434686554
+Deaths,Female,25 to 29,cardiomyopathy and myocarditis,greatermanchester,0.3119314578664483,106382.64346865531
 Deaths,Female,25 to 29,cardiovascular diseases,greatermanchester,2.8797105947085133,106382.64346865544
 Deaths,Female,25 to 29,chronic myeloid leukemia,greatermanchester,0.03142860403850393,106382.64346865543
 Deaths,Female,25 to 29,chronic obstructive pulmonary disease,greatermanchester,0.20885954248633806,106382.64346865541
@@ -101,10 +112,12 @@ Deaths,Female,25 to 29,motor vehicle road injuries,greatermanchester,0.909599799
 Deaths,Female,25 to 29,motorcyclist road injuries,greatermanchester,0.06916082217228375,106382.64346865541
 Deaths,Female,25 to 29,multiple myeloma,greatermanchester,0.011910051128350882,106382.64346865538
 Deaths,Female,25 to 29,neoplasms,greatermanchester,7.550912713995147,106382.64346865534
+Deaths,Female,25 to 29,non-rheumatic valvular heart disease,greatermanchester,0.12111578451800317,106382.64346865544
 Deaths,Female,25 to 29,other road injuries,greatermanchester,0.02702483680939265,106382.6434686554
 Deaths,Female,25 to 29,other transport injuries,greatermanchester,0.06977310489937676,106382.64346865537
 Deaths,Female,25 to 29,parkinson's disease,greatermanchester,6.061579490384607e-4,106382.64346865534
 Deaths,Female,25 to 29,pedestrian road injuries,greatermanchester,0.2784293546771922,106382.64346865543
+Deaths,Female,25 to 29,rheumatic heart disease,greatermanchester,0.05831675656842242,106382.64346865537
 Deaths,Female,25 to 29,road injuries,greatermanchester,1.3434880699965195,106382.64346865544
 Deaths,Female,25 to 29,stomach cancer,greatermanchester,0.17818030821982844,106382.64346865541
 Deaths,Female,25 to 29,stroke,greatermanchester,1.0548915675585304,106382.64346865535
@@ -113,6 +126,7 @@ Deaths,Female,25 to 29,uterine cancer,greatermanchester,0.036286612099243054,106
 Deaths,Female,30 to 34,all causes,greatermanchester,53.4807562989275,112720.45664779386
 Deaths,Female,30 to 34,bladder cancer,greatermanchester,0.14864968690630187,112720.4566477939
 Deaths,Female,30 to 34,breast cancer,greatermanchester,4.939679521483648,112720.45664779386
+Deaths,Female,30 to 34,cardiomyopathy and myocarditis,greatermanchester,0.4499866805305007,112720.45664779382
 Deaths,Female,30 to 34,cardiovascular diseases,greatermanchester,6.071181393253576,112720.45664779384
 Deaths,Female,30 to 34,chronic myeloid leukemia,greatermanchester,0.052025824990893456,112720.45664779391
 Deaths,Female,30 to 34,chronic obstructive pulmonary disease,greatermanchester,0.43451603430832697,112720.45664779388
@@ -128,10 +142,12 @@ Deaths,Female,30 to 34,motor vehicle road injuries,greatermanchester,0.815851177
 Deaths,Female,30 to 34,motorcyclist road injuries,greatermanchester,0.07075314534082233,112720.45664779388
 Deaths,Female,30 to 34,multiple myeloma,greatermanchester,0.046520254518158416,112720.4566477938
 Deaths,Female,30 to 34,neoplasms,greatermanchester,17.90966298411628,112720.45664779385
+Deaths,Female,30 to 34,non-rheumatic valvular heart disease,greatermanchester,0.2038702219064033,112720.45664779384
 Deaths,Female,30 to 34,other road injuries,greatermanchester,0.027181536157850048,112720.4566477938
 Deaths,Female,30 to 34,other transport injuries,greatermanchester,0.06780901179369164,112720.45664779386
 Deaths,Female,30 to 34,parkinson's disease,greatermanchester,0.00216399217937183,112720.45664779391
 Deaths,Female,30 to 34,pedestrian road injuries,greatermanchester,0.29908216543594784,112720.45664779378
+Deaths,Female,30 to 34,rheumatic heart disease,greatermanchester,0.1033270359762748,112720.45664779384
 Deaths,Female,30 to 34,road injuries,greatermanchester,1.2699867019764357,112720.45664779388
 Deaths,Female,30 to 34,stomach cancer,greatermanchester,0.5401788413092387,112720.45664779386
 Deaths,Female,30 to 34,stroke,greatermanchester,2.1476188117501978,112720.45664779382
@@ -140,6 +156,7 @@ Deaths,Female,30 to 34,uterine cancer,greatermanchester,0.10290033436622287,1127
 Deaths,Female,35 to 39,all causes,greatermanchester,83.84078107126504,103919.7177833319
 Deaths,Female,35 to 39,bladder cancer,greatermanchester,0.28947041785384126,103919.71778333193
 Deaths,Female,35 to 39,breast cancer,greatermanchester,9.851231690730751,103919.71778333193
+Deaths,Female,35 to 39,cardiomyopathy and myocarditis,greatermanchester,0.6796791001697036,103919.71778333194
 Deaths,Female,35 to 39,cardiovascular diseases,greatermanchester,10.8350972334684,103919.71778333194
 Deaths,Female,35 to 39,chronic myeloid leukemia,greatermanchester,0.07893614354675298,103919.71778333184
 Deaths,Female,35 to 39,chronic obstructive pulmonary disease,greatermanchester,0.8326576512178455,103919.71778333187
@@ -155,10 +172,12 @@ Deaths,Female,35 to 39,motor vehicle road injuries,greatermanchester,0.743928316
 Deaths,Female,35 to 39,motorcyclist road injuries,greatermanchester,0.07190927063391545,103919.71778333186
 Deaths,Female,35 to 39,multiple myeloma,greatermanchester,0.13293331774625333,103919.71778333194
 Deaths,Female,35 to 39,neoplasms,greatermanchester,31.127343615007238,103919.71778333187
+Deaths,Female,35 to 39,non-rheumatic valvular heart disease,greatermanchester,0.26909741148579086,103919.7177833319
 Deaths,Female,35 to 39,other road injuries,greatermanchester,0.030667248339561803,103919.71778333191
 Deaths,Female,35 to 39,other transport injuries,greatermanchester,0.07159449383080667,103919.71778333187
 Deaths,Female,35 to 39,parkinson's disease,greatermanchester,0.008398080174604692,103919.71778333187
 Deaths,Female,35 to 39,pedestrian road injuries,greatermanchester,0.3567865368459892,103919.71778333193
+Deaths,Female,35 to 39,rheumatic heart disease,greatermanchester,0.16991828441338264,103919.7177833319
 Deaths,Female,35 to 39,road injuries,greatermanchester,1.260740574496884,103919.71778333187
 Deaths,Female,35 to 39,stomach cancer,greatermanchester,0.9367193701361418,103919.71778333189
 Deaths,Female,35 to 39,stroke,greatermanchester,3.8368948535406315,103919.71778333189
@@ -168,6 +187,7 @@ Deaths,Female,40 to 44,all causes,greatermanchester,109.12455126279376,88519.957
 Deaths,Female,40 to 44,alzheimer's disease and other dementias,greatermanchester,0.09860510484053332,88519.9576987643
 Deaths,Female,40 to 44,bladder cancer,greatermanchester,0.49831017092054963,88519.95769876432
 Deaths,Female,40 to 44,breast cancer,greatermanchester,14.222572203670282,88519.95769876432
+Deaths,Female,40 to 44,cardiomyopathy and myocarditis,greatermanchester,0.7719718640619349,88519.9576987643
 Deaths,Female,40 to 44,cardiovascular diseases,greatermanchester,15.432503819647776,88519.95769876434
 Deaths,Female,40 to 44,chronic myeloid leukemia,greatermanchester,0.07787403140518692,88519.9576987643
 Deaths,Female,40 to 44,chronic obstructive pulmonary disease,greatermanchester,1.5373964530906814,88519.95769876425
@@ -183,10 +203,12 @@ Deaths,Female,40 to 44,motor vehicle road injuries,greatermanchester,0.690638690
 Deaths,Female,40 to 44,motorcyclist road injuries,greatermanchester,0.06310702568994607,88519.95769876437
 Deaths,Female,40 to 44,multiple myeloma,greatermanchester,0.26144362072397703,88519.95769876434
 Deaths,Female,40 to 44,neoplasms,greatermanchester,44.614095550314055,88519.95769876435
+Deaths,Female,40 to 44,non-rheumatic valvular heart disease,greatermanchester,0.3462818908324189,88519.95769876434
 Deaths,Female,40 to 44,other road injuries,greatermanchester,0.026136801056530403,88519.95769876432
 Deaths,Female,40 to 44,other transport injuries,greatermanchester,0.06369548249383311,88519.95769876432
 Deaths,Female,40 to 44,parkinson's disease,greatermanchester,0.05116335255239689,88519.95769876434
 Deaths,Female,40 to 44,pedestrian road injuries,greatermanchester,0.3848053261494376,88519.95769876428
+Deaths,Female,40 to 44,rheumatic heart disease,greatermanchester,0.2819062208056655,88519.95769876437
 Deaths,Female,40 to 44,road injuries,greatermanchester,1.2157996212782431,88519.95769876432
 Deaths,Female,40 to 44,stomach cancer,greatermanchester,1.393648950336227,88519.95769876437
 Deaths,Female,40 to 44,stroke,greatermanchester,5.205360389626708,88519.95769876431
@@ -196,6 +218,7 @@ Deaths,Female,45 to 49,all causes,greatermanchester,174.04997353829253,95591.579
 Deaths,Female,45 to 49,alzheimer's disease and other dementias,greatermanchester,0.6513212548624832,95591.57928522881
 Deaths,Female,45 to 49,bladder cancer,greatermanchester,0.8943616388875123,95591.57928522879
 Deaths,Female,45 to 49,breast cancer,greatermanchester,23.03957284126799,95591.57928522874
+Deaths,Female,45 to 49,cardiomyopathy and myocarditis,greatermanchester,1.0618028873332708,95591.5792852288
 Deaths,Female,45 to 49,cardiovascular diseases,greatermanchester,26.026260900461896,95591.57928522881
 Deaths,Female,45 to 49,chronic myeloid leukemia,greatermanchester,0.11102070910255003,95591.57928522877
 Deaths,Female,45 to 49,chronic obstructive pulmonary disease,greatermanchester,3.6233657566542345,95591.57928522877
@@ -211,16 +234,19 @@ Deaths,Female,45 to 49,motor vehicle road injuries,greatermanchester,0.803722086
 Deaths,Female,45 to 49,motorcyclist road injuries,greatermanchester,0.07222041785828898,95591.57928522883
 Deaths,Female,45 to 49,multiple myeloma,greatermanchester,0.5992953681670244,95591.57928522871
 Deaths,Female,45 to 49,neoplasms,greatermanchester,78.04535180263755,95591.57928522877
+Deaths,Female,45 to 49,non-rheumatic valvular heart disease,greatermanchester,0.5256265318379484,95591.57928522881
 Deaths,Female,45 to 49,other road injuries,greatermanchester,0.03637676869431802,95591.57928522887
 Deaths,Female,45 to 49,other transport injuries,greatermanchester,0.07006784021448739,95591.57928522876
 Deaths,Female,45 to 49,parkinson's disease,greatermanchester,0.1698585165406204,95591.57928522892
 Deaths,Female,45 to 49,pedestrian road injuries,greatermanchester,0.49307316375795096,95591.57928522876
+Deaths,Female,45 to 49,rheumatic heart disease,greatermanchester,0.4501698687995152,95591.57928522883
 Deaths,Female,45 to 49,road injuries,greatermanchester,1.4706327052085217,95591.57928522879
 Deaths,Female,45 to 49,stomach cancer,greatermanchester,2.2236766262298264,95591.5792852288
 Deaths,Female,45 to 49,stroke,greatermanchester,8.15837812473094,95591.57928522881
 Deaths,Female,45 to 49,"tracheal, bronchus, and lung cancer",greatermanchester,11.682256442263531,95591.57928522883
 Deaths,Female,45 to 49,uterine cancer,greatermanchester,0.8960270550712857,95591.57928522881
 Deaths,Female,5 to 9,all causes,greatermanchester,6.777097563568636,91063.29128827977
+Deaths,Female,5 to 9,cardiomyopathy and myocarditis,greatermanchester,0.08692965718004952,91063.29128827967
 Deaths,Female,5 to 9,cardiovascular diseases,greatermanchester,0.2707855246092761,91063.29128827977
 Deaths,Female,5 to 9,chronic myeloid leukemia,greatermanchester,0.011164753915003225,91063.29128827974
 Deaths,Female,5 to 9,chronic obstructive pulmonary disease,greatermanchester,0.03393971251637297,91063.29128827975
@@ -235,12 +261,14 @@ Deaths,Female,5 to 9,neoplasms,greatermanchester,2.1069009027173555,91063.291288
 Deaths,Female,5 to 9,other road injuries,greatermanchester,0.010313905858950636,91063.29128827972
 Deaths,Female,5 to 9,other transport injuries,greatermanchester,0.02293842603419309,91063.29128827972
 Deaths,Female,5 to 9,pedestrian road injuries,greatermanchester,0.2501623068075668,91063.29128827968
+Deaths,Female,5 to 9,rheumatic heart disease,greatermanchester,0.010060183862686116,91063.29128827972
 Deaths,Female,5 to 9,road injuries,greatermanchester,0.46870441859812,91063.29128827974
 Deaths,Female,5 to 9,stroke,greatermanchester,0.06758588279592391,91063.29128827975
 Deaths,Female,50 to 54,all causes,greatermanchester,281.63392491928875,97966.73494893826
 Deaths,Female,50 to 54,alzheimer's disease and other dementias,greatermanchester,1.3569958408939888,97966.73494893828
 Deaths,Female,50 to 54,bladder cancer,greatermanchester,1.650705688421263,97966.7349489383
 Deaths,Female,50 to 54,breast cancer,greatermanchester,35.89190162675951,97966.73494893823
+Deaths,Female,50 to 54,cardiomyopathy and myocarditis,greatermanchester,1.2937583877640102,97966.73494893829
 Deaths,Female,50 to 54,cardiovascular diseases,greatermanchester,44.84901092324744,97966.7349489383
 Deaths,Female,50 to 54,chronic myeloid leukemia,greatermanchester,0.11400251656603848,97966.73494893823
 Deaths,Female,50 to 54,chronic obstructive pulmonary disease,greatermanchester,11.16954715944634,97966.73494893825
@@ -256,10 +284,12 @@ Deaths,Female,50 to 54,motor vehicle road injuries,greatermanchester,0.743705117
 Deaths,Female,50 to 54,motorcyclist road injuries,greatermanchester,0.06236306249852748,97966.73494893829
 Deaths,Female,50 to 54,multiple myeloma,greatermanchester,1.4513537538682586,97966.73494893835
 Deaths,Female,50 to 54,neoplasms,greatermanchester,142.96670737347412,97966.73494893826
+Deaths,Female,50 to 54,non-rheumatic valvular heart disease,greatermanchester,0.8767941899677455,97966.73494893829
 Deaths,Female,50 to 54,other road injuries,greatermanchester,0.03684285053861656,97966.73494893829
 Deaths,Female,50 to 54,other transport injuries,greatermanchester,0.0711037572349565,97966.73494893823
 Deaths,Female,50 to 54,parkinson's disease,greatermanchester,0.42361716667068994,97966.73494893828
 Deaths,Female,50 to 54,pedestrian road injuries,greatermanchester,0.48460296769652234,97966.7349489383
+Deaths,Female,50 to 54,rheumatic heart disease,greatermanchester,0.7268514891141814,97966.73494893823
 Deaths,Female,50 to 54,road injuries,greatermanchester,1.398981454765109,97966.73494893832
 Deaths,Female,50 to 54,stomach cancer,greatermanchester,3.579938429800015,97966.73494893826
 Deaths,Female,50 to 54,stroke,greatermanchester,13.366401494360867,97966.73494893829
@@ -269,6 +299,7 @@ Deaths,Female,55 to 59,all causes,greatermanchester,394.6285552510895,88246.3970
 Deaths,Female,55 to 59,alzheimer's disease and other dementias,greatermanchester,2.571953801048982,88246.39703499444
 Deaths,Female,55 to 59,bladder cancer,greatermanchester,2.6243571839454325,88246.39703499443
 Deaths,Female,55 to 59,breast cancer,greatermanchester,44.09174025498801,88246.39703499438
+Deaths,Female,55 to 59,cardiomyopathy and myocarditis,greatermanchester,1.734649520381236,88246.39703499438
 Deaths,Female,55 to 59,cardiovascular diseases,greatermanchester,66.71456778158468,88246.39703499438
 Deaths,Female,55 to 59,chronic myeloid leukemia,greatermanchester,0.1503675906588094,88246.39703499447
 Deaths,Female,55 to 59,chronic obstructive pulmonary disease,greatermanchester,21.571052691780583,88246.3970349944
@@ -284,10 +315,12 @@ Deaths,Female,55 to 59,motor vehicle road injuries,greatermanchester,0.688534938
 Deaths,Female,55 to 59,motorcyclist road injuries,greatermanchester,0.056467159463028715,88246.39703499437
 Deaths,Female,55 to 59,multiple myeloma,greatermanchester,2.4084242220163596,88246.39703499449
 Deaths,Female,55 to 59,neoplasms,greatermanchester,205.1062615367582,88246.39703499437
+Deaths,Female,55 to 59,non-rheumatic valvular heart disease,greatermanchester,1.349980181255969,88246.39703499441
 Deaths,Female,55 to 59,other road injuries,greatermanchester,0.037746362465049824,88246.3970349944
 Deaths,Female,55 to 59,other transport injuries,greatermanchester,0.06834397576647805,88246.39703499438
 Deaths,Female,55 to 59,parkinson's disease,greatermanchester,0.7871039226764457,88246.39703499437
 Deaths,Female,55 to 59,pedestrian road injuries,greatermanchester,0.5046979953939906,88246.39703499438
+Deaths,Female,55 to 59,rheumatic heart disease,greatermanchester,1.0259838323488586,88246.39703499446
 Deaths,Female,55 to 59,road injuries,greatermanchester,1.3543253550508567,88246.39703499438
 Deaths,Female,55 to 59,stomach cancer,greatermanchester,5.102009072392486,88246.39703499447
 Deaths,Female,55 to 59,stroke,greatermanchester,18.120566849472688,88246.39703499443
@@ -297,6 +330,7 @@ Deaths,Female,60 to 64,all causes,greatermanchester,515.7271698374968,71356.5722
 Deaths,Female,60 to 64,alzheimer's disease and other dementias,greatermanchester,4.8137184731192395,71356.57221638059
 Deaths,Female,60 to 64,bladder cancer,greatermanchester,3.8910895611939122,71356.57221638055
 Deaths,Female,60 to 64,breast cancer,greatermanchester,42.586643122876396,71356.57221638062
+Deaths,Female,60 to 64,cardiomyopathy and myocarditis,greatermanchester,1.9554934139978186,71356.57221638058
 Deaths,Female,60 to 64,cardiovascular diseases,greatermanchester,95.98964642071212,71356.57221638062
 Deaths,Female,60 to 64,chronic myeloid leukemia,greatermanchester,0.18752472843953907,71356.5722163806
 Deaths,Female,60 to 64,chronic obstructive pulmonary disease,greatermanchester,42.3241804161903,71356.57221638063
@@ -312,10 +346,12 @@ Deaths,Female,60 to 64,motor vehicle road injuries,greatermanchester,0.572270319
 Deaths,Female,60 to 64,motorcyclist road injuries,greatermanchester,0.031459232795538326,71356.5722163806
 Deaths,Female,60 to 64,multiple myeloma,greatermanchester,3.901711819970938,71356.5722163806
 Deaths,Female,60 to 64,neoplasms,greatermanchester,265.60960913226404,71356.57221638059
+Deaths,Female,60 to 64,non-rheumatic valvular heart disease,greatermanchester,2.238648835081039,71356.57221638059
 Deaths,Female,60 to 64,other road injuries,greatermanchester,0.020561246107177404,71356.57221638062
 Deaths,Female,60 to 64,other transport injuries,greatermanchester,0.05935133942287923,71356.57221638056
 Deaths,Female,60 to 64,parkinson's disease,greatermanchester,1.6667016471693845,71356.57221638059
 Deaths,Female,60 to 64,pedestrian road injuries,greatermanchester,0.5634242240569831,71356.5722163806
+Deaths,Female,60 to 64,rheumatic heart disease,greatermanchester,1.3406822256099684,71356.57221638058
 Deaths,Female,60 to 64,road injuries,greatermanchester,1.2301491862683012,71356.57221638062
 Deaths,Female,60 to 64,stomach cancer,greatermanchester,6.75238033572816,71356.57221638056
 Deaths,Female,60 to 64,stroke,greatermanchester,22.96964042709733,71356.57221638058
@@ -325,6 +361,7 @@ Deaths,Female,65 to 69,all causes,greatermanchester,709.2478050406594,63613.7837
 Deaths,Female,65 to 69,alzheimer's disease and other dementias,greatermanchester,10.417362392704653,63613.783785498556
 Deaths,Female,65 to 69,bladder cancer,greatermanchester,6.206390802888686,63613.783785498585
 Deaths,Female,65 to 69,breast cancer,greatermanchester,46.30217739940352,63613.78378549853
+Deaths,Female,65 to 69,cardiomyopathy and myocarditis,greatermanchester,2.156759438440208,63613.783785498534
 Deaths,Female,65 to 69,cardiovascular diseases,greatermanchester,145.89022463777013,63613.78378549859
 Deaths,Female,65 to 69,chronic myeloid leukemia,greatermanchester,0.2515845837836623,63613.78378549853
 Deaths,Female,65 to 69,chronic obstructive pulmonary disease,greatermanchester,70.00377681185861,63613.78378549853
@@ -340,10 +377,12 @@ Deaths,Female,65 to 69,motor vehicle road injuries,greatermanchester,0.658809347
 Deaths,Female,65 to 69,motorcyclist road injuries,greatermanchester,0.029899429046184894,63613.783785498534
 Deaths,Female,65 to 69,multiple myeloma,greatermanchester,6.068904549451073,63613.78378549852
 Deaths,Female,65 to 69,neoplasms,greatermanchester,350.0333278764895,63613.78378549854
+Deaths,Female,65 to 69,non-rheumatic valvular heart disease,greatermanchester,3.770467075654234,63613.78378549849
 Deaths,Female,65 to 69,other road injuries,greatermanchester,0.01639172791598253,63613.78378549858
 Deaths,Female,65 to 69,other transport injuries,greatermanchester,0.062139800418061955,63613.78378549851
 Deaths,Female,65 to 69,parkinson's disease,greatermanchester,3.8734239533565873,63613.78378549855
 Deaths,Female,65 to 69,pedestrian road injuries,greatermanchester,0.6925333524582821,63613.783785498505
+Deaths,Female,65 to 69,rheumatic heart disease,greatermanchester,2.1779126246302574,63613.78378549857
 Deaths,Female,65 to 69,road injuries,greatermanchester,1.434609561566281,63613.78378549859
 Deaths,Female,65 to 69,stomach cancer,greatermanchester,8.986752009027468,63613.783785498534
 Deaths,Female,65 to 69,stroke,greatermanchester,34.49551643215584,63613.783785498556
@@ -353,6 +392,7 @@ Deaths,Female,70 to 74,all causes,greatermanchester,1194.9172291097505,63435.909
 Deaths,Female,70 to 74,alzheimer's disease and other dementias,greatermanchester,25.745317058906387,63435.90961574513
 Deaths,Female,70 to 74,bladder cancer,greatermanchester,10.929194000218018,63435.90961574517
 Deaths,Female,70 to 74,breast cancer,greatermanchester,61.105049133359906,63435.909615745186
+Deaths,Female,70 to 74,cardiomyopathy and myocarditis,greatermanchester,3.535961116281106,63435.909615745135
 Deaths,Female,70 to 74,cardiovascular diseases,greatermanchester,296.50752721368895,63435.90961574509
 Deaths,Female,70 to 74,chronic myeloid leukemia,greatermanchester,0.4012328932226307,63435.90961574514
 Deaths,Female,70 to 74,chronic obstructive pulmonary disease,greatermanchester,129.2380008438972,63435.9096157451
@@ -368,10 +408,12 @@ Deaths,Female,70 to 74,motor vehicle road injuries,greatermanchester,0.856763754
 Deaths,Female,70 to 74,motorcyclist road injuries,greatermanchester,0.01754087232990051,63435.909615745135
 Deaths,Female,70 to 74,multiple myeloma,greatermanchester,9.74905650295992,63435.90961574519
 Deaths,Female,70 to 74,neoplasms,greatermanchester,514.4893239761942,63435.90961574508
+Deaths,Female,70 to 74,non-rheumatic valvular heart disease,greatermanchester,8.548242927654703,63435.90961574515
 Deaths,Female,70 to 74,other road injuries,greatermanchester,0.011037631285069318,63435.909615745106
 Deaths,Female,70 to 74,other transport injuries,greatermanchester,0.056828864304573394,63435.90961574512
 Deaths,Female,70 to 74,parkinson's disease,greatermanchester,10.995773627125226,63435.90961574513
 Deaths,Female,70 to 74,pedestrian road injuries,greatermanchester,1.076305234335599,63435.90961574516
+Deaths,Female,70 to 74,rheumatic heart disease,greatermanchester,3.99090459416092,63435.90961574518
 Deaths,Female,70 to 74,road injuries,greatermanchester,1.991333231554588,63435.909615745106
 Deaths,Female,70 to 74,stomach cancer,greatermanchester,15.704129475864926,63435.90961574514
 Deaths,Female,70 to 74,stroke,greatermanchester,75.86443777936083,63435.90961574509
@@ -381,6 +423,7 @@ Deaths,Female,75 to 79,all causes,greatermanchester,1440.836588362071,45230.6234
 Deaths,Female,75 to 79,alzheimer's disease and other dementias,greatermanchester,48.0689249230784,45230.6234388089
 Deaths,Female,75 to 79,bladder cancer,greatermanchester,14.03698214394506,45230.62343880887
 Deaths,Female,75 to 79,breast cancer,greatermanchester,60.65722814880292,45230.6234388089
+Deaths,Female,75 to 79,cardiomyopathy and myocarditis,greatermanchester,4.222075245252066,45230.62343880887
 Deaths,Female,75 to 79,cardiovascular diseases,greatermanchester,409.27775249675585,45230.6234388089
 Deaths,Female,75 to 79,chronic myeloid leukemia,greatermanchester,0.5042320827895875,45230.62343880889
 Deaths,Female,75 to 79,chronic obstructive pulmonary disease,greatermanchester,160.83766763846546,45230.62343880888
@@ -396,10 +439,12 @@ Deaths,Female,75 to 79,motor vehicle road injuries,greatermanchester,0.858570643
 Deaths,Female,75 to 79,motorcyclist road injuries,greatermanchester,0.00815225763369042,45230.62343880892
 Deaths,Female,75 to 79,multiple myeloma,greatermanchester,10.388915676135113,45230.623438808914
 Deaths,Female,75 to 79,neoplasms,greatermanchester,507.78835990000516,45230.623438808914
+Deaths,Female,75 to 79,non-rheumatic valvular heart disease,greatermanchester,12.87746518577815,45230.623438808914
 Deaths,Female,75 to 79,other road injuries,greatermanchester,0.00892010911691372,45230.62343880891
 Deaths,Female,75 to 79,other transport injuries,greatermanchester,0.06166848013609694,45230.62343880889
 Deaths,Female,75 to 79,parkinson's disease,greatermanchester,18.49952887263377,45230.6234388089
 Deaths,Female,75 to 79,pedestrian road injuries,greatermanchester,1.3954553076526828,45230.623438808885
+Deaths,Female,75 to 79,rheumatic heart disease,greatermanchester,5.437122290291941,45230.623438808885
 Deaths,Female,75 to 79,road injuries,greatermanchester,2.2917994649512066,45230.62343880893
 Deaths,Female,75 to 79,stomach cancer,greatermanchester,19.493319925748096,45230.62343880892
 Deaths,Female,75 to 79,stroke,greatermanchester,113.7970259709819,45230.6234388089
@@ -409,6 +454,7 @@ Deaths,Female,80 to 84,all causes,greatermanchester,1952.7126169080009,34353.074
 Deaths,Female,80 to 84,alzheimer's disease and other dementias,greatermanchester,127.79468633492542,34353.07439295291
 Deaths,Female,80 to 84,bladder cancer,greatermanchester,17.64145629536604,34353.0743929529
 Deaths,Female,80 to 84,breast cancer,greatermanchester,64.28053000838224,34353.07439295291
+Deaths,Female,80 to 84,cardiomyopathy and myocarditis,greatermanchester,7.127907929355409,34353.07439295291
 Deaths,Female,80 to 84,cardiovascular diseases,greatermanchester,634.7769447481836,34353.074392952905
 Deaths,Female,80 to 84,chronic myeloid leukemia,greatermanchester,0.6279852472842021,34353.07439295292
 Deaths,Female,80 to 84,chronic obstructive pulmonary disease,greatermanchester,189.96180050753327,34353.07439295291
@@ -424,10 +470,12 @@ Deaths,Female,80 to 84,motor vehicle road injuries,greatermanchester,0.815448351
 Deaths,Female,80 to 84,motorcyclist road injuries,greatermanchester,0.0054770558491047585,34353.0743929529
 Deaths,Female,80 to 84,multiple myeloma,greatermanchester,10.965863024955047,34353.07439295292
 Deaths,Female,80 to 84,neoplasms,greatermanchester,519.1824627408266,34353.07439295293
+Deaths,Female,80 to 84,non-rheumatic valvular heart disease,greatermanchester,22.308198126531565,34353.07439295289
 Deaths,Female,80 to 84,other road injuries,greatermanchester,0.007638176442648785,34353.07439295292
 Deaths,Female,80 to 84,other transport injuries,greatermanchester,0.040499530103976826,34353.0743929529
 Deaths,Female,80 to 84,parkinson's disease,greatermanchester,26.63207148747464,34353.07439295288
 Deaths,Female,80 to 84,pedestrian road injuries,greatermanchester,1.3854369695889115,34353.07439295292
+Deaths,Female,80 to 84,rheumatic heart disease,greatermanchester,6.781584361600843,34353.074392952934
 Deaths,Female,80 to 84,road injuries,greatermanchester,2.2290694018970343,34353.07439295293
 Deaths,Female,80 to 84,stomach cancer,greatermanchester,23.516849925605616,34353.07439295291
 Deaths,Female,80 to 84,stroke,greatermanchester,192.16872325566993,34353.07439295293
@@ -437,6 +485,7 @@ Deaths,Female,85 to 89,all causes,greatermanchester,2138.6539226179143,20808.830
 Deaths,Female,85 to 89,alzheimer's disease and other dementias,greatermanchester,195.51471592287137,20808.83029808699
 Deaths,Female,85 to 89,bladder cancer,greatermanchester,17.61243948911007,20808.830298087014
 Deaths,Female,85 to 89,breast cancer,greatermanchester,61.32384455772008,20808.830298087003
+Deaths,Female,85 to 89,cardiomyopathy and myocarditis,greatermanchester,10.190425125941653,20808.83029808699
 Deaths,Female,85 to 89,cardiovascular diseases,greatermanchester,755.3313417171497,20808.830298086996
 Deaths,Female,85 to 89,chronic myeloid leukemia,greatermanchester,0.7477691353512754,20808.83029808698
 Deaths,Female,85 to 89,chronic obstructive pulmonary disease,greatermanchester,171.3250849112801,20808.830298087003
@@ -452,10 +501,12 @@ Deaths,Female,85 to 89,motor vehicle road injuries,greatermanchester,0.561306280
 Deaths,Female,85 to 89,motorcyclist road injuries,greatermanchester,0.004186085442313219,20808.830298086996
 Deaths,Female,85 to 89,multiple myeloma,greatermanchester,8.462681603873762,20808.830298086996
 Deaths,Female,85 to 89,neoplasms,greatermanchester,429.0466945137866,20808.830298087003
+Deaths,Female,85 to 89,non-rheumatic valvular heart disease,greatermanchester,29.196939831447303,20808.83029808699
 Deaths,Female,85 to 89,other road injuries,greatermanchester,0.007080323456436818,20808.83029808699
 Deaths,Female,85 to 89,other transport injuries,greatermanchester,0.029993637266151122,20808.830298087007
 Deaths,Female,85 to 89,parkinson's disease,greatermanchester,23.98453146822276,20808.830298087014
 Deaths,Female,85 to 89,pedestrian road injuries,greatermanchester,1.1437229717069315,20808.83029808698
+Deaths,Female,85 to 89,rheumatic heart disease,greatermanchester,6.964978818747245,20808.830298087007
 Deaths,Female,85 to 89,road injuries,greatermanchester,1.7272858613643658,20808.830298086996
 Deaths,Female,85 to 89,stomach cancer,greatermanchester,22.274700114441448,20808.830298087
 Deaths,Female,85 to 89,stroke,greatermanchester,235.56115917005997,20808.830298087007
@@ -465,6 +516,7 @@ Deaths,Female,90 to 94,all causes,greatermanchester,1800.4514183007109,9796.6163
 Deaths,Female,90 to 94,alzheimer's disease and other dementias,greatermanchester,195.8490293049585,9796.616352221741
 Deaths,Female,90 to 94,bladder cancer,greatermanchester,12.409678100621726,9796.616352221738
 Deaths,Female,90 to 94,breast cancer,greatermanchester,42.45753649508193,9796.616352221743
+Deaths,Female,90 to 94,cardiomyopathy and myocarditis,greatermanchester,10.28268068762865,9796.616352221743
 Deaths,Female,90 to 94,cardiovascular diseases,greatermanchester,680.8607710913772,9796.616352221738
 Deaths,Female,90 to 94,chronic myeloid leukemia,greatermanchester,0.474839578639436,9796.616352221736
 Deaths,Female,90 to 94,chronic obstructive pulmonary disease,greatermanchester,123.05366390123338,9796.61635222174
@@ -480,10 +532,12 @@ Deaths,Female,90 to 94,motor vehicle road injuries,greatermanchester,0.269346679
 Deaths,Female,90 to 94,motorcyclist road injuries,greatermanchester,0.00877579068424333,9796.616352221741
 Deaths,Female,90 to 94,multiple myeloma,greatermanchester,4.25367053150163,9796.616352221741
 Deaths,Female,90 to 94,neoplasms,greatermanchester,255.90519571678797,9796.616352221736
+Deaths,Female,90 to 94,non-rheumatic valvular heart disease,greatermanchester,28.027704994252517,9796.616352221745
 Deaths,Female,90 to 94,other road injuries,greatermanchester,0.006585961567272468,9796.616352221734
 Deaths,Female,90 to 94,other transport injuries,greatermanchester,0.026076949312514027,9796.61635222174
 Deaths,Female,90 to 94,parkinson's disease,greatermanchester,13.756769242665998,9796.616352221741
 Deaths,Female,90 to 94,pedestrian road injuries,greatermanchester,0.5871894167469626,9796.616352221734
+Deaths,Female,90 to 94,rheumatic heart disease,greatermanchester,5.016370148402368,9796.616352221748
 Deaths,Female,90 to 94,road injuries,greatermanchester,0.8826708853996723,9796.616352221741
 Deaths,Female,90 to 94,stomach cancer,greatermanchester,14.187585191516344,9796.616352221741
 Deaths,Female,90 to 94,stroke,greatermanchester,215.13560337989318,9796.616352221738
@@ -493,6 +547,7 @@ Deaths,Female,95 to 99,all causes,greatermanchester,944.550344035591,2975.602419
 Deaths,Female,95 to 99,alzheimer's disease and other dementias,greatermanchester,108.53215603553564,2975.602419784761
 Deaths,Female,95 to 99,bladder cancer,greatermanchester,5.668441710865572,2975.6024197847623
 Deaths,Female,95 to 99,breast cancer,greatermanchester,19.726289218910285,2975.602419784763
+Deaths,Female,95 to 99,cardiomyopathy and myocarditis,greatermanchester,6.171358382722576,2975.6024197847632
 Deaths,Female,95 to 99,cardiovascular diseases,greatermanchester,367.99543200311,2975.6024197847614
 Deaths,Female,95 to 99,chronic myeloid leukemia,greatermanchester,0.1958932210753252,2975.602419784762
 Deaths,Female,95 to 99,chronic obstructive pulmonary disease,greatermanchester,63.80601672293071,2975.602419784764
@@ -508,16 +563,19 @@ Deaths,Female,95 to 99,motor vehicle road injuries,greatermanchester,0.122456140
 Deaths,Female,95 to 99,motorcyclist road injuries,greatermanchester,0.007409513697204497,2975.6024197847632
 Deaths,Female,95 to 99,multiple myeloma,greatermanchester,1.3066958927973422,2975.602419784763
 Deaths,Female,95 to 99,neoplasms,greatermanchester,110.09250262169313,2975.602419784763
+Deaths,Female,95 to 99,non-rheumatic valvular heart disease,greatermanchester,14.711069172620341,2975.6024197847646
 Deaths,Female,95 to 99,other road injuries,greatermanchester,0.00382226728416272,2975.6024197847623
 Deaths,Female,95 to 99,other transport injuries,greatermanchester,0.02066157979933564,2975.6024197847632
 Deaths,Female,95 to 99,parkinson's disease,greatermanchester,4.608465907861351,2975.6024197847637
 Deaths,Female,95 to 99,pedestrian road injuries,greatermanchester,0.2501190316119126,2975.602419784762
+Deaths,Female,95 to 99,rheumatic heart disease,greatermanchester,2.3895560423268023,2975.602419784761
 Deaths,Female,95 to 99,road injuries,greatermanchester,0.3842581785500533,2975.6024197847632
 Deaths,Female,95 to 99,stomach cancer,greatermanchester,6.312840762310855,2975.6024197847605
 Deaths,Female,95 to 99,stroke,greatermanchester,119.95877254210541,2975.6024197847632
 Deaths,Female,95 to 99,"tracheal, bronchus, and lung cancer",greatermanchester,17.355860784146707,2975.602419784763
 Deaths,Female,95 to 99,uterine cancer,greatermanchester,1.7426872585782023,2975.6024197847614
 Deaths,Male,0 to 5,all causes,greatermanchester,106.08261797880574,93977.54381837844
+Deaths,Male,0 to 5,cardiomyopathy and myocarditis,greatermanchester,0.6606043335909567,93977.5438183784
 Deaths,Male,0 to 5,cardiovascular diseases,greatermanchester,1.3525783696730154,93977.54381837846
 Deaths,Male,0 to 5,chronic myeloid leukemia,greatermanchester,0.021009914991345774,93977.54381837849
 Deaths,Male,0 to 5,chronic obstructive pulmonary disease,greatermanchester,0.03017584727052699,93977.54381837847
@@ -531,9 +589,11 @@ Deaths,Male,0 to 5,neoplasms,greatermanchester,2.8672350074002093,93977.54381837
 Deaths,Male,0 to 5,other road injuries,greatermanchester,0.0166149593699315,93977.54381837847
 Deaths,Male,0 to 5,other transport injuries,greatermanchester,0.05074715891500214,93977.54381837853
 Deaths,Male,0 to 5,pedestrian road injuries,greatermanchester,0.32583141533325005,93977.54381837843
+Deaths,Male,0 to 5,rheumatic heart disease,greatermanchester,0.014713095464232205,93977.54381837841
 Deaths,Male,0 to 5,road injuries,greatermanchester,0.5704662032897271,93977.54381837853
 Deaths,Male,0 to 5,stroke,greatermanchester,0.18796115660660526,93977.5438183785
 Deaths,Male,10 to 14,all causes,greatermanchester,12.3211633417491,93318.99076088624
+Deaths,Male,10 to 14,cardiomyopathy and myocarditis,greatermanchester,0.23804675352356686,93318.99076088634
 Deaths,Male,10 to 14,cardiovascular diseases,greatermanchester,0.5791974301687236,93318.99076088628
 Deaths,Male,10 to 14,chronic myeloid leukemia,greatermanchester,0.014367502010789818,93318.99076088628
 Deaths,Male,10 to 14,chronic obstructive pulmonary disease,greatermanchester,0.027808325882535304,93318.99076088623
@@ -548,12 +608,14 @@ Deaths,Male,10 to 14,neoplasms,greatermanchester,3.06117873433875,93318.99076088
 Deaths,Male,10 to 14,other road injuries,greatermanchester,0.015176393265437071,93318.99076088624
 Deaths,Male,10 to 14,other transport injuries,greatermanchester,0.10115007698262607,93318.99076088627
 Deaths,Male,10 to 14,pedestrian road injuries,greatermanchester,0.6834507809200941,93318.99076088628
+Deaths,Male,10 to 14,rheumatic heart disease,greatermanchester,0.012122186885866843,93318.99076088631
 Deaths,Male,10 to 14,road injuries,greatermanchester,1.444707640649207,93318.9907608862
 Deaths,Male,10 to 14,stroke,greatermanchester,0.1639539275774324,93318.99076088621
 Deaths,Male,10 to 14,"tracheal, bronchus, and lung cancer",greatermanchester,0.012525540662504036,93318.9907608862
 Deaths,Male,15 to 19,all causes,greatermanchester,30.246023210669847,84446.4894662918
 Deaths,Male,15 to 19,bladder cancer,greatermanchester,0.010039854274708174,84446.48946629176
 Deaths,Male,15 to 19,breast cancer,greatermanchester,0.010009356005200965,84446.48946629174
+Deaths,Male,15 to 19,cardiomyopathy and myocarditis,greatermanchester,0.5395348258841453,84446.4894662918
 Deaths,Male,15 to 19,cardiovascular diseases,greatermanchester,1.4710101449355453,84446.48946629174
 Deaths,Male,15 to 19,chronic myeloid leukemia,greatermanchester,0.014257332043513414,84446.48946629172
 Deaths,Male,15 to 19,chronic obstructive pulmonary disease,greatermanchester,0.07661113537977852,84446.48946629174
@@ -567,9 +629,11 @@ Deaths,Male,15 to 19,lower respiratory infections,greatermanchester,0.4448680383
 Deaths,Male,15 to 19,motor vehicle road injuries,greatermanchester,3.850340690955662,84446.48946629172
 Deaths,Male,15 to 19,motorcyclist road injuries,greatermanchester,1.4753208774575224,84446.48946629168
 Deaths,Male,15 to 19,neoplasms,greatermanchester,3.924935707482664,84446.48946629174
+Deaths,Male,15 to 19,non-rheumatic valvular heart disease,greatermanchester,0.07768520409306383,84446.48946629178
 Deaths,Male,15 to 19,other road injuries,greatermanchester,0.03533551985859711,84446.48946629169
 Deaths,Male,15 to 19,other transport injuries,greatermanchester,0.28062416114437544,84446.48946629169
 Deaths,Male,15 to 19,pedestrian road injuries,greatermanchester,1.2591084850129062,84446.48946629176
+Deaths,Male,15 to 19,rheumatic heart disease,greatermanchester,0.014113919109144637,84446.4894662917
 Deaths,Male,15 to 19,road injuries,greatermanchester,6.957636922200888,84446.48946629172
 Deaths,Male,15 to 19,stomach cancer,greatermanchester,0.017551548580733437,84446.4894662917
 Deaths,Male,15 to 19,stroke,greatermanchester,0.3946245666257663,84446.48946629172
@@ -577,6 +641,7 @@ Deaths,Male,15 to 19,"tracheal, bronchus, and lung cancer",greatermanchester,0.0
 Deaths,Male,20 to 24,all causes,greatermanchester,45.62730291041206,93893.67599283664
 Deaths,Male,20 to 24,bladder cancer,greatermanchester,0.011630965667794448,93893.67599283675
 Deaths,Male,20 to 24,breast cancer,greatermanchester,0.010548206629754133,93893.67599283681
+Deaths,Male,20 to 24,cardiomyopathy and myocarditis,greatermanchester,0.6944087075649444,93893.67599283677
 Deaths,Male,20 to 24,cardiovascular diseases,greatermanchester,2.50792088612869,93893.67599283668
 Deaths,Male,20 to 24,chronic myeloid leukemia,greatermanchester,0.02435799587385204,93893.67599283672
 Deaths,Male,20 to 24,chronic obstructive pulmonary disease,greatermanchester,0.10722477132247932,93893.67599283672
@@ -592,11 +657,13 @@ Deaths,Male,20 to 24,motor vehicle road injuries,greatermanchester,5.40561910400
 Deaths,Male,20 to 24,motorcyclist road injuries,greatermanchester,1.8167467341045487,93893.67599283672
 Deaths,Male,20 to 24,multiple myeloma,greatermanchester,0.010692397980423827,93893.67599283672
 Deaths,Male,20 to 24,neoplasms,greatermanchester,5.019780333539762,93893.67599283672
+Deaths,Male,20 to 24,non-rheumatic valvular heart disease,greatermanchester,0.11183455060607568,93893.67599283671
 Deaths,Male,20 to 24,other road injuries,greatermanchester,0.033205872712016825,93893.67599283668
 Deaths,Male,20 to 24,other transport injuries,greatermanchester,0.4414371158633603,93893.67599283662
 Deaths,Male,20 to 24,parkinson's disease,greatermanchester,0.0031003333166994694,93893.67599283665
 Deaths,Male,20 to 24,pedestrian road injuries,greatermanchester,1.4468845735219125,93893.67599283665
 Deaths,Male,20 to 24,prostate cancer,greatermanchester,0.02739521988729264,93893.67599283675
+Deaths,Male,20 to 24,rheumatic heart disease,greatermanchester,0.0278062643434787,93893.67599283665
 Deaths,Male,20 to 24,road injuries,greatermanchester,8.988233385842504,93893.67599283681
 Deaths,Male,20 to 24,stomach cancer,greatermanchester,0.045079244092369804,93893.67599283671
 Deaths,Male,20 to 24,stroke,greatermanchester,0.6956072059555997,93893.67599283668
@@ -604,6 +671,7 @@ Deaths,Male,20 to 24,"tracheal, bronchus, and lung cancer",greatermanchester,0.0
 Deaths,Male,25 to 29,all causes,greatermanchester,69.64228452693551,108767.30113385107
 Deaths,Male,25 to 29,bladder cancer,greatermanchester,0.03854779056318597,108767.3011338512
 Deaths,Male,25 to 29,breast cancer,greatermanchester,0.012666520354277226,108767.30113385107
+Deaths,Male,25 to 29,cardiomyopathy and myocarditis,greatermanchester,1.1337074105452742,108767.30113385106
 Deaths,Male,25 to 29,cardiovascular diseases,greatermanchester,7.363492424898749,108767.30113385103
 Deaths,Male,25 to 29,chronic myeloid leukemia,greatermanchester,0.06933617715014471,108767.30113385114
 Deaths,Male,25 to 29,chronic obstructive pulmonary disease,greatermanchester,0.2572172528839269,108767.30113385114
@@ -619,11 +687,13 @@ Deaths,Male,25 to 29,motor vehicle road injuries,greatermanchester,4.67851109122
 Deaths,Male,25 to 29,motorcyclist road injuries,greatermanchester,1.8671987453717653,108767.3011338511
 Deaths,Male,25 to 29,multiple myeloma,greatermanchester,0.030587452318708068,108767.30113385116
 Deaths,Male,25 to 29,neoplasms,greatermanchester,8.552242836294342,108767.301133851
+Deaths,Male,25 to 29,non-rheumatic valvular heart disease,greatermanchester,0.2393104573199457,108767.3011338511
 Deaths,Male,25 to 29,other road injuries,greatermanchester,0.03272713822510339,108767.301133851
 Deaths,Male,25 to 29,other transport injuries,greatermanchester,0.5461577091161516,108767.30113385097
 Deaths,Male,25 to 29,parkinson's disease,greatermanchester,0.0016018220808918348,108767.30113385106
 Deaths,Male,25 to 29,pedestrian road injuries,greatermanchester,1.2677779755964647,108767.30113385106
 Deaths,Male,25 to 29,prostate cancer,greatermanchester,0.04994678201451504,108767.3011338511
+Deaths,Male,25 to 29,rheumatic heart disease,greatermanchester,0.07034342616175882,108767.30113385098
 Deaths,Male,25 to 29,road injuries,greatermanchester,8.124049196364515,108767.30113385113
 Deaths,Male,25 to 29,stomach cancer,greatermanchester,0.18607328244267207,108767.30113385106
 Deaths,Male,25 to 29,stroke,greatermanchester,1.7883076419669395,108767.30113385106
@@ -631,6 +701,7 @@ Deaths,Male,25 to 29,"tracheal, bronchus, and lung cancer",greatermanchester,0.3
 Deaths,Male,30 to 34,all causes,greatermanchester,100.5916805252108,114146.78527308421
 Deaths,Male,30 to 34,bladder cancer,greatermanchester,0.11948430919903083,114146.78527308418
 Deaths,Male,30 to 34,breast cancer,greatermanchester,0.012363451662156483,114146.78527308418
+Deaths,Male,30 to 34,cardiomyopathy and myocarditis,greatermanchester,1.4090991358292173,114146.78527308414
 Deaths,Male,30 to 34,cardiovascular diseases,greatermanchester,14.51829065485281,114146.7852730842
 Deaths,Male,30 to 34,chronic myeloid leukemia,greatermanchester,0.09580581595930365,114146.78527308414
 Deaths,Male,30 to 34,chronic obstructive pulmonary disease,greatermanchester,0.5174371639450478,114146.7852730842
@@ -646,11 +717,13 @@ Deaths,Male,30 to 34,motor vehicle road injuries,greatermanchester,3.53473406832
 Deaths,Male,30 to 34,motorcyclist road injuries,greatermanchester,1.5622371154211785,114146.7852730842
 Deaths,Male,30 to 34,multiple myeloma,greatermanchester,0.10281418117117647,114146.78527308421
 Deaths,Male,30 to 34,neoplasms,greatermanchester,14.625574404646605,114146.78527308421
+Deaths,Male,30 to 34,non-rheumatic valvular heart disease,greatermanchester,0.3500736727802811,114146.78527308416
 Deaths,Male,30 to 34,other road injuries,greatermanchester,0.025414060198579898,114146.78527308423
 Deaths,Male,30 to 34,other transport injuries,greatermanchester,0.5221561446390868,114146.78527308424
 Deaths,Male,30 to 34,parkinson's disease,greatermanchester,0.0033430613996039164,114146.78527308436
 Deaths,Male,30 to 34,pedestrian road injuries,greatermanchester,1.3825456531039504,114146.78527308423
 Deaths,Male,30 to 34,prostate cancer,greatermanchester,0.06616359181464518,114146.78527308408
+Deaths,Male,30 to 34,rheumatic heart disease,greatermanchester,0.10663741587495126,114146.7852730841
 Deaths,Male,30 to 34,road injuries,greatermanchester,6.813043386627861,114146.78527308411
 Deaths,Male,30 to 34,stomach cancer,greatermanchester,0.5788860763886381,114146.78527308421
 Deaths,Male,30 to 34,stroke,greatermanchester,3.0065455603838114,114146.78527308416
@@ -658,6 +731,7 @@ Deaths,Male,30 to 34,"tracheal, bronchus, and lung cancer",greatermanchester,1.1
 Deaths,Male,35 to 39,all causes,greatermanchester,138.01910683857386,106449.15889080764
 Deaths,Male,35 to 39,bladder cancer,greatermanchester,0.25810650547304775,106449.15889080768
 Deaths,Male,35 to 39,breast cancer,greatermanchester,0.023826962045153544,106449.15889080768
+Deaths,Male,35 to 39,cardiomyopathy and myocarditis,greatermanchester,1.8097423354400908,106449.15889080764
 Deaths,Male,35 to 39,cardiovascular diseases,greatermanchester,24.74458634757883,106449.15889080765
 Deaths,Male,35 to 39,chronic myeloid leukemia,greatermanchester,0.11919734767637102,106449.15889080764
 Deaths,Male,35 to 39,chronic obstructive pulmonary disease,greatermanchester,1.022468716458106,106449.15889080765
@@ -673,11 +747,13 @@ Deaths,Male,35 to 39,motor vehicle road injuries,greatermanchester,2.65433787673
 Deaths,Male,35 to 39,motorcyclist road injuries,greatermanchester,1.458084106787234,106449.15889080758
 Deaths,Male,35 to 39,multiple myeloma,greatermanchester,0.23716826715359113,106449.15889080768
 Deaths,Male,35 to 39,neoplasms,greatermanchester,23.430080560671467,106449.15889080774
+Deaths,Male,35 to 39,non-rheumatic valvular heart disease,greatermanchester,0.4704117112228992,106449.15889080764
 Deaths,Male,35 to 39,other road injuries,greatermanchester,0.01688090687487869,106449.15889080768
 Deaths,Male,35 to 39,other transport injuries,greatermanchester,0.5069172174088107,106449.15889080768
 Deaths,Male,35 to 39,parkinson's disease,greatermanchester,0.008343825805929083,106449.15889080762
 Deaths,Male,35 to 39,pedestrian road injuries,greatermanchester,1.3195383170841615,106449.15889080767
 Deaths,Male,35 to 39,prostate cancer,greatermanchester,0.08650042956138528,106449.15889080761
+Deaths,Male,35 to 39,rheumatic heart disease,greatermanchester,0.14913358517978506,106449.15889080767
 Deaths,Male,35 to 39,road injuries,greatermanchester,5.728908347961379,106449.15889080767
 Deaths,Male,35 to 39,stomach cancer,greatermanchester,1.129835363952229,106449.15889080764
 Deaths,Male,35 to 39,stroke,greatermanchester,4.555454099289706,106449.15889080764
@@ -686,6 +762,7 @@ Deaths,Male,40 to 44,all causes,greatermanchester,187.06933447318565,90887.14903
 Deaths,Male,40 to 44,alzheimer's disease and other dementias,greatermanchester,0.0910566810199346,90887.14903767874
 Deaths,Male,40 to 44,bladder cancer,greatermanchester,0.544332643175762,90887.14903767868
 Deaths,Male,40 to 44,breast cancer,greatermanchester,0.045202464006954,90887.14903767858
+Deaths,Male,40 to 44,cardiomyopathy and myocarditis,greatermanchester,2.4714213472821664,90887.14903767876
 Deaths,Male,40 to 44,cardiovascular diseases,greatermanchester,40.646635706095985,90887.14903767873
 Deaths,Male,40 to 44,chronic myeloid leukemia,greatermanchester,0.13203623832528652,90887.14903767868
 Deaths,Male,40 to 44,chronic obstructive pulmonary disease,greatermanchester,2.0504042370875086,90887.14903767873
@@ -701,11 +778,13 @@ Deaths,Male,40 to 44,motor vehicle road injuries,greatermanchester,2.21791146774
 Deaths,Male,40 to 44,motorcyclist road injuries,greatermanchester,1.4813017694379818,90887.14903767871
 Deaths,Male,40 to 44,multiple myeloma,greatermanchester,0.4699841553840084,90887.1490376787
 Deaths,Male,40 to 44,neoplasms,greatermanchester,37.24937450274276,90887.14903767867
+Deaths,Male,40 to 44,non-rheumatic valvular heart disease,greatermanchester,0.6400336923819517,90887.14903767873
 Deaths,Male,40 to 44,other road injuries,greatermanchester,0.013237962873545705,90887.14903767874
 Deaths,Male,40 to 44,other transport injuries,greatermanchester,0.46830216856265294,90887.1490376787
 Deaths,Male,40 to 44,parkinson's disease,greatermanchester,0.08461284870675745,90887.14903767874
 Deaths,Male,40 to 44,pedestrian road injuries,greatermanchester,1.3852014473036527,90887.14903767871
 Deaths,Male,40 to 44,prostate cancer,greatermanchester,0.1843694737624448,90887.14903767865
+Deaths,Male,40 to 44,rheumatic heart disease,greatermanchester,0.19589936066651095,90887.14903767868
 Deaths,Male,40 to 44,road injuries,greatermanchester,5.416418785030334,90887.14903767871
 Deaths,Male,40 to 44,stomach cancer,greatermanchester,1.9253089633759866,90887.14903767865
 Deaths,Male,40 to 44,stroke,greatermanchester,6.818350327462589,90887.14903767871
@@ -714,6 +793,7 @@ Deaths,Male,45 to 49,all causes,greatermanchester,288.10725106785696,95858.79499
 Deaths,Male,45 to 49,alzheimer's disease and other dementias,greatermanchester,0.6027520188688186,95858.79499253423
 Deaths,Male,45 to 49,bladder cancer,greatermanchester,1.222884102050241,95858.79499253418
 Deaths,Male,45 to 49,breast cancer,greatermanchester,0.072768723103306,95858.79499253418
+Deaths,Male,45 to 49,cardiomyopathy and myocarditis,greatermanchester,3.393310931835658,95858.79499253424
 Deaths,Male,45 to 49,cardiovascular diseases,greatermanchester,71.02574761436864,95858.79499253424
 Deaths,Male,45 to 49,chronic myeloid leukemia,greatermanchester,0.16689930983890397,95858.79499253418
 Deaths,Male,45 to 49,chronic obstructive pulmonary disease,greatermanchester,4.567738746916062,95858.79499253418
@@ -729,16 +809,19 @@ Deaths,Male,45 to 49,motor vehicle road injuries,greatermanchester,2.48154243562
 Deaths,Male,45 to 49,motorcyclist road injuries,greatermanchester,1.5643398862002198,95858.79499253421
 Deaths,Male,45 to 49,multiple myeloma,greatermanchester,1.063215737807514,95858.79499253415
 Deaths,Male,45 to 49,neoplasms,greatermanchester,71.05188386107763,95858.79499253427
+Deaths,Male,45 to 49,non-rheumatic valvular heart disease,greatermanchester,0.9654350066384112,95858.79499253418
 Deaths,Male,45 to 49,other road injuries,greatermanchester,0.017224893167266747,95858.79499253415
 Deaths,Male,45 to 49,other transport injuries,greatermanchester,0.5083967318309184,95858.79499253417
 Deaths,Male,45 to 49,parkinson's disease,greatermanchester,0.2889929002548677,95858.79499253417
 Deaths,Male,45 to 49,pedestrian road injuries,greatermanchester,1.7421999881468886,95858.79499253418
 Deaths,Male,45 to 49,prostate cancer,greatermanchester,0.8399281928885448,95858.79499253418
+Deaths,Male,45 to 49,rheumatic heart disease,greatermanchester,0.3294082284589809,95858.7949925342
 Deaths,Male,45 to 49,road injuries,greatermanchester,6.192235064013608,95858.79499253424
 Deaths,Male,45 to 49,stomach cancer,greatermanchester,3.5513781387210774,95858.79499253421
 Deaths,Male,45 to 49,stroke,greatermanchester,10.944716520986342,95858.79499253424
 Deaths,Male,45 to 49,"tracheal, bronchus, and lung cancer",greatermanchester,13.357551536204637,95858.79499253424
 Deaths,Male,5 to 9,all causes,greatermanchester,9.688347756508065,95707.23263214549
+Deaths,Male,5 to 9,cardiomyopathy and myocarditis,greatermanchester,0.10635948326958924,95707.23263214549
 Deaths,Male,5 to 9,cardiovascular diseases,greatermanchester,0.3139200889547226,95707.23263214552
 Deaths,Male,5 to 9,chronic myeloid leukemia,greatermanchester,0.012984831416954057,95707.23263214552
 Deaths,Male,5 to 9,chronic obstructive pulmonary disease,greatermanchester,0.02197057668597047,95707.23263214552
@@ -753,12 +836,14 @@ Deaths,Male,5 to 9,neoplasms,greatermanchester,2.964381389890953,95707.232632145
 Deaths,Male,5 to 9,other road injuries,greatermanchester,0.010488150324521262,95707.23263214555
 Deaths,Male,5 to 9,other transport injuries,greatermanchester,0.055826453405421986,95707.23263214552
 Deaths,Male,5 to 9,pedestrian road injuries,greatermanchester,0.5610785162595365,95707.23263214552
+Deaths,Male,5 to 9,rheumatic heart disease,greatermanchester,0.010292677226041085,95707.23263214549
 Deaths,Male,5 to 9,road injuries,greatermanchester,0.9278016372758333,95707.23263214555
 Deaths,Male,5 to 9,stroke,greatermanchester,0.08036030902165256,95707.23263214546
 Deaths,Male,50 to 54,all causes,greatermanchester,425.1410589572762,98634.6899048902
 Deaths,Male,50 to 54,alzheimer's disease and other dementias,greatermanchester,1.3070335123380679,98634.68990489023
 Deaths,Male,50 to 54,bladder cancer,greatermanchester,2.9378025738686717,98634.68990489018
 Deaths,Male,50 to 54,breast cancer,greatermanchester,0.12298335789254107,98634.68990489014
+Deaths,Male,50 to 54,cardiomyopathy and myocarditis,greatermanchester,4.226122370924304,98634.68990489017
 Deaths,Male,50 to 54,cardiovascular diseases,greatermanchester,123.62589239399031,98634.68990489024
 Deaths,Male,50 to 54,chronic myeloid leukemia,greatermanchester,0.17462072867233014,98634.68990489015
 Deaths,Male,50 to 54,chronic obstructive pulmonary disease,greatermanchester,12.638550134455746,98634.68990489014
@@ -774,11 +859,13 @@ Deaths,Male,50 to 54,motor vehicle road injuries,greatermanchester,1.90454527957
 Deaths,Male,50 to 54,motorcyclist road injuries,greatermanchester,0.96418704883624,98634.68990489018
 Deaths,Male,50 to 54,multiple myeloma,greatermanchester,2.295282996326575,98634.68990489023
 Deaths,Male,50 to 54,neoplasms,greatermanchester,143.08228984387443,98634.68990489017
+Deaths,Male,50 to 54,non-rheumatic valvular heart disease,greatermanchester,1.7508476060876021,98634.68990489017
 Deaths,Male,50 to 54,other road injuries,greatermanchester,0.025537842314213473,98634.68990489026
 Deaths,Male,50 to 54,other transport injuries,greatermanchester,0.48876041351740873,98634.68990489014
 Deaths,Male,50 to 54,parkinson's disease,greatermanchester,0.652898980445307,98634.6899048902
 Deaths,Male,50 to 54,pedestrian road injuries,greatermanchester,1.481856856341661,98634.68990489018
 Deaths,Male,50 to 54,prostate cancer,greatermanchester,3.6828945290997743,98634.68990489017
+Deaths,Male,50 to 54,rheumatic heart disease,greatermanchester,0.4602536918860882,98634.68990489017
 Deaths,Male,50 to 54,road injuries,greatermanchester,4.781851465178054,98634.68990489013
 Deaths,Male,50 to 54,stomach cancer,greatermanchester,6.461644511837891,98634.68990489015
 Deaths,Male,50 to 54,stroke,greatermanchester,16.627529591756353,98634.68990489014
@@ -787,6 +874,7 @@ Deaths,Male,55 to 59,all causes,greatermanchester,588.0074401001101,88286.869308
 Deaths,Male,55 to 59,alzheimer's disease and other dementias,greatermanchester,2.4880344834641717,88286.86930898068
 Deaths,Male,55 to 59,bladder cancer,greatermanchester,5.268019475710176,88286.86930898066
 Deaths,Male,55 to 59,breast cancer,greatermanchester,0.18161551572793577,88286.86930898062
+Deaths,Male,55 to 59,cardiomyopathy and myocarditis,greatermanchester,5.017589771571143,88286.86930898063
 Deaths,Male,55 to 59,cardiovascular diseases,greatermanchester,178.0158484678734,88286.86930898065
 Deaths,Male,55 to 59,chronic myeloid leukemia,greatermanchester,0.203911173429417,88286.86930898062
 Deaths,Male,55 to 59,chronic obstructive pulmonary disease,greatermanchester,22.942454572991508,88286.86930898063
@@ -802,11 +890,13 @@ Deaths,Male,55 to 59,motor vehicle road injuries,greatermanchester,1.66909419688
 Deaths,Male,55 to 59,motorcyclist road injuries,greatermanchester,0.6948656929381384,88286.86930898063
 Deaths,Male,55 to 59,multiple myeloma,greatermanchester,3.641935355617031,88286.86930898065
 Deaths,Male,55 to 59,neoplasms,greatermanchester,223.55232240237456,88286.86930898069
+Deaths,Male,55 to 59,non-rheumatic valvular heart disease,greatermanchester,2.700744110689291,88286.86930898062
 Deaths,Male,55 to 59,other road injuries,greatermanchester,0.02108036544695862,88286.86930898065
 Deaths,Male,55 to 59,other transport injuries,greatermanchester,0.43323983673372746,88286.86930898062
 Deaths,Male,55 to 59,parkinson's disease,greatermanchester,1.18595564437993,88286.86930898063
 Deaths,Male,55 to 59,pedestrian road injuries,greatermanchester,1.3773361589240254,88286.86930898072
 Deaths,Male,55 to 59,prostate cancer,greatermanchester,8.530227912568797,88286.86930898057
+Deaths,Male,55 to 59,rheumatic heart disease,greatermanchester,0.651727850384095,88286.86930898065
 Deaths,Male,55 to 59,road injuries,greatermanchester,4.17986268351282,88286.86930898062
 Deaths,Male,55 to 59,stomach cancer,greatermanchester,9.713527902699424,88286.86930898069
 Deaths,Male,55 to 59,stroke,greatermanchester,23.285226966262204,88286.86930898063
@@ -815,6 +905,7 @@ Deaths,Male,60 to 64,all causes,greatermanchester,762.5119129450641,72184.775247
 Deaths,Male,60 to 64,alzheimer's disease and other dementias,greatermanchester,4.503166131711977,72184.77524700182
 Deaths,Male,60 to 64,bladder cancer,greatermanchester,9.214244646969256,72184.77524700182
 Deaths,Male,60 to 64,breast cancer,greatermanchester,0.23702251101627222,72184.77524700179
+Deaths,Male,60 to 64,cardiomyopathy and myocarditis,greatermanchester,5.139089091888241,72184.7752470018
 Deaths,Male,60 to 64,cardiovascular diseases,greatermanchester,224.24886423351506,72184.77524700187
 Deaths,Male,60 to 64,chronic myeloid leukemia,greatermanchester,0.24531061127950024,72184.77524700185
 Deaths,Male,60 to 64,chronic obstructive pulmonary disease,greatermanchester,48.59628135926307,72184.77524700182
@@ -830,11 +921,13 @@ Deaths,Male,60 to 64,motor vehicle road injuries,greatermanchester,1.30098323484
 Deaths,Male,60 to 64,motorcyclist road injuries,greatermanchester,0.382490479372194,72184.77524700185
 Deaths,Male,60 to 64,multiple myeloma,greatermanchester,5.292225062377479,72184.77524700185
 Deaths,Male,60 to 64,neoplasms,greatermanchester,326.24419796094026,72184.7752470018
+Deaths,Male,60 to 64,non-rheumatic valvular heart disease,greatermanchester,3.8035572121953876,72184.77524700177
 Deaths,Male,60 to 64,other road injuries,greatermanchester,0.014041610970020615,72184.77524700182
 Deaths,Male,60 to 64,other transport injuries,greatermanchester,0.3795974578018476,72184.77524700182
 Deaths,Male,60 to 64,parkinson's disease,greatermanchester,2.883481062764793,72184.77524700182
 Deaths,Male,60 to 64,pedestrian road injuries,greatermanchester,1.2871930911649003,72184.77524700179
 Deaths,Male,60 to 64,prostate cancer,greatermanchester,20.784255083764663,72184.77524700179
+Deaths,Male,60 to 64,rheumatic heart disease,greatermanchester,0.7968290958328562,72184.77524700182
 Deaths,Male,60 to 64,road injuries,greatermanchester,3.2880136843714407,72184.77524700182
 Deaths,Male,60 to 64,stomach cancer,greatermanchester,13.227241783967226,72184.77524700186
 Deaths,Male,60 to 64,stroke,greatermanchester,30.176632090462604,72184.77524700186
@@ -843,6 +936,7 @@ Deaths,Male,65 to 69,all causes,greatermanchester,1028.0118059689005,63661.36422
 Deaths,Male,65 to 69,alzheimer's disease and other dementias,greatermanchester,9.190090437977997,63661.36422478629
 Deaths,Male,65 to 69,bladder cancer,greatermanchester,14.44987163242658,63661.36422478629
 Deaths,Male,65 to 69,breast cancer,greatermanchester,0.306981522380066,63661.364224786295
+Deaths,Male,65 to 69,cardiomyopathy and myocarditis,greatermanchester,5.755629452131209,63661.36422478625
 Deaths,Male,65 to 69,cardiovascular diseases,greatermanchester,305.3403156224293,63661.364224786266
 Deaths,Male,65 to 69,chronic myeloid leukemia,greatermanchester,0.3647505015622121,63661.364224786244
 Deaths,Male,65 to 69,chronic obstructive pulmonary disease,greatermanchester,80.75502536339157,63661.36422478625
@@ -858,11 +952,13 @@ Deaths,Male,65 to 69,motor vehicle road injuries,greatermanchester,1.16939646759
 Deaths,Male,65 to 69,motorcyclist road injuries,greatermanchester,0.24932162309048195,63661.3642247863
 Deaths,Male,65 to 69,multiple myeloma,greatermanchester,7.821894069230345,63661.36422478625
 Deaths,Male,65 to 69,neoplasms,greatermanchester,447.8287740124236,63661.36422478628
+Deaths,Male,65 to 69,non-rheumatic valvular heart disease,greatermanchester,5.718509179828685,63661.36422478622
 Deaths,Male,65 to 69,other road injuries,greatermanchester,0.011021504714828925,63661.36422478622
 Deaths,Male,65 to 69,other transport injuries,greatermanchester,0.32498774548675013,63661.364224786266
 Deaths,Male,65 to 69,parkinson's disease,greatermanchester,7.257992082415064,63661.364224786266
 Deaths,Male,65 to 69,pedestrian road injuries,greatermanchester,1.2933235575283006,63661.36422478628
 Deaths,Male,65 to 69,prostate cancer,greatermanchester,38.77120079459651,63661.36422478623
+Deaths,Male,65 to 69,rheumatic heart disease,greatermanchester,1.1247148749273062,63661.36422478627
 Deaths,Male,65 to 69,road injuries,greatermanchester,3.004863711823677,63661.36422478628
 Deaths,Male,65 to 69,stomach cancer,greatermanchester,18.4874352080967,63661.36422478626
 Deaths,Male,65 to 69,stroke,greatermanchester,45.50121569815173,63661.36422478627
@@ -871,6 +967,7 @@ Deaths,Male,70 to 74,all causes,greatermanchester,1599.589086736299,59190.127327
 Deaths,Male,70 to 74,alzheimer's disease and other dementias,greatermanchester,21.166820371016485,59190.12732757911
 Deaths,Male,70 to 74,bladder cancer,greatermanchester,25.741607435529527,59190.12732757914
 Deaths,Male,70 to 74,breast cancer,greatermanchester,0.4613795450240698,59190.127327579146
+Deaths,Male,70 to 74,cardiomyopathy and myocarditis,greatermanchester,6.831853101265042,59190.12732757916
 Deaths,Male,70 to 74,cardiovascular diseases,greatermanchester,488.8477616943995,59190.12732757916
 Deaths,Male,70 to 74,chronic myeloid leukemia,greatermanchester,0.6164537314096957,59190.127327579154
 Deaths,Male,70 to 74,chronic obstructive pulmonary disease,greatermanchester,146.11609920869157,59190.12732757907
@@ -886,11 +983,13 @@ Deaths,Male,70 to 74,motor vehicle road injuries,greatermanchester,1.26911599568
 Deaths,Male,70 to 74,motorcyclist road injuries,greatermanchester,0.13152095226995958,59190.12732757913
 Deaths,Male,70 to 74,multiple myeloma,greatermanchester,12.133175861988953,59190.12732757912
 Deaths,Male,70 to 74,neoplasms,greatermanchester,665.87454789126,59190.127327579095
+Deaths,Male,70 to 74,non-rheumatic valvular heart disease,greatermanchester,10.448967408310795,59190.12732757913
 Deaths,Male,70 to 74,other road injuries,greatermanchester,0.009741314120931467,59190.12732757912
 Deaths,Male,70 to 74,other transport injuries,greatermanchester,0.29024424401762733,59190.12732757916
 Deaths,Male,70 to 74,parkinson's disease,greatermanchester,21.378812448380565,59190.12732757914
 Deaths,Male,70 to 74,pedestrian road injuries,greatermanchester,1.5935098831668268,59190.127327579146
 Deaths,Male,70 to 74,prostate cancer,greatermanchester,72.57526073731171,59190.12732757911
+Deaths,Male,70 to 74,rheumatic heart disease,greatermanchester,1.9982105555142167,59190.12732757912
 Deaths,Male,70 to 74,road injuries,greatermanchester,3.2465588525253914,59190.127327579125
 Deaths,Male,70 to 74,stomach cancer,greatermanchester,29.421545247758644,59190.127327579125
 Deaths,Male,70 to 74,stroke,greatermanchester,88.32663767982946,59190.127327579146
@@ -899,6 +998,7 @@ Deaths,Male,75 to 79,all causes,greatermanchester,1736.999717029473,38428.461745
 Deaths,Male,75 to 79,alzheimer's disease and other dementias,greatermanchester,35.99146383372138,38428.46174531049
 Deaths,Male,75 to 79,bladder cancer,greatermanchester,30.211919559459687,38428.46174531051
 Deaths,Male,75 to 79,breast cancer,greatermanchester,0.4133294067889558,38428.46174531051
+Deaths,Male,75 to 79,cardiomyopathy and myocarditis,greatermanchester,6.663571555317125,38428.46174531051
 Deaths,Male,75 to 79,cardiovascular diseases,greatermanchester,554.8113864013679,38428.46174531052
 Deaths,Male,75 to 79,chronic myeloid leukemia,greatermanchester,0.6494521029074621,38428.46174531052
 Deaths,Male,75 to 79,chronic obstructive pulmonary disease,greatermanchester,167.01761889521953,38428.461745310524
@@ -914,11 +1014,13 @@ Deaths,Male,75 to 79,motor vehicle road injuries,greatermanchester,1.09605248091
 Deaths,Male,75 to 79,motorcyclist road injuries,greatermanchester,0.06662426959978102,38428.4617453105
 Deaths,Male,75 to 79,multiple myeloma,greatermanchester,11.622464760083437,38428.46174531053
 Deaths,Male,75 to 79,neoplasms,greatermanchester,643.0679149957829,38428.46174531051
+Deaths,Male,75 to 79,non-rheumatic valvular heart disease,greatermanchester,13.6111831767032,38428.46174531052
 Deaths,Male,75 to 79,other road injuries,greatermanchester,0.008014395528458874,38428.46174531053
 Deaths,Male,75 to 79,other transport injuries,greatermanchester,0.20203345530777173,38428.461745310524
 Deaths,Male,75 to 79,parkinson's disease,greatermanchester,35.938457464111515,38428.461745310524
 Deaths,Male,75 to 79,pedestrian road injuries,greatermanchester,1.6657656810302122,38428.461745310524
 Deaths,Male,75 to 79,prostate cancer,greatermanchester,100.96894378776203,38428.461745310495
+Deaths,Male,75 to 79,rheumatic heart disease,greatermanchester,2.327371631579603,38428.46174531051
 Deaths,Male,75 to 79,road injuries,greatermanchester,3.008936138840853,38428.46174531051
 Deaths,Male,75 to 79,stomach cancer,greatermanchester,31.586693637728484,38428.461745310546
 Deaths,Male,75 to 79,stroke,greatermanchester,119.92215913142573,38428.46174531052
@@ -927,6 +1029,7 @@ Deaths,Male,80 to 84,all causes,greatermanchester,2051.8247402593342,26470.71197
 Deaths,Male,80 to 84,alzheimer's disease and other dementias,greatermanchester,86.87893333070323,26470.711978789743
 Deaths,Male,80 to 84,bladder cancer,greatermanchester,35.62762453676399,26470.711978789735
 Deaths,Male,80 to 84,breast cancer,greatermanchester,0.35927271720721254,26470.711978789728
+Deaths,Male,80 to 84,cardiomyopathy and myocarditis,greatermanchester,7.925440237533243,26470.711978789746
 Deaths,Male,80 to 84,cardiovascular diseases,greatermanchester,691.4928202582469,26470.71197878974
 Deaths,Male,80 to 84,chronic myeloid leukemia,greatermanchester,0.6810755592779281,26470.711978789735
 Deaths,Male,80 to 84,chronic obstructive pulmonary disease,greatermanchester,193.7430979734899,26470.711978789746
@@ -942,11 +1045,13 @@ Deaths,Male,80 to 84,motor vehicle road injuries,greatermanchester,1.08962880802
 Deaths,Male,80 to 84,motorcyclist road injuries,greatermanchester,0.03740959987954958,26470.711978789746
 Deaths,Male,80 to 84,multiple myeloma,greatermanchester,11.41171739912381,26470.71197878973
 Deaths,Male,80 to 84,neoplasms,greatermanchester,627.8528339873259,26470.711978789743
+Deaths,Male,80 to 84,non-rheumatic valvular heart disease,greatermanchester,20.201978035705075,26470.71197878975
 Deaths,Male,80 to 84,other road injuries,greatermanchester,0.006819913149437386,26470.711978789743
 Deaths,Male,80 to 84,other transport injuries,greatermanchester,0.15291286947605284,26470.711978789743
 Deaths,Male,80 to 84,parkinson's disease,greatermanchester,44.68754858844834,26470.71197878973
 Deaths,Male,80 to 84,pedestrian road injuries,greatermanchester,1.607441859338167,26470.71197878976
 Deaths,Male,80 to 84,prostate cancer,greatermanchester,120.11999477783121,26470.711978789746
+Deaths,Male,80 to 84,rheumatic heart disease,greatermanchester,2.739945548579674,26470.71197878974
 Deaths,Male,80 to 84,road injuries,greatermanchester,2.8559272458486054,26470.711978789735
 Deaths,Male,80 to 84,stomach cancer,greatermanchester,31.54577111673178,26470.711978789717
 Deaths,Male,80 to 84,stroke,greatermanchester,167.89140316197089,26470.711978789746
@@ -955,6 +1060,7 @@ Deaths,Male,85 to 89,all causes,greatermanchester,1745.533403248966,13379.669017
 Deaths,Male,85 to 89,alzheimer's disease and other dementias,greatermanchester,109.2122451274582,13379.669017274173
 Deaths,Male,85 to 89,bladder cancer,greatermanchester,30.17073814511135,13379.669017274175
 Deaths,Male,85 to 89,breast cancer,greatermanchester,0.32172739815050977,13379.669017274187
+Deaths,Male,85 to 89,cardiomyopathy and myocarditis,greatermanchester,7.7707534129657185,13379.66901727417
 Deaths,Male,85 to 89,cardiovascular diseases,greatermanchester,588.17663938722,13379.66901727418
 Deaths,Male,85 to 89,chronic myeloid leukemia,greatermanchester,0.6490653405490756,13379.669017274178
 Deaths,Male,85 to 89,chronic obstructive pulmonary disease,greatermanchester,159.1185198618226,13379.66901727418
@@ -970,11 +1076,13 @@ Deaths,Male,85 to 89,motor vehicle road injuries,greatermanchester,0.74720661373
 Deaths,Male,85 to 89,motorcyclist road injuries,greatermanchester,0.016852154751727473,13379.66901727418
 Deaths,Male,85 to 89,multiple myeloma,greatermanchester,7.884239906474996,13379.669017274176
 Deaths,Male,85 to 89,neoplasms,greatermanchester,445.7392143769421,13379.669017274178
+Deaths,Male,85 to 89,non-rheumatic valvular heart disease,greatermanchester,20.385834137764462,13379.669017274173
 Deaths,Male,85 to 89,other road injuries,greatermanchester,0.003636446548538349,13379.669017274176
 Deaths,Male,85 to 89,other transport injuries,greatermanchester,0.07952316975997557,13379.669017274173
 Deaths,Male,85 to 89,parkinson's disease,greatermanchester,35.47318544805218,13379.669017274175
 Deaths,Male,85 to 89,pedestrian road injuries,greatermanchester,1.116943474659951,13379.669017274178
 Deaths,Male,85 to 89,prostate cancer,greatermanchester,106.71620025994142,13379.669017274167
+Deaths,Male,85 to 89,rheumatic heart disease,greatermanchester,2.2147451060801053,13379.669017274173
 Deaths,Male,85 to 89,road injuries,greatermanchester,1.9407502702021695,13379.669017274176
 Deaths,Male,85 to 89,stomach cancer,greatermanchester,22.517108173914078,13379.669017274178
 Deaths,Male,85 to 89,stroke,greatermanchester,153.64663574256153,13379.66901727418
@@ -983,6 +1091,7 @@ Deaths,Male,90 to 94,all causes,greatermanchester,1118.8155628182926,5137.651400
 Deaths,Male,90 to 94,alzheimer's disease and other dementias,greatermanchester,88.19602767493959,5137.651400997373
 Deaths,Male,90 to 94,bladder cancer,greatermanchester,17.76320826479176,5137.65140099737
 Deaths,Male,90 to 94,breast cancer,greatermanchester,0.20548723508442393,5137.651400997369
+Deaths,Male,90 to 94,cardiomyopathy and myocarditis,greatermanchester,5.915366439876792,5137.651400997367
 Deaths,Male,90 to 94,cardiovascular diseases,greatermanchester,390.0794595474345,5137.651400997368
 Deaths,Male,90 to 94,chronic myeloid leukemia,greatermanchester,0.3260552219538045,5137.651400997369
 Deaths,Male,90 to 94,chronic obstructive pulmonary disease,greatermanchester,96.77523880453832,5137.651400997368
@@ -998,11 +1107,13 @@ Deaths,Male,90 to 94,motor vehicle road injuries,greatermanchester,0.34505111951
 Deaths,Male,90 to 94,motorcyclist road injuries,greatermanchester,0.011527581002836884,5137.651400997369
 Deaths,Male,90 to 94,multiple myeloma,greatermanchester,3.1472289408546508,5137.651400997371
 Deaths,Male,90 to 94,neoplasms,greatermanchester,223.8879559898653,5137.6514009973625
+Deaths,Male,90 to 94,non-rheumatic valvular heart disease,greatermanchester,14.306627677344999,5137.651400997368
 Deaths,Male,90 to 94,other road injuries,greatermanchester,0.002308997365771832,5137.651400997365
 Deaths,Male,90 to 94,other transport injuries,greatermanchester,0.042147467367590515,5137.65140099737
 Deaths,Male,90 to 94,parkinson's disease,greatermanchester,17.69339422493077,5137.651400997366
 Deaths,Male,90 to 94,pedestrian road injuries,greatermanchester,0.5558398816275704,5137.651400997366
 Deaths,Male,90 to 94,prostate cancer,greatermanchester,63.77851621002591,5137.651400997362
+Deaths,Male,90 to 94,rheumatic heart disease,greatermanchester,1.3109877060302062,5137.651400997366
 Deaths,Male,90 to 94,road injuries,greatermanchester,0.9430380964661407,5137.651400997367
 Deaths,Male,90 to 94,stomach cancer,greatermanchester,11.094751172658178,5137.651400997367
 Deaths,Male,90 to 94,stroke,greatermanchester,110.40876819356144,5137.651400997371
@@ -1011,6 +1122,7 @@ Deaths,Male,95 to 99,all causes,greatermanchester,370.0411191649983,1082.8179356
 Deaths,Male,95 to 99,alzheimer's disease and other dementias,greatermanchester,33.235028514354454,1082.817935654803
 Deaths,Male,95 to 99,bladder cancer,greatermanchester,5.191386124574801,1082.8179356548014
 Deaths,Male,95 to 99,breast cancer,greatermanchester,0.05918854269590123,1082.8179356548033
+Deaths,Male,95 to 99,cardiomyopathy and myocarditis,greatermanchester,2.1385836196613113,1082.8179356548023
 Deaths,Male,95 to 99,cardiovascular diseases,greatermanchester,132.04337887586888,1082.8179356548026
 Deaths,Male,95 to 99,chronic myeloid leukemia,greatermanchester,0.08731175781549948,1082.8179356548028
 Deaths,Male,95 to 99,chronic obstructive pulmonary disease,greatermanchester,32.26262216801239,1082.8179356548023
@@ -1026,16 +1138,19 @@ Deaths,Male,95 to 99,motor vehicle road injuries,greatermanchester,0.10148123863
 Deaths,Male,95 to 99,motorcyclist road injuries,greatermanchester,0.005855362096326155,1082.8179356548026
 Deaths,Male,95 to 99,multiple myeloma,greatermanchester,0.8837125230156955,1082.8179356548028
 Deaths,Male,95 to 99,neoplasms,greatermanchester,61.572011444575374,1082.8179356548021
+Deaths,Male,95 to 99,non-rheumatic valvular heart disease,greatermanchester,4.640880821672899,1082.817935654803
 Deaths,Male,95 to 99,other road injuries,greatermanchester,0.0013296054284951293,1082.8179356548028
 Deaths,Male,95 to 99,other transport injuries,greatermanchester,0.01403776391655971,1082.8179356548023
 Deaths,Male,95 to 99,parkinson's disease,greatermanchester,3.515636594276807,1082.8179356548028
 Deaths,Male,95 to 99,pedestrian road injuries,greatermanchester,0.17038307423405705,1082.8179356548021
 Deaths,Male,95 to 99,prostate cancer,greatermanchester,18.140209049026065,1082.8179356548023
+Deaths,Male,95 to 99,rheumatic heart disease,greatermanchester,0.40783099155109515,1082.8179356548033
 Deaths,Male,95 to 99,road injuries,greatermanchester,0.279954871756065,1082.8179356548019
 Deaths,Male,95 to 99,stomach cancer,greatermanchester,3.0631728560865406,1082.817935654803
 Deaths,Male,95 to 99,stroke,greatermanchester,38.56667677185579,1082.8179356548033
 Deaths,Male,95 to 99,"tracheal, bronchus, and lung cancer",greatermanchester,8.77377064558053,1082.8179356548023
 YLLs (Years of Life Lost),Female,0 to 5,all causes,greatermanchester,7141.415232746688,89404.8407527445
+YLLs (Years of Life Lost),Female,0 to 5,cardiomyopathy and myocarditis,greatermanchester,53.05617470222068,89404.84075274451
 YLLs (Years of Life Lost),Female,0 to 5,cardiovascular diseases,greatermanchester,111.21712280005359,89404.8407527445
 YLLs (Years of Life Lost),Female,0 to 5,chronic myeloid leukemia,greatermanchester,1.33885971493539,89404.8407527445
 YLLs (Years of Life Lost),Female,0 to 5,chronic obstructive pulmonary disease,greatermanchester,4.770493780631541,89404.84075274457
@@ -1049,9 +1164,11 @@ YLLs (Years of Life Lost),Female,0 to 5,neoplasms,greatermanchester,237.07135869
 YLLs (Years of Life Lost),Female,0 to 5,other road injuries,greatermanchester,1.475734697843373,89404.84075274452
 YLLs (Years of Life Lost),Female,0 to 5,other transport injuries,greatermanchester,2.7173728488285898,89404.8407527445
 YLLs (Years of Life Lost),Female,0 to 5,pedestrian road injuries,greatermanchester,22.828045114448532,89404.84075274457
+YLLs (Years of Life Lost),Female,0 to 5,rheumatic heart disease,greatermanchester,1.5593361646468227,89404.84075274451
 YLLs (Years of Life Lost),Female,0 to 5,road injuries,greatermanchester,45.737900342402554,89404.84075274454
 YLLs (Years of Life Lost),Female,0 to 5,stroke,greatermanchester,14.523287393619496,89404.84075274455
 YLLs (Years of Life Lost),Female,10 to 14,all causes,greatermanchester,558.6752683154157,88733.34182881405
+YLLs (Years of Life Lost),Female,10 to 14,cardiomyopathy and myocarditis,greatermanchester,7.570342794531266,88733.34182881408
 YLLs (Years of Life Lost),Female,10 to 14,cardiovascular diseases,greatermanchester,24.70581252666828,88733.3418288141
 YLLs (Years of Life Lost),Female,10 to 14,chronic myeloid leukemia,greatermanchester,0.8280381534492832,88733.34182881415
 YLLs (Years of Life Lost),Female,10 to 14,chronic obstructive pulmonary disease,greatermanchester,2.689804437054051,88733.34182881405
@@ -1066,12 +1183,14 @@ YLLs (Years of Life Lost),Female,10 to 14,neoplasms,greatermanchester,164.293195
 YLLs (Years of Life Lost),Female,10 to 14,other road injuries,greatermanchester,1.0177384218444507,88733.34182881413
 YLLs (Years of Life Lost),Female,10 to 14,other transport injuries,greatermanchester,2.454671046148167,88733.34182881402
 YLLs (Years of Life Lost),Female,10 to 14,pedestrian road injuries,greatermanchester,22.903433002142155,88733.3418288141
+YLLs (Years of Life Lost),Female,10 to 14,rheumatic heart disease,greatermanchester,0.7338769737852329,88733.34182881414
 YLLs (Years of Life Lost),Female,10 to 14,road injuries,greatermanchester,44.57603058973488,88733.34182881415
 YLLs (Years of Life Lost),Female,10 to 14,stroke,greatermanchester,7.424955860995907,88733.34182881414
 YLLs (Years of Life Lost),Female,10 to 14,"tracheal, bronchus, and lung cancer",greatermanchester,1.3256700350864126,88733.34182881415
 YLLs (Years of Life Lost),Female,15 to 19,all causes,greatermanchester,1131.497555658334,80350.9637648816
 YLLs (Years of Life Lost),Female,15 to 19,bladder cancer,greatermanchester,0.6446386851061525,80350.9637648816
 YLLs (Years of Life Lost),Female,15 to 19,breast cancer,greatermanchester,2.78528532578554,80350.96376488158
+YLLs (Years of Life Lost),Female,15 to 19,cardiomyopathy and myocarditis,greatermanchester,12.835990261558393,80350.96376488161
 YLLs (Years of Life Lost),Female,15 to 19,cardiovascular diseases,greatermanchester,65.79046966366391,80350.96376488158
 YLLs (Years of Life Lost),Female,15 to 19,chronic myeloid leukemia,greatermanchester,1.2201064765919543,80350.96376488163
 YLLs (Years of Life Lost),Female,15 to 19,chronic obstructive pulmonary disease,greatermanchester,6.744739278255552,80350.96376488156
@@ -1085,9 +1204,11 @@ YLLs (Years of Life Lost),Female,15 to 19,lower respiratory infections,greaterma
 YLLs (Years of Life Lost),Female,15 to 19,motor vehicle road injuries,greatermanchester,90.62561226962036,80350.9637648816
 YLLs (Years of Life Lost),Female,15 to 19,motorcyclist road injuries,greatermanchester,8.488966127909745,80350.96376488167
 YLLs (Years of Life Lost),Female,15 to 19,neoplasms,greatermanchester,216.47790862678784,80350.96376488164
+YLLs (Years of Life Lost),Female,15 to 19,non-rheumatic valvular heart disease,greatermanchester,3.5080297316574907,80350.96376488163
 YLLs (Years of Life Lost),Female,15 to 19,other road injuries,greatermanchester,2.7016532358675596,80350.96376488164
 YLLs (Years of Life Lost),Female,15 to 19,other transport injuries,greatermanchester,5.207680862440514,80350.96376488158
 YLLs (Years of Life Lost),Female,15 to 19,pedestrian road injuries,greatermanchester,43.864617714007025,80350.9637648816
+YLLs (Years of Life Lost),Female,15 to 19,rheumatic heart disease,greatermanchester,1.2214006218061009,80350.96376488164
 YLLs (Years of Life Lost),Female,15 to 19,road injuries,greatermanchester,151.8655825846946,80350.9637648816
 YLLs (Years of Life Lost),Female,15 to 19,stomach cancer,greatermanchester,1.0458729953474997,80350.96376488161
 YLLs (Years of Life Lost),Female,15 to 19,stroke,greatermanchester,20.329877354731615,80350.96376488158
@@ -1095,6 +1216,7 @@ YLLs (Years of Life Lost),Female,15 to 19,"tracheal, bronchus, and lung cancer",
 YLLs (Years of Life Lost),Female,20 to 24,all causes,greatermanchester,1323.8290909260281,91103.83017794818
 YLLs (Years of Life Lost),Female,20 to 24,bladder cancer,greatermanchester,0.6935501792890945,91103.83017794824
 YLLs (Years of Life Lost),Female,20 to 24,breast cancer,greatermanchester,7.8357633312554995,91103.83017794824
+YLLs (Years of Life Lost),Female,20 to 24,cardiomyopathy and myocarditis,greatermanchester,14.175976724695547,91103.83017794823
 YLLs (Years of Life Lost),Female,20 to 24,cardiovascular diseases,greatermanchester,96.54208824878107,91103.83017794823
 YLLs (Years of Life Lost),Female,20 to 24,chronic myeloid leukemia,greatermanchester,1.159766531425926,91103.83017794824
 YLLs (Years of Life Lost),Female,20 to 24,chronic obstructive pulmonary disease,greatermanchester,8.587921628064844,91103.83017794827
@@ -1110,10 +1232,12 @@ YLLs (Years of Life Lost),Female,20 to 24,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,20 to 24,motorcyclist road injuries,greatermanchester,6.90829847327937,91103.83017794826
 YLLs (Years of Life Lost),Female,20 to 24,multiple myeloma,greatermanchester,0.410050940638346,91103.83017794829
 YLLs (Years of Life Lost),Female,20 to 24,neoplasms,greatermanchester,260.21566072787607,91103.83017794833
+YLLs (Years of Life Lost),Female,20 to 24,non-rheumatic valvular heart disease,greatermanchester,4.389680136187662,91103.83017794829
 YLLs (Years of Life Lost),Female,20 to 24,other road injuries,greatermanchester,2.2270794741885434,91103.83017794827
 YLLs (Years of Life Lost),Female,20 to 24,other transport injuries,greatermanchester,4.9037329491517685,91103.8301779483
 YLLs (Years of Life Lost),Female,20 to 24,parkinson's disease,greatermanchester,0.07013665336356584,91103.8301779483
 YLLs (Years of Life Lost),Female,20 to 24,pedestrian road injuries,greatermanchester,27.32998641225563,91103.83017794833
+YLLs (Years of Life Lost),Female,20 to 24,rheumatic heart disease,greatermanchester,2.0715058955445746,91103.83017794823
 YLLs (Years of Life Lost),Female,20 to 24,road injuries,greatermanchester,125.84980863637752,91103.83017794821
 YLLs (Years of Life Lost),Female,20 to 24,stomach cancer,greatermanchester,3.058162240289371,91103.83017794821
 YLLs (Years of Life Lost),Female,20 to 24,stroke,greatermanchester,32.34120154029748,91103.83017794829
@@ -1122,6 +1246,7 @@ YLLs (Years of Life Lost),Female,20 to 24,uterine cancer,greatermanchester,0.662
 YLLs (Years of Life Lost),Female,25 to 29,all causes,greatermanchester,1748.1311145628645,106382.64346865546
 YLLs (Years of Life Lost),Female,25 to 29,bladder cancer,greatermanchester,2.232544500538717,106382.64346865538
 YLLs (Years of Life Lost),Female,25 to 29,breast cancer,greatermanchester,68.34847862457869,106382.64346865541
+YLLs (Years of Life Lost),Female,25 to 29,cardiomyopathy and myocarditis,greatermanchester,19.182565821897615,106382.64346865535
 YLLs (Years of Life Lost),Female,25 to 29,cardiovascular diseases,greatermanchester,177.08555460253658,106382.6434686554
 YLLs (Years of Life Lost),Female,25 to 29,chronic myeloid leukemia,greatermanchester,1.9327121334655342,106382.64346865535
 YLLs (Years of Life Lost),Female,25 to 29,chronic obstructive pulmonary disease,greatermanchester,12.843393400742372,106382.6434686554
@@ -1137,10 +1262,12 @@ YLLs (Years of Life Lost),Female,25 to 29,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,25 to 29,motorcyclist road injuries,greatermanchester,4.253094098031371,106382.64346865533
 YLLs (Years of Life Lost),Female,25 to 29,multiple myeloma,greatermanchester,0.7324073085076427,106382.64346865537
 YLLs (Years of Life Lost),Female,25 to 29,neoplasms,greatermanchester,464.339842489937,106382.64346865541
+YLLs (Years of Life Lost),Female,25 to 29,non-rheumatic valvular heart disease,greatermanchester,7.447859346133994,106382.64346865533
 YLLs (Years of Life Lost),Female,25 to 29,other road injuries,greatermanchester,1.6619371889175572,106382.64346865538
 YLLs (Years of Life Lost),Female,25 to 29,other transport injuries,greatermanchester,4.2908113903177245,106382.6434686554
 YLLs (Years of Life Lost),Female,25 to 29,parkinson's disease,greatermanchester,0.03727573570833338,106382.6434686553
 YLLs (Years of Life Lost),Female,25 to 29,pedestrian road injuries,greatermanchester,17.121675575441408,106382.64346865538
+YLLs (Years of Life Lost),Female,25 to 29,rheumatic heart disease,greatermanchester,3.586094946055789,106382.64346865537
 YLLs (Years of Life Lost),Female,25 to 29,road injuries,greatermanchester,82.6168801561675,106382.64346865543
 YLLs (Years of Life Lost),Female,25 to 29,stomach cancer,greatermanchester,10.957080359805309,106382.64346865546
 YLLs (Years of Life Lost),Female,25 to 29,stroke,greatermanchester,64.86975087736691,106382.6434686554
@@ -1149,6 +1276,7 @@ YLLs (Years of Life Lost),Female,25 to 29,uterine cancer,greatermanchester,2.231
 YLLs (Years of Life Lost),Female,30 to 34,all causes,greatermanchester,3021.004588254449,112720.45664779385
 YLLs (Years of Life Lost),Female,30 to 34,bladder cancer,greatermanchester,8.396992569507045,112720.45664779386
 YLLs (Years of Life Lost),Female,30 to 34,breast cancer,greatermanchester,279.0394302954173,112720.4566477939
+YLLs (Years of Life Lost),Female,30 to 34,cardiomyopathy and myocarditis,greatermanchester,25.419837489306374,112720.4566477938
 YLLs (Years of Life Lost),Female,30 to 34,cardiovascular diseases,greatermanchester,342.95371241471884,112720.4566477938
 YLLs (Years of Life Lost),Female,30 to 34,chronic myeloid leukemia,greatermanchester,2.938795462483191,112720.45664779382
 YLLs (Years of Life Lost),Female,30 to 34,chronic obstructive pulmonary disease,greatermanchester,24.544229534779777,112720.45664779382
@@ -1164,10 +1292,12 @@ YLLs (Years of Life Lost),Female,30 to 34,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,30 to 34,motorcyclist road injuries,greatermanchester,3.9968908572471973,112720.45664779385
 YLLs (Years of Life Lost),Female,30 to 34,multiple myeloma,greatermanchester,2.6278568418991948,112720.45664779382
 YLLs (Years of Life Lost),Female,30 to 34,neoplasms,greatermanchester,1011.6881365804769,112720.45664779382
+YLLs (Years of Life Lost),Female,30 to 34,non-rheumatic valvular heart disease,greatermanchester,11.515637776147695,112720.4566477939
 YLLs (Years of Life Lost),Female,30 to 34,other road injuries,greatermanchester,1.5355532119495265,112720.45664779385
 YLLs (Years of Life Lost),Female,30 to 34,other transport injuries,greatermanchester,3.8306701884516645,112720.45664779384
 YLLs (Years of Life Lost),Female,30 to 34,parkinson's disease,greatermanchester,0.12224261819089986,112720.45664779384
 YLLs (Years of Life Lost),Female,30 to 34,pedestrian road injuries,greatermanchester,16.894692996862457,112720.45664779384
+YLLs (Years of Life Lost),Female,30 to 34,rheumatic heart disease,greatermanchester,5.8366075943925315,112720.45664779376
 YLLs (Years of Life Lost),Female,30 to 34,road injuries,greatermanchester,71.73846444652384,112720.4566477939
 YLLs (Years of Life Lost),Female,30 to 34,stomach cancer,greatermanchester,30.513463377306103,112720.45664779388
 YLLs (Years of Life Lost),Female,30 to 34,stroke,greatermanchester,121.31867953252734,112720.45664779386
@@ -1176,6 +1306,7 @@ YLLs (Years of Life Lost),Female,30 to 34,uterine cancer,greatermanchester,5.812
 YLLs (Years of Life Lost),Female,35 to 39,all causes,greatermanchester,4325.896373693541,103919.7177833319
 YLLs (Years of Life Lost),Female,35 to 39,bladder cancer,greatermanchester,14.93566916237985,103919.71778333181
 YLLs (Years of Life Lost),Female,35 to 39,breast cancer,greatermanchester,508.2883341382712,103919.71778333184
+YLLs (Years of Life Lost),Female,35 to 39,cardiomyopathy and myocarditis,greatermanchester,35.06893472448827,103919.7177833319
 YLLs (Years of Life Lost),Female,35 to 39,cardiovascular diseases,greatermanchester,559.0552305348108,103919.71778333191
 YLLs (Years of Life Lost),Female,35 to 39,chronic myeloid leukemia,greatermanchester,4.072731164108883,103919.7177833319
 YLLs (Years of Life Lost),Female,35 to 39,chronic obstructive pulmonary disease,greatermanchester,42.96188495838556,103919.71778333189
@@ -1191,10 +1322,12 @@ YLLs (Years of Life Lost),Female,35 to 39,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,35 to 39,motorcyclist road injuries,greatermanchester,3.7102889318166907,103919.71778333189
 YLLs (Years of Life Lost),Female,35 to 39,multiple myeloma,greatermanchester,6.8588596656515115,103919.71778333191
 YLLs (Years of Life Lost),Female,35 to 39,neoplasms,greatermanchester,1606.0624968571728,103919.71778333193
+YLLs (Years of Life Lost),Female,35 to 39,non-rheumatic valvular heart disease,greatermanchester,13.884405803684865,103919.71778333194
 YLLs (Years of Life Lost),Female,35 to 39,other road injuries,greatermanchester,1.5822907010390088,103919.71778333196
 YLLs (Years of Life Lost),Female,35 to 39,other transport injuries,greatermanchester,3.694174503876441,103919.71778333193
 YLLs (Years of Life Lost),Female,35 to 39,parkinson's disease,greatermanchester,0.43331186033015234,103919.7177833319
 YLLs (Years of Life Lost),Female,35 to 39,pedestrian road injuries,greatermanchester,18.40898556873316,103919.71778333194
+YLLs (Years of Life Lost),Female,35 to 39,rheumatic heart disease,greatermanchester,8.767173109929502,103919.71778333194
 YLLs (Years of Life Lost),Female,35 to 39,road injuries,greatermanchester,65.05023428151138,103919.71778333189
 YLLs (Years of Life Lost),Female,35 to 39,stomach cancer,greatermanchester,48.33093965796526,103919.71778333193
 YLLs (Years of Life Lost),Female,35 to 39,stroke,greatermanchester,197.97259199847144,103919.71778333186
@@ -1204,6 +1337,7 @@ YLLs (Years of Life Lost),Female,40 to 44,all causes,greatermanchester,5099.1808
 YLLs (Years of Life Lost),Female,40 to 44,alzheimer's disease and other dementias,greatermanchester,4.6075614538465945,88519.95769876438
 YLLs (Years of Life Lost),Female,40 to 44,bladder cancer,greatermanchester,23.28501241094397,88519.95769876431
 YLLs (Years of Life Lost),Female,40 to 44,breast cancer,greatermanchester,664.5874304365723,88519.95769876434
+YLLs (Years of Life Lost),Female,40 to 44,cardiomyopathy and myocarditis,greatermanchester,36.07197097978017,88519.95769876432
 YLLs (Years of Life Lost),Female,40 to 44,cardiovascular diseases,greatermanchester,721.1373003200788,88519.95769876432
 YLLs (Years of Life Lost),Female,40 to 44,chronic myeloid leukemia,greatermanchester,3.6388414642947495,88519.95769876428
 YLLs (Years of Life Lost),Female,40 to 44,chronic obstructive pulmonary disease,greatermanchester,71.83985190497636,88519.95769876432
@@ -1219,10 +1353,12 @@ YLLs (Years of Life Lost),Female,40 to 44,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,40 to 44,motorcyclist road injuries,greatermanchester,2.948871431272692,88519.95769876431
 YLLs (Years of Life Lost),Female,40 to 44,multiple myeloma,greatermanchester,12.216606970084046,88519.9576987643
 YLLs (Years of Life Lost),Female,40 to 44,neoplasms,greatermanchester,2084.7181707665195,88519.95769876428
+YLLs (Years of Life Lost),Female,40 to 44,non-rheumatic valvular heart disease,greatermanchester,16.18134470850171,88519.95769876431
 YLLs (Years of Life Lost),Female,40 to 44,other road injuries,greatermanchester,1.2212516272319216,88519.95769876434
 YLLs (Years of Life Lost),Female,40 to 44,other transport injuries,greatermanchester,2.9762447939958068,88519.95769876438
 YLLs (Years of Life Lost),Female,40 to 44,parkinson's disease,greatermanchester,2.3907609261380673,88519.9576987643
 YLLs (Years of Life Lost),Female,40 to 44,pedestrian road injuries,greatermanchester,17.98119229490749,88519.95769876434
+YLLs (Years of Life Lost),Female,40 to 44,rheumatic heart disease,greatermanchester,13.173135551405139,88519.95769876434
 YLLs (Years of Life Lost),Female,40 to 44,road injuries,greatermanchester,56.81192310837304,88519.95769876431
 YLLs (Years of Life Lost),Female,40 to 44,stomach cancer,greatermanchester,65.1226597926923,88519.95769876435
 YLLs (Years of Life Lost),Female,40 to 44,stroke,greatermanchester,243.2388367687903,88519.95769876434
@@ -1232,6 +1368,7 @@ YLLs (Years of Life Lost),Female,45 to 49,all causes,greatermanchester,7287.1871
 YLLs (Years of Life Lost),Female,45 to 49,alzheimer's disease and other dementias,greatermanchester,27.269592394271797,95591.57928522881
 YLLs (Years of Life Lost),Female,45 to 49,bladder cancer,greatermanchester,37.4455189541583,95591.57928522879
 YLLs (Years of Life Lost),Female,45 to 49,breast cancer,greatermanchester,964.6316009209603,95591.57928522884
+YLLs (Years of Life Lost),Female,45 to 49,cardiomyopathy and myocarditis,greatermanchester,44.45568486739467,95591.57928522874
 YLLs (Years of Life Lost),Female,45 to 49,cardiovascular diseases,greatermanchester,1089.6764198822266,95591.57928522886
 YLLs (Years of Life Lost),Female,45 to 49,chronic myeloid leukemia,greatermanchester,4.6482621936255315,95591.57928522884
 YLLs (Years of Life Lost),Female,45 to 49,chronic obstructive pulmonary disease,greatermanchester,151.70517114460768,95591.57928522877
@@ -1247,16 +1384,19 @@ YLLs (Years of Life Lost),Female,45 to 49,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,45 to 49,motorcyclist road injuries,greatermanchester,3.023804305007468,95591.57928522881
 YLLs (Years of Life Lost),Female,45 to 49,multiple myeloma,greatermanchester,25.091402417030086,95591.57928522881
 YLLs (Years of Life Lost),Female,45 to 49,neoplasms,greatermanchester,3267.6361867901715,95591.57928522877
+YLLs (Years of Life Lost),Female,45 to 49,non-rheumatic valvular heart disease,greatermanchester,22.006862471046926,95591.57928522877
 YLLs (Years of Life Lost),Female,45 to 49,other road injuries,greatermanchester,1.5231125438777942,95591.57928522883
 YLLs (Years of Life Lost),Female,45 to 49,other transport injuries,greatermanchester,2.9335666840391177,95591.57928522879
 YLLs (Years of Life Lost),Female,45 to 49,parkinson's disease,greatermanchester,7.111700460045484,95591.5792852288
 YLLs (Years of Life Lost),Female,45 to 49,pedestrian road injuries,greatermanchester,20.644242448207557,95591.57928522883
+YLLs (Years of Life Lost),Female,45 to 49,rheumatic heart disease,greatermanchester,18.847868494838885,95591.57928522879
 YLLs (Years of Life Lost),Female,45 to 49,road injuries,greatermanchester,61.57320489899953,95591.5792852288
 YLLs (Years of Life Lost),Female,45 to 49,stomach cancer,greatermanchester,93.10175606446171,95591.57928522884
 YLLs (Years of Life Lost),Female,45 to 49,stroke,greatermanchester,341.5788145473561,95591.57928522887
 YLLs (Years of Life Lost),Female,45 to 49,"tracheal, bronchus, and lung cancer",greatermanchester,489.1177473232691,95591.5792852288
 YLLs (Years of Life Lost),Female,45 to 49,uterine cancer,greatermanchester,37.51530762822529,95591.5792852288
 YLLs (Years of Life Lost),Female,5 to 9,all causes,greatermanchester,554.0361289818967,91063.29128827971
+YLLs (Years of Life Lost),Female,5 to 9,cardiomyopathy and myocarditis,greatermanchester,7.106592711180408,91063.2912882797
 YLLs (Years of Life Lost),Female,5 to 9,cardiovascular diseases,greatermanchester,22.137057869423927,91063.29128827975
 YLLs (Years of Life Lost),Female,5 to 9,chronic myeloid leukemia,greatermanchester,0.912733014293954,91063.29128827977
 YLLs (Years of Life Lost),Female,5 to 9,chronic obstructive pulmonary disease,greatermanchester,2.7746237401079785,91063.2912882797
@@ -1271,12 +1411,14 @@ YLLs (Years of Life Lost),Female,5 to 9,neoplasms,greatermanchester,172.24142824
 YLLs (Years of Life Lost),Female,5 to 9,other road injuries,greatermanchester,0.8431704165229837,91063.29128827972
 YLLs (Years of Life Lost),Female,5 to 9,other transport injuries,greatermanchester,1.8752315316127077,91063.29128827977
 YLLs (Years of Life Lost),Female,5 to 9,pedestrian road injuries,greatermanchester,20.451138262332154,91063.29128827977
+YLLs (Years of Life Lost),Female,5 to 9,rheumatic heart disease,greatermanchester,0.8224330829169054,91063.29128827975
 YLLs (Years of Life Lost),Female,5 to 9,road injuries,greatermanchester,38.3171798530381,91063.29128827971
 YLLs (Years of Life Lost),Female,5 to 9,stroke,greatermanchester,5.525239677885326,91063.29128827972
 YLLs (Years of Life Lost),Female,50 to 54,all causes,greatermanchester,10452.655631848644,97966.73494893828
 YLLs (Years of Life Lost),Female,50 to 54,alzheimer's disease and other dementias,greatermanchester,50.36399724493657,97966.73494893825
 YLLs (Years of Life Lost),Female,50 to 54,bladder cancer,greatermanchester,61.2648427051033,97966.7349489382
 YLLs (Years of Life Lost),Female,50 to 54,breast cancer,greatermanchester,1332.1040346407872,97966.73494893829
+YLLs (Years of Life Lost),Female,50 to 54,cardiomyopathy and myocarditis,greatermanchester,48.0169812709474,97966.73494893833
 YLLs (Years of Life Lost),Female,50 to 54,cardiovascular diseases,greatermanchester,1664.5411831833494,97966.73494893828
 YLLs (Years of Life Lost),Female,50 to 54,chronic myeloid leukemia,greatermanchester,4.231127507704973,97966.73494893828
 YLLs (Years of Life Lost),Female,50 to 54,chronic obstructive pulmonary disease,greatermanchester,414.550306944892,97966.73494893832
@@ -1292,10 +1434,12 @@ YLLs (Years of Life Lost),Female,50 to 54,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,50 to 54,motorcyclist road injuries,greatermanchester,2.3145635478089983,97966.73494893833
 YLLs (Years of Life Lost),Female,50 to 54,multiple myeloma,greatermanchester,53.86602836829161,97966.73494893828
 YLLs (Years of Life Lost),Female,50 to 54,neoplasms,greatermanchester,5306.11416725618,97966.73494893835
+YLLs (Years of Life Lost),Female,50 to 54,non-rheumatic valvular heart disease,greatermanchester,32.541632654393446,97966.73494893828
 YLLs (Years of Life Lost),Female,50 to 54,other road injuries,greatermanchester,1.3673978704312433,97966.73494893833
 YLLs (Years of Life Lost),Female,50 to 54,other transport injuries,greatermanchester,2.6389686140281614,97966.73494893828
 YLLs (Years of Life Lost),Female,50 to 54,parkinson's disease,greatermanchester,15.722269127261978,97966.73494893833
 YLLs (Years of Life Lost),Female,50 to 54,pedestrian road injuries,greatermanchester,17.985716532393116,97966.73494893819
+YLLs (Years of Life Lost),Female,50 to 54,rheumatic heart disease,greatermanchester,26.97660913323645,97966.73494893822
 YLLs (Years of Life Lost),Female,50 to 54,road injuries,greatermanchester,51.92226535277321,97966.73494893828
 YLLs (Years of Life Lost),Female,50 to 54,stomach cancer,greatermanchester,132.86703155752411,97966.7349489383
 YLLs (Years of Life Lost),Female,50 to 54,stroke,greatermanchester,496.0850930782607,97966.73494893832
@@ -1305,6 +1449,7 @@ YLLs (Years of Life Lost),Female,55 to 59,all causes,greatermanchester,12790.698
 YLLs (Years of Life Lost),Female,55 to 59,alzheimer's disease and other dementias,greatermanchester,83.3625936038624,88246.3970349944
 YLLs (Years of Life Lost),Female,55 to 59,bladder cancer,greatermanchester,85.0611842786176,88246.3970349944
 YLLs (Years of Life Lost),Female,55 to 59,breast cancer,greatermanchester,1429.1109208410383,88246.39703499436
+YLLs (Years of Life Lost),Female,55 to 59,cardiomyopathy and myocarditis,greatermanchester,56.22411070707531,88246.39703499441
 YLLs (Years of Life Lost),Female,55 to 59,cardiovascular diseases,greatermanchester,2162.3625430053885,88246.39703499447
 YLLs (Years of Life Lost),Female,55 to 59,chronic myeloid leukemia,greatermanchester,4.873617080287049,88246.39703499436
 YLLs (Years of Life Lost),Female,55 to 59,chronic obstructive pulmonary disease,greatermanchester,699.1542364475544,88246.3970349944
@@ -1320,10 +1465,12 @@ YLLs (Years of Life Lost),Female,55 to 59,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,55 to 59,motorcyclist road injuries,greatermanchester,1.8301699956624813,88246.39703499437
 YLLs (Years of Life Lost),Female,55 to 59,multiple myeloma,greatermanchester,78.06155419850549,88246.39703499438
 YLLs (Years of Life Lost),Female,55 to 59,neoplasms,greatermanchester,6647.903148588322,88246.39703499438
+YLLs (Years of Life Lost),Female,55 to 59,non-rheumatic valvular heart disease,greatermanchester,43.75629948767208,88246.39703499444
 YLLs (Years of Life Lost),Female,55 to 59,other road injuries,greatermanchester,1.2233415957377822,88246.39703499443
 YLLs (Years of Life Lost),Female,55 to 59,other transport injuries,greatermanchester,2.215218477367591,88246.39703499441
 YLLs (Years of Life Lost),Female,55 to 59,parkinson's disease,greatermanchester,25.511946419156367,88246.39703499441
 YLLs (Years of Life Lost),Female,55 to 59,pedestrian road injuries,greatermanchester,16.35806499519363,88246.39703499447
+YLLs (Years of Life Lost),Female,55 to 59,rheumatic heart disease,greatermanchester,33.254360302499464,88246.39703499441
 YLLs (Years of Life Lost),Female,55 to 59,road injuries,greatermanchester,43.89581742136148,88246.3970349945
 YLLs (Years of Life Lost),Female,55 to 59,stomach cancer,greatermanchester,165.36635571512295,88246.39703499443
 YLLs (Years of Life Lost),Female,55 to 59,stroke,greatermanchester,587.3256645889057,88246.39703499444
@@ -1333,6 +1480,7 @@ YLLs (Years of Life Lost),Female,60 to 64,all causes,greatermanchester,14348.916
 YLLs (Years of Life Lost),Female,60 to 64,alzheimer's disease and other dementias,greatermanchester,133.92475078745545,71356.57221638062
 YLLs (Years of Life Lost),Female,60 to 64,bladder cancer,greatermanchester,108.26079943304997,71356.57221638062
 YLLs (Years of Life Lost),Female,60 to 64,breast cancer,greatermanchester,1184.8553847318012,71356.57221638058
+YLLs (Years of Life Lost),Female,60 to 64,cardiomyopathy and myocarditis,greatermanchester,54.40696171190102,71356.57221638056
 YLLs (Years of Life Lost),Female,60 to 64,cardiovascular diseases,greatermanchester,2670.7137835754747,71356.5722163806
 YLLs (Years of Life Lost),Female,60 to 64,chronic myeloid leukemia,greatermanchester,5.217455797379339,71356.57221638056
 YLLs (Years of Life Lost),Female,60 to 64,chronic obstructive pulmonary disease,greatermanchester,1177.5988455173317,71356.57221638056
@@ -1348,10 +1496,12 @@ YLLs (Years of Life Lost),Female,60 to 64,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,60 to 64,motorcyclist road injuries,greatermanchester,0.8752354611811308,71356.57221638053
 YLLs (Years of Life Lost),Female,60 to 64,multiple myeloma,greatermanchester,108.55336932259351,71356.57221638059
 YLLs (Years of Life Lost),Female,60 to 64,neoplasms,greatermanchester,7389.93092085546,71356.57221638053
+YLLs (Years of Life Lost),Female,60 to 64,non-rheumatic valvular heart disease,greatermanchester,62.286057585140114,71356.57221638062
 YLLs (Years of Life Lost),Female,60 to 64,other road injuries,greatermanchester,0.5720530889233851,71356.57221638059
 YLLs (Years of Life Lost),Female,60 to 64,other transport injuries,greatermanchester,1.6512519252218623,71356.57221638059
 YLLs (Years of Life Lost),Female,60 to 64,parkinson's disease,greatermanchester,46.37154847578629,71356.5722163806
 YLLs (Years of Life Lost),Female,60 to 64,pedestrian road injuries,greatermanchester,15.676092883387907,71356.57221638058
+YLLs (Years of Life Lost),Female,60 to 64,rheumatic heart disease,greatermanchester,37.30235184995638,71356.5722163806
 YLLs (Years of Life Lost),Female,60 to 64,road injuries,greatermanchester,34.225629196680636,71356.57221638062
 YLLs (Years of Life Lost),Female,60 to 64,stomach cancer,greatermanchester,187.86937989736532,71356.57221638055
 YLLs (Years of Life Lost),Female,60 to 64,stroke,greatermanchester,639.0771789409011,71356.57221638058
@@ -1361,6 +1511,7 @@ YLLs (Years of Life Lost),Female,65 to 69,all causes,greatermanchester,16546.908
 YLLs (Years of Life Lost),Female,65 to 69,alzheimer's disease and other dementias,greatermanchester,243.02916174576026,63613.78378549853
 YLLs (Years of Life Lost),Female,65 to 69,bladder cancer,greatermanchester,144.79661142516392,63613.78378549851
 YLLs (Years of Life Lost),Female,65 to 69,breast cancer,greatermanchester,1080.217208099398,63613.78378549856
+YLLs (Years of Life Lost),Female,65 to 69,cardiomyopathy and myocarditis,greatermanchester,50.317427584281575,63613.783785498556
 YLLs (Years of Life Lost),Female,65 to 69,cardiovascular diseases,greatermanchester,3403.6836430686185,63613.78378549852
 YLLs (Years of Life Lost),Female,65 to 69,chronic myeloid leukemia,greatermanchester,5.869500924845679,63613.78378549858
 YLLs (Years of Life Lost),Female,65 to 69,chronic obstructive pulmonary disease,greatermanchester,1633.2363848888506,63613.78378549858
@@ -1376,10 +1527,12 @@ YLLs (Years of Life Lost),Female,65 to 69,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,65 to 69,motorcyclist road injuries,greatermanchester,0.6975400642296835,63613.78378549856
 YLLs (Years of Life Lost),Female,65 to 69,multiple myeloma,greatermanchester,141.5861211239272,63613.783785498585
 YLLs (Years of Life Lost),Female,65 to 69,neoplasms,greatermanchester,8166.3209153027765,63613.78378549853
+YLLs (Years of Life Lost),Female,65 to 69,non-rheumatic valvular heart disease,greatermanchester,87.96710960714768,63613.78378549854
 YLLs (Years of Life Lost),Female,65 to 69,other road injuries,greatermanchester,0.3824204404568406,63613.7837854986
 YLLs (Years of Life Lost),Female,65 to 69,other transport injuries,greatermanchester,1.44968965561163,63613.78378549852
 YLLs (Years of Life Lost),Female,65 to 69,parkinson's disease,greatermanchester,90.36717526032218,63613.78378549855
 YLLs (Years of Life Lost),Female,65 to 69,pedestrian road injuries,greatermanchester,16.156630246939745,63613.78378549854
+YLLs (Years of Life Lost),Female,65 to 69,rheumatic heart disease,greatermanchester,50.81187582347906,63613.78378549856
 YLLs (Years of Life Lost),Female,65 to 69,road injuries,greatermanchester,33.468921507260205,63613.78378549853
 YLLs (Years of Life Lost),Female,65 to 69,stomach cancer,greatermanchester,209.66345267636657,63613.783785498556
 YLLs (Years of Life Lost),Female,65 to 69,stroke,greatermanchester,804.7789750506923,63613.78378549854
@@ -1389,6 +1542,7 @@ YLLs (Years of Life Lost),Female,70 to 74,all causes,greatermanchester,22765.718
 YLLs (Years of Life Lost),Female,70 to 74,alzheimer's disease and other dementias,greatermanchester,490.4812202118905,63435.90961574514
 YLLs (Years of Life Lost),Female,70 to 74,bladder cancer,greatermanchester,208.22209754935906,63435.90961574511
 YLLs (Years of Life Lost),Female,70 to 74,breast cancer,greatermanchester,1164.152883702881,63435.90961574516
+YLLs (Years of Life Lost),Female,70 to 74,cardiomyopathy and myocarditis,greatermanchester,67.3661544105048,63435.90961574511
 YLLs (Years of Life Lost),Female,70 to 74,cardiovascular diseases,greatermanchester,5649.112897742993,63435.909615745135
 YLLs (Years of Life Lost),Female,70 to 74,chronic myeloid leukemia,greatermanchester,7.644359264417994,63435.909615745106
 YLLs (Years of Life Lost),Female,70 to 74,chronic obstructive pulmonary disease,greatermanchester,2462.307900432962,63435.90961574515
@@ -1404,10 +1558,12 @@ YLLs (Years of Life Lost),Female,70 to 74,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,70 to 74,motorcyclist road injuries,greatermanchester,0.3341758752257305,63435.90961574509
 YLLs (Years of Life Lost),Female,70 to 74,multiple myeloma,greatermanchester,185.73312695648337,63435.909615745135
 YLLs (Years of Life Lost),Female,70 to 74,neoplasms,greatermanchester,9802.074613517692,63435.90961574512
+YLLs (Years of Life Lost),Female,70 to 74,non-rheumatic valvular heart disease,greatermanchester,162.8621661535355,63435.9096157451
 YLLs (Years of Life Lost),Female,70 to 74,other road injuries,greatermanchester,0.21027498382122195,63435.90961574515
 YLLs (Years of Life Lost),Female,70 to 74,other transport injuries,greatermanchester,1.0826689569743815,63435.90961574516
 YLLs (Years of Life Lost),Female,70 to 74,parkinson's disease,greatermanchester,209.4880544705649,63435.90961574513
 YLLs (Years of Life Lost),Female,70 to 74,pedestrian road injuries,greatermanchester,20.506183040243876,63435.90961574516
+YLLs (Years of Life Lost),Female,70 to 74,rheumatic heart disease,greatermanchester,76.03722572025639,63435.909615745164
 YLLs (Years of Life Lost),Female,70 to 74,road injuries,greatermanchester,37.938809511613265,63435.909615745164
 YLLs (Years of Life Lost),Female,70 to 74,stomach cancer,greatermanchester,299.19671144650886,63435.90961574516
 YLLs (Years of Life Lost),Female,70 to 74,stroke,greatermanchester,1445.3652379110756,63435.90961574513
@@ -1417,6 +1573,7 @@ YLLs (Years of Life Lost),Female,75 to 79,all causes,greatermanchester,21682.592
 YLLs (Years of Life Lost),Female,75 to 79,alzheimer's disease and other dementias,greatermanchester,723.3256740886816,45230.62343880891
 YLLs (Years of Life Lost),Female,75 to 79,bladder cancer,greatermanchester,211.23576552805343,45230.62343880889
 YLLs (Years of Life Lost),Female,75 to 79,breast cancer,greatermanchester,912.7745916366614,45230.623438808914
+YLLs (Years of Life Lost),Female,75 to 79,cardiomyopathy and myocarditis,greatermanchester,63.53495118107398,45230.623438808885
 YLLs (Years of Life Lost),Female,75 to 79,cardiovascular diseases,greatermanchester,6159.056742769407,45230.62343880891
 YLLs (Years of Life Lost),Female,75 to 79,chronic myeloid leukemia,greatermanchester,7.588145267572811,45230.62343880887
 YLLs (Years of Life Lost),Female,75 to 79,chronic obstructive pulmonary disease,greatermanchester,2420.4837113652943,45230.62343880892
@@ -1432,10 +1589,12 @@ YLLs (Years of Life Lost),Female,75 to 79,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,75 to 79,motorcyclist road injuries,greatermanchester,0.1226714403629493,45230.62343880887
 YLLs (Years of Life Lost),Female,75 to 79,multiple myeloma,greatermanchester,156.32976606051548,45230.62343880891
 YLLs (Years of Life Lost),Female,75 to 79,neoplasms,greatermanchester,7641.437478362014,45230.62343880891
+YLLs (Years of Life Lost),Female,75 to 79,non-rheumatic valvular heart disease,greatermanchester,193.78727612241713,45230.62343880889
 YLLs (Years of Life Lost),Female,75 to 79,other road injuries,greatermanchester,0.13423235012815388,45230.62343880888
 YLLs (Years of Life Lost),Female,75 to 79,other transport injuries,greatermanchester,0.9279625631564528,45230.6234388089
 YLLs (Years of Life Lost),Female,75 to 79,parkinson's disease,greatermanchester,278.3838734904303,45230.62343880889
 YLLs (Years of Life Lost),Female,75 to 79,pedestrian road injuries,greatermanchester,21.000105123572265,45230.62343880888
+YLLs (Years of Life Lost),Female,75 to 79,rheumatic heart disease,greatermanchester,81.82331849126523,45230.623438808885
 YLLs (Years of Life Lost),Female,75 to 79,road injuries,greatermanchester,34.488160226256284,45230.62343880892
 YLLs (Years of Life Lost),Female,75 to 79,stomach cancer,greatermanchester,293.3499880606092,45230.62343880889
 YLLs (Years of Life Lost),Female,75 to 79,stroke,greatermanchester,1712.4536413432043,45230.6234388089
@@ -1445,6 +1604,7 @@ YLLs (Years of Life Lost),Female,80 to 84,all causes,greatermanchester,22524.024
 YLLs (Years of Life Lost),Female,80 to 84,alzheimer's disease and other dementias,greatermanchester,1473.9970107992224,34353.07439295291
 YLLs (Years of Life Lost),Female,80 to 84,bladder cancer,greatermanchester,203.48961961163639,34353.07439295291
 YLLs (Years of Life Lost),Female,80 to 84,breast cancer,greatermanchester,741.4300733311528,34353.074392952905
+YLLs (Years of Life Lost),Female,80 to 84,cardiomyopathy and myocarditis,greatermanchester,82.21875364963553,34353.074392952905
 YLLs (Years of Life Lost),Female,80 to 84,cardiovascular diseases,greatermanchester,7321.968812285473,34353.07439295293
 YLLs (Years of Life Lost),Female,80 to 84,chronic myeloid leukemia,greatermanchester,7.243526121498403,34353.07439295292
 YLLs (Years of Life Lost),Female,80 to 84,chronic obstructive pulmonary disease,greatermanchester,2191.261377160276,34353.07439295288
@@ -1460,10 +1620,12 @@ YLLs (Years of Life Lost),Female,80 to 84,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,80 to 84,motorcyclist road injuries,greatermanchester,0.06316764407838021,34353.07439295293
 YLLs (Years of Life Lost),Female,80 to 84,multiple myeloma,greatermanchester,126.48105599811399,34353.07439295291
 YLLs (Years of Life Lost),Female,80 to 84,neoplasms,greatermanchester,5988.594969871241,34353.07439295289
+YLLs (Years of Life Lost),Female,80 to 84,non-rheumatic valvular heart disease,greatermanchester,257.3247117658684,34353.07439295292
 YLLs (Years of Life Lost),Female,80 to 84,other road injuries,greatermanchester,0.08810037308903813,34353.074392952905
 YLLs (Years of Life Lost),Female,80 to 84,other transport injuries,greatermanchester,0.467104708006775,34353.074392952905
 YLLs (Years of Life Lost),Female,80 to 84,parkinson's disease,greatermanchester,307.18602560781187,34353.07439295291
 YLLs (Years of Life Lost),Female,80 to 84,pedestrian road injuries,greatermanchester,15.981043188092576,34353.07439295293
+YLLs (Years of Life Lost),Female,80 to 84,rheumatic heart disease,greatermanchester,78.22723835378083,34353.074392952905
 YLLs (Years of Life Lost),Female,80 to 84,road injuries,greatermanchester,25.71129224535138,34353.07439295292
 YLLs (Years of Life Lost),Female,80 to 84,stomach cancer,greatermanchester,271.26378385438835,34353.074392952905
 YLLs (Years of Life Lost),Female,80 to 84,stroke,greatermanchester,2216.585466869984,34353.07439295289
@@ -1473,6 +1635,7 @@ YLLs (Years of Life Lost),Female,85 to 89,all causes,greatermanchester,18796.290
 YLLs (Years of Life Lost),Female,85 to 89,alzheimer's disease and other dementias,greatermanchester,1718.1950900606203,20808.830298087014
 YLLs (Years of Life Lost),Female,85 to 89,bladder cancer,greatermanchester,154.7945145429714,20808.830298086996
 YLLs (Years of Life Lost),Female,85 to 89,breast cancer,greatermanchester,538.9383637348215,20808.830298087014
+YLLs (Years of Life Lost),Female,85 to 89,cardiomyopathy and myocarditis,greatermanchester,89.56242653654596,20808.830298086996
 YLLs (Years of Life Lost),Female,85 to 89,cardiovascular diseases,greatermanchester,6638.510212553021,20808.830298087018
 YLLs (Years of Life Lost),Female,85 to 89,chronic myeloid leukemia,greatermanchester,6.571816692782229,20808.830298086996
 YLLs (Years of Life Lost),Female,85 to 89,chronic obstructive pulmonary disease,greatermanchester,1505.8579190085798,20808.830298087007
@@ -1488,10 +1651,12 @@ YLLs (Years of Life Lost),Female,85 to 89,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,85 to 89,motorcyclist road injuries,greatermanchester,0.03678297491607095,20808.830298087003
 YLLs (Years of Life Lost),Female,85 to 89,multiple myeloma,greatermanchester,74.3696019050397,20808.830298087007
 YLLs (Years of Life Lost),Female,85 to 89,neoplasms,greatermanchester,3770.7318236739875,20808.83029808699
+YLLs (Years of Life Lost),Female,85 to 89,non-rheumatic valvular heart disease,greatermanchester,256.60918930166764,20808.830298087003
 YLLs (Years of Life Lost),Female,85 to 89,other road injuries,greatermanchester,0.06222294143196921,20808.830298086996
 YLLs (Years of Life Lost),Female,85 to 89,other transport injuries,greatermanchester,0.263549623628324,20808.830298087003
 YLLs (Years of Life Lost),Female,85 to 89,parkinson's disease,greatermanchester,210.78879824261276,20808.830298087014
 YLLs (Years of Life Lost),Female,85 to 89,pedestrian road injuries,greatermanchester,10.05220977445838,20808.830298087007
+YLLs (Years of Life Lost),Female,85 to 89,rheumatic heart disease,greatermanchester,61.21829326187001,20808.830298086985
 YLLs (Years of Life Lost),Female,85 to 89,road injuries,greatermanchester,15.180236558340276,20808.830298086996
 YLLs (Years of Life Lost),Female,85 to 89,stomach cancer,greatermanchester,195.77399298581125,20808.830298087003
 YLLs (Years of Life Lost),Female,85 to 89,stroke,greatermanchester,2070.30828188838,20808.830298087003
@@ -1501,6 +1666,7 @@ YLLs (Years of Life Lost),Female,90 to 94,all causes,greatermanchester,12279.083
 YLLs (Years of Life Lost),Female,90 to 94,alzheimer's disease and other dementias,greatermanchester,1335.5586504932244,9796.616352221745
 YLLs (Years of Life Lost),Female,90 to 94,bladder cancer,greatermanchester,84.63572518877743,9796.616352221743
 YLLs (Years of Life Lost),Female,90 to 94,breast cancer,greatermanchester,289.5498696571494,9796.616352221748
+YLLs (Years of Life Lost),Female,90 to 94,cardiomyopathy and myocarditis,greatermanchester,70.12730844469561,9796.616352221743
 YLLs (Years of Life Lost),Female,90 to 94,cardiovascular diseases,greatermanchester,4643.466210895454,9796.616352221738
 YLLs (Years of Life Lost),Female,90 to 94,chronic myeloid leukemia,greatermanchester,3.2383127027473195,9796.616352221747
 YLLs (Years of Life Lost),Female,90 to 94,chronic obstructive pulmonary disease,greatermanchester,839.3086249097028,9796.616352221741
@@ -1516,10 +1682,12 @@ YLLs (Years of Life Lost),Female,90 to 94,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,90 to 94,motorcyclist road injuries,greatermanchester,0.05983888215442369,9796.616352221747
 YLLs (Years of Life Lost),Female,90 to 94,multiple myeloma,greatermanchester,29.00654115281767,9796.616352221743
 YLLs (Years of Life Lost),Female,90 to 94,neoplasms,greatermanchester,1745.2128397598026,9796.616352221748
+YLLs (Years of Life Lost),Female,90 to 94,non-rheumatic valvular heart disease,greatermanchester,191.14131026422064,9796.616352221738
 YLLs (Years of Life Lost),Female,90 to 94,other road injuries,greatermanchester,0.04491266868422574,9796.616352221741
 YLLs (Years of Life Lost),Female,90 to 94,other transport injuries,greatermanchester,0.17777490013091252,9796.616352221743
 YLLs (Years of Life Lost),Female,90 to 94,parkinson's disease,greatermanchester,93.81756954894547,9796.616352221738
 YLLs (Years of Life Lost),Female,90 to 94,pedestrian road injuries,greatermanchester,4.004653319532597,9796.616352221747
+YLLs (Years of Life Lost),Female,90 to 94,rheumatic heart disease,greatermanchester,34.21373790037989,9796.61635222174
 YLLs (Years of Life Lost),Female,90 to 94,road injuries,greatermanchester,6.019479011949012,9796.616352221745
 YLLs (Years of Life Lost),Female,90 to 94,stomach cancer,greatermanchester,96.7626564929149,9796.616352221747
 YLLs (Years of Life Lost),Female,90 to 94,stroke,greatermanchester,1467.2123158289337,9796.616352221743
@@ -1529,6 +1697,7 @@ YLLs (Years of Life Lost),Female,95 to 99,all causes,greatermanchester,4926.0897
 YLLs (Years of Life Lost),Female,95 to 99,alzheimer's disease and other dementias,greatermanchester,565.8590776801591,2975.60241978476
 YLLs (Years of Life Lost),Female,95 to 99,bladder cancer,greatermanchester,29.56432553770074,2975.602419784762
 YLLs (Years of Life Lost),Female,95 to 99,breast cancer,greatermanchester,102.84619422481607,2975.6024197847605
+YLLs (Years of Life Lost),Female,95 to 99,cardiomyopathy and myocarditis,greatermanchester,32.179795540427335,2975.602419784763
 YLLs (Years of Life Lost),Female,95 to 99,cardiovascular diseases,greatermanchester,1919.1112684524705,2975.6024197847623
 YLLs (Years of Life Lost),Female,95 to 99,chronic myeloid leukemia,greatermanchester,1.0215102044176045,2975.60241978476
 YLLs (Years of Life Lost),Female,95 to 99,chronic obstructive pulmonary disease,greatermanchester,332.9077810325226,2975.6024197847623
@@ -1544,16 +1713,19 @@ YLLs (Years of Life Lost),Female,95 to 99,motor vehicle road injuries,greaterman
 YLLs (Years of Life Lost),Female,95 to 99,motorcyclist road injuries,greatermanchester,0.03860403294263848,2975.602419784764
 YLLs (Years of Life Lost),Female,95 to 99,multiple myeloma,greatermanchester,6.810515774350632,2975.6024197847614
 YLLs (Years of Life Lost),Female,95 to 99,neoplasms,greatermanchester,574.0477862132366,2975.602419784763
+YLLs (Years of Life Lost),Female,95 to 99,non-rheumatic valvular heart disease,greatermanchester,76.71043960394292,2975.602419784764
 YLLs (Years of Life Lost),Female,95 to 99,other road injuries,greatermanchester,0.019922774998898718,2975.6024197847637
 YLLs (Years of Life Lost),Female,95 to 99,other transport injuries,greatermanchester,0.107546323493473,2975.602419784763
 YLLs (Years of Life Lost),Female,95 to 99,parkinson's disease,greatermanchester,24.02913482943613,2975.6024197847605
 YLLs (Years of Life Lost),Female,95 to 99,pedestrian road injuries,greatermanchester,1.3046321216830785,2975.602419784763
+YLLs (Years of Life Lost),Female,95 to 99,rheumatic heart disease,greatermanchester,12.466858230189281,2975.602419784762
 YLLs (Years of Life Lost),Female,95 to 99,road injuries,greatermanchester,2.0036489627349363,2975.6024197847637
 YLLs (Years of Life Lost),Female,95 to 99,stomach cancer,greatermanchester,32.926396106890756,2975.6024197847632
 YLLs (Years of Life Lost),Female,95 to 99,stroke,greatermanchester,625.5584396488298,2975.602419784764
 YLLs (Years of Life Lost),Female,95 to 99,"tracheal, bronchus, and lung cancer",greatermanchester,90.51618783898142,2975.602419784763
 YLLs (Years of Life Lost),Female,95 to 99,uterine cancer,greatermanchester,9.084369983741464,2975.6024197847614
 YLLs (Years of Life Lost),Male,0 to 5,all causes,greatermanchester,9371.32051318063,93977.54381837847
+YLLs (Years of Life Lost),Male,0 to 5,cardiomyopathy and myocarditis,greatermanchester,57.939697633687565,93977.54381837852
 YLLs (Years of Life Lost),Male,0 to 5,cardiovascular diseases,greatermanchester,118.57984581992476,93977.54381837844
 YLLs (Years of Life Lost),Male,0 to 5,chronic myeloid leukemia,greatermanchester,1.8202856580642914,93977.5438183784
 YLLs (Years of Life Lost),Male,0 to 5,chronic obstructive pulmonary disease,greatermanchester,2.5955844214062584,93977.54381837849
@@ -1567,9 +1739,11 @@ YLLs (Years of Life Lost),Male,0 to 5,neoplasms,greatermanchester,248.0338869544
 YLLs (Years of Life Lost),Male,0 to 5,other road injuries,greatermanchester,1.4358478653621576,93977.54381837843
 YLLs (Years of Life Lost),Male,0 to 5,other transport injuries,greatermanchester,4.390280833551674,93977.54381837841
 YLLs (Years of Life Lost),Male,0 to 5,pedestrian road injuries,greatermanchester,28.112109054688414,93977.54381837849
+YLLs (Years of Life Lost),Male,0 to 5,rheumatic heart disease,greatermanchester,1.2655512547919021,93977.54381837849
 YLLs (Years of Life Lost),Male,0 to 5,road injuries,greatermanchester,49.30677590279097,93977.54381837841
 YLLs (Years of Life Lost),Male,0 to 5,stroke,greatermanchester,16.457997621984806,93977.54381837846
 YLLs (Years of Life Lost),Male,10 to 14,all causes,greatermanchester,939.6872968744937,93318.99076088626
+YLLs (Years of Life Lost),Male,10 to 14,cardiomyopathy and myocarditis,greatermanchester,18.155311056333428,93318.99076088624
 YLLs (Years of Life Lost),Male,10 to 14,cardiovascular diseases,greatermanchester,44.17365859952233,93318.99076088624
 YLLs (Years of Life Lost),Male,10 to 14,chronic myeloid leukemia,greatermanchester,1.0957437046677172,93318.99076088627
 YLLs (Years of Life Lost),Male,10 to 14,chronic obstructive pulmonary disease,greatermanchester,2.120799612970523,93318.99076088628
@@ -1584,12 +1758,14 @@ YLLs (Years of Life Lost),Male,10 to 14,neoplasms,greatermanchester,233.45872973
 YLLs (Years of Life Lost),Male,10 to 14,other road injuries,greatermanchester,1.1574166611562104,93318.9907608862
 YLLs (Years of Life Lost),Male,10 to 14,other transport injuries,greatermanchester,7.7140543289442,93318.99076088627
 YLLs (Years of Life Lost),Male,10 to 14,pedestrian road injuries,greatermanchester,52.12605843150005,93318.99076088624
+YLLs (Years of Life Lost),Male,10 to 14,rheumatic heart disease,greatermanchester,0.924465972055311,93318.9907608863
 YLLs (Years of Life Lost),Male,10 to 14,road injuries,greatermanchester,110.18337335484098,93318.99076088626
 YLLs (Years of Life Lost),Male,10 to 14,stroke,greatermanchester,12.504355733729138,93318.99076088631
 YLLs (Years of Life Lost),Male,10 to 14,"tracheal, bronchus, and lung cancer",greatermanchester,0.9552684083988853,93318.99076088623
 YLLs (Years of Life Lost),Male,15 to 19,all causes,greatermanchester,2159.6893193044107,84446.48946629176
 YLLs (Years of Life Lost),Male,15 to 19,bladder cancer,greatermanchester,0.7168206613106437,84446.4894662918
 YLLs (Years of Life Lost),Male,15 to 19,breast cancer,greatermanchester,0.7146414294194607,84446.4894662918
+YLLs (Years of Life Lost),Male,15 to 19,cardiomyopathy and myocarditis,greatermanchester,38.52401053630668,84446.4894662917
 YLLs (Years of Life Lost),Male,15 to 19,cardiovascular diseases,greatermanchester,105.03535038336379,84446.48946629174
 YLLs (Years of Life Lost),Male,15 to 19,chronic myeloid leukemia,greatermanchester,1.0180389073924985,84446.48946629174
 YLLs (Years of Life Lost),Male,15 to 19,chronic obstructive pulmonary disease,greatermanchester,5.470400456681069,84446.48946629168
@@ -1603,9 +1779,11 @@ YLLs (Years of Life Lost),Male,15 to 19,lower respiratory infections,greatermanc
 YLLs (Years of Life Lost),Male,15 to 19,motor vehicle road injuries,greatermanchester,274.94108442226315,84446.4894662918
 YLLs (Years of Life Lost),Male,15 to 19,motorcyclist road injuries,greatermanchester,105.33683962967764,84446.48946629169
 YLLs (Years of Life Lost),Male,15 to 19,neoplasms,greatermanchester,280.2457762416225,84446.48946629182
+YLLs (Years of Life Lost),Male,15 to 19,non-rheumatic valvular heart disease,greatermanchester,5.547123058379351,84446.48946629176
 YLLs (Years of Life Lost),Male,15 to 19,other road injuries,greatermanchester,2.523070822582999,84446.48946629174
 YLLs (Years of Life Lost),Male,15 to 19,other transport injuries,greatermanchester,20.036970866725493,84446.48946629174
 YLLs (Years of Life Lost),Male,15 to 19,pedestrian road injuries,greatermanchester,89.91384806710104,84446.48946629172
+YLLs (Years of Life Lost),Male,15 to 19,rheumatic heart disease,greatermanchester,1.0077877233923276,84446.48946629176
 YLLs (Years of Life Lost),Male,15 to 19,road injuries,greatermanchester,496.81282205937674,84446.4894662917
 YLLs (Years of Life Lost),Male,15 to 19,stomach cancer,greatermanchester,1.2532268215497024,84446.48946629178
 YLLs (Years of Life Lost),Male,15 to 19,stroke,greatermanchester,28.17831072370319,84446.48946629175
@@ -1613,6 +1791,7 @@ YLLs (Years of Life Lost),Male,15 to 19,"tracheal, bronchus, and lung cancer",gr
 YLLs (Years of Life Lost),Male,20 to 24,all causes,greatermanchester,3035.5674008489173,93893.67599283671
 YLLs (Years of Life Lost),Male,20 to 24,bladder cancer,greatermanchester,0.7737980019110248,93893.67599283665
 YLLs (Years of Life Lost),Male,20 to 24,breast cancer,greatermanchester,0.7017624201790743,93893.67599283665
+YLLs (Years of Life Lost),Male,20 to 24,cardiomyopathy and myocarditis,greatermanchester,46.19840504582442,93893.6759928368
 YLLs (Years of Life Lost),Male,20 to 24,cardiovascular diseases,greatermanchester,166.8510137616729,93893.67599283683
 YLLs (Years of Life Lost),Male,20 to 24,chronic myeloid leukemia,greatermanchester,1.6206212832161144,93893.67599283672
 YLLs (Years of Life Lost),Male,20 to 24,chronic obstructive pulmonary disease,greatermanchester,7.133681186427594,93893.67599283671
@@ -1628,11 +1807,13 @@ YLLs (Years of Life Lost),Male,20 to 24,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,20 to 24,motorcyclist road injuries,greatermanchester,120.86305320549434,93893.67599283674
 YLLs (Years of Life Lost),Male,20 to 24,multiple myeloma,greatermanchester,0.7113444098894853,93893.67599283674
 YLLs (Years of Life Lost),Male,20 to 24,neoplasms,greatermanchester,333.95866288644214,93893.67599283668
+YLLs (Years of Life Lost),Male,20 to 24,non-rheumatic valvular heart disease,greatermanchester,7.440439981295269,93893.67599283668
 YLLs (Years of Life Lost),Male,20 to 24,other road injuries,greatermanchester,2.209097811606724,93893.67599283662
 YLLs (Years of Life Lost),Male,20 to 24,other transport injuries,greatermanchester,29.369256894877218,93893.67599283674
 YLLs (Years of Life Lost),Male,20 to 24,parkinson's disease,greatermanchester,0.20626213028715593,93893.67599283681
 YLLs (Years of Life Lost),Male,20 to 24,pedestrian road injuries,greatermanchester,96.26250329289493,93893.67599283674
 YLLs (Years of Life Lost),Male,20 to 24,prostate cancer,greatermanchester,1.8225957351604956,93893.67599283671
+YLLs (Years of Life Lost),Male,20 to 24,rheumatic heart disease,greatermanchester,1.8499494493796507,93893.6759928367
 YLLs (Years of Life Lost),Male,20 to 24,road injuries,greatermanchester,597.9882167902193,93893.67599283675
 YLLs (Years of Life Lost),Male,20 to 24,stomach cancer,greatermanchester,2.999111219012785,93893.67599283674
 YLLs (Years of Life Lost),Male,20 to 24,stroke,greatermanchester,46.278629247887075,93893.67599283668
@@ -1640,6 +1821,7 @@ YLLs (Years of Life Lost),Male,20 to 24,"tracheal, bronchus, and lung cancer",gr
 YLLs (Years of Life Lost),Male,25 to 29,all causes,greatermanchester,4286.657207251987,108767.30113385114
 YLLs (Years of Life Lost),Male,25 to 29,bladder cancer,greatermanchester,2.372703177869973,108767.30113385114
 YLLs (Years of Life Lost),Male,25 to 29,breast cancer,greatermanchester,0.7796419744736751,108767.30113385111
+YLLs (Years of Life Lost),Male,25 to 29,cardiomyopathy and myocarditis,greatermanchester,69.78192211480474,108767.30113385119
 YLLs (Years of Life Lost),Male,25 to 29,cardiovascular diseases,greatermanchester,453.24826931457045,108767.30113385106
 YLLs (Years of Life Lost),Male,25 to 29,chronic myeloid leukemia,greatermanchester,4.26783307361836,108767.30113385103
 YLLs (Years of Life Lost),Male,25 to 29,chronic obstructive pulmonary disease,greatermanchester,15.832096768414193,108767.30113385122
@@ -1655,11 +1837,13 @@ YLLs (Years of Life Lost),Male,25 to 29,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,25 to 29,motorcyclist road injuries,greatermanchester,114.93255953626131,108767.30113385101
 YLLs (Years of Life Lost),Male,25 to 29,multiple myeloma,greatermanchester,1.8827795418829725,108767.30113385103
 YLLs (Years of Life Lost),Male,25 to 29,neoplasms,greatermanchester,526.4197414967241,108767.30113385111
+YLLs (Years of Life Lost),Male,25 to 29,non-rheumatic valvular heart disease,greatermanchester,14.730311149683116,108767.30113385107
 YLLs (Years of Life Lost),Male,25 to 29,other road injuries,greatermanchester,2.014446502990794,108767.30113385117
 YLLs (Years of Life Lost),Male,25 to 29,other transport injuries,greatermanchester,33.61801362706469,108767.30113385104
 YLLs (Years of Life Lost),Male,25 to 29,parkinson's disease,greatermanchester,0.09859842664231878,108767.30113385111
 YLLs (Years of Life Lost),Male,25 to 29,pedestrian road injuries,greatermanchester,78.03044576589478,108767.30113385104
 YLLs (Years of Life Lost),Male,25 to 29,prostate cancer,greatermanchester,3.0743351470854225,108767.30113385106
+YLLs (Years of Life Lost),Male,25 to 29,rheumatic heart disease,greatermanchester,4.329769619251601,108767.30113385117
 YLLs (Years of Life Lost),Male,25 to 29,road injuries,greatermanchester,500.0485759524062,108767.30113385113
 YLLs (Years of Life Lost),Male,25 to 29,stomach cancer,greatermanchester,11.453459954392379,108767.30113385107
 YLLs (Years of Life Lost),Male,25 to 29,stroke,greatermanchester,110.07767957995408,108767.30113385107
@@ -1667,6 +1851,7 @@ YLLs (Years of Life Lost),Male,25 to 29,"tracheal, bronchus, and lung cancer",gr
 YLLs (Years of Life Lost),Male,30 to 34,all causes,greatermanchester,5692.605389037655,114146.78527308421
 YLLs (Years of Life Lost),Male,30 to 34,bladder cancer,greatermanchester,6.762014806932952,114146.7852730843
 YLLs (Years of Life Lost),Male,30 to 34,breast cancer,greatermanchester,0.6996599525669372,114146.78527308411
+YLLs (Years of Life Lost),Male,30 to 34,cardiomyopathy and myocarditis,greatermanchester,79.74472243162975,114146.78527308423
 YLLs (Years of Life Lost),Male,30 to 34,cardiovascular diseases,greatermanchester,821.599367318563,114146.78527308424
 YLLs (Years of Life Lost),Male,30 to 34,chronic myeloid leukemia,greatermanchester,5.421203430025454,114146.7852730842
 YLLs (Years of Life Lost),Male,30 to 34,chronic obstructive pulmonary disease,greatermanchester,29.281566683715585,114146.78527308421
@@ -1682,11 +1867,13 @@ YLLs (Years of Life Lost),Male,30 to 34,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,30 to 34,motorcyclist road injuries,greatermanchester,88.4126760911679,114146.78527308427
 YLLs (Years of Life Lost),Male,30 to 34,multiple myeloma,greatermanchester,5.818388965910466,114146.78527308416
 YLLs (Years of Life Lost),Male,30 to 34,neoplasms,greatermanchester,827.689251753256,114146.78527308418
+YLLs (Years of Life Lost),Male,30 to 34,non-rheumatic valvular heart disease,greatermanchester,19.810265333343814,114146.78527308417
 YLLs (Years of Life Lost),Male,30 to 34,other road injuries,greatermanchester,1.4383009862456264,114146.78527308418
 YLLs (Years of Life Lost),Male,30 to 34,other transport injuries,greatermanchester,29.54847706923308,114146.78527308426
 YLLs (Years of Life Lost),Male,30 to 34,parkinson's disease,greatermanchester,0.1891874702805289,114146.78527308418
 YLLs (Years of Life Lost),Male,30 to 34,pedestrian road injuries,greatermanchester,78.2382768822367,114146.78527308423
 YLLs (Years of Life Lost),Male,30 to 34,prostate cancer,greatermanchester,3.7442755927267504,114146.78527308423
+YLLs (Years of Life Lost),Male,30 to 34,rheumatic heart disease,greatermanchester,6.034711373199431,114146.78527308417
 YLLs (Years of Life Lost),Male,30 to 34,road injuries,greatermanchester,385.5609697595465,114146.78527308413
 YLLs (Years of Life Lost),Male,30 to 34,stomach cancer,greatermanchester,32.76005797245668,114146.78527308423
 YLLs (Years of Life Lost),Male,30 to 34,stroke,greatermanchester,170.14060885578436,114146.78527308414
@@ -1694,6 +1881,7 @@ YLLs (Years of Life Lost),Male,30 to 34,"tracheal, bronchus, and lung cancer",gr
 YLLs (Years of Life Lost),Male,35 to 39,all causes,greatermanchester,7122.23474502589,106449.15889080764
 YLLs (Years of Life Lost),Male,35 to 39,bladder cancer,greatermanchester,13.318563901796814,106449.15889080762
 YLLs (Years of Life Lost),Male,35 to 39,breast cancer,greatermanchester,1.2295733328356795,106449.15889080762
+YLLs (Years of Life Lost),Male,35 to 39,cardiomyopathy and myocarditis,greatermanchester,93.38058733517407,106449.15889080765
 YLLs (Years of Life Lost),Male,35 to 39,cardiovascular diseases,greatermanchester,1276.9240548482592,106449.1588908077
 YLLs (Years of Life Lost),Male,35 to 39,chronic myeloid leukemia,greatermanchester,6.1512221320661045,106449.15889080767
 YLLs (Years of Life Lost),Male,35 to 39,chronic obstructive pulmonary disease,greatermanchester,52.762535467237264,106449.15889080762
@@ -1709,11 +1897,13 @@ YLLs (Years of Life Lost),Male,35 to 39,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,35 to 39,motorcyclist road injuries,greatermanchester,75.24070702432347,106449.15889080765
 YLLs (Years of Life Lost),Male,35 to 39,multiple myeloma,greatermanchester,12.238811475949303,106449.1588908077
 YLLs (Years of Life Lost),Male,35 to 39,neoplasms,greatermanchester,1209.066543259266,106449.15889080754
+YLLs (Years of Life Lost),Male,35 to 39,non-rheumatic valvular heart disease,greatermanchester,24.27656361190064,106449.15889080768
 YLLs (Years of Life Lost),Male,35 to 39,other road injuries,greatermanchester,0.8710376079959756,106449.15889080768
 YLLs (Years of Life Lost),Male,35 to 39,other transport injuries,greatermanchester,26.16072250236406,106449.15889080772
 YLLs (Years of Life Lost),Male,35 to 39,parkinson's disease,greatermanchester,0.4305791022406178,106449.15889080768
 YLLs (Years of Life Lost),Male,35 to 39,pedestrian road injuries,greatermanchester,68.09074480438498,106449.15889080774
 YLLs (Years of Life Lost),Male,35 to 39,prostate cancer,greatermanchester,4.463742614928495,106449.15889080761
+YLLs (Years of Life Lost),Male,35 to 39,rheumatic heart disease,greatermanchester,7.695822172859282,106449.15889080768
 YLLs (Years of Life Lost),Male,35 to 39,road injuries,greatermanchester,295.63142189268603,106449.15889080756
 YLLs (Years of Life Lost),Male,35 to 39,stomach cancer,greatermanchester,58.303280377783366,106449.15889080771
 YLLs (Years of Life Lost),Male,35 to 39,stroke,greatermanchester,235.08624223889063,106449.15889080767
@@ -1722,6 +1912,7 @@ YLLs (Years of Life Lost),Male,40 to 44,all causes,greatermanchester,8738.852756
 YLLs (Years of Life Lost),Male,40 to 44,alzheimer's disease and other dementias,greatermanchester,4.2536939244263765,90887.14903767874
 YLLs (Years of Life Lost),Male,40 to 44,bladder cancer,greatermanchester,25.42784950657182,90887.14903767873
 YLLs (Years of Life Lost),Male,40 to 44,breast cancer,greatermanchester,2.1117342542956274,90887.14903767873
+YLLs (Years of Life Lost),Male,40 to 44,cardiomyopathy and myocarditis,greatermanchester,115.45019151501823,90887.14903767862
 YLLs (Years of Life Lost),Male,40 to 44,cardiovascular diseases,greatermanchester,1898.777279310668,90887.14903767868
 YLLs (Years of Life Lost),Male,40 to 44,chronic myeloid leukemia,greatermanchester,6.167966309587077,90887.14903767871
 YLLs (Years of Life Lost),Male,40 to 44,chronic obstructive pulmonary disease,greatermanchester,95.7857255460112,90887.14903767864
@@ -1737,11 +1928,13 @@ YLLs (Years of Life Lost),Male,40 to 44,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,40 to 44,motorcyclist road injuries,greatermanchester,69.19615982155457,90887.14903767874
 YLLs (Years of Life Lost),Male,40 to 44,multiple myeloma,greatermanchester,21.955850300061407,90887.14903767861
 YLLs (Years of Life Lost),Male,40 to 44,neoplasms,greatermanchester,1740.074341202255,90887.14903767873
+YLLs (Years of Life Lost),Male,40 to 44,non-rheumatic valvular heart disease,greatermanchester,29.89982095858699,90887.14903767868
 YLLs (Years of Life Lost),Male,40 to 44,other road injuries,greatermanchester,0.6184094781680803,90887.14903767868
 YLLs (Years of Life Lost),Male,40 to 44,other transport injuries,greatermanchester,21.87677380121244,90887.14903767868
 YLLs (Years of Life Lost),Male,40 to 44,parkinson's disease,greatermanchester,3.9526076526355376,90887.14903767867
 YLLs (Years of Life Lost),Male,40 to 44,pedestrian road injuries,greatermanchester,64.71081454525067,90887.14903767878
 YLLs (Years of Life Lost),Male,40 to 44,prostate cancer,greatermanchester,8.612852940100078,90887.14903767868
+YLLs (Years of Life Lost),Male,40 to 44,rheumatic heart disease,greatermanchester,9.151533444217442,90887.14903767864
 YLLs (Years of Life Lost),Male,40 to 44,road injuries,greatermanchester,253.02440872216096,90887.14903767878
 YLLs (Years of Life Lost),Male,40 to 44,stomach cancer,greatermanchester,89.93690012662006,90887.14903767867
 YLLs (Years of Life Lost),Male,40 to 44,stroke,greatermanchester,318.51003437960276,90887.1490376787
@@ -1750,6 +1943,7 @@ YLLs (Years of Life Lost),Male,45 to 49,all causes,greatermanchester,12072.60983
 YLLs (Years of Life Lost),Male,45 to 49,alzheimer's disease and other dementias,greatermanchester,25.256477153885527,95858.79499253414
 YLLs (Years of Life Lost),Male,45 to 49,bladder cancer,greatermanchester,51.24410784203562,95858.79499253415
 YLLs (Years of Life Lost),Male,45 to 49,breast cancer,greatermanchester,3.0491432638463527,95858.79499253423
+YLLs (Years of Life Lost),Male,45 to 49,cardiomyopathy and myocarditis,greatermanchester,142.1999815931684,95858.79499253414
 YLLs (Years of Life Lost),Male,45 to 49,cardiovascular diseases,greatermanchester,2976.2064955522824,95858.79499253423
 YLLs (Years of Life Lost),Male,45 to 49,chronic myeloid leukemia,greatermanchester,6.993304617154089,95858.79499253421
 YLLs (Years of Life Lost),Male,45 to 49,chronic obstructive pulmonary disease,greatermanchester,191.39978308934386,95858.7949925342
@@ -1765,16 +1959,19 @@ YLLs (Years of Life Lost),Male,45 to 49,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,45 to 49,motorcyclist road injuries,greatermanchester,65.55318827293429,95858.79499253414
 YLLs (Years of Life Lost),Male,45 to 49,multiple myeloma,greatermanchester,44.55140238296126,95858.79499253414
 YLLs (Years of Life Lost),Male,45 to 49,neoplasms,greatermanchester,2977.3291264923664,95858.79499253421
+YLLs (Years of Life Lost),Male,45 to 49,non-rheumatic valvular heart disease,greatermanchester,40.45335968184318,95858.79499253418
 YLLs (Years of Life Lost),Male,45 to 49,other road injuries,greatermanchester,0.7218067327733357,95858.79499253414
 YLLs (Years of Life Lost),Male,45 to 49,other transport injuries,greatermanchester,21.30251668262519,95858.7949925342
 YLLs (Years of Life Lost),Male,45 to 49,parkinson's disease,greatermanchester,12.109707885208973,95858.79499253412
 YLLs (Years of Life Lost),Male,45 to 49,pedestrian road injuries,greatermanchester,73.003838789073,95858.79499253424
 YLLs (Years of Life Lost),Male,45 to 49,prostate cancer,greatermanchester,35.19541192220134,95858.79499253424
+YLLs (Years of Life Lost),Male,45 to 49,rheumatic heart disease,greatermanchester,13.803083587400717,95858.79499253421
 YLLs (Years of Life Lost),Male,45 to 49,road injuries,greatermanchester,259.4791630960949,95858.79499253417
 YLLs (Years of Life Lost),Male,45 to 49,stomach cancer,greatermanchester,148.8145895153229,95858.7949925342
 YLLs (Years of Life Lost),Male,45 to 49,stroke,greatermanchester,458.61526471135187,95858.79499253415
 YLLs (Years of Life Lost),Male,45 to 49,"tracheal, bronchus, and lung cancer",greatermanchester,559.7367176555351,95858.79499253423
 YLLs (Years of Life Lost),Male,5 to 9,all causes,greatermanchester,790.9690218487444,95707.23263214556
+YLLs (Years of Life Lost),Male,5 to 9,cardiomyopathy and myocarditis,greatermanchester,8.683341263917164,95707.23263214549
 YLLs (Years of Life Lost),Male,5 to 9,cardiovascular diseases,greatermanchester,25.628791187119077,95707.23263214552
 YLLs (Years of Life Lost),Male,5 to 9,chronic myeloid leukemia,greatermanchester,1.0600910762769677,95707.23263214555
 YLLs (Years of Life Lost),Male,5 to 9,chronic obstructive pulmonary disease,greatermanchester,1.7937067490318257,95707.23263214543
@@ -1789,12 +1986,14 @@ YLLs (Years of Life Lost),Male,5 to 9,neoplasms,greatermanchester,242.0144826443
 YLLs (Years of Life Lost),Male,5 to 9,other road injuries,greatermanchester,0.8562515947278181,95707.23263214545
 YLLs (Years of Life Lost),Male,5 to 9,other transport injuries,greatermanchester,4.557741221109707,95707.23263214547
 YLLs (Years of Life Lost),Male,5 to 9,pedestrian road injuries,greatermanchester,45.807646342638215,95707.23263214552
+YLLs (Years of Life Lost),Male,5 to 9,rheumatic heart disease,greatermanchester,0.8402942910081233,95707.23263214547
 YLLs (Years of Life Lost),Male,5 to 9,road injuries,greatermanchester,75.74724667332188,95707.23263214555
 YLLs (Years of Life Lost),Male,5 to 9,stroke,greatermanchester,6.560685759101733,95707.23263214553
 YLLs (Years of Life Lost),Male,50 to 54,all causes,greatermanchester,15786.725754385141,98634.68990489024
 YLLs (Years of Life Lost),Male,50 to 54,alzheimer's disease and other dementias,greatermanchester,48.534003678632686,98634.68990489017
 YLLs (Years of Life Lost),Male,50 to 54,bladder cancer,greatermanchester,109.08777591726383,98634.68990489018
 YLLs (Years of Life Lost),Male,50 to 54,breast cancer,greatermanchester,4.566541600190705,98634.68990489018
+YLLs (Years of Life Lost),Male,50 to 54,cardiomyopathy and myocarditis,greatermanchester,156.92744727787993,98634.68990489014
 YLLs (Years of Life Lost),Male,50 to 54,cardiovascular diseases,greatermanchester,4590.656081401406,98634.68990489015
 YLLs (Years of Life Lost),Male,50 to 54,chronic myeloid leukemia,greatermanchester,6.484483450019123,98634.68990489015
 YLLs (Years of Life Lost),Male,50 to 54,chronic obstructive pulmonary disease,greatermanchester,469.3018685403355,98634.68990489017
@@ -1810,11 +2009,13 @@ YLLs (Years of Life Lost),Male,50 to 54,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,50 to 54,motorcyclist road injuries,greatermanchester,35.8049499574541,98634.68990489014
 YLLs (Years of Life Lost),Male,50 to 54,multiple myeloma,greatermanchester,85.23020503466968,98634.68990489017
 YLLs (Years of Life Lost),Male,50 to 54,neoplasms,greatermanchester,5313.041809628423,98634.68990489015
+YLLs (Years of Life Lost),Male,50 to 54,non-rheumatic valvular heart disease,greatermanchester,65.01375663658898,98634.6899048902
 YLLs (Years of Life Lost),Male,50 to 54,other road injuries,greatermanchester,0.9483109041898049,98634.68990489008
 YLLs (Years of Life Lost),Male,50 to 54,other transport injuries,greatermanchester,18.14998494606869,98634.68990489023
 YLLs (Years of Life Lost),Male,50 to 54,parkinson's disease,greatermanchester,24.244109656310027,98634.6899048902
 YLLs (Years of Life Lost),Male,50 to 54,pedestrian road injuries,greatermanchester,55.02423573927561,98634.6899048902
 YLLs (Years of Life Lost),Male,50 to 54,prostate cancer,greatermanchester,136.7551521262429,98634.6899048902
+YLLs (Years of Life Lost),Male,50 to 54,rheumatic heart disease,greatermanchester,17.090862940243873,98634.68990489023
 YLLs (Years of Life Lost),Male,50 to 54,road injuries,greatermanchester,177.565051154283,98634.68990489018
 YLLs (Years of Life Lost),Male,50 to 54,stomach cancer,greatermanchester,239.94534854226174,98634.68990489017
 YLLs (Years of Life Lost),Male,50 to 54,stroke,greatermanchester,617.4428910382405,98634.6899048902
@@ -1823,6 +2024,7 @@ YLLs (Years of Life Lost),Male,55 to 59,all causes,greatermanchester,19062.10700
 YLLs (Years of Life Lost),Male,55 to 59,alzheimer's disease and other dementias,greatermanchester,80.65640908937095,88286.86930898069
 YLLs (Years of Life Lost),Male,55 to 59,bladder cancer,greatermanchester,170.77859148836814,88286.86930898065
 YLLs (Years of Life Lost),Male,55 to 59,breast cancer,greatermanchester,5.88769326084398,88286.86930898062
+YLLs (Years of Life Lost),Male,55 to 59,cardiomyopathy and myocarditis,greatermanchester,162.65815020317442,88286.86930898065
 YLLs (Years of Life Lost),Male,55 to 59,cardiovascular diseases,greatermanchester,5770.953190760464,88286.86930898059
 YLLs (Years of Life Lost),Male,55 to 59,chronic myeloid leukemia,greatermanchester,6.61049563439321,88286.8693089806
 YLLs (Years of Life Lost),Male,55 to 59,chronic obstructive pulmonary disease,greatermanchester,743.7537616162522,88286.86930898063
@@ -1838,11 +2040,13 @@ YLLs (Years of Life Lost),Male,55 to 59,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,55 to 59,motorcyclist road injuries,greatermanchester,22.52598432915071,88286.86930898065
 YLLs (Years of Life Lost),Male,55 to 59,multiple myeloma,greatermanchester,118.06485252695173,88286.86930898065
 YLLs (Years of Life Lost),Male,55 to 59,neoplasms,greatermanchester,7247.138310502369,88286.86930898066
+YLLs (Years of Life Lost),Male,55 to 59,non-rheumatic valvular heart disease,greatermanchester,87.55329625773048,88286.86930898065
 YLLs (Years of Life Lost),Male,55 to 59,other road injuries,greatermanchester,0.6833790647596881,88286.86930898053
 YLLs (Years of Life Lost),Male,55 to 59,other transport injuries,greatermanchester,14.044628779206795,88286.86930898065
 YLLs (Years of Life Lost),Male,55 to 59,parkinson's disease,greatermanchester,38.44689409543695,88286.86930898068
 YLLs (Years of Life Lost),Male,55 to 59,pedestrian road injuries,greatermanchester,44.65096194310427,88286.86930898059
 YLLs (Years of Life Lost),Male,55 to 59,prostate cancer,greatermanchester,276.5336495707672,88286.8693089806
+YLLs (Years of Life Lost),Male,55 to 59,rheumatic heart disease,greatermanchester,21.12756754586472,88286.86930898066
 YLLs (Years of Life Lost),Male,55 to 59,road injuries,greatermanchester,135.5021310127027,88286.86930898065
 YLLs (Years of Life Lost),Male,55 to 59,stomach cancer,greatermanchester,314.89410488387597,88286.8693089806
 YLLs (Years of Life Lost),Male,55 to 59,stroke,greatermanchester,754.8665950191344,88286.86930898062
@@ -1851,6 +2055,7 @@ YLLs (Years of Life Lost),Male,60 to 64,all causes,greatermanchester,21224.03850
 YLLs (Years of Life Lost),Male,60 to 64,alzheimer's disease and other dementias,greatermanchester,125.33372616497223,72184.7752470018
 YLLs (Years of Life Lost),Male,60 to 64,bladder cancer,greatermanchester,256.47188113810734,72184.77524700185
 YLLs (Years of Life Lost),Male,60 to 64,breast cancer,greatermanchester,6.597170362986018,72184.77524700186
+YLLs (Years of Life Lost),Male,60 to 64,cardiomyopathy and myocarditis,greatermanchester,143.0458408439612,72184.77524700177
 YLLs (Years of Life Lost),Male,60 to 64,cardiovascular diseases,greatermanchester,6241.897784398499,72184.77524700182
 YLLs (Years of Life Lost),Male,60 to 64,chronic myeloid leukemia,greatermanchester,6.828086421684266,72184.77524700182
 YLLs (Years of Life Lost),Male,60 to 64,chronic obstructive pulmonary disease,greatermanchester,1352.6917477199509,72184.7752470018
@@ -1866,11 +2071,13 @@ YLLs (Years of Life Lost),Male,60 to 64,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,60 to 64,motorcyclist road injuries,greatermanchester,10.645747213285851,72184.77524700183
 YLLs (Years of Life Lost),Male,60 to 64,multiple myeloma,greatermanchester,147.2976475447786,72184.77524700183
 YLLs (Years of Life Lost),Male,60 to 64,neoplasms,greatermanchester,9080.690280621306,72184.77524700185
+YLLs (Years of Life Lost),Male,60 to 64,non-rheumatic valvular heart disease,greatermanchester,105.86705654693078,72184.77524700183
 YLLs (Years of Life Lost),Male,60 to 64,other road injuries,greatermanchester,0.39082757651479194,72184.7752470018
 YLLs (Years of Life Lost),Male,60 to 64,other transport injuries,greatermanchester,10.565443908091048,72184.77524700185
 YLLs (Years of Life Lost),Male,60 to 64,parkinson's disease,greatermanchester,80.25879668036397,72184.77524700185
 YLLs (Years of Life Lost),Male,60 to 64,pedestrian road injuries,greatermanchester,35.828513718968054,72184.77524700177
 YLLs (Years of Life Lost),Male,60 to 64,prostate cancer,greatermanchester,578.5000921256518,72184.7752470018
+YLLs (Years of Life Lost),Male,60 to 64,rheumatic heart disease,greatermanchester,22.179519064249742,72184.77524700177
 YLLs (Years of Life Lost),Male,60 to 64,road injuries,greatermanchester,91.517323446872,72184.77524700179
 YLLs (Years of Life Lost),Male,60 to 64,stomach cancer,greatermanchester,368.1750523082596,72184.77524700174
 YLLs (Years of Life Lost),Male,60 to 64,stroke,greatermanchester,839.9547830775628,72184.77524700182
@@ -1879,6 +2086,7 @@ YLLs (Years of Life Lost),Male,65 to 69,all causes,greatermanchester,23997.01315
 YLLs (Years of Life Lost),Male,65 to 69,alzheimer's disease and other dementias,greatermanchester,214.51926551021785,63661.36422478624
 YLLs (Years of Life Lost),Male,65 to 69,bladder cancer,greatermanchester,337.3001794728158,63661.364224786266
 YLLs (Years of Life Lost),Male,65 to 69,breast cancer,greatermanchester,7.166046031969643,63661.364224786266
+YLLs (Years of Life Lost),Male,65 to 69,cardiomyopathy and myocarditis,greatermanchester,134.35209715723192,63661.364224786244
 YLLs (Years of Life Lost),Male,65 to 69,cardiovascular diseases,greatermanchester,7127.6415474102505,63661.36422478627
 YLLs (Years of Life Lost),Male,65 to 69,chronic myeloid leukemia,greatermanchester,8.514286495268138,63661.36422478626
 YLLs (Years of Life Lost),Male,65 to 69,chronic obstructive pulmonary disease,greatermanchester,1885.1347875963415,63661.36422478626
@@ -1894,11 +2102,13 @@ YLLs (Years of Life Lost),Male,65 to 69,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,65 to 69,motorcyclist road injuries,greatermanchester,5.8195900905733655,63661.364224786244
 YLLs (Years of Life Lost),Male,65 to 69,multiple myeloma,greatermanchester,182.5808478413347,63661.36422478625
 YLLs (Years of Life Lost),Male,65 to 69,neoplasms,greatermanchester,10453.609839882598,63661.36422478627
+YLLs (Years of Life Lost),Male,65 to 69,non-rheumatic valvular heart disease,greatermanchester,133.48933826172475,63661.36422478625
 YLLs (Years of Life Lost),Male,65 to 69,other road injuries,greatermanchester,0.2572693568321122,63661.364224786244
 YLLs (Years of Life Lost),Male,65 to 69,other transport injuries,greatermanchester,7.586187961648698,63661.36422478622
 YLLs (Years of Life Lost),Male,65 to 69,parkinson's disease,greatermanchester,169.42091332881523,63661.36422478621
 YLLs (Years of Life Lost),Male,65 to 69,pedestrian road injuries,greatermanchester,30.19054715513354,63661.36422478629
 YLLs (Years of Life Lost),Male,65 to 69,prostate cancer,greatermanchester,905.0261835417182,63661.36422478628
+YLLs (Years of Life Lost),Male,65 to 69,rheumatic heart disease,greatermanchester,26.2552781140875,63661.36422478624
 YLLs (Years of Life Lost),Male,65 to 69,road injuries,greatermanchester,70.1419759888021,63661.36422478623
 YLLs (Years of Life Lost),Male,65 to 69,stomach cancer,greatermanchester,431.5540768073102,63661.364224786244
 YLLs (Years of Life Lost),Male,65 to 69,stroke,greatermanchester,1062.1428769504294,63661.364224786266
@@ -1907,6 +2117,7 @@ YLLs (Years of Life Lost),Male,70 to 74,all causes,greatermanchester,30500.98720
 YLLs (Years of Life Lost),Male,70 to 74,alzheimer's disease and other dementias,greatermanchester,403.5977904967923,59190.12732757914
 YLLs (Years of Life Lost),Male,70 to 74,bladder cancer,greatermanchester,490.841295679948,59190.127327579125
 YLLs (Years of Life Lost),Male,70 to 74,breast cancer,greatermanchester,8.79833267675874,59190.127327579154
+YLLs (Years of Life Lost),Male,70 to 74,cardiomyopathy and myocarditis,greatermanchester,130.26800271306612,59190.127327579146
 YLLs (Years of Life Lost),Male,70 to 74,cardiovascular diseases,greatermanchester,9321.370581516087,59190.127327579125
 YLLs (Years of Life Lost),Male,70 to 74,chronic myeloid leukemia,greatermanchester,11.753825611773308,59190.12732757913
 YLLs (Years of Life Lost),Male,70 to 74,chronic obstructive pulmonary disease,greatermanchester,2786.280037258505,59190.12732757916
@@ -1922,11 +2133,13 @@ YLLs (Years of Life Lost),Male,70 to 74,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,70 to 74,motorcyclist road injuries,greatermanchester,2.5076776577417945,59190.12732757913
 YLLs (Years of Life Lost),Male,70 to 74,multiple myeloma,greatermanchester,231.35688637278898,59190.12732757913
 YLLs (Years of Life Lost),Male,70 to 74,neoplasms,greatermanchester,12696.72841043834,59190.12732757914
+YLLs (Years of Life Lost),Male,70 to 74,non-rheumatic valvular heart disease,greatermanchester,199.24380320884316,59190.12732757912
 YLLs (Years of Life Lost),Male,70 to 74,other road injuries,greatermanchester,0.18573949451030763,59190.12732757913
 YLLs (Years of Life Lost),Male,70 to 74,other transport injuries,greatermanchester,5.534170494411133,59190.12732757912
 YLLs (Years of Life Lost),Male,70 to 74,parkinson's disease,greatermanchester,407.6473957960927,59190.12732757916
 YLLs (Years of Life Lost),Male,70 to 74,pedestrian road injuries,greatermanchester,30.385744258431725,59190.127327579125
 YLLs (Years of Life Lost),Male,70 to 74,prostate cancer,greatermanchester,1383.8582244058257,59190.12732757914
+YLLs (Years of Life Lost),Male,70 to 74,rheumatic heart disease,greatermanchester,38.10326731100821,59190.12732757914
 YLLs (Years of Life Lost),Male,70 to 74,road injuries,greatermanchester,61.90403286426684,59190.127327579125
 YLLs (Years of Life Lost),Male,70 to 74,stomach cancer,greatermanchester,561.0071769360219,59190.12732757913
 YLLs (Years of Life Lost),Male,70 to 74,stroke,greatermanchester,1684.2670983971486,59190.127327579125
@@ -1935,6 +2148,7 @@ YLLs (Years of Life Lost),Male,75 to 79,all causes,greatermanchester,26184.22931
 YLLs (Years of Life Lost),Male,75 to 79,alzheimer's disease and other dementias,greatermanchester,542.5064432932732,38428.46174531053
 YLLs (Years of Life Lost),Male,75 to 79,bladder cancer,greatermanchester,455.42186376894654,38428.46174531051
 YLLs (Years of Life Lost),Male,75 to 79,breast cancer,greatermanchester,6.230946098126109,38428.46174531053
+YLLs (Years of Life Lost),Male,75 to 79,cardiomyopathy and myocarditis,greatermanchester,100.44985866318386,38428.4617453105
 YLLs (Years of Life Lost),Male,75 to 79,cardiovascular diseases,greatermanchester,8363.324571572904,38428.4617453105
 YLLs (Years of Life Lost),Male,75 to 79,chronic myeloid leukemia,greatermanchester,9.78974241016928,38428.461745310495
 YLLs (Years of Life Lost),Male,75 to 79,chronic obstructive pulmonary disease,greatermanchester,2517.877793479481,38428.46174531052
@@ -1950,11 +2164,13 @@ YLLs (Years of Life Lost),Male,75 to 79,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,75 to 79,motorcyclist road injuries,greatermanchester,1.0041660138889754,38428.46174531051
 YLLs (Years of Life Lost),Male,75 to 79,multiple myeloma,greatermanchester,175.1893816092375,38428.4617453105
 YLLs (Years of Life Lost),Male,75 to 79,neoplasms,greatermanchester,9693.76231410001,38428.46174531051
+YLLs (Years of Life Lost),Male,75 to 79,non-rheumatic valvular heart disease,greatermanchester,205.17234713998639,38428.46174531051
 YLLs (Years of Life Lost),Male,75 to 79,other road injuries,greatermanchester,0.12080014453780952,38428.46174531051
 YLLs (Years of Life Lost),Male,75 to 79,other transport injuries,greatermanchester,3.0453134584579216,38428.46174531051
 YLLs (Years of Life Lost),Male,75 to 79,parkinson's disease,greatermanchester,541.7268958164265,38428.461745310546
 YLLs (Years of Life Lost),Male,75 to 79,pedestrian road injuries,greatermanchester,25.110984143429384,38428.46174531051
 YLLs (Years of Life Lost),Male,75 to 79,prostate cancer,greatermanchester,1521.9696720730756,38428.46174531051
+YLLs (Years of Life Lost),Male,75 to 79,rheumatic heart disease,greatermanchester,35.08461304209799,38428.46174531053
 YLLs (Years of Life Lost),Male,75 to 79,road injuries,greatermanchester,45.35594875632342,38428.461745310495
 YLLs (Years of Life Lost),Male,75 to 79,stomach cancer,greatermanchester,476.1378360662202,38428.46174531053
 YLLs (Years of Life Lost),Male,75 to 79,stroke,greatermanchester,1807.7208393587684,38428.46174531051
@@ -1963,6 +2179,7 @@ YLLs (Years of Life Lost),Male,80 to 84,all causes,greatermanchester,23753.33605
 YLLs (Years of Life Lost),Male,80 to 84,alzheimer's disease and other dementias,greatermanchester,1005.6374092309561,26470.71197878975
 YLLs (Years of Life Lost),Male,80 to 84,bladder cancer,greatermanchester,412.4243294164361,26470.71197878974
 YLLs (Years of Life Lost),Male,80 to 84,breast cancer,greatermanchester,4.15888798097216,26470.711978789735
+YLLs (Years of Life Lost),Male,80 to 84,cardiomyopathy and myocarditis,greatermanchester,91.75062596983399,26470.711978789754
 YLLs (Years of Life Lost),Male,80 to 84,cardiovascular diseases,greatermanchester,8005.140633977684,26470.711978789728
 YLLs (Years of Life Lost),Male,80 to 84,chronic myeloid leukemia,greatermanchester,7.885580032692887,26470.71197878974
 YLLs (Years of Life Lost),Male,80 to 84,chronic obstructive pulmonary disease,greatermanchester,2242.9985228083733,26470.711978789746
@@ -1978,11 +2195,13 @@ YLLs (Years of Life Lost),Male,80 to 84,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,80 to 84,motorcyclist road injuries,greatermanchester,0.4330554827250723,26470.711978789746
 YLLs (Years of Life Lost),Male,80 to 84,multiple myeloma,greatermanchester,132.0956077169743,26470.71197878974
 YLLs (Years of Life Lost),Male,80 to 84,neoplasms,greatermanchester,7268.197096616829,26470.71197878973
+YLLs (Years of Life Lost),Male,80 to 84,non-rheumatic valvular heart disease,greatermanchester,233.853974363944,26470.71197878974
 YLLs (Years of Life Lost),Male,80 to 84,other road injuries,greatermanchester,0.07893951168532462,26470.711978789746
 YLLs (Years of Life Lost),Male,80 to 84,other transport injuries,greatermanchester,1.7699820475587509,26470.711978789735
 YLLs (Years of Life Lost),Male,80 to 84,parkinson's disease,greatermanchester,517.3217798974075,26470.711978789735
 YLLs (Years of Life Lost),Male,80 to 84,pedestrian road injuries,greatermanchester,18.60958862166973,26470.71197878973
 YLLs (Years of Life Lost),Male,80 to 84,prostate cancer,greatermanchester,1390.4897983975975,26470.711978789743
+YLLs (Years of Life Lost),Male,80 to 84,rheumatic heart disease,greatermanchester,31.72208573286485,26470.711978789746
 YLLs (Years of Life Lost),Male,80 to 84,road injuries,greatermanchester,33.061236568595724,26470.711978789725
 YLLs (Years of Life Lost),Male,80 to 84,stomach cancer,greatermanchester,365.21544479457646,26470.71197878973
 YLLs (Years of Life Lost),Male,80 to 84,stroke,greatermanchester,1943.684957272568,26470.711978789735
@@ -1991,6 +2210,7 @@ YLLs (Years of Life Lost),Male,85 to 89,all causes,greatermanchester,15411.85254
 YLLs (Years of Life Lost),Male,85 to 89,alzheimer's disease and other dementias,greatermanchester,964.2197403198722,13379.669017274164
 YLLs (Years of Life Lost),Male,85 to 89,bladder cancer,greatermanchester,266.3874988514272,13379.66901727418
 YLLs (Years of Life Lost),Male,85 to 89,breast cancer,greatermanchester,2.840667399005823,13379.669017274171
+YLLs (Years of Life Lost),Male,85 to 89,cardiomyopathy and myocarditis,greatermanchester,68.60825046928288,13379.66901727418
 YLLs (Years of Life Lost),Male,85 to 89,cardiovascular diseases,greatermanchester,5193.06252785185,13379.669017274175
 YLLs (Years of Life Lost),Male,85 to 89,chronic myeloid leukemia,greatermanchester,5.730621465053397,13379.669017274171
 YLLs (Years of Life Lost),Male,85 to 89,chronic obstructive pulmonary disease,greatermanchester,1404.9921933804458,13379.669017274175
@@ -2006,11 +2226,13 @@ YLLs (Years of Life Lost),Male,85 to 89,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,85 to 89,motorcyclist road injuries,greatermanchester,0.1487918857565456,13379.66901727417
 YLLs (Years of Life Lost),Male,85 to 89,multiple myeloma,greatermanchester,69.60758480955334,13379.669017274175
 YLLs (Years of Life Lost),Male,85 to 89,neoplasms,greatermanchester,3935.4698511839265,13379.669017274191
+YLLs (Years of Life Lost),Male,85 to 89,non-rheumatic valvular heart disease,greatermanchester,179.98038883975178,13379.669017274182
 YLLs (Years of Life Lost),Male,85 to 89,other road injuries,greatermanchester,0.03210449904453125,13379.669017274173
 YLLs (Years of Life Lost),Male,85 to 89,other transport injuries,greatermanchester,0.7020691101419613,13379.669017274176
 YLLs (Years of Life Lost),Male,85 to 89,parkinson's disease,greatermanchester,313.1989685321986,13379.66901727417
 YLLs (Years of Life Lost),Male,85 to 89,pedestrian road injuries,greatermanchester,9.862417430317496,13379.669017274186
 YLLs (Years of Life Lost),Male,85 to 89,prostate cancer,greatermanchester,942.190939186375,13379.669017274187
+YLLs (Years of Life Lost),Male,85 to 89,rheumatic heart disease,greatermanchester,19.55645544351382,13379.669017274175
 YLLs (Years of Life Lost),Male,85 to 89,road injuries,greatermanchester,17.135407625519843,13379.669017274175
 YLLs (Years of Life Lost),Male,85 to 89,stomach cancer,greatermanchester,198.81724868912963,13379.66901727418
 YLLs (Years of Life Lost),Male,85 to 89,stroke,greatermanchester,1356.6164577927848,13379.669017274184
@@ -2019,6 +2241,7 @@ YLLs (Years of Life Lost),Male,90 to 94,all causes,greatermanchester,7665.473729
 YLLs (Years of Life Lost),Male,90 to 94,alzheimer's disease and other dementias,greatermanchester,604.2546111330041,5137.651400997368
 YLLs (Years of Life Lost),Male,90 to 94,bladder cancer,greatermanchester,121.7028656215182,5137.651400997367
 YLLs (Years of Life Lost),Male,90 to 94,breast cancer,greatermanchester,1.4079099187055384,5137.651400997369
+YLLs (Years of Life Lost),Male,90 to 94,cardiomyopathy and myocarditis,greatermanchester,40.52696724080924,5137.651400997368
 YLLs (Years of Life Lost),Male,90 to 94,cardiovascular diseases,greatermanchester,2672.574762093103,5137.651400997372
 YLLs (Years of Life Lost),Male,90 to 94,chronic myeloid leukemia,greatermanchester,2.233824370347093,5137.651400997367
 YLLs (Years of Life Lost),Male,90 to 94,chronic obstructive pulmonary disease,greatermanchester,663.0746851747776,5137.651400997367
@@ -2034,11 +2257,13 @@ YLLs (Years of Life Lost),Male,90 to 94,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,90 to 94,motorcyclist road injuries,greatermanchester,0.07897888518470986,5137.651400997369
 YLLs (Years of Life Lost),Male,90 to 94,multiple myeloma,greatermanchester,21.56210674583351,5137.651400997371
 YLLs (Years of Life Lost),Male,90 to 94,neoplasms,greatermanchester,1533.9260564813335,5137.651400997364
+YLLs (Years of Life Lost),Male,90 to 94,non-rheumatic valvular heart disease,greatermanchester,98.0195072336642,5137.651400997368
 YLLs (Years of Life Lost),Male,90 to 94,other road injuries,greatermanchester,0.01581969265900367,5137.651400997365
 YLLs (Years of Life Lost),Male,90 to 94,other transport injuries,greatermanchester,0.2887558753508367,5137.651400997366
 YLLs (Years of Life Lost),Male,90 to 94,parkinson's disease,greatermanchester,121.22357674801749,5137.65140099737
 YLLs (Years of Life Lost),Male,90 to 94,pedestrian road injuries,greatermanchester,3.808326320712053,5137.651400997366
 YLLs (Years of Life Lost),Male,90 to 94,prostate cancer,greatermanchester,436.9663437288537,5137.651400997367
+YLLs (Years of Life Lost),Male,90 to 94,rheumatic heart disease,greatermanchester,8.982617086289473,5137.651400997366
 YLLs (Years of Life Lost),Male,90 to 94,road injuries,greatermanchester,6.461017192713683,5137.651400997365
 YLLs (Years of Life Lost),Male,90 to 94,stomach cancer,greatermanchester,76.01612982560886,5137.651400997366
 YLLs (Years of Life Lost),Male,90 to 94,stroke,greatermanchester,756.4628983054898,5137.651400997367
@@ -2047,6 +2272,7 @@ YLLs (Years of Life Lost),Male,95 to 99,all causes,greatermanchester,1948.560481
 YLLs (Years of Life Lost),Male,95 to 99,alzheimer's disease and other dementias,greatermanchester,174.94352758576917,1082.8179356548026
 YLLs (Years of Life Lost),Male,95 to 99,bladder cancer,greatermanchester,27.33146589757176,1082.8179356548017
 YLLs (Years of Life Lost),Male,95 to 99,breast cancer,greatermanchester,0.311565086883237,1082.817935654803
+YLLs (Years of Life Lost),Male,95 to 99,cardiomyopathy and myocarditis,greatermanchester,11.260374215711444,1082.8179356548021
 YLLs (Years of Life Lost),Male,95 to 99,cardiovascular diseases,greatermanchester,695.2932385227574,1082.8179356548028
 YLLs (Years of Life Lost),Male,95 to 99,chronic myeloid leukemia,greatermanchester,0.459911415523199,1082.8179356548033
 YLLs (Years of Life Lost),Male,95 to 99,chronic obstructive pulmonary disease,greatermanchester,169.9334445032667,1082.8179356548023
@@ -2062,11 +2288,13 @@ YLLs (Years of Life Lost),Male,95 to 99,motor vehicle road injuries,greatermanch
 YLLs (Years of Life Lost),Male,95 to 99,motorcyclist road injuries,greatermanchester,0.030831996079294266,1082.8179356548019
 YLLs (Years of Life Lost),Male,95 to 99,multiple myeloma,greatermanchester,4.651208901246166,1082.8179356548021
 YLLs (Years of Life Lost),Male,95 to 99,neoplasms,greatermanchester,324.1564335683057,1082.8179356548026
+YLLs (Years of Life Lost),Male,95 to 99,non-rheumatic valvular heart disease,greatermanchester,24.43056101633971,1082.8179356548017
 YLLs (Years of Life Lost),Male,95 to 99,other road injuries,greatermanchester,0.007001435456176975,1082.8179356548028
 YLLs (Years of Life Lost),Male,95 to 99,other transport injuries,greatermanchester,0.07390879105943098,1082.8179356548033
 YLLs (Years of Life Lost),Male,95 to 99,parkinson's disease,greatermanchester,18.510953126504482,1082.8179356548028
 YLLs (Years of Life Lost),Male,95 to 99,pedestrian road injuries,greatermanchester,0.8972398689841814,1082.817935654803
 YLLs (Years of Life Lost),Male,95 to 99,prostate cancer,greatermanchester,95.49068801013017,1082.817935654803
+YLLs (Years of Life Lost),Male,95 to 99,rheumatic heart disease,greatermanchester,2.148099225088832,1082.817935654803
 YLLs (Years of Life Lost),Male,95 to 99,road injuries,greatermanchester,1.474066913550113,1082.8179356548026
 YLLs (Years of Life Lost),Male,95 to 99,stomach cancer,greatermanchester,16.134026776677956,1082.8179356548033
 YLLs (Years of Life Lost),Male,95 to 99,stroke,greatermanchester,203.10378155981772,1082.8179356548028

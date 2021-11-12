@@ -1,5 +1,6 @@
 measure,sex,age,cause,cityregion,number,pop
 Deaths,Female,0 to 5,all causes,leeds,65.70832777654653,73084.89741847893
+Deaths,Female,0 to 5,cardiomyopathy and myocarditis,leeds,0.38921212923413206,73084.89741847903
 Deaths,Female,0 to 5,cardiovascular diseases,leeds,0.890756135822101,73084.89741847895
 Deaths,Female,0 to 5,chronic myeloid leukemia,leeds,0.009195657921715348,73084.89741847901
 Deaths,Female,0 to 5,chronic obstructive pulmonary disease,leeds,0.030075339163685485,73084.8974184789
@@ -13,9 +14,11 @@ Deaths,Female,0 to 5,neoplasms,leeds,2.0125856945246765,73084.89741847894
 Deaths,Female,0 to 5,other road injuries,leeds,0.014436235073585059,73084.89741847906
 Deaths,Female,0 to 5,other transport injuries,leeds,0.022977878269815573,73084.8974184789
 Deaths,Female,0 to 5,pedestrian road injuries,leeds,0.1849215597141419,73084.89741847901
+Deaths,Female,0 to 5,rheumatic heart disease,leeds,0.012265001831569748,73084.89741847893
 Deaths,Female,0 to 5,road injuries,leeds,0.39491121706877835,73084.89741847894
 Deaths,Female,0 to 5,stroke,leeds,0.11978493009848398,73084.89741847891
 Deaths,Female,10 to 14,all causes,leeds,7.322167870657509,73745.02869532947
+Deaths,Female,10 to 14,cardiomyopathy and myocarditis,leeds,0.08601139012536352,73745.02869532944
 Deaths,Female,10 to 14,cardiovascular diseases,leeds,0.32371726999467315,73745.0286953295
 Deaths,Female,10 to 14,chronic myeloid leukemia,leeds,0.011044539668854231,73745.02869532944
 Deaths,Female,10 to 14,chronic obstructive pulmonary disease,leeds,0.030638942799226278,73745.02869532947
@@ -30,12 +33,14 @@ Deaths,Female,10 to 14,neoplasms,leeds,2.131511545714305,73745.02869532943
 Deaths,Female,10 to 14,other road injuries,leeds,0.023004983661652538,73745.02869532947
 Deaths,Female,10 to 14,other transport injuries,leeds,0.036273795494326036,73745.02869532949
 Deaths,Female,10 to 14,pedestrian road injuries,leeds,0.3407309687236824,73745.02869532938
+Deaths,Female,10 to 14,rheumatic heart disease,leeds,0.008904204988233792,73745.02869532944
 Deaths,Female,10 to 14,road injuries,leeds,0.6511300141882675,73745.02869532947
 Deaths,Female,10 to 14,stroke,leeds,0.10447533916602304,73745.02869532941
 Deaths,Female,10 to 14,"tracheal, bronchus, and lung cancer",leeds,0.01563712574319592,73745.02869532953
 Deaths,Female,15 to 19,all causes,leeds,10.815329456902607,67955.06514918983
 Deaths,Female,15 to 19,bladder cancer,leeds,0.007098657179521321,67955.06514918993
 Deaths,Female,15 to 19,breast cancer,leeds,0.026571692273892594,67955.06514918996
+Deaths,Female,15 to 19,cardiomyopathy and myocarditis,leeds,0.10867921339716717,67955.06514918995
 Deaths,Female,15 to 19,cardiovascular diseases,leeds,0.5973931152598573,67955.06514918992
 Deaths,Female,15 to 19,chronic myeloid leukemia,leeds,0.009480366730944786,67955.06514918996
 Deaths,Female,15 to 19,chronic obstructive pulmonary disease,leeds,0.05785258435977099,67955.06514918996
@@ -49,9 +54,11 @@ Deaths,Female,15 to 19,lower respiratory infections,leeds,0.2589921178378048,679
 Deaths,Female,15 to 19,motor vehicle road injuries,leeds,0.9760880367016144,67955.06514918996
 Deaths,Female,15 to 19,motorcyclist road injuries,leeds,0.11189178395287103,67955.06514919002
 Deaths,Female,15 to 19,neoplasms,leeds,2.191358347447257,67955.06514918989
+Deaths,Female,15 to 19,non-rheumatic valvular heart disease,leeds,0.029941433018589945,67955.06514918998
 Deaths,Female,15 to 19,other road injuries,leeds,0.03830492997992914,67955.0651491899
 Deaths,Female,15 to 19,other transport injuries,leeds,0.04936057287522768,67955.06514918988
 Deaths,Female,15 to 19,pedestrian road injuries,leeds,0.4015316888094098,67955.06514918996
+Deaths,Female,15 to 19,rheumatic heart disease,leeds,0.010912493204481946,67955.0651491899
 Deaths,Female,15 to 19,road injuries,leeds,1.5891211847626414,67955.06514918998
 Deaths,Female,15 to 19,stomach cancer,leeds,0.009198985673774862,67955.06514918992
 Deaths,Female,15 to 19,stroke,leeds,0.18837932692264475,67955.06514919
@@ -59,6 +66,7 @@ Deaths,Female,15 to 19,"tracheal, bronchus, and lung cancer",leeds,0.03355357716
 Deaths,Female,20 to 24,all causes,leeds,15.381945533416244,76169.18382848069
 Deaths,Female,20 to 24,bladder cancer,leeds,0.00891966759868174,76169.18382848064
 Deaths,Female,20 to 24,breast cancer,leeds,0.09447460817780128,76169.18382848072
+Deaths,Female,20 to 24,cardiomyopathy and myocarditis,leeds,0.14480728796233616,76169.18382848077
 Deaths,Female,20 to 24,cardiovascular diseases,leeds,1.103520238613796,76169.18382848069
 Deaths,Female,20 to 24,chronic myeloid leukemia,leeds,0.01208309438815745,76169.18382848069
 Deaths,Female,20 to 24,chronic obstructive pulmonary disease,leeds,0.08918981437921626,76169.18382848069
@@ -74,10 +82,12 @@ Deaths,Female,20 to 24,motor vehicle road injuries,leeds,1.0315459249612693,7616
 Deaths,Female,20 to 24,motorcyclist road injuries,leeds,0.11761726139798707,76169.18382848067
 Deaths,Female,20 to 24,multiple myeloma,leeds,0.004675050135126235,76169.18382848067
 Deaths,Female,20 to 24,neoplasms,leeds,3.2181907126236697,76169.18382848063
+Deaths,Female,20 to 24,non-rheumatic valvular heart disease,leeds,0.04619446398473047,76169.18382848061
 Deaths,Female,20 to 24,other road injuries,leeds,0.042194886848832214,76169.1838284807
 Deaths,Female,20 to 24,other transport injuries,leeds,0.058818726796951964,76169.18382848072
 Deaths,Female,20 to 24,parkinson's disease,leeds,8.293295739286846e-4,76169.18382848066
 Deaths,Female,20 to 24,pedestrian road injuries,leeds,0.3275851755789379,76169.1838284807
+Deaths,Female,20 to 24,rheumatic heart disease,leeds,0.023133344093440953,76169.18382848072
 Deaths,Female,20 to 24,road injuries,leeds,1.5732232824846328,76169.18382848063
 Deaths,Female,20 to 24,stomach cancer,leeds,0.034180797768671806,76169.18382848063
 Deaths,Female,20 to 24,stroke,leeds,0.3821633702975737,76169.18382848064
@@ -86,6 +96,7 @@ Deaths,Female,20 to 24,uterine cancer,leeds,0.008390777000874147,76169.183828480
 Deaths,Female,25 to 29,all causes,leeds,23.491006016925056,84918.10897302143
 Deaths,Female,25 to 29,bladder cancer,leeds,0.03269157428706498,84918.10897302144
 Deaths,Female,25 to 29,breast cancer,leeds,0.9939141770211196,84918.10897302144
+Deaths,Female,25 to 29,cardiomyopathy and myocarditis,leeds,0.22808029577611189,84918.10897302143
 Deaths,Female,25 to 29,cardiovascular diseases,leeds,2.3933848631975785,84918.10897302142
 Deaths,Female,25 to 29,chronic myeloid leukemia,leeds,0.024583535925517652,84918.10897302144
 Deaths,Female,25 to 29,chronic obstructive pulmonary disease,leeds,0.15448102978188685,84918.10897302147
@@ -101,10 +112,12 @@ Deaths,Female,25 to 29,motor vehicle road injuries,leeds,0.7978058967360739,8491
 Deaths,Female,25 to 29,motorcyclist road injuries,leeds,0.09414180404161629,84918.1089730214
 Deaths,Female,25 to 29,multiple myeloma,leeds,0.01019413946797633,84918.10897302153
 Deaths,Female,25 to 29,neoplasms,leeds,6.650228571397162,84918.10897302147
+Deaths,Female,25 to 29,non-rheumatic valvular heart disease,leeds,0.09493757789524035,84918.10897302142
 Deaths,Female,25 to 29,other road injuries,leeds,0.03906330913073541,84918.10897302149
 Deaths,Female,25 to 29,other transport injuries,leeds,0.06456366123051396,84918.10897302139
 Deaths,Female,25 to 29,parkinson's disease,leeds,5.199975324871113e-4,84918.10897302152
 Deaths,Female,25 to 29,pedestrian road injuries,leeds,0.24947929411852152,84918.10897302142
+Deaths,Female,25 to 29,rheumatic heart disease,leeds,0.04939571655174109,84918.1089730215
 Deaths,Female,25 to 29,road injuries,leeds,1.2295838621913175,84918.10897302149
 Deaths,Female,25 to 29,stomach cancer,leeds,0.14464847486338597,84918.10897302149
 Deaths,Female,25 to 29,stroke,leeds,0.9070272706313859,84918.10897302136
@@ -113,6 +126,7 @@ Deaths,Female,25 to 29,uterine cancer,leeds,0.03518607635122621,84918.1089730215
 Deaths,Female,30 to 34,all causes,leeds,39.67514670205911,87615.23402779778
 Deaths,Female,30 to 34,bladder cancer,leeds,0.11935296888767817,87615.23402779787
 Deaths,Female,30 to 34,breast cancer,leeds,3.85667936270959,87615.23402779778
+Deaths,Female,30 to 34,cardiomyopathy and myocarditis,leeds,0.2874290622715538,87615.23402779781
 Deaths,Female,30 to 34,cardiovascular diseases,leeds,4.504648919802391,87615.23402779784
 Deaths,Female,30 to 34,chronic myeloid leukemia,leeds,0.038044761015361944,87615.23402779782
 Deaths,Female,30 to 34,chronic obstructive pulmonary disease,leeds,0.28985880547171716,87615.2340277979
@@ -128,10 +142,12 @@ Deaths,Female,30 to 34,motor vehicle road injuries,leeds,0.6974476575130677,8761
 Deaths,Female,30 to 34,motorcyclist road injuries,leeds,0.09362151766834985,87615.23402779784
 Deaths,Female,30 to 34,multiple myeloma,leeds,0.03668540231236589,87615.23402779788
 Deaths,Female,30 to 34,neoplasms,leeds,14.005213973275275,87615.23402779782
+Deaths,Female,30 to 34,non-rheumatic valvular heart disease,leeds,0.1389895304094299,87615.23402779776
 Deaths,Female,30 to 34,other road injuries,leeds,0.03572673498086404,87615.23402779784
 Deaths,Female,30 to 34,other transport injuries,leeds,0.06183350558872534,87615.23402779776
 Deaths,Female,30 to 34,parkinson's disease,leeds,0.0016786155308508772,87615.23402779782
 Deaths,Female,30 to 34,pedestrian road injuries,leeds,0.24773331359208972,87615.23402779775
+Deaths,Female,30 to 34,rheumatic heart disease,leeds,0.07715356605880727,87615.23402779778
 Deaths,Female,30 to 34,road injuries,leeds,1.1173661301014448,87615.23402779792
 Deaths,Female,30 to 34,stomach cancer,leeds,0.3954950462395771,87615.23402779784
 Deaths,Female,30 to 34,stroke,leeds,1.6233000071025911,87615.23402779787
@@ -140,6 +156,7 @@ Deaths,Female,30 to 34,uterine cancer,leeds,0.08894813893945448,87615.2340277978
 Deaths,Female,35 to 39,all causes,leeds,66.05118743789153,82807.1782911485
 Deaths,Female,35 to 39,bladder cancer,leeds,0.24506775934034195,82807.17829114858
 Deaths,Female,35 to 39,breast cancer,leeds,8.14574428202651,82807.17829114849
+Deaths,Female,35 to 39,cardiomyopathy and myocarditis,leeds,0.46074895091360213,82807.17829114858
 Deaths,Female,35 to 39,cardiovascular diseases,leeds,8.744612346222178,82807.17829114854
 Deaths,Female,35 to 39,chronic myeloid leukemia,leeds,0.06064016723110996,82807.17829114854
 Deaths,Female,35 to 39,chronic obstructive pulmonary disease,leeds,0.5989517278095211,82807.1782911485
@@ -155,10 +172,12 @@ Deaths,Female,35 to 39,motor vehicle road injuries,leeds,0.6895648297214068,8280
 Deaths,Female,35 to 39,motorcyclist road injuries,leeds,0.10100426598892964,82807.1782911485
 Deaths,Female,35 to 39,multiple myeloma,leeds,0.11054249724857307,82807.17829114856
 Deaths,Female,35 to 39,neoplasms,leeds,25.6246472825788,82807.17829114845
+Deaths,Female,35 to 39,non-rheumatic valvular heart disease,leeds,0.19590988111058985,82807.1782911485
 Deaths,Female,35 to 39,other road injuries,leeds,0.043191700327526936,82807.17829114849
 Deaths,Female,35 to 39,other transport injuries,leeds,0.06838842621312848,82807.1782911484
 Deaths,Female,35 to 39,parkinson's disease,leeds,0.006849494350371678,82807.17829114846
 Deaths,Female,35 to 39,pedestrian road injuries,leeds,0.3186634749089639,82807.17829114848
+Deaths,Female,35 to 39,rheumatic heart disease,leeds,0.13723780496287669,82807.17829114849
 Deaths,Female,35 to 39,road injuries,leeds,1.1975278201609807,82807.1782911485
 Deaths,Female,35 to 39,stomach cancer,leeds,0.7281924746407651,82807.17829114843
 Deaths,Female,35 to 39,stroke,leeds,3.149262099995326,82807.17829114843
@@ -168,6 +187,7 @@ Deaths,Female,40 to 44,all causes,leeds,84.02330503917636,72336.10599666234
 Deaths,Female,40 to 44,alzheimer's disease and other dementias,leeds,0.08239758401068091,72336.10599666234
 Deaths,Female,40 to 44,bladder cancer,leeds,0.4137535756246823,72336.10599666242
 Deaths,Female,40 to 44,breast cancer,leeds,11.15943383921049,72336.10599666233
+Deaths,Female,40 to 44,cardiomyopathy and myocarditis,leeds,0.5203434805437123,72336.1059966624
 Deaths,Female,40 to 44,cardiovascular diseases,leeds,12.017300512647008,72336.10599666233
 Deaths,Female,40 to 44,chronic myeloid leukemia,leeds,0.055097956675063564,72336.10599666243
 Deaths,Female,40 to 44,chronic obstructive pulmonary disease,leeds,1.0711219242941985,72336.10599666231
@@ -183,10 +203,12 @@ Deaths,Female,40 to 44,motor vehicle road injuries,leeds,0.6257507999316883,7233
 Deaths,Female,40 to 44,motorcyclist road injuries,leeds,0.08256438549075572,72336.1059966624
 Deaths,Female,40 to 44,multiple myeloma,leeds,0.22089118304630065,72336.10599666233
 Deaths,Female,40 to 44,neoplasms,leeds,35.52981328604009,72336.10599666226
+Deaths,Female,40 to 44,non-rheumatic valvular heart disease,leeds,0.24639088433260867,72336.10599666236
 Deaths,Female,40 to 44,other road injuries,leeds,0.03492767592956906,72336.1059966624
 Deaths,Female,40 to 44,other transport injuries,leeds,0.057578470261725,72336.1059966624
 Deaths,Female,40 to 44,parkinson's disease,leeds,0.04024474591519253,72336.10599666229
 Deaths,Female,40 to 44,pedestrian road injuries,leeds,0.3289022644375666,72336.10599666236
+Deaths,Female,40 to 44,rheumatic heart disease,leeds,0.22037247718024358,72336.10599666237
 Deaths,Female,40 to 44,road injuries,leeds,1.113523885121504,72336.10599666231
 Deaths,Female,40 to 44,stomach cancer,leeds,1.0408783609523173,72336.10599666237
 Deaths,Female,40 to 44,stroke,leeds,4.049414269784816,72336.10599666233
@@ -196,6 +218,7 @@ Deaths,Female,45 to 49,all causes,leeds,134.3454439927213,77801.95582375948
 Deaths,Female,45 to 49,alzheimer's disease and other dementias,leeds,0.5415341004191618,77801.95582375934
 Deaths,Female,45 to 49,bladder cancer,leeds,0.7433818862637241,77801.95582375936
 Deaths,Female,45 to 49,breast cancer,leeds,18.27381070253737,77801.95582375945
+Deaths,Female,45 to 49,cardiomyopathy and myocarditis,leeds,0.7198219284064233,77801.9558237594
 Deaths,Female,45 to 49,cardiovascular diseases,leeds,20.633962291696385,77801.95582375942
 Deaths,Female,45 to 49,chronic myeloid leukemia,leeds,0.07917854904582233,77801.95582375945
 Deaths,Female,45 to 49,chronic obstructive pulmonary disease,leeds,2.5660626321230033,77801.95582375945
@@ -211,16 +234,19 @@ Deaths,Female,45 to 49,motor vehicle road injuries,leeds,0.7369680100231178,7780
 Deaths,Female,45 to 49,motorcyclist road injuries,leeds,0.09428817167491146,77801.95582375946
 Deaths,Female,45 to 49,multiple myeloma,leeds,0.50302789034716,77801.95582375942
 Deaths,Female,45 to 49,neoplasms,leeds,61.65949872435215,77801.95582375943
+Deaths,Female,45 to 49,non-rheumatic valvular heart disease,leeds,0.38445989622995563,77801.95582375953
 Deaths,Female,45 to 49,other road injuries,leeds,0.048904605049445375,77801.95582375948
 Deaths,Female,45 to 49,other transport injuries,leeds,0.06231580584459323,77801.95582375942
 Deaths,Female,45 to 49,parkinson's disease,leeds,0.13227253529396982,77801.95582375943
 Deaths,Female,45 to 49,pedestrian road injuries,leeds,0.41363467285013006,77801.95582375943
+Deaths,Female,45 to 49,rheumatic heart disease,leeds,0.345780855447419,77801.95582375945
 Deaths,Female,45 to 49,road injuries,leeds,1.3476926027224205,77801.95582375939
 Deaths,Female,45 to 49,stomach cancer,leeds,1.6610769407798882,77801.95582375937
 Deaths,Female,45 to 49,stroke,leeds,6.500721906973409,77801.9558237594
 Deaths,Female,45 to 49,"tracheal, bronchus, and lung cancer",leeds,8.57730969628493,77801.95582375939
 Deaths,Female,45 to 49,uterine cancer,leeds,0.7891390011390995,77801.95582375939
 Deaths,Female,5 to 9,all causes,leeds,5.3302723798187674,75337.2347907283
+Deaths,Female,5 to 9,cardiomyopathy and myocarditis,leeds,0.060753586966391875,75337.23479072822
 Deaths,Female,5 to 9,cardiovascular diseases,leeds,0.20357750586408163,75337.23479072833
 Deaths,Female,5 to 9,chronic myeloid leukemia,leeds,0.007953101437054778,75337.23479072825
 Deaths,Female,5 to 9,chronic obstructive pulmonary disease,leeds,0.022716496459769232,75337.23479072833
@@ -235,12 +261,14 @@ Deaths,Female,5 to 9,neoplasms,leeds,1.6623815948788456,75337.23479072825
 Deaths,Female,5 to 9,other road injuries,leeds,0.010347103221482981,75337.23479072833
 Deaths,Female,5 to 9,other transport injuries,leeds,0.01730381106312242,75337.2347907283
 Deaths,Female,5 to 9,pedestrian road injuries,leeds,0.2099540419468485,75337.23479072818
+Deaths,Female,5 to 9,rheumatic heart disease,leeds,0.007859634227302011,75337.23479072822
 Deaths,Female,5 to 9,road injuries,leeds,0.3910143900401756,75337.23479072824
 Deaths,Female,5 to 9,stroke,leeds,0.0547432583868806,75337.23479072825
 Deaths,Female,50 to 54,all causes,leeds,214.36712214112873,79396.26197324802
 Deaths,Female,50 to 54,alzheimer's disease and other dementias,leeds,1.137262513175155,79396.26197324813
 Deaths,Female,50 to 54,bladder cancer,leeds,1.3454777158231663,79396.26197324807
 Deaths,Female,50 to 54,breast cancer,leeds,28.237034776005952,79396.26197324807
+Deaths,Female,50 to 54,cardiomyopathy and myocarditis,leeds,0.838252295881434,79396.26197324802
 Deaths,Female,50 to 54,cardiovascular diseases,leeds,34.28422128469213,79396.26197324804
 Deaths,Female,50 to 54,chronic myeloid leukemia,leeds,0.07950832807997324,79396.26197324804
 Deaths,Female,50 to 54,chronic obstructive pulmonary disease,leeds,7.936713651309396,79396.26197324815
@@ -256,10 +284,12 @@ Deaths,Female,50 to 54,motor vehicle road injuries,leeds,0.6388150814762518,7939
 Deaths,Female,50 to 54,motorcyclist road injuries,leeds,0.07797694019191206,79396.2619732481
 Deaths,Female,50 to 54,multiple myeloma,leeds,1.1699232610529813,79396.26197324813
 Deaths,Female,50 to 54,neoplasms,leeds,111.71688056196078,79396.26197324814
+Deaths,Female,50 to 54,non-rheumatic valvular heart disease,leeds,0.6171472230545679,79396.26197324802
 Deaths,Female,50 to 54,other road injuries,leeds,0.04797629113913817,79396.26197324813
 Deaths,Female,50 to 54,other transport injuries,leeds,0.060887596133647325,79396.26197324808
 Deaths,Female,50 to 54,parkinson's disease,leeds,0.32650800105844197,79396.26197324802
 Deaths,Female,50 to 54,pedestrian road injuries,leeds,0.39907437676520024,79396.26197324815
+Deaths,Female,50 to 54,rheumatic heart disease,leeds,0.5600282538052883,79396.26197324811
 Deaths,Female,50 to 54,road injuries,leeds,1.2221312365048598,79396.26197324814
 Deaths,Female,50 to 54,stomach cancer,leeds,2.646721181628444,79396.26197324804
 Deaths,Female,50 to 54,stroke,leeds,10.01676795984704,79396.26197324808
@@ -269,6 +299,7 @@ Deaths,Female,55 to 59,all causes,leeds,305.1208255234039,72929.7656710258
 Deaths,Female,55 to 59,alzheimer's disease and other dementias,leeds,2.180862045120883,72929.7656710258
 Deaths,Female,55 to 59,bladder cancer,leeds,2.14222706758083,72929.7656710258
 Deaths,Female,55 to 59,breast cancer,leeds,35.9161057925913,72929.76567102583
+Deaths,Female,55 to 59,cardiomyopathy and myocarditis,leeds,1.1171393123043516,72929.7656710258
 Deaths,Female,55 to 59,cardiovascular diseases,leeds,49.67654204336334,72929.76567102583
 Deaths,Female,55 to 59,chronic myeloid leukemia,leeds,0.10565872659238308,72929.76567102579
 Deaths,Female,55 to 59,chronic obstructive pulmonary disease,leeds,15.775248485952922,72929.76567102582
@@ -284,10 +315,12 @@ Deaths,Female,55 to 59,motor vehicle road injuries,leeds,0.6138724008173433,7292
 Deaths,Female,55 to 59,motorcyclist road injuries,leeds,0.07195589440159991,72929.76567102583
 Deaths,Female,55 to 59,multiple myeloma,leeds,1.9616579654370319,72929.76567102582
 Deaths,Female,55 to 59,neoplasms,leeds,163.7083485458803,72929.7656710257
+Deaths,Female,55 to 59,non-rheumatic valvular heart disease,leeds,0.9339610499565192,72929.7656710258
 Deaths,Female,55 to 59,other road injuries,leeds,0.050488883870189155,72929.76567102574
 Deaths,Female,55 to 59,other transport injuries,leeds,0.05981601579698669,72929.76567102576
 Deaths,Female,55 to 59,parkinson's disease,leeds,0.6155850656173234,72929.76567102577
 Deaths,Female,55 to 59,pedestrian road injuries,leeds,0.42578060616363766,72929.76567102589
+Deaths,Female,55 to 59,rheumatic heart disease,leeds,0.7701363848382825,72929.76567102577
 Deaths,Female,55 to 59,road injuries,leeds,1.2186461202880992,72929.76567102586
 Deaths,Female,55 to 59,stomach cancer,leeds,3.792202235280352,72929.76567102574
 Deaths,Female,55 to 59,stroke,leeds,13.138610881526057,72929.76567102577
@@ -297,6 +330,7 @@ Deaths,Female,60 to 64,all causes,leeds,436.99967629441886,62241.234218373924
 Deaths,Female,60 to 64,alzheimer's disease and other dementias,leeds,4.332655562465253,62241.23421837393
 Deaths,Female,60 to 64,bladder cancer,leeds,3.4453449007956998,62241.23421837397
 Deaths,Female,60 to 64,breast cancer,leeds,36.393535343450594,62241.23421837388
+Deaths,Female,60 to 64,cardiomyopathy and myocarditis,leeds,1.4636146688402158,62241.23421837395
 Deaths,Female,60 to 64,cardiovascular diseases,leeds,82.25450451621866,62241.234218373895
 Deaths,Female,60 to 64,chronic myeloid leukemia,leeds,0.14463764276499347,62241.23421837401
 Deaths,Female,60 to 64,chronic obstructive pulmonary disease,leeds,34.417146222660065,62241.23421837395
@@ -312,10 +346,12 @@ Deaths,Female,60 to 64,motor vehicle road injuries,leeds,0.5679144646462913,6224
 Deaths,Female,60 to 64,motorcyclist road injuries,leeds,0.04471233476888104,62241.23421837396
 Deaths,Female,60 to 64,multiple myeloma,leeds,3.4672764222605235,62241.23421837391
 Deaths,Female,60 to 64,neoplasms,leeds,227.98355785289328,62241.234218374026
+Deaths,Female,60 to 64,non-rheumatic valvular heart disease,leeds,1.7997117464352952,62241.234218374
 Deaths,Female,60 to 64,other road injuries,leeds,0.03030694056950131,62241.23421837397
 Deaths,Female,60 to 64,other transport injuries,leeds,0.057743324252772704,62241.23421837403
 Deaths,Female,60 to 64,parkinson's disease,leeds,1.443437370816592,62241.23421837397
 Deaths,Female,60 to 64,pedestrian road injuries,leeds,0.5356849825200378,62241.234218373946
+Deaths,Female,60 to 64,rheumatic heart disease,leeds,1.148070335900337,62241.23421837393
 Deaths,Female,60 to 64,road injuries,leeds,1.2177078519520514,62241.234218373924
 Deaths,Female,60 to 64,stomach cancer,leeds,5.438740829344516,62241.234218374004
 Deaths,Female,60 to 64,stroke,leeds,20.01373619141738,62241.234218374
@@ -325,6 +361,7 @@ Deaths,Female,65 to 69,all causes,leeds,601.4128141707686,56075.357440330576
 Deaths,Female,65 to 69,alzheimer's disease and other dementias,leeds,9.359898183010728,56075.357440330576
 Deaths,Female,65 to 69,bladder cancer,leeds,5.343810537434078,56075.35744033057
 Deaths,Female,65 to 69,breast cancer,leeds,40.4870855172991,56075.357440330554
+Deaths,Female,65 to 69,cardiomyopathy and myocarditis,leeds,1.5954179797213501,56075.35744033057
 Deaths,Female,65 to 69,cardiovascular diseases,leeds,121.56587175213913,56075.35744033057
 Deaths,Female,65 to 69,chronic myeloid leukemia,leeds,0.18945572405808833,56075.35744033053
 Deaths,Female,65 to 69,chronic obstructive pulmonary disease,leeds,58.22397798474596,56075.35744033056
@@ -340,10 +377,12 @@ Deaths,Female,65 to 69,motor vehicle road injuries,leeds,0.6410322436222718,5607
 Deaths,Female,65 to 69,motorcyclist road injuries,leeds,0.039557681585143334,56075.35744033063
 Deaths,Female,65 to 69,multiple myeloma,leeds,5.402865729170705,56075.35744033057
 Deaths,Female,65 to 69,neoplasms,leeds,301.77462634550756,56075.35744033055
+Deaths,Female,65 to 69,non-rheumatic valvular heart disease,leeds,2.9100950340937866,56075.35744033058
 Deaths,Female,65 to 69,other road injuries,leeds,0.023086113510885874,56075.357440330576
 Deaths,Female,65 to 69,other transport injuries,leeds,0.05831066252804599,56075.357440330554
 Deaths,Female,65 to 69,parkinson's disease,leeds,3.3128838607826134,56075.35744033055
 Deaths,Female,65 to 69,pedestrian road injuries,leeds,0.635398758523038,56075.35744033056
+Deaths,Female,65 to 69,rheumatic heart disease,leeds,1.8400314364834536,56075.35744033057
 Deaths,Female,65 to 69,road injuries,leeds,1.3727314159935686,56075.35744033058
 Deaths,Female,65 to 69,stomach cancer,leeds,7.213509140051031,56075.35744033059
 Deaths,Female,65 to 69,stroke,leeds,29.255754658653732,56075.35744033061
@@ -353,6 +392,7 @@ Deaths,Female,70 to 74,all causes,leeds,1006.1304756881865,55060.81614969559
 Deaths,Female,70 to 74,alzheimer's disease and other dementias,leeds,22.695499837807517,55060.81614969551
 Deaths,Female,70 to 74,bladder cancer,leeds,9.338251946429336,55060.8161496955
 Deaths,Female,70 to 74,breast cancer,leeds,53.29229065007291,55060.81614969561
+Deaths,Female,70 to 74,cardiomyopathy and myocarditis,leeds,2.5517920378447156,55060.81614969558
 Deaths,Female,70 to 74,cardiovascular diseases,leeds,239.7563073542998,55060.81614969551
 Deaths,Female,70 to 74,chronic myeloid leukemia,leeds,0.3184309793922382,55060.81614969548
 Deaths,Female,70 to 74,chronic obstructive pulmonary disease,leeds,106.65824366278932,55060.8161496955
@@ -368,10 +408,12 @@ Deaths,Female,70 to 74,motor vehicle road injuries,leeds,0.8758616506649026,5506
 Deaths,Female,70 to 74,motorcyclist road injuries,leeds,0.019485341323407804,55060.81614969553
 Deaths,Female,70 to 74,multiple myeloma,leeds,8.690649663641985,55060.8161496955
 Deaths,Female,70 to 74,neoplasms,leeds,447.2906337483074,55060.81614969558
+Deaths,Female,70 to 74,non-rheumatic valvular heart disease,leeds,6.738200783586613,55060.81614969554
 Deaths,Female,70 to 74,other road injuries,leeds,0.014654870977470036,55060.816149695456
 Deaths,Female,70 to 74,other transport injuries,leeds,0.05329589376902624,55060.8161496955
 Deaths,Female,70 to 74,parkinson's disease,leeds,9.478272827878659,55060.81614969554
 Deaths,Female,70 to 74,pedestrian road injuries,leeds,0.9909859097056647,55060.816149695514
+Deaths,Female,70 to 74,rheumatic heart disease,leeds,3.2003234243270313,55060.8161496955
 Deaths,Female,70 to 74,road injuries,leeds,1.9277610248901866,55060.81614969558
 Deaths,Female,70 to 74,stomach cancer,leeds,12.502521540411559,55060.81614969556
 Deaths,Female,70 to 74,stroke,leeds,63.349808545959554,55060.8161496955
@@ -381,6 +423,7 @@ Deaths,Female,75 to 79,all causes,leeds,1203.6183999167088,37944.507448082164
 Deaths,Female,75 to 79,alzheimer's disease and other dementias,leeds,40.94972920214933,37944.50744808215
 Deaths,Female,75 to 79,bladder cancer,leeds,12.07833543863988,37944.507448082164
 Deaths,Female,75 to 79,breast cancer,leeds,52.88003350530196,37944.507448082135
+Deaths,Female,75 to 79,cardiomyopathy and myocarditis,leeds,3.0308562956795613,37944.50744808216
 Deaths,Female,75 to 79,cardiovascular diseases,leeds,340.32245113428974,37944.50744808212
 Deaths,Female,75 to 79,chronic myeloid leukemia,leeds,0.3915153599319209,37944.5074480822
 Deaths,Female,75 to 79,chronic obstructive pulmonary disease,leeds,126.80173446907793,37944.5074480822
@@ -396,10 +439,12 @@ Deaths,Female,75 to 79,motor vehicle road injuries,leeds,0.9001478625327006,3794
 Deaths,Female,75 to 79,motorcyclist road injuries,leeds,0.01083234059703202,37944.50744808217
 Deaths,Female,75 to 79,multiple myeloma,leeds,9.243301426010193,37944.50744808217
 Deaths,Female,75 to 79,neoplasms,leeds,443.504306609992,37944.507448082186
+Deaths,Female,75 to 79,non-rheumatic valvular heart disease,leeds,9.843595816228268,37944.507448082186
 Deaths,Female,75 to 79,other road injuries,leeds,0.009905272331036004,37944.50744808215
 Deaths,Female,75 to 79,other transport injuries,leeds,0.05550086088053168,37944.50744808216
 Deaths,Female,75 to 79,parkinson's disease,leeds,15.709402818752324,37944.50744808217
 Deaths,Female,75 to 79,pedestrian road injuries,leeds,1.3057663191331454,37944.50744808214
+Deaths,Female,75 to 79,rheumatic heart disease,leeds,4.427758046359891,37944.50744808217
 Deaths,Female,75 to 79,road injuries,leeds,2.245926345188894,37944.50744808218
 Deaths,Female,75 to 79,stomach cancer,leeds,15.625566339528085,37944.507448082186
 Deaths,Female,75 to 79,stroke,leeds,97.19273154381096,37944.50744808215
@@ -409,6 +454,7 @@ Deaths,Female,80 to 84,all causes,leeds,1692.3069261432051,29814.066237494284
 Deaths,Female,80 to 84,alzheimer's disease and other dementias,leeds,111.37839931341026,29814.066237494288
 Deaths,Female,80 to 84,bladder cancer,leeds,16.323188709131784,29814.066237494255
 Deaths,Female,80 to 84,breast cancer,leeds,58.27261772189526,29814.06623749428
+Deaths,Female,80 to 84,cardiomyopathy and myocarditis,leeds,5.23105801984304,29814.066237494288
 Deaths,Female,80 to 84,cardiovascular diseases,leeds,560.0334978362243,29814.066237494266
 Deaths,Female,80 to 84,chronic myeloid leukemia,leeds,0.5208894598172866,29814.06623749427
 Deaths,Female,80 to 84,chronic obstructive pulmonary disease,leeds,162.13444773444462,29814.066237494284
@@ -424,10 +470,12 @@ Deaths,Female,80 to 84,motor vehicle road injuries,leeds,0.8941288660997126,2981
 Deaths,Female,80 to 84,motorcyclist road injuries,leeds,0.0076620869240903115,29814.06623749425
 Deaths,Female,80 to 84,multiple myeloma,leeds,9.92427314831286,29814.06623749425
 Deaths,Female,80 to 84,neoplasms,leeds,470.8988129538351,29814.066237494237
+Deaths,Female,80 to 84,non-rheumatic valvular heart disease,leeds,17.595518294289295,29814.066237494244
 Deaths,Female,80 to 84,other road injuries,leeds,0.008168959222647171,29814.066237494273
 Deaths,Female,80 to 84,other transport injuries,leeds,0.037813686282880815,29814.066237494284
 Deaths,Female,80 to 84,parkinson's disease,leeds,23.144777727076868,29814.066237494273
 Deaths,Female,80 to 84,pedestrian road injuries,leeds,1.3622390620126263,29814.066237494284
+Deaths,Female,80 to 84,rheumatic heart disease,leeds,5.701010452427191,29814.066237494255
 Deaths,Female,80 to 84,road injuries,leeds,2.286250129513255,29814.06623749427
 Deaths,Female,80 to 84,stomach cancer,leeds,19.287652917312105,29814.06623749429
 Deaths,Female,80 to 84,stroke,leeds,165.22627607626507,29814.066237494266
@@ -437,6 +485,7 @@ Deaths,Female,85 to 89,all causes,leeds,1961.016518440515,18981.16321353026
 Deaths,Female,85 to 89,alzheimer's disease and other dementias,leeds,179.16595638557735,18981.163213530243
 Deaths,Female,85 to 89,bladder cancer,leeds,17.63539108099355,18981.163213530257
 Deaths,Female,85 to 89,breast cancer,leeds,57.53902227292973,18981.163213530228
+Deaths,Female,85 to 89,cardiomyopathy and myocarditis,leeds,7.704803301478745,18981.16321353022
 Deaths,Female,85 to 89,cardiovascular diseases,leeds,713.3548163787309,18981.163213530243
 Deaths,Female,85 to 89,chronic myeloid leukemia,leeds,0.6308771184374519,18981.163213530235
 Deaths,Female,85 to 89,chronic obstructive pulmonary disease,leeds,156.3380681482697,18981.16321353025
@@ -452,10 +501,12 @@ Deaths,Female,85 to 89,motor vehicle road injuries,leeds,0.6562512575110679,1898
 Deaths,Female,85 to 89,motorcyclist road injuries,leeds,0.006246944461624283,18981.163213530228
 Deaths,Female,85 to 89,multiple myeloma,leeds,8.277507148096543,18981.163213530243
 Deaths,Female,85 to 89,neoplasms,leeds,412.4168140826312,18981.163213530243
+Deaths,Female,85 to 89,non-rheumatic valvular heart disease,leeds,24.908222920502197,18981.163213530243
 Deaths,Female,85 to 89,other road injuries,leeds,0.007411729580675338,18981.163213530213
 Deaths,Female,85 to 89,other transport injuries,leeds,0.02976995316426754,18981.163213530243
 Deaths,Female,85 to 89,parkinson's disease,leeds,22.147823113021175,18981.163213530228
 Deaths,Female,85 to 89,pedestrian road injuries,leeds,1.2093276901066161,18981.163213530243
+Deaths,Female,85 to 89,rheumatic heart disease,leeds,6.173339542015975,18981.16321353023
 Deaths,Female,85 to 89,road injuries,leeds,1.8900150572353138,18981.163213530228
 Deaths,Female,85 to 89,stomach cancer,leeds,19.792444623591777,18981.16321353024
 Deaths,Female,85 to 89,stroke,leeds,225.79730467703135,18981.163213530243
@@ -465,6 +516,7 @@ Deaths,Female,90 to 94,all causes,leeds,1666.3142787617385,8752.667570484857
 Deaths,Female,90 to 94,alzheimer's disease and other dementias,leeds,176.38941967465507,8752.667570484864
 Deaths,Female,90 to 94,bladder cancer,leeds,12.517159432916214,8752.667570484851
 Deaths,Female,90 to 94,breast cancer,leeds,41.778634382527436,8752.667570484864
+Deaths,Female,90 to 94,cardiomyopathy and myocarditis,leeds,7.911373734158537,8752.667570484855
 Deaths,Female,90 to 94,cardiovascular diseases,leeds,656.5129495762029,8752.667570484851
 Deaths,Female,90 to 94,chronic myeloid leukemia,leeds,0.4040678229333338,8752.667570484853
 Deaths,Female,90 to 94,chronic obstructive pulmonary disease,leeds,113.82392341568932,8752.667570484859
@@ -480,10 +532,12 @@ Deaths,Female,90 to 94,motor vehicle road injuries,leeds,0.32053449387860944,875
 Deaths,Female,90 to 94,motorcyclist road injuries,leeds,0.01349196910346007,8752.667570484857
 Deaths,Female,90 to 94,multiple myeloma,leeds,4.249154961395061,8752.667570484857
 Deaths,Female,90 to 94,neoplasms,leeds,250.51463249321654,8752.667570484859
+Deaths,Female,90 to 94,non-rheumatic valvular heart disease,leeds,23.787341628953055,8752.66757048486
 Deaths,Female,90 to 94,other road injuries,leeds,0.00829009919141123,8752.66757048486
 Deaths,Female,90 to 94,other transport injuries,leeds,0.02703457190078319,8752.667570484864
 Deaths,Female,90 to 94,parkinson's disease,leeds,12.792866013334033,8752.667570484851
 Deaths,Female,90 to 94,pedestrian road injuries,leeds,0.6329377585764885,8752.667570484859
+Deaths,Female,90 to 94,rheumatic heart disease,leeds,4.470306865103809,8752.667570484853
 Deaths,Female,90 to 94,road injuries,leeds,0.9861085072044946,8752.667570484859
 Deaths,Female,90 to 94,stomach cancer,leeds,12.924500851967535,8752.667570484864
 Deaths,Female,90 to 94,stroke,leeds,206.56667986689376,8752.667570484857
@@ -493,6 +547,7 @@ Deaths,Female,95 to 99,all causes,leeds,823.779293334791,2494.512810023781
 Deaths,Female,95 to 99,alzheimer's disease and other dementias,leeds,91.86324730434211,2494.5128100237825
 Deaths,Female,95 to 99,bladder cancer,leeds,5.418266514326137,2494.5128100237835
 Deaths,Female,95 to 99,breast cancer,leeds,18.249891939682275,2494.5128100237844
+Deaths,Female,95 to 99,cardiomyopathy and myocarditis,leeds,4.505908362750184,2494.5128100237803
 Deaths,Female,95 to 99,cardiovascular diseases,leeds,335.75121810400424,2494.5128100237816
 Deaths,Female,95 to 99,chronic myeloid leukemia,leeds,0.15917860277920626,2494.512810023782
 Deaths,Female,95 to 99,chronic obstructive pulmonary disease,leeds,55.21984238743957,2494.512810023783
@@ -508,16 +563,19 @@ Deaths,Female,95 to 99,motor vehicle road injuries,leeds,0.1352868808215954,2494
 Deaths,Female,95 to 99,motorcyclist road injuries,leeds,0.010623788085999031,2494.5128100237857
 Deaths,Female,95 to 99,multiple myeloma,leeds,1.2334233385790938,2494.5128100237816
 Deaths,Female,95 to 99,neoplasms,leeds,101.55770572080665,2494.51281002378
+Deaths,Female,95 to 99,non-rheumatic valvular heart disease,leeds,11.815395341591891,2494.5128100237835
 Deaths,Female,95 to 99,other road injuries,leeds,0.005241420493532661,2494.5128100237807
 Deaths,Female,95 to 99,other transport injuries,leeds,0.020755525952598382,2494.512810023783
 Deaths,Female,95 to 99,parkinson's disease,leeds,4.051430148515226,2494.512810023783
 Deaths,Female,95 to 99,pedestrian road injuries,leeds,0.25286454090984956,2494.512810023783
+Deaths,Female,95 to 99,rheumatic heart disease,leeds,2.0561321670682684,2494.512810023783
 Deaths,Female,95 to 99,road injuries,leeds,0.4044310369439825,2494.51281002378
 Deaths,Female,95 to 99,stomach cancer,leeds,5.468124617758627,2494.5128100237803
 Deaths,Female,95 to 99,stroke,leeds,107.53487986139233,2494.5128100237803
 Deaths,Female,95 to 99,"tracheal, bronchus, and lung cancer",leeds,16.245703104002576,2494.5128100237825
 Deaths,Female,95 to 99,uterine cancer,leeds,1.7334118800503004,2494.5128100237816
 Deaths,Male,0 to 5,all causes,leeds,80.47678833092915,76276.01704169216
+Deaths,Male,0 to 5,cardiomyopathy and myocarditis,leeds,0.5284626973790316,76276.0170416922
 Deaths,Male,0 to 5,cardiovascular diseases,leeds,1.0613585818885716,76276.01704169216
 Deaths,Male,0 to 5,chronic myeloid leukemia,leeds,0.01957938925146969,76276.01704169222
 Deaths,Male,0 to 5,chronic obstructive pulmonary disease,leeds,0.021613258847243102,76276.01704169222
@@ -531,9 +589,11 @@ Deaths,Male,0 to 5,neoplasms,leeds,2.470571704518136,76276.01704169232
 Deaths,Male,0 to 5,other road injuries,leeds,0.01450395202041985,76276.01704169223
 Deaths,Male,0 to 5,other transport injuries,leeds,0.045016738692953334,76276.01704169229
 Deaths,Male,0 to 5,pedestrian road injuries,leeds,0.3016816173137065,76276.01704169215
+Deaths,Male,0 to 5,rheumatic heart disease,leeds,0.011234891933674825,76276.01704169218
 Deaths,Male,0 to 5,road injuries,leeds,0.5289527058727552,76276.01704169213
 Deaths,Male,0 to 5,stroke,leeds,0.13893595289517827,76276.01704169225
 Deaths,Male,10 to 14,all causes,leeds,6.181215641295226,76226.98278464335
+Deaths,Male,10 to 14,cardiomyopathy and myocarditis,leeds,0.10767744157969728,76226.9827846434
 Deaths,Male,10 to 14,cardiovascular diseases,leeds,0.2579208651341116,76226.98278464342
 Deaths,Male,10 to 14,chronic myeloid leukemia,leeds,0.009257541252894706,76226.98278464329
 Deaths,Male,10 to 14,chronic obstructive pulmonary disease,leeds,0.012224254135135655,76226.98278464339
@@ -548,12 +608,14 @@ Deaths,Male,10 to 14,neoplasms,leeds,1.7117164742763258,76226.98278464346
 Deaths,Male,10 to 14,other road injuries,leeds,0.015266125675085332,76226.98278464343
 Deaths,Male,10 to 14,other transport injuries,leeds,0.0635746667054057,76226.98278464336
 Deaths,Male,10 to 14,pedestrian road injuries,leeds,0.33065561368636476,76226.98278464336
+Deaths,Male,10 to 14,rheumatic heart disease,leeds,0.006852344298241436,76226.98278464336
 Deaths,Male,10 to 14,road injuries,leeds,0.7844045152988112,76226.98278464333
 Deaths,Male,10 to 14,stroke,leeds,0.06268873979439912,76226.98278464338
 Deaths,Male,10 to 14,"tracheal, bronchus, and lung cancer",leeds,0.00726912374309292,76226.98278464339
 Deaths,Male,15 to 19,all causes,leeds,20.906312577619886,69284.24237110087
 Deaths,Male,15 to 19,bladder cancer,leeds,0.007127698163600617,69284.24237110077
 Deaths,Male,15 to 19,breast cancer,leeds,0.007084150765541408,69284.24237110076
+Deaths,Male,15 to 19,cardiomyopathy and myocarditis,leeds,0.37224317158434356,69284.24237110089
 Deaths,Male,15 to 19,cardiovascular diseases,leeds,0.9704007903296589,69284.24237110077
 Deaths,Male,15 to 19,chronic myeloid leukemia,leeds,0.011785935582309802,69284.24237110093
 Deaths,Male,15 to 19,chronic obstructive pulmonary disease,leeds,0.04523770185008075,69284.24237110085
@@ -567,9 +629,11 @@ Deaths,Male,15 to 19,lower respiratory infections,leeds,0.30285466678123174,6928
 Deaths,Male,15 to 19,motor vehicle road injuries,leeds,2.741283412421938,69284.2423711009
 Deaths,Male,15 to 19,motorcyclist road injuries,leeds,1.221334027202471,69284.24237110083
 Deaths,Male,15 to 19,neoplasms,leeds,2.848207520233526,69284.2423711009
+Deaths,Male,15 to 19,non-rheumatic valvular heart disease,leeds,0.05062398307874074,69284.24237110087
 Deaths,Male,15 to 19,other road injuries,leeds,0.04898971821739093,69284.2423711009
 Deaths,Male,15 to 19,other transport injuries,leeds,0.23639392246306268,69284.24237110086
 Deaths,Male,15 to 19,pedestrian road injuries,leeds,0.8598860629287525,69284.24237110087
+Deaths,Male,15 to 19,rheumatic heart disease,leeds,0.009395919478850394,69284.24237110085
 Deaths,Male,15 to 19,road injuries,leeds,5.139850637520395,69284.24237110085
 Deaths,Male,15 to 19,stomach cancer,leeds,0.011785580459022177,69284.24237110085
 Deaths,Male,15 to 19,stroke,leeds,0.246441276461751,69284.24237110087
@@ -577,6 +641,7 @@ Deaths,Male,15 to 19,"tracheal, bronchus, and lung cancer",leeds,0.0156623054508
 Deaths,Male,20 to 24,all causes,leeds,43.34995874465404,75905.40937276847
 Deaths,Male,20 to 24,bladder cancer,leeds,0.0103353769511977,75905.4093727685
 Deaths,Male,20 to 24,breast cancer,leeds,0.008504386751440721,75905.40937276844
+Deaths,Male,20 to 24,cardiomyopathy and myocarditis,leeds,0.6887648782249383,75905.40937276854
 Deaths,Male,20 to 24,cardiovascular diseases,leeds,2.4717496525514933,75905.40937276847
 Deaths,Male,20 to 24,chronic myeloid leukemia,leeds,0.030997401205491423,75905.4093727685
 Deaths,Male,20 to 24,chronic obstructive pulmonary disease,leeds,0.08880660428860541,75905.40937276852
@@ -592,11 +657,13 @@ Deaths,Male,20 to 24,motor vehicle road injuries,leeds,5.172747633061011,75905.4
 Deaths,Male,20 to 24,motorcyclist road injuries,leeds,2.0587922330966966,75905.40937276847
 Deaths,Male,20 to 24,multiple myeloma,leeds,0.011090638052267423,75905.40937276848
 Deaths,Male,20 to 24,neoplasms,leeds,4.955019530488518,75905.40937276847
+Deaths,Male,20 to 24,non-rheumatic valvular heart disease,leeds,0.11019515639640755,75905.40937276854
 Deaths,Male,20 to 24,other road injuries,leeds,0.05647629457770079,75905.40937276852
 Deaths,Male,20 to 24,other transport injuries,leeds,0.4843759286372697,75905.40937276847
 Deaths,Male,20 to 24,parkinson's disease,leeds,0.0030334229343069504,75905.40937276848
 Deaths,Male,20 to 24,pedestrian road injuries,leeds,1.3926187265747163,75905.40937276842
 Deaths,Male,20 to 24,prostate cancer,leeds,0.023576675100879806,75905.40937276848
+Deaths,Male,20 to 24,rheumatic heart disease,leeds,0.029147298183415805,75905.40937276847
 Deaths,Male,20 to 24,road injuries,leeds,8.999936349751334,75905.40937276845
 Deaths,Male,20 to 24,stomach cancer,leeds,0.04465032124496343,75905.4093727685
 Deaths,Male,20 to 24,stroke,leeds,0.6839263063556634,75905.40937276845
@@ -604,6 +671,7 @@ Deaths,Male,20 to 24,"tracheal, bronchus, and lung cancer",leeds,0.0653022155603
 Deaths,Male,25 to 29,all causes,leeds,54.27946210465331,85128.46583735163
 Deaths,Male,25 to 29,bladder cancer,leeds,0.033146308603792335,85128.46583735163
 Deaths,Male,25 to 29,breast cancer,leeds,0.009692525704540591,85128.4658373516
+Deaths,Male,25 to 29,cardiomyopathy and myocarditis,leeds,0.9775932866888255,85128.46583735157
 Deaths,Male,25 to 29,cardiovascular diseases,leeds,6.022325657181352,85128.46583735172
 Deaths,Male,25 to 29,chronic myeloid leukemia,leeds,0.06515919817333388,85128.465837351745
 Deaths,Male,25 to 29,chronic obstructive pulmonary disease,leeds,0.17901192870241303,85128.46583735166
@@ -619,11 +687,13 @@ Deaths,Male,25 to 29,motor vehicle road injuries,leeds,3.698831391835677,85128.4
 Deaths,Male,25 to 29,motorcyclist road injuries,leeds,1.6936928680516778,85128.46583735147
 Deaths,Male,25 to 29,multiple myeloma,leeds,0.02799665799421467,85128.46583735154
 Deaths,Male,25 to 29,neoplasms,leeds,7.198726714092915,85128.46583735163
+Deaths,Male,25 to 29,non-rheumatic valvular heart disease,leeds,0.19620683438523032,85128.46583735164
 Deaths,Male,25 to 29,other road injuries,leeds,0.052696501459920636,85128.46583735173
 Deaths,Male,25 to 29,other transport injuries,leeds,0.49396755212209764,85128.4658373516
 Deaths,Male,25 to 29,parkinson's disease,leeds,0.0012940666531758298,85128.46583735167
 Deaths,Male,25 to 29,pedestrian road injuries,leeds,0.9980898442513901,85128.46583735172
 Deaths,Male,25 to 29,prostate cancer,leeds,0.03917573887027234,85128.4658373517
+Deaths,Male,25 to 29,rheumatic heart disease,leeds,0.06156320516066141,85128.46583735151
 Deaths,Male,25 to 29,road injuries,leeds,6.710432635096698,85128.46583735161
 Deaths,Male,25 to 29,stomach cancer,leeds,0.15071003145537454,85128.4658373516
 Deaths,Male,25 to 29,stroke,leeds,1.404105166891486,85128.46583735161
@@ -631,6 +701,7 @@ Deaths,Male,25 to 29,"tracheal, bronchus, and lung cancer",leeds,0.2417316485142
 Deaths,Male,30 to 34,all causes,leeds,78.12868398402678,88581.9504013622
 Deaths,Male,30 to 34,bladder cancer,leeds,0.10104833995083119,88581.95040136222
 Deaths,Male,30 to 34,breast cancer,leeds,0.00982767317608308,88581.95040136224
+Deaths,Male,30 to 34,cardiomyopathy and myocarditis,leeds,1.1861988715924061,88581.95040136228
 Deaths,Male,30 to 34,cardiovascular diseases,leeds,11.85679812393028,88581.9504013622
 Deaths,Male,30 to 34,chronic myeloid leukemia,leeds,0.09042785051069208,88581.9504013624
 Deaths,Male,30 to 34,chronic obstructive pulmonary disease,leeds,0.35981510464644323,88581.95040136228
@@ -646,11 +717,13 @@ Deaths,Male,30 to 34,motor vehicle road injuries,leeds,2.7849804061391485,88581.
 Deaths,Male,30 to 34,motorcyclist road injuries,leeds,1.5461823889561117,88581.95040136222
 Deaths,Male,30 to 34,multiple myeloma,leeds,0.09302968429804158,88581.95040136224
 Deaths,Male,30 to 34,neoplasms,leeds,12.050554617165533,88581.95040136225
+Deaths,Male,30 to 34,non-rheumatic valvular heart disease,leeds,0.2791202550209321,88581.95040136231
 Deaths,Male,30 to 34,other road injuries,leeds,0.03902839478574623,88581.95040136215
 Deaths,Male,30 to 34,other transport injuries,leeds,0.48451992473117167,88581.95040136226
 Deaths,Male,30 to 34,parkinson's disease,leeds,0.0026931715010393275,88581.95040136226
 Deaths,Male,30 to 34,pedestrian road injuries,leeds,1.0823965744078152,88581.95040136222
 Deaths,Male,30 to 34,prostate cancer,leeds,0.05283973984889868,88581.95040136231
+Deaths,Male,30 to 34,rheumatic heart disease,leeds,0.09339458092424853,88581.9504013622
 Deaths,Male,30 to 34,road injuries,leeds,5.73935625306585,88581.95040136234
 Deaths,Male,30 to 34,stomach cancer,leeds,0.46771462295155575,88581.95040136228
 Deaths,Male,30 to 34,stroke,leeds,2.3610971425560847,88581.95040136219
@@ -658,6 +731,7 @@ Deaths,Male,30 to 34,"tracheal, bronchus, and lung cancer",leeds,0.8916830042520
 Deaths,Male,35 to 39,all causes,leeds,107.95642715766449,87086.6981095112
 Deaths,Male,35 to 39,bladder cancer,leeds,0.21595961579486017,87086.69810951102
 Deaths,Male,35 to 39,breast cancer,leeds,0.022054900566680302,87086.69810951102
+Deaths,Male,35 to 39,cardiomyopathy and myocarditis,leeds,1.5688242183181393,87086.69810951102
 Deaths,Male,35 to 39,cardiovascular diseases,leeds,20.15027993670568,87086.69810951104
 Deaths,Male,35 to 39,chronic myeloid leukemia,leeds,0.11553897802402671,87086.69810951098
 Deaths,Male,35 to 39,chronic obstructive pulmonary disease,leeds,0.7223034645745571,87086.698109511
@@ -673,11 +747,13 @@ Deaths,Male,35 to 39,motor vehicle road injuries,leeds,2.263035541191575,87086.6
 Deaths,Male,35 to 39,motorcyclist road injuries,leeds,1.5279075315828972,87086.69810951104
 Deaths,Male,35 to 39,multiple myeloma,leeds,0.21480606883162598,87086.6981095111
 Deaths,Male,35 to 39,neoplasms,leeds,19.14304461380274,87086.69810951108
+Deaths,Male,35 to 39,non-rheumatic valvular heart disease,leeds,0.3790598160925099,87086.698109511
 Deaths,Male,35 to 39,other road injuries,leeds,0.026398214933816794,87086.69810951101
 Deaths,Male,35 to 39,other transport injuries,leeds,0.4800007695247376,87086.69810951101
 Deaths,Male,35 to 39,parkinson's disease,leeds,0.006665933063010536,87086.69810951104
 Deaths,Male,35 to 39,pedestrian road injuries,leeds,1.0809658363664014,87086.69810951105
 Deaths,Male,35 to 39,prostate cancer,leeds,0.07256452986682842,87086.69810951108
+Deaths,Male,35 to 39,rheumatic heart disease,leeds,0.13149231299565736,87086.69810951108
 Deaths,Male,35 to 39,road injuries,leeds,5.168458346997068,87086.69810951104
 Deaths,Male,35 to 39,stomach cancer,leeds,0.8973758115617653,87086.69810951101
 Deaths,Male,35 to 39,stroke,leeds,3.5819590739478775,87086.69810951101
@@ -686,6 +762,7 @@ Deaths,Male,40 to 44,all causes,leeds,143.89911786015546,77371.84848554229
 Deaths,Male,40 to 44,alzheimer's disease and other dementias,leeds,0.07960979456153129,77371.84848554233
 Deaths,Male,40 to 44,bladder cancer,leeds,0.44114026782271404,77371.8484855423
 Deaths,Male,40 to 44,breast cancer,leeds,0.04152510153551561,77371.84848554224
+Deaths,Male,40 to 44,cardiomyopathy and myocarditis,leeds,2.0334801521212276,77371.84848554232
 Deaths,Male,40 to 44,cardiovascular diseases,leeds,31.927115988248037,77371.8484855424
 Deaths,Male,40 to 44,chronic myeloid leukemia,leeds,0.12495013976022995,77371.84848554236
 Deaths,Male,40 to 44,chronic obstructive pulmonary disease,leeds,1.4536238595974882,77371.8484855423
@@ -701,11 +778,13 @@ Deaths,Male,40 to 44,motor vehicle road injuries,leeds,2.085860477562286,77371.8
 Deaths,Male,40 to 44,motorcyclist road injuries,leeds,1.5574242151617192,77371.84848554234
 Deaths,Male,40 to 44,multiple myeloma,leeds,0.41523188418338475,77371.84848554221
 Deaths,Male,40 to 44,neoplasms,leeds,29.45306325796041,77371.84848554233
+Deaths,Male,40 to 44,non-rheumatic valvular heart disease,leeds,0.5041456569158856,77371.84848554234
 Deaths,Male,40 to 44,other road injuries,leeds,0.019924218059781375,77371.84848554232
 Deaths,Male,40 to 44,other transport injuries,leeds,0.486853544210933,77371.8484855423
 Deaths,Male,40 to 44,parkinson's disease,leeds,0.06671165793157685,77371.8484855424
 Deaths,Male,40 to 44,pedestrian road injuries,leeds,1.1406661759605108,77371.84848554242
 Deaths,Male,40 to 44,prostate cancer,leeds,0.15095510996742809,77371.84848554237
+Deaths,Male,40 to 44,rheumatic heart disease,leeds,0.16957517724627857,77371.84848554236
 Deaths,Male,40 to 44,road injuries,leeds,5.101503684583353,77371.84848554226
 Deaths,Male,40 to 44,stomach cancer,leeds,1.4924883139440104,77371.84848554234
 Deaths,Male,40 to 44,stroke,leeds,5.301260037456189,77371.8484855423
@@ -714,6 +793,7 @@ Deaths,Male,45 to 49,all causes,leeds,218.9575547325133,80554.52870015152
 Deaths,Male,45 to 49,alzheimer's disease and other dementias,leeds,0.5232891578285482,80554.52870015158
 Deaths,Male,45 to 49,bladder cancer,leeds,0.9829981277760218,80554.52870015158
 Deaths,Male,45 to 49,breast cancer,leeds,0.06866177710218802,80554.52870015145
+Deaths,Male,45 to 49,cardiomyopathy and myocarditis,leeds,2.828187808854427,80554.52870015157
 Deaths,Male,45 to 49,cardiovascular diseases,leeds,54.45586173714983,80554.52870015161
 Deaths,Male,45 to 49,chronic myeloid leukemia,leeds,0.15288555316816355,80554.52870015167
 Deaths,Male,45 to 49,chronic obstructive pulmonary disease,leeds,3.3049488521744235,80554.52870015158
@@ -729,16 +809,19 @@ Deaths,Male,45 to 49,motor vehicle road injuries,leeds,2.377580377695366,80554.5
 Deaths,Male,45 to 49,motorcyclist road injuries,leeds,1.615759449358271,80554.52870015157
 Deaths,Male,45 to 49,multiple myeloma,leeds,0.9257541765475059,80554.52870015164
 Deaths,Male,45 to 49,neoplasms,leeds,54.73763796679343,80554.52870015163
+Deaths,Male,45 to 49,non-rheumatic valvular heart disease,leeds,0.7627973335083384,80554.52870015164
 Deaths,Male,45 to 49,other road injuries,leeds,0.02597751924125871,80554.52870015157
 Deaths,Male,45 to 49,other transport injuries,leeds,0.521790716098021,80554.52870015155
 Deaths,Male,45 to 49,parkinson's disease,leeds,0.22366091511520014,80554.52870015155
 Deaths,Male,45 to 49,pedestrian road injuries,leeds,1.4813159628365253,80554.52870015157
 Deaths,Male,45 to 49,prostate cancer,leeds,0.6728761610838133,80554.52870015166
+Deaths,Male,45 to 49,rheumatic heart disease,leeds,0.28124849190658163,80554.52870015161
 Deaths,Male,45 to 49,road injuries,leeds,5.868234626363328,80554.52870015164
 Deaths,Male,45 to 49,stomach cancer,leeds,2.675749871969183,80554.5287001515
 Deaths,Male,45 to 49,stroke,leeds,8.381332786398216,80554.52870015157
 Deaths,Male,45 to 49,"tracheal, bronchus, and lung cancer",leeds,9.985392931051173,80554.52870015151
 Deaths,Male,5 to 9,all causes,leeds,5.9752532139327705,78215.31178804791
+Deaths,Male,5 to 9,cardiomyopathy and myocarditis,leeds,0.06297585961115654,78215.31178804793
 Deaths,Male,5 to 9,cardiovascular diseases,leeds,0.17874212941708958,78215.31178804794
 Deaths,Male,5 to 9,chronic myeloid leukemia,leeds,0.00938480455537745,78215.31178804793
 Deaths,Male,5 to 9,chronic obstructive pulmonary disease,leeds,0.012149208431876451,78215.31178804788
@@ -753,12 +836,14 @@ Deaths,Male,5 to 9,neoplasms,leeds,1.9697810174843053,78215.31178804791
 Deaths,Male,5 to 9,other road injuries,leeds,0.009169343694283627,78215.31178804794
 Deaths,Male,5 to 9,other transport injuries,leeds,0.03715104162045037,78215.31178804793
 Deaths,Male,5 to 9,pedestrian road injuries,leeds,0.3543211187852302,78215.31178804785
+Deaths,Male,5 to 9,rheumatic heart disease,leeds,0.006734072917378775,78215.31178804798
 Deaths,Male,5 to 9,road injuries,leeds,0.6259316603383789,78215.31178804795
 Deaths,Male,5 to 9,stroke,leeds,0.043101163267802486,78215.31178804791
 Deaths,Male,50 to 54,all causes,leeds,312.805989061876,79830.60006638603
 Deaths,Male,50 to 54,alzheimer's disease and other dementias,leeds,1.1035801309074549,79830.60006638605
 Deaths,Male,50 to 54,bladder cancer,leeds,2.267486102823,79830.60006638603
 Deaths,Male,50 to 54,breast cancer,leeds,0.1133039992981778,79830.600066386
+Deaths,Male,50 to 54,cardiomyopathy and myocarditis,leeds,3.349314569702348,79830.60006638594
 Deaths,Male,50 to 54,cardiovascular diseases,leeds,92.26215868294373,79830.60006638605
 Deaths,Male,50 to 54,chronic myeloid leukemia,leeds,0.14866339755873761,79830.60006638592
 Deaths,Male,50 to 54,chronic obstructive pulmonary disease,leeds,9.051334311854113,79830.60006638594
@@ -774,11 +859,13 @@ Deaths,Male,50 to 54,motor vehicle road injuries,leeds,1.7082844783525601,79830.
 Deaths,Male,50 to 54,motorcyclist road injuries,leeds,0.9525156426367841,79830.600066386
 Deaths,Male,50 to 54,multiple myeloma,leeds,1.9514163344507787,79830.60006638597
 Deaths,Male,50 to 54,neoplasms,leeds,106.86199362611123,79830.600066386
+Deaths,Male,50 to 54,non-rheumatic valvular heart disease,leeds,1.322779380784837,79830.60006638605
 Deaths,Male,50 to 54,other road injuries,leeds,0.03838138102843615,79830.60006638597
 Deaths,Male,50 to 54,other transport injuries,leeds,0.4697315230068437,79830.600066386
 Deaths,Male,50 to 54,parkinson's disease,leeds,0.4870296536443315,79830.60006638602
 Deaths,Male,50 to 54,pedestrian road injuries,leeds,1.1943277327881587,79830.60006638602
 Deaths,Male,50 to 54,prostate cancer,leeds,2.866275200337288,79830.600066386
+Deaths,Male,50 to 54,rheumatic heart disease,leeds,0.3775753693857479,79830.60006638605
 Deaths,Male,50 to 54,road injuries,leeds,4.260656118050731,79830.60006638608
 Deaths,Male,50 to 54,stomach cancer,leeds,4.821687335701733,79830.60006638603
 Deaths,Male,50 to 54,stroke,leeds,12.037245525139562,79830.60006638605
@@ -787,6 +874,7 @@ Deaths,Male,55 to 59,all causes,leeds,455.9425673715491,72077.02347128886
 Deaths,Male,55 to 59,alzheimer's disease and other dementias,leeds,2.1052920054454516,72077.02347128895
 Deaths,Male,55 to 59,bladder cancer,leeds,4.170044781793052,72077.02347128898
 Deaths,Male,55 to 59,breast cancer,leeds,0.17528442368002078,72077.02347128888
+Deaths,Male,55 to 59,cardiomyopathy and myocarditis,leeds,4.153276545808084,72077.02347128894
 Deaths,Male,55 to 59,cardiovascular diseases,leeds,138.2480678347503,72077.02347128895
 Deaths,Male,55 to 59,chronic myeloid leukemia,leeds,0.19121198658653715,72077.02347128885
 Deaths,Male,55 to 59,chronic obstructive pulmonary disease,leeds,17.97035142060001,72077.02347128892
@@ -802,11 +890,13 @@ Deaths,Male,55 to 59,motor vehicle road injuries,leeds,1.511949314704962,72077.0
 Deaths,Male,55 to 59,motorcyclist road injuries,leeds,0.7035234068945686,72077.02347128888
 Deaths,Male,55 to 59,multiple myeloma,leeds,3.265651422771613,72077.02347128888
 Deaths,Male,55 to 59,neoplasms,leeds,175.11471391596055,72077.02347128883
+Deaths,Male,55 to 59,non-rheumatic valvular heart disease,leeds,2.1305382850997905,72077.0234712889
 Deaths,Male,55 to 59,other road injuries,leeds,0.03291205269608232,72077.02347128892
 Deaths,Male,55 to 59,other transport injuries,leeds,0.4250790365761468,72077.0234712889
 Deaths,Male,55 to 59,parkinson's disease,leeds,0.924169093265841,72077.02347128895
 Deaths,Male,55 to 59,pedestrian road injuries,leeds,1.1659267494421321,72077.02347128898
 Deaths,Male,55 to 59,prostate cancer,leeds,7.079379749247509,72077.02347128883
+Deaths,Male,55 to 59,rheumatic heart disease,leeds,0.5643789304833131,72077.02347128885
 Deaths,Male,55 to 59,road injuries,leeds,3.805674471859125,72077.0234712889
 Deaths,Male,55 to 59,stomach cancer,leeds,7.5874513256343334,72077.02347128889
 Deaths,Male,55 to 59,stroke,leeds,18.102186386924316,72077.02347128888
@@ -815,6 +905,7 @@ Deaths,Male,60 to 64,all causes,leeds,637.4683768093646,61182.84450455452
 Deaths,Male,60 to 64,alzheimer's disease and other dementias,leeds,3.9557925075892397,61182.844504554494
 Deaths,Male,60 to 64,bladder cancer,leeds,7.721243533972511,61182.844504554494
 Deaths,Male,60 to 64,breast cancer,leeds,0.24495544712281958,61182.844504554516
+Deaths,Male,60 to 64,cardiomyopathy and myocarditis,leeds,4.558193101359458,61182.84450455453
 Deaths,Male,60 to 64,cardiovascular diseases,leeds,189.72294294363388,61182.84450455456
 Deaths,Male,60 to 64,chronic myeloid leukemia,leeds,0.24411714768971848,61182.844504554516
 Deaths,Male,60 to 64,chronic obstructive pulmonary disease,leeds,40.34890463459508,61182.84450455461
@@ -830,11 +921,13 @@ Deaths,Male,60 to 64,motor vehicle road injuries,leeds,1.2431058764012013,61182.
 Deaths,Male,60 to 64,motorcyclist road injuries,leeds,0.4036774686115556,61182.8445045546
 Deaths,Male,60 to 64,multiple myeloma,leeds,4.954676168314472,61182.84450455453
 Deaths,Male,60 to 64,neoplasms,leeds,272.2225790032585,61182.84450455453
+Deaths,Male,60 to 64,non-rheumatic valvular heart disease,leeds,3.14762173499173,61182.84450455446
 Deaths,Male,60 to 64,other road injuries,leeds,0.022062643340249738,61182.84450455447
 Deaths,Male,60 to 64,other transport injuries,leeds,0.3580417294993436,61182.84450455454
 Deaths,Male,60 to 64,parkinson's disease,leeds,2.4440898050210964,61182.84450455456
 Deaths,Male,60 to 64,pedestrian road injuries,leeds,1.1343111050526464,61182.844504554516
 Deaths,Male,60 to 64,prostate cancer,leeds,17.999834350780077,61182.84450455454
+Deaths,Male,60 to 64,rheumatic heart disease,leeds,0.7368707855815668,61182.84450455457
 Deaths,Male,60 to 64,road injuries,leeds,3.090090458861792,61182.844504554494
 Deaths,Male,60 to 64,stomach cancer,leeds,11.043217337089484,61182.84450455453
 Deaths,Male,60 to 64,stroke,leeds,25.197644406066235,61182.84450455454
@@ -843,6 +936,7 @@ Deaths,Male,65 to 69,all causes,leeds,878.1512745133435,54177.91109015338
 Deaths,Male,65 to 69,alzheimer's disease and other dementias,leeds,7.973478499301797,54177.911090153386
 Deaths,Male,65 to 69,bladder cancer,leeds,12.561678212663685,54177.91109015339
 Deaths,Male,65 to 69,breast cancer,leeds,0.3269831890904029,54177.91109015334
+Deaths,Male,65 to 69,cardiomyopathy and myocarditis,leeds,5.2320384490078675,54177.91109015337
 Deaths,Male,65 to 69,cardiovascular diseases,leeds,256.9203158760218,54177.91109015336
 Deaths,Male,65 to 69,chronic myeloid leukemia,leeds,0.35956526511683345,54177.911090153335
 Deaths,Male,65 to 69,chronic obstructive pulmonary disease,leeds,69.95988823301774,54177.911090153364
@@ -858,11 +952,13 @@ Deaths,Male,65 to 69,motor vehicle road injuries,leeds,1.1219834645090843,54177.
 Deaths,Male,65 to 69,motorcyclist road injuries,leeds,0.26150936617023457,54177.9110901533
 Deaths,Male,65 to 69,multiple myeloma,leeds,7.277820858474213,54177.91109015336
 Deaths,Male,65 to 69,neoplasms,leeds,385.22626390903133,54177.9110901534
+Deaths,Male,65 to 69,non-rheumatic valvular heart disease,leeds,4.7785274757009315,54177.911090153364
 Deaths,Male,65 to 69,other road injuries,leeds,0.017089497843231827,54177.9110901534
 Deaths,Male,65 to 69,other transport injuries,leeds,0.29852517547860846,54177.91109015343
 Deaths,Male,65 to 69,parkinson's disease,leeds,6.218185544797217,54177.911090153335
 Deaths,Male,65 to 69,pedestrian road injuries,leeds,1.161505874073548,54177.91109015334
 Deaths,Male,65 to 69,prostate cancer,leeds,34.63520910920096,54177.91109015337
+Deaths,Male,65 to 69,rheumatic heart disease,leeds,1.045681218225076,54177.911090153364
 Deaths,Male,65 to 69,road injuries,leeds,2.830910937253093,54177.9110901534
 Deaths,Male,65 to 69,stomach cancer,leeds,15.724260508882182,54177.911090153335
 Deaths,Male,65 to 69,stroke,leeds,38.000038659722385,54177.91109015336
@@ -871,6 +967,7 @@ Deaths,Male,70 to 74,all causes,leeds,1347.3878404569234,49489.714269039934
 Deaths,Male,70 to 74,alzheimer's disease and other dementias,leeds,17.992564879580232,49489.714269039956
 Deaths,Male,70 to 74,bladder cancer,leeds,21.96794340524883,49489.714269039905
 Deaths,Male,70 to 74,breast cancer,leeds,0.49156114222146907,49489.714269039934
+Deaths,Male,70 to 74,cardiomyopathy and myocarditis,leeds,6.102901485543504,49489.71426903989
 Deaths,Male,70 to 74,cardiovascular diseases,leeds,408.5903263174025,49489.71426903987
 Deaths,Male,70 to 74,chronic myeloid leukemia,leeds,0.6231849242971059,49489.71426903985
 Deaths,Male,70 to 74,chronic obstructive pulmonary disease,leeds,122.6186326100926,49489.714269039905
@@ -886,11 +983,13 @@ Deaths,Male,70 to 74,motor vehicle road injuries,leeds,1.2389684166653292,49489.
 Deaths,Male,70 to 74,motorcyclist road injuries,leeds,0.14043864021387473,49489.714269039956
 Deaths,Male,70 to 74,multiple myeloma,leeds,10.802289998459797,49489.71426903992
 Deaths,Male,70 to 74,neoplasms,leeds,561.1113652708102,49489.71426903988
+Deaths,Male,70 to 74,non-rheumatic valvular heart disease,leeds,8.713460505159501,49489.71426903993
 Deaths,Male,70 to 74,other road injuries,leeds,0.014871827590266434,49489.714269039905
 Deaths,Male,70 to 74,other transport injuries,leeds,0.26044967073734543,49489.71426903989
 Deaths,Male,70 to 74,parkinson's disease,leeds,17.874041748396063,49489.71426903998
 Deaths,Male,70 to 74,pedestrian road injuries,leeds,1.4796111352279449,49489.714269039905
 Deaths,Male,70 to 74,prostate cancer,leeds,66.44400590082076,49489.7142690399
+Deaths,Male,70 to 74,rheumatic heart disease,leeds,1.8180001489388264,49489.71426903993
 Deaths,Male,70 to 74,road injuries,leeds,3.10791410129606,49489.714269039956
 Deaths,Male,70 to 74,stomach cancer,leeds,24.88797406339961,49489.714269039956
 Deaths,Male,70 to 74,stroke,leeds,71.78509906503005,49489.714269039934
@@ -899,6 +998,7 @@ Deaths,Male,75 to 79,all causes,leeds,1446.716833104429,32099.11521809722
 Deaths,Male,75 to 79,alzheimer's disease and other dementias,leeds,30.165752530094,32099.11521809725
 Deaths,Male,75 to 79,bladder cancer,leeds,25.492048562665712,32099.1152180972
 Deaths,Male,75 to 79,breast cancer,leeds,0.4312496211414266,32099.1152180972
+Deaths,Male,75 to 79,cardiomyopathy and myocarditis,leeds,5.69867457267235,32099.115218097224
 Deaths,Male,75 to 79,cardiovascular diseases,leeds,463.6203482569962,32099.115218097242
 Deaths,Male,75 to 79,chronic myeloid leukemia,leeds,0.6583050420922015,32099.11521809723
 Deaths,Male,75 to 79,chronic obstructive pulmonary disease,leeds,136.06955914280078,32099.11521809725
@@ -914,11 +1014,13 @@ Deaths,Male,75 to 79,motor vehicle road injuries,leeds,1.12216197819879,32099.11
 Deaths,Male,75 to 79,motorcyclist road injuries,leeds,0.07089539963606253,32099.115218097217
 Deaths,Male,75 to 79,multiple myeloma,leeds,10.667120470443027,32099.11521809725
 Deaths,Male,75 to 79,neoplasms,leeds,537.8477677606836,32099.11521809724
+Deaths,Male,75 to 79,non-rheumatic valvular heart disease,leeds,11.27535432926482,32099.115218097213
 Deaths,Male,75 to 79,other road injuries,leeds,0.011814363999161522,32099.115218097228
 Deaths,Male,75 to 79,other transport injuries,leeds,0.17343363607596557,32099.115218097246
 Deaths,Male,75 to 79,parkinson's disease,leeds,29.545296471264074,32099.1152180972
 Deaths,Male,75 to 79,pedestrian road injuries,leeds,1.5357473374777577,32099.115218097246
 Deaths,Male,75 to 79,prostate cancer,leeds,86.765330468746,32099.115218097224
+Deaths,Male,75 to 79,rheumatic heart disease,leeds,2.069137223458509,32099.11521809724
 Deaths,Male,75 to 79,road injuries,leeds,2.9112737469650924,32099.11521809721
 Deaths,Male,75 to 79,stomach cancer,leeds,25.28561794386149,32099.1152180972
 Deaths,Male,75 to 79,stroke,leeds,96.21644457551285,32099.115218097213
@@ -927,6 +1029,7 @@ Deaths,Male,80 to 84,all causes,leeds,1738.7455717345808,22467.027739522324
 Deaths,Male,80 to 84,alzheimer's disease and other dementias,leeds,74.24618417035268,22467.0277395223
 Deaths,Male,80 to 84,bladder cancer,leeds,30.977986963948315,22467.0277395223
 Deaths,Male,80 to 84,breast cancer,leeds,0.3779311654018126,22467.027739522302
+Deaths,Male,80 to 84,cardiomyopathy and myocarditis,leeds,6.738678470434154,22467.02773952233
 Deaths,Male,80 to 84,cardiovascular diseases,leeds,588.1027660216225,22467.02773952231
 Deaths,Male,80 to 84,chronic myeloid leukemia,leeds,0.7162542062125381,22467.02773952228
 Deaths,Male,80 to 84,chronic obstructive pulmonary disease,leeds,162.85676832937943,22467.027739522295
@@ -942,11 +1045,13 @@ Deaths,Male,80 to 84,motor vehicle road injuries,leeds,1.177523467646414,22467.0
 Deaths,Male,80 to 84,motorcyclist road injuries,leeds,0.040869709880839704,22467.02773952231
 Deaths,Male,80 to 84,multiple myeloma,leeds,10.788674250606025,22467.027739522306
 Deaths,Male,80 to 84,neoplasms,leeds,539.0781501123531,22467.027739522324
+Deaths,Male,80 to 84,non-rheumatic valvular heart disease,leeds,17.781529620258794,22467.027739522317
 Deaths,Male,80 to 84,other road injuries,leeds,0.008901428757916491,22467.0277395223
 Deaths,Male,80 to 84,other transport injuries,leeds,0.13279086277974608,22467.027739522295
 Deaths,Male,80 to 84,parkinson's disease,leeds,38.1992449386593,22467.02773952232
 Deaths,Male,80 to 84,pedestrian road injuries,leeds,1.5476116607554042,22467.027739522317
 Deaths,Male,80 to 84,prostate cancer,leeds,109.33345891874183,22467.027739522317
+Deaths,Male,80 to 84,rheumatic heart disease,leeds,2.5268600032216937,22467.02773952231
 Deaths,Male,80 to 84,road injuries,leeds,2.8920650509709698,22467.027739522302
 Deaths,Male,80 to 84,stomach cancer,leeds,27.323783475241278,22467.027739522313
 Deaths,Male,80 to 84,stroke,leeds,140.0632894358193,22467.027739522327
@@ -955,6 +1060,7 @@ Deaths,Male,85 to 89,all causes,leeds,1570.8011686319905,11393.632464305456
 Deaths,Male,85 to 89,alzheimer's disease and other dementias,leeds,94.21541823742655,11393.632464305449
 Deaths,Male,85 to 89,bladder cancer,leeds,29.850013715261994,11393.632464305443
 Deaths,Male,85 to 89,breast cancer,leeds,0.3581361212234553,11393.63246430545
+Deaths,Male,85 to 89,cardiomyopathy and myocarditis,leeds,6.89801337742526,11393.632464305452
 Deaths,Male,85 to 89,cardiovascular diseases,leeds,541.5532563725569,11393.632464305456
 Deaths,Male,85 to 89,chronic myeloid leukemia,leeds,0.7015960393542577,11393.632464305454
 Deaths,Male,85 to 89,chronic obstructive pulmonary disease,leeds,134.78697484829556,11393.632464305456
@@ -970,11 +1076,13 @@ Deaths,Male,85 to 89,motor vehicle road injuries,leeds,0.8896452676469798,11393.
 Deaths,Male,85 to 89,motorcyclist road injuries,leeds,0.020294346646529897,11393.632464305456
 Deaths,Male,85 to 89,multiple myeloma,leeds,7.834545670707379,11393.63246430545
 Deaths,Male,85 to 89,neoplasms,leeds,414.7496467680297,11393.632464305443
+Deaths,Male,85 to 89,non-rheumatic valvular heart disease,leeds,18.80233891773705,11393.632464305447
 Deaths,Male,85 to 89,other road injuries,leeds,0.004397663071020714,11393.632464305458
 Deaths,Male,85 to 89,other transport injuries,leeds,0.07278860676126497,11393.632464305449
 Deaths,Male,85 to 89,parkinson's disease,leeds,31.453716046649703,11393.632464305456
 Deaths,Male,85 to 89,pedestrian road injuries,leeds,1.208141491746624,11393.632464305452
 Deaths,Male,85 to 89,prostate cancer,leeds,102.64381154399668,11393.632464305454
+Deaths,Male,85 to 89,rheumatic heart disease,leeds,2.2048417556288373,11393.632464305456
 Deaths,Male,85 to 89,road injuries,leeds,2.1853164258881703,11393.632464305441
 Deaths,Male,85 to 89,stomach cancer,leeds,20.7829519314715,11393.63246430545
 Deaths,Male,85 to 89,stroke,leeds,134.89906636901628,11393.632464305452
@@ -983,6 +1091,7 @@ Deaths,Male,90 to 94,all causes,leeds,914.845221587648,3825.4250999478745
 Deaths,Male,90 to 94,alzheimer's disease and other dementias,leeds,66.709151775148,3825.4250999478736
 Deaths,Male,90 to 94,bladder cancer,leeds,15.533953430565832,3825.4250999478736
 Deaths,Male,90 to 94,breast cancer,leeds,0.20676702186410975,3825.4250999478754
+Deaths,Male,90 to 94,cardiomyopathy and myocarditis,leeds,4.7890039139462965,3825.425099947877
 Deaths,Male,90 to 94,cardiovascular diseases,leeds,332.35233852146985,3825.425099947876
 Deaths,Male,90 to 94,chronic myeloid leukemia,leeds,0.33037342931548214,3825.4250999478763
 Deaths,Male,90 to 94,chronic obstructive pulmonary disease,leeds,72.90453785047538,3825.425099947878
@@ -998,11 +1107,13 @@ Deaths,Male,90 to 94,motor vehicle road injuries,leeds,0.37767425586533604,3825.
 Deaths,Male,90 to 94,motorcyclist road injuries,leeds,0.012978447376771196,3825.4250999478713
 Deaths,Male,90 to 94,multiple myeloma,leeds,2.869441199773975,3825.4250999478822
 Deaths,Male,90 to 94,neoplasms,leeds,191.94563399407286,3825.425099947878
+Deaths,Male,90 to 94,non-rheumatic valvular heart disease,leeds,12.124285524975395,3825.4250999478777
 Deaths,Male,90 to 94,other road injuries,leeds,0.003719708113303654,3825.4250999478772
 Deaths,Male,90 to 94,other transport injuries,leeds,0.037110181933066325,3825.425099947878
 Deaths,Male,90 to 94,parkinson's disease,leeds,14.161798886341716,3825.4250999478795
 Deaths,Male,90 to 94,pedestrian road injuries,leeds,0.5524254589564431,3825.4250999478754
 Deaths,Male,90 to 94,prostate cancer,leeds,56.783999674073776,3825.4250999478777
+Deaths,Male,90 to 94,rheumatic heart disease,leeds,1.2030437647604946,3825.4250999478772
 Deaths,Male,90 to 94,road injuries,leeds,0.9750831948702668,3825.4250999478745
 Deaths,Male,90 to 94,stomach cancer,leeds,9.204133697504137,3825.425099947876
 Deaths,Male,90 to 94,stroke,leeds,90.4981050466937,3825.4250999478754
@@ -1011,6 +1122,7 @@ Deaths,Male,95 to 99,all causes,leeds,248.8639331058734,659.2779634271023
 Deaths,Male,95 to 99,alzheimer's disease and other dementias,leeds,20.78388454208044,659.2779634271027
 Deaths,Male,95 to 99,bladder cancer,leeds,3.6674005323026106,659.2779634271023
 Deaths,Male,95 to 99,breast cancer,leeds,0.049317992104998994,659.2779634271033
+Deaths,Male,95 to 99,cardiomyopathy and myocarditis,leeds,1.4292494319923148,659.2779634271018
 Deaths,Male,95 to 99,cardiovascular diseases,leeds,92.640563072456,659.2779634271026
 Deaths,Male,95 to 99,chronic myeloid leukemia,leeds,0.07178466198682877,659.2779634271017
 Deaths,Male,95 to 99,chronic obstructive pulmonary disease,leeds,20.55806456204943,659.2779634271019
@@ -1026,16 +1138,19 @@ Deaths,Male,95 to 99,motor vehicle road injuries,leeds,0.0920264501441627,659.27
 Deaths,Male,95 to 99,motorcyclist road injuries,leeds,0.005563069657820774,659.2779634271019
 Deaths,Male,95 to 99,multiple myeloma,leeds,0.6572270674753474,659.2779634271019
 Deaths,Male,95 to 99,neoplasms,leeds,42.814297966685814,659.2779634271021
+Deaths,Male,95 to 99,non-rheumatic valvular heart disease,leeds,3.1844887402687614,659.2779634271023
 Deaths,Male,95 to 99,other road injuries,leeds,0.001868415457193525,659.2779634271019
 Deaths,Male,95 to 99,other transport injuries,leeds,0.012001419296560624,659.2779634271023
 Deaths,Male,95 to 99,parkinson's disease,leeds,2.3228204896003146,659.2779634271021
 Deaths,Male,95 to 99,pedestrian road injuries,leeds,0.13732752419038324,659.2779634271026
 Deaths,Male,95 to 99,prostate cancer,leeds,12.908723701608846,659.277963427102
+Deaths,Male,95 to 99,rheumatic heart disease,leeds,0.3088481925786178,659.2779634271025
 Deaths,Male,95 to 99,road injuries,leeds,0.23741827542807953,659.2779634271019
 Deaths,Male,95 to 99,stomach cancer,leeds,2.1212118567674514,659.277963427102
 Deaths,Male,95 to 99,stroke,leeds,26.137434212886195,659.2779634271013
 Deaths,Male,95 to 99,"tracheal, bronchus, and lung cancer",leeds,6.161584791320939,659.2779634271019
 YLLs (Years of Life Lost),Female,0 to 5,all causes,leeds,5805.174419504031,73084.89741847898
+YLLs (Years of Life Lost),Female,0 to 5,cardiomyopathy and myocarditis,leeds,34.07489810264999,73084.89741847891
 YLLs (Years of Life Lost),Female,0 to 5,cardiovascular diseases,leeds,78.00993301218762,73084.89741847897
 YLLs (Years of Life Lost),Female,0 to 5,chronic myeloid leukemia,leeds,0.797017278397222,73084.89741847898
 YLLs (Years of Life Lost),Female,0 to 5,chronic obstructive pulmonary disease,leeds,2.5869391868912484,73084.89741847897
@@ -1049,9 +1164,11 @@ YLLs (Years of Life Lost),Female,0 to 5,neoplasms,leeds,174.37116691843616,73084
 YLLs (Years of Life Lost),Female,0 to 5,other road injuries,leeds,1.2500513491563003,73084.89741847895
 YLLs (Years of Life Lost),Female,0 to 5,other transport injuries,leeds,1.995166134790499,73084.89741847897
 YLLs (Years of Life Lost),Female,0 to 5,pedestrian road injuries,leeds,15.952178698248275,73084.89741847903
+YLLs (Years of Life Lost),Female,0 to 5,rheumatic heart disease,leeds,1.054977757447595,73084.89741847903
 YLLs (Years of Life Lost),Female,0 to 5,road injuries,leeds,34.141626406734105,73084.89741847891
 YLLs (Years of Life Lost),Female,0 to 5,stroke,leeds,10.488541168165014,73084.89741847898
 YLLs (Years of Life Lost),Female,10 to 14,all causes,leeds,559.1465831635397,73745.02869532941
+YLLs (Years of Life Lost),Female,10 to 14,cardiomyopathy and myocarditis,leeds,6.568147058101238,73745.02869532941
 YLLs (Years of Life Lost),Female,10 to 14,cardiovascular diseases,leeds,24.720290347961416,73745.02869532938
 YLLs (Years of Life Lost),Female,10 to 14,chronic myeloid leukemia,leeds,0.8433964382070839,73745.02869532937
 YLLs (Years of Life Lost),Female,10 to 14,chronic obstructive pulmonary disease,leeds,2.3397131609676283,73745.0286953294
@@ -1066,12 +1183,14 @@ YLLs (Years of Life Lost),Female,10 to 14,neoplasms,leeds,162.76906284743833,737
 YLLs (Years of Life Lost),Female,10 to 14,other road injuries,leeds,1.7567474001762324,73745.02869532941
 YLLs (Years of Life Lost),Female,10 to 14,other transport injuries,leeds,2.7699416042113842,73745.02869532944
 YLLs (Years of Life Lost),Female,10 to 14,pedestrian road injuries,leeds,26.019467494761564,73745.02869532951
+YLLs (Years of Life Lost),Female,10 to 14,rheumatic heart disease,leeds,0.679953033565205,73745.02869532941
 YLLs (Years of Life Lost),Female,10 to 14,road injuries,leeds,49.722468661684935,73745.0286953294
 YLLs (Years of Life Lost),Female,10 to 14,stroke,leeds,7.978185184217757,73745.0286953294
 YLLs (Years of Life Lost),Female,10 to 14,"tracheal, bronchus, and lung cancer",leeds,1.1940872409200696,73745.02869532946
 YLLs (Years of Life Lost),Female,15 to 19,all causes,leeds,772.9443298092216,67955.06514918988
 YLLs (Years of Life Lost),Female,15 to 19,bladder cancer,leeds,0.5073362216987862,67955.06514918993
 YLLs (Years of Life Lost),Female,15 to 19,breast cancer,leeds,1.8989973633311306,67955.06514918999
+YLLs (Years of Life Lost),Female,15 to 19,cardiomyopathy and myocarditis,leeds,7.7671226031445,67955.0651491899
 YLLs (Years of Life Lost),Female,15 to 19,cardiovascular diseases,leeds,42.69320524998438,67955.06514918995
 YLLs (Years of Life Lost),Female,15 to 19,chronic myeloid leukemia,leeds,0.6775942823248197,67955.06514918996
 YLLs (Years of Life Lost),Female,15 to 19,chronic obstructive pulmonary disease,leeds,4.134648807741538,67955.06514918993
@@ -1085,9 +1204,11 @@ YLLs (Years of Life Lost),Female,15 to 19,lower respiratory infections,leeds,18.
 YLLs (Years of Life Lost),Female,15 to 19,motor vehicle road injuries,leeds,69.7574233343134,67955.06514918992
 YLLs (Years of Life Lost),Female,15 to 19,motorcyclist road injuries,leeds,7.996673191745527,67955.0651491899
 YLLs (Years of Life Lost),Female,15 to 19,neoplasms,leeds,156.6117562401156,67955.06514918993
+YLLs (Years of Life Lost),Female,15 to 19,non-rheumatic valvular heart disease,leeds,2.139795543985046,67955.06514918998
 YLLs (Years of Life Lost),Female,15 to 19,other road injuries,leeds,2.737605793182199,67955.06514918995
 YLLs (Years of Life Lost),Female,15 to 19,other transport injuries,leeds,3.5274497858598695,67955.0651491899
 YLLs (Years of Life Lost),Female,15 to 19,pedestrian road injuries,leeds,28.69730726541568,67955.0651491899
+YLLs (Years of Life Lost),Female,15 to 19,rheumatic heart disease,leeds,0.7799053102003558,67955.06514918982
 YLLs (Years of Life Lost),Female,15 to 19,road injuries,leeds,113.57024404147604,67955.0651491899
 YLLs (Years of Life Lost),Female,15 to 19,stomach cancer,leeds,0.6574252453516062,67955.0651491899
 YLLs (Years of Life Lost),Female,15 to 19,stroke,leeds,13.462238844008048,67955.0651491899
@@ -1095,6 +1216,7 @@ YLLs (Years of Life Lost),Female,15 to 19,"tracheal, bronchus, and lung cancer",
 YLLs (Years of Life Lost),Female,20 to 24,all causes,leeds,1023.3818682164923,76169.18382848066
 YLLs (Years of Life Lost),Female,20 to 24,bladder cancer,leeds,0.5934530866094699,76169.18382848064
 YLLs (Years of Life Lost),Female,20 to 24,breast cancer,leeds,6.285645166503438,76169.18382848064
+YLLs (Years of Life Lost),Female,20 to 24,cardiomyopathy and myocarditis,leeds,9.634297305645006,76169.18382848064
 YLLs (Years of Life Lost),Female,20 to 24,cardiovascular diseases,leeds,73.41908790950502,76169.18382848066
 YLLs (Years of Life Lost),Female,20 to 24,chronic myeloid leukemia,leeds,0.8038868847428344,76169.18382848063
 YLLs (Years of Life Lost),Female,20 to 24,chronic obstructive pulmonary disease,leeds,5.933770277717426,76169.18382848077
@@ -1110,10 +1232,12 @@ YLLs (Years of Life Lost),Female,20 to 24,motor vehicle road injuries,leeds,68.6
 YLLs (Years of Life Lost),Female,20 to 24,motorcyclist road injuries,leeds,7.824980807350701,76169.18382848066
 YLLs (Years of Life Lost),Female,20 to 24,multiple myeloma,leeds,0.3110478144417994,76169.18382848066
 YLLs (Years of Life Lost),Female,20 to 24,neoplasms,leeds,214.11155705668733,76169.18382848063
+YLLs (Years of Life Lost),Female,20 to 24,non-rheumatic valvular heart disease,leeds,3.073389211463902,76169.18382848064
 YLLs (Years of Life Lost),Female,20 to 24,other road injuries,leeds,2.807151952718332,76169.18382848064
 YLLs (Years of Life Lost),Female,20 to 24,other transport injuries,leeds,3.913505744303093,76169.18382848069
 YLLs (Years of Life Lost),Female,20 to 24,parkinson's disease,leeds,0.055176576452201795,76169.18382848069
 YLLs (Years of Life Lost),Female,20 to 24,pedestrian road injuries,leeds,21.79482931048161,76169.18382848061
+YLLs (Years of Life Lost),Female,20 to 24,rheumatic heart disease,leeds,1.5390793295536096,76169.18382848061
 YLLs (Years of Life Lost),Female,20 to 24,road injuries,leeds,104.6699109753612,76169.18382848069
 YLLs (Years of Life Lost),Female,20 to 24,stomach cancer,leeds,2.2741005425556047,76169.18382848064
 YLLs (Years of Life Lost),Female,20 to 24,stroke,leeds,25.425823904125686,76169.18382848069
@@ -1122,6 +1246,7 @@ YLLs (Years of Life Lost),Female,20 to 24,uterine cancer,leeds,0.558259399513800
 YLLs (Years of Life Lost),Female,25 to 29,all causes,leeds,1445.1034400180167,84918.10897302133
 YLLs (Years of Life Lost),Female,25 to 29,bladder cancer,leeds,2.011113435209139,84918.10897302143
 YLLs (Years of Life Lost),Female,25 to 29,breast cancer,leeds,61.14102078002781,84918.10897302134
+YLLs (Years of Life Lost),Female,25 to 29,cardiomyopathy and myocarditis,leeds,14.030906336509824,84918.10897302123
 YLLs (Years of Life Lost),Female,25 to 29,cardiovascular diseases,leeds,147.24106266639555,84918.10897302126
 YLLs (Years of Life Lost),Female,25 to 29,chronic myeloid leukemia,leeds,1.5120855177776724,84918.10897302137
 YLLs (Years of Life Lost),Female,25 to 29,chronic obstructive pulmonary disease,leeds,9.503418359764662,84918.10897302147
@@ -1137,10 +1262,12 @@ YLLs (Years of Life Lost),Female,25 to 29,motor vehicle road injuries,leeds,49.0
 YLLs (Years of Life Lost),Female,25 to 29,motorcyclist road injuries,leeds,5.791113468430635,84918.10897302142
 YLLs (Years of Life Lost),Female,25 to 29,multiple myeloma,leeds,0.6271110945393036,84918.10897302144
 YLLs (Years of Life Lost),Female,25 to 29,neoplasms,leeds,409.1008237023142,84918.10897302147
+YLLs (Years of Life Lost),Female,25 to 29,non-rheumatic valvular heart disease,leeds,5.840281889244474,84918.10897302146
 YLLs (Years of Life Lost),Female,25 to 29,other road injuries,leeds,2.403076745401776,84918.1089730214
 YLLs (Years of Life Lost),Female,25 to 29,other transport injuries,leeds,3.971663137838197,84918.10897302143
 YLLs (Years of Life Lost),Female,25 to 29,parkinson's disease,leeds,0.03198756577807875,84918.1089730214
 YLLs (Years of Life Lost),Female,25 to 29,pedestrian road injuries,leeds,15.34674050313815,84918.10897302144
+YLLs (Years of Life Lost),Female,25 to 29,rheumatic heart disease,leeds,3.038574450370661,84918.10897302142
 YLLs (Years of Life Lost),Female,25 to 29,road injuries,leeds,75.64013467732715,84918.10897302136
 YLLs (Years of Life Lost),Female,25 to 29,stomach cancer,leeds,8.898061242732814,84918.10897302144
 YLLs (Years of Life Lost),Female,25 to 29,stroke,leeds,55.80339132379473,84918.10897302139
@@ -1149,6 +1276,7 @@ YLLs (Years of Life Lost),Female,25 to 29,uterine cancer,leeds,2.164577661018570
 YLLs (Years of Life Lost),Female,30 to 34,all causes,leeds,2241.228181907689,87615.23402779782
 YLLs (Years of Life Lost),Female,30 to 34,bladder cancer,leeds,6.742253360312974,87615.2340277979
 YLLs (Years of Life Lost),Female,30 to 34,breast cancer,leeds,217.8736529399709,87615.23402779781
+YLLs (Years of Life Lost),Female,30 to 34,cardiomyopathy and myocarditis,leeds,16.236648857868975,87615.23402779788
 YLLs (Years of Life Lost),Female,30 to 34,cardiovascular diseases,leeds,254.45977653385674,87615.23402779791
 YLLs (Years of Life Lost),Female,30 to 34,chronic myeloid leukemia,leeds,2.149406997033022,87615.23402779775
 YLLs (Years of Life Lost),Female,30 to 34,chronic obstructive pulmonary disease,leeds,16.373341056248716,87615.23402779782
@@ -1164,10 +1292,12 @@ YLLs (Years of Life Lost),Female,30 to 34,motor vehicle road injuries,leeds,39.3
 YLLs (Years of Life Lost),Female,30 to 34,motorcyclist road injuries,leeds,5.288726113578633,87615.23402779784
 YLLs (Years of Life Lost),Female,30 to 34,multiple myeloma,leeds,2.0722355906296355,87615.23402779778
 YLLs (Years of Life Lost),Female,30 to 34,neoplasms,leeds,791.1538193135485,87615.23402779797
+YLLs (Years of Life Lost),Female,30 to 34,non-rheumatic valvular heart disease,leeds,7.851577700573353,87615.23402779782
 YLLs (Years of Life Lost),Female,30 to 34,other road injuries,leeds,2.0182080185166917,87615.23402779784
 YLLs (Years of Life Lost),Female,30 to 34,other transport injuries,leeds,3.493175109439226,87615.2340277979
 YLLs (Years of Life Lost),Female,30 to 34,parkinson's disease,leeds,0.09482848762374334,87615.23402779776
 YLLs (Years of Life Lost),Female,30 to 34,pedestrian road injuries,leeds,13.994773578184569,87615.23402779778
+YLLs (Years of Life Lost),Female,30 to 34,rheumatic heart disease,leeds,4.3585366252310225,87615.23402779781
 YLLs (Years of Life Lost),Female,30 to 34,road injuries,leeds,63.11703986382499,87615.23402779785
 YLLs (Years of Life Lost),Female,30 to 34,stomach cancer,leeds,22.342193225438535,87615.23402779782
 YLLs (Years of Life Lost),Female,30 to 34,stroke,leeds,91.69368847325883,87615.23402779787
@@ -1176,6 +1306,7 @@ YLLs (Years of Life Lost),Female,30 to 34,uterine cancer,leeds,5.024697735912715
 YLLs (Years of Life Lost),Female,35 to 39,all causes,leeds,3408.75290527339,82807.1782911485
 YLLs (Years of Life Lost),Female,35 to 39,bladder cancer,leeds,12.647538470875018,82807.1782911485
 YLLs (Years of Life Lost),Female,35 to 39,breast cancer,leeds,420.38770915302484,82807.17829114852
+YLLs (Years of Life Lost),Female,35 to 39,cardiomyopathy and myocarditis,leeds,23.77733321180743,82807.1782911485
 YLLs (Years of Life Lost),Female,35 to 39,cardiovascular diseases,leeds,451.2891573866347,82807.17829114852
 YLLs (Years of Life Lost),Female,35 to 39,chronic myeloid leukemia,leeds,3.1293828690078764,82807.17829114849
 YLLs (Years of Life Lost),Female,35 to 39,chronic obstructive pulmonary disease,leeds,30.91048974755543,82807.17829114846
@@ -1191,10 +1322,12 @@ YLLs (Years of Life Lost),Female,35 to 39,motor vehicle road injuries,leeds,35.5
 YLLs (Years of Life Lost),Female,35 to 39,motorcyclist road injuries,leeds,5.212774566367065,82807.17829114854
 YLLs (Years of Life Lost),Female,35 to 39,multiple myeloma,leeds,5.70476378572944,82807.17829114854
 YLLs (Years of Life Lost),Female,35 to 39,neoplasms,leeds,1322.4337803783926,82807.17829114849
+YLLs (Years of Life Lost),Female,35 to 39,non-rheumatic valvular heart disease,leeds,10.110493105619486,82807.17829114852
 YLLs (Years of Life Lost),Female,35 to 39,other road injuries,leeds,2.229119621730558,82807.17829114856
 YLLs (Years of Life Lost),Female,35 to 39,other transport injuries,leeds,3.5295743791553065,82807.17829114849
 YLLs (Years of Life Lost),Female,35 to 39,parkinson's disease,leeds,0.3534937897175382,82807.17829114855
 YLLs (Years of Life Lost),Female,35 to 39,pedestrian road injuries,leeds,16.4449722696359,82807.1782911484
+YLLs (Years of Life Lost),Female,35 to 39,rheumatic heart disease,leeds,7.082339179122714,82807.17829114854
 YLLs (Years of Life Lost),Female,35 to 39,road injuries,leeds,61.80095736444741,82807.17829114856
 YLLs (Years of Life Lost),Female,35 to 39,stomach cancer,leeds,37.58058887683101,82807.17829114848
 YLLs (Years of Life Lost),Female,35 to 39,stroke,leeds,162.52676398910273,82807.1782911485
@@ -1204,6 +1337,7 @@ YLLs (Years of Life Lost),Female,40 to 44,all causes,leeds,3927.0743426423446,72
 YLLs (Years of Life Lost),Female,40 to 44,alzheimer's disease and other dementias,leeds,3.8511198051866984,72336.10599666236
 YLLs (Years of Life Lost),Female,40 to 44,bladder cancer,leeds,19.338098642925804,72336.10599666239
 YLLs (Years of Life Lost),Female,40 to 44,breast cancer,leeds,521.5711718168196,72336.10599666237
+YLLs (Years of Life Lost),Female,40 to 44,cardiomyopathy and myocarditis,leeds,24.31951259037507,72336.10599666242
 YLLs (Years of Life Lost),Female,40 to 44,cardiovascular diseases,leeds,561.66617298074,72336.10599666233
 YLLs (Years of Life Lost),Female,40 to 44,chronic myeloid leukemia,leeds,2.5750795557833817,72336.10599666243
 YLLs (Years of Life Lost),Female,40 to 44,chronic obstructive pulmonary disease,leeds,50.06196288212945,72336.10599666236
@@ -1219,10 +1353,12 @@ YLLs (Years of Life Lost),Female,40 to 44,motor vehicle road injuries,leeds,29.2
 YLLs (Years of Life Lost),Female,40 to 44,motorcyclist road injuries,leeds,3.8588211262296324,72336.10599666243
 YLLs (Years of Life Lost),Female,40 to 44,multiple myeloma,leeds,10.323910704643938,72336.10599666236
 YLLs (Years of Life Lost),Female,40 to 44,neoplasms,leeds,1660.592667748669,72336.10599666234
+YLLs (Years of Life Lost),Female,40 to 44,non-rheumatic valvular heart disease,leeds,11.51576259461669,72336.10599666226
 YLLs (Years of Life Lost),Female,40 to 44,other road injuries,leeds,1.6324245614037964,72336.10599666236
 YLLs (Years of Life Lost),Female,40 to 44,other transport injuries,leeds,2.69114847734508,72336.1059966623
 YLLs (Years of Life Lost),Female,40 to 44,parkinson's disease,leeds,1.8809518235368394,72336.10599666237
 YLLs (Years of Life Lost),Female,40 to 44,pedestrian road injuries,leeds,15.372011334322893,72336.1059966624
+YLLs (Years of Life Lost),Female,40 to 44,rheumatic heart disease,leeds,10.299566088178068,72336.10599666239
 YLLs (Years of Life Lost),Female,40 to 44,road injuries,leeds,52.04342882052806,72336.10599666233
 YLLs (Years of Life Lost),Female,40 to 44,stomach cancer,leeds,48.64837019234467,72336.10599666242
 YLLs (Years of Life Lost),Female,40 to 44,stroke,leeds,189.26308849925167,72336.10599666236
@@ -1232,6 +1368,7 @@ YLLs (Years of Life Lost),Female,45 to 49,all causes,leeds,5624.31894073834,7780
 YLLs (Years of Life Lost),Female,45 to 49,alzheimer's disease and other dementias,leeds,22.67112990959226,77801.9558237595
 YLLs (Years of Life Lost),Female,45 to 49,bladder cancer,leeds,31.12120223261649,77801.95582375946
 YLLs (Years of Life Lost),Female,45 to 49,breast cancer,leeds,765.0249196996689,77801.95582375942
+YLLs (Years of Life Lost),Female,45 to 49,cardiomyopathy and myocarditis,leeds,30.13588722080923,77801.95582375937
 YLLs (Years of Life Lost),Female,45 to 49,cardiovascular diseases,leeds,863.8297199505854,77801.95582375943
 YLLs (Years of Life Lost),Female,45 to 49,chronic myeloid leukemia,leeds,3.3149234046931197,77801.95582375937
 YLLs (Years of Life Lost),Female,45 to 49,chronic obstructive pulmonary disease,leeds,107.42571332308177,77801.95582375942
@@ -1247,16 +1384,19 @@ YLLs (Years of Life Lost),Female,45 to 49,motor vehicle road injuries,leeds,30.8
 YLLs (Years of Life Lost),Female,45 to 49,motorcyclist road injuries,leeds,3.947327293457961,77801.95582375939
 YLLs (Years of Life Lost),Female,45 to 49,multiple myeloma,leeds,21.05933538118022,77801.95582375946
 YLLs (Years of Life Lost),Female,45 to 49,neoplasms,leeds,2581.3466594945676,77801.95582375953
+YLLs (Years of Life Lost),Female,45 to 49,non-rheumatic valvular heart disease,leeds,16.095337719555097,77801.95582375933
 YLLs (Years of Life Lost),Female,45 to 49,other road injuries,leeds,2.047355738600679,77801.95582375945
 YLLs (Years of Life Lost),Female,45 to 49,other transport injuries,leeds,2.6087896500409293,77801.95582375943
 YLLs (Years of Life Lost),Female,45 to 49,parkinson's disease,leeds,5.537518285992899,77801.95582375946
 YLLs (Years of Life Lost),Female,45 to 49,pedestrian road injuries,leeds,17.316988697463927,77801.9558237595
+YLLs (Years of Life Lost),Female,45 to 49,rheumatic heart disease,leeds,14.476315105525972,77801.95582375942
 YLLs (Years of Life Lost),Female,45 to 49,road injuries,leeds,56.42111350362053,77801.95582375943
 YLLs (Years of Life Lost),Female,45 to 49,stomach cancer,leeds,69.54032745153826,77801.9558237594
 YLLs (Years of Life Lost),Female,45 to 49,stroke,leeds,272.1477859460871,77801.95582375939
 YLLs (Years of Life Lost),Female,45 to 49,"tracheal, bronchus, and lung cancer",leeds,359.08474609060266,77801.95582375939
 YLLs (Years of Life Lost),Female,45 to 49,uterine cancer,leeds,33.036655415446425,77801.95582375939
 YLLs (Years of Life Lost),Female,5 to 9,all causes,leeds,435.743618150574,75337.23479072828
+YLLs (Years of Life Lost),Female,5 to 9,cardiomyopathy and myocarditis,leeds,4.966555515669706,75337.2347907283
 YLLs (Years of Life Lost),Female,5 to 9,cardiovascular diseases,leeds,16.642342511843754,75337.23479072827
 YLLs (Years of Life Lost),Female,5 to 9,chronic myeloid leukemia,leeds,0.6501470673560481,75337.23479072824
 YLLs (Years of Life Lost),Female,5 to 9,chronic obstructive pulmonary disease,leeds,1.8570611802893304,75337.23479072834
@@ -1271,12 +1411,14 @@ YLLs (Years of Life Lost),Female,5 to 9,neoplasms,leeds,135.8970660670969,75337.
 YLLs (Years of Life Lost),Female,5 to 9,other road injuries,leeds,0.8458580135680707,75337.23479072831
 YLLs (Years of Life Lost),Female,5 to 9,other transport injuries,leeds,1.4145560263320112,75337.23479072828
 YLLs (Years of Life Lost),Female,5 to 9,pedestrian road injuries,leeds,17.163616506823583,75337.23479072825
+YLLs (Years of Life Lost),Female,5 to 9,rheumatic heart disease,leeds,0.6425062265969168,75337.23479072828
 YLLs (Years of Life Lost),Female,5 to 9,road injuries,leeds,31.96501621512914,75337.23479072825
 YLLs (Years of Life Lost),Female,5 to 9,stroke,leeds,4.475268104413023,75337.23479072822
 YLLs (Years of Life Lost),Female,50 to 54,all causes,leeds,7958.462956031909,79396.26197324807
 YLLs (Years of Life Lost),Female,50 to 54,alzheimer's disease and other dementias,leeds,42.21989109226303,79396.26197324814
 YLLs (Years of Life Lost),Female,50 to 54,bladder cancer,leeds,49.95117405216874,79396.2619732481
 YLLs (Years of Life Lost),Female,50 to 54,breast cancer,leeds,1048.2680239626939,79396.26197324814
+YLLs (Years of Life Lost),Female,50 to 54,cardiomyopathy and myocarditis,leeds,31.120564779723864,79396.26197324805
 YLLs (Years of Life Lost),Female,50 to 54,cardiovascular diseases,leeds,1272.844007235044,79396.26197324808
 YLLs (Years of Life Lost),Female,50 to 54,chronic myeloid leukemia,leeds,2.95178741765465,79396.26197324813
 YLLs (Years of Life Lost),Female,50 to 54,chronic obstructive pulmonary disease,leeds,294.6687868437745,79396.26197324808
@@ -1292,10 +1434,12 @@ YLLs (Years of Life Lost),Female,50 to 54,motor vehicle road injuries,leeds,23.7
 YLLs (Years of Life Lost),Female,50 to 54,motorcyclist road injuries,leeds,2.8950166935727397,79396.26197324815
 YLLs (Years of Life Lost),Female,50 to 54,multiple myeloma,leeds,43.43443614642034,79396.2619732481
 YLLs (Years of Life Lost),Female,50 to 54,neoplasms,leeds,4147.4800854505065,79396.26197324814
+YLLs (Years of Life Lost),Female,50 to 54,non-rheumatic valvular heart disease,leeds,22.91185446152701,79396.26197324814
 YLLs (Years of Life Lost),Female,50 to 54,other road injuries,leeds,1.7812176842792429,79396.26197324815
 YLLs (Years of Life Lost),Female,50 to 54,other transport injuries,leeds,2.2604626993479124,79396.26197324807
 YLLs (Years of Life Lost),Female,50 to 54,parkinson's disease,leeds,12.121639111187584,79396.26197324802
 YLLs (Years of Life Lost),Female,50 to 54,pedestrian road injuries,leeds,14.815724024789018,79396.26197324805
+YLLs (Years of Life Lost),Female,50 to 54,rheumatic heart disease,leeds,20.791467455206302,79396.26197324808
 YLLs (Years of Life Lost),Female,50 to 54,road injuries,leeds,45.37216201616823,79396.26197324807
 YLLs (Years of Life Lost),Female,50 to 54,stomach cancer,leeds,98.25979727721628,79396.26197324813
 YLLs (Years of Life Lost),Female,50 to 54,stroke,leeds,371.8845383299703,79396.26197324801
@@ -1305,6 +1449,7 @@ YLLs (Years of Life Lost),Female,55 to 59,all causes,leeds,9885.45844983256,7292
 YLLs (Years of Life Lost),Female,55 to 59,alzheimer's disease and other dementias,leeds,70.65713902659367,72929.76567102583
 YLLs (Years of Life Lost),Female,55 to 59,bladder cancer,leeds,69.40595353956944,72929.7656710259
 YLLs (Years of Life Lost),Female,55 to 59,breast cancer,leeds,1163.6600735980958,72929.76567102587
+YLLs (Years of Life Lost),Female,55 to 59,cardiomyopathy and myocarditis,leeds,36.19236916929051,72929.76567102574
 YLLs (Years of Life Lost),Female,55 to 59,cardiovascular diseases,leeds,1609.418890553159,72929.7656710258
 YLLs (Years of Life Lost),Female,55 to 59,chronic myeloid leukemia,leeds,3.4230560155018592,72929.76567102583
 YLLs (Years of Life Lost),Female,55 to 59,chronic obstructive pulmonary disease,leeds,511.0813733770758,72929.76567102587
@@ -1320,10 +1465,12 @@ YLLs (Years of Life Lost),Female,55 to 59,motor vehicle road injuries,leeds,19.8
 YLLs (Years of Life Lost),Female,55 to 59,motorcyclist road injuries,leeds,2.3312899055157086,72929.76567102582
 YLLs (Years of Life Lost),Female,55 to 59,multiple myeloma,leeds,63.553322505462646,72929.76567102573
 YLLs (Years of Life Lost),Female,55 to 59,neoplasms,leeds,5303.955405429509,72929.76567102576
+YLLs (Years of Life Lost),Female,55 to 59,non-rheumatic valvular heart disease,leeds,30.2590017007074,72929.76567102585
 YLLs (Years of Life Lost),Female,55 to 59,other road injuries,leeds,1.6357941454635883,72929.7656710258
 YLLs (Years of Life Lost),Female,55 to 59,other transport injuries,leeds,1.9379751450704603,72929.7656710258
 YLLs (Years of Life Lost),Female,55 to 59,parkinson's disease,leeds,19.944491668660543,72929.76567102582
 YLLs (Years of Life Lost),Female,55 to 59,pedestrian road injuries,leeds,13.794437652611313,72929.76567102583
+YLLs (Years of Life Lost),Female,55 to 59,rheumatic heart disease,leeds,24.95035930495191,72929.76567102587
 YLLs (Years of Life Lost),Female,55 to 59,road injuries,leeds,39.48200546617409,72929.76567102583
 YLLs (Years of Life Lost),Female,55 to 59,stomach cancer,leeds,122.8636838169141,72929.76567102576
 YLLs (Years of Life Lost),Female,55 to 59,stroke,leeds,425.6709494963242,72929.76567102583
@@ -1333,6 +1480,7 @@ YLLs (Years of Life Lost),Female,60 to 64,all causes,leeds,12156.9270253165,6224
 YLLs (Years of Life Lost),Female,60 to 64,alzheimer's disease and other dementias,leeds,120.52883467074355,62241.234218373946
 YLLs (Years of Life Lost),Female,60 to 64,bladder cancer,leeds,95.84704100317656,62241.23421837396
 YLLs (Years of Life Lost),Female,60 to 64,breast cancer,leeds,1012.429092083925,62241.23421837395
+YLLs (Years of Life Lost),Female,60 to 64,cardiomyopathy and myocarditis,leeds,40.71506582481401,62241.23421837401
 YLLs (Years of Life Lost),Female,60 to 64,cardiovascular diseases,leeds,2288.2816777674534,62241.234218374
 YLLs (Years of Life Lost),Female,60 to 64,chronic myeloid leukemia,leeds,4.023390219341738,62241.23421837403
 YLLs (Years of Life Lost),Female,60 to 64,chronic obstructive pulmonary disease,leeds,957.451957698029,62241.23421837397
@@ -1348,10 +1496,12 @@ YLLs (Years of Life Lost),Female,60 to 64,motor vehicle road injuries,leeds,15.7
 YLLs (Years of Life Lost),Female,60 to 64,motorcyclist road injuries,leeds,1.2438816550031815,62241.234218373946
 YLLs (Years of Life Lost),Female,60 to 64,multiple myeloma,leeds,96.45549180451358,62241.234218373946
 YLLs (Years of Life Lost),Female,60 to 64,neoplasms,leeds,6342.246524164467,62241.23421837405
+YLLs (Years of Life Lost),Female,60 to 64,non-rheumatic valvular heart disease,leeds,50.066319031170565,62241.234218374
 YLLs (Years of Life Lost),Female,60 to 64,other road injuries,leeds,0.8431330297500532,62241.23421837395
 YLLs (Years of Life Lost),Female,60 to 64,other transport injuries,leeds,1.6063622901585548,62241.23421837394
 YLLs (Years of Life Lost),Female,60 to 64,parkinson's disease,leeds,40.15509593848102,62241.23421837397
 YLLs (Years of Life Lost),Female,60 to 64,pedestrian road injuries,leeds,14.901833297029004,62241.23421837388
+YLLs (Years of Life Lost),Female,60 to 64,rheumatic heart disease,leeds,31.93765057699111,62241.23421837392
 YLLs (Years of Life Lost),Female,60 to 64,road injuries,leeds,33.87495691199353,62241.234218373924
 YLLs (Years of Life Lost),Female,60 to 64,stomach cancer,leeds,151.30123483349684,62241.23421837397
 YLLs (Years of Life Lost),Female,60 to 64,stroke,leeds,556.7752142686678,62241.234218373975
@@ -1361,6 +1511,7 @@ YLLs (Years of Life Lost),Female,65 to 69,all causes,leeds,14033.3525559995,5607
 YLLs (Years of Life Lost),Female,65 to 69,alzheimer's disease and other dementias,leeds,218.4006011546442,56075.35744033057
 YLLs (Years of Life Lost),Female,65 to 69,bladder cancer,leeds,124.69184563593024,56075.35744033063
 YLLs (Years of Life Lost),Female,65 to 69,breast cancer,leeds,944.6831614336766,56075.357440330576
+YLLs (Years of Life Lost),Female,65 to 69,cardiomyopathy and myocarditis,leeds,37.227599022462584,56075.357440330525
 YLLs (Years of Life Lost),Female,65 to 69,cardiovascular diseases,leeds,2836.715638174728,56075.3574403306
 YLLs (Years of Life Lost),Female,65 to 69,chronic myeloid leukemia,leeds,4.42066273038429,56075.35744033056
 YLLs (Years of Life Lost),Female,65 to 69,chronic obstructive pulmonary disease,leeds,1358.6078684597137,56075.35744033063
@@ -1376,10 +1527,12 @@ YLLs (Years of Life Lost),Female,65 to 69,motor vehicle road injuries,leeds,14.9
 YLLs (Years of Life Lost),Female,65 to 69,motorcyclist road injuries,leeds,0.9230389915791306,56075.35744033054
 YLLs (Years of Life Lost),Female,65 to 69,multiple myeloma,leeds,126.07103909037885,56075.357440330554
 YLLs (Years of Life Lost),Female,65 to 69,neoplasms,leeds,7041.483576503967,56075.357440330496
+YLLs (Years of Life Lost),Female,65 to 69,non-rheumatic valvular heart disease,leeds,67.9041727071051,56075.35744033061
 YLLs (Years of Life Lost),Female,65 to 69,other road injuries,leeds,0.5386879564591659,56075.357440330525
 YLLs (Years of Life Lost),Female,65 to 69,other transport injuries,leeds,1.360594829166873,56075.35744033054
 YLLs (Years of Life Lost),Female,65 to 69,parkinson's disease,leeds,77.3014582640769,56075.35744033049
 YLLs (Years of Life Lost),Female,65 to 69,pedestrian road injuries,leeds,14.826084583197833,56075.35744033057
+YLLs (Years of Life Lost),Female,65 to 69,rheumatic heart disease,leeds,42.93631899495324,56075.35744033058
 YLLs (Years of Life Lost),Female,65 to 69,road injuries,leeds,32.03077620704052,56075.35744033057
 YLLs (Years of Life Lost),Female,65 to 69,stomach cancer,leeds,168.32079368431758,56075.35744033052
 YLLs (Years of Life Lost),Female,65 to 69,stroke,leeds,682.6854787610858,56075.35744033052
@@ -1389,6 +1542,7 @@ YLLs (Years of Life Lost),Female,70 to 74,all causes,leeds,19159.43809167903,550
 YLLs (Years of Life Lost),Female,70 to 74,alzheimer's disease and other dementias,leeds,432.19088361186294,55060.816149695536
 YLLs (Years of Life Lost),Female,70 to 74,bladder cancer,leeds,177.83201517718805,55060.81614969552
 YLLs (Years of Life Lost),Female,70 to 74,breast cancer,leeds,1014.8798628015882,55060.81614969553
+YLLs (Years of Life Lost),Female,70 to 74,cardiomyopathy and myocarditis,leeds,48.59367066833498,55060.816149695514
 YLLs (Years of Life Lost),Female,70 to 74,cardiovascular diseases,leeds,4565.515643478879,55060.81614969553
 YLLs (Years of Life Lost),Female,70 to 74,chronic myeloid leukemia,leeds,6.064151809917399,55060.81614969552
 YLLs (Years of Life Lost),Female,70 to 74,chronic obstructive pulmonary disease,leeds,2030.9654438728783,55060.816149695485
@@ -1404,10 +1558,12 @@ YLLs (Years of Life Lost),Female,70 to 74,motor vehicle road injuries,leeds,16.6
 YLLs (Years of Life Lost),Female,70 to 74,motorcyclist road injuries,leeds,0.37106009629564374,55060.81614969553
 YLLs (Years of Life Lost),Female,70 to 74,multiple myeloma,leeds,165.49198466205286,55060.816149695565
 YLLs (Years of Life Lost),Female,70 to 74,neoplasms,leeds,8517.817505503966,55060.816149695514
+YLLs (Years of Life Lost),Female,70 to 74,non-rheumatic valvular heart disease,leeds,128.3158376374729,55060.81614969549
 YLLs (Years of Life Lost),Female,70 to 74,other road injuries,leeds,0.27906650821392515,55060.81614969553
 YLLs (Years of Life Lost),Female,70 to 74,other transport injuries,leeds,1.0149311107617658,55060.8161496955
 YLLs (Years of Life Lost),Female,70 to 74,parkinson's disease,leeds,180.49630298329367,55060.8161496956
 YLLs (Years of Life Lost),Female,70 to 74,pedestrian road injuries,leeds,18.871434390998413,55060.81614969556
+YLLs (Years of Life Lost),Female,70 to 74,rheumatic heart disease,leeds,60.94273591822342,55060.816149695565
 YLLs (Years of Life Lost),Female,70 to 74,road injuries,leeds,36.71035193979111,55060.816149695485
 YLLs (Years of Life Lost),Female,70 to 74,stomach cancer,leeds,238.0838712438887,55060.816149695514
 YLLs (Years of Life Lost),Female,70 to 74,stroke,leeds,1206.2757452507346,55060.81614969557
@@ -1417,6 +1573,7 @@ YLLs (Years of Life Lost),Female,75 to 79,all causes,leeds,18107.217452172186,37
 YLLs (Years of Life Lost),Female,75 to 79,alzheimer's disease and other dementias,leeds,616.0240987526568,37944.507448082164
 YLLs (Years of Life Lost),Female,75 to 79,bladder cancer,leeds,181.69846576148726,37944.507448082186
 YLLs (Years of Life Lost),Female,75 to 79,breast cancer,leeds,795.5271209213876,37944.50744808213
+YLLs (Years of Life Lost),Female,75 to 79,cardiomyopathy and myocarditis,leeds,45.59662987814332,37944.50744808217
 YLLs (Years of Life Lost),Female,75 to 79,cardiovascular diseases,leeds,5119.799327293222,37944.507448082186
 YLLs (Years of Life Lost),Female,75 to 79,chronic myeloid leukemia,leeds,5.890502141251828,37944.50744808217
 YLLs (Years of Life Lost),Female,75 to 79,chronic obstructive pulmonary disease,leeds,1907.6675254551278,37944.507448082135
@@ -1432,10 +1589,12 @@ YLLs (Years of Life Lost),Female,75 to 79,motor vehicle road injuries,leeds,13.5
 YLLs (Years of Life Lost),Female,75 to 79,motorcyclist road injuries,leeds,0.16296316222776236,37944.50744808219
 YLLs (Years of Life Lost),Female,75 to 79,multiple myeloma,leeds,139.0584654911003,37944.50744808217
 YLLs (Years of Life Lost),Female,75 to 79,neoplasms,leeds,6672.069961451079,37944.50744808215
+YLLs (Years of Life Lost),Female,75 to 79,non-rheumatic valvular heart disease,leeds,148.0876734796737,37944.50744808215
 YLLs (Years of Life Lost),Female,75 to 79,other road injuries,leeds,0.14901183779363786,37944.50744808219
 YLLs (Years of Life Lost),Female,75 to 79,other transport injuries,leeds,0.8349294384656358,37944.50744808217
 YLLs (Years of Life Lost),Female,75 to 79,parkinson's disease,leeds,236.32812288837357,37944.50744808215
 YLLs (Years of Life Lost),Female,75 to 79,pedestrian road injuries,leeds,19.644322647359846,37944.507448082164
+YLLs (Years of Life Lost),Female,75 to 79,rheumatic heart disease,leeds,66.61320219125493,37944.50744808215
 YLLs (Years of Life Lost),Female,75 to 79,road injuries,leeds,33.788151497293,37944.50744808216
 YLLs (Years of Life Lost),Female,75 to 79,stomach cancer,leeds,235.0673105652866,37944.50744808216
 YLLs (Years of Life Lost),Female,75 to 79,stroke,leeds,1462.178871007403,37944.507448082186
@@ -1445,6 +1604,7 @@ YLLs (Years of Life Lost),Female,80 to 84,all causes,leeds,19521.731584086356,29
 YLLs (Years of Life Lost),Female,80 to 84,alzheimer's disease and other dementias,leeds,1284.8169612907957,29814.06623749427
 YLLs (Years of Life Lost),Female,80 to 84,bladder cancer,leeds,188.29598199142066,29814.066237494284
 YLLs (Years of Life Lost),Female,80 to 84,breast cancer,leeds,672.2190187093424,29814.066237494277
+YLLs (Years of Life Lost),Female,80 to 84,cardiomyopathy and myocarditis,leeds,60.34442072644821,29814.06623749427
 YLLs (Years of Life Lost),Female,80 to 84,cardiovascular diseases,leeds,6460.2942923318,29814.066237494277
 YLLs (Years of Life Lost),Female,80 to 84,chronic myeloid leukemia,leeds,6.0093394028365,29814.066237494237
 YLLs (Years of Life Lost),Female,80 to 84,chronic obstructive pulmonary disease,leeds,1870.3055062649062,29814.066237494288
@@ -1460,10 +1620,12 @@ YLLs (Years of Life Lost),Female,80 to 84,motor vehicle road injuries,leeds,10.3
 YLLs (Years of Life Lost),Female,80 to 84,motorcyclist road injuries,leeds,0.0883834721380154,29814.066237494295
 YLLs (Years of Life Lost),Female,80 to 84,multiple myeloma,leeds,114.48351253805843,29814.06623749428
 YLLs (Years of Life Lost),Female,80 to 84,neoplasms,leeds,5432.176973439334,29814.066237494273
+YLLs (Years of Life Lost),Female,80 to 84,non-rheumatic valvular heart disease,leeds,202.97386713165815,29814.06623749429
 YLLs (Years of Life Lost),Female,80 to 84,other road injuries,leeds,0.09423105984094501,29814.06623749427
 YLLs (Years of Life Lost),Female,80 to 84,other transport injuries,leeds,0.43618068626409034,29814.066237494277
 YLLs (Years of Life Lost),Female,80 to 84,parkinson's disease,leeds,266.98558152259073,29814.06623749425
 YLLs (Years of Life Lost),Female,80 to 84,pedestrian road injuries,leeds,15.714586633371532,29814.066237494262
+YLLs (Years of Life Lost),Female,80 to 84,rheumatic heart disease,leeds,65.7662377802917,29814.066237494248
 YLLs (Years of Life Lost),Female,80 to 84,road injuries,leeds,26.37365738882012,29814.066237494273
 YLLs (Years of Life Lost),Female,80 to 84,stomach cancer,leeds,222.49639057540801,29814.066237494266
 YLLs (Years of Life Lost),Female,80 to 84,stroke,leeds,1905.951087096105,29814.06623749425
@@ -1473,6 +1635,7 @@ YLLs (Years of Life Lost),Female,85 to 89,all causes,leeds,17229.540341572978,18
 YLLs (Years of Life Lost),Female,85 to 89,alzheimer's disease and other dementias,leeds,1574.163169149536,18981.163213530246
 YLLs (Years of Life Lost),Female,85 to 89,bladder cancer,leeds,154.9460227383028,18981.163213530257
 YLLs (Years of Life Lost),Female,85 to 89,breast cancer,leeds,505.53593308984745,18981.163213530235
+YLLs (Years of Life Lost),Female,85 to 89,cardiomyopathy and myocarditis,leeds,67.69432712808478,18981.16321353023
 YLLs (Years of Life Lost),Female,85 to 89,cardiovascular diseases,leeds,6267.539774236926,18981.163213530228
 YLLs (Years of Life Lost),Female,85 to 89,chronic myeloid leukemia,leeds,5.54280353578285,18981.16321353023
 YLLs (Years of Life Lost),Female,85 to 89,chronic obstructive pulmonary disease,leeds,1373.5782097377864,18981.16321353023
@@ -1488,10 +1651,12 @@ YLLs (Years of Life Lost),Female,85 to 89,motor vehicle road injuries,leeds,5.76
 YLLs (Years of Life Lost),Female,85 to 89,motorcyclist road injuries,leeds,0.05488738723588322,18981.163213530235
 YLLs (Years of Life Lost),Female,85 to 89,multiple myeloma,leeds,72.72572955499369,18981.163213530228
 YLLs (Years of Life Lost),Female,85 to 89,neoplasms,leeds,3623.4811272817483,18981.16321353024
+YLLs (Years of Life Lost),Female,85 to 89,non-rheumatic valvular heart disease,leeds,218.84304085535197,18981.16321353024
 YLLs (Years of Life Lost),Female,85 to 89,other road injuries,leeds,0.06512078432870061,18981.163213530228
 YLLs (Years of Life Lost),Female,85 to 89,other transport injuries,leeds,0.26158110958518055,18981.163213530235
 YLLs (Years of Life Lost),Female,85 to 89,parkinson's disease,leeds,194.59346240795486,18981.16321353023
 YLLs (Years of Life Lost),Female,85 to 89,pedestrian road injuries,leeds,10.625088249412673,18981.163213530243
+YLLs (Years of Life Lost),Female,85 to 89,rheumatic heart disease,leeds,54.23822147681452,18981.163213530243
 YLLs (Years of Life Lost),Female,85 to 89,road injuries,leeds,16.605613551996242,18981.16321353024
 YLLs (Years of Life Lost),Female,85 to 89,stomach cancer,leeds,173.89879708912463,18981.163213530243
 YLLs (Years of Life Lost),Female,85 to 89,stroke,leeds,1983.8455960403585,18981.163213530235
@@ -1501,6 +1666,7 @@ YLLs (Years of Life Lost),Female,90 to 94,all causes,leeds,11365.25672880712,875
 YLLs (Years of Life Lost),Female,90 to 94,alzheimer's disease and other dementias,leeds,1203.044549508299,8752.66757048486
 YLLs (Years of Life Lost),Female,90 to 94,bladder cancer,leeds,85.37559560544169,8752.66757048486
 YLLs (Years of Life Lost),Female,90 to 94,breast cancer,leeds,284.94859412148804,8752.667570484859
+YLLs (Years of Life Lost),Female,90 to 94,cardiomyopathy and myocarditis,leeds,53.960647767105755,8752.667570484857
 YLLs (Years of Life Lost),Female,90 to 94,cardiovascular diseases,leeds,4477.802936653584,8752.667570484866
 YLLs (Years of Life Lost),Female,90 to 94,chronic myeloid leukemia,leeds,2.7557178358324173,8752.667570484853
 YLLs (Years of Life Lost),Female,90 to 94,chronic obstructive pulmonary disease,leeds,776.3829359880652,8752.667570484855
@@ -1516,10 +1682,12 @@ YLLs (Years of Life Lost),Female,90 to 94,motor vehicle road injuries,leeds,2.18
 YLLs (Years of Life Lost),Female,90 to 94,motorcyclist road injuries,leeds,0.09202989589658207,8752.667570484855
 YLLs (Years of Life Lost),Female,90 to 94,multiple myeloma,leeds,28.981434919144316,8752.667570484857
 YLLs (Years of Life Lost),Female,90 to 94,neoplasms,leeds,1708.6254275531885,8752.667570484857
+YLLs (Years of Life Lost),Female,90 to 94,non-rheumatic valvular heart disease,leeds,162.23750436374456,8752.667570484855
 YLLs (Years of Life Lost),Female,90 to 94,other road injuries,leeds,0.05654730210086717,8752.667570484855
 YLLs (Years of Life Lost),Female,90 to 94,other transport injuries,leeds,0.18439202939882138,8752.667570484857
 YLLs (Years of Life Lost),Female,90 to 94,parkinson's disease,leeds,87.25575909643266,8752.667570484851
 YLLs (Years of Life Lost),Female,90 to 94,pedestrian road injuries,leeds,4.316887788810577,8752.667570484862
+YLLs (Years of Life Lost),Female,90 to 94,rheumatic heart disease,leeds,30.489231515421658,8752.667570484857
 YLLs (Years of Life Lost),Female,90 to 94,road injuries,leeds,6.725727896146865,8752.667570484851
 YLLs (Years of Life Lost),Female,90 to 94,stomach cancer,leeds,88.15088851216296,8752.667570484855
 YLLs (Years of Life Lost),Female,90 to 94,stroke,leeds,1408.9503260601473,8752.667570484859
@@ -1529,6 +1697,7 @@ YLLs (Years of Life Lost),Female,95 to 99,all causes,leeds,4318.959740825186,249
 YLLs (Years of Life Lost),Female,95 to 99,alzheimer's disease and other dementias,leeds,481.51492118067137,2494.512810023777
 YLLs (Years of Life Lost),Female,95 to 99,bladder cancer,leeds,28.407329046795233,2494.512810023782
 YLLs (Years of Life Lost),Female,95 to 99,breast cancer,leeds,95.66774732119922,2494.5128100237866
+YLLs (Years of Life Lost),Female,95 to 99,cardiomyopathy and myocarditis,leeds,23.62359312428409,2494.5128100237816
 YLLs (Years of Life Lost),Female,95 to 99,cardiovascular diseases,leeds,1760.3044895671221,2494.5128100237816
 YLLs (Years of Life Lost),Female,95 to 99,chronic myeloid leukemia,leeds,0.8340402400202265,2494.512810023783
 YLLs (Years of Life Lost),Female,95 to 99,chronic obstructive pulmonary disease,leeds,289.60958089955665,2494.512810023783
@@ -1544,16 +1713,19 @@ YLLs (Years of Life Lost),Female,95 to 99,motor vehicle road injuries,leeds,0.70
 YLLs (Years of Life Lost),Female,95 to 99,motorcyclist road injuries,leeds,0.055711016083536895,2494.51281002378
 YLLs (Years of Life Lost),Female,95 to 99,multiple myeloma,leeds,6.466526633040209,2494.5128100237794
 YLLs (Years of Life Lost),Female,95 to 99,neoplasms,leeds,532.3989559180147,2494.5128100237825
+YLLs (Years of Life Lost),Female,95 to 99,non-rheumatic valvular heart disease,leeds,61.93209896947036,2494.5128100237844
 YLLs (Years of Life Lost),Female,95 to 99,other road injuries,leeds,0.02748835281196922,2494.5128100237816
 YLLs (Years of Life Lost),Female,95 to 99,other transport injuries,leeds,0.1087717052379025,2494.5128100237803
 YLLs (Years of Life Lost),Female,95 to 99,parkinson's disease,leeds,21.240487644105286,2494.5128100237825
 YLLs (Years of Life Lost),Female,95 to 99,pedestrian road injuries,leeds,1.325568084891096,2494.5128100237835
+YLLs (Years of Life Lost),Female,95 to 99,rheumatic heart disease,leeds,10.7787682820716,2494.5128100237844
 YLLs (Years of Life Lost),Female,95 to 99,road injuries,leeds,2.120204801016306,2494.5128100237803
 YLLs (Years of Life Lost),Female,95 to 99,stomach cancer,leeds,28.665174958239938,2494.5128100237807
 YLLs (Years of Life Lost),Female,95 to 99,stroke,leeds,563.9247592346179,2494.512810023782
 YLLs (Years of Life Lost),Female,95 to 99,"tracheal, bronchus, and lung cancer",leeds,85.1427114878931,2494.5128100237794
 YLLs (Years of Life Lost),Female,95 to 99,uterine cancer,leeds,9.087530699421759,2494.5128100237825
 YLLs (Years of Life Lost),Male,0 to 5,all causes,leeds,7107.177424315161,76276.0170416922
+YLLs (Years of Life Lost),Male,0 to 5,cardiomyopathy and myocarditis,leeds,46.34267531262853,76276.0170416922
 YLLs (Years of Life Lost),Male,0 to 5,cardiovascular diseases,leeds,93.03758156767921,76276.01704169216
 YLLs (Years of Life Lost),Male,0 to 5,chronic myeloid leukemia,leeds,1.6958085356729746,76276.01704169218
 YLLs (Years of Life Lost),Male,0 to 5,chronic obstructive pulmonary disease,leeds,1.8590708475157742,76276.0170416921
@@ -1567,9 +1739,11 @@ YLLs (Years of Life Lost),Male,0 to 5,neoplasms,leeds,213.74576348124737,76276.0
 YLLs (Years of Life Lost),Male,0 to 5,other road injuries,leeds,1.2546134330706757,76276.01704169218
 YLLs (Years of Life Lost),Male,0 to 5,other transport injuries,leeds,3.8987991633972685,76276.01704169225
 YLLs (Years of Life Lost),Male,0 to 5,pedestrian road injuries,leeds,26.027715588985487,76276.01704169218
+YLLs (Years of Life Lost),Male,0 to 5,rheumatic heart disease,leeds,0.9663725501325405,76276.01704169228
 YLLs (Years of Life Lost),Male,0 to 5,road injuries,leeds,45.726064676050534,76276.01704169218
 YLLs (Years of Life Lost),Male,0 to 5,stroke,leeds,12.159720725280371,76276.01704169218
 YLLs (Years of Life Lost),Male,10 to 14,all causes,leeds,471.09846408596763,76226.98278464351
+YLLs (Years of Life Lost),Male,10 to 14,cardiomyopathy and myocarditis,leeds,8.20672747333441,76226.98278464329
 YLLs (Years of Life Lost),Male,10 to 14,cardiovascular diseases,leeds,19.657604361052794,76226.98278464338
 YLLs (Years of Life Lost),Male,10 to 14,chronic myeloid leukemia,leeds,0.7055387774909003,76226.98278464342
 YLLs (Years of Life Lost),Male,10 to 14,chronic obstructive pulmonary disease,leeds,0.9316444692503995,76226.98278464339
@@ -1584,12 +1758,14 @@ YLLs (Years of Life Lost),Male,10 to 14,neoplasms,leeds,130.45682038990714,76226
 YLLs (Years of Life Lost),Male,10 to 14,other road injuries,leeds,1.1634555536785185,76226.98278464336
 YLLs (Years of Life Lost),Male,10 to 14,other transport injuries,leeds,4.84531269485636,76226.98278464338
 YLLs (Years of Life Lost),Male,10 to 14,pedestrian road injuries,leeds,25.200504350537916,76226.98278464332
+YLLs (Years of Life Lost),Male,10 to 14,rheumatic heart disease,leeds,0.522217024895987,76226.98278464336
 YLLs (Years of Life Lost),Male,10 to 14,road injuries,leeds,59.78321605235361,76226.98278464332
 YLLs (Years of Life Lost),Male,10 to 14,stroke,leeds,4.777935741682031,76226.98278464345
 YLLs (Years of Life Lost),Male,10 to 14,"tracheal, bronchus, and lung cancer",leeds,0.5539766129615952,76226.98278464323
 YLLs (Years of Life Lost),Male,15 to 19,all causes,leeds,1488.5448909626439,69284.24237110085
 YLLs (Years of Life Lost),Male,15 to 19,bladder cancer,leeds,0.5074522396839818,69284.24237110085
 YLLs (Years of Life Lost),Male,15 to 19,breast cancer,leeds,0.5043497134860934,69284.24237110085
+YLLs (Years of Life Lost),Male,15 to 19,cardiomyopathy and myocarditis,leeds,26.50332700440713,69284.24237110086
 YLLs (Years of Life Lost),Male,15 to 19,cardiovascular diseases,leeds,69.09392548825237,69284.24237110087
 YLLs (Years of Life Lost),Male,15 to 19,chronic myeloid leukemia,leeds,0.8391682548319865,69284.24237110085
 YLLs (Years of Life Lost),Male,15 to 19,chronic obstructive pulmonary disease,leeds,3.221083330473545,69284.24237110086
@@ -1603,9 +1779,11 @@ YLLs (Years of Life Lost),Male,15 to 19,lower respiratory infections,leeds,21.56
 YLLs (Years of Life Lost),Male,15 to 19,motor vehicle road injuries,leeds,195.17958748753816,69284.2423711009
 YLLs (Years of Life Lost),Male,15 to 19,motorcyclist road injuries,leeds,86.95942297099397,69284.24237110079
 YLLs (Years of Life Lost),Male,15 to 19,neoplasms,leeds,202.78864216885086,69284.24237110082
+YLLs (Years of Life Lost),Male,15 to 19,non-rheumatic valvular heart disease,leeds,3.6046280610923893,69284.24237110079
 YLLs (Years of Life Lost),Male,15 to 19,other road injuries,leeds,3.4883172429044813,69284.24237110092
 YLLs (Years of Life Lost),Male,15 to 19,other transport injuries,leeds,16.83215898588848,69284.24237110079
 YLLs (Years of Life Lost),Male,15 to 19,pedestrian road injuries,leeds,61.22306448693047,69284.24237110089
+YLLs (Years of Life Lost),Male,15 to 19,rheumatic heart disease,leeds,0.6689947148846683,69284.24237110082
 YLLs (Years of Life Lost),Male,15 to 19,road injuries,leeds,365.9565424543908,69284.24237110085
 YLLs (Years of Life Lost),Male,15 to 19,stomach cancer,leeds,0.8391597731772437,69284.24237110093
 YLLs (Years of Life Lost),Male,15 to 19,stroke,leeds,17.547504457069326,69284.24237110082
@@ -1613,6 +1791,7 @@ YLLs (Years of Life Lost),Male,15 to 19,"tracheal, bronchus, and lung cancer",le
 YLLs (Years of Life Lost),Male,20 to 24,all causes,leeds,2883.6070138450714,75905.40937276844
 YLLs (Years of Life Lost),Male,20 to 24,bladder cancer,leeds,0.6875044807473188,75905.40937276852
 YLLs (Years of Life Lost),Male,20 to 24,breast cancer,leeds,0.5657036579427445,75905.4093727685
+YLLs (Years of Life Lost),Male,20 to 24,cardiomyopathy and myocarditis,leeds,45.81615026515255,75905.40937276857
 YLLs (Years of Life Lost),Male,20 to 24,cardiovascular diseases,leeds,164.42012785523866,75905.40937276848
 YLLs (Years of Life Lost),Male,20 to 24,chronic myeloid leukemia,leeds,2.061899000013056,75905.40937276851
 YLLs (Years of Life Lost),Male,20 to 24,chronic obstructive pulmonary disease,leeds,5.9074149957157704,75905.40937276848
@@ -1628,11 +1807,13 @@ YLLs (Years of Life Lost),Male,20 to 24,motor vehicle road injuries,leeds,344.08
 YLLs (Years of Life Lost),Male,20 to 24,motorcyclist road injuries,leeds,136.94797769991345,75905.40937276844
 YLLs (Years of Life Lost),Male,20 to 24,multiple myeloma,leeds,0.7377432130066528,75905.40937276844
 YLLs (Years of Life Lost),Male,20 to 24,neoplasms,leeds,329.60322605187696,75905.40937276851
+YLLs (Years of Life Lost),Male,20 to 24,non-rheumatic valvular heart disease,leeds,7.330130775682356,75905.4093727685
 YLLs (Years of Life Lost),Male,20 to 24,other road injuries,leeds,3.756838889283092,75905.40937276847
 YLLs (Years of Life Lost),Male,20 to 24,other transport injuries,leeds,32.21983074789864,75905.40937276852
 YLLs (Years of Life Lost),Male,20 to 24,parkinson's disease,leeds,0.20178178213992498,75905.4093727686
 YLLs (Years of Life Lost),Male,20 to 24,pedestrian road injuries,leeds,92.63664498537686,75905.40937276851
 YLLs (Years of Life Lost),Male,20 to 24,prostate cancer,leeds,1.5683035075428111,75905.40937276848
+YLLs (Years of Life Lost),Male,20 to 24,rheumatic heart disease,leeds,1.9388392520333122,75905.40937276858
 YLLs (Years of Life Lost),Male,20 to 24,road injuries,leeds,598.6698724859032,75905.40937276847
 YLLs (Years of Life Lost),Male,20 to 24,stomach cancer,leeds,2.9700897765123524,75905.40937276844
 YLLs (Years of Life Lost),Male,20 to 24,stroke,leeds,45.495066780668566,75905.40937276851
@@ -1640,6 +1821,7 @@ YLLs (Years of Life Lost),Male,20 to 24,"tracheal, bronchus, and lung cancer",le
 YLLs (Years of Life Lost),Male,25 to 29,all causes,leeds,3343.631941865019,85128.46583735166
 YLLs (Years of Life Lost),Male,25 to 29,bladder cancer,leeds,2.041846435344533,85128.46583735169
 YLLs (Years of Life Lost),Male,25 to 29,breast cancer,leeds,0.5970530314329923,85128.46583735167
+YLLs (Years of Life Lost),Male,25 to 29,cardiomyopathy and myocarditis,leeds,60.22010911461033,85128.465837351745
 YLLs (Years of Life Lost),Male,25 to 29,cardiovascular diseases,leeds,370.9780877956021,85128.4658373517
 YLLs (Years of Life Lost),Male,25 to 29,chronic myeloid leukemia,leeds,4.013886747454249,85128.46583735158
 YLLs (Years of Life Lost),Male,25 to 29,chronic obstructive pulmonary disease,leeds,11.026916451255968,85128.46583735158
@@ -1655,11 +1837,13 @@ YLLs (Years of Life Lost),Male,25 to 29,motor vehicle road injuries,leeds,227.85
 YLLs (Years of Life Lost),Male,25 to 29,motorcyclist road injuries,leeds,104.33325473719019,85128.46583735169
 YLLs (Years of Life Lost),Male,25 to 29,multiple myeloma,leeds,1.7245930974500685,85128.46583735161
 YLLs (Years of Life Lost),Male,25 to 29,neoplasms,leeds,443.44484516229306,85128.46583735161
+YLLs (Years of Life Lost),Male,25 to 29,non-rheumatic valvular heart disease,leeds,12.08639686675046,85128.46583735163
 YLLs (Years of Life Lost),Male,25 to 29,other road injuries,leeds,3.2459849156169756,85128.46583735154
 YLLs (Years of Life Lost),Male,25 to 29,other transport injuries,leeds,30.428188039571936,85128.46583735163
 YLLs (Years of Life Lost),Male,25 to 29,parkinson's disease,leeds,0.07971538609099502,85128.465837351745
 YLLs (Years of Life Lost),Male,25 to 29,pedestrian road injuries,leeds,61.481633512724926,85128.46583735166
 YLLs (Years of Life Lost),Male,25 to 29,prostate cancer,leeds,2.413229515496725,85128.46583735161
+YLLs (Years of Life Lost),Male,25 to 29,rheumatic heart disease,leeds,3.7921712756817776,85128.46583735167
 YLLs (Years of Life Lost),Male,25 to 29,road injuries,leeds,413.3661772339047,85128.46583735169
 YLLs (Years of Life Lost),Male,25 to 29,stomach cancer,leeds,9.283708179615207,85128.46583735166
 YLLs (Years of Life Lost),Male,25 to 29,stroke,leeds,86.49419769977007,85128.46583735161
@@ -1667,6 +1851,7 @@ YLLs (Years of Life Lost),Male,25 to 29,"tracheal, bronchus, and lung cancer",le
 YLLs (Years of Life Lost),Male,30 to 34,all causes,leeds,4421.2770471072045,88581.95040136224
 YLLs (Years of Life Lost),Male,30 to 34,bladder cancer,leeds,5.718244619394766,88581.9504013622
 YLLs (Years of Life Lost),Male,30 to 34,breast cancer,leeds,0.5561507788277475,88581.95040136235
+YLLs (Years of Life Lost),Male,30 to 34,cardiomyopathy and myocarditis,leeds,67.12515193373395,88581.95040136224
 YLLs (Years of Life Lost),Male,30 to 34,cardiovascular diseases,leeds,670.9695027860494,88581.9504013623
 YLLs (Years of Life Lost),Male,30 to 34,chronic myeloid leukemia,leeds,5.117246095705494,88581.95040136234
 YLLs (Years of Life Lost),Male,30 to 34,chronic obstructive pulmonary disease,leeds,20.362147579060057,88581.95040136222
@@ -1682,11 +1867,13 @@ YLLs (Years of Life Lost),Male,30 to 34,motor vehicle road injuries,leeds,157.60
 YLLs (Years of Life Lost),Male,30 to 34,motorcyclist road injuries,leeds,87.49862207883314,88581.95040136226
 YLLs (Years of Life Lost),Male,30 to 34,multiple myeloma,leeds,5.264536430639661,88581.95040136226
 YLLs (Years of Life Lost),Male,30 to 34,neoplasms,leeds,681.933305198972,88581.95040136232
+YLLs (Years of Life Lost),Male,30 to 34,non-rheumatic valvular heart disease,leeds,15.795314311813929,88581.95040136232
 YLLs (Years of Life Lost),Male,30 to 34,other road injuries,leeds,2.208674269861567,88581.95040136218
 YLLs (Years of Life Lost),Male,30 to 34,other transport injuries,leeds,27.419254876016073,88581.9504013623
 YLLs (Years of Life Lost),Male,30 to 34,parkinson's disease,leeds,0.152406031986943,88581.95040136218
 YLLs (Years of Life Lost),Male,30 to 34,pedestrian road injuries,leeds,61.251601270525114,88581.9504013622
 YLLs (Years of Life Lost),Male,30 to 34,prostate cancer,leeds,2.9901706755573185,88581.95040136235
+YLLs (Years of Life Lost),Male,30 to 34,rheumatic heart disease,leeds,5.285067865265722,88581.9504013622
 YLLs (Years of Life Lost),Male,30 to 34,road injuries,leeds,324.7880678483168,88581.9504013622
 YLLs (Years of Life Lost),Male,30 to 34,stomach cancer,leeds,26.467916676120787,88581.95040136224
 YLLs (Years of Life Lost),Male,30 to 34,stroke,leeds,133.61351662657043,88581.95040136232
@@ -1694,6 +1881,7 @@ YLLs (Years of Life Lost),Male,30 to 34,"tracheal, bronchus, and lung cancer",le
 YLLs (Years of Life Lost),Male,35 to 39,all causes,leeds,5574.770643047199,87086.698109511
 YLLs (Years of Life Lost),Male,35 to 39,bladder cancer,leeds,11.152058479701385,87086.69810951104
 YLLs (Years of Life Lost),Male,35 to 39,breast cancer,leeds,1.1389447048897776,87086.69810951104
+YLLs (Years of Life Lost),Male,35 to 39,cardiomyopathy and myocarditis,leeds,81.01201057268541,87086.69810951101
 YLLs (Years of Life Lost),Male,35 to 39,cardiovascular diseases,leeds,1040.5512153635898,87086.69810951098
 YLLs (Years of Life Lost),Male,35 to 39,chronic myeloid leukemia,leeds,5.966310596449801,87086.69810951107
 YLLs (Years of Life Lost),Male,35 to 39,chronic obstructive pulmonary disease,leeds,37.29887337521398,87086.69810951107
@@ -1709,11 +1897,13 @@ YLLs (Years of Life Lost),Male,35 to 39,motor vehicle road injuries,leeds,116.86
 YLLs (Years of Life Lost),Male,35 to 39,motorcyclist road injuries,leeds,78.89994120947726,87086.69810951104
 YLLs (Years of Life Lost),Male,35 to 39,multiple myeloma,leeds,11.092389732562541,87086.69810951098
 YLLs (Years of Life Lost),Male,35 to 39,neoplasms,leeds,988.529076390007,87086.69810951102
+YLLs (Years of Life Lost),Male,35 to 39,non-rheumatic valvular heart disease,leeds,19.57433779499756,87086.69810951102
 YLLs (Years of Life Lost),Male,35 to 39,other road injuries,leeds,1.3631666639341746,87086.69810951104
 YLLs (Years of Life Lost),Male,35 to 39,other transport injuries,leeds,24.7865605181034,87086.69810951098
 YLLs (Years of Life Lost),Male,35 to 39,parkinson's disease,leeds,0.3442252195773463,87086.69810951105
 YLLs (Years of Life Lost),Male,35 to 39,pedestrian road injuries,leeds,55.818853724140936,87086.69810951095
 YLLs (Years of Life Lost),Male,35 to 39,prostate cancer,leeds,3.747187479575727,87086.69810951105
+YLLs (Years of Life Lost),Male,35 to 39,rheumatic heart disease,leeds,6.789792379707448,87086.69810951094
 YLLs (Years of Life Lost),Male,35 to 39,road injuries,leeds,266.8944772287237,87086.69810951104
 YLLs (Years of Life Lost),Male,35 to 39,stomach cancer,leeds,46.3393107459046,87086.69810951105
 YLLs (Years of Life Lost),Male,35 to 39,stroke,leeds,184.9734425133442,87086.698109511
@@ -1722,6 +1912,7 @@ YLLs (Years of Life Lost),Male,40 to 44,all causes,leeds,6723.192004694972,77371
 YLLs (Years of Life Lost),Male,40 to 44,alzheimer's disease and other dementias,leeds,3.7195133837839305,77371.84848554236
 YLLs (Years of Life Lost),Male,40 to 44,bladder cancer,leeds,20.610820221918157,77371.84848554236
 YLLs (Years of Life Lost),Male,40 to 44,breast cancer,leeds,1.9401358765649597,77371.84848554232
+YLLs (Years of Life Lost),Male,40 to 44,cardiomyopathy and myocarditis,leeds,95.00741454362496,77371.84848554236
 YLLs (Years of Life Lost),Male,40 to 44,cardiovascular diseases,leeds,1491.6875658866002,77371.84848554232
 YLLs (Years of Life Lost),Male,40 to 44,chronic myeloid leukemia,leeds,5.83786783328465,77371.84848554224
 YLLs (Years of Life Lost),Male,40 to 44,chronic obstructive pulmonary disease,leeds,67.91538979785697,77371.84848554234
@@ -1737,11 +1928,13 @@ YLLs (Years of Life Lost),Male,40 to 44,motor vehicle road injuries,leeds,97.454
 YLLs (Years of Life Lost),Male,40 to 44,motorcyclist road injuries,leeds,72.76521851099706,77371.8484855424
 YLLs (Years of Life Lost),Male,40 to 44,multiple myeloma,leeds,19.40030716220056,77371.84848554234
 YLLs (Years of Life Lost),Male,40 to 44,neoplasms,leeds,1376.09438484843,77371.84848554229
+YLLs (Years of Life Lost),Male,40 to 44,non-rheumatic valvular heart disease,leeds,23.55450505667956,77371.84848554232
 YLLs (Years of Life Lost),Male,40 to 44,other road injuries,leeds,0.9308859290708094,77371.84848554232
 YLLs (Years of Life Lost),Male,40 to 44,other transport injuries,leeds,22.746454938030816,77371.84848554223
 YLLs (Years of Life Lost),Male,40 to 44,parkinson's disease,leeds,3.116879380459807,77371.84848554232
 YLLs (Years of Life Lost),Male,40 to 44,pedestrian road injuries,leeds,53.29334727950168,77371.84848554236
 YLLs (Years of Life Lost),Male,40 to 44,prostate cancer,leeds,7.052865721510157,77371.84848554237
+YLLs (Years of Life Lost),Male,40 to 44,rheumatic heart disease,leeds,7.9227269199507715,77371.84848554234
 YLLs (Years of Life Lost),Male,40 to 44,road injuries,leeds,238.3496139107111,77371.84848554232
 YLLs (Years of Life Lost),Male,40 to 44,stomach cancer,leeds,69.73128915385335,77371.84848554236
 YLLs (Years of Life Lost),Male,40 to 44,stroke,leeds,247.68379136706415,77371.84848554233
@@ -1750,6 +1943,7 @@ YLLs (Years of Life Lost),Male,45 to 49,all causes,leeds,9176.222182058995,80554
 YLLs (Years of Life Lost),Male,45 to 49,alzheimer's disease and other dementias,leeds,21.930114488598438,80554.52870015157
 YLLs (Years of Life Lost),Male,45 to 49,bladder cancer,leeds,41.19599701736231,80554.52870015163
 YLLs (Years of Life Lost),Male,45 to 49,breast cancer,leeds,2.8774375915812067,80554.52870015163
+YLLs (Years of Life Lost),Male,45 to 49,cardiomyopathy and myocarditis,leeds,118.5273124440553,80554.52870015147
 YLLs (Years of Life Lost),Male,45 to 49,cardiovascular diseases,leeds,2282.1292483151465,80554.52870015148
 YLLs (Years of Life Lost),Male,45 to 49,chronic myeloid leukemia,leeds,6.407235065039799,80554.5287001516
 YLLs (Years of Life Lost),Male,45 to 49,chronic obstructive pulmonary disease,leeds,138.50517342175206,80554.52870015155
@@ -1765,16 +1959,19 @@ YLLs (Years of Life Lost),Male,45 to 49,motor vehicle road injuries,leeds,99.641
 YLLs (Years of Life Lost),Male,45 to 49,motorcyclist road injuries,leeds,67.71497226542408,80554.52870015154
 YLLs (Years of Life Lost),Male,45 to 49,multiple myeloma,leeds,38.79724098689395,80554.52870015161
 YLLs (Years of Life Lost),Male,45 to 49,neoplasms,leeds,2293.9807652272343,80554.5287001516
+YLLs (Years of Life Lost),Male,45 to 49,non-rheumatic valvular heart disease,leeds,31.96787386058257,80554.52870015157
 YLLs (Years of Life Lost),Male,45 to 49,other road injuries,leeds,1.0886929972388841,80554.52870015157
 YLLs (Years of Life Lost),Male,45 to 49,other transport injuries,leeds,21.868122398511662,80554.52870015158
 YLLs (Years of Life Lost),Male,45 to 49,parkinson's disease,leeds,9.373298774077437,80554.52870015161
 YLLs (Years of Life Lost),Male,45 to 49,pedestrian road injuries,leeds,62.08096287206364,80554.52870015166
 YLLs (Years of Life Lost),Male,45 to 49,prostate cancer,leeds,28.199502451280697,80554.52870015164
+YLLs (Years of Life Lost),Male,45 to 49,rheumatic heart disease,leeds,11.787244540223895,80554.52870015157
 YLLs (Years of Life Lost),Male,45 to 49,road injuries,leeds,245.93168656125522,80554.52870015157
 YLLs (Years of Life Lost),Male,45 to 49,stomach cancer,leeds,112.13771227463286,80554.5287001515
 YLLs (Years of Life Lost),Male,45 to 49,stroke,leeds,351.24222759187893,80554.52870015164
 YLLs (Years of Life Lost),Male,45 to 49,"tracheal, bronchus, and lung cancer",leeds,418.4760098688702,80554.52870015152
 YLLs (Years of Life Lost),Male,5 to 9,all causes,leeds,487.747277797927,78215.31178804798
+YLLs (Years of Life Lost),Male,5 to 9,cardiomyopathy and myocarditis,leeds,5.140634972143745,78215.31178804798
 YLLs (Years of Life Lost),Male,5 to 9,cardiovascular diseases,leeds,14.590492616732956,78215.3117880479
 YLLs (Years of Life Lost),Male,5 to 9,chronic myeloid leukemia,leeds,0.766053884024433,78215.31178804791
 YLLs (Years of Life Lost),Male,5 to 9,chronic obstructive pulmonary disease,leeds,0.9917018106574498,78215.31178804795
@@ -1789,12 +1986,14 @@ YLLs (Years of Life Lost),Male,5 to 9,neoplasms,leeds,160.78899369102962,78215.3
 YLLs (Years of Life Lost),Male,5 to 9,other road injuries,leeds,0.748458880361382,78215.31178804795
 YLLs (Years of Life Lost),Male,5 to 9,other transport injuries,leeds,3.0325206209188416,78215.31178804791
 YLLs (Years of Life Lost),Male,5 to 9,pedestrian road injuries,leeds,28.92237220993723,78215.311788048
+YLLs (Years of Life Lost),Male,5 to 9,rheumatic heart disease,leeds,0.5496787704330148,78215.31178804795
 YLLs (Years of Life Lost),Male,5 to 9,road injuries,leeds,51.093327480745195,78215.31178804788
 YLLs (Years of Life Lost),Male,5 to 9,stroke,leeds,3.518341601832234,78215.31178804788
 YLLs (Years of Life Lost),Male,50 to 54,all causes,leeds,11612.39479995171,79830.60006638603
 YLLs (Years of Life Lost),Male,50 to 54,alzheimer's disease and other dementias,leeds,40.96865162803903,79830.60006638599
 YLLs (Years of Life Lost),Male,50 to 54,bladder cancer,leeds,84.17636208649179,79830.60006638602
 YLLs (Years of Life Lost),Male,50 to 54,breast cancer,leeds,4.2064563191352224,79830.60006638605
+YLLs (Years of Life Lost),Male,50 to 54,cardiomyopathy and myocarditis,leeds,124.33525803371346,79830.60006638606
 YLLs (Years of Life Lost),Male,50 to 54,cardiovascular diseases,leeds,3425.117087319319,79830.60006638594
 YLLs (Years of Life Lost),Male,50 to 54,chronic myeloid leukemia,leeds,5.518828692456539,79830.60006638603
 YLLs (Years of Life Lost),Male,50 to 54,chronic obstructive pulmonary disease,leeds,336.01397747183034,79830.60006638599
@@ -1810,11 +2009,13 @@ YLLs (Years of Life Lost),Male,50 to 54,motor vehicle road injuries,leeds,63.418
 YLLs (Years of Life Lost),Male,50 to 54,motorcyclist road injuries,leeds,35.36091917396504,79830.60006638605
 YLLs (Years of Life Lost),Male,50 to 54,multiple myeloma,leeds,72.4427241668509,79830.60006638605
 YLLs (Years of Life Lost),Male,50 to 54,neoplasms,leeds,3967.048052887477,79830.60006638613
+YLLs (Years of Life Lost),Male,50 to 54,non-rheumatic valvular heart disease,leeds,49.10637611547083,79830.60006638605
 YLLs (Years of Life Lost),Male,50 to 54,other road injuries,leeds,1.4248738568430976,79830.60006638599
 YLLs (Years of Life Lost),Male,50 to 54,other transport injuries,leeds,17.438146302820922,79830.6000663861
 YLLs (Years of Life Lost),Male,50 to 54,parkinson's disease,leeds,18.08020224195218,79830.6000663861
 YLLs (Years of Life Lost),Male,50 to 54,pedestrian road injuries,leeds,44.33639734207786,79830.600066386
 YLLs (Years of Life Lost),Male,50 to 54,prostate cancer,leeds,106.40470839217714,79830.60006638608
+YLLs (Years of Life Lost),Male,50 to 54,rheumatic heart disease,leeds,14.016230427198334,79830.60006638594
 YLLs (Years of Life Lost),Male,50 to 54,road injuries,leeds,158.16977224907524,79830.60006638602
 YLLs (Years of Life Lost),Male,50 to 54,stomach cancer,leeds,178.99612273874573,79830.60006638599
 YLLs (Years of Life Lost),Male,50 to 54,stroke,leeds,446.87348042723465,79830.60006638599
@@ -1823,6 +2024,7 @@ YLLs (Years of Life Lost),Male,55 to 59,all causes,leeds,14772.139949953154,7207
 YLLs (Years of Life Lost),Male,55 to 59,alzheimer's disease and other dementias,leeds,68.20974759511654,72077.02347128882
 YLLs (Years of Life Lost),Male,55 to 59,bladder cancer,leeds,135.10644500705794,72077.02347128886
 YLLs (Years of Life Lost),Male,55 to 59,breast cancer,leeds,5.679075894251261,72077.02347128889
+YLLs (Years of Life Lost),Male,55 to 59,cardiomyopathy and myocarditis,leeds,134.56409063182068,72077.02347128883
 YLLs (Years of Life Lost),Male,55 to 59,cardiovascular diseases,leeds,4479.0399386048275,72077.02347128889
 YLLs (Years of Life Lost),Male,55 to 59,chronic myeloid leukemia,leeds,6.195324074360053,72077.02347128895
 YLLs (Years of Life Lost),Male,55 to 59,chronic obstructive pulmonary disease,leeds,582.1986622774889,72077.0234712889
@@ -1838,11 +2040,13 @@ YLLs (Years of Life Lost),Male,55 to 59,motor vehicle road injuries,leeds,48.985
 YLLs (Years of Life Lost),Male,55 to 59,motorcyclist road injuries,leeds,22.794284200123958,72077.02347128883
 YLLs (Years of Life Lost),Male,55 to 59,multiple myeloma,leeds,105.80561788061738,72077.02347128886
 YLLs (Years of Life Lost),Male,55 to 59,neoplasms,leeds,5673.637945232335,72077.02347128885
+YLLs (Years of Life Lost),Male,55 to 59,non-rheumatic valvular heart disease,leeds,69.02850134792399,72077.02347128886
 YLLs (Years of Life Lost),Male,55 to 59,other road injuries,leeds,1.0663135225571174,72077.02347128894
 YLLs (Years of Life Lost),Male,55 to 59,other transport injuries,leeds,13.773076978250762,72077.02347128895
 YLLs (Years of Life Lost),Male,55 to 59,parkinson's disease,leeds,29.942430135830136,72077.02347128895
 YLLs (Years of Life Lost),Male,55 to 59,pedestrian road injuries,leeds,37.77413551803254,72077.02347128882
 YLLs (Years of Life Lost),Male,55 to 59,prostate cancer,leeds,229.36800658984012,72077.02347128888
+YLLs (Years of Life Lost),Male,55 to 59,rheumatic heart disease,leeds,18.285987346757096,72077.02347128888
 YLLs (Years of Life Lost),Male,55 to 59,road injuries,leeds,123.30043135663729,72077.02347128882
 YLLs (Years of Life Lost),Male,55 to 59,stomach cancer,leeds,245.83568015433144,72077.02347128888
 YLLs (Years of Life Lost),Male,55 to 59,stroke,leeds,586.4770728122131,72077.02347128892
@@ -1851,6 +2055,7 @@ YLLs (Years of Life Lost),Male,60 to 64,all causes,leeds,17736.33062725635,61182
 YLLs (Years of Life Lost),Male,60 to 64,alzheimer's disease and other dementias,leeds,110.0611170560486,61182.84450455454
 YLLs (Years of Life Lost),Male,60 to 64,bladder cancer,leeds,214.82703011182718,61182.84450455453
 YLLs (Years of Life Lost),Male,60 to 64,breast cancer,leeds,6.8151360776954615,61182.84450455448
+YLLs (Years of Life Lost),Male,60 to 64,cardiomyopathy and myocarditis,leeds,126.82352637711486,61182.84450455446
 YLLs (Years of Life Lost),Male,60 to 64,cardiovascular diseases,leeds,5278.7029144725975,61182.844504554494
 YLLs (Years of Life Lost),Male,60 to 64,chronic myeloid leukemia,leeds,6.792104841487953,61182.844504554545
 YLLs (Years of Life Lost),Male,60 to 64,chronic obstructive pulmonary disease,leeds,1122.6464530243227,61182.84450455451
@@ -1866,11 +2071,13 @@ YLLs (Years of Life Lost),Male,60 to 64,motor vehicle road injuries,leeds,34.586
 YLLs (Years of Life Lost),Male,60 to 64,motorcyclist road injuries,leeds,11.231292296543932,61182.84450455448
 YLLs (Years of Life Lost),Male,60 to 64,multiple myeloma,leeds,137.85337251139597,61182.844504554545
 YLLs (Years of Life Lost),Male,60 to 64,neoplasms,leeds,7574.040018849839,61182.84450455448
+YLLs (Years of Life Lost),Male,60 to 64,non-rheumatic valvular heart disease,leeds,87.57534918455411,61182.84450455449
 YLLs (Years of Life Lost),Male,60 to 64,other road injuries,leeds,0.6138449498243721,61182.84450455454
 YLLs (Years of Life Lost),Male,60 to 64,other transport injuries,leeds,9.961629335257706,61182.84450455452
 YLLs (Years of Life Lost),Male,60 to 64,parkinson's disease,leeds,68.00145838994555,61182.844504554494
 YLLs (Years of Life Lost),Male,60 to 64,pedestrian road injuries,leeds,31.560417909083213,61182.844504554494
 YLLs (Years of Life Lost),Male,60 to 64,prostate cancer,leeds,500.810689545021,61182.84450455452
+YLLs (Years of Life Lost),Male,60 to 64,rheumatic heart disease,leeds,20.502683944217473,61182.844504554494
 YLLs (Years of Life Lost),Male,60 to 64,road injuries,leeds,85.97546660358117,61182.84450455448
 YLLs (Years of Life Lost),Male,60 to 64,stomach cancer,leeds,307.25312285681184,61182.844504554465
 YLLs (Years of Life Lost),Male,60 to 64,stroke,leeds,701.0685579995233,61182.84450455449
@@ -1879,6 +2086,7 @@ YLLs (Years of Life Lost),Male,65 to 69,all causes,leeds,20495.441548616418,5417
 YLLs (Years of Life Lost),Male,65 to 69,alzheimer's disease and other dementias,leeds,186.09548519480134,54177.911090153386
 YLLs (Years of Life Lost),Male,65 to 69,bladder cancer,leeds,293.18016116103064,54177.91109015336
 YLLs (Years of Life Lost),Male,65 to 69,breast cancer,leeds,7.631517386418578,54177.91109015336
+YLLs (Years of Life Lost),Male,65 to 69,cardiomyopathy and myocarditis,leeds,122.11190500404902,54177.91109015333
 YLLs (Years of Life Lost),Male,65 to 69,cardiovascular diseases,leeds,5996.322666804174,54177.91109015337
 YLLs (Years of Life Lost),Male,65 to 69,chronic myeloid leukemia,leeds,8.392130654585783,54177.91109015343
 YLLs (Years of Life Lost),Male,65 to 69,chronic obstructive pulmonary disease,leeds,1632.8063197516028,54177.911090153364
@@ -1894,11 +2102,13 @@ YLLs (Years of Life Lost),Male,65 to 69,motor vehicle road injuries,leeds,26.186
 YLLs (Years of Life Lost),Male,65 to 69,motorcyclist road injuries,leeds,6.103507937250441,54177.91109015344
 YLLs (Years of Life Lost),Male,65 to 69,multiple myeloma,leeds,169.85894735752655,54177.9110901534
 YLLs (Years of Life Lost),Male,65 to 69,neoplasms,leeds,8990.946420098075,54177.91109015339
+YLLs (Years of Life Lost),Male,65 to 69,non-rheumatic valvular heart disease,leeds,111.52681452126534,54177.911090153386
 YLLs (Years of Life Lost),Male,65 to 69,other road injuries,leeds,0.39886115556903234,54177.91109015337
 YLLs (Years of Life Lost),Male,65 to 69,other transport injuries,leeds,6.967412835736364,54177.91109015333
 YLLs (Years of Life Lost),Male,65 to 69,parkinson's disease,leeds,145.12796580764427,54177.91109015332
 YLLs (Years of Life Lost),Male,65 to 69,pedestrian road injuries,leeds,27.108661447099614,54177.911090153364
 YLLs (Years of Life Lost),Male,65 to 69,prostate cancer,leeds,808.3655120973209,54177.911090153364
+YLLs (Years of Life Lost),Male,65 to 69,rheumatic heart disease,leeds,24.405974531467887,54177.91109015336
 YLLs (Years of Life Lost),Male,65 to 69,road injuries,leeds,66.07157424337328,54177.9110901534
 YLLs (Years of Life Lost),Male,65 to 69,stomach cancer,leeds,366.9960957379881,54177.911090153364
 YLLs (Years of Life Lost),Male,65 to 69,stroke,leeds,886.8809184057902,54177.91109015337
@@ -1907,6 +2117,7 @@ YLLs (Years of Life Lost),Male,70 to 74,all causes,leeds,25695.25443217763,49489
 YLLs (Years of Life Lost),Male,70 to 74,alzheimer's disease and other dementias,leeds,343.1197085519044,49489.71426903992
 YLLs (Years of Life Lost),Male,70 to 74,bladder cancer,leeds,418.9341601933836,49489.7142690399
 YLLs (Years of Life Lost),Male,70 to 74,breast cancer,leeds,9.374703612592073,49489.714269039905
+YLLs (Years of Life Lost),Male,70 to 74,cardiomyopathy and myocarditis,leeds,116.38070868735952,49489.71426903991
 YLLs (Years of Life Lost),Male,70 to 74,cardiovascular diseases,leeds,7792.020855472252,49489.714269039934
 YLLs (Years of Life Lost),Male,70 to 74,chronic myeloid leukemia,leeds,11.884174237792264,49489.714269039934
 YLLs (Years of Life Lost),Male,70 to 74,chronic obstructive pulmonary disease,leeds,2338.445777923071,49489.714269039934
@@ -1922,11 +2133,13 @@ YLLs (Years of Life Lost),Male,70 to 74,motor vehicle road injuries,leeds,23.627
 YLLs (Years of Life Lost),Male,70 to 74,motorcyclist road injuries,leeds,2.678199706657732,49489.71426903989
 YLLs (Years of Life Lost),Male,70 to 74,multiple myeloma,leeds,206.00833952146388,49489.714269039905
 YLLs (Years of Life Lost),Male,70 to 74,neoplasms,leeds,10700.48552567059,49489.7142690399
+YLLs (Years of Life Lost),Male,70 to 74,non-rheumatic valvular heart disease,leeds,166.16819571244585,49489.71426903993
 YLLs (Years of Life Lost),Male,70 to 74,other road injuries,leeds,0.28361971100264366,49489.71426903994
 YLLs (Years of Life Lost),Male,70 to 74,other transport injuries,leeds,4.966873343464475,49489.714269039934
 YLLs (Years of Life Lost),Male,70 to 74,parkinson's disease,leeds,340.8669795515973,49489.71426903991
 YLLs (Years of Life Lost),Male,70 to 74,pedestrian road injuries,leeds,28.216692589667623,49489.714269039934
 YLLs (Years of Life Lost),Male,70 to 74,prostate cancer,leeds,1267.0753212145542,49489.71426903994
+YLLs (Years of Life Lost),Male,70 to 74,rheumatic heart disease,leeds,34.669034696138446,49489.71426903995
 YLLs (Years of Life Lost),Male,70 to 74,road injuries,leeds,59.26916575847104,49489.71426903992
 YLLs (Years of Life Lost),Male,70 to 74,stomach cancer,leeds,474.61247436816836,49489.71426903993
 YLLs (Years of Life Lost),Male,70 to 74,stroke,leeds,1369.0308320468016,49489.71426903993
@@ -1935,6 +2148,7 @@ YLLs (Years of Life Lost),Male,75 to 79,all causes,leeds,21819.660012396816,3209
 YLLs (Years of Life Lost),Male,75 to 79,alzheimer's disease and other dementias,leeds,454.9636674629468,32099.115218097228
 YLLs (Years of Life Lost),Male,75 to 79,bladder cancer,leeds,384.4661605155396,32099.115218097213
 YLLs (Years of Life Lost),Male,75 to 79,breast cancer,leeds,6.503594570357799,32099.11521809724
+YLLs (Years of Life Lost),Male,75 to 79,cardiomyopathy and myocarditis,leeds,85.94970229813083,32099.11521809723
 YLLs (Years of Life Lost),Male,75 to 79,cardiovascular diseases,leeds,6992.401073572018,32099.115218097246
 YLLs (Years of Life Lost),Male,75 to 79,chronic myeloid leukemia,leeds,9.928799638390213,32099.115218097213
 YLLs (Years of Life Lost),Male,75 to 79,chronic obstructive pulmonary disease,leeds,2052.2503312375006,32099.115218097217
@@ -1950,11 +2164,13 @@ YLLs (Years of Life Lost),Male,75 to 79,motor vehicle road injuries,leeds,16.924
 YLLs (Years of Life Lost),Male,75 to 79,motorcyclist road injuries,leeds,1.0692269791886335,32099.115218097213
 YLLs (Years of Life Lost),Male,75 to 79,multiple myeloma,leeds,160.88082540610696,32099.115218097228
 YLLs (Years of Life Lost),Male,75 to 79,neoplasms,leeds,8111.958240968472,32099.115218097235
+YLLs (Years of Life Lost),Male,75 to 79,non-rheumatic valvular heart disease,leeds,170.05558155564685,32099.11521809721
 YLLs (Years of Life Lost),Male,75 to 79,other road injuries,leeds,0.1781845108399573,32099.115218097246
 YLLs (Years of Life Lost),Male,75 to 79,other transport injuries,leeds,2.615705016849931,32099.115218097257
 YLLs (Years of Life Lost),Male,75 to 79,parkinson's disease,leeds,445.6026089074463,32099.11521809722
 YLLs (Years of Life Lost),Male,75 to 79,pedestrian road injuries,leeds,23.16336373655398,32099.115218097217
 YLLs (Years of Life Lost),Male,75 to 79,prostate cancer,leeds,1308.618252465892,32099.115218097235
+YLLs (Years of Life Lost),Male,75 to 79,rheumatic heart disease,leeds,31.20953457845714,32099.115218097206
 YLLs (Years of Life Lost),Male,75 to 79,road injuries,leeds,43.9092410943418,32099.11521809723
 YLLs (Years of Life Lost),Male,75 to 79,stomach cancer,leeds,381.36351006049017,32099.115218097206
 YLLs (Years of Life Lost),Male,75 to 79,stroke,leeds,1451.119407184083,32099.115218097217
@@ -1963,6 +2179,7 @@ YLLs (Years of Life Lost),Male,80 to 84,all causes,leeds,20116.399763575748,2246
 YLLs (Years of Life Lost),Male,80 to 84,alzheimer's disease and other dementias,leeds,858.9751548986447,22467.0277395223
 YLLs (Years of Life Lost),Male,80 to 84,bladder cancer,leeds,358.40992837601624,22467.0277395223
 YLLs (Years of Life Lost),Male,80 to 84,breast cancer,leeds,4.372709835889347,22467.027739522302
+YLLs (Years of Life Lost),Male,80 to 84,cardiomyopathy and myocarditis,leeds,77.96107307862681,22467.0277395223
 YLLs (Years of Life Lost),Male,80 to 84,cardiovascular diseases,leeds,6803.998871474768,22467.027739522295
 YLLs (Years of Life Lost),Male,80 to 84,chronic myeloid leukemia,leeds,8.286553910935519,22467.02773952231
 YLLs (Years of Life Lost),Male,80 to 84,chronic obstructive pulmonary disease,leeds,1884.2176930219464,22467.027739522317
@@ -1978,11 +2195,13 @@ YLLs (Years of Life Lost),Male,80 to 84,motor vehicle road injuries,leeds,13.623
 YLLs (Years of Life Lost),Male,80 to 84,motorcyclist road injuries,leeds,0.472855664670844,22467.027739522317
 YLLs (Years of Life Lost),Male,80 to 84,multiple myeloma,leeds,124.81718482903543,22467.027739522306
 YLLs (Years of Life Lost),Male,80 to 84,neoplasms,leeds,6236.858206590357,22467.027739522306
+YLLs (Years of Life Lost),Male,80 to 84,non-rheumatic valvular heart disease,leeds,205.72085685082791,22467.027739522313
 YLLs (Years of Life Lost),Male,80 to 84,other road injuries,leeds,0.10298662565954442,22467.02773952232
 YLLs (Years of Life Lost),Male,80 to 84,other transport injuries,leeds,1.5363326358762692,22467.027739522306
 YLLs (Years of Life Lost),Male,80 to 84,parkinson's disease,leeds,441.94634227330346,22467.02773952229
 YLLs (Years of Life Lost),Male,80 to 84,pedestrian road injuries,leeds,17.90472065593138,22467.027739522306
 YLLs (Years of Life Lost),Male,80 to 84,prostate cancer,leeds,1264.9242577102964,22467.02773952232
+YLLs (Years of Life Lost),Male,80 to 84,rheumatic heart disease,leeds,29.233351307665615,22467.027739522327
 YLLs (Years of Life Lost),Male,80 to 84,road injuries,leeds,33.45958079245829,22467.027739522324
 YLLs (Years of Life Lost),Male,80 to 84,stomach cancer,leeds,316.121474369234,22467.0277395223
 YLLs (Years of Life Lost),Male,80 to 84,stroke,leeds,1620.4768809569725,22467.02773952231
@@ -1991,6 +2210,7 @@ YLLs (Years of Life Lost),Male,85 to 89,all causes,leeds,13865.421053320986,1139
 YLLs (Years of Life Lost),Male,85 to 89,alzheimer's disease and other dementias,leeds,831.6300149226579,11393.632464305456
 YLLs (Years of Life Lost),Male,85 to 89,bladder cancer,leeds,263.47651539224273,11393.632464305458
 YLLs (Years of Life Lost),Male,85 to 89,breast cancer,leeds,3.161732893705309,11393.632464305469
+YLLs (Years of Life Lost),Male,85 to 89,cardiomyopathy and myocarditis,leeds,60.88608959002972,11393.632464305458
 YLLs (Years of Life Lost),Male,85 to 89,cardiovascular diseases,leeds,4780.248468543236,11393.63246430546
 YLLs (Years of Life Lost),Male,85 to 89,chronic myeloid leukemia,leeds,6.19264308495885,11393.632464305452
 YLLs (Years of Life Lost),Male,85 to 89,chronic obstructive pulmonary disease,leeds,1189.830894530175,11393.632464305443
@@ -2006,11 +2226,13 @@ YLLs (Years of Life Lost),Male,85 to 89,motor vehicle road injuries,leeds,7.8531
 YLLs (Years of Life Lost),Male,85 to 89,motorcyclist road injuries,leeds,0.1791483324950462,11393.632464305447
 YLLs (Years of Life Lost),Male,85 to 89,multiple myeloma,leeds,69.15442682352274,11393.63246430546
 YLLs (Years of Life Lost),Male,85 to 89,neoplasms,leeds,3660.8844322265613,11393.632464305452
+YLLs (Years of Life Lost),Male,85 to 89,non-rheumatic valvular heart disease,leeds,165.96432332199916,11393.63246430545
 YLLs (Years of Life Lost),Male,85 to 89,other road injuries,leeds,0.03882120095259887,11393.632464305449
 YLLs (Years of Life Lost),Male,85 to 89,other transport injuries,leeds,0.6425118136686933,11393.632464305461
 YLLs (Years of Life Lost),Male,85 to 89,parkinson's disease,leeds,277.64212854266395,11393.632464305441
 YLLs (Years of Life Lost),Male,85 to 89,pedestrian road injuries,leeds,10.663524590226787,11393.632464305456
 YLLs (Years of Life Lost),Male,85 to 89,prostate cancer,leeds,905.9888581444793,11393.63246430545
+YLLs (Years of Life Lost),Male,85 to 89,rheumatic heart disease,leeds,19.4603308104632,11393.63246430545
 YLLs (Years of Life Lost),Male,85 to 89,road injuries,leeds,19.28930006434032,11393.632464305458
 YLLs (Years of Life Lost),Male,85 to 89,stomach cancer,leeds,183.447930559983,11393.632464305447
 YLLs (Years of Life Lost),Male,85 to 89,stroke,leeds,1190.807505877443,11393.63246430545
@@ -2019,6 +2241,7 @@ YLLs (Years of Life Lost),Male,90 to 94,all causes,leeds,6276.505066444772,3825.
 YLLs (Years of Life Lost),Male,90 to 94,alzheimer's disease and other dementias,leeds,457.65766686814703,3825.425099947876
 YLLs (Years of Life Lost),Male,90 to 94,bladder cancer,leeds,106.57502672675423,3825.4250999478763
 YLLs (Years of Life Lost),Male,90 to 94,breast cancer,leeds,1.4185222242582378,3825.425099947876
+YLLs (Years of Life Lost),Male,90 to 94,cardiomyopathy and myocarditis,leeds,32.85597493083853,3825.425099947877
 YLLs (Years of Life Lost),Male,90 to 94,cardiovascular diseases,leeds,2280.185168322063,3825.4250999478745
 YLLs (Years of Life Lost),Male,90 to 94,chronic myeloid leukemia,leeds,2.2667573302012203,3825.425099947879
 YLLs (Years of Life Lost),Male,90 to 94,chronic obstructive pulmonary disease,leeds,500.1678823523946,3825.425099947873
@@ -2034,11 +2257,13 @@ YLLs (Years of Life Lost),Male,90 to 94,motor vehicle road injuries,leeds,2.5911
 YLLs (Years of Life Lost),Male,90 to 94,motorcyclist road injuries,leeds,0.08904735458761467,3825.4250999478754
 YLLs (Years of Life Lost),Male,90 to 94,multiple myeloma,leeds,19.68636408860753,3825.4250999478754
 YLLs (Years of Life Lost),Male,90 to 94,neoplasms,leeds,1316.9094084656494,3825.4250999478736
+YLLs (Years of Life Lost),Male,90 to 94,non-rheumatic valvular heart disease,leeds,83.1838622525421,3825.4250999478745
 YLLs (Years of Life Lost),Male,90 to 94,other road injuries,leeds,0.025520414242942012,3825.4250999478754
 YLLs (Years of Life Lost),Male,90 to 94,other transport injuries,leeds,0.2546132320087345,3825.4250999478763
 YLLs (Years of Life Lost),Male,90 to 94,parkinson's disease,leeds,97.15972913409907,3825.425099947879
 YLLs (Years of Life Lost),Male,90 to 94,pedestrian road injuries,leeds,3.790098530061432,3825.4250999478736
 YLLs (Years of Life Lost),Male,90 to 94,prostate cancer,leeds,389.5827363292578,3825.4250999478754
+YLLs (Years of Life Lost),Male,90 to 94,rheumatic heart disease,leeds,8.254408858876381,3825.4250999478786
 YLLs (Years of Life Lost),Male,90 to 94,road injuries,leeds,6.6899309087838095,3825.4250999478786
 YLLs (Years of Life Lost),Male,90 to 94,stomach cancer,leeds,63.14871011587245,3825.425099947877
 YLLs (Years of Life Lost),Male,90 to 94,stroke,leeds,620.8772219901465,3825.4250999478763
@@ -2047,6 +2272,7 @@ YLLs (Years of Life Lost),Male,95 to 99,all causes,leeds,1325.9101901648442,659.
 YLLs (Years of Life Lost),Male,95 to 99,alzheimer's disease and other dementias,leeds,110.67333650100666,659.2779634271026
 YLLs (Years of Life Lost),Male,95 to 99,bladder cancer,leeds,19.54504642662051,659.2779634271029
 YLLs (Years of Life Lost),Male,95 to 99,breast cancer,leeds,0.2624881419003312,659.277963427102
+YLLs (Years of Life Lost),Male,95 to 99,cardiomyopathy and myocarditis,leeds,7.616908055916168,659.2779634271018
 YLLs (Years of Life Lost),Male,95 to 99,cardiovascular diseases,leeds,493.6572788225606,659.2779634271018
 YLLs (Years of Life Lost),Male,95 to 99,chronic myeloid leukemia,leeds,0.3827431282260921,659.2779634271019
 YLLs (Years of Life Lost),Male,95 to 99,chronic obstructive pulmonary disease,leeds,109.47980300584301,659.2779634271026
@@ -2062,11 +2288,13 @@ YLLs (Years of Life Lost),Male,95 to 99,motor vehicle road injuries,leeds,0.4902
 YLLs (Years of Life Lost),Male,95 to 99,motorcyclist road injuries,leeds,0.029642477133140603,659.2779634271025
 YLLs (Years of Life Lost),Male,95 to 99,multiple myeloma,leeds,3.5017407865378214,659.2779634271021
 YLLs (Years of Life Lost),Male,95 to 99,neoplasms,leeds,228.18750507427063,659.2779634271018
+YLLs (Years of Life Lost),Male,95 to 99,non-rheumatic valvular heart disease,leeds,16.969886156370624,659.2779634271021
 YLLs (Years of Life Lost),Male,95 to 99,other road injuries,leeds,0.009946003695489602,659.2779634271022
 YLLs (Years of Life Lost),Male,95 to 99,other transport injuries,leeds,0.0639647216748635,659.2779634271023
 YLLs (Years of Life Lost),Male,95 to 99,parkinson's disease,leeds,12.37435315367455,659.277963427102
 YLLs (Years of Life Lost),Male,95 to 99,pedestrian road injuries,leeds,0.7319734716008716,659.2779634271018
 YLLs (Years of Life Lost),Male,95 to 99,prostate cancer,leeds,68.80228877947187,659.2779634271022
+YLLs (Years of Life Lost),Male,95 to 99,rheumatic heart disease,leeds,1.6473169722325776,659.2779634271022
 YLLs (Years of Life Lost),Male,95 to 99,road injuries,leeds,1.2652239188373295,659.2779634271028
 YLLs (Years of Life Lost),Male,95 to 99,stomach cancer,leeds,11.304062952970312,659.2779634271019
 YLLs (Years of Life Lost),Male,95 to 99,stroke,leeds,139.24393407602278,659.2779634271018

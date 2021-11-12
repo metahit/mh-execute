@@ -1,5 +1,6 @@
 measure,sex,age,cause,cityregion,number,pop
 Deaths,Female,0 to 5,all causes,liverpool,36.13675704716034,42600.23774630017
+Deaths,Female,0 to 5,cardiomyopathy and myocarditis,liverpool,0.2562811506706462,42600.237746300154
 Deaths,Female,0 to 5,cardiovascular diseases,liverpool,0.47388016980434966,42600.23774630015
 Deaths,Female,0 to 5,chronic myeloid leukemia,liverpool,0.0053500756692175105,42600.2377463001
 Deaths,Female,0 to 5,chronic obstructive pulmonary disease,liverpool,0.02217994935287928,42600.23774630012
@@ -13,9 +14,11 @@ Deaths,Female,0 to 5,neoplasms,liverpool,1.1118485590618983,42600.23774630015
 Deaths,Female,0 to 5,other road injuries,liverpool,0.00732220268239479,42600.237746300074
 Deaths,Female,0 to 5,other transport injuries,liverpool,0.014094293492515566,42600.23774630008
 Deaths,Female,0 to 5,pedestrian road injuries,liverpool,0.09244046539731661,42600.23774630013
+Deaths,Female,0 to 5,rheumatic heart disease,liverpool,0.006432660567225875,42600.237746300125
 Deaths,Female,0 to 5,road injuries,liverpool,0.2017425947715215,42600.23774630015
 Deaths,Female,0 to 5,stroke,liverpool,0.05350982618318642,42600.23774630012
 Deaths,Female,10 to 14,all causes,liverpool,3.209333081966892,42370.57562640431
+Deaths,Female,10 to 14,cardiomyopathy and myocarditis,liverpool,0.05071774011514338,42370.57562640433
 Deaths,Female,10 to 14,cardiovascular diseases,liverpool,0.1341082351097576,42370.57562640433
 Deaths,Female,10 to 14,chronic myeloid leukemia,liverpool,0.004220794316726902,42370.57562640434
 Deaths,Female,10 to 14,chronic obstructive pulmonary disease,liverpool,0.016635396254262347,42370.57562640433
@@ -30,12 +33,14 @@ Deaths,Female,10 to 14,neoplasms,liverpool,0.9611132723061605,42370.575626404396
 Deaths,Female,10 to 14,other road injuries,liverpool,0.005260734413253861,42370.575626404374
 Deaths,Female,10 to 14,other transport injuries,liverpool,0.014707226220309316,42370.57562640434
 Deaths,Female,10 to 14,pedestrian road injuries,liverpool,0.12742602489898014,42370.57562640435
+Deaths,Female,10 to 14,rheumatic heart disease,liverpool,0.003914181897504705,42370.57562640434
 Deaths,Female,10 to 14,road injuries,liverpool,0.2551059146959581,42370.5756264043
 Deaths,Female,10 to 14,stroke,liverpool,0.035482992983245594,42370.57562640434
 Deaths,Female,10 to 14,"tracheal, bronchus, and lung cancer",liverpool,0.008928661677523857,42370.575626404345
 Deaths,Female,15 to 19,all causes,liverpool,8.064405020808852,40925.52262052151
 Deaths,Female,15 to 19,bladder cancer,liverpool,0.004449279810431821,40925.52262052147
 Deaths,Female,15 to 19,breast cancer,liverpool,0.02120079976823497,40925.52262052148
+Deaths,Female,15 to 19,cardiomyopathy and myocarditis,liverpool,0.11565041043534055,40925.5226205215
 Deaths,Female,15 to 19,cardiovascular diseases,liverpool,0.4658924176227607,40925.52262052149
 Deaths,Female,15 to 19,chronic myeloid leukemia,liverpool,0.009597868830583152,40925.52262052145
 Deaths,Female,15 to 19,chronic obstructive pulmonary disease,liverpool,0.057163738514786455,40925.52262052146
@@ -49,9 +54,11 @@ Deaths,Female,15 to 19,lower respiratory infections,liverpool,0.2297161357683630
 Deaths,Female,15 to 19,motor vehicle road injuries,liverpool,0.6405679473472328,40925.52262052147
 Deaths,Female,15 to 19,motorcyclist road injuries,liverpool,0.07513951622622331,40925.52262052148
 Deaths,Female,15 to 19,neoplasms,liverpool,1.5829758508888265,40925.52262052147
+Deaths,Female,15 to 19,non-rheumatic valvular heart disease,liverpool,0.021974773165550476,40925.52262052147
 Deaths,Female,15 to 19,other road injuries,liverpool,0.017198953562617,40925.522620521486
 Deaths,Female,15 to 19,other transport injuries,liverpool,0.037771735564059605,40925.52262052146
 Deaths,Female,15 to 19,pedestrian road injuries,liverpool,0.327333352777039,40925.522620521464
+Deaths,Female,15 to 19,rheumatic heart disease,liverpool,0.008749648772169372,40925.52262052149
 Deaths,Female,15 to 19,road injuries,liverpool,1.1062188460472522,40925.522620521486
 Deaths,Female,15 to 19,stomach cancer,liverpool,0.00809126480568896,40925.52262052148
 Deaths,Female,15 to 19,stroke,liverpool,0.13916781826049093,40925.52262052151
@@ -59,6 +66,7 @@ Deaths,Female,15 to 19,"tracheal, bronchus, and lung cancer",liverpool,0.0271647
 Deaths,Female,20 to 24,all causes,liverpool,9.580085936212907,47195.360632320044
 Deaths,Female,20 to 24,bladder cancer,liverpool,0.005993049263797437,47195.36063231999
 Deaths,Female,20 to 24,breast cancer,liverpool,0.060190526708129855,47195.36063232007
+Deaths,Female,20 to 24,cardiomyopathy and myocarditis,liverpool,0.13307132153119713,47195.36063232005
 Deaths,Female,20 to 24,cardiovascular diseases,liverpool,0.6677804514667077,47195.36063232002
 Deaths,Female,20 to 24,chronic myeloid leukemia,liverpool,0.00811288294195699,47195.36063232003
 Deaths,Female,20 to 24,chronic obstructive pulmonary disease,liverpool,0.07179412488518748,47195.360632320044
@@ -74,10 +82,12 @@ Deaths,Female,20 to 24,motor vehicle road injuries,liverpool,0.5788541266446097,
 Deaths,Female,20 to 24,motorcyclist road injuries,liverpool,0.05667972602841191,47195.3606323201
 Deaths,Female,20 to 24,multiple myeloma,liverpool,0.0029919279962294133,47195.36063232002
 Deaths,Female,20 to 24,neoplasms,liverpool,2.0303425705333904,47195.36063232004
+Deaths,Female,20 to 24,non-rheumatic valvular heart disease,liverpool,0.02716328728338014,47195.36063232001
 Deaths,Female,20 to 24,other road injuries,liverpool,0.01410363460353146,47195.360632320044
 Deaths,Female,20 to 24,other transport injuries,liverpool,0.03479866530765393,47195.36063232009
 Deaths,Female,20 to 24,parkinson's disease,liverpool,5.149177302542373e-4,47195.36063232006
 Deaths,Female,20 to 24,pedestrian road injuries,liverpool,0.1888209571352862,47195.36063232004
+Deaths,Female,20 to 24,rheumatic heart disease,liverpool,0.013920113562826388,47195.36063232007
 Deaths,Female,20 to 24,road injuries,liverpool,0.8747443352704725,47195.360632320044
 Deaths,Female,20 to 24,stomach cancer,liverpool,0.023302471351210635,47195.36063232001
 Deaths,Female,20 to 24,stroke,liverpool,0.21204127847333598,47195.36063232008
@@ -86,6 +96,7 @@ Deaths,Female,20 to 24,uterine cancer,liverpool,0.005675428997208263,47195.36063
 Deaths,Female,25 to 29,all causes,liverpool,14.948855459961452,52876.405045237094
 Deaths,Female,25 to 29,bladder cancer,liverpool,0.02024515479210609,52876.405045237014
 Deaths,Female,25 to 29,breast cancer,liverpool,0.6117963248613194,52876.40504523706
+Deaths,Female,25 to 29,cardiomyopathy and myocarditis,liverpool,0.2090436373155809,52876.40504523709
 Deaths,Female,25 to 29,cardiovascular diseases,liverpool,1.4492269373419548,52876.40504523704
 Deaths,Female,25 to 29,chronic myeloid leukemia,liverpool,0.017144799343718625,52876.40504523709
 Deaths,Female,25 to 29,chronic obstructive pulmonary disease,liverpool,0.12124455885969183,52876.405045237094
@@ -101,10 +112,12 @@ Deaths,Female,25 to 29,motor vehicle road injuries,liverpool,0.45211726478588826
 Deaths,Female,25 to 29,motorcyclist road injuries,liverpool,0.044753575916198766,52876.40504523706
 Deaths,Female,25 to 29,multiple myeloma,liverpool,0.006279913763780979,52876.405045237116
 Deaths,Female,25 to 29,neoplasms,liverpool,4.180212626181034,52876.40504523705
+Deaths,Female,25 to 29,non-rheumatic valvular heart disease,liverpool,0.05615909305669264,52876.40504523702
 Deaths,Female,25 to 29,other road injuries,liverpool,0.012903976571712007,52876.40504523706
 Deaths,Female,25 to 29,other transport injuries,liverpool,0.03705803609251137,52876.40504523706
 Deaths,Female,25 to 29,parkinson's disease,liverpool,3.23975049649846e-4,52876.40504523708
 Deaths,Female,25 to 29,pedestrian road injuries,liverpool,0.1497256950764921,52876.40504523711
+Deaths,Female,25 to 29,rheumatic heart disease,liverpool,0.02980974703407981,52876.40504523705
 Deaths,Female,25 to 29,road injuries,liverpool,0.69104505919321,52876.405045237094
 Deaths,Female,25 to 29,stomach cancer,liverpool,0.09874760913363462,52876.405045237014
 Deaths,Female,25 to 29,stroke,liverpool,0.5166059577747198,52876.40504523709
@@ -113,6 +126,7 @@ Deaths,Female,25 to 29,uterine cancer,liverpool,0.020444273321926804,52876.40504
 Deaths,Female,30 to 34,all causes,liverpool,26.889532358621853,54970.38408381127
 Deaths,Female,30 to 34,bladder cancer,liverpool,0.07792563079787265,54970.384083811325
 Deaths,Female,30 to 34,breast cancer,liverpool,2.538336590684803,54970.38408381131
+Deaths,Female,30 to 34,cardiomyopathy and myocarditis,liverpool,0.29200066382276585,54970.3840838113
 Deaths,Female,30 to 34,cardiovascular diseases,liverpool,2.8923893613631857,54970.38408381135
 Deaths,Female,30 to 34,chronic myeloid leukemia,liverpool,0.026486072026372976,54970.3840838113
 Deaths,Female,30 to 34,chronic obstructive pulmonary disease,liverpool,0.23514296817980146,54970.38408381136
@@ -128,10 +142,12 @@ Deaths,Female,30 to 34,motor vehicle road injuries,liverpool,0.38069100395591454
 Deaths,Female,30 to 34,motorcyclist road injuries,liverpool,0.04457392371050397,54970.384083811296
 Deaths,Female,30 to 34,multiple myeloma,liverpool,0.024023081271099207,54970.38408381133
 Deaths,Female,30 to 34,neoplasms,liverpool,9.3930121645433,54970.384083811354
+Deaths,Female,30 to 34,non-rheumatic valvular heart disease,liverpool,0.0898917109337253,54970.38408381137
 Deaths,Female,30 to 34,other road injuries,liverpool,0.012185880987467727,54970.38408381135
 Deaths,Female,30 to 34,other transport injuries,liverpool,0.035932786415349034,54970.38408381132
 Deaths,Female,30 to 34,parkinson's disease,liverpool,0.0010979629077684729,54970.3840838113
 Deaths,Female,30 to 34,pedestrian road injuries,liverpool,0.1483454728466873,54970.38408381128
+Deaths,Female,30 to 34,rheumatic heart disease,liverpool,0.05003564567051059,54970.384083811296
 Deaths,Female,30 to 34,road injuries,liverpool,0.6151269433269649,54970.3840838113
 Deaths,Female,30 to 34,stomach cancer,liverpool,0.2825354536823857,54970.384083811296
 Deaths,Female,30 to 34,stroke,liverpool,1.0065309671512943,54970.38408381126
@@ -140,6 +156,7 @@ Deaths,Female,30 to 34,uterine cancer,liverpool,0.055314982101935514,54970.38408
 Deaths,Female,35 to 39,all causes,liverpool,45.39634816736135,49851.48407251796
 Deaths,Female,35 to 39,bladder cancer,liverpool,0.1625802188581643,49851.48407251804
 Deaths,Female,35 to 39,breast cancer,liverpool,5.375376325927184,49851.484072517924
+Deaths,Female,35 to 39,cardiomyopathy and myocarditis,liverpool,0.4665479559076901,49851.48407251797
 Deaths,Female,35 to 39,cardiovascular diseases,liverpool,5.547193400467156,49851.48407251793
 Deaths,Female,35 to 39,chronic myeloid leukemia,liverpool,0.04513397399826863,49851.484072518004
 Deaths,Female,35 to 39,chronic obstructive pulmonary disease,liverpool,0.4857593528645215,49851.48407251794
@@ -155,10 +172,12 @@ Deaths,Female,35 to 39,motor vehicle road injuries,liverpool,0.38613258125198174
 Deaths,Female,35 to 39,motorcyclist road injuries,liverpool,0.050185442748768745,49851.48407251797
 Deaths,Female,35 to 39,multiple myeloma,liverpool,0.07182647893808736,49851.48407251794
 Deaths,Female,35 to 39,neoplasms,liverpool,17.314304745865833,49851.48407251796
+Deaths,Female,35 to 39,non-rheumatic valvular heart disease,liverpool,0.12676684646788586,49851.48407251796
 Deaths,Female,35 to 39,other road injuries,liverpool,0.014816865953754928,49851.48407251792
 Deaths,Female,35 to 39,other transport injuries,liverpool,0.040525398582092385,49851.48407251798
 Deaths,Female,35 to 39,parkinson's disease,liverpool,0.004527866239374154,49851.48407251795
 Deaths,Female,35 to 39,pedestrian road injuries,liverpool,0.20268451479944508,49851.48407251801
+Deaths,Female,35 to 39,rheumatic heart disease,liverpool,0.08994755715390974,49851.484072517975
 Deaths,Female,35 to 39,road injuries,liverpool,0.6850891315697718,49851.484072518026
 Deaths,Female,35 to 39,stomach cancer,liverpool,0.5306718196815309,49851.48407251794
 Deaths,Female,35 to 39,stroke,liverpool,1.9310216176600632,49851.48407251793
@@ -168,6 +187,7 @@ Deaths,Female,40 to 44,all causes,liverpool,68.28799819957538,44128.07658526383
 Deaths,Female,40 to 44,alzheimer's disease and other dementias,liverpool,0.049903581564291824,44128.07658526383
 Deaths,Female,40 to 44,bladder cancer,liverpool,0.32500354040306334,44128.07658526382
 Deaths,Female,40 to 44,breast cancer,liverpool,8.637962298069665,44128.07658526382
+Deaths,Female,40 to 44,cardiomyopathy and myocarditis,liverpool,0.6106104344119435,44128.07658526381
 Deaths,Female,40 to 44,cardiovascular diseases,liverpool,9.144202550241278,44128.076585263814
 Deaths,Female,40 to 44,chronic myeloid leukemia,liverpool,0.05378282417861276,44128.07658526382
 Deaths,Female,40 to 44,chronic obstructive pulmonary disease,liverpool,1.0375600195011385,44128.07658526385
@@ -183,10 +203,12 @@ Deaths,Female,40 to 44,motor vehicle road injuries,liverpool,0.4179948786777848,
 Deaths,Female,40 to 44,motorcyclist road injuries,liverpool,0.05013285324909336,44128.076585263785
 Deaths,Female,40 to 44,multiple myeloma,liverpool,0.16113786745223943,44128.07658526378
 Deaths,Female,40 to 44,neoplasms,liverpool,28.13261434983212,44128.07658526379
+Deaths,Female,40 to 44,non-rheumatic valvular heart disease,liverpool,0.19406124374259937,44128.0765852638
 Deaths,Female,40 to 44,other road injuries,liverpool,0.014548029948196765,44128.076585263814
 Deaths,Female,40 to 44,other transport injuries,liverpool,0.04119006020463258,44128.0765852638
 Deaths,Female,40 to 44,parkinson's disease,liverpool,0.031893143177838666,44128.076585263785
 Deaths,Female,40 to 44,pedestrian road injuries,liverpool,0.2567521052321633,44128.076585263785
+Deaths,Female,40 to 44,rheumatic heart disease,liverpool,0.17721366616882983,44128.076585263814
 Deaths,Female,40 to 44,road injuries,liverpool,0.7724289152236459,44128.07658526378
 Deaths,Female,40 to 44,stomach cancer,liverpool,0.9191663867717114,44128.07658526382
 Deaths,Female,40 to 44,stroke,liverpool,3.0480254310930635,44128.0765852638
@@ -196,6 +218,7 @@ Deaths,Female,45 to 49,all causes,liverpool,107.90841190500332,50016.70926341639
 Deaths,Female,45 to 49,alzheimer's disease and other dementias,liverpool,0.34104536431000654,50016.709263416335
 Deaths,Female,45 to 49,bladder cancer,liverpool,0.5778030572337538,50016.70926341634
 Deaths,Female,45 to 49,breast cancer,liverpool,13.909041940662473,50016.70926341636
+Deaths,Female,45 to 49,cardiomyopathy and myocarditis,liverpool,0.8617122235818294,50016.70926341632
 Deaths,Female,45 to 49,cardiovascular diseases,liverpool,15.124657687094555,50016.70926341636
 Deaths,Female,45 to 49,chronic myeloid leukemia,liverpool,0.07410339620308301,50016.709263416335
 Deaths,Female,45 to 49,chronic obstructive pulmonary disease,liverpool,2.406407770640216,50016.70926341634
@@ -211,16 +234,19 @@ Deaths,Female,45 to 49,motor vehicle road injuries,liverpool,0.49082636367236693
 Deaths,Female,45 to 49,motorcyclist road injuries,liverpool,0.05672462533939823,50016.70926341632
 Deaths,Female,45 to 49,multiple myeloma,liverpool,0.37220173421069486,50016.7092634163
 Deaths,Female,45 to 49,neoplasms,liverpool,48.86190809122827,50016.70926341633
+Deaths,Female,45 to 49,non-rheumatic valvular heart disease,liverpool,0.2917623099349541,50016.70926341636
 Deaths,Female,45 to 49,other road injuries,liverpool,0.020367766066694288,50016.709263416364
 Deaths,Female,45 to 49,other transport injuries,liverpool,0.043398182789920706,50016.7092634163
 Deaths,Female,45 to 49,parkinson's disease,liverpool,0.10404395999958856,50016.70926341631
 Deaths,Female,45 to 49,pedestrian road injuries,liverpool,0.31054740105907686,50016.70926341637
+Deaths,Female,45 to 49,rheumatic heart disease,liverpool,0.2738746570582683,50016.70926341635
 Deaths,Female,45 to 49,road injuries,liverpool,0.9226075576806018,50016.70926341637
 Deaths,Female,45 to 49,stomach cancer,liverpool,1.438525829004793,50016.70926341633
 Deaths,Female,45 to 49,stroke,liverpool,4.675293028473983,50016.7092634163
 Deaths,Female,45 to 49,"tracheal, bronchus, and lung cancer",liverpool,7.434423477173141,50016.70926341641
 Deaths,Female,45 to 49,uterine cancer,liverpool,0.5897454377676576,50016.70926341632
 Deaths,Female,5 to 9,all causes,liverpool,3.4799520524841263,42751.91738898085
+Deaths,Female,5 to 9,cardiomyopathy and myocarditis,liverpool,0.05095013115818692,42751.91738898086
 Deaths,Female,5 to 9,cardiovascular diseases,liverpool,0.13062058809814137,42751.917388980866
 Deaths,Female,5 to 9,chronic myeloid leukemia,liverpool,0.0046059347388162685,42751.91738898088
 Deaths,Female,5 to 9,chronic obstructive pulmonary disease,liverpool,0.019097955807767266,42751.91738898084
@@ -235,12 +261,14 @@ Deaths,Female,5 to 9,neoplasms,liverpool,1.0839098567143608,42751.917388980844
 Deaths,Female,5 to 9,other road injuries,liverpool,0.004685670592766617,42751.917388980866
 Deaths,Female,5 to 9,other transport injuries,liverpool,0.012789931340808929,42751.9173889808
 Deaths,Female,5 to 9,pedestrian road injuries,liverpool,0.1340531415274994,42751.91738898085
+Deaths,Female,5 to 9,rheumatic heart disease,liverpool,0.0044670411837962115,42751.91738898087
 Deaths,Female,5 to 9,road injuries,liverpool,0.24883261513379454,42751.91738898087
 Deaths,Female,5 to 9,stroke,liverpool,0.03031610325476697,42751.917388980866
 Deaths,Female,50 to 54,all causes,liverpool,166.50123164879847,54708.4069064505
 Deaths,Female,50 to 54,alzheimer's disease and other dementias,liverpool,0.7508464660706782,54708.40690645054
 Deaths,Female,50 to 54,bladder cancer,liverpool,1.0016119774607708,54708.40690645049
 Deaths,Female,50 to 54,breast cancer,liverpool,21.001277428359803,54708.40690645051
+Deaths,Female,50 to 54,cardiomyopathy and myocarditis,liverpool,1.0219198314774263,54708.40690645053
 Deaths,Female,50 to 54,cardiovascular diseases,liverpool,24.441446288207946,54708.40690645048
 Deaths,Female,50 to 54,chronic myeloid leukemia,liverpool,0.07081364863893816,54708.40690645056
 Deaths,Female,50 to 54,chronic obstructive pulmonary disease,liverpool,6.91836804403561,54708.40690645051
@@ -256,10 +284,12 @@ Deaths,Female,50 to 54,motor vehicle road injuries,liverpool,0.42026743271507205
 Deaths,Female,50 to 54,motorcyclist road injuries,liverpool,0.044299385968415574,54708.4069064505
 Deaths,Female,50 to 54,multiple myeloma,liverpool,0.8704701919564296,54708.4069064505
 Deaths,Female,50 to 54,neoplasms,liverpool,86.76499612180687,54708.40690645053
+Deaths,Female,50 to 54,non-rheumatic valvular heart disease,liverpool,0.455598396512949,54708.40690645054
 Deaths,Female,50 to 54,other road injuries,liverpool,0.019198731551851086,54708.40690645051
 Deaths,Female,50 to 54,other transport injuries,liverpool,0.04120734210872634,54708.406906450546
 Deaths,Female,50 to 54,parkinson's disease,liverpool,0.24689007974825322,54708.40690645051
 Deaths,Female,50 to 54,pedestrian road injuries,liverpool,0.27211495228238164,54708.40690645051
+Deaths,Female,50 to 54,rheumatic heart disease,liverpool,0.40793913764871437,54708.4069064505
 Deaths,Female,50 to 54,road injuries,liverpool,0.8010711162046589,54708.40690645049
 Deaths,Female,50 to 54,stomach cancer,liverpool,2.1502231740798647,54708.40690645047
 Deaths,Female,50 to 54,stroke,liverpool,7.190316171833122,54708.40690645051
@@ -269,6 +299,7 @@ Deaths,Female,55 to 59,all causes,liverpool,264.99021133418887,54896.7216293414
 Deaths,Female,55 to 59,alzheimer's disease and other dementias,liverpool,1.6065104083240165,54896.721629341344
 Deaths,Female,55 to 59,bladder cancer,liverpool,1.8055561632037138,54896.721629341366
 Deaths,Female,55 to 59,breast cancer,liverpool,29.848948677203023,54896.72162934143
+Deaths,Female,55 to 59,cardiomyopathy and myocarditis,liverpool,1.4968746988808996,54896.7216293414
 Deaths,Female,55 to 59,cardiovascular diseases,liverpool,40.3068814542075,54896.72162934132
 Deaths,Female,55 to 59,chronic myeloid leukemia,liverpool,0.10775344052092131,54896.72162934135
 Deaths,Female,55 to 59,chronic obstructive pulmonary disease,liverpool,14.787156173541565,54896.721629341395
@@ -284,10 +315,12 @@ Deaths,Female,55 to 59,motor vehicle road injuries,liverpool,0.4598124271416107,
 Deaths,Female,55 to 59,motorcyclist road injuries,liverpool,0.046785018290933164,54896.72162934142
 Deaths,Female,55 to 59,multiple myeloma,liverpool,1.607243915167278,54896.721629341446
 Deaths,Female,55 to 59,neoplasms,liverpool,141.95619863553253,54896.72162934139
+Deaths,Female,55 to 59,non-rheumatic valvular heart disease,liverpool,0.7865199638808857,54896.721629341366
 Deaths,Female,55 to 59,other road injuries,liverpool,0.022681408166575857,54896.721629341395
 Deaths,Female,55 to 59,other transport injuries,liverpool,0.045595426551932536,54896.7216293414
 Deaths,Female,55 to 59,parkinson's disease,liverpool,0.5233204076017185,54896.721629341366
 Deaths,Female,55 to 59,pedestrian road injuries,liverpool,0.33539255033841175,54896.7216293414
+Deaths,Female,55 to 59,rheumatic heart disease,liverpool,0.6460611491325046,54896.721629341395
 Deaths,Female,55 to 59,road injuries,liverpool,0.9133686469930178,54896.72162934141
 Deaths,Female,55 to 59,stomach cancer,liverpool,3.509530873531403,54896.72162934138
 Deaths,Female,55 to 59,stroke,liverpool,10.962170675957116,54896.721629341395
@@ -297,6 +330,7 @@ Deaths,Female,60 to 64,all causes,liverpool,378.93551468823654,47803.32034371544
 Deaths,Female,60 to 64,alzheimer's disease and other dementias,liverpool,3.2233317823859604,47803.32034371541
 Deaths,Female,60 to 64,bladder cancer,liverpool,2.900669625837472,47803.32034371545
 Deaths,Female,60 to 64,breast cancer,liverpool,31.31175165988647,47803.3203437154
+Deaths,Female,60 to 64,cardiomyopathy and myocarditis,liverpool,1.894436502882405,47803.32034371543
 Deaths,Female,60 to 64,cardiovascular diseases,liverpool,65.13260972399782,47803.32034371538
 Deaths,Female,60 to 64,chronic myeloid leukemia,liverpool,0.14766510510755693,47803.32034371541
 Deaths,Female,60 to 64,chronic obstructive pulmonary disease,liverpool,32.966950428500994,47803.32034371541
@@ -312,10 +346,12 @@ Deaths,Female,60 to 64,motor vehicle road injuries,liverpool,0.41373713639651216
 Deaths,Female,60 to 64,motorcyclist road injuries,liverpool,0.02791364079205995,47803.320343715415
 Deaths,Female,60 to 64,multiple myeloma,liverpool,2.8735049777266957,47803.32034371546
 Deaths,Female,60 to 64,neoplasms,liverpool,199.13981053711973,47803.32034371544
+Deaths,Female,60 to 64,non-rheumatic valvular heart disease,liverpool,1.4698517781129528,47803.3203437154
 Deaths,Female,60 to 64,other road injuries,liverpool,0.013470327343867201,47803.320343715444
 Deaths,Female,60 to 64,other transport injuries,liverpool,0.04254105192233227,47803.32034371546
 Deaths,Female,60 to 64,parkinson's disease,liverpool,1.2032801138044353,47803.32034371542
 Deaths,Female,60 to 64,pedestrian road injuries,liverpool,0.40703018048502404,47803.32034371542
+Deaths,Female,60 to 64,rheumatic heart disease,liverpool,0.9459486679021197,47803.320343715386
 Deaths,Female,60 to 64,road injuries,liverpool,0.896479694464307,47803.32034371541
 Deaths,Female,60 to 64,stomach cancer,liverpool,5.010168287489513,47803.320343715415
 Deaths,Female,60 to 64,stroke,liverpool,15.987817153038058,47803.320343715415
@@ -325,6 +361,7 @@ Deaths,Female,65 to 69,all causes,liverpool,521.35227378177,43063.75904623413
 Deaths,Female,65 to 69,alzheimer's disease and other dementias,liverpool,7.090083387389631,43063.759046234125
 Deaths,Female,65 to 69,bladder cancer,liverpool,4.709084547896406,43063.759046234154
 Deaths,Female,65 to 69,breast cancer,liverpool,35.106724064461474,43063.75904623411
+Deaths,Female,65 to 69,cardiomyopathy and myocarditis,liverpool,2.0535275473831827,43063.75904623413
 Deaths,Female,65 to 69,cardiovascular diseases,liverpool,97.14328809471604,43063.759046234154
 Deaths,Female,65 to 69,chronic myeloid leukemia,liverpool,0.19999413635397154,43063.759046234125
 Deaths,Female,65 to 69,chronic obstructive pulmonary disease,liverpool,53.21641304586939,43063.75904623411
@@ -340,10 +377,12 @@ Deaths,Female,65 to 69,motor vehicle road injuries,liverpool,0.4790560666636587,
 Deaths,Female,65 to 69,motorcyclist road injuries,liverpool,0.026005753488375298,43063.759046234154
 Deaths,Female,65 to 69,multiple myeloma,liverpool,4.522719957249943,43063.75904623413
 Deaths,Female,65 to 69,neoplasms,liverpool,264.7512144880612,43063.75904623418
+Deaths,Female,65 to 69,non-rheumatic valvular heart disease,liverpool,2.4584596080366086,43063.75904623411
 Deaths,Female,65 to 69,other road injuries,liverpool,0.010529899144413577,43063.759046234125
 Deaths,Female,65 to 69,other transport injuries,liverpool,0.044372438463454185,43063.75904623415
 Deaths,Female,65 to 69,parkinson's disease,liverpool,2.816045294436293,43063.75904623412
 Deaths,Female,65 to 69,pedestrian road injuries,liverpool,0.4920668332618614,43063.75904623414
+Deaths,Female,65 to 69,rheumatic heart disease,liverpool,1.5191615663151194,43063.759046234125
 Deaths,Female,65 to 69,road injuries,liverpool,1.0380064037155647,43063.75904623415
 Deaths,Female,65 to 69,stomach cancer,liverpool,6.765882092816756,43063.75904623412
 Deaths,Female,65 to 69,stroke,liverpool,23.666848982959902,43063.75904623412
@@ -353,6 +392,7 @@ Deaths,Female,70 to 74,all causes,liverpool,803.2015096778194,39968.272433627
 Deaths,Female,70 to 74,alzheimer's disease and other dementias,liverpool,16.222551484849276,39968.27243362703
 Deaths,Female,70 to 74,bladder cancer,liverpool,7.370983751176254,39968.272433627
 Deaths,Female,70 to 74,breast cancer,liverpool,41.86056592864193,39968.27243362701
+Deaths,Female,70 to 74,cardiomyopathy and myocarditis,liverpool,2.9844228241085498,39968.272433627
 Deaths,Female,70 to 74,cardiovascular diseases,liverpool,172.8691352416042,39968.272433627004
 Deaths,Female,70 to 74,chronic myeloid leukemia,liverpool,0.2842481698250386,39968.272433627004
 Deaths,Female,70 to 74,chronic obstructive pulmonary disease,liverpool,96.12736741281059,39968.27243362699
@@ -368,10 +408,12 @@ Deaths,Female,70 to 74,motor vehicle road injuries,liverpool,0.585068578501446,3
 Deaths,Female,70 to 74,motorcyclist road injuries,liverpool,0.012831545249506351,39968.27243362695
 Deaths,Female,70 to 74,multiple myeloma,liverpool,6.528236456489323,39968.27243362697
 Deaths,Female,70 to 74,neoplasms,liverpool,363.35384572476624,39968.272433627004
+Deaths,Female,70 to 74,non-rheumatic valvular heart disease,liverpool,4.965065605154431,39968.272433626975
 Deaths,Female,70 to 74,other road injuries,liverpool,0.006689170200444817,39968.272433626975
 Deaths,Female,70 to 74,other transport injuries,liverpool,0.03738954436827212,39968.27243362702
 Deaths,Female,70 to 74,parkinson's disease,liverpool,7.27342437434736,39968.272433627004
 Deaths,Female,70 to 74,pedestrian road injuries,liverpool,0.6978570639385365,39968.27243362699
+Deaths,Female,70 to 74,rheumatic heart disease,liverpool,2.4889805784562666,39968.27243362699
 Deaths,Female,70 to 74,road injuries,liverpool,1.3250024876548014,39968.272433627004
 Deaths,Female,70 to 74,stomach cancer,liverpool,10.73498637153659,39968.27243362702
 Deaths,Female,70 to 74,stroke,liverpool,44.43720846395305,39968.27243362701
@@ -381,6 +423,7 @@ Deaths,Female,75 to 79,all causes,liverpool,990.7996962301103,29331.460858970015
 Deaths,Female,75 to 79,alzheimer's disease and other dementias,liverpool,31.312038187145475,29331.460858969993
 Deaths,Female,75 to 79,bladder cancer,liverpool,9.896220536661776,29331.46085896997
 Deaths,Female,75 to 79,breast cancer,liverpool,43.83464424765657,29331.46085897
+Deaths,Female,75 to 79,cardiomyopathy and myocarditis,liverpool,3.751207650554686,29331.46085897004
 Deaths,Female,75 to 79,cardiovascular diseases,liverpool,262.49269697062243,29331.460858970026
 Deaths,Female,75 to 79,chronic myeloid leukemia,liverpool,0.37704221602805565,29331.46085897001
 Deaths,Female,75 to 79,chronic obstructive pulmonary disease,liverpool,115.40999686567928,29331.46085897003
@@ -396,10 +439,12 @@ Deaths,Female,75 to 79,motor vehicle road injuries,liverpool,0.6116333519808811,
 Deaths,Female,75 to 79,motorcyclist road injuries,liverpool,0.006701215170831401,29331.460858970007
 Deaths,Female,75 to 79,multiple myeloma,liverpool,7.111250857689517,29331.460858969996
 Deaths,Female,75 to 79,neoplasms,liverpool,369.4812922343127,29331.460858969982
+Deaths,Female,75 to 79,non-rheumatic valvular heart disease,liverpool,7.9309585920919865,29331.46085897001
 Deaths,Female,75 to 79,other road injuries,liverpool,0.006033358808411863,29331.460858970007
 Deaths,Female,75 to 79,other transport injuries,liverpool,0.042671523020584474,29331.460858970022
 Deaths,Female,75 to 79,parkinson's disease,liverpool,12.487622502737569,29331.460858970026
 Deaths,Female,75 to 79,pedestrian road injuries,liverpool,0.9337197265731499,29331.460858970022
+Deaths,Female,75 to 79,rheumatic heart disease,liverpool,3.663257017455318,29331.460858970015
 Deaths,Female,75 to 79,road injuries,liverpool,1.5741922324561557,29331.46085897
 Deaths,Female,75 to 79,stomach cancer,liverpool,13.94917616895106,29331.460858969964
 Deaths,Female,75 to 79,stroke,liverpool,75.67264409630059,29331.460858970007
@@ -409,6 +454,7 @@ Deaths,Female,80 to 84,all causes,liverpool,1441.7914661745574,23716.31489835352
 Deaths,Female,80 to 84,alzheimer's disease and other dementias,liverpool,89.69528062560842,23716.314898353558
 Deaths,Female,80 to 84,bladder cancer,liverpool,13.533247189290265,23716.314898353547
 Deaths,Female,80 to 84,breast cancer,liverpool,51.6539739103944,23716.31489835354
+Deaths,Female,80 to 84,cardiomyopathy and myocarditis,liverpool,6.457039821604916,23716.314898353543
 Deaths,Female,80 to 84,cardiovascular diseases,liverpool,432.28129511531836,23716.314898353536
 Deaths,Female,80 to 84,chronic myeloid leukemia,liverpool,0.5329665426286266,23716.314898353536
 Deaths,Female,80 to 84,chronic obstructive pulmonary disease,liverpool,150.2058842541092,23716.314898353536
@@ -424,10 +470,12 @@ Deaths,Female,80 to 84,motor vehicle road injuries,liverpool,0.6274388566149647,
 Deaths,Female,80 to 84,motorcyclist road injuries,liverpool,0.004888478466567545,23716.314898353514
 Deaths,Female,80 to 84,multiple myeloma,liverpool,8.076515016602393,23716.31489835353
 Deaths,Female,80 to 84,neoplasms,liverpool,417.1004554374165,23716.314898353558
+Deaths,Female,80 to 84,non-rheumatic valvular heart disease,liverpool,16.07198075324468,23716.31489835353
 Deaths,Female,80 to 84,other road injuries,liverpool,0.005771166812488113,23716.314898353532
 Deaths,Female,80 to 84,other transport injuries,liverpool,0.030391079842321953,23716.31489835353
 Deaths,Female,80 to 84,parkinson's disease,liverpool,19.774660671130565,23716.314898353565
 Deaths,Female,80 to 84,pedestrian road injuries,liverpool,1.0123364078235808,23716.31489835354
+Deaths,Female,80 to 84,rheumatic heart disease,liverpool,4.994898848260906,23716.314898353503
 Deaths,Female,80 to 84,road injuries,liverpool,1.6626537480299788,23716.314898353536
 Deaths,Female,80 to 84,stomach cancer,liverpool,18.55057220012177,23716.314898353565
 Deaths,Female,80 to 84,stroke,liverpool,132.93994493658457,23716.314898353547
@@ -437,6 +485,7 @@ Deaths,Female,85 to 89,all causes,liverpool,1619.689048469682,14811.422979676498
 Deaths,Female,85 to 89,alzheimer's disease and other dementias,liverpool,141.83166354272993,14811.4229796765
 Deaths,Female,85 to 89,bladder cancer,liverpool,13.820937375127928,14811.42297967648
 Deaths,Female,85 to 89,breast cancer,liverpool,51.43781077264054,14811.422979676492
+Deaths,Female,85 to 89,cardiomyopathy and myocarditis,liverpool,8.893636500393557,14811.422979676487
 Deaths,Female,85 to 89,cardiovascular diseases,liverpool,539.9013815188857,14811.422979676488
 Deaths,Female,85 to 89,chronic myeloid leukemia,liverpool,0.6557596085520452,14811.422979676496
 Deaths,Female,85 to 89,chronic obstructive pulmonary disease,liverpool,139.86074194724995,14811.422979676488
@@ -452,10 +501,12 @@ Deaths,Female,85 to 89,motor vehicle road injuries,liverpool,0.44526517224153794
 Deaths,Female,85 to 89,motorcyclist road injuries,liverpool,0.0038244870767106744,14811.422979676472
 Deaths,Female,85 to 89,multiple myeloma,liverpool,6.5278074794084855,14811.422979676496
 Deaths,Female,85 to 89,neoplasms,liverpool,356.8852572550377,14811.422979676494
+Deaths,Female,85 to 89,non-rheumatic valvular heart disease,liverpool,22.615086658540996,14811.422979676501
 Deaths,Female,85 to 89,other road injuries,liverpool,0.005635592468284912,14811.422979676505
 Deaths,Female,85 to 89,other transport injuries,liverpool,0.02295742960359069,14811.42297967649
 Deaths,Female,85 to 89,parkinson's disease,liverpool,18.35896305297796,14811.422979676496
 Deaths,Female,85 to 89,pedestrian road injuries,liverpool,0.8599463624812402,14811.42297967649
+Deaths,Female,85 to 89,rheumatic heart disease,liverpool,5.210369890824446,14811.422979676478
 Deaths,Female,85 to 89,road injuries,liverpool,1.3237595580217363,14811.422979676505
 Deaths,Female,85 to 89,stomach cancer,liverpool,17.79857867056556,14811.422979676488
 Deaths,Female,85 to 89,stroke,liverpool,176.0939959713638,14811.42297967648
@@ -465,6 +516,7 @@ Deaths,Female,90 to 94,all causes,liverpool,1324.6609416079802,6660.238750001768
 Deaths,Female,90 to 94,alzheimer's disease and other dementias,liverpool,135.95467774790316,6660.238750001772
 Deaths,Female,90 to 94,bladder cancer,liverpool,9.607824495427142,6660.238750001774
 Deaths,Female,90 to 94,breast cancer,liverpool,34.313310498560675,6660.23875000177
+Deaths,Female,90 to 94,cardiomyopathy and myocarditis,liverpool,9.042392286253556,6660.238750001772
 Deaths,Female,90 to 94,cardiovascular diseases,liverpool,484.26630519221266,6660.238750001777
 Deaths,Female,90 to 94,chronic myeloid leukemia,liverpool,0.40810519426481673,6660.238750001775
 Deaths,Female,90 to 94,chronic obstructive pulmonary disease,liverpool,97.59178011604476,6660.238750001769
@@ -480,10 +532,12 @@ Deaths,Female,90 to 94,motor vehicle road injuries,liverpool,0.2096772879915063,
 Deaths,Female,90 to 94,motorcyclist road injuries,liverpool,0.007963580935282018,6660.238750001778
 Deaths,Female,90 to 94,multiple myeloma,liverpool,3.2282814733911014,6660.23875000177
 Deaths,Female,90 to 94,neoplasms,liverpool,206.1260851937381,6660.23875000177
+Deaths,Female,90 to 94,non-rheumatic valvular heart disease,liverpool,20.329429306790992,6660.238750001771
 Deaths,Female,90 to 94,other road injuries,liverpool,0.004738546828530346,6660.238750001776
 Deaths,Female,90 to 94,other transport injuries,liverpool,0.019716850825737472,6660.2387500017685
 Deaths,Female,90 to 94,parkinson's disease,liverpool,10.171239815532843,6660.238750001778
 Deaths,Female,90 to 94,pedestrian road injuries,liverpool,0.432695384557698,6660.238750001771
+Deaths,Female,90 to 94,rheumatic heart disease,liverpool,3.6642557652234626,6660.23875000177
 Deaths,Female,90 to 94,road injuries,liverpool,0.6635856367328324,6660.238750001778
 Deaths,Female,90 to 94,stomach cancer,liverpool,10.777391458222077,6660.238750001777
 Deaths,Female,90 to 94,stroke,liverpool,155.96471655240526,6660.238750001769
@@ -493,6 +547,7 @@ Deaths,Female,95 to 99,all causes,liverpool,593.0341340526845,1750.6659695331932
 Deaths,Female,95 to 99,alzheimer's disease and other dementias,liverpool,64.96203175399438,1750.6659695331925
 Deaths,Female,95 to 99,bladder cancer,liverpool,3.7458916273845695,1750.6659695331916
 Deaths,Female,95 to 99,breast cancer,liverpool,13.405603500431983,1750.6659695331923
+Deaths,Female,95 to 99,cardiomyopathy and myocarditis,liverpool,4.902042574371117,1750.6659695331934
 Deaths,Female,95 to 99,cardiovascular diseases,liverpool,225.1971575971653,1750.6659695331934
 Deaths,Female,95 to 99,chronic myeloid leukemia,liverpool,0.14318443924891733,1750.6659695331937
 Deaths,Female,95 to 99,chronic obstructive pulmonary disease,liverpool,42.34892558703743,1750.6659695331912
@@ -508,16 +563,19 @@ Deaths,Female,95 to 99,motor vehicle road injuries,liverpool,0.08165909366236836
 Deaths,Female,95 to 99,motorcyclist road injuries,liverpool,0.005695645075959362,1750.6659695331919
 Deaths,Female,95 to 99,multiple myeloma,liverpool,0.8420876378026779,1750.6659695331953
 Deaths,Female,95 to 99,neoplasms,liverpool,75.00330394937856,1750.6659695331928
+Deaths,Female,95 to 99,non-rheumatic valvular heart disease,liverpool,8.836177703502644,1750.6659695331925
 Deaths,Female,95 to 99,other road injuries,liverpool,0.002172948858747658,1750.6659695331923
 Deaths,Female,95 to 99,other transport injuries,liverpool,0.013882447233335886,1750.665969533194
 Deaths,Female,95 to 99,parkinson's disease,liverpool,2.895782611585657,1750.6659695331914
 Deaths,Female,95 to 99,pedestrian road injuries,liverpool,0.15286346193664688,1750.6659695331932
+Deaths,Female,95 to 99,rheumatic heart disease,liverpool,1.4733245117861362,1750.6659695331928
 Deaths,Female,95 to 99,road injuries,liverpool,0.24268974528171713,1750.66596953319
 Deaths,Female,95 to 99,stomach cancer,liverpool,4.045356480591598,1750.6659695331907
 Deaths,Female,95 to 99,stroke,liverpool,74.30064496247502,1750.6659695331912
 Deaths,Female,95 to 99,"tracheal, bronchus, and lung cancer",liverpool,12.733785376299476,1750.665969533192
 Deaths,Female,95 to 99,uterine cancer,liverpool,1.1720417305097703,1750.6659695331925
 Deaths,Male,0 to 5,all causes,liverpool,47.73835132197946,44813.2071722516
+Deaths,Male,0 to 5,cardiomyopathy and myocarditis,liverpool,0.2953265529389227,44813.20717225156
 Deaths,Male,0 to 5,cardiovascular diseases,liverpool,0.5718079674062454,44813.207172251554
 Deaths,Male,0 to 5,chronic myeloid leukemia,liverpool,0.012007570647978224,44813.207172251576
 Deaths,Male,0 to 5,chronic obstructive pulmonary disease,liverpool,0.01440867930191399,44813.207172251576
@@ -531,9 +589,11 @@ Deaths,Male,0 to 5,neoplasms,liverpool,1.4409443985385573,44813.20717225159
 Deaths,Male,0 to 5,other road injuries,liverpool,0.00791529904232673,44813.20717225164
 Deaths,Male,0 to 5,other transport injuries,liverpool,0.027633397759668103,44813.20717225159
 Deaths,Male,0 to 5,pedestrian road injuries,liverpool,0.1594116678100623,44813.20717225161
+Deaths,Male,0 to 5,rheumatic heart disease,liverpool,0.006724285557850165,44813.20717225164
 Deaths,Male,0 to 5,road injuries,liverpool,0.2754536791281258,44813.2071722516
 Deaths,Male,0 to 5,stroke,liverpool,0.06963813404685903,44813.20717225159
 Deaths,Male,10 to 14,all causes,liverpool,5.3856040843183575,43859.78063551545
+Deaths,Male,10 to 14,cardiomyopathy and myocarditis,liverpool,0.10485808789515716,43859.780635515475
 Deaths,Male,10 to 14,cardiovascular diseases,liverpool,0.23679975140909204,43859.78063551549
 Deaths,Male,10 to 14,chronic myeloid leukemia,liverpool,0.006147097519980547,43859.780635515475
 Deaths,Male,10 to 14,chronic obstructive pulmonary disease,liverpool,0.011849567188699794,43859.78063551548
@@ -548,12 +608,14 @@ Deaths,Male,10 to 14,neoplasms,liverpool,1.3455123096837882,43859.780635515475
 Deaths,Male,10 to 14,other road injuries,liverpool,0.005995547971367783,43859.780635515475
 Deaths,Male,10 to 14,other transport injuries,liverpool,0.04845015935297989,43859.7806355155
 Deaths,Male,10 to 14,pedestrian road injuries,liverpool,0.29849388350756434,43859.78063551545
+Deaths,Male,10 to 14,rheumatic heart disease,liverpool,0.004946516905002411,43859.780635515504
 Deaths,Male,10 to 14,road injuries,liverpool,0.6172052793734386,43859.78063551542
 Deaths,Male,10 to 14,stroke,liverpool,0.06012426780757488,43859.78063551544
 Deaths,Male,10 to 14,"tracheal, bronchus, and lung cancer",liverpool,0.005883572630957468,43859.78063551546
 Deaths,Male,15 to 19,all causes,liverpool,15.814448678812171,41935.884884164305
 Deaths,Male,15 to 19,bladder cancer,liverpool,0.00441462950969381,41935.88488416426
 Deaths,Male,15 to 19,breast cancer,liverpool,0.004314667650171087,41935.88488416431
+Deaths,Male,15 to 19,cardiomyopathy and myocarditis,liverpool,0.2958837693191426,41935.884884164276
 Deaths,Male,15 to 19,cardiovascular diseases,liverpool,0.7394707545426783,41935.884884164305
 Deaths,Male,15 to 19,chronic myeloid leukemia,liverpool,0.008422775122919028,41935.88488416428
 Deaths,Male,15 to 19,chronic obstructive pulmonary disease,liverpool,0.040101898432136,41935.88488416428
@@ -567,9 +629,11 @@ Deaths,Male,15 to 19,lower respiratory infections,liverpool,0.2712747453016594,4
 Deaths,Male,15 to 19,motor vehicle road injuries,liverpool,1.891674644496587,41935.884884164276
 Deaths,Male,15 to 19,motorcyclist road injuries,liverpool,0.8012119968978744,41935.88488416428
 Deaths,Male,15 to 19,neoplasms,liverpool,2.1049411837419925,41935.884884164305
+Deaths,Male,15 to 19,non-rheumatic valvular heart disease,liverpool,0.03740717354765312,41935.884884164305
 Deaths,Male,15 to 19,other road injuries,liverpool,0.01702777330286289,41935.88488416428
 Deaths,Male,15 to 19,other transport injuries,liverpool,0.1648549851062033,41935.88488416432
 Deaths,Male,15 to 19,pedestrian road injuries,liverpool,0.6611918817273967,41935.88488416429
+Deaths,Male,15 to 19,rheumatic heart disease,liverpool,0.007135787906953163,41935.88488416431
 Deaths,Male,15 to 19,road injuries,liverpool,3.537864257011689,41935.88488416432
 Deaths,Male,15 to 19,stomach cancer,liverpool,0.0101687118425142,41935.88488416428
 Deaths,Male,15 to 19,stroke,liverpool,0.18338128222152664,41935.88488416428
@@ -577,6 +641,7 @@ Deaths,Male,15 to 19,"tracheal, bronchus, and lung cancer",liverpool,0.014151484
 Deaths,Male,20 to 24,all causes,liverpool,22.97336772518798,47408.42244562074
 Deaths,Male,20 to 24,bladder cancer,liverpool,0.005770424961525201,47408.42244562075
 Deaths,Male,20 to 24,breast cancer,liverpool,0.004659266476620182,47408.42244562071
+Deaths,Male,20 to 24,cardiomyopathy and myocarditis,liverpool,0.3718812441108968,47408.42244562071
 Deaths,Male,20 to 24,cardiovascular diseases,liverpool,1.2008796988870443,47408.42244562072
 Deaths,Male,20 to 24,chronic myeloid leukemia,liverpool,0.014464427581002984,47408.42244562078
 Deaths,Male,20 to 24,chronic obstructive pulmonary disease,liverpool,0.05320143112822937,47408.422445620716
@@ -592,11 +657,13 @@ Deaths,Male,20 to 24,motor vehicle road injuries,liverpool,2.7563484945968777,47
 Deaths,Male,20 to 24,motorcyclist road injuries,liverpool,0.9651410930821931,47408.42244562077
 Deaths,Male,20 to 24,multiple myeloma,liverpool,0.005633253014280932,47408.42244562075
 Deaths,Male,20 to 24,neoplasms,liverpool,2.6518099016673182,47408.42244562074
+Deaths,Male,20 to 24,non-rheumatic valvular heart disease,liverpool,0.05190044091673995,47408.42244562068
 Deaths,Male,20 to 24,other road injuries,liverpool,0.016298361785256,47408.422445620745
 Deaths,Male,20 to 24,other transport injuries,liverpool,0.2518325239620359,47408.422445620745
 Deaths,Male,20 to 24,parkinson's disease,liverpool,0.001543157442604881,47408.42244562074
 Deaths,Male,20 to 24,pedestrian road injuries,liverpool,0.7076477622077346,47408.42244562072
 Deaths,Male,20 to 24,prostate cancer,liverpool,0.0135528130755076,47408.42244562072
+Deaths,Male,20 to 24,rheumatic heart disease,liverpool,0.013873122220365568,47408.42244562073
 Deaths,Male,20 to 24,road injuries,liverpool,4.580259197667834,47408.42244562074
 Deaths,Male,20 to 24,stomach cancer,liverpool,0.02478343500498278,47408.42244562069
 Deaths,Male,20 to 24,stroke,liverpool,0.3067100093344557,47408.4224456207
@@ -604,6 +671,7 @@ Deaths,Male,20 to 24,"tracheal, bronchus, and lung cancer",liverpool,0.037204117
 Deaths,Male,25 to 29,all causes,liverpool,32.25204284290454,54613.863231491065
 Deaths,Male,25 to 29,bladder cancer,liverpool,0.019076123852368163,54613.863231490934
 Deaths,Male,25 to 29,breast cancer,liverpool,0.005591894148189106,54613.86323149096
+Deaths,Male,25 to 29,cardiomyopathy and myocarditis,liverpool,0.5753554117288253,54613.86323149104
 Deaths,Male,25 to 29,cardiovascular diseases,liverpool,3.2366939842635523,54613.86323149101
 Deaths,Male,25 to 29,chronic myeloid leukemia,liverpool,0.035556599467934574,54613.86323149098
 Deaths,Male,25 to 29,chronic obstructive pulmonary disease,liverpool,0.11476611577156473,54613.86323149098
@@ -619,11 +687,13 @@ Deaths,Male,25 to 29,motor vehicle road injuries,liverpool,2.166753569487559,546
 Deaths,Male,25 to 29,motorcyclist road injuries,liverpool,0.8963077227328754,54613.86323149099
 Deaths,Male,25 to 29,multiple myeloma,liverpool,0.01528166697834185,54613.86323149104
 Deaths,Male,25 to 29,neoplasms,liverpool,4.234917153719145,54613.863231491
+Deaths,Male,25 to 29,non-rheumatic valvular heart disease,liverpool,0.10386894835092958,54613.863231491036
 Deaths,Male,25 to 29,other road injuries,liverpool,0.015371699158530792,54613.86323149103
 Deaths,Male,25 to 29,other transport injuries,liverpool,0.27786313861354806,54613.86323149099
 Deaths,Male,25 to 29,parkinson's disease,liverpool,7.421359647611337e-4,54613.86323149107
 Deaths,Male,25 to 29,pedestrian road injuries,liverpool,0.5547457825550985,54613.86323149101
 Deaths,Male,25 to 29,prostate cancer,liverpool,0.023241918236566964,54613.863231490956
+Deaths,Male,25 to 29,rheumatic heart disease,liverpool,0.03262069538872864,54613.86323149099
 Deaths,Male,25 to 29,road injuries,liverpool,3.7515436799002773,54613.86323149103
 Deaths,Male,25 to 29,stomach cancer,liverpool,0.09352185074754132,54613.86323149103
 Deaths,Male,25 to 29,stroke,liverpool,0.7307085896774872,54613.86323149095
@@ -631,6 +701,7 @@ Deaths,Male,25 to 29,"tracheal, bronchus, and lung cancer",liverpool,0.153304632
 Deaths,Male,30 to 34,all causes,liverpool,51.16407435094366,59380.67007871261
 Deaths,Male,30 to 34,bladder cancer,liverpool,0.06371736404768182,59380.67007871266
 Deaths,Male,30 to 34,breast cancer,liverpool,0.006307271658247496,59380.67007871259
+Deaths,Male,30 to 34,cardiomyopathy and myocarditis,liverpool,0.7923091324257863,59380.6700787126
 Deaths,Male,30 to 34,cardiovascular diseases,liverpool,7.043208976597813,59380.670078712654
 Deaths,Male,30 to 34,chronic myeloid leukemia,liverpool,0.05415224796137654,59380.670078712596
 Deaths,Male,30 to 34,chronic obstructive pulmonary disease,liverpool,0.2509608784835144,59380.67007871259
@@ -646,11 +717,13 @@ Deaths,Male,30 to 34,motor vehicle road injuries,liverpool,1.7941015808295941,59
 Deaths,Male,30 to 34,motorcyclist road injuries,liverpool,0.8282613903600038,59380.6700787126
 Deaths,Male,30 to 34,multiple myeloma,liverpool,0.05583818493343664,59380.670078712734
 Deaths,Male,30 to 34,neoplasms,liverpool,7.933019722468784,59380.67007871267
+Deaths,Male,30 to 34,non-rheumatic valvular heart disease,liverpool,0.16963660248021803,59380.67007871266
 Deaths,Male,30 to 34,other road injuries,liverpool,0.01263542094508963,59380.67007871262
 Deaths,Male,30 to 34,other transport injuries,liverpool,0.29693090649511167,59380.670078712654
 Deaths,Male,30 to 34,parkinson's disease,liverpool,0.0017115330704974825,59380.670078712654
 Deaths,Male,30 to 34,pedestrian road injuries,liverpool,0.6773241320459684,59380.67007871268
 Deaths,Male,30 to 34,prostate cancer,liverpool,0.03363853433232007,59380.67007871263
+Deaths,Male,30 to 34,rheumatic heart disease,liverpool,0.05592222710433073,59380.67007871268
 Deaths,Male,30 to 34,road injuries,liverpool,3.45557389993958,59380.670078712676
 Deaths,Male,30 to 34,stomach cancer,liverpool,0.3201453289717251,59380.67007871268
 Deaths,Male,30 to 34,stroke,liverpool,1.3827709108025381,59380.6700787127
@@ -658,6 +731,7 @@ Deaths,Male,30 to 34,"tracheal, bronchus, and lung cancer",liverpool,0.634885687
 Deaths,Male,35 to 39,all causes,liverpool,73.08234247865124,53056.21143488316
 Deaths,Male,35 to 39,bladder cancer,liverpool,0.14182404107265775,53056.2114348832
 Deaths,Male,35 to 39,breast cancer,liverpool,0.014580012793385297,53056.21143488317
+Deaths,Male,35 to 39,cardiomyopathy and myocarditis,liverpool,1.0576380139996953,53056.21143488318
 Deaths,Male,35 to 39,cardiovascular diseases,liverpool,12.567768071674024,53056.21143488321
 Deaths,Male,35 to 39,chronic myeloid leukemia,liverpool,0.07070279064511277,53056.21143488316
 Deaths,Male,35 to 39,chronic obstructive pulmonary disease,liverpool,0.5245172173616973,53056.211434883204
@@ -673,11 +747,13 @@ Deaths,Male,35 to 39,motor vehicle road injuries,liverpool,1.3398638909566722,53
 Deaths,Male,35 to 39,motorcyclist road injuries,liverpool,0.7909030092285482,53056.211434883204
 Deaths,Male,35 to 39,multiple myeloma,liverpool,0.13144504807565735,53056.21143488317
 Deaths,Male,35 to 39,neoplasms,liverpool,13.116620379337848,53056.21143488318
+Deaths,Male,35 to 39,non-rheumatic valvular heart disease,liverpool,0.2413286897850083,53056.21143488313
 Deaths,Male,35 to 39,other road injuries,liverpool,0.008468571730052858,53056.211434883124
 Deaths,Male,35 to 39,other transport injuries,liverpool,0.2866897706942857,53056.211434883146
 Deaths,Male,35 to 39,parkinson's disease,liverpool,0.00439142668197878,53056.2114348832
 Deaths,Male,35 to 39,pedestrian road injuries,liverpool,0.6848077662264743,53056.21143488317
 Deaths,Male,35 to 39,prostate cancer,liverpool,0.04331116110035871,53056.211434883175
+Deaths,Male,35 to 39,rheumatic heart disease,liverpool,0.08273603863474918,53056.21143488316
 Deaths,Male,35 to 39,road injuries,liverpool,2.9579895952342214,53056.21143488316
 Deaths,Male,35 to 39,stomach cancer,liverpool,0.6502117186726392,53056.21143488319
 Deaths,Male,35 to 39,stroke,liverpool,2.2161166708063558,53056.21143488316
@@ -686,6 +762,7 @@ Deaths,Male,40 to 44,all causes,liverpool,106.23324349478281,44611.3486124749
 Deaths,Male,40 to 44,alzheimer's disease and other dementias,liverpool,0.04532007768389513,44611.34861247491
 Deaths,Male,40 to 44,bladder cancer,liverpool,0.31672653637033216,44611.34861247488
 Deaths,Male,40 to 44,breast cancer,liverpool,0.02977094265718706,44611.34861247491
+Deaths,Male,40 to 44,cardiomyopathy and myocarditis,liverpool,1.509817964848823,44611.34861247488
 Deaths,Male,40 to 44,cardiovascular diseases,liverpool,21.81661315287865,44611.348612474925
 Deaths,Male,40 to 44,chronic myeloid leukemia,liverpool,0.08895961126178498,44611.34861247492
 Deaths,Male,40 to 44,chronic obstructive pulmonary disease,liverpool,1.1570363577229936,44611.3486124749
@@ -701,11 +778,13 @@ Deaths,Male,40 to 44,motor vehicle road injuries,liverpool,1.1971907077786657,44
 Deaths,Male,40 to 44,motorcyclist road injuries,liverpool,0.8428628097805277,44611.34861247488
 Deaths,Male,40 to 44,multiple myeloma,liverpool,0.2737288725488528,44611.34861247486
 Deaths,Male,40 to 44,neoplasms,liverpool,22.157214024891445,44611.34861247488
+Deaths,Male,40 to 44,non-rheumatic valvular heart disease,liverpool,0.3582654034222372,44611.34861247494
 Deaths,Male,40 to 44,other road injuries,liverpool,0.006708776165610371,44611.348612474874
 Deaths,Male,40 to 44,other transport injuries,liverpool,0.2968765537210635,44611.348612474874
 Deaths,Male,40 to 44,parkinson's disease,liverpool,0.047203142136912964,44611.34861247489
 Deaths,Male,40 to 44,pedestrian road injuries,liverpool,0.7747313114001745,44611.348612474925
 Deaths,Male,40 to 44,prostate cancer,liverpool,0.10099129293078286,44611.348612474925
+Deaths,Male,40 to 44,rheumatic heart disease,liverpool,0.11815879113038014,44611.34861247488
 Deaths,Male,40 to 44,road injuries,liverpool,2.9796454084886,44611.348612474896
 Deaths,Male,40 to 44,stomach cancer,liverpool,1.1891027400796355,44611.34861247487
 Deaths,Male,40 to 44,stroke,liverpool,3.6572819138251633,44611.3486124749
@@ -714,6 +793,7 @@ Deaths,Male,45 to 49,all causes,liverpool,168.28529221507256,48988.10391442997
 Deaths,Male,45 to 49,alzheimer's disease and other dementias,liverpool,0.309412111078167,48988.10391443004
 Deaths,Male,45 to 49,bladder cancer,liverpool,0.7377017104466795,48988.10391443002
 Deaths,Male,45 to 49,breast cancer,liverpool,0.05101400009264689,48988.10391442999
+Deaths,Male,45 to 49,cardiomyopathy and myocarditis,liverpool,2.1887552305537827,48988.103914429994
 Deaths,Male,45 to 49,cardiovascular diseases,liverpool,39.16403855452225,48988.10391442998
 Deaths,Male,45 to 49,chronic myeloid leukemia,liverpool,0.11129086304444738,48988.10391443
 Deaths,Male,45 to 49,chronic obstructive pulmonary disease,liverpool,2.6868731295205017,48988.10391443001
@@ -729,16 +809,19 @@ Deaths,Male,45 to 49,motor vehicle road injuries,liverpool,1.379945195180713,489
 Deaths,Male,45 to 49,motorcyclist road injuries,liverpool,0.9027517582521374,48988.103914430016
 Deaths,Male,45 to 49,multiple myeloma,liverpool,0.6448994854660215,48988.103914430016
 Deaths,Male,45 to 49,neoplasms,liverpool,43.33415958272496,48988.10391442996
+Deaths,Male,45 to 49,non-rheumatic valvular heart disease,liverpool,0.5545422861618632,48988.10391443
 Deaths,Male,45 to 49,other road injuries,liverpool,0.009107344130773146,48988.103914430045
 Deaths,Male,45 to 49,other transport injuries,liverpool,0.32713765620080354,48988.10391442996
 Deaths,Male,45 to 49,parkinson's disease,liverpool,0.16617931258255397,48988.10391442994
 Deaths,Male,45 to 49,pedestrian road injuries,liverpool,1.013329697077855,48988.10391442999
 Deaths,Male,45 to 49,prostate cancer,liverpool,0.48850727713813213,48988.10391443
+Deaths,Male,45 to 49,rheumatic heart disease,liverpool,0.2056593178197117,48988.10391443001
 Deaths,Male,45 to 49,road injuries,liverpool,3.5046759807204237,48988.103914429994
 Deaths,Male,45 to 49,stomach cancer,liverpool,2.2070313291597863,48988.10391443004
 Deaths,Male,45 to 49,stroke,liverpool,6.006744431719795,48988.103914430016
 Deaths,Male,45 to 49,"tracheal, bronchus, and lung cancer",liverpool,8.30409228703942,48988.10391442996
 Deaths,Male,5 to 9,all causes,liverpool,3.5982007559811158,44652.55334060901
+Deaths,Male,5 to 9,cardiomyopathy and myocarditis,liverpool,0.04161615228567976,44652.55334060905
 Deaths,Male,5 to 9,cardiovascular diseases,liverpool,0.10943680476416884,44652.553340609
 Deaths,Male,5 to 9,chronic myeloid leukemia,liverpool,0.0050731021586705605,44652.55334060897
 Deaths,Male,5 to 9,chronic obstructive pulmonary disease,liverpool,0.007684704144780023,44652.55334060898
@@ -753,12 +836,14 @@ Deaths,Male,5 to 9,neoplasms,liverpool,1.1238011366781384,44652.55334060902
 Deaths,Male,5 to 9,other road injuries,liverpool,0.004291779982692943,44652.55334060898
 Deaths,Male,5 to 9,other transport injuries,liverpool,0.02116957544751781,44652.553340609025
 Deaths,Male,5 to 9,pedestrian road injuries,liverpool,0.2027284957409373,44652.55334060897
+Deaths,Male,5 to 9,rheumatic heart disease,liverpool,0.0038409694950559308,44652.55334060904
 Deaths,Male,5 to 9,road injuries,liverpool,0.33692278191857306,44652.55334060901
 Deaths,Male,5 to 9,stroke,liverpool,0.025823582413253034,44652.55334060899
 Deaths,Male,50 to 54,all causes,liverpool,267.4676446237946,53034.13079834437
 Deaths,Male,50 to 54,alzheimer's disease and other dementias,liverpool,0.712857149545031,53034.130798344384
 Deaths,Male,50 to 54,bladder cancer,liverpool,1.9041771399342189,53034.13079834435
 Deaths,Male,50 to 54,breast cancer,liverpool,0.0934320051967039,53034.13079834432
+Deaths,Male,50 to 54,cardiomyopathy and myocarditis,liverpool,2.7940742159135707,53034.13079834435
 Deaths,Male,50 to 54,cardiovascular diseases,liverpool,70.984436822534,53034.13079834438
 Deaths,Male,50 to 54,chronic myeloid leukemia,liverpool,0.12124895190093063,53034.13079834437
 Deaths,Male,50 to 54,chronic obstructive pulmonary disease,liverpool,8.331900283691823,53034.13079834438
@@ -774,11 +859,13 @@ Deaths,Male,50 to 54,motor vehicle road injuries,liverpool,1.0885744421887018,53
 Deaths,Male,50 to 54,motorcyclist road injuries,liverpool,0.5928202423243434,53034.1307983444
 Deaths,Male,50 to 54,multiple myeloma,liverpool,1.4922588209778465,53034.130798344355
 Deaths,Male,50 to 54,neoplasms,liverpool,94.559473007429,53034.13079834435
+Deaths,Male,50 to 54,non-rheumatic valvular heart disease,liverpool,1.0534887013162813,53034.130798344326
 Deaths,Male,50 to 54,other road injuries,liverpool,0.014592100122062723,53034.130798344384
 Deaths,Male,50 to 54,other transport injuries,liverpool,0.3267174421283521,53034.13079834433
 Deaths,Male,50 to 54,parkinson's disease,liverpool,0.4067196642227201,53034.13079834437
 Deaths,Male,50 to 54,pedestrian road injuries,liverpool,0.9152059606582383,53034.13079834438
 Deaths,Male,50 to 54,prostate cancer,liverpool,2.2930880385483223,53034.13079834433
+Deaths,Male,50 to 54,rheumatic heart disease,liverpool,0.3027099603463978,53034.130798344355
 Deaths,Male,50 to 54,road injuries,liverpool,2.829179284267836,53034.1307983443
 Deaths,Male,50 to 54,stomach cancer,liverpool,4.366571098645369,53034.13079834439
 Deaths,Male,50 to 54,stroke,liverpool,9.722667613890103,53034.13079834436
@@ -787,6 +874,7 @@ Deaths,Male,55 to 59,all causes,liverpool,396.4471962006652,51747.88010191142
 Deaths,Male,55 to 59,alzheimer's disease and other dementias,liverpool,1.4757506526471313,51747.880101911374
 Deaths,Male,55 to 59,bladder cancer,liverpool,3.636278555204755,51747.88010191135
 Deaths,Male,55 to 59,breast cancer,liverpool,0.15010462240783706,51747.88010191139
+Deaths,Male,55 to 59,cardiomyopathy and myocarditis,liverpool,3.5577422130231424,51747.88010191136
 Deaths,Male,55 to 59,cardiovascular diseases,liverpool,108.57737823216073,51747.88010191139
 Deaths,Male,55 to 59,chronic myeloid leukemia,liverpool,0.15342844938675493,51747.880101911425
 Deaths,Male,55 to 59,chronic obstructive pulmonary disease,liverpool,16.6920839170016,51747.88010191145
@@ -802,11 +890,13 @@ Deaths,Male,55 to 59,motor vehicle road injuries,liverpool,1.0599382508089843,51
 Deaths,Male,55 to 59,motorcyclist road injuries,liverpool,0.4664447995286504,51747.88010191141
 Deaths,Male,55 to 59,multiple myeloma,liverpool,2.5580827418617464,51747.88010191139
 Deaths,Male,55 to 59,neoplasms,liverpool,158.37932301387195,51747.880101911345
+Deaths,Male,55 to 59,non-rheumatic valvular heart disease,liverpool,1.7182527004177872,51747.88010191137
 Deaths,Male,55 to 59,other road injuries,liverpool,0.013226611290295736,51747.88010191137
 Deaths,Male,55 to 59,other transport injuries,liverpool,0.32006800471697294,51747.88010191137
 Deaths,Male,55 to 59,parkinson's disease,liverpool,0.7923028720806152,51747.880101911396
 Deaths,Male,55 to 59,pedestrian road injuries,liverpool,0.9209185883500011,51747.88010191139
 Deaths,Male,55 to 59,prostate cancer,liverpool,5.733964444826913,51747.8801019114
+Deaths,Male,55 to 59,rheumatic heart disease,liverpool,0.4561821069390046,51747.88010191143
 Deaths,Male,55 to 59,road injuries,liverpool,2.7043525299234163,51747.88010191134
 Deaths,Male,55 to 59,stomach cancer,liverpool,6.9111982363738855,51747.88010191137
 Deaths,Male,55 to 59,stroke,liverpool,14.448540327325041,51747.88010191139
@@ -815,6 +905,7 @@ Deaths,Male,60 to 64,all causes,liverpool,554.5420229357353,45865.34839703414
 Deaths,Male,60 to 64,alzheimer's disease and other dementias,liverpool,2.90658071257618,45865.34839703415
 Deaths,Male,60 to 64,bladder cancer,liverpool,6.831730910591794,45865.34839703412
 Deaths,Male,60 to 64,breast cancer,liverpool,0.2091466624061154,45865.34839703418
+Deaths,Male,60 to 64,cardiomyopathy and myocarditis,liverpool,3.906773152259709,45865.34839703414
 Deaths,Male,60 to 64,cardiovascular diseases,liverpool,149.92971488715088,45865.348397034126
 Deaths,Male,60 to 64,chronic myeloid leukemia,liverpool,0.20506115225798835,45865.348397034126
 Deaths,Male,60 to 64,chronic obstructive pulmonary disease,liverpool,35.537806647982265,45865.348397034126
@@ -830,11 +921,13 @@ Deaths,Male,60 to 64,motor vehicle road injuries,liverpool,0.8846751862849417,45
 Deaths,Male,60 to 64,motorcyclist road injuries,liverpool,0.2718848917521726,45865.34839703411
 Deaths,Male,60 to 64,multiple myeloma,liverpool,3.9396490833374855,45865.34839703413
 Deaths,Male,60 to 64,neoplasms,liverpool,247.72471630357157,45865.34839703415
+Deaths,Male,60 to 64,non-rheumatic valvular heart disease,liverpool,2.6252227304621525,45865.34839703415
 Deaths,Male,60 to 64,other road injuries,liverpool,0.00946172934995943,45865.348397034104
 Deaths,Male,60 to 64,other transport injuries,liverpool,0.28062861666805394,45865.3483970341
 Deaths,Male,60 to 64,parkinson's disease,liverpool,2.0720793553041346,45865.34839703414
 Deaths,Male,60 to 64,pedestrian road injuries,liverpool,0.9150044827695188,45865.34839703415
 Deaths,Male,60 to 64,prostate cancer,liverpool,15.194729320031207,45865.34839703415
+Deaths,Male,60 to 64,rheumatic heart disease,liverpool,0.6022596299766293,45865.348397034155
 Deaths,Male,60 to 64,road injuries,liverpool,2.269486870237003,45865.34839703412
 Deaths,Male,60 to 64,stomach cancer,liverpool,10.416669386044838,45865.34839703412
 Deaths,Male,60 to 64,stroke,liverpool,19.413125459865892,45865.34839703413
@@ -843,6 +936,7 @@ Deaths,Male,65 to 69,all causes,liverpool,765.7847456619834,40790.77214912782
 Deaths,Male,65 to 69,alzheimer's disease and other dementias,liverpool,5.96110405985908,40790.772149127864
 Deaths,Male,65 to 69,bladder cancer,liverpool,10.794188188995006,40790.772149127864
 Deaths,Male,65 to 69,breast cancer,liverpool,0.27741931743247916,40790.77214912783
+Deaths,Male,65 to 69,cardiomyopathy and myocarditis,liverpool,4.520015448811091,40790.772149127806
 Deaths,Male,65 to 69,cardiovascular diseases,liverpool,203.95645159976866,40790.77214912787
 Deaths,Male,65 to 69,chronic myeloid leukemia,liverpool,0.3050143348992826,40790.77214912784
 Deaths,Male,65 to 69,chronic obstructive pulmonary disease,liverpool,58.43873311784384,40790.77214912786
@@ -858,11 +952,13 @@ Deaths,Male,65 to 69,motor vehicle road injuries,liverpool,0.8354725981271736,40
 Deaths,Male,65 to 69,motorcyclist road injuries,liverpool,0.18604481550676374,40790.77214912781
 Deaths,Male,65 to 69,multiple myeloma,liverpool,5.925332852331762,40790.77214912782
 Deaths,Male,65 to 69,neoplasms,liverpool,357.00337049817267,40790.77214912785
+Deaths,Male,65 to 69,non-rheumatic valvular heart disease,liverpool,3.960391143119673,40790.77214912788
 Deaths,Male,65 to 69,other road injuries,liverpool,0.007745905458633727,40790.77214912781
 Deaths,Male,65 to 69,other transport injuries,liverpool,0.2426331094826241,40790.77214912781
 Deaths,Male,65 to 69,parkinson's disease,liverpool,5.337685605299532,40790.77214912783
 Deaths,Male,65 to 69,pedestrian road injuries,liverpool,0.9553327786862664,40790.77214912784
 Deaths,Male,65 to 69,prostate cancer,liverpool,29.261667589959753,40790.77214912782
+Deaths,Male,65 to 69,rheumatic heart disease,liverpool,0.8695183243566897,40790.772149127864
 Deaths,Male,65 to 69,road injuries,liverpool,2.16656192709021,40790.772149127835
 Deaths,Male,65 to 69,stomach cancer,liverpool,14.960417586502984,40790.77214912784
 Deaths,Male,65 to 69,stroke,liverpool,30.803385654680312,40790.77214912787
@@ -871,6 +967,7 @@ Deaths,Male,70 to 74,all causes,liverpool,1109.2251424397678,36792.105421194276
 Deaths,Male,70 to 74,alzheimer's disease and other dementias,liverpool,13.289335265608257,36792.1054211943
 Deaths,Male,70 to 74,bladder cancer,liverpool,18.024116542865116,36792.10542119428
 Deaths,Male,70 to 74,breast cancer,liverpool,0.39139323416142296,36792.10542119427
+Deaths,Male,70 to 74,cardiomyopathy and myocarditis,liverpool,4.980633409982614,36792.105421194276
 Deaths,Male,70 to 74,cardiovascular diseases,liverpool,316.4709212438214,36792.105421194276
 Deaths,Male,70 to 74,chronic myeloid leukemia,liverpool,0.4861222747075207,36792.10542119424
 Deaths,Male,70 to 74,chronic obstructive pulmonary disease,liverpool,104.691361144448,36792.10542119427
@@ -886,11 +983,13 @@ Deaths,Male,70 to 74,motor vehicle road injuries,liverpool,0.8473716996278622,36
 Deaths,Male,70 to 74,motorcyclist road injuries,liverpool,0.08992888913877035,36792.10542119427
 Deaths,Male,70 to 74,multiple myeloma,liverpool,8.436962609524594,36792.10542119425
 Deaths,Male,70 to 74,neoplasms,liverpool,477.31785717437816,36792.10542119429
+Deaths,Male,70 to 74,non-rheumatic valvular heart disease,liverpool,6.896309318718159,36792.10542119426
 Deaths,Male,70 to 74,other road injuries,liverpool,0.006386985026453829,36792.105421194276
 Deaths,Male,70 to 74,other transport injuries,liverpool,0.19799434674695315,36792.10542119428
 Deaths,Male,70 to 74,parkinson's disease,liverpool,14.541638023487595,36792.10542119424
 Deaths,Male,70 to 74,pedestrian road injuries,liverpool,1.0953381503017232,36792.10542119433
 Deaths,Male,70 to 74,prostate cancer,liverpool,50.609065966837775,36792.10542119432
+Deaths,Male,70 to 74,rheumatic heart disease,liverpool,1.4517465594635128,36792.10542119426
 Deaths,Male,70 to 74,road injuries,liverpool,2.185072442740624,36792.10542119429
 Deaths,Male,70 to 74,stomach cancer,liverpool,22.20700053270066,36792.105421194254
 Deaths,Male,70 to 74,stroke,liverpool,57.830980108691264,36792.10542119426
@@ -899,6 +998,7 @@ Deaths,Male,75 to 79,all causes,liverpool,1194.6855902224188,24015.404689737967
 Deaths,Male,75 to 79,alzheimer's disease and other dementias,liverpool,22.862059241849725,24015.404689737967
 Deaths,Male,75 to 79,bladder cancer,liverpool,21.725953565146444,24015.404689737963
 Deaths,Male,75 to 79,breast cancer,liverpool,0.35592606438495,24015.404689737985
+Deaths,Male,75 to 79,cardiomyopathy and myocarditis,liverpool,4.92707493485762,24015.404689737952
 Deaths,Male,75 to 79,cardiovascular diseases,liverpool,354.1758551802882,24015.404689737963
 Deaths,Male,75 to 79,chronic myeloid leukemia,liverpool,0.497433352234722,24015.404689737963
 Deaths,Male,75 to 79,chronic obstructive pulmonary disease,liverpool,117.4743997265088,24015.404689737967
@@ -914,11 +1014,13 @@ Deaths,Male,75 to 79,motor vehicle road injuries,liverpool,0.7457117338995944,24
 Deaths,Male,75 to 79,motorcyclist road injuries,liverpool,0.04570785780874763,24015.404689737956
 Deaths,Male,75 to 79,multiple myeloma,liverpool,8.379191410501136,24015.40468973794
 Deaths,Male,75 to 79,neoplasms,liverpool,463.8646158910532,24015.404689737963
+Deaths,Male,75 to 79,non-rheumatic valvular heart disease,liverpool,9.19569118559425,24015.404689737952
 Deaths,Male,75 to 79,other road injuries,liverpool,0.0054468155789172195,24015.404689737963
 Deaths,Male,75 to 79,other transport injuries,liverpool,0.1421983506168329,24015.40468973797
 Deaths,Male,75 to 79,parkinson's disease,liverpool,24.42477532093069,24015.404689737967
 Deaths,Male,75 to 79,pedestrian road injuries,liverpool,1.1484072090358923,24015.404689737963
 Deaths,Male,75 to 79,prostate cancer,liverpool,70.32621701740982,24015.40468973797
+Deaths,Male,75 to 79,rheumatic heart disease,liverpool,1.6921530819349726,24015.404689737978
 Deaths,Male,75 to 79,road injuries,liverpool,2.0479510860483723,24015.404689737952
 Deaths,Male,75 to 79,stomach cancer,liverpool,23.102666917295515,24015.404689737963
 Deaths,Male,75 to 79,stroke,liverpool,75.32772265395273,24015.40468973795
@@ -927,6 +1029,7 @@ Deaths,Male,80 to 84,all causes,liverpool,1461.098243031595,17191.414450396587
 Deaths,Male,80 to 84,alzheimer's disease and other dementias,liverpool,57.67280491034895,17191.414450396598
 Deaths,Male,80 to 84,bladder cancer,liverpool,26.932366158219413,17191.4144503966
 Deaths,Male,80 to 84,breast cancer,liverpool,0.3205034971391839,17191.414450396616
+Deaths,Male,80 to 84,cardiomyopathy and myocarditis,liverpool,5.973859005158637,17191.414450396598
 Deaths,Male,80 to 84,cardiovascular diseases,liverpool,451.8259497146099,17191.414450396613
 Deaths,Male,80 to 84,chronic myeloid leukemia,liverpool,0.5455178449365292,17191.414450396587
 Deaths,Male,80 to 84,chronic obstructive pulmonary disease,liverpool,141.59654042535254,17191.41445039661
@@ -942,11 +1045,13 @@ Deaths,Male,80 to 84,motor vehicle road injuries,liverpool,0.7834877635983433,17
 Deaths,Male,80 to 84,motorcyclist road injuries,liverpool,0.026791657216721994,17191.4144503966
 Deaths,Male,80 to 84,multiple myeloma,liverpool,8.452666494954755,17191.41445039661
 Deaths,Male,80 to 84,neoplasms,liverpool,479.81525902537294,17191.414450396594
+Deaths,Male,80 to 84,non-rheumatic valvular heart disease,liverpool,14.436828562188188,17191.4144503966
 Deaths,Male,80 to 84,other road injuries,liverpool,0.004869382291064148,17191.414450396605
 Deaths,Male,80 to 84,other transport injuries,liverpool,0.11317128429286104,17191.414450396598
 Deaths,Male,80 to 84,parkinson's disease,liverpool,32.08697053583806,17191.414450396605
 Deaths,Male,80 to 84,pedestrian road injuries,liverpool,1.1725307613272715,17191.414450396594
 Deaths,Male,80 to 84,prostate cancer,liverpool,90.3553011356563,17191.414450396605
+Deaths,Male,80 to 84,rheumatic heart disease,liverpool,2.0720680953800548,17191.4144503966
 Deaths,Male,80 to 84,road injuries,liverpool,2.058213570106479,17191.4144503966
 Deaths,Male,80 to 84,stomach cancer,liverpool,24.849383158872122,17191.414450396605
 Deaths,Male,80 to 84,stroke,liverpool,109.1070173837927,17191.41445039659
@@ -955,6 +1060,7 @@ Deaths,Male,85 to 89,all causes,liverpool,1291.0676447666813,9140.432621758799
 Deaths,Male,85 to 89,alzheimer's disease and other dementias,liverpool,76.59462748854679,9140.432621758793
 Deaths,Male,85 to 89,bladder cancer,liverpool,24.063387112061854,9140.432621758791
 Deaths,Male,85 to 89,breast cancer,liverpool,0.3050010056574664,9140.432621758784
+Deaths,Male,85 to 89,cardiomyopathy and myocarditis,liverpool,6.120522780835795,9140.432621758786
 Deaths,Male,85 to 89,cardiovascular diseases,liverpool,401.6511024321531,9140.432621758786
 Deaths,Male,85 to 89,chronic myeloid leukemia,liverpool,0.5409953167005283,9140.432621758791
 Deaths,Male,85 to 89,chronic obstructive pulmonary disease,liverpool,123.61948369006309,9140.432621758802
@@ -970,11 +1076,13 @@ Deaths,Male,85 to 89,motor vehicle road injuries,liverpool,0.5618568949178311,91
 Deaths,Male,85 to 89,motorcyclist road injuries,liverpool,0.012691872353994441,9140.432621758793
 Deaths,Male,85 to 89,multiple myeloma,liverpool,6.133863033787339,9140.432621758782
 Deaths,Male,85 to 89,neoplasms,liverpool,357.2404529120291,9140.432621758795
+Deaths,Male,85 to 89,non-rheumatic valvular heart disease,liverpool,15.201647899931908,9140.432621758791
 Deaths,Male,85 to 89,other road injuries,liverpool,0.002746255761101108,9140.432621758795
 Deaths,Male,85 to 89,other transport injuries,liverpool,0.06121603552530423,9140.432621758795
 Deaths,Male,85 to 89,parkinson's disease,liverpool,26.40721662519515,9140.432621758791
 Deaths,Male,85 to 89,pedestrian road injuries,liverpool,0.8535321756695666,9140.432621758788
 Deaths,Male,85 to 89,prostate cancer,liverpool,84.7426248283,9140.432621758804
+Deaths,Male,85 to 89,rheumatic heart disease,liverpool,1.7692290367878356,9140.432621758799
 Deaths,Male,85 to 89,road injuries,liverpool,1.4673879438409012,9140.432621758786
 Deaths,Male,85 to 89,stomach cancer,liverpool,18.56930030465692,9140.43262175879
 Deaths,Male,85 to 89,stroke,liverpool,106.40582327816084,9140.432621758802
@@ -983,6 +1091,7 @@ Deaths,Male,90 to 94,all causes,liverpool,766.1092947443033,3305.8514183577545
 Deaths,Male,90 to 94,alzheimer's disease and other dementias,liverpool,58.17837237477204,3305.851418357754
 Deaths,Male,90 to 94,bladder cancer,liverpool,12.85336345829408,3305.8514183577536
 Deaths,Male,90 to 94,breast cancer,liverpool,0.1793949045934283,3305.8514183577536
+Deaths,Male,90 to 94,cardiomyopathy and myocarditis,liverpool,4.402144871719924,3305.851418357756
 Deaths,Male,90 to 94,cardiovascular diseases,liverpool,250.68884334270072,3305.8514183577513
 Deaths,Male,90 to 94,chronic myeloid leukemia,liverpool,0.2557300854839054,3305.8514183577554
 Deaths,Male,90 to 94,chronic obstructive pulmonary disease,liverpool,67.48333521872671,3305.851418357752
@@ -998,11 +1107,13 @@ Deaths,Male,90 to 94,motor vehicle road injuries,liverpool,0.24175769735457933,3
 Deaths,Male,90 to 94,motorcyclist road injuries,liverpool,0.008165962379058955,3305.8514183577536
 Deaths,Male,90 to 94,multiple myeloma,liverpool,2.3026750105857725,3305.8514183577527
 Deaths,Male,90 to 94,neoplasms,liverpool,166.61591587860792,3305.851418357755
+Deaths,Male,90 to 94,non-rheumatic valvular heart disease,liverpool,9.695350140253906,3305.8514183577554
 Deaths,Male,90 to 94,other road injuries,liverpool,0.0015955272776450678,3305.851418357753
 Deaths,Male,90 to 94,other transport injuries,liverpool,0.031091615492426793,3305.8514183577518
 Deaths,Male,90 to 94,parkinson's disease,liverpool,12.19476997052451,3305.851418357754
 Deaths,Male,90 to 94,pedestrian road injuries,liverpool,0.3908167787532752,3305.851418357754
 Deaths,Male,90 to 94,prostate cancer,liverpool,47.17637993117919,3305.851418357755
+Deaths,Male,90 to 94,rheumatic heart disease,liverpool,0.9735120141532844,3305.851418357752
 Deaths,Male,90 to 94,road injuries,liverpool,0.659787898794995,3305.851418357754
 Deaths,Male,90 to 94,stomach cancer,liverpool,8.304831769804887,3305.851418357755
 Deaths,Male,90 to 94,stroke,liverpool,69.23958233213814,3305.85141835775
@@ -1011,6 +1122,7 @@ Deaths,Male,95 to 99,all causes,liverpool,207.22921044141725,573.9271171574646
 Deaths,Male,95 to 99,alzheimer's disease and other dementias,liverpool,18.041845200490567,573.9271171574649
 Deaths,Male,95 to 99,bladder cancer,liverpool,3.0515927640016485,573.9271171574645
 Deaths,Male,95 to 99,breast cancer,liverpool,0.04158496898904869,573.9271171574655
+Deaths,Male,95 to 99,cardiomyopathy and myocarditis,liverpool,1.2836331218929475,573.9271171574645
 Deaths,Male,95 to 99,cardiovascular diseases,liverpool,70.12181631008619,573.9271171574647
 Deaths,Male,95 to 99,chronic myeloid leukemia,liverpool,0.054957443381193266,573.927117157465
 Deaths,Male,95 to 99,chronic obstructive pulmonary disease,liverpool,17.96401107676687,573.9271171574643
@@ -1026,16 +1138,19 @@ Deaths,Male,95 to 99,motor vehicle road injuries,liverpool,0.05878938609720664,5
 Deaths,Male,95 to 99,motorcyclist road injuries,liverpool,0.0034940801244938173,573.9271171574657
 Deaths,Male,95 to 99,multiple myeloma,liverpool,0.5351494589782303,573.927117157465
 Deaths,Male,95 to 99,neoplasms,liverpool,37.313825346033155,573.9271171574651
+Deaths,Male,95 to 99,non-rheumatic valvular heart disease,liverpool,2.5166678313717443,573.9271171574645
 Deaths,Male,95 to 99,other road injuries,liverpool,7.444572885751483e-4,573.9271171574646
 Deaths,Male,95 to 99,other transport injuries,liverpool,0.00916470628377642,573.9271171574647
 Deaths,Male,95 to 99,parkinson's disease,liverpool,1.9795220186425513,573.9271171574643
 Deaths,Male,95 to 99,pedestrian road injuries,liverpool,0.09531219103614595,573.9271171574649
 Deaths,Male,95 to 99,prostate cancer,liverpool,10.996837875464688,573.9271171574649
+Deaths,Male,95 to 99,rheumatic heart disease,liverpool,0.2459884587158645,573.9271171574644
 Deaths,Male,95 to 99,road injuries,liverpool,0.15885219863598368,573.9271171574643
 Deaths,Male,95 to 99,stomach cancer,liverpool,1.8496174065928794,573.9271171574641
 Deaths,Male,95 to 99,stroke,liverpool,19.891511161689372,573.9271171574645
 Deaths,Male,95 to 99,"tracheal, bronchus, and lung cancer",liverpool,5.40642346787449,573.9271171574652
 YLLs (Years of Life Lost),Female,0 to 5,all causes,liverpool,3191.263861365877,42600.23774630016
+YLLs (Years of Life Lost),Female,0 to 5,cardiomyopathy and myocarditis,liverpool,22.410474986691913,42600.237746300154
 YLLs (Years of Life Lost),Female,0 to 5,cardiovascular diseases,liverpool,41.44679918197102,42600.237746300125
 YLLs (Years of Life Lost),Female,0 to 5,chronic myeloid leukemia,liverpool,0.463470502087883,42600.23774630014
 YLLs (Years of Life Lost),Female,0 to 5,chronic obstructive pulmonary disease,liverpool,1.9078148988427013,42600.2377463001
@@ -1049,9 +1164,11 @@ YLLs (Years of Life Lost),Female,0 to 5,neoplasms,liverpool,96.23527893631774,42
 YLLs (Years of Life Lost),Female,0 to 5,other road injuries,liverpool,0.6327879020432629,42600.23774630013
 YLLs (Years of Life Lost),Female,0 to 5,other transport injuries,liverpool,1.2215220012753303,42600.23774630013
 YLLs (Years of Life Lost),Female,0 to 5,pedestrian road injuries,liverpool,7.972923286684434,42600.23774630013
+YLLs (Years of Life Lost),Female,0 to 5,rheumatic heart disease,liverpool,0.5533071998542839,42600.23774630012
 YLLs (Years of Life Lost),Female,0 to 5,road injuries,liverpool,17.43150410153148,42600.237746300125
 YLLs (Years of Life Lost),Female,0 to 5,stroke,liverpool,4.678165708472685,42600.23774630016
 YLLs (Years of Life Lost),Female,10 to 14,all causes,liverpool,245.02388668868127,42370.575626404316
+YLLs (Years of Life Lost),Female,10 to 14,cardiomyopathy and myocarditis,liverpool,3.8721620628615847,42370.575626404316
 YLLs (Years of Life Lost),Female,10 to 14,cardiovascular diseases,liverpool,10.23880044990956,42370.57562640433
 YLLs (Years of Life Lost),Female,10 to 14,chronic myeloid leukemia,liverpool,0.3222462119027228,42370.575626404316
 YLLs (Years of Life Lost),Female,10 to 14,chronic obstructive pulmonary disease,liverpool,1.2700674385369817,42370.5756264043
@@ -1066,12 +1183,14 @@ YLLs (Years of Life Lost),Female,10 to 14,neoplasms,liverpool,73.37839467388797,
 YLLs (Years of Life Lost),Female,10 to 14,other road injuries,liverpool,0.4016428210631133,42370.57562640434
 YLLs (Years of Life Lost),Female,10 to 14,other transport injuries,liverpool,1.1228568798790217,42370.57562640436
 YLLs (Years of Life Lost),Female,10 to 14,pedestrian road injuries,liverpool,9.728631802499473,42370.57562640432
+YLLs (Years of Life Lost),Female,10 to 14,rheumatic heart disease,liverpool,0.2988371843116076,42370.57562640434
 YLLs (Years of Life Lost),Female,10 to 14,road injuries,liverpool,19.476645502238227,42370.57562640433
 YLLs (Years of Life Lost),Female,10 to 14,stroke,liverpool,2.709030390442883,42370.57562640433
 YLLs (Years of Life Lost),Female,10 to 14,"tracheal, bronchus, and lung cancer",liverpool,0.6816791312338277,42370.57562640435
 YLLs (Years of Life Lost),Female,15 to 19,all causes,liverpool,576.5349792711455,40925.522620521486
 YLLs (Years of Life Lost),Female,15 to 19,bladder cancer,liverpool,0.31808728337656283,40925.522620521464
 YLLs (Years of Life Lost),Female,15 to 19,breast cancer,liverpool,1.5155948650035331,40925.522620521515
+YLLs (Years of Life Lost),Female,15 to 19,cardiomyopathy and myocarditis,liverpool,8.267419630529732,40925.52262052147
 YLLs (Years of Life Lost),Female,15 to 19,cardiovascular diseases,liverpool,33.30661837067977,40925.52262052147
 YLLs (Years of Life Lost),Female,15 to 19,chronic myeloid leukemia,liverpool,0.6863325723811721,40925.52262052148
 YLLs (Years of Life Lost),Female,15 to 19,chronic obstructive pulmonary disease,liverpool,4.086860748667558,40925.52262052148
@@ -1085,9 +1204,11 @@ YLLs (Years of Life Lost),Female,15 to 19,lower respiratory infections,liverpool
 YLLs (Years of Life Lost),Female,15 to 19,motor vehicle road injuries,liverpool,45.792060035080986,40925.52262052145
 YLLs (Years of Life Lost),Female,15 to 19,motorcyclist road injuries,liverpool,5.371806054033362,40925.522620521515
 YLLs (Years of Life Lost),Female,15 to 19,neoplasms,liverpool,113.16479718164256,40925.52262052146
+YLLs (Years of Life Lost),Female,15 to 19,non-rheumatic valvular heart disease,liverpool,1.571074818388847,40925.52262052145
 YLLs (Years of Life Lost),Female,15 to 19,other road injuries,liverpool,1.2294011298834004,40925.52262052148
 YLLs (Years of Life Lost),Female,15 to 19,other transport injuries,liverpool,2.7000402468623355,40925.52262052147
 YLLs (Years of Life Lost),Female,15 to 19,pedestrian road injuries,liverpool,23.40603061217381,40925.52262052144
+YLLs (Years of Life Lost),Female,15 to 19,rheumatic heart disease,liverpool,0.6255799861592815,40925.5226205215
 YLLs (Years of Life Lost),Female,15 to 19,road injuries,liverpool,79.08588227359651,40925.52262052149
 YLLs (Years of Life Lost),Female,15 to 19,stomach cancer,liverpool,0.5784624420650997,40925.522620521486
 YLLs (Years of Life Lost),Female,15 to 19,stroke,liverpool,9.949106115848608,40925.52262052147
@@ -1095,6 +1216,7 @@ YLLs (Years of Life Lost),Female,15 to 19,"tracheal, bronchus, and lung cancer",
 YLLs (Years of Life Lost),Female,20 to 24,all causes,liverpool,637.957000486953,47195.36063232001
 YLLs (Years of Life Lost),Female,20 to 24,bladder cancer,liverpool,0.3990958942092109,47195.360632320015
 YLLs (Years of Life Lost),Female,20 to 24,breast cancer,liverpool,4.008222260263153,47195.36063232009
+YLLs (Years of Life Lost),Female,20 to 24,cardiomyopathy and myocarditis,liverpool,8.861597490393123,47195.36063232009
 YLLs (Years of Life Lost),Female,20 to 24,cardiovascular diseases,liverpool,44.46855976370074,47195.36063232004
 YLLs (Years of Life Lost),Female,20 to 24,chronic myeloid leukemia,liverpool,0.5402495039572128,47195.36063232009
 YLLs (Years of Life Lost),Female,20 to 24,chronic obstructive pulmonary disease,liverpool,4.780815465491329,47195.36063232005
@@ -1110,10 +1232,12 @@ YLLs (Years of Life Lost),Female,20 to 24,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,20 to 24,motorcyclist road injuries,liverpool,3.7743747224373774,47195.36063232006
 YLLs (Years of Life Lost),Female,20 to 24,multiple myeloma,liverpool,0.19923958651200752,47195.36063232007
 YLLs (Years of Life Lost),Female,20 to 24,neoplasms,liverpool,135.20513467511364,47195.36063232005
+YLLs (Years of Life Lost),Female,20 to 24,non-rheumatic valvular heart disease,liverpool,1.808851974038636,47195.36063231999
 YLLs (Years of Life Lost),Female,20 to 24,other road injuries,liverpool,0.9391713002033767,47195.36063232002
 YLLs (Years of Life Lost),Female,20 to 24,other transport injuries,liverpool,2.31732624572539,47195.36063232001
 YLLs (Years of Life Lost),Female,20 to 24,parkinson's disease,liverpool,0.034289268101278685,47195.36063232008
 YLLs (Years of Life Lost),Female,20 to 24,pedestrian road injuries,liverpool,12.573618457276837,47195.36063232004
+YLLs (Years of Life Lost),Female,20 to 24,rheumatic heart disease,liverpool,0.9269529177583559,47195.36063231999
 YLLs (Years of Life Lost),Female,20 to 24,road injuries,liverpool,58.250512912559046,47195.36063232003
 YLLs (Years of Life Lost),Female,20 to 24,stomach cancer,liverpool,1.551731567950917,47195.36063232003
 YLLs (Years of Life Lost),Female,20 to 24,stroke,liverpool,14.120163382581024,47195.360632320066
@@ -1122,6 +1246,7 @@ YLLs (Years of Life Lost),Female,20 to 24,uterine cancer,liverpool,0.37794706969
 YLLs (Years of Life Lost),Female,25 to 29,all causes,liverpool,919.1641797132368,52876.40504523709
 YLLs (Years of Life Lost),Female,25 to 29,bladder cancer,liverpool,1.2448124566643688,52876.40504523701
 YLLs (Years of Life Lost),Female,25 to 29,breast cancer,liverpool,37.6181296037648,52876.40504523698
+YLLs (Years of Life Lost),Female,25 to 29,cardiomyopathy and myocarditis,liverpool,12.853712440149355,52876.40504523708
 YLLs (Years of Life Lost),Female,25 to 29,cardiovascular diseases,liverpool,89.1095768304451,52876.405045237014
 YLLs (Years of Life Lost),Female,25 to 29,chronic myeloid leukemia,liverpool,1.0541184722955312,52876.40504523707
 YLLs (Years of Life Lost),Female,25 to 29,chronic obstructive pulmonary disease,liverpool,7.454903309316798,52876.40504523703
@@ -1137,10 +1262,12 @@ YLLs (Years of Life Lost),Female,25 to 29,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,25 to 29,motorcyclist road injuries,liverpool,2.751772327016684,52876.40504523706
 YLLs (Years of Life Lost),Female,25 to 29,multiple myeloma,liverpool,0.3861333071172156,52876.40504523706
 YLLs (Years of Life Lost),Female,25 to 29,neoplasms,liverpool,257.03229524917685,52876.40504523707
+YLLs (Years of Life Lost),Female,25 to 29,non-rheumatic valvular heart disease,liverpool,3.4530130315600656,52876.40504523708
 YLLs (Years of Life Lost),Female,25 to 29,other road injuries,liverpool,0.793452355614127,52876.405045237065
 YLLs (Years of Life Lost),Female,25 to 29,other transport injuries,liverpool,2.2786682181895603,52876.40504523703
 YLLs (Years of Life Lost),Female,25 to 29,parkinson's disease,liverpool,0.01992074785233806,52876.405045237094
 YLLs (Years of Life Lost),Female,25 to 29,pedestrian road injuries,liverpool,9.205734905220105,52876.40504523703
+YLLs (Years of Life Lost),Female,25 to 29,rheumatic heart disease,liverpool,1.8328628054159157,52876.40504523699
 YLLs (Years of Life Lost),Female,25 to 29,road injuries,liverpool,42.49025686889695,52876.405045237036
 YLLs (Years of Life Lost),Female,25 to 29,stomach cancer,liverpool,6.071692991509864,52876.405045237065
 YLLs (Years of Life Lost),Female,25 to 29,stroke,liverpool,31.765121243319484,52876.40504523703
@@ -1149,6 +1276,7 @@ YLLs (Years of Life Lost),Female,25 to 29,uterine cancer,liverpool,1.25706884133
 YLLs (Years of Life Lost),Female,30 to 34,all causes,liverpool,1518.7574301463133,54970.384083811354
 YLLs (Years of Life Lost),Female,30 to 34,bladder cancer,liverpool,4.401226746804114,54970.38408381134
 YLLs (Years of Life Lost),Female,30 to 34,breast cancer,liverpool,143.3751134559391,54970.38408381132
+YLLs (Years of Life Lost),Female,30 to 34,cardiomyopathy and myocarditis,liverpool,16.493555564297004,54970.38408381138
 YLLs (Years of Life Lost),Female,30 to 34,cardiovascular diseases,liverpool,163.36829429915775,54970.384083811245
 YLLs (Years of Life Lost),Female,30 to 34,chronic myeloid leukemia,liverpool,1.4957786783047127,54970.384083811325
 YLLs (Years of Life Lost),Female,30 to 34,chronic obstructive pulmonary disease,liverpool,13.28069128062669,54970.38408381131
@@ -1164,10 +1292,12 @@ YLLs (Years of Life Lost),Female,30 to 34,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,30 to 34,motorcyclist road injuries,liverpool,2.5176092665549215,54970.38408381135
 YLLs (Years of Life Lost),Female,30 to 34,multiple myeloma,liverpool,1.3567967405161807,54970.38408381134
 YLLs (Years of Life Lost),Female,30 to 34,neoplasms,liverpool,530.541071516594,54970.384083811325
+YLLs (Years of Life Lost),Female,30 to 34,non-rheumatic valvular heart disease,liverpool,5.077023670748742,54970.3840838113
 YLLs (Years of Life Lost),Female,30 to 34,other road injuries,liverpool,0.6883269733422712,54970.38408381135
 YLLs (Years of Life Lost),Female,30 to 34,other transport injuries,liverpool,2.02976151820318,54970.38408381126
 YLLs (Years of Life Lost),Female,30 to 34,parkinson's disease,liverpool,0.06201740156646649,54970.384083811325
 YLLs (Years of Life Lost),Female,30 to 34,pedestrian road injuries,liverpool,8.37770262372969,54970.38408381133
+YLLs (Years of Life Lost),Female,30 to 34,rheumatic heart disease,liverpool,2.8258795376690724,54970.384083811296
 YLLs (Years of Life Lost),Female,30 to 34,road injuries,liverpool,34.741942081453594,54970.3840838113
 YLLs (Years of Life Lost),Female,30 to 34,stomach cancer,liverpool,15.957753992420018,54970.38408381131
 YLLs (Years of Life Lost),Female,30 to 34,stroke,liverpool,56.85199661116233,54970.3840838113
@@ -1176,6 +1306,7 @@ YLLs (Years of Life Lost),Female,30 to 34,uterine cancer,liverpool,3.12432910139
 YLLs (Years of Life Lost),Female,35 to 39,all causes,liverpool,2340.001084560707,49851.48407251798
 YLLs (Years of Life Lost),Female,35 to 39,bladder cancer,liverpool,8.380009392150418,49851.48407251798
 YLLs (Years of Life Lost),Female,35 to 39,breast cancer,liverpool,277.10471390218504,49851.48407251798
+YLLs (Years of Life Lost),Female,35 to 39,cardiomyopathy and myocarditis,liverpool,24.051898433221755,49851.48407251793
 YLLs (Years of Life Lost),Female,35 to 39,cardiovascular diseases,liverpool,285.93687907850284,49851.48407251793
 YLLs (Years of Life Lost),Female,35 to 39,chronic myeloid leukemia,liverpool,2.326100746194391,49851.48407251794
 YLLs (Years of Life Lost),Female,35 to 39,chronic obstructive pulmonary disease,liverpool,25.037349700291696,49851.484072517946
@@ -1191,10 +1322,12 @@ YLLs (Years of Life Lost),Female,35 to 39,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,35 to 39,motorcyclist road injuries,liverpool,2.586888597556588,49851.48407251798
 YLLs (Years of Life Lost),Female,35 to 39,multiple myeloma,liverpool,3.702114599135894,49851.48407251793
 YLLs (Years of Life Lost),Female,35 to 39,neoplasms,liverpool,892.5207610745773,49851.48407251787
+YLLs (Years of Life Lost),Female,35 to 39,non-rheumatic valvular heart disease,liverpool,6.533901761782427,49851.48407251797
 YLLs (Years of Life Lost),Female,35 to 39,other road injuries,liverpool,0.7638468172455007,49851.484072517946
 YLLs (Years of Life Lost),Female,35 to 39,other transport injuries,liverpool,2.089267585474164,49851.48407251798
 YLLs (Years of Life Lost),Female,35 to 39,parkinson's disease,liverpool,0.23340873301107593,49851.48407251788
 YLLs (Years of Life Lost),Female,35 to 39,pedestrian road injuries,liverpool,10.445404848989487,49851.48407251796
+YLLs (Years of Life Lost),Female,35 to 39,rheumatic heart disease,liverpool,4.635826937293262,49851.48407251791
 YLLs (Years of Life Lost),Female,35 to 39,road injuries,liverpool,35.31121042390148,49851.48407251794
 YLLs (Years of Life Lost),Female,35 to 39,stomach cancer,liverpool,27.353096631320035,49851.48407251798
 YLLs (Years of Life Lost),Female,35 to 39,stroke,liverpool,99.53798437452566,49851.48407251797
@@ -1204,6 +1337,7 @@ YLLs (Years of Life Lost),Female,40 to 44,all causes,liverpool,3189.933924925697
 YLLs (Years of Life Lost),Female,40 to 44,alzheimer's disease and other dementias,liverpool,2.3312675648266996,44128.07658526379
 YLLs (Years of Life Lost),Female,40 to 44,bladder cancer,liverpool,15.181706589499427,44128.07658526381
 YLLs (Years of Life Lost),Female,40 to 44,breast cancer,liverpool,403.5144977558653,44128.07658526388
+YLLs (Years of Life Lost),Female,40 to 44,cardiomyopathy and myocarditis,liverpool,28.523697113072096,44128.076585263814
 YLLs (Years of Life Lost),Female,40 to 44,cardiovascular diseases,liverpool,427.1519406831062,44128.07658526383
 YLLs (Years of Life Lost),Female,40 to 44,chronic myeloid leukemia,liverpool,2.512214840238628,44128.07658526381
 YLLs (Years of Life Lost),Female,40 to 44,chronic obstructive pulmonary disease,liverpool,48.46707853923964,44128.07658526378
@@ -1219,10 +1353,12 @@ YLLs (Years of Life Lost),Female,40 to 44,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,40 to 44,motorcyclist road injuries,liverpool,2.3418373274595057,44128.076585263836
 YLLs (Years of Life Lost),Female,40 to 44,multiple myeloma,liverpool,7.527112206296611,44128.076585263814
 YLLs (Years of Life Lost),Female,40 to 44,neoplasms,liverpool,1314.1735760843678,44128.07658526382
+YLLs (Years of Life Lost),Female,40 to 44,non-rheumatic valvular heart disease,liverpool,9.064957735266235,44128.076585263814
 YLLs (Years of Life Lost),Female,40 to 44,other road injuries,liverpool,0.679599835230281,44128.076585263814
 YLLs (Years of Life Lost),Female,40 to 44,other transport injuries,liverpool,1.9241974436568183,44128.076585263814
 YLLs (Years of Life Lost),Female,40 to 44,parkinson's disease,liverpool,1.4898444395526336,44128.0765852638
 YLLs (Years of Life Lost),Female,40 to 44,pedestrian road injuries,liverpool,11.993056396479254,44128.07658526379
+YLLs (Years of Life Lost),Female,40 to 44,rheumatic heart disease,liverpool,8.277884610532215,44128.07658526379
 YLLs (Years of Life Lost),Female,40 to 44,road injuries,liverpool,36.08184025188651,44128.07658526381
 YLLs (Years of Life Lost),Female,40 to 44,stomach cancer,liverpool,42.93675511040458,44128.07658526386
 YLLs (Years of Life Lost),Female,40 to 44,stroke,liverpool,142.38242228260992,44128.076585263836
@@ -1232,6 +1368,7 @@ YLLs (Years of Life Lost),Female,45 to 49,all causes,liverpool,4523.167370987711
 YLLs (Years of Life Lost),Female,45 to 49,alzheimer's disease and other dementias,liverpool,14.2920693961102,50016.70926341634
 YLLs (Years of Life Lost),Female,45 to 49,bladder cancer,liverpool,24.221611225584,50016.709263416335
 YLLs (Years of Life Lost),Female,45 to 49,breast cancer,liverpool,582.9497510857036,50016.70926341633
+YLLs (Years of Life Lost),Female,45 to 49,cardiomyopathy and myocarditis,liverpool,36.11331422929051,50016.70926341634
 YLLs (Years of Life Lost),Female,45 to 49,cardiovascular diseases,liverpool,634.0002143581085,50016.70926341633
 YLLs (Years of Life Lost),Female,45 to 49,chronic myeloid leukemia,liverpool,3.107164521472563,50016.70926341636
 YLLs (Years of Life Lost),Female,45 to 49,chronic obstructive pulmonary disease,liverpool,100.87789562386688,50016.70926341637
@@ -1247,16 +1384,19 @@ YLLs (Years of Life Lost),Female,45 to 49,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,45 to 49,motorcyclist road injuries,liverpool,2.3777775449477594,50016.70926341632
 YLLs (Years of Life Lost),Female,45 to 49,multiple myeloma,liverpool,15.602945819108653,50016.709263416364
 YLLs (Years of Life Lost),Female,45 to 49,neoplasms,liverpool,2047.985843299553,50016.70926341635
+YLLs (Years of Life Lost),Female,45 to 49,non-rheumatic valvular heart disease,liverpool,12.231382639407572,50016.70926341634
 YLLs (Years of Life Lost),Female,45 to 49,other road injuries,liverpool,0.8536185698361913,50016.70926341635
 YLLs (Years of Life Lost),Female,45 to 49,other transport injuries,liverpool,1.8187861725317653,50016.70926341636
 YLLs (Years of Life Lost),Female,45 to 49,parkinson's disease,liverpool,4.360894464525563,50016.70926341636
 YLLs (Years of Life Lost),Female,45 to 49,pedestrian road injuries,liverpool,13.021669323847425,50016.70926341632
+YLLs (Years of Life Lost),Female,45 to 49,rheumatic heart disease,liverpool,11.482636711070406,50016.70926341635
 YLLs (Years of Life Lost),Female,45 to 49,road injuries,liverpool,38.6764676029651,50016.709263416386
 YLLs (Years of Life Lost),Female,45 to 49,stomach cancer,liverpool,60.30362757015553,50016.70926341629
 YLLs (Years of Life Lost),Female,45 to 49,stroke,liverpool,195.97624286325458,50016.709263416305
 YLLs (Years of Life Lost),Female,45 to 49,"tracheal, bronchus, and lung cancer",liverpool,311.5951656926231,50016.709263416335
 YLLs (Years of Life Lost),Female,45 to 49,uterine cancer,liverpool,24.71983911873789,50016.709263416364
 YLLs (Years of Life Lost),Female,5 to 9,all causes,liverpool,284.4929432151086,42751.91738898081
+YLLs (Years of Life Lost),Female,5 to 9,cardiomyopathy and myocarditis,liverpool,4.165263457392798,42751.917388980924
 YLLs (Years of Life Lost),Female,5 to 9,cardiovascular diseases,liverpool,10.678510670484759,42751.91738898088
 YLLs (Years of Life Lost),Female,5 to 9,chronic myeloid leukemia,liverpool,0.37654432418223477,42751.91738898086
 YLLs (Years of Life Lost),Female,5 to 9,chronic obstructive pulmonary disease,liverpool,1.5613071565686085,42751.91738898088
@@ -1271,12 +1411,14 @@ YLLs (Years of Life Lost),Female,5 to 9,neoplasms,liverpool,88.61150390077442,42
 YLLs (Years of Life Lost),Female,5 to 9,other road injuries,liverpool,0.38305993230799623,42751.91738898088
 YLLs (Years of Life Lost),Female,5 to 9,other transport injuries,liverpool,1.0455962516629413,42751.917388980866
 YLLs (Years of Life Lost),Female,5 to 9,pedestrian road injuries,liverpool,10.959265049768215,42751.91738898085
+YLLs (Years of Life Lost),Female,5 to 9,rheumatic heart disease,liverpool,0.36518882331254554,42751.91738898089
 YLLs (Years of Life Lost),Female,5 to 9,road injuries,liverpool,20.34265030762633,42751.91738898088
 YLLs (Years of Life Lost),Female,5 to 9,stroke,liverpool,2.4784105734231825,42751.91738898091
 YLLs (Years of Life Lost),Female,50 to 54,all causes,liverpool,6182.054787533035,54708.406906450495
 YLLs (Years of Life Lost),Female,50 to 54,alzheimer's disease and other dementias,liverpool,27.878338328556225,54708.406906450466
 YLLs (Years of Life Lost),Female,50 to 54,bladder cancer,liverpool,37.18997316781368,54708.4069064505
 YLLs (Years of Life Lost),Female,50 to 54,breast cancer,liverpool,779.7427054138909,54708.40690645056
+YLLs (Years of Life Lost),Female,50 to 54,cardiomyopathy and myocarditis,liverpool,37.94252208957022,54708.40690645053
 YLLs (Years of Life Lost),Female,50 to 54,cardiovascular diseases,liverpool,907.4936916269465,54708.40690645052
 YLLs (Years of Life Lost),Female,50 to 54,chronic myeloid leukemia,liverpool,2.6295273650171467,54708.40690645052
 YLLs (Years of Life Lost),Female,50 to 54,chronic obstructive pulmonary disease,liverpool,256.8801906829405,54708.40690645053
@@ -1292,10 +1434,12 @@ YLLs (Years of Life Lost),Female,50 to 54,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,50 to 54,motorcyclist road injuries,liverpool,1.6447877538745947,54708.40690645046
 YLLs (Years of Life Lost),Female,50 to 54,multiple myeloma,liverpool,32.321198754283344,54708.40690645052
 YLLs (Years of Life Lost),Female,50 to 54,neoplasms,liverpool,3221.485161778861,54708.40690645051
+YLLs (Years of Life Lost),Female,50 to 54,non-rheumatic valvular heart disease,liverpool,16.916572320433918,54708.40690645051
 YLLs (Years of Life Lost),Female,50 to 54,other road injuries,liverpool,0.7127936355838687,54708.40690645053
 YLLs (Years of Life Lost),Female,50 to 54,other transport injuries,liverpool,1.5299147841808376,54708.40690645052
 YLLs (Years of Life Lost),Female,50 to 54,parkinson's disease,liverpool,9.16655806277326,54708.40690645054
 YLLs (Years of Life Lost),Female,50 to 54,pedestrian road injuries,liverpool,10.104143952018456,54708.40690645053
+YLLs (Years of Life Lost),Female,50 to 54,rheumatic heart disease,liverpool,15.147345500686836,54708.406906450495
 YLLs (Years of Life Lost),Female,50 to 54,road injuries,liverpool,29.74345161007092,54708.406906450495
 YLLs (Years of Life Lost),Female,50 to 54,stomach cancer,liverpool,79.83665046562318,54708.40690645057
 YLLs (Years of Life Lost),Female,50 to 54,stroke,liverpool,266.96648992187835,54708.406906450466
@@ -1305,6 +1449,7 @@ YLLs (Years of Life Lost),Female,55 to 59,all causes,liverpool,8585.35407125889,
 YLLs (Years of Life Lost),Female,55 to 59,alzheimer's disease and other dementias,liverpool,52.05101787624642,54896.72162934137
 YLLs (Years of Life Lost),Female,55 to 59,bladder cancer,liverpool,58.495548967148956,54896.72162934139
 YLLs (Years of Life Lost),Female,55 to 59,breast cancer,liverpool,967.1143262665375,54896.7216293414
+YLLs (Years of Life Lost),Female,55 to 59,cardiomyopathy and myocarditis,liverpool,48.50028577498863,54896.721629341395
 YLLs (Years of Life Lost),Female,55 to 59,cardiovascular diseases,liverpool,1305.9018689492252,54896.72162934132
 YLLs (Years of Life Lost),Female,55 to 59,chronic myeloid leukemia,liverpool,3.490513484982608,54896.72162934141
 YLLs (Years of Life Lost),Female,55 to 59,chronic obstructive pulmonary disease,liverpool,479.0642573287763,54896.7216293414
@@ -1320,10 +1465,12 @@ YLLs (Years of Life Lost),Female,55 to 59,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,55 to 59,motorcyclist road injuries,liverpool,1.5157777099219318,54896.72162934137
 YLLs (Years of Life Lost),Female,55 to 59,multiple myeloma,liverpool,52.06894166833445,54896.721629341424
 YLLs (Years of Life Lost),Female,55 to 59,neoplasms,liverpool,4599.269203038498,54896.721629341344
+YLLs (Years of Life Lost),Female,55 to 59,non-rheumatic valvular heart disease,liverpool,25.480986655043885,54896.72162934139
 YLLs (Years of Life Lost),Female,55 to 59,other road injuries,liverpool,0.7349282652844434,54896.721629341344
 YLLs (Years of Life Lost),Female,55 to 59,other transport injuries,liverpool,1.4773102098781725,54896.72162934142
 YLLs (Years of Life Lost),Female,55 to 59,parkinson's disease,liverpool,16.955730806780224,54896.72162934134
 YLLs (Years of Life Lost),Female,55 to 59,pedestrian road injuries,liverpool,10.864629903233842,54896.72162934141
+YLLs (Years of Life Lost),Female,55 to 59,rheumatic heart disease,liverpool,20.929589666927487,54896.7216293414
 YLLs (Years of Life Lost),Female,55 to 59,road injuries,liverpool,29.590686562120514,54896.72162934138
 YLLs (Years of Life Lost),Female,55 to 59,stomach cancer,liverpool,113.7029858221958,54896.72162934146
 YLLs (Years of Life Lost),Female,55 to 59,stroke,liverpool,355.16824032199173,54896.72162934139
@@ -1333,6 +1480,7 @@ YLLs (Years of Life Lost),Female,60 to 64,all causes,liverpool,10542.59680112881
 YLLs (Years of Life Lost),Female,60 to 64,alzheimer's disease and other dementias,liverpool,89.67801794791248,47803.32034371539
 YLLs (Years of Life Lost),Female,60 to 64,bladder cancer,liverpool,80.70145005356147,47803.32034371541
 YLLs (Years of Life Lost),Female,60 to 64,breast cancer,liverpool,871.1347988082989,47803.32034371539
+YLLs (Years of Life Lost),Female,60 to 64,cardiomyopathy and myocarditis,liverpool,52.70570118875871,47803.320343715444
 YLLs (Years of Life Lost),Female,60 to 64,cardiovascular diseases,liverpool,1812.0982386375126,47803.320343715466
 YLLs (Years of Life Lost),Female,60 to 64,chronic myeloid leukemia,liverpool,4.108237276008882,47803.320343715466
 YLLs (Years of Life Lost),Female,60 to 64,chronic obstructive pulmonary disease,liverpool,917.1986902246406,47803.32034371538
@@ -1348,10 +1496,12 @@ YLLs (Years of Life Lost),Female,60 to 64,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,60 to 64,motorcyclist road injuries,liverpool,0.7766077214077846,47803.320343715444
 YLLs (Years of Life Lost),Female,60 to 64,multiple myeloma,liverpool,79.94446540063798,47803.32034371541
 YLLs (Years of Life Lost),Female,60 to 64,neoplasms,liverpool,5540.386610857105,47803.32034371539
+YLLs (Years of Life Lost),Female,60 to 64,non-rheumatic valvular heart disease,liverpool,40.8929746440064,47803.32034371549
 YLLs (Years of Life Lost),Female,60 to 64,other road injuries,liverpool,0.37477299653870666,47803.320343715386
 YLLs (Years of Life Lost),Female,60 to 64,other transport injuries,liverpool,1.1835504657849194,47803.32034371541
 YLLs (Years of Life Lost),Female,60 to 64,parkinson's disease,liverpool,33.4771569686516,47803.32034371541
 YLLs (Years of Life Lost),Female,60 to 64,pedestrian road injuries,liverpool,11.324274777040454,47803.320343715415
+YLLs (Years of Life Lost),Female,60 to 64,rheumatic heart disease,liverpool,26.3176803986346,47803.320343715415
 YLLs (Years of Life Lost),Female,60 to 64,road injuries,liverpool,24.941373506291395,47803.32034371542
 YLLs (Years of Life Lost),Female,60 to 64,stomach cancer,liverpool,139.3925637951034,47803.32034371545
 YLLs (Years of Life Lost),Female,60 to 64,stroke,liverpool,444.8022718788914,47803.3203437154
@@ -1361,6 +1511,7 @@ YLLs (Years of Life Lost),Female,65 to 69,all causes,liverpool,12168.22806531378
 YLLs (Years of Life Lost),Female,65 to 69,alzheimer's disease and other dementias,liverpool,165.47934381072824,43063.75904623412
 YLLs (Years of Life Lost),Female,65 to 69,bladder cancer,liverpool,109.90894123107279,43063.75904623412
 YLLs (Years of Life Lost),Female,65 to 69,breast cancer,liverpool,819.383878705834,43063.75904623409
+YLLs (Years of Life Lost),Female,65 to 69,cardiomyopathy and myocarditis,liverpool,47.92707388658561,43063.75904623413
 YLLs (Years of Life Lost),Female,65 to 69,cardiovascular diseases,liverpool,2267.283916973617,43063.75904623411
 YLLs (Years of Life Lost),Female,65 to 69,chronic myeloid leukemia,liverpool,4.667883294527274,43063.759046234154
 YLLs (Years of Life Lost),Female,65 to 69,chronic obstructive pulmonary disease,liverpool,1242.0647847389487,43063.75904623415
@@ -1376,10 +1527,12 @@ YLLs (Years of Life Lost),Female,65 to 69,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,65 to 69,motorcyclist road injuries,liverpool,0.6069536446228191,43063.7590462341
 YLLs (Years of Life Lost),Female,65 to 69,multiple myeloma,liverpool,105.56005382105732,43063.759046234096
 YLLs (Years of Life Lost),Female,65 to 69,neoplasms,liverpool,6179.233523956749,43063.75904623414
+YLLs (Years of Life Lost),Female,65 to 69,non-rheumatic valvular heart disease,liverpool,57.380115486238076,43063.759046234125
 YLLs (Years of Life Lost),Female,65 to 69,other road injuries,liverpool,0.24575563667460545,43063.75904623414
 YLLs (Years of Life Lost),Female,65 to 69,other transport injuries,liverpool,1.035641363098593,43063.75904623411
 YLLs (Years of Life Lost),Female,65 to 69,parkinson's disease,liverpool,65.72549989771647,43063.75904623413
 YLLs (Years of Life Lost),Female,65 to 69,pedestrian road injuries,liverpool,11.48482979794994,43063.759046234125
+YLLs (Years of Life Lost),Female,65 to 69,rheumatic heart disease,liverpool,35.45714580308931,43063.75904623415
 YLLs (Years of Life Lost),Female,65 to 69,road injuries,liverpool,24.226874144988404,43063.759046234074
 YLLs (Years of Life Lost),Female,65 to 69,stomach cancer,liverpool,157.91328106882426,43063.75904623413
 YLLs (Years of Life Lost),Female,65 to 69,stroke,liverpool,552.3762778312723,43063.75904623412
@@ -1389,6 +1542,7 @@ YLLs (Years of Life Lost),Female,70 to 74,all causes,liverpool,15310.65567839543
 YLLs (Years of Life Lost),Female,70 to 74,alzheimer's disease and other dementias,liverpool,309.2165828841754,39968.27243362705
 YLLs (Years of Life Lost),Female,70 to 74,bladder cancer,liverpool,140.5034123104652,39968.272433627004
 YLLs (Years of Life Lost),Female,70 to 74,breast cancer,liverpool,797.9141783946587,39968.27243362699
+YLLs (Years of Life Lost),Female,70 to 74,cardiomyopathy and myocarditis,liverpool,56.884946062516875,39968.272433627
 YLLs (Years of Life Lost),Female,70 to 74,cardiovascular diseases,liverpool,3295.2069740788816,39968.27243362699
 YLLs (Years of Life Lost),Female,70 to 74,chronic myeloid leukemia,liverpool,5.418942707044568,39968.27243362702
 YLLs (Years of Life Lost),Female,70 to 74,chronic obstructive pulmonary disease,liverpool,1832.5209175623686,39968.272433627055
@@ -1404,10 +1558,12 @@ YLLs (Years of Life Lost),Female,70 to 74,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,70 to 74,motorcyclist road injuries,liverpool,0.24458414873698697,39968.272433627
 YLLs (Years of Life Lost),Female,70 to 74,multiple myeloma,liverpool,124.44386404678899,39968.272433626975
 YLLs (Years of Life Lost),Female,70 to 74,neoplasms,liverpool,6926.225714173351,39968.27243362701
+YLLs (Years of Life Lost),Female,70 to 74,non-rheumatic valvular heart disease,liverpool,94.64826590917333,39968.272433627004
 YLLs (Years of Life Lost),Female,70 to 74,other road injuries,liverpool,0.1274941511256751,39968.272433627004
 YLLs (Years of Life Lost),Female,70 to 74,other transport injuries,liverpool,0.7126944719190956,39968.272433627026
 YLLs (Years of Life Lost),Female,70 to 74,parkinson's disease,liverpool,138.63882677643883,39968.272433627004
 YLLs (Years of Life Lost),Female,70 to 74,pedestrian road injuries,liverpool,13.303965942689935,39968.27243362699
+YLLs (Years of Life Lost),Female,70 to 74,rheumatic heart disease,liverpool,47.44855898236068,39968.272433627
 YLLs (Years of Life Lost),Female,70 to 74,road injuries,liverpool,25.257704239301564,39968.27243362702
 YLLs (Years of Life Lost),Female,70 to 74,stomach cancer,liverpool,204.63364847416915,39968.272433627004
 YLLs (Years of Life Lost),Female,70 to 74,stroke,liverpool,847.0583311346791,39968.27243362699
@@ -1417,6 +1573,7 @@ YLLs (Years of Life Lost),Female,75 to 79,all causes,liverpool,14910.94839603110
 YLLs (Years of Life Lost),Female,75 to 79,alzheimer's disease and other dementias,liverpool,471.2237298122224,29331.46085897001
 YLLs (Years of Life Lost),Female,75 to 79,bladder cancer,liverpool,148.93265001509025,29331.46085897
 YLLs (Years of Life Lost),Female,75 to 79,breast cancer,liverpool,659.677965283735,29331.460858970015
+YLLs (Years of Life Lost),Female,75 to 79,cardiomyopathy and myocarditis,liverpool,56.45211043048357,29331.46085896999
 YLLs (Years of Life Lost),Female,75 to 79,cardiovascular diseases,liverpool,3950.3277396337485,29331.46085897002
 YLLs (Years of Life Lost),Female,75 to 79,chronic myeloid leukemia,liverpool,5.674427897017888,29331.460858970007
 YLLs (Years of Life Lost),Female,75 to 79,chronic obstructive pulmonary disease,liverpool,1736.8808278502563,29331.460858970004
@@ -1432,10 +1589,12 @@ YLLs (Years of Life Lost),Female,75 to 79,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,75 to 79,motorcyclist road injuries,liverpool,0.10084825460417551,29331.46085896999
 YLLs (Years of Life Lost),Female,75 to 79,multiple myeloma,liverpool,107.02102823697345,29331.46085897002
 YLLs (Years of Life Lost),Female,75 to 79,neoplasms,liverpool,5560.489161291299,29331.46085897002
+YLLs (Years of Life Lost),Female,75 to 79,non-rheumatic valvular heart disease,liverpool,119.3558553725681,29331.460858969993
 YLLs (Years of Life Lost),Female,75 to 79,other road injuries,liverpool,0.09079701282964223,29331.460858970022
 YLLs (Years of Life Lost),Female,75 to 79,other transport injuries,liverpool,0.6421717810225667,29331.46085896998
 YLLs (Years of Life Lost),Female,75 to 79,parkinson's disease,liverpool,187.9291109203543,29331.460858970033
 YLLs (Years of Life Lost),Female,75 to 79,pedestrian road injuries,liverpool,14.052363729790812,29331.460858969993
+YLLs (Years of Life Lost),Female,75 to 79,rheumatic heart disease,liverpool,55.13092421389599,29331.460858970007
 YLLs (Years of Life Lost),Female,75 to 79,road injuries,liverpool,23.69090625768161,29331.460858970007
 YLLs (Years of Life Lost),Female,75 to 79,stomach cancer,liverpool,209.92916323773719,29331.460858969996
 YLLs (Years of Life Lost),Female,75 to 79,stroke,liverpool,1138.8171260359034,29331.460858970026
@@ -1445,6 +1604,7 @@ YLLs (Years of Life Lost),Female,80 to 84,all causes,liverpool,16638.19812776748
 YLLs (Years of Life Lost),Female,80 to 84,alzheimer's disease and other dementias,liverpool,1035.0618462215837,23716.31489835352
 YLLs (Years of Life Lost),Female,80 to 84,bladder cancer,liverpool,156.17488093972608,23716.314898353532
 YLLs (Years of Life Lost),Female,80 to 84,breast cancer,liverpool,596.0799293443572,23716.314898353536
+YLLs (Years of Life Lost),Female,80 to 84,cardiomyopathy and myocarditis,liverpool,74.5107095430721,23716.314898353547
 YLLs (Years of Life Lost),Female,80 to 84,cardiovascular diseases,liverpool,4988.415647078457,23716.31489835355
 YLLs (Years of Life Lost),Female,80 to 84,chronic myeloid leukemia,liverpool,6.15087486557716,23716.31489835352
 YLLs (Years of Life Lost),Female,80 to 84,chronic obstructive pulmonary disease,liverpool,1733.4078314086983,23716.31489835353
@@ -1460,10 +1620,12 @@ YLLs (Years of Life Lost),Female,80 to 84,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,80 to 84,motorcyclist road injuries,liverpool,0.05641141475715161,23716.314898353525
 YLLs (Years of Life Lost),Female,80 to 84,multiple myeloma,liverpool,93.20477553702045,23716.31489835355
 YLLs (Years of Life Lost),Female,80 to 84,neoplasms,liverpool,4813.374588394317,23716.31489835353
+YLLs (Years of Life Lost),Female,80 to 84,non-rheumatic valvular heart disease,liverpool,185.4747840088102,23716.31489835352
 YLLs (Years of Life Lost),Female,80 to 84,other road injuries,liverpool,0.06659708497233267,23716.31489835355
 YLLs (Years of Life Lost),Female,80 to 84,other transport injuries,liverpool,0.350691127074732,23716.314898353525
 YLLs (Years of Life Lost),Female,80 to 84,parkinson's disease,liverpool,228.1935854263709,23716.31489835353
 YLLs (Years of Life Lost),Female,80 to 84,pedestrian road injuries,liverpool,11.683118613247684,23716.31489835354
+YLLs (Years of Life Lost),Female,80 to 84,rheumatic heart disease,liverpool,57.64321618354768,23716.31489835353
 YLLs (Years of Life Lost),Female,80 to 84,road injuries,liverpool,19.187396417761462,23716.314898353503
 YLLs (Years of Life Lost),Female,80 to 84,stomach cancer,liverpool,214.07858169931407,23716.31489835351
 YLLs (Years of Life Lost),Female,80 to 84,stroke,liverpool,1534.0760059096356,23716.314898353547
@@ -1473,6 +1635,7 @@ YLLs (Years of Life Lost),Female,85 to 89,all causes,liverpool,14244.09604348535
 YLLs (Years of Life Lost),Female,85 to 89,alzheimer's disease and other dementias,liverpool,1247.301317999622,14811.4229796765
 YLLs (Years of Life Lost),Female,85 to 89,bladder cancer,liverpool,121.54506517253466,14811.422979676512
 YLLs (Years of Life Lost),Female,85 to 89,breast cancer,liverpool,452.3506358706368,14811.422979676496
+YLLs (Years of Life Lost),Female,85 to 89,cardiomyopathy and myocarditis,liverpool,78.20936582532404,14811.422979676488
 YLLs (Years of Life Lost),Female,85 to 89,cardiovascular diseases,liverpool,4748.048348916784,14811.422979676492
 YLLs (Years of Life Lost),Female,85 to 89,chronic myeloid leukemia,liverpool,5.766525921586287,14811.422979676503
 YLLs (Years of Life Lost),Female,85 to 89,chronic obstructive pulmonary disease,liverpool,1230.003131828899,14811.422979676485
@@ -1488,10 +1651,12 @@ YLLs (Years of Life Lost),Female,85 to 89,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,85 to 89,motorcyclist road injuries,liverpool,0.033631594839832885,14811.422979676474
 YLLs (Years of Life Lost),Female,85 to 89,multiple myeloma,liverpool,57.406621794352354,14811.422979676485
 YLLs (Years of Life Lost),Female,85 to 89,neoplasms,liverpool,3138.539009361,14811.422979676505
+YLLs (Years of Life Lost),Female,85 to 89,non-rheumatic valvular heart disease,liverpool,198.87816190629346,14811.42297967649
 YLLs (Years of Life Lost),Female,85 to 89,other road injuries,liverpool,0.04955947162425155,14811.422979676498
 YLLs (Years of Life Lost),Female,85 to 89,other transport injuries,liverpool,0.2018961327723498,14811.422979676481
 YLLs (Years of Life Lost),Female,85 to 89,parkinson's disease,liverpool,161.45371742849338,14811.422979676503
 YLLs (Years of Life Lost),Female,85 to 89,pedestrian road injuries,liverpool,7.562714552853955,14811.42297967649
+YLLs (Years of Life Lost),Female,85 to 89,rheumatic heart disease,liverpool,45.821649450268495,14811.422979676488
 YLLs (Years of Life Lost),Female,85 to 89,road injuries,liverpool,11.641516013862073,14811.422979676498
 YLLs (Years of Life Lost),Female,85 to 89,stomach cancer,liverpool,156.52897608843702,14811.42297967648
 YLLs (Years of Life Lost),Female,85 to 89,stroke,liverpool,1548.610266103708,14811.4229796765
@@ -1501,6 +1666,7 @@ YLLs (Years of Life Lost),Female,90 to 94,all causes,liverpool,9043.448676379223
 YLLs (Years of Life Lost),Female,90 to 94,alzheimer's disease and other dementias,liverpool,928.150094365111,6660.2387500017685
 YLLs (Years of Life Lost),Female,90 to 94,bladder cancer,liverpool,65.59258774913728,6660.238750001775
 YLLs (Years of Life Lost),Female,90 to 94,breast cancer,liverpool,234.24905108447246,6660.2387500017685
+YLLs (Years of Life Lost),Female,90 to 94,cardiomyopathy and myocarditis,liverpool,61.72980591573693,6660.238750001771
 YLLs (Years of Life Lost),Female,90 to 94,cardiovascular diseases,liverpool,3306.044813609197,6660.238750001776
 YLLs (Years of Life Lost),Female,90 to 94,chronic myeloid leukemia,liverpool,2.78591838999636,6660.238750001772
 YLLs (Years of Life Lost),Female,90 to 94,chronic obstructive pulmonary disease,liverpool,666.2689019508368,6660.238750001774
@@ -1516,10 +1682,12 @@ YLLs (Years of Life Lost),Female,90 to 94,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,90 to 94,motorcyclist road injuries,liverpool,0.054366137069557105,6660.238750001776
 YLLs (Years of Life Lost),Female,90 to 94,multiple myeloma,liverpool,22.03881963262957,6660.238750001774
 YLLs (Years of Life Lost),Female,90 to 94,neoplasms,liverpool,1407.2023159405294,6660.238750001769
+YLLs (Years of Life Lost),Female,90 to 94,non-rheumatic valvular heart disease,liverpool,138.78406167568988,6660.238750001772
 YLLs (Years of Life Lost),Female,90 to 94,other road injuries,liverpool,0.032349379312506914,6660.238750001771
 YLLs (Years of Life Lost),Female,90 to 94,other transport injuries,liverpool,0.1346018835521141,6660.238750001773
 YLLs (Years of Life Lost),Female,90 to 94,parkinson's disease,liverpool,69.4380967044221,6660.238750001768
 YLLs (Years of Life Lost),Female,90 to 94,pedestrian road injuries,liverpool,2.9541081500584827,6660.238750001776
+YLLs (Years of Life Lost),Female,90 to 94,rheumatic heart disease,liverpool,25.01593194578969,6660.238750001776
 YLLs (Years of Life Lost),Female,90 to 94,road injuries,liverpool,4.530321350405953,6660.238750001771
 YLLs (Years of Life Lost),Female,90 to 94,stomach cancer,liverpool,73.57923112737215,6660.238750001772
 YLLs (Years of Life Lost),Female,90 to 94,stroke,liverpool,1064.747005574029,6660.238750001766
@@ -1529,6 +1697,7 @@ YLLs (Years of Life Lost),Female,95 to 99,all causes,liverpool,3119.356184010259
 YLLs (Years of Life Lost),Female,95 to 99,alzheimer's disease and other dementias,liverpool,341.52660483809353,1750.6659695331903
 YLLs (Years of Life Lost),Female,95 to 99,bladder cancer,liverpool,19.710253519077714,1750.665969533191
 YLLs (Years of Life Lost),Female,95 to 99,breast cancer,liverpool,70.49270951392694,1750.6659695331914
+YLLs (Years of Life Lost),Female,95 to 99,cardiomyopathy and myocarditis,liverpool,25.76346768517784,1750.6659695331941
 YLLs (Years of Life Lost),Female,95 to 99,cardiovascular diseases,liverpool,1184.3959485213513,1750.6659695331919
 YLLs (Years of Life Lost),Female,95 to 99,chronic myeloid leukemia,liverpool,0.7536840719668926,1750.6659695331934
 YLLs (Years of Life Lost),Female,95 to 99,chronic obstructive pulmonary disease,liverpool,222.85450496706585,1750.665969533191
@@ -1544,16 +1713,19 @@ YLLs (Years of Life Lost),Female,95 to 99,motor vehicle road injuries,liverpool,
 YLLs (Years of Life Lost),Female,95 to 99,motorcyclist road injuries,liverpool,0.02994392507665668,1750.6659695331925
 YLLs (Years of Life Lost),Female,95 to 99,multiple myeloma,liverpool,4.431377803469642,1750.6659695331928
 YLLs (Years of Life Lost),Female,95 to 99,neoplasms,liverpool,394.55416193524053,1750.6659695331916
+YLLs (Years of Life Lost),Female,95 to 99,non-rheumatic valvular heart disease,liverpool,46.487208847006514,1750.6659695331932
 YLLs (Years of Life Lost),Female,95 to 99,other road injuries,liverpool,0.01141880010821194,1750.6659695331925
 YLLs (Years of Life Lost),Female,95 to 99,other transport injuries,liverpool,0.07293369341765157,1750.665969533195
 YLLs (Years of Life Lost),Female,95 to 99,parkinson's disease,liverpool,15.226021791369334,1750.6659695331934
 YLLs (Years of Life Lost),Female,95 to 99,pedestrian road injuries,liverpool,0.8051658578503096,1750.665969533192
+YLLs (Years of Life Lost),Female,95 to 99,rheumatic heart disease,liverpool,7.755887745994764,1750.6659695331919
 YLLs (Years of Life Lost),Female,95 to 99,road injuries,liverpool,1.2772460097374754,1750.6659695331916
 YLLs (Years of Life Lost),Female,95 to 99,stomach cancer,liverpool,21.289237132376122,1750.6659695331916
 YLLs (Years of Life Lost),Female,95 to 99,stroke,liverpool,390.6897770805847,1750.6659695331928
 YLLs (Years of Life Lost),Female,95 to 99,"tracheal, bronchus, and lung cancer",liverpool,67.03444979796072,1750.6659695331903
 YLLs (Years of Life Lost),Female,95 to 99,uterine cancer,liverpool,6.163567430867839,1750.6659695331928
 YLLs (Years of Life Lost),Male,0 to 5,all causes,liverpool,4215.22320985384,44813.20717225157
+YLLs (Years of Life Lost),Male,0 to 5,cardiomyopathy and myocarditis,liverpool,25.873135063035164,44813.20717225155
 YLLs (Years of Life Lost),Male,0 to 5,cardiovascular diseases,liverpool,50.06073871810546,44813.207172251634
 YLLs (Years of Life Lost),Male,0 to 5,chronic myeloid leukemia,liverpool,1.0387950341383232,44813.20717225156
 YLLs (Years of Life Lost),Male,0 to 5,chronic obstructive pulmonary disease,liverpool,1.2393668086203047,44813.207172251576
@@ -1567,9 +1739,11 @@ YLLs (Years of Life Lost),Male,0 to 5,neoplasms,liverpool,124.56130560682924,448
 YLLs (Years of Life Lost),Male,0 to 5,other road injuries,liverpool,0.6838768505079279,44813.20717225158
 YLLs (Years of Life Lost),Male,0 to 5,other transport injuries,liverpool,2.389863554595243,44813.20717225161
 YLLs (Years of Life Lost),Male,0 to 5,pedestrian road injuries,liverpool,13.744603397984525,44813.20717225161
+YLLs (Years of Life Lost),Male,0 to 5,rheumatic heart disease,liverpool,0.5783914096122138,44813.20717225161
 YLLs (Years of Life Lost),Male,0 to 5,road injuries,liverpool,23.788813210978994,44813.207172251605
 YLLs (Years of Life Lost),Male,0 to 5,stroke,liverpool,6.0857497656476225,44813.20717225158
 YLLs (Years of Life Lost),Male,10 to 14,all causes,liverpool,410.70799938942525,43859.78063551546
+YLLs (Years of Life Lost),Male,10 to 14,cardiomyopathy and myocarditis,liverpool,7.9965589308530145,43859.780635515475
 YLLs (Years of Life Lost),Male,10 to 14,cardiovascular diseases,liverpool,18.058535525467256,43859.78063551549
 YLLs (Years of Life Lost),Male,10 to 14,chronic myeloid leukemia,liverpool,0.4687533339666232,43859.780635515424
 YLLs (Years of Life Lost),Male,10 to 14,chronic obstructive pulmonary disease,liverpool,0.9036482456906522,43859.7806355155
@@ -1584,12 +1758,14 @@ YLLs (Years of Life Lost),Male,10 to 14,neoplasms,liverpool,102.60657289157783,4
 YLLs (Years of Life Lost),Male,10 to 14,other road injuries,liverpool,0.45719237773186105,43859.78063551546
 YLLs (Years of Life Lost),Male,10 to 14,other transport injuries,liverpool,3.6946674764068117,43859.78063551546
 YLLs (Years of Life Lost),Male,10 to 14,pedestrian road injuries,liverpool,22.764350812401318,43859.780635515424
+YLLs (Years of Life Lost),Male,10 to 14,rheumatic heart disease,liverpool,0.37721271167353554,43859.78063551543
 YLLs (Years of Life Lost),Male,10 to 14,road injuries,liverpool,47.06855154184955,43859.78063551545
 YLLs (Years of Life Lost),Male,10 to 14,stroke,liverpool,4.585153876105467,43859.78063551545
 YLLs (Years of Life Lost),Male,10 to 14,"tracheal, bronchus, and lung cancer",liverpool,0.4486874065218166,43859.78063551549
 YLLs (Years of Life Lost),Male,15 to 19,all causes,liverpool,1129.2016032607125,41935.884884164334
 YLLs (Years of Life Lost),Male,15 to 19,bladder cancer,liverpool,0.3152057286888093,41935.88488416432
 YLLs (Years of Life Lost),Male,15 to 19,breast cancer,liverpool,0.3080736047949269,41935.88488416431
+YLLs (Years of Life Lost),Male,15 to 19,cardiomyopathy and myocarditis,liverpool,21.12656687974828,41935.8848841643
 YLLs (Years of Life Lost),Male,15 to 19,cardiovascular diseases,liverpool,52.79876428701749,41935.88488416428
 YLLs (Years of Life Lost),Male,15 to 19,chronic myeloid leukemia,liverpool,0.6013390560221092,41935.884884164305
 YLLs (Years of Life Lost),Male,15 to 19,chronic obstructive pulmonary disease,liverpool,2.863454590171449,41935.88488416425
@@ -1603,9 +1779,11 @@ YLLs (Years of Life Lost),Male,15 to 19,lower respiratory infections,liverpool,1
 YLLs (Years of Life Lost),Male,15 to 19,motor vehicle road injuries,liverpool,135.06656354262597,41935.88488416431
 YLLs (Years of Life Lost),Male,15 to 19,motorcyclist road injuries,liverpool,57.19915310065674,41935.88488416433
 YLLs (Years of Life Lost),Male,15 to 19,neoplasms,liverpool,150.29242482396646,41935.884884164305
+YLLs (Years of Life Lost),Male,15 to 19,non-rheumatic valvular heart disease,liverpool,2.671065347799346,41935.884884164334
 YLLs (Years of Life Lost),Male,15 to 19,other road injuries,liverpool,1.2157131531800418,41935.88488416428
 YLLs (Years of Life Lost),Male,15 to 19,other transport injuries,liverpool,11.76963543846102,41935.88488416426
 YLLs (Years of Life Lost),Male,15 to 19,pedestrian road injuries,liverpool,47.22075955106817,41935.88488416429
+YLLs (Years of Life Lost),Male,15 to 19,rheumatic heart disease,liverpool,0.5095277887839402,41935.88488416433
 YLLs (Years of Life Lost),Male,15 to 19,road injuries,liverpool,252.60957657138428,41935.88488416435
 YLLs (Years of Life Lost),Male,15 to 19,stomach cancer,liverpool,0.7260853199610348,41935.88488416429
 YLLs (Years of Life Lost),Male,15 to 19,stroke,liverpool,13.093364416642748,41935.884884164276
@@ -1613,6 +1791,7 @@ YLLs (Years of Life Lost),Male,15 to 19,"tracheal, bronchus, and lung cancer",li
 YLLs (Years of Life Lost),Male,20 to 24,all causes,liverpool,1529.280050616176,47408.42244562075
 YLLs (Years of Life Lost),Male,20 to 24,bladder cancer,liverpool,0.384107181993721,47408.42244562078
 YLLs (Years of Life Lost),Male,20 to 24,breast cancer,liverpool,0.31017341939992155,47408.42244562077
+YLLs (Years of Life Lost),Male,20 to 24,cardiomyopathy and myocarditis,liverpool,24.754319874850665,47408.422445620694
 YLLs (Years of Life Lost),Male,20 to 24,cardiovascular diseases,liverpool,79.93564151672382,47408.42244562071
 YLLs (Years of Life Lost),Male,20 to 24,chronic myeloid leukemia,liverpool,0.9627781050243706,47408.42244562073
 YLLs (Years of Life Lost),Male,20 to 24,chronic obstructive pulmonary disease,liverpool,3.5414438367640266,47408.422445620745
@@ -1628,11 +1807,13 @@ YLLs (Years of Life Lost),Male,20 to 24,motor vehicle road injuries,liverpool,18
 YLLs (Years of Life Lost),Male,20 to 24,motorcyclist road injuries,liverpool,64.24302939849765,47408.42244562073
 YLLs (Years of Life Lost),Male,20 to 24,multiple myeloma,liverpool,0.3749757838176736,47408.42244562077
 YLLs (Years of Life Lost),Male,20 to 24,neoplasms,liverpool,176.5205841744213,47408.42244562074
+YLLs (Years of Life Lost),Male,20 to 24,non-rheumatic valvular heart disease,liverpool,3.4548215729078176,47408.4224456207
 YLLs (Years of Life Lost),Male,20 to 24,other road injuries,liverpool,1.084884742141605,47408.4224456207
 YLLs (Years of Life Lost),Male,20 to 24,other transport injuries,liverpool,16.764005849133962,47408.42244562075
 YLLs (Years of Life Lost),Male,20 to 24,parkinson's disease,liverpool,0.10271505853629997,47408.422445620716
 YLLs (Years of Life Lost),Male,20 to 24,pedestrian road injuries,liverpool,47.11241149445067,47408.42244562068
 YLLs (Years of Life Lost),Male,20 to 24,prostate cancer,liverpool,0.9022401600347411,47408.4224456207
+YLLs (Years of Life Lost),Male,20 to 24,rheumatic heart disease,liverpool,0.9234866329536184,47408.42244562074
 YLLs (Years of Life Lost),Male,20 to 24,road injuries,liverpool,304.91305206512715,47408.4224456207
 YLLs (Years of Life Lost),Male,20 to 24,stomach cancer,liverpool,1.6497297940333653,47408.42244562072
 YLLs (Years of Life Lost),Male,20 to 24,stroke,liverpool,20.415650162312758,47408.42244562073
@@ -1640,6 +1821,7 @@ YLLs (Years of Life Lost),Male,20 to 24,"tracheal, bronchus, and lung cancer",li
 YLLs (Years of Life Lost),Male,25 to 29,all causes,liverpool,1985.0108561057239,54613.86323149097
 YLLs (Years of Life Lost),Male,25 to 29,bladder cancer,liverpool,1.174145613276845,54613.86323149109
 YLLs (Years of Life Lost),Male,25 to 29,breast cancer,liverpool,0.34416199288459765,54613.863231491
+YLLs (Years of Life Lost),Male,25 to 29,cardiomyopathy and myocarditis,liverpool,35.41208227213731,54613.86323149105
 YLLs (Years of Life Lost),Male,25 to 29,cardiovascular diseases,liverpool,199.21445236419626,54613.86323149097
 YLLs (Years of Life Lost),Male,25 to 29,chronic myeloid leukemia,liverpool,2.1884823850880384,54613.86323149103
 YLLs (Years of Life Lost),Male,25 to 29,chronic obstructive pulmonary disease,liverpool,7.0635379810255,54613.863231491036
@@ -1655,11 +1837,13 @@ YLLs (Years of Life Lost),Male,25 to 29,motor vehicle road injuries,liverpool,13
 YLLs (Years of Life Lost),Male,25 to 29,motorcyclist road injuries,liverpool,55.16547238510782,54613.86323149099
 YLLs (Years of Life Lost),Male,25 to 29,multiple myeloma,liverpool,0.9405726590424521,54613.863231491036
 YLLs (Years of Life Lost),Male,25 to 29,neoplasms,liverpool,260.6515895924284,54613.86323149099
+YLLs (Years of Life Lost),Male,25 to 29,non-rheumatic valvular heart disease,liverpool,6.3927368923656624,54613.86323149095
 YLLs (Years of Life Lost),Male,25 to 29,other road injuries,liverpool,0.9461546964403214,54613.86323149094
 YLLs (Years of Life Lost),Male,25 to 29,other transport injuries,liverpool,17.10151204651383,54613.86323149101
 YLLs (Years of Life Lost),Male,25 to 29,parkinson's disease,liverpool,0.04567941289487857,54613.86323149101
 YLLs (Years of Life Lost),Male,25 to 29,pedestrian road injuries,liverpool,34.13954938511263,54613.86323149106
 YLLs (Years of Life Lost),Male,25 to 29,prostate cancer,liverpool,1.4304059774856988,54613.86323149103
+YLLs (Years of Life Lost),Male,25 to 29,rheumatic heart disease,liverpool,2.0076631514410583,54613.86323149103
 YLLs (Years of Life Lost),Male,25 to 29,road injuries,liverpool,230.88522502321726,54613.863231491
 YLLs (Years of Life Lost),Male,25 to 29,stomach cancer,liverpool,5.7560354084529335,54613.863231491014
 YLLs (Years of Life Lost),Male,25 to 29,stroke,liverpool,44.97406244795649,54613.863231490985
@@ -1667,6 +1851,7 @@ YLLs (Years of Life Lost),Male,25 to 29,"tracheal, bronchus, and lung cancer",li
 YLLs (Years of Life Lost),Male,30 to 34,all causes,liverpool,2894.45143172364,59380.670078712705
 YLLs (Years of Life Lost),Male,30 to 34,bladder cancer,liverpool,3.604675541549637,59380.67007871256
 YLLs (Years of Life Lost),Male,30 to 34,breast cancer,liverpool,0.35682627919837756,59380.67007871265
+YLLs (Years of Life Lost),Male,30 to 34,cardiomyopathy and myocarditis,liverpool,44.822570145005066,59380.67007871265
 YLLs (Years of Life Lost),Male,30 to 34,cardiovascular diseases,liverpool,398.45029750708983,59380.670078712596
 YLLs (Years of Life Lost),Male,30 to 34,chronic myeloid leukemia,liverpool,3.0635059100664996,59380.67007871262
 YLLs (Years of Life Lost),Male,30 to 34,chronic obstructive pulmonary disease,liverpool,14.19721771267538,59380.670078712654
@@ -1682,11 +1867,13 @@ YLLs (Years of Life Lost),Male,30 to 34,motor vehicle road injuries,liverpool,10
 YLLs (Years of Life Lost),Male,30 to 34,motorcyclist road injuries,liverpool,46.85739326146338,59380.670078712574
 YLLs (Years of Life Lost),Male,30 to 34,multiple myeloma,liverpool,3.1589382283384317,59380.670078712574
 YLLs (Years of Life Lost),Male,30 to 34,neoplasms,liverpool,448.790587319065,59380.670078712676
+YLLs (Years of Life Lost),Male,30 to 34,non-rheumatic valvular heart disease,liverpool,9.59653166249666,59380.67007871263
 YLLs (Years of Life Lost),Male,30 to 34,other road injuries,liverpool,0.7148331078656271,59380.67007871258
 YLLs (Years of Life Lost),Male,30 to 34,other transport injuries,liverpool,16.797767374130494,59380.6700787126
 YLLs (Years of Life Lost),Male,30 to 34,parkinson's disease,liverpool,0.09682765481687139,59380.670078712705
 YLLs (Years of Life Lost),Male,30 to 34,pedestrian road injuries,liverpool,38.315537358373554,59380.67007871263
 YLLs (Years of Life Lost),Male,30 to 34,prostate cancer,liverpool,1.9029701063775712,59380.670078712676
+YLLs (Years of Life Lost),Male,30 to 34,rheumatic heart disease,liverpool,3.1635820017110143,59380.6700787127
 YLLs (Years of Life Lost),Male,30 to 34,road injuries,liverpool,195.48448793751584,59380.67007871259
 YLLs (Years of Life Lost),Male,30 to 34,stomach cancer,liverpool,18.111160161184316,59380.670078712574
 YLLs (Years of Life Lost),Male,30 to 34,stroke,liverpool,78.22639672681969,59380.6700787127
@@ -1694,6 +1881,7 @@ YLLs (Years of Life Lost),Male,30 to 34,"tracheal, bronchus, and lung cancer",li
 YLLs (Years of Life Lost),Male,35 to 39,all causes,liverpool,3768.0703869827257,53056.21143488314
 YLLs (Years of Life Lost),Male,35 to 39,bladder cancer,liverpool,7.312879036169736,53056.21143488316
 YLLs (Years of Life Lost),Male,35 to 39,breast cancer,liverpool,0.7517969101791511,53056.211434883175
+YLLs (Years of Life Lost),Male,35 to 39,cardiomyopathy and myocarditis,liverpool,54.52995428309284,53056.21143488312
 YLLs (Years of Life Lost),Male,35 to 39,cardiovascular diseases,liverpool,647.9898328135107,53056.2114348832
 YLLs (Years of Life Lost),Male,35 to 39,chronic myeloid leukemia,liverpool,3.6455977875172936,53056.21143488317
 YLLs (Years of Life Lost),Male,35 to 39,chronic obstructive pulmonary disease,liverpool,27.04297991318594,53056.21143488322
@@ -1709,11 +1897,13 @@ YLLs (Years of Life Lost),Male,35 to 39,motor vehicle road injuries,liverpool,69
 YLLs (Years of Life Lost),Male,35 to 39,motorcyclist road injuries,liverpool,40.78696479735747,53056.2114348832
 YLLs (Years of Life Lost),Male,35 to 39,multiple myeloma,liverpool,6.777691284356257,53056.21143488318
 YLLs (Years of Life Lost),Male,35 to 39,neoplasms,liverpool,676.3089926823021,53056.211434883255
+YLLs (Years of Life Lost),Male,35 to 39,non-rheumatic valvular heart disease,liverpool,12.44173578109141,53056.21143488315
 YLLs (Years of Life Lost),Male,35 to 39,other road injuries,liverpool,0.43669810851473756,53056.21143488318
 YLLs (Years of Life Lost),Male,35 to 39,other transport injuries,liverpool,14.78142445656729,53056.21143488314
 YLLs (Years of Life Lost),Male,35 to 39,parkinson's disease,liverpool,0.22644357366197898,53056.21143488319
 YLLs (Years of Life Lost),Male,35 to 39,pedestrian road injuries,liverpool,35.30151232285896,53056.2114348832
 YLLs (Years of Life Lost),Male,35 to 39,prostate cancer,liverpool,2.2329979599881384,53056.21143488319
+YLLs (Years of Life Lost),Male,35 to 39,rheumatic heart disease,liverpool,4.265465522502984,53056.211434883204
 YLLs (Years of Life Lost),Male,35 to 39,road injuries,liverpool,152.5098471702084,53056.2114348831
 YLLs (Years of Life Lost),Male,35 to 39,stomach cancer,liverpool,33.524338767662584,53056.21143488324
 YLLs (Years of Life Lost),Male,35 to 39,stroke,liverpool,114.26072554113588,53056.211434883146
@@ -1722,6 +1912,7 @@ YLLs (Years of Life Lost),Male,40 to 44,all causes,liverpool,4961.417807727612,4
 YLLs (Years of Life Lost),Male,40 to 44,alzheimer's disease and other dementias,liverpool,2.1167474523902587,44611.34861247493
 YLLs (Years of Life Lost),Male,40 to 44,bladder cancer,liverpool,14.792362451850613,44611.34861247489
 YLLs (Years of Life Lost),Male,40 to 44,breast cancer,liverpool,1.3904323373461556,44611.34861247487
+YLLs (Years of Life Lost),Male,40 to 44,cardiomyopathy and myocarditis,liverpool,70.51385245339397,44611.34861247491
 YLLs (Years of Life Lost),Male,40 to 44,cardiovascular diseases,liverpool,1018.9073121874721,44611.34861247491
 YLLs (Years of Life Lost),Male,40 to 44,chronic myeloid leukemia,liverpool,4.154725109697813,44611.34861247483
 YLLs (Years of Life Lost),Male,40 to 44,chronic obstructive pulmonary disease,liverpool,54.03558032745984,44611.34861247496
@@ -1737,11 +1928,13 @@ YLLs (Years of Life Lost),Male,40 to 44,motor vehicle road injuries,liverpool,55
 YLLs (Years of Life Lost),Male,40 to 44,motorcyclist road injuries,liverpool,39.36714648850277,44611.348612474925
 YLLs (Years of Life Lost),Male,40 to 44,multiple myeloma,liverpool,12.784213816617234,44611.34861247487
 YLLs (Years of Life Lost),Male,40 to 44,neoplasms,liverpool,1034.824945897701,44611.34861247487
+YLLs (Years of Life Lost),Male,40 to 44,non-rheumatic valvular heart disease,liverpool,16.731758951965098,44611.34861247491
 YLLs (Years of Life Lost),Male,40 to 44,other road injuries,liverpool,0.3133379431300934,44611.348612474896
 YLLs (Years of Life Lost),Male,40 to 44,other transport injuries,liverpool,13.86538648945054,44611.34861247491
 YLLs (Years of Life Lost),Male,40 to 44,parkinson's disease,liverpool,2.204608277807754,44611.34861247494
 YLLs (Years of Life Lost),Male,40 to 44,pedestrian road injuries,liverpool,36.18013703386855,44611.348612474896
 YLLs (Years of Life Lost),Male,40 to 44,prostate cancer,liverpool,4.716698641211233,44611.34861247489
+YLLs (Years of Life Lost),Male,40 to 44,rheumatic heart disease,liverpool,5.518227478510048,44611.34861247488
 YLLs (Years of Life Lost),Male,40 to 44,road injuries,liverpool,139.16113939544147,44611.34861247492
 YLLs (Years of Life Lost),Male,40 to 44,stomach cancer,liverpool,55.53412729219119,44611.348612474925
 YLLs (Years of Life Lost),Male,40 to 44,stroke,liverpool,170.8052037522657,44611.348612474925
@@ -1750,6 +1943,7 @@ YLLs (Years of Life Lost),Male,45 to 49,all causes,liverpool,7050.811136133857,4
 YLLs (Years of Life Lost),Male,45 to 49,alzheimer's disease and other dementias,liverpool,12.963625222168881,48988.10391443
 YLLs (Years of Life Lost),Male,45 to 49,bladder cancer,liverpool,30.90823344993433,48988.10391442997
 YLLs (Years of Life Lost),Male,45 to 49,breast cancer,liverpool,2.1373969036441367,48988.10391442998
+YLLs (Years of Life Lost),Male,45 to 49,cardiomyopathy and myocarditis,liverpool,91.70424500040467,48988.10391443001
 YLLs (Years of Life Lost),Male,45 to 49,cardiovascular diseases,liverpool,1640.8977167187927,48988.10391442997
 YLLs (Years of Life Lost),Male,45 to 49,chronic myeloid leukemia,liverpool,4.662893772550806,48988.103914430016
 YLLs (Years of Life Lost),Male,45 to 49,chronic obstructive pulmonary disease,liverpool,112.57511548731644,48988.103914429965
@@ -1765,16 +1959,19 @@ YLLs (Years of Life Lost),Male,45 to 49,motor vehicle road injuries,liverpool,57
 YLLs (Years of Life Lost),Male,45 to 49,motorcyclist road injuries,liverpool,37.82329204740582,48988.103914430045
 YLLs (Years of Life Lost),Male,45 to 49,multiple myeloma,liverpool,27.01977223030125,48988.10391442999
 YLLs (Years of Life Lost),Male,45 to 49,neoplasms,liverpool,1815.6117131441258,48988.103914429965
+YLLs (Years of Life Lost),Male,45 to 49,non-rheumatic valvular heart disease,liverpool,23.234256356780513,48988.103914430016
 YLLs (Years of Life Lost),Male,45 to 49,other road injuries,liverpool,0.38157667168304626,48988.10391442999
 YLLs (Years of Life Lost),Male,45 to 49,other transport injuries,liverpool,13.706530128772132,48988.10391442999
 YLLs (Years of Life Lost),Male,45 to 49,parkinson's disease,liverpool,6.962553613684813,48988.103914430016
 YLLs (Years of Life Lost),Male,45 to 49,pedestrian road injuries,liverpool,42.456774120631685,48988.10391443004
 YLLs (Years of Life Lost),Male,45 to 49,prostate cancer,liverpool,20.467326356028565,48988.10391442999
+YLLs (Years of Life Lost),Male,45 to 49,rheumatic heart disease,liverpool,8.616707315178529,48988.10391443002
 YLLs (Years of Life Lost),Male,45 to 49,road injuries,liverpool,146.83868831688568,48988.10391442996
 YLLs (Years of Life Lost),Male,45 to 49,stomach cancer,liverpool,92.47063224117576,48988.10391442997
 YLLs (Years of Life Lost),Male,45 to 49,stroke,liverpool,251.67043444450923,48988.10391442999
 YLLs (Years of Life Lost),Male,45 to 49,"tracheal, bronchus, and lung cancer",liverpool,347.9259172750959,48988.10391443
 YLLs (Years of Life Lost),Male,5 to 9,all causes,liverpool,293.7222732662931,44652.553340608996
+YLLs (Years of Life Lost),Male,5 to 9,cardiomyopathy and myocarditis,liverpool,3.3971494447560433,44652.553340608996
 YLLs (Years of Life Lost),Male,5 to 9,cardiovascular diseases,liverpool,8.933367075711933,44652.55334060906
 YLLs (Years of Life Lost),Male,5 to 9,chronic myeloid leukemia,liverpool,0.4141156707137963,44652.55334060904
 YLLs (Years of Life Lost),Male,5 to 9,chronic obstructive pulmonary disease,liverpool,0.6273014119956611,44652.55334060904
@@ -1789,12 +1986,14 @@ YLLs (Years of Life Lost),Male,5 to 9,neoplasms,liverpool,91.73575740269926,4465
 YLLs (Years of Life Lost),Male,5 to 9,other road injuries,liverpool,0.3503388206415278,44652.55334060899
 YLLs (Years of Life Lost),Male,5 to 9,other transport injuries,liverpool,1.7280604008344673,44652.55334060895
 YLLs (Years of Life Lost),Male,5 to 9,pedestrian road injuries,liverpool,16.548900433800384,44652.553340609
+YLLs (Years of Life Lost),Male,5 to 9,rheumatic heart disease,liverpool,0.31353916559595296,44652.553340609
 YLLs (Years of Life Lost),Male,5 to 9,road injuries,liverpool,27.503206273540812,44652.553340608996
 YLLs (Years of Life Lost),Male,5 to 9,stroke,liverpool,2.107989169541395,44652.553340608974
 YLLs (Years of Life Lost),Male,50 to 54,all causes,liverpool,9931.69724239648,53034.13079834435
 YLLs (Years of Life Lost),Male,50 to 54,alzheimer's disease and other dementias,liverpool,26.46746175916505,53034.13079834438
 YLLs (Years of Life Lost),Male,50 to 54,bladder cancer,liverpool,70.70462769662824,53034.1307983444
 YLLs (Years of Life Lost),Male,50 to 54,breast cancer,liverpool,3.4692320684042484,53034.130798344326
+YLLs (Years of Life Lost),Male,50 to 54,cardiomyopathy and myocarditis,liverpool,103.74942126093798,53034.13079834439
 YLLs (Years of Life Lost),Male,50 to 54,cardiovascular diseases,liverpool,2635.808664154569,53034.13079834436
 YLLs (Years of Life Lost),Male,50 to 54,chronic myeloid leukemia,liverpool,4.502221051194728,53034.13079834431
 YLLs (Years of Life Lost),Male,50 to 54,chronic obstructive pulmonary disease,liverpool,309.3989469140217,53034.13079834434
@@ -1810,11 +2009,13 @@ YLLs (Years of Life Lost),Male,50 to 54,motor vehicle road injuries,liverpool,40
 YLLs (Years of Life Lost),Male,50 to 54,motorcyclist road injuries,liverpool,22.010278938519324,53034.13079834436
 YLLs (Years of Life Lost),Male,50 to 54,multiple myeloma,liverpool,55.40922136984363,53034.13079834434
 YLLs (Years of Life Lost),Male,50 to 54,neoplasms,liverpool,3511.172111857385,53034.13079834435
+YLLs (Years of Life Lost),Male,50 to 54,non-rheumatic valvular heart disease,liverpool,39.119324470600475,53034.130798344384
 YLLs (Years of Life Lost),Male,50 to 54,other road injuries,liverpool,0.5417927738856227,53034.13079834434
 YLLs (Years of Life Lost),Male,50 to 54,other transport injuries,liverpool,12.131165633616353,53034.13079834438
 YLLs (Years of Life Lost),Male,50 to 54,parkinson's disease,liverpool,15.101809313974968,53034.13079834437
 YLLs (Years of Life Lost),Male,50 to 54,pedestrian road injuries,liverpool,33.985715324355105,53034.13079834431
 YLLs (Years of Life Lost),Male,50 to 54,prostate cancer,liverpool,85.14443629634223,53034.13079834434
+YLLs (Years of Life Lost),Male,50 to 54,rheumatic heart disease,liverpool,11.240642460594641,53034.130798344355
 YLLs (Years of Life Lost),Male,50 to 54,road injuries,liverpool,105.05040856677458,53034.13079834435
 YLLs (Years of Life Lost),Male,50 to 54,stomach cancer,liverpool,162.14176611223402,53034.13079834433
 YLLs (Years of Life Lost),Male,50 to 54,stroke,liverpool,361.02779283480436,53034.13079834432
@@ -1823,6 +2024,7 @@ YLLs (Years of Life Lost),Male,55 to 59,all causes,liverpool,12857.40187949198,5
 YLLs (Years of Life Lost),Male,55 to 59,alzheimer's disease and other dementias,liverpool,47.860266083336796,51747.880101911345
 YLLs (Years of Life Lost),Male,55 to 59,bladder cancer,liverpool,117.92989885765716,51747.88010191143
 YLLs (Years of Life Lost),Male,55 to 59,breast cancer,liverpool,4.868079973806531,51747.8801019114
+YLLs (Years of Life Lost),Male,55 to 59,cardiomyopathy and myocarditis,liverpool,115.3820804826552,51747.88010191137
 YLLs (Years of Life Lost),Male,55 to 59,cardiovascular diseases,liverpool,3521.3416769093496,51747.880101911345
 YLLs (Years of Life Lost),Male,55 to 59,chronic myeloid leukemia,liverpool,4.97593077605889,51747.88010191139
 YLLs (Years of Life Lost),Male,55 to 59,chronic obstructive pulmonary disease,liverpool,541.3560199941046,51747.8801019114
@@ -1838,11 +2040,13 @@ YLLs (Years of Life Lost),Male,55 to 59,motor vehicle road injuries,liverpool,34
 YLLs (Years of Life Lost),Male,55 to 59,motorcyclist road injuries,liverpool,15.127278492158277,51747.88010191142
 YLLs (Years of Life Lost),Male,55 to 59,multiple myeloma,liverpool,82.96200202790003,51747.88010191134
 YLLs (Years of Life Lost),Male,55 to 59,neoplasms,liverpool,5136.478591038606,51747.88010191144
+YLLs (Years of Life Lost),Male,55 to 59,non-rheumatic valvular heart disease,liverpool,55.72548103532681,51747.880101911374
 YLLs (Years of Life Lost),Male,55 to 59,other road injuries,liverpool,0.42895323380022193,51747.88010191145
 YLLs (Years of Life Lost),Male,55 to 59,other transport injuries,liverpool,10.380272202005681,51747.880101911425
 YLLs (Years of Life Lost),Male,55 to 59,parkinson's disease,liverpool,25.695445118472097,51747.88010191139
 YLLs (Years of Life Lost),Male,55 to 59,pedestrian road injuries,liverpool,29.86712325866352,51747.88010191136
 YLLs (Years of Life Lost),Male,55 to 59,prostate cancer,liverpool,185.95961590592148,51747.88010191139
+YLLs (Years of Life Lost),Male,55 to 59,rheumatic heart disease,liverpool,14.794710539073026,51747.880101911396
 YLLs (Years of Life Lost),Male,55 to 59,road injuries,liverpool,87.7059543924622,51747.88010191142
 YLLs (Years of Life Lost),Male,55 to 59,stomach cancer,liverpool,224.14222348433364,51747.88010191135
 YLLs (Years of Life Lost),Male,55 to 59,stroke,liverpool,468.5894066780817,51747.88010191137
@@ -1851,6 +2055,7 @@ YLLs (Years of Life Lost),Male,60 to 64,all causes,liverpool,15430.10715375474,4
 YLLs (Years of Life Lost),Male,60 to 64,alzheimer's disease and other dementias,liverpool,80.87330626197028,45865.348397034126
 YLLs (Years of Life Lost),Male,60 to 64,bladder cancer,liverpool,190.0922824070101,45865.34839703418
 YLLs (Years of Life Lost),Male,60 to 64,breast cancer,liverpool,5.819474900237586,45865.34839703413
+YLLs (Years of Life Lost),Male,60 to 64,cardiomyopathy and myocarditis,liverpool,108.70463121321777,45865.348397034155
 YLLs (Years of Life Lost),Male,60 to 64,cardiovascular diseases,liverpool,4171.7843973981335,45865.348397034155
 YLLs (Years of Life Lost),Male,60 to 64,chronic myeloid leukemia,liverpool,5.7058818837518785,45865.34839703418
 YLLs (Years of Life Lost),Male,60 to 64,chronic obstructive pulmonary disease,liverpool,988.8504445073504,45865.34839703417
@@ -1866,11 +2071,13 @@ YLLs (Years of Life Lost),Male,60 to 64,motor vehicle road injuries,liverpool,24
 YLLs (Years of Life Lost),Male,60 to 64,motorcyclist road injuries,liverpool,7.564886547867934,45865.34839703411
 YLLs (Years of Life Lost),Male,60 to 64,multiple myeloma,liverpool,109.61880568820044,45865.348397034184
 YLLs (Years of Life Lost),Male,60 to 64,neoplasms,liverpool,6892.930815758789,45865.34839703417
+YLLs (Years of Life Lost),Male,60 to 64,non-rheumatic valvular heart disease,liverpool,73.04675128280643,45865.34839703413
 YLLs (Years of Life Lost),Male,60 to 64,other road injuries,liverpool,0.26326259005639097,45865.348397034075
 YLLs (Years of Life Lost),Male,60 to 64,other transport injuries,liverpool,7.80838248024838,45865.34839703412
 YLLs (Years of Life Lost),Male,60 to 64,parkinson's disease,liverpool,57.65473700333489,45865.34839703412
 YLLs (Years of Life Lost),Male,60 to 64,pedestrian road injuries,liverpool,25.460162858558686,45865.34839703417
 YLLs (Years of Life Lost),Male,60 to 64,prostate cancer,liverpool,422.7843248699118,45865.34839703412
+YLLs (Years of Life Lost),Male,60 to 64,rheumatic heart disease,liverpool,16.757824900531897,45865.34839703408
 YLLs (Years of Life Lost),Male,60 to 64,road injuries,liverpool,63.14731371123603,45865.34839703418
 YLLs (Years of Life Lost),Male,60 to 64,stomach cancer,liverpool,289.84612767885665,45865.34839703407
 YLLs (Years of Life Lost),Male,60 to 64,stroke,liverpool,540.165890270311,45865.34839703412
@@ -1879,6 +2086,7 @@ YLLs (Years of Life Lost),Male,65 to 69,all causes,liverpool,17885.929252795024,
 YLLs (Years of Life Lost),Male,65 to 69,alzheimer's disease and other dementias,liverpool,139.22431276314313,40790.77214912782
 YLLs (Years of Life Lost),Male,65 to 69,bladder cancer,liverpool,252.1062501302934,40790.77214912782
 YLLs (Years of Life Lost),Male,65 to 69,breast cancer,liverpool,6.479428013105622,40790.77214912784
+YLLs (Years of Life Lost),Male,65 to 69,cardiomyopathy and myocarditis,liverpool,105.57108486587776,40790.77214912781
 YLLs (Years of Life Lost),Male,65 to 69,cardiovascular diseases,liverpool,4763.669344264933,40790.77214912783
 YLLs (Years of Life Lost),Male,65 to 69,chronic myeloid leukemia,liverpool,7.124080266793763,40790.772149127806
 YLLs (Years of Life Lost),Male,65 to 69,chronic obstructive pulmonary disease,liverpool,1364.939728205962,40790.77214912786
@@ -1894,11 +2102,13 @@ YLLs (Years of Life Lost),Male,65 to 69,motor vehicle road injuries,liverpool,19
 YLLs (Years of Life Lost),Male,65 to 69,motorcyclist road injuries,liverpool,4.34491400581768,40790.7721491278
 YLLs (Years of Life Lost),Male,65 to 69,multiple myeloma,liverpool,138.39030861161717,40790.77214912786
 YLLs (Years of Life Lost),Male,65 to 69,neoplasms,liverpool,8338.266437426888,40790.772149127864
+YLLs (Years of Life Lost),Male,65 to 69,non-rheumatic valvular heart disease,liverpool,92.50184592375642,40790.77214912785
 YLLs (Years of Life Lost),Male,65 to 69,other road injuries,liverpool,0.18090064891800825,40790.77214912782
 YLLs (Years of Life Lost),Male,65 to 69,other transport injuries,liverpool,5.666704946111427,40790.772149127864
 YLLs (Years of Life Lost),Male,65 to 69,parkinson's disease,liverpool,124.66523426747607,40790.77214912785
 YLLs (Years of Life Lost),Male,65 to 69,pedestrian road injuries,liverpool,22.31335021718428,40790.7721491278
 YLLs (Years of Life Lost),Male,65 to 69,prostate cancer,liverpool,683.4244718657111,40790.77214912786
+YLLs (Years of Life Lost),Male,65 to 69,rheumatic heart disease,liverpool,20.30922954354738,40790.77214912782
 YLLs (Years of Life Lost),Male,65 to 69,road injuries,liverpool,50.60101195655091,40790.77214912783
 YLLs (Years of Life Lost),Male,65 to 69,stomach cancer,liverpool,349.4219287314997,40790.77214912782
 YLLs (Years of Life Lost),Male,65 to 69,stroke,liverpool,719.4702079913621,40790.77214912782
@@ -1907,6 +2117,7 @@ YLLs (Years of Life Lost),Male,70 to 74,all causes,liverpool,21169.046324367388,
 YLLs (Years of Life Lost),Male,70 to 74,alzheimer's disease and other dementias,liverpool,253.61318521916334,36792.10542119428
 YLLs (Years of Life Lost),Male,70 to 74,bladder cancer,liverpool,343.97943562888304,36792.10542119427
 YLLs (Years of Life Lost),Male,70 to 74,breast cancer,liverpool,7.4693448522047525,36792.105421194276
+YLLs (Years of Life Lost),Male,70 to 74,cardiomyopathy and myocarditis,liverpool,95.05245628284028,36792.10542119426
 YLLs (Years of Life Lost),Male,70 to 74,cardiovascular diseases,liverpool,6039.703042040684,36792.10542119426
 YLLs (Years of Life Lost),Male,70 to 74,chronic myeloid leukemia,liverpool,9.277316057922043,36792.10542119429
 YLLs (Years of Life Lost),Male,70 to 74,chronic obstructive pulmonary disease,liverpool,1998.0429213564335,36792.10542119426
@@ -1922,11 +2133,13 @@ YLLs (Years of Life Lost),Male,70 to 74,motor vehicle road injuries,liverpool,16
 YLLs (Years of Life Lost),Male,70 to 74,motorcyclist road injuries,liverpool,1.7161331041338836,36792.1054211943
 YLLs (Years of Life Lost),Male,70 to 74,multiple myeloma,liverpool,161.01281324088112,36792.10542119425
 YLLs (Years of Life Lost),Male,70 to 74,neoplasms,liverpool,9109.327375729865,36792.105421194254
+YLLs (Years of Life Lost),Male,70 to 74,non-rheumatic valvular heart disease,liverpool,131.61392803804483,36792.10542119429
 YLLs (Years of Life Lost),Male,70 to 74,other road injuries,liverpool,0.1218858317751197,36792.10542119428
 YLLs (Years of Life Lost),Male,70 to 74,other transport injuries,liverpool,3.7784646552384,36792.105421194254
 YLLs (Years of Life Lost),Male,70 to 74,parkinson's disease,liverpool,277.5129332021918,36792.10542119431
 YLLs (Years of Life Lost),Male,70 to 74,pedestrian road injuries,liverpool,20.904206973164182,36792.10542119429
 YLLs (Years of Life Lost),Male,70 to 74,prostate cancer,liverpool,965.8209097002022,36792.10542119428
+YLLs (Years of Life Lost),Male,70 to 74,rheumatic heart disease,liverpool,27.706461058584434,36792.1054211943
 YLLs (Years of Life Lost),Male,70 to 74,road injuries,liverpool,41.699894192954474,36792.10542119426
 YLLs (Years of Life Lost),Male,70 to 74,stomach cancer,liverpool,423.81857421480146,36792.10542119428
 YLLs (Years of Life Lost),Male,70 to 74,stroke,liverpool,1103.6786619650352,36792.105421194305
@@ -1935,6 +2148,7 @@ YLLs (Years of Life Lost),Male,75 to 79,all causes,liverpool,18021.644961324484,
 YLLs (Years of Life Lost),Male,75 to 79,alzheimer's disease and other dementias,liverpool,344.8593687912929,24015.404689737956
 YLLs (Years of Life Lost),Male,75 to 79,bladder cancer,liverpool,327.72933762080106,24015.40468973795
 YLLs (Years of Life Lost),Male,75 to 79,breast cancer,liverpool,5.3689048987793,24015.404689737956
+YLLs (Years of Life Lost),Male,75 to 79,cardiomyopathy and myocarditis,liverpool,74.3221653779635,24015.40468973796
 YLLs (Years of Life Lost),Male,75 to 79,cardiovascular diseases,liverpool,5342.651026631946,24015.40468973797
 YLLs (Years of Life Lost),Male,75 to 79,chronic myeloid leukemia,liverpool,7.5036273145746595,24015.404689737967
 YLLs (Years of Life Lost),Male,75 to 79,chronic obstructive pulmonary disease,liverpool,1772.1305549499048,24015.40468973796
@@ -1950,11 +2164,13 @@ YLLs (Years of Life Lost),Male,75 to 79,motor vehicle road injuries,liverpool,11
 YLLs (Years of Life Lost),Male,75 to 79,motorcyclist road injuries,liverpool,0.6894363296493836,24015.40468973795
 YLLs (Years of Life Lost),Male,75 to 79,multiple myeloma,liverpool,126.3970031864492,24015.40468973798
 YLLs (Years of Life Lost),Male,75 to 79,neoplasms,liverpool,6997.310391096874,24015.404689737985
+YLLs (Years of Life Lost),Male,75 to 79,non-rheumatic valvular heart disease,liverpool,138.71426378316298,24015.40468973796
 YLLs (Years of Life Lost),Male,75 to 79,other road injuries,liverpool,0.08215812907795998,24015.404689737974
 YLLs (Years of Life Lost),Male,75 to 79,other transport injuries,liverpool,2.1449332398869014,24015.404689737967
 YLLs (Years of Life Lost),Male,75 to 79,parkinson's disease,liverpool,368.4327282109324,24015.404689737967
 YLLs (Years of Life Lost),Male,75 to 79,pedestrian road injuries,liverpool,17.323684918179755,24015.404689737978
 YLLs (Years of Life Lost),Male,75 to 79,prostate cancer,liverpool,1060.8294740147765,24015.404689737952
+YLLs (Years of Life Lost),Male,75 to 79,rheumatic heart disease,liverpool,25.52595723215741,24015.40468973799
 YLLs (Years of Life Lost),Male,75 to 79,road injuries,liverpool,30.892231653305913,24015.404689737963
 YLLs (Years of Life Lost),Male,75 to 79,stomach cancer,liverpool,348.50477320576596,24015.404689737985
 YLLs (Years of Life Lost),Male,75 to 79,stroke,liverpool,1136.2913724965094,24015.404689737956
@@ -1963,6 +2179,7 @@ YLLs (Years of Life Lost),Male,80 to 84,all causes,liverpool,16932.46070749352,1
 YLLs (Years of Life Lost),Male,80 to 84,alzheimer's disease and other dementias,liverpool,668.3029375738562,17191.41445039659
 YLLs (Years of Life Lost),Male,80 to 84,bladder cancer,liverpool,312.10174601849826,17191.41445039662
 YLLs (Years of Life Lost),Male,80 to 84,breast cancer,liverpool,3.714029729006839,17191.41445039661
+YLLs (Years of Life Lost),Male,80 to 84,cardiomyopathy and myocarditis,liverpool,69.22746970735591,17191.4144503966
 YLLs (Years of Life Lost),Male,80 to 84,cardiovascular diseases,liverpool,5235.957095867508,17191.414450396584
 YLLs (Years of Life Lost),Male,80 to 84,chronic myeloid leukemia,liverpool,6.3217491098396685,17191.41445039659
 YLLs (Years of Life Lost),Male,80 to 84,chronic obstructive pulmonary disease,liverpool,1641.125877373271,17191.41445039659
@@ -1978,11 +2195,13 @@ YLLs (Years of Life Lost),Male,80 to 84,motor vehicle road injuries,liverpool,9.
 YLLs (Years of Life Lost),Male,80 to 84,motorcyclist road injuries,liverpool,0.31041097436806486,17191.414450396598
 YLLs (Years of Life Lost),Male,80 to 84,multiple myeloma,liverpool,97.9475909791784,17191.4144503966
 YLLs (Years of Life Lost),Male,80 to 84,neoplasms,liverpool,5560.501475683028,17191.414450396598
+YLLs (Years of Life Lost),Male,80 to 84,non-rheumatic valvular heart disease,liverpool,167.30793221001878,17191.414450396594
 YLLs (Years of Life Lost),Male,80 to 84,other road injuries,liverpool,0.05641917663668375,17191.4144503966
 YLLs (Years of Life Lost),Male,80 to 84,other transport injuries,liverpool,1.3113430197016271,17191.4144503966
 YLLs (Years of Life Lost),Male,80 to 84,parkinson's disease,liverpool,371.8123814522004,17191.414450396584
 YLLs (Years of Life Lost),Male,80 to 84,pedestrian road injuries,liverpool,13.58924086806599,17191.414450396613
 YLLs (Years of Life Lost),Male,80 to 84,prostate cancer,liverpool,1047.0285167966765,17191.414450396598
+YLLs (Years of Life Lost),Male,80 to 84,rheumatic heart disease,liverpool,24.013840887822088,17191.414450396616
 YLLs (Years of Life Lost),Male,80 to 84,road injuries,liverpool,23.850983648007563,17191.41445039659
 YLLs (Years of Life Lost),Male,80 to 84,stomach cancer,liverpool,287.9937231591696,17191.414450396605
 YLLs (Years of Life Lost),Male,80 to 84,stroke,liverpool,1264.4068053460603,17191.414450396587
@@ -1991,6 +2210,7 @@ YLLs (Years of Life Lost),Male,85 to 89,all causes,liverpool,11416.633965493958,
 YLLs (Years of Life Lost),Male,85 to 89,alzheimer's disease and other dementias,liverpool,677.2930296432015,9140.432621758786
 YLLs (Years of Life Lost),Male,85 to 89,bladder cancer,liverpool,212.78633139620396,9140.432621758793
 YLLs (Years of Life Lost),Male,85 to 89,breast cancer,liverpool,2.6969400298275996,9140.432621758788
+YLLs (Years of Life Lost),Male,85 to 89,cardiomyopathy and myocarditis,liverpool,54.12019675823666,9140.432621758791
 YLLs (Years of Life Lost),Male,85 to 89,cardiovascular diseases,liverpool,3551.682360977001,9140.4326217588
 YLLs (Years of Life Lost),Male,85 to 89,chronic myeloid leukemia,liverpool,4.783750639907487,9140.432621758795
 YLLs (Years of Life Lost),Male,85 to 89,chronic obstructive pulmonary disease,liverpool,1093.1812749031867,9140.432621758795
@@ -2006,11 +2226,13 @@ YLLs (Years of Life Lost),Male,85 to 89,motor vehicle road injuries,liverpool,4.
 YLLs (Years of Life Lost),Male,85 to 89,motorcyclist road injuries,liverpool,0.11222040992843435,9140.43262175879
 YLLs (Years of Life Lost),Male,85 to 89,multiple myeloma,liverpool,54.237414653244045,9140.432621758791
 YLLs (Years of Life Lost),Male,85 to 89,neoplasms,liverpool,3158.9607728686974,9140.432621758791
+YLLs (Years of Life Lost),Male,85 to 89,non-rheumatic valvular heart disease,liverpool,134.42477029129563,9140.43262175879
 YLLs (Years of Life Lost),Male,85 to 89,other road injuries,liverpool,0.02428202842204565,9140.432621758799
 YLLs (Years of Life Lost),Male,85 to 89,other transport injuries,liverpool,0.5412831325672008,9140.432621758793
 YLLs (Years of Life Lost),Male,85 to 89,parkinson's disease,liverpool,233.5016466790847,9140.432621758795
 YLLs (Years of Life Lost),Male,85 to 89,pedestrian road injuries,liverpool,7.547993121469354,9140.432621758788
 YLLs (Years of Life Lost),Male,85 to 89,prostate cancer,liverpool,749.326189463188,9140.432621758799
+YLLs (Years of Life Lost),Male,85 to 89,rheumatic heart disease,liverpool,15.644909877833937,9140.432621758793
 YLLs (Years of Life Lost),Male,85 to 89,road injuries,liverpool,12.975667151449517,9140.432621758793
 YLLs (Years of Life Lost),Male,85 to 89,stomach cancer,liverpool,164.2113354343963,9140.432621758788
 YLLs (Years of Life Lost),Male,85 to 89,stroke,liverpool,940.8942190262296,9140.432621758795
@@ -2019,6 +2241,7 @@ YLLs (Years of Life Lost),Male,90 to 94,all causes,liverpool,5256.387367535577,3
 YLLs (Years of Life Lost),Male,90 to 94,alzheimer's disease and other dementias,liverpool,399.1684152250033,3305.8514183577527
 YLLs (Years of Life Lost),Male,90 to 94,bladder cancer,liverpool,88.19018302741456,3305.8514183577527
 YLLs (Years of Life Lost),Male,90 to 94,breast cancer,liverpool,1.230899789720131,3305.851418357753
+YLLs (Years of Life Lost),Male,90 to 94,cardiomyopathy and myocarditis,liverpool,30.202673925892064,3305.851418357753
 YLLs (Years of Life Lost),Male,90 to 94,cardiovascular diseases,liverpool,1719.998258438306,3305.8514183577518
 YLLs (Years of Life Lost),Male,90 to 94,chronic myeloid leukemia,liverpool,1.7545904421182954,3305.851418357756
 YLLs (Years of Life Lost),Male,90 to 94,chronic obstructive pulmonary disease,liverpool,463.0244995602227,3305.851418357752
@@ -2034,11 +2257,13 @@ YLLs (Years of Life Lost),Male,90 to 94,motor vehicle road injuries,liverpool,1.
 YLLs (Years of Life Lost),Male,90 to 94,motorcyclist road injuries,liverpool,0.05603343497552782,3305.8514183577513
 YLLs (Years of Life Lost),Male,90 to 94,multiple myeloma,liverpool,15.798730645335743,3305.8514183577527
 YLLs (Years of Life Lost),Male,90 to 94,neoplasms,liverpool,1143.1510134015195,3305.8514183577545
+YLLs (Years of Life Lost),Male,90 to 94,non-rheumatic valvular heart disease,liverpool,66.51728593178615,3305.8514183577545
 YLLs (Years of Life Lost),Male,90 to 94,other road injuries,liverpool,0.0109479997594243,3305.8514183577545
 YLLs (Years of Life Lost),Male,90 to 94,other transport injuries,liverpool,0.21333765194559257,3305.851418357755
 YLLs (Years of Life Lost),Male,90 to 94,parkinson's disease,liverpool,83.67182496806225,3305.851418357755
 YLLs (Years of Life Lost),Male,90 to 94,pedestrian road injuries,liverpool,2.6814492037809274,3305.851418357751
 YLLs (Years of Life Lost),Male,90 to 94,prostate cancer,liverpool,323.6747216449082,3305.8514183577536
+YLLs (Years of Life Lost),Male,90 to 94,rheumatic heart disease,liverpool,6.67906090110164,3305.8514183577518
 YLLs (Years of Life Lost),Male,90 to 94,road injuries,liverpool,4.527009917538148,3305.8514183577545
 YLLs (Years of Life Lost),Male,90 to 94,stomach cancer,liverpool,56.981747872919144,3305.8514183577527
 YLLs (Years of Life Lost),Male,90 to 94,stroke,liverpool,475.0529059051034,3305.8514183577536
@@ -2047,6 +2272,7 @@ YLLs (Years of Life Lost),Male,95 to 99,all causes,liverpool,1098.5130049373852,
 YLLs (Years of Life Lost),Male,95 to 99,alzheimer's disease and other dementias,liverpool,95.61816397724317,573.9271171574645
 YLLs (Years of Life Lost),Male,95 to 99,bladder cancer,liverpool,16.17572926409726,573.9271171574641
 YLLs (Years of Life Lost),Male,95 to 99,breast cancer,liverpool,0.22042027063961211,573.9271171574649
+YLLs (Years of Life Lost),Male,95 to 99,cardiomyopathy and myocarditis,liverpool,6.80401204568908,573.9271171574647
 YLLs (Years of Life Lost),Male,95 to 99,cardiovascular diseases,liverpool,371.684393168355,573.9271171574644
 YLLs (Years of Life Lost),Male,95 to 99,chronic myeloid leukemia,liverpool,0.29135385870319375,573.9271171574646
 YLLs (Years of Life Lost),Male,95 to 99,chronic obstructive pulmonary disease,liverpool,95.24993757721475,573.9271171574644
@@ -2062,11 +2288,13 @@ YLLs (Years of Life Lost),Male,95 to 99,motor vehicle road injuries,liverpool,0.
 YLLs (Years of Life Lost),Male,95 to 99,motorcyclist road injuries,liverpool,0.018507537974876802,573.9271171574645
 YLLs (Years of Life Lost),Male,95 to 99,multiple myeloma,liverpool,2.8359583418859917,573.9271171574641
 YLLs (Years of Life Lost),Male,95 to 99,neoplasms,liverpool,197.7812245636242,573.9271171574647
+YLLs (Years of Life Lost),Male,95 to 99,non-rheumatic valvular heart disease,liverpool,13.342622171052263,573.9271171574644
 YLLs (Years of Life Lost),Male,95 to 99,other road injuries,liverpool,0.003944332733422634,573.9271171574646
 YLLs (Years of Life Lost),Male,95 to 99,other transport injuries,liverpool,0.04858675384979993,573.927117157465
 YLLs (Years of Life Lost),Male,95 to 99,parkinson's disease,liverpool,10.490531105924282,573.9271171574652
 YLLs (Years of Life Lost),Male,95 to 99,pedestrian road injuries,liverpool,0.5054437986695793,573.9271171574647
 YLLs (Years of Life Lost),Male,95 to 99,prostate cancer,liverpool,58.27673578710246,573.9271171574649
+YLLs (Years of Life Lost),Male,95 to 99,rheumatic heart disease,liverpool,1.304067617620029,573.9271171574644
 YLLs (Years of Life Lost),Male,95 to 99,road injuries,liverpool,0.8420436960393685,573.9271171574652
 YLLs (Years of Life Lost),Male,95 to 99,stomach cancer,liverpool,9.807905300937017,573.9271171574649
 YLLs (Years of Life Lost),Male,95 to 99,stroke,liverpool,105.42648021309475,573.9271171574642

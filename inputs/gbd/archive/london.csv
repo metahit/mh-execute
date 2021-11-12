@@ -1,0 +1,1079 @@
+measure_name,sex_name,age_name,cause_name,cityregion,val,population_number
+Deaths,Female,10 to 14,All causes,london,22.57522758684648,251158.5128657037
+Deaths,Female,10 to 14,Cardiovascular diseases,london,0.8228666502108479,251158.5128657037
+Deaths,Female,10 to 14,Chronic obstructive pulmonary disease,london,0.17204365904066932,251158.5128657037
+Deaths,Female,10 to 14,Liver cancer,london,0.1209779347555335,251158.5128657037
+Deaths,Female,10 to 14,Lower respiratory infections,london,0.8944720741306533,251158.5128657037
+Deaths,Female,10 to 14,Neoplasms,london,6.7708489197343456,251158.5128657037
+Deaths,Female,10 to 14,Road injuries,london,1.9075072658220007,251158.5128657037
+Deaths,Female,10 to 14,Stroke,london,0.1805568003945116,251158.5128657037
+Deaths,Female,15 to 19,All causes,london,27.858575705177902,236079.78596734235
+Deaths,Female,15 to 19,Breast cancer,london,0.03569265297636635,236079.78596734235
+Deaths,Female,15 to 19,Cardiovascular diseases,london,1.3384095931665019,236079.78596734235
+Deaths,Female,15 to 19,Chronic obstructive pulmonary disease,london,0.12687362079301767,236079.78596734235
+Deaths,Female,15 to 19,Colon and rectum cancer,london,0.0472373190635119,236079.78596734235
+Deaths,Female,15 to 19,Diabetes mellitus type 2,london,0.023684857211941326,236079.78596734235
+Deaths,Female,15 to 19,Ischemic heart disease,london,0.07325920324404807,236079.78596734235
+Deaths,Female,15 to 19,Liver cancer,london,0.1721387318481555,236079.78596734235
+Deaths,Female,15 to 19,Lower respiratory infections,london,0.6758884887675434,236079.78596734235
+Deaths,Female,15 to 19,Neoplasms,london,5.325538652223336,236079.78596734235
+Deaths,Female,15 to 19,Road injuries,london,3.986438087337561,236079.78596734235
+Deaths,Female,15 to 19,Stomach cancer,london,0.025292808307271767,236079.78596734235
+Deaths,Female,15 to 19,Stroke,london,0.26035290752304807,236079.78596734235
+Deaths,Female,15 to 19,"Tracheal, bronchus, and lung cancer",london,0.05986626132602634,236079.78596734235
+Deaths,Female,15 to 19,Uterine cancer,london,0.019828726785330517,236079.78596734235
+Deaths,Female,20 to 24,All causes,london,50.598240221417775,303947.38292542176
+Deaths,Female,20 to 24,Breast cancer,london,0.24748735365021887,303947.38292542176
+Deaths,Female,20 to 24,Cardiovascular diseases,london,3.4239691149424933,303947.38292542176
+Deaths,Female,20 to 24,Chronic obstructive pulmonary disease,london,0.21051860706132666,303947.38292542176
+Deaths,Female,20 to 24,Colon and rectum cancer,london,0.28450711778761617,303947.38292542176
+Deaths,Female,20 to 24,Diabetes mellitus type 2,london,0.040456054005328035,303947.38292542176
+Deaths,Female,20 to 24,Ischemic heart disease,london,0.27601222931567143,303947.38292542176
+Deaths,Female,20 to 24,Liver cancer,london,0.2531875806545369,303947.38292542176
+Deaths,Female,20 to 24,Lower respiratory infections,london,1.2847396339360924,303947.38292542176
+Deaths,Female,20 to 24,Neoplasms,london,9.115025341419384,303947.38292542176
+Deaths,Female,20 to 24,Road injuries,london,5.0542796725174,303947.38292542176
+Deaths,Female,20 to 24,Stomach cancer,london,0.10477925094134813,303947.38292542176
+Deaths,Female,20 to 24,Stroke,london,0.8086456381605092,303947.38292542176
+Deaths,Female,20 to 24,"Tracheal, bronchus, and lung cancer",london,0.15418325483371859,303947.38292542176
+Deaths,Female,20 to 24,Uterine cancer,london,0.03797126026344764,303947.38292542176
+Deaths,Female,25 to 29,All causes,london,74.01235588439336,417744.26879487664
+Deaths,Female,25 to 29,Breast cancer,london,2.1299439229191615,417744.26879487664
+Deaths,Female,25 to 29,Cardiovascular diseases,london,5.346038939028036,417744.26879487664
+Deaths,Female,25 to 29,Chronic obstructive pulmonary disease,london,0.27359134596084295,417744.26879487664
+Deaths,Female,25 to 29,Colon and rectum cancer,london,0.889363860747123,417744.26879487664
+Deaths,Female,25 to 29,Diabetes mellitus type 2,london,0.08057394322649948,417744.26879487664
+Deaths,Female,25 to 29,Ischemic heart disease,london,0.521588111241373,417744.26879487664
+Deaths,Female,25 to 29,Liver cancer,london,0.47229705227657454,417744.26879487664
+Deaths,Female,25 to 29,Lower respiratory infections,london,1.869084196959876,417744.26879487664
+Deaths,Female,25 to 29,Neoplasms,london,18.552633284539652,417744.26879487664
+Deaths,Female,25 to 29,Road injuries,london,4.234263030908427,417744.26879487664
+Deaths,Female,25 to 29,Stomach cancer,london,0.4131239283965811,417744.26879487664
+Deaths,Female,25 to 29,Stroke,london,1.3554889538301236,417744.26879487664
+Deaths,Female,25 to 29,"Tracheal, bronchus, and lung cancer",london,0.42509472939908177,417744.26879487664
+Deaths,Female,25 to 29,Uterine cancer,london,0.10809658803819513,417744.26879487664
+Deaths,Female,30 to 34,All causes,london,115.16818237586216,439953.0789478347
+Deaths,Female,30 to 34,Breast cancer,london,9.072465520611825,439953.0789478347
+Deaths,Female,30 to 34,Cardiovascular diseases,london,10.09351142040358,439953.0789478347
+Deaths,Female,30 to 34,Chronic obstructive pulmonary disease,london,0.44541247292436825,439953.0789478347
+Deaths,Female,30 to 34,Colon and rectum cancer,london,2.40733206985057,439953.0789478347
+Deaths,Female,30 to 34,Diabetes mellitus type 2,london,0.234043849873701,439953.0789478347
+Deaths,Female,30 to 34,Ischemic heart disease,london,1.8029952113504844,439953.0789478347
+Deaths,Female,30 to 34,Liver cancer,london,0.6823309750721788,439953.0789478347
+Deaths,Female,30 to 34,Lower respiratory infections,london,2.8086637969708614,439953.0789478347
+Deaths,Female,30 to 34,Neoplasms,london,36.76998052529045,439953.0789478347
+Deaths,Female,30 to 34,Road injuries,london,3.596938354423361,439953.0789478347
+Deaths,Female,30 to 34,Stomach cancer,london,1.1434389641938196,439953.0789478347
+Deaths,Female,30 to 34,Stroke,london,2.792548325003691,439953.0789478347
+Deaths,Female,30 to 34,"Tracheal, bronchus, and lung cancer",london,1.5141118080826175,439953.0789478347
+Deaths,Female,30 to 34,Uterine cancer,london,0.2183052082671218,439953.0789478347
+Deaths,Female,35 to 39,All causes,london,164.31429630281707,395817.6009596853
+Deaths,Female,35 to 39,Breast cancer,london,21.191177183616755,395817.6009596853
+Deaths,Female,35 to 39,Cardiovascular diseases,london,16.80831510400708,395817.6009596853
+Deaths,Female,35 to 39,Chronic obstructive pulmonary disease,london,0.8529374005569731,395817.6009596853
+Deaths,Female,35 to 39,Colon and rectum cancer,london,4.109567408516254,395817.6009596853
+Deaths,Female,35 to 39,Diabetes mellitus type 2,london,0.3299816629407561,395817.6009596853
+Deaths,Female,35 to 39,Ischemic heart disease,london,4.053929895652312,395817.6009596853
+Deaths,Female,35 to 39,Liver cancer,london,1.0850110897531313,395817.6009596853
+Deaths,Female,35 to 39,Lower respiratory infections,london,4.316297470988438,395817.6009596853
+Deaths,Female,35 to 39,Neoplasms,london,63.263363882805905,395817.6009596853
+Deaths,Female,35 to 39,Road injuries,london,3.2636635956514155,395817.6009596853
+Deaths,Female,35 to 39,Stomach cancer,london,1.7815505444675261,395817.6009596853
+Deaths,Female,35 to 39,Stroke,london,4.781481365697085,395817.6009596853
+Deaths,Female,35 to 39,"Tracheal, bronchus, and lung cancer",london,3.406800534099319,395817.6009596853
+Deaths,Female,35 to 39,Uterine cancer,london,0.431593809209955,395817.6009596853
+Deaths,Female,40 to 44,All causes,london,257.18535727743296,315079.77179494075
+Deaths,Female,40 to 44,Breast cancer,london,40.57501129514332,315079.77179494075
+Deaths,Female,40 to 44,Cardiovascular diseases,london,30.99555469054666,315079.77179494075
+Deaths,Female,40 to 44,Chronic obstructive pulmonary disease,london,2.613639445740365,315079.77179494075
+Deaths,Female,40 to 44,Colon and rectum cancer,london,7.758732235532492,315079.77179494075
+Deaths,Female,40 to 44,Diabetes mellitus type 2,london,0.5034610350356435,315079.77179494075
+Deaths,Female,40 to 44,Ischemic heart disease,london,8.810825496508237,315079.77179494075
+Deaths,Female,40 to 44,Liver cancer,london,1.8742101961407676,315079.77179494075
+Deaths,Female,40 to 44,Lower respiratory infections,london,7.08856652383399,315079.77179494075
+Deaths,Female,40 to 44,Neoplasms,london,114.2929370800094,315079.77179494075
+Deaths,Female,40 to 44,Road injuries,london,3.3514477081952667,315079.77179494075
+Deaths,Female,40 to 44,Stomach cancer,london,3.3561067146113603,315079.77179494075
+Deaths,Female,40 to 44,Stroke,london,8.689703482770703,315079.77179494075
+Deaths,Female,40 to 44,"Tracheal, bronchus, and lung cancer",london,10.19375810350226,315079.77179494075
+Deaths,Female,40 to 44,Uterine cancer,london,1.0863318910111999,315079.77179494075
+Deaths,Female,45 to 49,All causes,london,415.7234762314684,297020.721726264
+Deaths,Female,45 to 49,Breast cancer,london,69.22531823775213,297020.721726264
+Deaths,Female,45 to 49,Cardiovascular diseases,london,54.33810074590743,297020.721726264
+Deaths,Female,45 to 49,Chronic obstructive pulmonary disease,london,6.589061915693689,297020.721726264
+Deaths,Female,45 to 49,Colon and rectum cancer,london,15.189420623374314,297020.721726264
+Deaths,Female,45 to 49,Diabetes mellitus type 2,london,1.8516172964499296,297020.721726264
+Deaths,Female,45 to 49,Ischemic heart disease,london,18.62450901741251,297020.721726264
+Deaths,Female,45 to 49,Liver cancer,london,3.646235017304042,297020.721726264
+Deaths,Female,45 to 49,Lower respiratory infections,london,10.521960271355866,297020.721726264
+Deaths,Female,45 to 49,Neoplasms,london,208.91337974084897,297020.721726264
+Deaths,Female,45 to 49,Road injuries,london,3.594731685936465,297020.721726264
+Deaths,Female,45 to 49,Stomach cancer,london,4.842090960629409,297020.721726264
+Deaths,Female,45 to 49,Stroke,london,14.201813902039296,297020.721726264
+Deaths,Female,45 to 49,"Tracheal, bronchus, and lung cancer",london,28.597676383491645,297020.721726264
+Deaths,Female,45 to 49,Uterine cancer,london,2.572912329465396,297020.721726264
+Deaths,Female,5 to 9,All causes,london,17.815226965183417,292447.1669210891
+Deaths,Female,5 to 9,Cardiovascular diseases,london,0.6248244361965225,292447.1669210891
+Deaths,Female,5 to 9,Chronic obstructive pulmonary disease,london,0.12831867693655652,292447.1669210891
+Deaths,Female,5 to 9,Liver cancer,london,0.08527216359299516,292447.1669210891
+Deaths,Female,5 to 9,Lower respiratory infections,london,0.9310832579803313,292447.1669210891
+Deaths,Female,5 to 9,Neoplasms,london,5.632749948040122,292447.1669210891
+Deaths,Female,5 to 9,Road injuries,london,1.1879270751599567,292447.1669210891
+Deaths,Female,5 to 9,Stroke,london,0.09731374095242179,292447.1669210891
+Deaths,Female,50 to 54,All causes,london,638.7738689489498,276489.036024098
+Deaths,Female,50 to 54,Breast cancer,london,100.0559450503892,276489.036024098
+Deaths,Female,50 to 54,Cardiovascular diseases,london,85.72907923904015,276489.036024098
+Deaths,Female,50 to 54,Chronic obstructive pulmonary disease,london,18.360677611462798,276489.036024098
+Deaths,Female,50 to 54,Colon and rectum cancer,london,26.601013027620265,276489.036024098
+Deaths,Female,50 to 54,Diabetes mellitus type 2,london,2.6891776762197437,276489.036024098
+Deaths,Female,50 to 54,Ischemic heart disease,london,32.12748601795135,276489.036024098
+Deaths,Female,50 to 54,Liver cancer,london,7.396249899875631,276489.036024098
+Deaths,Female,50 to 54,Lower respiratory infections,london,17.09615368122626,276489.036024098
+Deaths,Female,50 to 54,Neoplasms,london,348.191374965613,276489.036024098
+Deaths,Female,50 to 54,Road injuries,london,3.752714852464376,276489.036024098
+Deaths,Female,50 to 54,Stomach cancer,london,7.738940901504888,276489.036024098
+Deaths,Female,50 to 54,Stroke,london,22.922723086149603,276489.036024098
+Deaths,Female,50 to 54,"Tracheal, bronchus, and lung cancer",london,58.68554303429702,276489.036024098
+Deaths,Female,50 to 54,Uterine cancer,london,5.93540937041137,276489.036024098
+Deaths,Female,55 to 59,All causes,london,822.8285229955592,228149.35017069816
+Deaths,Female,55 to 59,Breast cancer,london,104.77598696948843,228149.35017069816
+Deaths,Female,55 to 59,Cardiovascular diseases,london,120.47807112093776,228149.35017069816
+Deaths,Female,55 to 59,Chronic obstructive pulmonary disease,london,34.79655677789677,228149.35017069816
+Deaths,Female,55 to 59,Colon and rectum cancer,london,37.242188630695864,228149.35017069816
+Deaths,Female,55 to 59,Diabetes mellitus type 2,london,3.5973805482655186,228149.35017069816
+Deaths,Female,55 to 59,Ischemic heart disease,london,50.716850664630215,228149.35017069816
+Deaths,Female,55 to 59,Liver cancer,london,10.858210919899589,228149.35017069816
+Deaths,Female,55 to 59,Lower respiratory infections,london,21.17539535813376,228149.35017069816
+Deaths,Female,55 to 59,Neoplasms,london,463.33566934827866,228149.35017069816
+Deaths,Female,55 to 59,Road injuries,london,3.459089194505051,228149.35017069816
+Deaths,Female,55 to 59,Stomach cancer,london,10.629325818408581,228149.35017069816
+Deaths,Female,55 to 59,Stroke,london,28.088270823889683,228149.35017069816
+Deaths,Female,55 to 59,"Tracheal, bronchus, and lung cancer",london,96.66412132147073,228149.35017069816
+Deaths,Female,55 to 59,Uterine cancer,london,10.689065678656206,228149.35017069816
+Deaths,Female,60 to 64,All causes,london,969.5536319795029,182555.63283217043
+Deaths,Female,60 to 64,Breast cancer,london,93.37332062499304,182555.63283217043
+Deaths,Female,60 to 64,Cardiovascular diseases,london,167.6565906680873,182555.63283217043
+Deaths,Female,60 to 64,Chronic obstructive pulmonary disease,london,59.90933578466262,182555.63283217043
+Deaths,Female,60 to 64,Colon and rectum cancer,london,42.123692051612686,182555.63283217043
+Deaths,Female,60 to 64,Diabetes mellitus type 2,london,5.285979048724133,182555.63283217043
+Deaths,Female,60 to 64,Ischemic heart disease,london,76.1182178627085,182555.63283217043
+Deaths,Female,60 to 64,Liver cancer,london,12.935382575067635,182555.63283217043
+Deaths,Female,60 to 64,Lower respiratory infections,london,26.490839152367872,182555.63283217043
+Deaths,Female,60 to 64,Neoplasms,london,526.6732668774321,182555.63283217043
+Deaths,Female,60 to 64,Road injuries,london,2.8532383109104806,182555.63283217043
+Deaths,Female,60 to 64,Stomach cancer,london,12.784349124925681,182555.63283217043
+Deaths,Female,60 to 64,Stroke,london,34.92981551001795,182555.63283217043
+Deaths,Female,60 to 64,"Tracheal, bronchus, and lung cancer",london,125.69043664737411,182555.63283217043
+Deaths,Female,60 to 64,Uterine cancer,london,14.866909090066322,182555.63283217043
+Deaths,Female,65 to 69,All causes,london,1405.7670127334325,155782.00794739777
+Deaths,Female,65 to 69,Breast cancer,london,107.09928961859715,155782.00794739777
+Deaths,Female,65 to 69,Cardiovascular diseases,london,279.93471080458283,155782.00794739777
+Deaths,Female,65 to 69,Chronic obstructive pulmonary disease,london,101.9937062131324,155782.00794739777
+Deaths,Female,65 to 69,Colon and rectum cancer,london,59.24781741957557,155782.00794739777
+Deaths,Female,65 to 69,Diabetes mellitus type 2,london,7.972235130426454,155782.00794739777
+Deaths,Female,65 to 69,Ischemic heart disease,london,132.33157776206775,155782.00794739777
+Deaths,Female,65 to 69,Liver cancer,london,18.81277703143114,155782.00794739777
+Deaths,Female,65 to 69,Lower respiratory infections,london,40.58956785585334,155782.00794739777
+Deaths,Female,65 to 69,Neoplasms,london,718.0371515916494,155782.00794739777
+Deaths,Female,65 to 69,Road injuries,london,3.5288261359515465,155782.00794739777
+Deaths,Female,65 to 69,Stomach cancer,london,18.42404045943571,155782.00794739777
+Deaths,Female,65 to 69,Stroke,london,58.47451600111374,155782.00794739777
+Deaths,Female,65 to 69,"Tracheal, bronchus, and lung cancer",london,183.78909408788434,155782.00794739777
+Deaths,Female,65 to 69,Uterine cancer,london,22.106064394883074,155782.00794739777
+Deaths,Female,70 to 74,All causes,london,1926.994772601444,130256.8484026803
+Deaths,Female,70 to 74,Breast cancer,london,112.01244450334548,130256.8484026803
+Deaths,Female,70 to 74,Cardiovascular diseases,london,448.4116201239185,130256.8484026803
+Deaths,Female,70 to 74,Chronic obstructive pulmonary disease,london,156.75588728818306,130256.8484026803
+Deaths,Female,70 to 74,Colon and rectum cancer,london,74.38360645014149,130256.8484026803
+Deaths,Female,70 to 74,Diabetes mellitus type 2,london,13.53990733967088,130256.8484026803
+Deaths,Female,70 to 74,Ischemic heart disease,london,202.23778515537535,130256.8484026803
+Deaths,Female,70 to 74,Liver cancer,london,24.059791491740043,130256.8484026803
+Deaths,Female,70 to 74,Lower respiratory infections,london,71.33131447217447,130256.8484026803
+Deaths,Female,70 to 74,Neoplasms,london,849.7779680513613,130256.8484026803
+Deaths,Female,70 to 74,Road injuries,london,4.047551620379272,130256.8484026803
+Deaths,Female,70 to 74,Stomach cancer,london,26.10133765229918,130256.8484026803
+Deaths,Female,70 to 74,Stroke,london,102.62950985215367,130256.8484026803
+Deaths,Female,70 to 74,"Tracheal, bronchus, and lung cancer",london,215.8077097553928,130256.8484026803
+Deaths,Female,70 to 74,Uterine cancer,london,25.15922709765023,130256.8484026803
+Deaths,Female,75 to 79,All causes,london,2552.8253798454853,99797.14147592663
+Deaths,Female,75 to 79,Breast cancer,london,116.81841954203807,99797.14147592663
+Deaths,Female,75 to 79,Cardiovascular diseases,london,683.781497405262,99797.14147592663
+Deaths,Female,75 to 79,Chronic obstructive pulmonary disease,london,201.06431622874445,99797.14147592663
+Deaths,Female,75 to 79,Colon and rectum cancer,london,93.04413843310428,99797.14147592663
+Deaths,Female,75 to 79,Diabetes mellitus type 2,london,19.489847973944663,99797.14147592663
+Deaths,Female,75 to 79,Ischemic heart disease,london,289.7809621706433,99797.14147592663
+Deaths,Female,75 to 79,Liver cancer,london,28.146887453898167,99797.14147592663
+Deaths,Female,75 to 79,Lower respiratory infections,london,122.29505622075996,99797.14147592663
+Deaths,Female,75 to 79,Neoplasms,london,904.8842589499496,99797.14147592663
+Deaths,Female,75 to 79,Road injuries,london,4.700652061753124,99797.14147592663
+Deaths,Female,75 to 79,Stomach cancer,london,35.80010874844165,99797.14147592663
+Deaths,Female,75 to 79,Stroke,london,177.1780854617036,99797.14147592663
+Deaths,Female,75 to 79,"Tracheal, bronchus, and lung cancer",london,211.91675274960377,99797.14147592663
+Deaths,Female,75 to 79,Uterine cancer,london,23.726276074147492,99797.14147592663
+Deaths,Female,80 to 84,All causes,london,3696.074171743941,76722.88570711153
+Deaths,Female,80 to 84,Breast cancer,london,129.19896469008097,76722.88570711153
+Deaths,Female,80 to 84,Cardiovascular diseases,london,1118.0226389692284,76722.88570711153
+Deaths,Female,80 to 84,Chronic obstructive pulmonary disease,london,271.7663368574463,76722.88570711153
+Deaths,Female,80 to 84,Colon and rectum cancer,london,116.88841856818854,76722.88570711153
+Deaths,Female,80 to 84,Diabetes mellitus type 2,london,31.89079366355526,76722.88570711153
+Deaths,Female,80 to 84,Ischemic heart disease,london,467.60738798976854,76722.88570711153
+Deaths,Female,80 to 84,Liver cancer,london,30.370707814984748,76722.88570711153
+Deaths,Female,80 to 84,Lower respiratory infections,london,240.18082331175953,76722.88570711153
+Deaths,Female,80 to 84,Neoplasms,london,972.4558259646858,76722.88570711153
+Deaths,Female,80 to 84,Road injuries,london,5.305623161696675,76722.88570711153
+Deaths,Female,80 to 84,Stomach cancer,london,45.37139464405884,76722.88570711153
+Deaths,Female,80 to 84,Stroke,london,302.41149860136954,76722.88570711153
+Deaths,Female,80 to 84,"Tracheal, bronchus, and lung cancer",london,203.1523310817186,76722.88570711153
+Deaths,Female,80 to 84,Uterine cancer,london,22.657803681277294,76722.88570711153
+Deaths,Female,85 to 89,All causes,london,4732.400146520037,50626.03192446541
+Deaths,Female,85 to 89,Breast cancer,london,134.70552804401456,50626.03192446541
+Deaths,Female,85 to 89,Cardiovascular diseases,london,1521.106776808617,50626.03192446541
+Deaths,Female,85 to 89,Chronic obstructive pulmonary disease,london,278.48473552209106,50626.03192446541
+Deaths,Female,85 to 89,Colon and rectum cancer,london,121.12868628815767,50626.03192446541
+Deaths,Female,85 to 89,Diabetes mellitus type 2,london,37.64347915813746,50626.03192446541
+Deaths,Female,85 to 89,Ischemic heart disease,london,608.5419605673626,50626.03192446541
+Deaths,Female,85 to 89,Liver cancer,london,26.109109362217477,50626.03192446541
+Deaths,Female,85 to 89,Lower respiratory infections,london,445.96081811702135,50626.03192446541
+Deaths,Female,85 to 89,Neoplasms,london,868.5028408700439,50626.03192446541
+Deaths,Female,85 to 89,Road injuries,london,4.134991739556589,50626.03192446541
+Deaths,Female,85 to 89,Stomach cancer,london,43.92789569321036,50626.03192446541
+Deaths,Female,85 to 89,Stroke,london,415.6260769738355,50626.03192446541
+Deaths,Female,85 to 89,"Tracheal, bronchus, and lung cancer",london,143.6767726216908,50626.03192446541
+Deaths,Female,85 to 89,Uterine cancer,london,18.305394686298264,50626.03192446541
+Deaths,Female,90 to 94,All causes,london,4154.410890588928,25566.02321028302
+Deaths,Female,90 to 94,Breast cancer,london,93.62061424035416,25566.02321028302
+Deaths,Female,90 to 94,Cardiovascular diseases,london,1356.140340970783,25566.02321028302
+Deaths,Female,90 to 94,Chronic obstructive pulmonary disease,london,211.23352140321157,25566.02321028302
+Deaths,Female,90 to 94,Colon and rectum cancer,london,86.69809222254023,25566.02321028302
+Deaths,Female,90 to 94,Diabetes mellitus type 2,london,31.888499411696728,25566.02321028302
+Deaths,Female,90 to 94,Ischemic heart disease,london,537.4442217736674,25566.02321028302
+Deaths,Female,90 to 94,Liver cancer,london,14.552453048789843,25566.02321028302
+Deaths,Female,90 to 94,Lower respiratory infections,london,406.3187685127974,25566.02321028302
+Deaths,Female,90 to 94,Neoplasms,london,556.8444478905844,25566.02321028302
+Deaths,Female,90 to 94,Road injuries,london,2.736374000345445,25566.02321028302
+Deaths,Female,90 to 94,Stomach cancer,london,32.07369922834255,25566.02321028302
+Deaths,Female,90 to 94,Stroke,london,363.1928184733536,25566.02321028302
+Deaths,Female,90 to 94,"Tracheal, bronchus, and lung cancer",london,77.65219961551547,25566.02321028302
+Deaths,Female,90 to 94,Uterine cancer,london,10.342841148127057,25566.02321028302
+Deaths,Female,95 to 99,All causes,london,2283.9617444963355,8324.011354096516
+Deaths,Female,95 to 99,Breast cancer,london,42.50563834427831,8324.011354096516
+Deaths,Female,95 to 99,Cardiovascular diseases,london,767.8447218937935,8324.011354096516
+Deaths,Female,95 to 99,Chronic obstructive pulmonary disease,london,115.8578755765896,8324.011354096516
+Deaths,Female,95 to 99,Colon and rectum cancer,london,36.30610969758889,8324.011354096516
+Deaths,Female,95 to 99,Diabetes mellitus type 2,london,17.713914685780995,8324.011354096516
+Deaths,Female,95 to 99,Ischemic heart disease,london,304.9284562753954,8324.011354096516
+Deaths,Female,95 to 99,Liver cancer,london,5.381763078382677,8324.011354096516
+Deaths,Female,95 to 99,Lower respiratory infections,london,266.59150768595083,8324.011354096516
+Deaths,Female,95 to 99,Neoplasms,london,227.89932925404378,8324.011354096516
+Deaths,Female,95 to 99,Road injuries,london,1.3167388994641824,8324.011354096516
+Deaths,Female,95 to 99,Stomach cancer,london,14.500936903823845,8324.011354096516
+Deaths,Female,95 to 99,Stroke,london,214.81854966034163,8324.011354096516
+Deaths,Female,95 to 99,"Tracheal, bronchus, and lung cancer",london,28.415802788360207,8324.011354096516
+Deaths,Female,95 to 99,Uterine cancer,london,3.7599100495617095,8324.011354096516
+Deaths,Female,0 to 4,All causes,london,241.58348157437516,309091.77441554476
+Deaths,Female,0 to 4,Cardiovascular diseases,london,3.155131690674129,309091.77441554476
+Deaths,Female,0 to 4,Chronic obstructive pulmonary disease,london,0.2764724049691757,309091.77441554476
+Deaths,Female,0 to 4,Lower respiratory infections,london,10.09408291215749,309091.77441554476
+Deaths,Female,0 to 4,Neoplasms,london,9.382218976963612,309091.77441554476
+Deaths,Female,0 to 4,Road injuries,london,1.7576344005939082,309091.77441554476
+Deaths,Female,0 to 4,Stroke,london,0.25257940555362657,309091.77441554476
+Deaths,Male,10 to 14,All causes,london,20.676408794288307,261847.3061401146
+Deaths,Male,10 to 14,Cardiovascular diseases,london,0.7938633256217509,261847.3061401146
+Deaths,Male,10 to 14,Chronic obstructive pulmonary disease,london,0.04190574585894606,261847.3061401146
+Deaths,Male,10 to 14,Liver cancer,london,0.12797861052800896,261847.3061401146
+Deaths,Male,10 to 14,Lower respiratory infections,london,0.6058877505260238,261847.3061401146
+Deaths,Male,10 to 14,Neoplasms,london,5.654613172766622,261847.3061401146
+Deaths,Male,10 to 14,Road injuries,london,2.132418833955128,261847.3061401146
+Deaths,Male,10 to 14,Stroke,london,0.1353812397763793,261847.3061401146
+Deaths,Male,15 to 19,All causes,london,62.3124936103924,245406.18835101815
+Deaths,Male,15 to 19,Breast cancer,london,0.01941694347099484,245406.18835101815
+Deaths,Male,15 to 19,Cardiovascular diseases,london,2.6843128551477227,245406.18835101815
+Deaths,Male,15 to 19,Chronic obstructive pulmonary disease,london,0.14513220095546175,245406.18835101815
+Deaths,Male,15 to 19,Colon and rectum cancer,london,0.08483371561214359,245406.18835101815
+Deaths,Male,15 to 19,Diabetes mellitus type 2,london,0.024827036818499397,245406.18835101815
+Deaths,Male,15 to 19,Ischemic heart disease,london,0.1728190236517611,245406.18835101815
+Deaths,Male,15 to 19,Liver cancer,london,0.20698190446640252,245406.18835101815
+Deaths,Male,15 to 19,Lower respiratory infections,london,0.9606578087721758,245406.18835101815
+Deaths,Male,15 to 19,Neoplasms,london,7.782144761103188,245406.18835101815
+Deaths,Male,15 to 19,Road injuries,london,14.517067552285603,245406.18835101815
+Deaths,Male,15 to 19,Stomach cancer,london,0.04029246634080816,245406.18835101815
+Deaths,Male,15 to 19,Stroke,london,0.4711175917858039,245406.18835101815
+Deaths,Male,15 to 19,"Tracheal, bronchus, and lung cancer",london,0.032810560100811216,245406.18835101815
+Deaths,Male,20 to 24,All causes,london,120.51471657863227,302292.1751888391
+Deaths,Male,20 to 24,Breast cancer,london,0.023001646577760482,302292.1751888391
+Deaths,Male,20 to 24,Cardiovascular diseases,london,5.493758597990231,302292.1751888391
+Deaths,Male,20 to 24,Chronic obstructive pulmonary disease,london,0.22622308228645657,302292.1751888391
+Deaths,Male,20 to 24,Colon and rectum cancer,london,0.33448437977530376,302292.1751888391
+Deaths,Male,20 to 24,Diabetes mellitus type 2,london,0.058142027971188004,302292.1751888391
+Deaths,Male,20 to 24,Ischemic heart disease,london,0.7282247080868588,302292.1751888391
+Deaths,Male,20 to 24,Liver cancer,london,0.36107673207855023,302292.1751888391
+Deaths,Male,20 to 24,Lower respiratory infections,london,1.541149522928441,302292.1751888391
+Deaths,Male,20 to 24,Neoplasms,london,10.807266181476626,302292.1751888391
+Deaths,Male,20 to 24,Road injuries,london,23.738386246383634,302292.1751888391
+Deaths,Male,20 to 24,Stomach cancer,london,0.11935451138084317,302292.1751888391
+Deaths,Male,20 to 24,Stroke,london,1.0382339348414003,302292.1751888391
+Deaths,Male,20 to 24,"Tracheal, bronchus, and lung cancer",london,0.14434968904876228,302292.1751888391
+Deaths,Male,25 to 29,All causes,london,165.10514767652393,412892.55871066405
+Deaths,Male,25 to 29,Breast cancer,london,0.03345630175280551,412892.55871066405
+Deaths,Male,25 to 29,Cardiovascular diseases,london,10.56428515619028,412892.55871066405
+Deaths,Male,25 to 29,Chronic obstructive pulmonary disease,london,0.3016547248877056,412892.55871066405
+Deaths,Male,25 to 29,Colon and rectum cancer,london,1.025538305385838,412892.55871066405
+Deaths,Male,25 to 29,Diabetes mellitus type 2,london,0.11028350696635572,412892.55871066405
+Deaths,Male,25 to 29,Ischemic heart disease,london,2.6170687666756915,412892.55871066405
+Deaths,Male,25 to 29,Liver cancer,london,0.6686863216512167,412892.55871066405
+Deaths,Male,25 to 29,Lower respiratory infections,london,2.679787344191114,412892.55871066405
+Deaths,Male,25 to 29,Neoplasms,london,17.26132826812393,412892.55871066405
+Deaths,Male,25 to 29,Road injuries,london,22.767614149267235,412892.55871066405
+Deaths,Male,25 to 29,Stomach cancer,london,0.37462470402477144,412892.55871066405
+Deaths,Male,25 to 29,Stroke,london,1.9625017613054778,412892.55871066405
+Deaths,Male,25 to 29,"Tracheal, bronchus, and lung cancer",london,0.37842207739114603,412892.55871066405
+Deaths,Male,30 to 34,All causes,london,230.2255531581373,445614.9409015263
+Deaths,Male,30 to 34,Breast cancer,london,0.055597303645283445,445614.9409015263
+Deaths,Male,30 to 34,Cardiovascular diseases,london,22.13875310907454,445614.9409015263
+Deaths,Male,30 to 34,Chronic obstructive pulmonary disease,london,0.5855971939524046,445614.9409015263
+Deaths,Male,30 to 34,Colon and rectum cancer,london,2.7451570451129546,445614.9409015263
+Deaths,Male,30 to 34,Diabetes mellitus type 2,london,0.4993873799324025,445614.9409015263
+Deaths,Male,30 to 34,Ischemic heart disease,london,8.036651493957093,445614.9409015263
+Deaths,Male,30 to 34,Liver cancer,london,1.3473686036654569,445614.9409015263
+Deaths,Male,30 to 34,Lower respiratory infections,london,4.6145920555915865,445614.9409015263
+Deaths,Male,30 to 34,Neoplasms,london,29.080894709399352,445614.9409015263
+Deaths,Male,30 to 34,Road injuries,london,19.7475901725415,445614.9409015263
+Deaths,Male,30 to 34,Stomach cancer,london,1.0832578687789678,445614.9409015263
+Deaths,Male,30 to 34,Stroke,london,3.863024869328229,445614.9409015263
+Deaths,Male,30 to 34,"Tracheal, bronchus, and lung cancer",london,1.4049941704751832,445614.9409015263
+Deaths,Male,35 to 39,All causes,london,306.4373104398034,395496.3988783722
+Deaths,Male,35 to 39,Breast cancer,london,0.1456383542038949,395496.3988783722
+Deaths,Male,35 to 39,Cardiovascular diseases,london,42.60014012542292,395496.3988783722
+Deaths,Male,35 to 39,Chronic obstructive pulmonary disease,london,1.457759468865501,395496.3988783722
+Deaths,Male,35 to 39,Colon and rectum cancer,london,4.949696036622992,395496.3988783722
+Deaths,Male,35 to 39,Diabetes mellitus type 2,london,0.7567209331673558,395496.3988783722
+Deaths,Male,35 to 39,Ischemic heart disease,london,19.67465976519471,395496.3988783722
+Deaths,Male,35 to 39,Liver cancer,london,1.8027639423974915,395496.3988783722
+Deaths,Male,35 to 39,Lower respiratory infections,london,7.3466906793188,395496.3988783722
+Deaths,Male,35 to 39,Neoplasms,london,47.58939918994001,395496.3988783722
+Deaths,Male,35 to 39,Road injuries,london,16.029939400678327,395496.3988783722
+Deaths,Male,35 to 39,Stomach cancer,london,2.321759673162341,395496.3988783722
+Deaths,Male,35 to 39,Stroke,london,6.903482554975868,395496.3988783722
+Deaths,Male,35 to 39,"Tracheal, bronchus, and lung cancer",london,4.1934781867592665,395496.3988783722
+Deaths,Male,40 to 44,All causes,london,422.22321397863317,317181.7228929804
+Deaths,Male,40 to 44,Breast cancer,london,0.2556100539805979,317181.7228929804
+Deaths,Male,40 to 44,Cardiovascular diseases,london,84.84911384166584,317181.7228929804
+Deaths,Male,40 to 44,Chronic obstructive pulmonary disease,london,4.137259115436367,317181.7228929804
+Deaths,Male,40 to 44,Colon and rectum cancer,london,8.558349945472159,317181.7228929804
+Deaths,Male,40 to 44,Diabetes mellitus type 2,london,1.1226266334068635,317181.7228929804
+Deaths,Male,40 to 44,Ischemic heart disease,london,45.12668850183049,317181.7228929804
+Deaths,Male,40 to 44,Liver cancer,london,3.621337928483025,317181.7228929804
+Deaths,Male,40 to 44,Lower respiratory infections,london,11.160702901834313,317181.7228929804
+Deaths,Male,40 to 44,Neoplasms,london,83.8640228559046,317181.7228929804
+Deaths,Male,40 to 44,Road injuries,london,13.606821978033203,317181.7228929804
+Deaths,Male,40 to 44,Stomach cancer,london,4.2897535419951955,317181.7228929804
+Deaths,Male,40 to 44,Stroke,london,12.292132794158976,317181.7228929804
+Deaths,Male,40 to 44,"Tracheal, bronchus, and lung cancer",london,11.739969219835134,317181.7228929804
+Deaths,Male,45 to 49,All causes,london,639.1994911803348,295250.9111368895
+Deaths,Male,45 to 49,Breast cancer,london,0.46698633159737574,295250.9111368895
+Deaths,Male,45 to 49,Cardiovascular diseases,london,161.5431635377783,295250.9111368895
+Deaths,Male,45 to 49,Chronic obstructive pulmonary disease,london,9.772889824962771,295250.9111368895
+Deaths,Male,45 to 49,Colon and rectum cancer,london,17.676222697203407,295250.9111368895
+Deaths,Male,45 to 49,Diabetes mellitus type 2,london,4.236477108993374,295250.9111368895
+Deaths,Male,45 to 49,Ischemic heart disease,london,96.35526566639146,295250.9111368895
+Deaths,Male,45 to 49,Liver cancer,london,8.046362849859301,295250.9111368895
+Deaths,Male,45 to 49,Lower respiratory infections,london,17.67750034711706,295250.9111368895
+Deaths,Male,45 to 49,Neoplasms,london,169.3461200230125,295250.9111368895
+Deaths,Male,45 to 49,Road injuries,london,12.72952720071187,295250.9111368895
+Deaths,Male,45 to 49,Stomach cancer,london,8.782544966741085,295250.9111368895
+Deaths,Male,45 to 49,Stroke,london,21.61570690405475,295250.9111368895
+Deaths,Male,45 to 49,"Tracheal, bronchus, and lung cancer",london,31.964805717757994,295250.9111368895
+Deaths,Male,5 to 9,All causes,london,26.36834529580278,305613.111031444
+Deaths,Male,5 to 9,Cardiovascular diseases,london,0.7262560974368243,305613.111031444
+Deaths,Male,5 to 9,Chronic obstructive pulmonary disease,london,0.0583053815234683,305613.111031444
+Deaths,Male,5 to 9,Liver cancer,london,0.16482341386369345,305613.111031444
+Deaths,Male,5 to 9,Lower respiratory infections,london,1.1095679271446495,305613.111031444
+Deaths,Male,5 to 9,Neoplasms,london,8.803930348588864,305613.111031444
+Deaths,Male,5 to 9,Road injuries,london,1.8098265271928,305613.111031444
+Deaths,Male,5 to 9,Stroke,london,0.13927437729156403,305613.111031444
+Deaths,Male,50 to 54,All causes,london,972.6876584535571,269098.1949802565
+Deaths,Male,50 to 54,Breast cancer,london,0.8617938593858572,269098.1949802565
+Deaths,Male,50 to 54,Cardiovascular diseases,london,277.47189383845125,269098.1949802565
+Deaths,Male,50 to 54,Chronic obstructive pulmonary disease,london,23.333845934858893,269098.1949802565
+Deaths,Male,50 to 54,Colon and rectum cancer,london,34.3129118330348,269098.1949802565
+Deaths,Male,50 to 54,Diabetes mellitus type 2,london,5.93894324039011,269098.1949802565
+Deaths,Male,50 to 54,Ischemic heart disease,london,176.63625576896976,269098.1949802565
+Deaths,Male,50 to 54,Liver cancer,london,16.637509456232575,269098.1949802565
+Deaths,Male,50 to 54,Lower respiratory infections,london,27.406142452776578,269098.1949802565
+Deaths,Male,50 to 54,Neoplasms,london,328.1978239558361,269098.1949802565
+Deaths,Male,50 to 54,Road injuries,london,11.91719405194684,269098.1949802565
+Deaths,Male,50 to 54,Stomach cancer,london,15.748607289145815,269098.1949802565
+Deaths,Male,50 to 54,Stroke,london,34.45444517022189,269098.1949802565
+Deaths,Male,50 to 54,"Tracheal, bronchus, and lung cancer",london,72.55016883783644,269098.1949802565
+Deaths,Male,55 to 59,All causes,london,1210.76827996002,224179.2072394575
+Deaths,Male,55 to 59,Breast cancer,london,1.2094576482667792,224179.2072394575
+Deaths,Male,55 to 59,Cardiovascular diseases,london,345.0564521072649,224179.2072394575
+Deaths,Male,55 to 59,Chronic obstructive pulmonary disease,london,43.908250691905195,224179.2072394575
+Deaths,Male,55 to 59,Colon and rectum cancer,london,50.97809746013004,224179.2072394575
+Deaths,Male,55 to 59,Diabetes mellitus type 2,london,7.406724981945306,224179.2072394575
+Deaths,Male,55 to 59,Ischemic heart disease,london,221.94919093485194,224179.2072394575
+Deaths,Male,55 to 59,Liver cancer,london,25.361256699381425,224179.2072394575
+Deaths,Male,55 to 59,Lower respiratory infections,london,32.346619832522734,224179.2072394575
+Deaths,Male,55 to 59,Neoplasms,london,490.0276118157632,224179.2072394575
+Deaths,Male,55 to 59,Road injuries,london,9.490208778487816,224179.2072394575
+Deaths,Male,55 to 59,Stomach cancer,london,22.10987599944095,224179.2072394575
+Deaths,Male,55 to 59,Stroke,london,41.731840574568416,224179.2072394575
+Deaths,Male,55 to 59,"Tracheal, bronchus, and lung cancer",london,121.01580922405846,224179.2072394575
+Deaths,Male,60 to 64,All causes,london,1534.5721909113008,174492.48412404791
+Deaths,Male,60 to 64,Breast cancer,london,1.767225309366365,174492.48412404791
+Deaths,Male,60 to 64,Cardiovascular diseases,london,438.96856671664364,174492.48412404791
+Deaths,Male,60 to 64,Chronic obstructive pulmonary disease,london,82.13118608812682,174492.48412404791
+Deaths,Male,60 to 64,Colon and rectum cancer,london,68.01047245332674,174492.48412404791
+Deaths,Male,60 to 64,Diabetes mellitus type 2,london,10.917328034435803,174492.48412404791
+Deaths,Male,60 to 64,Ischemic heart disease,london,281.6578947073832,174492.48412404791
+Deaths,Male,60 to 64,Liver cancer,london,32.500154141684845,174492.48412404791
+Deaths,Male,60 to 64,Lower respiratory infections,london,43.12968988015213,174492.48412404791
+Deaths,Male,60 to 64,Neoplasms,london,668.6166587762508,174492.48412404791
+Deaths,Male,60 to 64,Road injuries,london,7.64302509499436,174492.48412404791
+Deaths,Male,60 to 64,Stomach cancer,london,30.234997858532058,174492.48412404791
+Deaths,Male,60 to 64,Stroke,london,53.767191496413034,174492.48412404791
+Deaths,Male,60 to 64,"Tracheal, bronchus, and lung cancer",london,177.22650783857262,174492.48412404791
+Deaths,Male,65 to 69,All causes,london,2053.6793655880374,143459.18996670068
+Deaths,Male,65 to 69,Breast cancer,london,2.3895910153175874,143459.18996670068
+Deaths,Male,65 to 69,Cardiovascular diseases,london,593.0139991207659,143459.18996670068
+Deaths,Male,65 to 69,Chronic obstructive pulmonary disease,london,136.55772318925457,143459.18996670068
+Deaths,Male,65 to 69,Colon and rectum cancer,london,90.94094562870197,143459.18996670068
+Deaths,Male,65 to 69,Diabetes mellitus type 2,london,15.416264398043214,143459.18996670068
+Deaths,Male,65 to 69,Ischemic heart disease,london,367.71554825700866,143459.18996670068
+Deaths,Male,65 to 69,Liver cancer,london,41.45594353111338,143459.18996670068
+Deaths,Male,65 to 69,Lower respiratory infections,london,61.05638263858805,143459.18996670068
+Deaths,Male,65 to 69,Neoplasms,london,907.7786219523996,143459.18996670068
+Deaths,Male,65 to 69,Road injuries,london,6.97610107796162,143459.18996670068
+Deaths,Male,65 to 69,Stomach cancer,london,42.8225420987604,143459.18996670068
+Deaths,Male,65 to 69,Stroke,london,83.5236136447222,143459.18996670068
+Deaths,Male,65 to 69,"Tracheal, bronchus, and lung cancer",london,248.12861227090394,143459.18996670068
+Deaths,Male,70 to 74,All causes,london,2446.329858836476,114290.36125997874
+Deaths,Male,70 to 74,Breast cancer,london,2.7366900291746763,114290.36125997874
+Deaths,Male,70 to 74,Cardiovascular diseases,london,752.0902890722883,114290.36125997874
+Deaths,Male,70 to 74,Chronic obstructive pulmonary disease,london,189.31833815617915,114290.36125997874
+Deaths,Male,70 to 74,Colon and rectum cancer,london,101.0587371061615,114290.36125997874
+Deaths,Male,70 to 74,Diabetes mellitus type 2,london,19.76408241210434,114290.36125997874
+Deaths,Male,70 to 74,Ischemic heart disease,london,447.00244903989335,114290.36125997874
+Deaths,Male,70 to 74,Liver cancer,london,42.23420176627487,114290.36125997874
+Deaths,Male,70 to 74,Lower respiratory infections,london,86.46807077365095,114290.36125997874
+Deaths,Male,70 to 74,Neoplasms,london,999.990927551443,114290.36125997874
+Deaths,Male,70 to 74,Road injuries,london,5.927155228520676,114290.36125997874
+Deaths,Male,70 to 74,Stomach cancer,london,50.391902676190746,114290.36125997874
+Deaths,Male,70 to 74,Stroke,london,127.3746749900791,114290.36125997874
+Deaths,Male,70 to 74,"Tracheal, bronchus, and lung cancer",london,269.41968704730243,114290.36125997874
+Deaths,Male,75 to 79,All causes,london,3171.274939400101,81687.38382648057
+Deaths,Male,75 to 79,Breast cancer,london,2.9645321738686494,81687.38382648057
+Deaths,Male,75 to 79,Cardiovascular diseases,london,973.6463876761322,81687.38382648057
+Deaths,Male,75 to 79,Chronic obstructive pulmonary disease,london,258.3230815155185,81687.38382648057
+Deaths,Male,75 to 79,Colon and rectum cancer,london,117.06080814946904,81687.38382648057
+Deaths,Male,75 to 79,Diabetes mellitus type 2,london,27.778808906238556,81687.38382648057
+Deaths,Male,75 to 79,Ischemic heart disease,london,542.7927406503974,81687.38382648057
+Deaths,Male,75 to 79,Liver cancer,london,44.041260869437735,81687.38382648057
+Deaths,Male,75 to 79,Lower respiratory infections,london,147.3421798882294,81687.38382648057
+Deaths,Male,75 to 79,Neoplasms,london,1146.972551586601,81687.38382648057
+Deaths,Male,75 to 79,Road injuries,london,6.287066171954029,81687.38382648057
+Deaths,Male,75 to 79,Stomach cancer,london,64.19347609907284,81687.38382648057
+Deaths,Male,75 to 79,Stroke,london,195.46737140649884,81687.38382648057
+Deaths,Male,75 to 79,"Tracheal, bronchus, and lung cancer",london,287.8896324725605,81687.38382648057
+Deaths,Male,80 to 84,All causes,london,3842.594978766813,58960.932977848905
+Deaths,Male,80 to 84,Breast cancer,london,2.9025978673813775,58960.932977848905
+Deaths,Male,80 to 84,Cardiovascular diseases,london,1211.3139623576724,58960.932977848905
+Deaths,Male,80 to 84,Chronic obstructive pulmonary disease,london,315.4806923344052,58960.932977848905
+Deaths,Male,80 to 84,Colon and rectum cancer,london,123.90629691460244,58960.932977848905
+Deaths,Male,80 to 84,Diabetes mellitus type 2,london,34.91152778551121,58960.932977848905
+Deaths,Male,80 to 84,Ischemic heart disease,london,649.2057535265955,58960.932977848905
+Deaths,Male,80 to 84,Liver cancer,london,38.29300348813351,58960.932977848905
+Deaths,Male,80 to 84,Lower respiratory infections,london,247.16254309461013,58960.932977848905
+Deaths,Male,80 to 84,Neoplasms,london,1146.5281260747795,58960.932977848905
+Deaths,Male,80 to 84,Road injuries,london,6.160157294864033,58960.932977848905
+Deaths,Male,80 to 84,Stomach cancer,london,66.81289181040431,58960.932977848905
+Deaths,Male,80 to 84,Stroke,london,270.90668539501695,58960.932977848905
+Deaths,Male,80 to 84,"Tracheal, bronchus, and lung cancer",london,252.35742329704067,58960.932977848905
+Deaths,Male,85 to 89,All causes,london,3927.994159370378,32424.606766170724
+Deaths,Male,85 to 89,Breast cancer,london,2.4077112229490183,32424.606766170724
+Deaths,Male,85 to 89,Cardiovascular diseases,london,1224.2371694218805,32424.606766170724
+Deaths,Male,85 to 89,Chronic obstructive pulmonary disease,london,298.08360884849907,32424.606766170724
+Deaths,Male,85 to 89,Colon and rectum cancer,london,105.00612369505853,32424.606766170724
+Deaths,Male,85 to 89,Diabetes mellitus type 2,london,34.51262667417623,32424.606766170724
+Deaths,Male,85 to 89,Ischemic heart disease,london,618.9875138414305,32424.606766170724
+Deaths,Male,85 to 89,Liver cancer,london,26.607055983459784,32424.606766170724
+Deaths,Male,85 to 89,Lower respiratory infections,london,366.84605868839895,32424.606766170724
+Deaths,Male,85 to 89,Neoplasms,london,938.348198834269,32424.606766170724
+Deaths,Male,85 to 89,Road injuries,london,4.705624231325334,32424.606766170724
+Deaths,Male,85 to 89,Stomach cancer,london,54.13453996743579,32424.606766170724
+Deaths,Male,85 to 89,Stroke,london,296.2652267043255,32424.606766170724
+Deaths,Male,85 to 89,"Tracheal, bronchus, and lung cancer",london,177.08634883702393,32424.606766170724
+Deaths,Male,90 to 94,All causes,london,2409.422138243849,12549.12389744434
+Deaths,Male,90 to 94,Breast cancer,london,1.4641287980543627,12549.12389744434
+Deaths,Male,90 to 94,Cardiovascular diseases,london,774.0887658058364,12549.12389744434
+Deaths,Male,90 to 94,Chronic obstructive pulmonary disease,london,171.08614419643297,12549.12389744434
+Deaths,Male,90 to 94,Colon and rectum cancer,london,52.41874119260508,12549.12389744434
+Deaths,Male,90 to 94,Diabetes mellitus type 2,london,21.392552479821823,12549.12389744434
+Deaths,Male,90 to 94,Ischemic heart disease,london,387.4255936058704,12549.12389744434
+Deaths,Male,90 to 94,Liver cancer,london,10.247857407255553,12549.12389744434
+Deaths,Male,90 to 94,Lower respiratory infections,london,245.2030410939544,12549.12389744434
+Deaths,Male,90 to 94,Neoplasms,london,446.25737413012837,12549.12389744434
+Deaths,Male,90 to 94,Road injuries,london,2.2712667581956514,12549.12389744434
+Deaths,Male,90 to 94,Stomach cancer,london,27.73018613241564,12549.12389744434
+Deaths,Male,90 to 94,Stroke,london,190.90807663771307,12549.12389744434
+Deaths,Male,90 to 94,"Tracheal, bronchus, and lung cancer",london,66.49584339707476,12549.12389744434
+Deaths,Male,95 to 99,All causes,london,791.9455583673603,2830.6187513275063
+Deaths,Male,95 to 99,Breast cancer,london,0.5053907519952732,2830.6187513275063
+Deaths,Male,95 to 99,Cardiovascular diseases,london,264.9084131214613,2830.6187513275063
+Deaths,Male,95 to 99,Chronic obstructive pulmonary disease,london,55.698010093818205,2830.6187513275063
+Deaths,Male,95 to 99,Colon and rectum cancer,london,13.226023574491986,2830.6187513275063
+Deaths,Male,95 to 99,Diabetes mellitus type 2,london,7.4541965080425365,2830.6187513275063
+Deaths,Male,95 to 99,Ischemic heart disease,london,131.50427452133502,2830.6187513275063
+Deaths,Male,95 to 99,Liver cancer,london,2.2295974921843515,2830.6187513275063
+Deaths,Male,95 to 99,Lower respiratory infections,london,98.05463159678462,2830.6187513275063
+Deaths,Male,95 to 99,Neoplasms,london,112.34257453795284,2830.6187513275063
+Deaths,Male,95 to 99,Road injuries,london,0.6757328130756755,2830.6187513275063
+Deaths,Male,95 to 99,Stomach cancer,london,7.7481196422070235,2830.6187513275063
+Deaths,Male,95 to 99,Stroke,london,69.6565880973401,2830.6187513275063
+Deaths,Male,95 to 99,"Tracheal, bronchus, and lung cancer",london,13.03340329821209,2830.6187513275063
+Deaths,Male,0 to 4,All causes,london,296.10606179556095,324704.73937166773
+Deaths,Male,0 to 4,Cardiovascular diseases,london,3.416269621655144,324704.73937166773
+Deaths,Male,0 to 4,Chronic obstructive pulmonary disease,london,0.17122727660308038,324704.73937166773
+Deaths,Male,0 to 4,Lower respiratory infections,london,12.068221190268641,324704.73937166773
+Deaths,Male,0 to 4,Neoplasms,london,9.115297573360664,324704.73937166773
+Deaths,Male,0 to 4,Road injuries,london,1.7626388413785101,324704.73937166773
+Deaths,Male,0 to 4,Stroke,london,0.2964787024627641,324704.73937166773
+YLLs (Years of Life Lost),Female,10 to 14,All causes,london,1701.3413222956851,251158.5128657037
+YLLs (Years of Life Lost),Female,10 to 14,Cardiovascular diseases,london,62.01442056283445,251158.5128657037
+YLLs (Years of Life Lost),Female,10 to 14,Chronic obstructive pulmonary disease,london,12.965714526767075,251158.5128657037
+YLLs (Years of Life Lost),Female,10 to 14,Liver cancer,london,9.117374770264695,251158.5128657037
+YLLs (Years of Life Lost),Female,10 to 14,Lower respiratory infections,london,67.41095085947086,251158.5128657037
+YLLs (Years of Life Lost),Female,10 to 14,Neoplasms,london,510.26950515938654,251158.5128657037
+YLLs (Years of Life Lost),Female,10 to 14,Road injuries,london,143.7551182075992,251158.5128657037
+YLLs (Years of Life Lost),Female,10 to 14,Stroke,london,13.607625019388848,251158.5128657037
+YLLs (Years of Life Lost),Female,15 to 19,All causes,london,1962.0592343940775,236079.78596734235
+YLLs (Years of Life Lost),Female,15 to 19,Breast cancer,london,2.5136285885598104,236079.78596734235
+YLLs (Years of Life Lost),Female,15 to 19,Cardiovascular diseases,london,94.2611776544373,236079.78596734235
+YLLs (Years of Life Lost),Female,15 to 19,Chronic obstructive pulmonary disease,london,8.934969136314901,236079.78596734235
+YLLs (Years of Life Lost),Female,15 to 19,Colon and rectum cancer,london,3.326682706174913,236079.78596734235
+YLLs (Years of Life Lost),Female,15 to 19,Diabetes mellitus type 2,london,1.667916504491492,236079.78596734235
+YLLs (Years of Life Lost),Female,15 to 19,Ischemic heart disease,london,5.1592168283006705,236079.78596734235
+YLLs (Years of Life Lost),Female,15 to 19,Liver cancer,london,12.12375598591048,236079.78596734235
+YLLs (Years of Life Lost),Female,15 to 19,Lower respiratory infections,london,47.59979055630342,236079.78596734235
+YLLs (Years of Life Lost),Female,15 to 19,Neoplasms,london,375.04869418633854,236079.78596734235
+YLLs (Years of Life Lost),Female,15 to 19,Road injuries,london,280.74154812585965,236079.78596734235
+YLLs (Years of Life Lost),Female,15 to 19,Stomach cancer,london,1.7812612237029766,236079.78596734235
+YLLs (Years of Life Lost),Female,15 to 19,Stroke,london,18.33540069226365,236079.78596734235
+YLLs (Years of Life Lost),Female,15 to 19,"Tracheal, bronchus, and lung cancer",london,4.216208547382115,236079.78596734235
+YLLs (Years of Life Lost),Female,15 to 19,Uterine cancer,london,1.3963649286230806,236079.78596734235
+YLLs (Years of Life Lost),Female,20 to 24,All causes,london,3318.44245280335,303947.38292542176
+YLLs (Years of Life Lost),Female,20 to 24,Breast cancer,london,16.229894271654842,303947.38292542176
+YLLs (Years of Life Lost),Female,20 to 24,Cardiovascular diseases,london,224.5438553928344,303947.38292542176
+YLLs (Years of Life Lost),Female,20 to 24,Chronic obstructive pulmonary disease,london,13.806608262535788,303947.38292542176
+YLLs (Years of Life Lost),Female,20 to 24,Colon and rectum cancer,london,18.657822130346073,303947.38292542176
+YLLs (Years of Life Lost),Female,20 to 24,Diabetes mellitus type 2,london,2.6531745446208466,303947.38292542176
+YLLs (Years of Life Lost),Female,20 to 24,Ischemic heart disease,london,18.10090674611651,303947.38292542176
+YLLs (Years of Life Lost),Female,20 to 24,Liver cancer,london,16.60444877872538,303947.38292542176
+YLLs (Years of Life Lost),Female,20 to 24,Lower respiratory infections,london,84.2529522517754,303947.38292542176
+YLLs (Years of Life Lost),Female,20 to 24,Neoplasms,london,597.7694883486797,303947.38292542176
+YLLs (Years of Life Lost),Female,20 to 24,Road injuries,london,331.4597904956087,303947.38292542176
+YLLs (Years of Life Lost),Female,20 to 24,Stomach cancer,london,6.871409853838549,303947.38292542176
+YLLs (Years of Life Lost),Female,20 to 24,Stroke,london,53.030587570464036,303947.38292542176
+YLLs (Years of Life Lost),Female,20 to 24,"Tracheal, bronchus, and lung cancer",london,10.112011398984203,303947.38292542176
+YLLs (Years of Life Lost),Female,20 to 24,Uterine cancer,london,2.4901219933407224,303947.38292542176
+YLLs (Years of Life Lost),Female,25 to 29,All causes,london,4484.096946981988,417744.26879487664
+YLLs (Years of Life Lost),Female,25 to 29,Breast cancer,london,129.04606538508327,417744.26879487664
+YLLs (Years of Life Lost),Female,25 to 29,Cardiovascular diseases,london,323.89108216519287,417744.26879487664
+YLLs (Years of Life Lost),Female,25 to 29,Chronic obstructive pulmonary disease,london,16.575188948715095,417744.26879487664
+YLLs (Years of Life Lost),Female,25 to 29,Colon and rectum cancer,london,53.8828608615016,417744.26879487664
+YLLs (Years of Life Lost),Female,25 to 29,Diabetes mellitus type 2,london,4.881703901917928,417744.26879487664
+YLLs (Years of Life Lost),Female,25 to 29,Ischemic heart disease,london,31.6025042765537,417744.26879487664
+YLLs (Years of Life Lost),Female,25 to 29,Liver cancer,london,28.61417030110396,417744.26879487664
+YLLs (Years of Life Lost),Female,25 to 29,Lower respiratory infections,london,113.24172759689155,417744.26879487664
+YLLs (Years of Life Lost),Female,25 to 29,Neoplasms,london,1124.0336431540675,417744.26879487664
+YLLs (Years of Life Lost),Female,25 to 29,Road injuries,london,256.5365926392666,417744.26879487664
+YLLs (Years of Life Lost),Female,25 to 29,Stomach cancer,london,25.029922253094885,417744.26879487664
+YLLs (Years of Life Lost),Female,25 to 29,Stroke,london,82.12562359731088,417744.26879487664
+YLLs (Years of Life Lost),Female,25 to 29,"Tracheal, bronchus, and lung cancer",london,25.75464892674334,417744.26879487664
+YLLs (Years of Life Lost),Female,25 to 29,Uterine cancer,london,6.549277148291671,417744.26879487664
+YLLs (Years of Life Lost),Female,30 to 34,All causes,london,6401.524370867419,439953.0789478347
+YLLs (Years of Life Lost),Female,30 to 34,Breast cancer,london,504.3051038693108,439953.0789478347
+YLLs (Years of Life Lost),Female,30 to 34,Cardiovascular diseases,london,561.0648641611684,439953.0789478347
+YLLs (Years of Life Lost),Female,30 to 34,Chronic obstructive pulmonary disease,london,24.757746010871887,439953.0789478347
+YLLs (Years of Life Lost),Female,30 to 34,Colon and rectum cancer,london,133.81317696132797,439953.0789478347
+YLLs (Years of Life Lost),Female,30 to 34,Diabetes mellitus type 2,london,13.010220200952249,439953.0789478347
+YLLs (Years of Life Lost),Female,30 to 34,Ischemic heart disease,london,100.21845609793428,439953.0789478347
+YLLs (Years of Life Lost),Female,30 to 34,Liver cancer,london,37.92614183135866,439953.0789478347
+YLLs (Years of Life Lost),Female,30 to 34,Lower respiratory infections,london,156.12241284077808,439953.0789478347
+YLLs (Years of Life Lost),Female,30 to 34,Neoplasms,london,2043.8572262826353,439953.0789478347
+YLLs (Years of Life Lost),Female,30 to 34,Road injuries,london,199.93547919605774,439953.0789478347
+YLLs (Years of Life Lost),Female,30 to 34,Stomach cancer,london,63.55773148231973,439953.0789478347
+YLLs (Years of Life Lost),Female,30 to 34,Stroke,london,155.2265232410179,439953.0789478347
+YLLs (Years of Life Lost),Female,30 to 34,"Tracheal, bronchus, and lung cancer",london,84.15802002829547,439953.0789478347
+YLLs (Years of Life Lost),Female,30 to 34,Uterine cancer,london,12.13518450826501,439953.0789478347
+YLLs (Years of Life Lost),Female,35 to 39,All causes,london,8308.474201165376,395817.6009596853
+YLLs (Years of Life Lost),Female,35 to 39,Breast cancer,london,1071.5329279182183,395817.6009596853
+YLLs (Years of Life Lost),Female,35 to 39,Cardiovascular diseases,london,849.9046332105895,395817.6009596853
+YLLs (Years of Life Lost),Female,35 to 39,Chronic obstructive pulmonary disease,london,43.12970058391938,395817.6009596853
+YLLs (Years of Life Lost),Female,35 to 39,Colon and rectum cancer,london,207.80117746538681,395817.6009596853
+YLLs (Years of Life Lost),Female,35 to 39,Diabetes mellitus type 2,london,16.684243115922868,395817.6009596853
+YLLs (Years of Life Lost),Female,35 to 39,Ischemic heart disease,london,204.9988154431806,395817.6009596853
+YLLs (Years of Life Lost),Female,35 to 39,Liver cancer,london,54.862384856249186,395817.6009596853
+YLLs (Years of Life Lost),Female,35 to 39,Lower respiratory infections,london,218.2557827351451,395817.6009596853
+YLLs (Years of Life Lost),Female,35 to 39,Neoplasms,london,3198.9143621611324,395817.6009596853
+YLLs (Years of Life Lost),Female,35 to 39,Road injuries,london,165.02568276871864,395817.6009596853
+YLLs (Years of Life Lost),Female,35 to 39,Stomach cancer,london,90.08335616201265,395817.6009596853
+YLLs (Years of Life Lost),Female,35 to 39,Stroke,london,241.7857206566008,395817.6009596853
+YLLs (Years of Life Lost),Female,35 to 39,"Tracheal, bronchus, and lung cancer",london,172.26551662368414,395817.6009596853
+YLLs (Years of Life Lost),Female,35 to 39,Uterine cancer,london,21.822727814435467,395817.6009596853
+YLLs (Years of Life Lost),Female,40 to 44,All causes,london,11753.91470011457,315079.77179494075
+YLLs (Years of Life Lost),Female,40 to 44,Breast cancer,london,1854.3863285067541,315079.77179494075
+YLLs (Years of Life Lost),Female,40 to 44,Cardiovascular diseases,london,1416.5914112419284,315079.77179494075
+YLLs (Years of Life Lost),Female,40 to 44,Chronic obstructive pulmonary disease,london,119.44735837731879,315079.77179494075
+YLLs (Years of Life Lost),Female,40 to 44,Colon and rectum cancer,london,354.5922490101635,315079.77179494075
+YLLs (Years of Life Lost),Female,40 to 44,Diabetes mellitus type 2,london,23.00966873891783,315079.77179494075
+YLLs (Years of Life Lost),Female,40 to 44,Ischemic heart disease,london,402.672296174592,315079.77179494075
+YLLs (Years of Life Lost),Female,40 to 44,Liver cancer,london,85.6553636829184,315079.77179494075
+YLLs (Years of Life Lost),Female,40 to 44,Lower respiratory infections,london,323.96031523487073,315079.77179494075
+YLLs (Years of Life Lost),Female,40 to 44,Neoplasms,london,5223.469433348,315079.77179494075
+YLLs (Years of Life Lost),Female,40 to 44,Road injuries,london,153.1692095854979,315079.77179494075
+YLLs (Years of Life Lost),Female,40 to 44,Stomach cancer,london,153.38311245191034,315079.77179494075
+YLLs (Years of Life Lost),Female,40 to 44,Stroke,london,397.14108501635343,315079.77179494075
+YLLs (Years of Life Lost),Female,40 to 44,"Tracheal, bronchus, and lung cancer",london,465.870878365868,315079.77179494075
+YLLs (Years of Life Lost),Female,40 to 44,Uterine cancer,london,49.64871746849537,315079.77179494075
+YLLs (Years of Life Lost),Female,45 to 49,All causes,london,17005.75068439171,297020.721726264
+YLLs (Years of Life Lost),Female,45 to 49,Breast cancer,london,2831.7553758731274,297020.721726264
+YLLs (Years of Life Lost),Female,45 to 49,Cardiovascular diseases,london,2222.8355438868984,297020.721726264
+YLLs (Years of Life Lost),Female,45 to 49,Chronic obstructive pulmonary disease,london,269.53793799868123,297020.721726264
+YLLs (Years of Life Lost),Female,45 to 49,Colon and rectum cancer,london,621.3496884294977,297020.721726264
+YLLs (Years of Life Lost),Female,45 to 49,Diabetes mellitus type 2,london,75.7459398166374,297020.721726264
+YLLs (Years of Life Lost),Female,45 to 49,Ischemic heart disease,london,761.8717043298186,297020.721726264
+YLLs (Years of Life Lost),Female,45 to 49,Liver cancer,london,149.1562908168935,297020.721726264
+YLLs (Years of Life Lost),Female,45 to 49,Lower respiratory infections,london,430.43243364316845,297020.721726264
+YLLs (Years of Life Lost),Female,45 to 49,Neoplasms,london,8545.916712855505,297020.721726264
+YLLs (Years of Life Lost),Female,45 to 49,Road injuries,london,147.04633151545707,297020.721726264
+YLLs (Years of Life Lost),Female,45 to 49,Stomach cancer,london,198.0766128899956,297020.721726264
+YLLs (Years of Life Lost),Female,45 to 49,Stroke,london,580.9602633199294,297020.721726264
+YLLs (Years of Life Lost),Female,45 to 49,"Tracheal, bronchus, and lung cancer",london,1169.8192515941778,297020.721726264
+YLLs (Years of Life Lost),Female,45 to 49,Uterine cancer,london,105.25046357581627,297020.721726264
+YLLs (Years of Life Lost),Female,5 to 9,All causes,london,1438.668889459467,292447.1669210891
+YLLs (Years of Life Lost),Female,5 to 9,Cardiovascular diseases,london,50.45825682196636,292447.1669210891
+YLLs (Years of Life Lost),Female,5 to 9,Chronic obstructive pulmonary disease,london,10.362257258402728,292447.1669210891
+YLLs (Years of Life Lost),Female,5 to 9,Liver cancer,london,6.886132779447787,292447.1669210891
+YLLs (Years of Life Lost),Female,5 to 9,Lower respiratory infections,london,75.19012483518688,292447.1669210891
+YLLs (Years of Life Lost),Female,5 to 9,Neoplasms,london,454.87414299176993,292447.1669210891
+YLLs (Years of Life Lost),Female,5 to 9,Road injuries,london,95.93117255803843,292447.1669210891
+YLLs (Years of Life Lost),Female,5 to 9,Stroke,london,7.858564859336632,292447.1669210891
+YLLs (Years of Life Lost),Female,50 to 54,All causes,london,23100.523075984456,276489.036024098
+YLLs (Years of Life Lost),Female,50 to 54,Breast cancer,london,3618.4291141229055,276489.036024098
+YLLs (Years of Life Lost),Female,50 to 54,Cardiovascular diseases,london,3100.273577405358,276489.036024098
+YLLs (Years of Life Lost),Female,50 to 54,Chronic obstructive pulmonary disease,london,663.985039353525,276489.036024098
+YLLs (Years of Life Lost),Female,50 to 54,Colon and rectum cancer,london,961.994760325824,276489.036024098
+YLLs (Years of Life Lost),Female,50 to 54,Diabetes mellitus type 2,london,97.24826675638317,276489.036024098
+YLLs (Years of Life Lost),Female,50 to 54,Ischemic heart disease,london,1161.8498298279894,276489.036024098
+YLLs (Years of Life Lost),Female,50 to 54,Liver cancer,london,267.4752403453855,276489.036024098
+YLLs (Years of Life Lost),Female,50 to 54,Lower respiratory infections,london,618.2625208922085,276489.036024098
+YLLs (Years of Life Lost),Female,50 to 54,Neoplasms,london,12591.933407808738,276489.036024098
+YLLs (Years of Life Lost),Female,50 to 54,Road injuries,london,135.71339773445308,276489.036024098
+YLLs (Years of Life Lost),Female,50 to 54,Stomach cancer,london,279.8644630666884,276489.036024098
+YLLs (Years of Life Lost),Female,50 to 54,Stroke,london,828.9671420336392,276489.036024098
+YLLs (Years of Life Lost),Female,50 to 54,"Tracheal, bronchus, and lung cancer",london,2122.2959326629725,276489.036024098
+YLLs (Years of Life Lost),Female,50 to 54,Uterine cancer,london,214.64748483979113,276489.036024098
+YLLs (Years of Life Lost),Female,55 to 59,All causes,london,25927.056392126997,228149.35017069816
+YLLs (Years of Life Lost),Female,55 to 59,Breast cancer,london,3301.460107093494,228149.35017069816
+YLLs (Years of Life Lost),Female,55 to 59,Cardiovascular diseases,london,3796.2240663499992,228149.35017069816
+YLLs (Years of Life Lost),Female,55 to 59,Chronic obstructive pulmonary disease,london,1096.40631586902,228149.35017069816
+YLLs (Years of Life Lost),Female,55 to 59,Colon and rectum cancer,london,1173.486044125693,228149.35017069816
+YLLs (Years of Life Lost),Female,55 to 59,Diabetes mellitus type 2,london,113.35130735246035,228149.35017069816
+YLLs (Years of Life Lost),Female,55 to 59,Ischemic heart disease,london,1598.0762038885105,228149.35017069816
+YLLs (Years of Life Lost),Female,55 to 59,Liver cancer,london,342.14507635783195,228149.35017069816
+YLLs (Years of Life Lost),Female,55 to 59,Lower respiratory infections,london,667.2217806085961,228149.35017069816
+YLLs (Years of Life Lost),Female,55 to 59,Neoplasms,london,14599.590727901468,228149.35017069816
+YLLs (Years of Life Lost),Female,55 to 59,Road injuries,london,108.99634284651249,228149.35017069816
+YLLs (Years of Life Lost),Female,55 to 59,Stomach cancer,london,334.92529677072537,228149.35017069816
+YLLs (Years of Life Lost),Female,55 to 59,Stroke,london,885.0545428801037,228149.35017069816
+YLLs (Years of Life Lost),Female,55 to 59,"Tracheal, bronchus, and lung cancer",london,3045.8387592421245,228149.35017069816
+YLLs (Years of Life Lost),Female,55 to 59,Uterine cancer,london,336.8058710903047,228149.35017069816
+YLLs (Years of Life Lost),Female,60 to 64,All causes,london,26059.594678446294,182555.63283217043
+YLLs (Years of Life Lost),Female,60 to 64,Breast cancer,london,2509.76368825296,182555.63283217043
+YLLs (Years of Life Lost),Female,60 to 64,Cardiovascular diseases,london,4506.203318562596,182555.63283217043
+YLLs (Years of Life Lost),Female,60 to 64,Chronic obstructive pulmonary disease,london,1610.213148815075,182555.63283217043
+YLLs (Years of Life Lost),Female,60 to 64,Colon and rectum cancer,london,1132.2389951241882,182555.63283217043
+YLLs (Years of Life Lost),Female,60 to 64,Diabetes mellitus type 2,london,142.0641489515424,182555.63283217043
+YLLs (Years of Life Lost),Female,60 to 64,Ischemic heart disease,london,2045.8312875001188,182555.63283217043
+YLLs (Years of Life Lost),Female,60 to 64,Liver cancer,london,347.66181555544034,182555.63283217043
+YLLs (Years of Life Lost),Female,60 to 64,Lower respiratory infections,london,711.9788372569706,182555.63283217043
+YLLs (Years of Life Lost),Female,60 to 64,Neoplasms,london,14156.081709888309,182555.63283217043
+YLLs (Years of Life Lost),Female,60 to 64,Road injuries,london,76.69273792049259,182555.63283217043
+YLLs (Years of Life Lost),Female,60 to 64,Stomach cancer,london,343.6103218574282,182555.63283217043
+YLLs (Years of Life Lost),Female,60 to 64,Stroke,london,938.8497114335773,182555.63283217043
+YLLs (Years of Life Lost),Female,60 to 64,"Tracheal, bronchus, and lung cancer",london,3378.2753942765576,182555.63283217043
+YLLs (Years of Life Lost),Female,60 to 64,Uterine cancer,london,399.592298696203,182555.63283217043
+YLLs (Years of Life Lost),Female,65 to 69,All causes,london,31402.402661538737,155782.00794739777
+YLLs (Years of Life Lost),Female,65 to 69,Breast cancer,london,2392.429932726962,155782.00794739777
+YLLs (Years of Life Lost),Female,65 to 69,Cardiovascular diseases,london,6253.228430058736,155782.00794739777
+YLLs (Years of Life Lost),Female,65 to 69,Chronic obstructive pulmonary disease,london,2278.3546665631766,155782.00794739777
+YLLs (Years of Life Lost),Female,65 to 69,Colon and rectum cancer,london,1323.5099168527477,155782.00794739777
+YLLs (Years of Life Lost),Female,65 to 69,Diabetes mellitus type 2,london,178.0778164247325,155782.00794739777
+YLLs (Years of Life Lost),Female,65 to 69,Ischemic heart disease,london,2956.032309710314,155782.00794739777
+YLLs (Years of Life Lost),Female,65 to 69,Liver cancer,london,420.2309293940396,155782.00794739777
+YLLs (Years of Life Lost),Female,65 to 69,Lower respiratory infections,london,906.6760797981271,155782.00794739777
+YLLs (Years of Life Lost),Female,65 to 69,Neoplasms,london,16039.827561405062,155782.00794739777
+YLLs (Years of Life Lost),Female,65 to 69,Road injuries,london,78.82824925147021,155782.00794739777
+YLLs (Years of Life Lost),Female,65 to 69,Stomach cancer,london,411.55818913461206,155782.00794739777
+YLLs (Years of Life Lost),Female,65 to 69,Stroke,london,1306.2188082845837,155782.00794739777
+YLLs (Years of Life Lost),Female,65 to 69,"Tracheal, bronchus, and lung cancer",london,4105.493017470255,155782.00794739777
+YLLs (Years of Life Lost),Female,65 to 69,Uterine cancer,london,493.802848057604,155782.00794739777
+YLLs (Years of Life Lost),Female,70 to 74,All causes,london,34816.209450819864,130256.8484026803
+YLLs (Years of Life Lost),Female,70 to 74,Breast cancer,london,2023.6968564365477,130256.8484026803
+YLLs (Years of Life Lost),Female,70 to 74,Cardiovascular diseases,london,8101.753273165893,130256.8484026803
+YLLs (Years of Life Lost),Female,70 to 74,Chronic obstructive pulmonary disease,london,2832.2971270335406,130256.8484026803
+YLLs (Years of Life Lost),Female,70 to 74,Colon and rectum cancer,london,1343.8950379825649,130256.8484026803
+YLLs (Years of Life Lost),Female,70 to 74,Diabetes mellitus type 2,london,244.64938906186345,130256.8484026803
+YLLs (Years of Life Lost),Female,70 to 74,Ischemic heart disease,london,3653.9918124412748,130256.8484026803
+YLLs (Years of Life Lost),Female,70 to 74,Liver cancer,london,434.723324212086,130256.8484026803
+YLLs (Years of Life Lost),Female,70 to 74,Lower respiratory infections,london,1288.7925738549902,130256.8484026803
+YLLs (Years of Life Lost),Female,70 to 74,Neoplasms,london,15353.311581532646,130256.8484026803
+YLLs (Years of Life Lost),Female,70 to 74,Road injuries,london,73.12599956619412,130256.8484026803
+YLLs (Years of Life Lost),Female,70 to 74,Stomach cancer,london,471.60060310423836,130256.8484026803
+YLLs (Years of Life Lost),Female,70 to 74,Stroke,london,1854.2515777439978,130256.8484026803
+YLLs (Years of Life Lost),Female,70 to 74,"Tracheal, bronchus, and lung cancer",london,3899.291966603527,130256.8484026803
+YLLs (Years of Life Lost),Female,70 to 74,Uterine cancer,london,454.5651933567506,130256.8484026803
+YLLs (Years of Life Lost),Female,75 to 79,All causes,london,35739.62323594753,99797.14147592663
+YLLs (Years of Life Lost),Female,75 to 79,Breast cancer,london,1635.4514284577565,99797.14147592663
+YLLs (Years of Life Lost),Female,75 to 79,Cardiovascular diseases,london,9572.903063323738,99797.14147592663
+YLLs (Years of Life Lost),Female,75 to 79,Chronic obstructive pulmonary disease,london,2815.125305668273,99797.14147592663
+YLLs (Years of Life Lost),Female,75 to 79,Colon and rectum cancer,london,1302.6177779958325,99797.14147592663
+YLLs (Years of Life Lost),Female,75 to 79,Diabetes mellitus type 2,london,272.8683523519731,99797.14147592663
+YLLs (Years of Life Lost),Female,75 to 79,Ischemic heart disease,london,4056.985386094988,99797.14147592663
+YLLs (Years of Life Lost),Female,75 to 79,Liver cancer,london,394.04122671041216,99797.14147592663
+YLLs (Years of Life Lost),Female,75 to 79,Lower respiratory infections,london,1712.200445562297,99797.14147592663
+YLLs (Years of Life Lost),Female,75 to 79,Neoplasms,london,12668.306782939491,99797.14147592663
+YLLs (Years of Life Lost),Female,75 to 79,Road injuries,london,65.80647154946702,99797.14147592663
+YLLs (Years of Life Lost),Female,75 to 79,Stomach cancer,london,501.22134165518383,99797.14147592663
+YLLs (Years of Life Lost),Female,75 to 79,Stroke,london,2480.553551966739,99797.14147592663
+YLLs (Years of Life Lost),Female,75 to 79,"Tracheal, bronchus, and lung cancer",london,2966.8244695584726,99797.14147592663
+YLLs (Years of Life Lost),Female,75 to 79,Uterine cancer,london,332.18061032949424,99797.14147592663
+YLLs (Years of Life Lost),Female,80 to 84,All causes,london,38283.018614581146,76722.88570711153
+YLLs (Years of Life Lost),Female,80 to 84,Breast cancer,london,1338.2424058483994,76722.88570711153
+YLLs (Years of Life Lost),Female,80 to 84,Cardiovascular diseases,london,11579.506540455277,76722.88570711153
+YLLs (Years of Life Lost),Female,80 to 84,Chronic obstructive pulmonary disease,london,2815.1249478179916,76722.88570711153
+YLLs (Years of Life Lost),Female,80 to 84,Colon and rectum cancer,london,1210.7239819198248,76722.88570711153
+YLLs (Years of Life Lost),Female,80 to 84,Diabetes mellitus type 2,london,330.2910113397622,76722.88570711153
+YLLs (Years of Life Lost),Female,80 to 84,Ischemic heart disease,london,4843.186371225949,76722.88570711153
+YLLs (Years of Life Lost),Female,80 to 84,Liver cancer,london,314.5645529646795,76722.88570711153
+YLLs (Years of Life Lost),Female,80 to 84,Lower respiratory infections,london,2487.72862392014,76722.88570711153
+YLLs (Years of Life Lost),Female,80 to 84,Neoplasms,london,10072.757783139768,76722.88570711153
+YLLs (Years of Life Lost),Female,80 to 84,Road injuries,london,54.955088903734435,76722.88570711153
+YLLs (Years of Life Lost),Female,80 to 84,Stomach cancer,london,469.9487897147118,76722.88570711153
+YLLs (Years of Life Lost),Female,80 to 84,Stroke,london,3132.088843194653,76722.88570711153
+YLLs (Years of Life Lost),Female,80 to 84,"Tracheal, bronchus, and lung cancer",london,2104.3509559137933,76722.88570711153
+YLLs (Years of Life Lost),Female,80 to 84,Uterine cancer,london,234.68386492110835,76722.88570711153
+YLLs (Years of Life Lost),Female,85 to 89,All causes,london,34991.3354459909,50626.03192446541
+YLLs (Years of Life Lost),Female,85 to 89,Breast cancer,london,995.9953023028123,50626.03192446541
+YLLs (Years of Life Lost),Female,85 to 89,Cardiovascular diseases,london,11246.61938622569,50626.03192446541
+YLLs (Years of Life Lost),Female,85 to 89,Chronic obstructive pulmonary disease,london,2059.3026379863745,50626.03192446541
+YLLs (Years of Life Lost),Female,85 to 89,Colon and rectum cancer,london,895.6002973114134,50626.03192446541
+YLLs (Years of Life Lost),Female,85 to 89,Diabetes mellitus type 2,london,278.34344280324615,50626.03192446541
+YLLs (Years of Life Lost),Female,85 to 89,Ischemic heart disease,london,4499.480137214967,50626.03192446541
+YLLs (Years of Life Lost),Female,85 to 89,Liver cancer,london,193.03756829733413,50626.03192446541
+YLLs (Years of Life Lost),Female,85 to 89,Lower respiratory infections,london,3297.81390509121,50626.03192446541
+YLLs (Years of Life Lost),Female,85 to 89,Neoplasms,london,6421.574930196143,50626.03192446541
+YLLs (Years of Life Lost),Female,85 to 89,Road injuries,london,30.573396649876162,50626.03192446541
+YLLs (Years of Life Lost),Female,85 to 89,Stomach cancer,london,324.80461209431536,50626.03192446541
+YLLs (Years of Life Lost),Female,85 to 89,Stroke,london,3073.1664585225863,50626.03192446541
+YLLs (Years of Life Lost),Female,85 to 89,"Tracheal, bronchus, and lung cancer",london,1062.366182292235,50626.03192446541
+YLLs (Years of Life Lost),Female,85 to 89,Uterine cancer,london,135.3490575782372,50626.03192446541
+YLLs (Years of Life Lost),Female,90 to 94,All causes,london,20892.089633987136,25566.02321028302
+YLLs (Years of Life Lost),Female,90 to 94,Breast cancer,london,470.7582513707477,25566.02321028302
+YLLs (Years of Life Lost),Female,90 to 94,Cardiovascular diseases,london,6819.632358046039,25566.02321028302
+YLLs (Years of Life Lost),Female,90 to 94,Chronic obstructive pulmonary disease,london,1062.5305373613614,25566.02321028302
+YLLs (Years of Life Lost),Female,90 to 94,Colon and rectum cancer,london,435.9394943610185,25566.02321028302
+YLLs (Years of Life Lost),Female,90 to 94,Diabetes mellitus type 2,london,160.41486497682186,25566.02321028302
+YLLs (Years of Life Lost),Female,90 to 94,Ischemic heart disease,london,2702.748521793648,25566.02321028302
+YLLs (Years of Life Lost),Female,90 to 94,Liver cancer,london,73.17198852839462,25566.02321028302
+YLLs (Years of Life Lost),Female,90 to 94,Lower respiratory infections,london,2043.9814902354924,25566.02321028302
+YLLs (Years of Life Lost),Female,90 to 94,Neoplasms,london,2799.9988661990997,25566.02321028302
+YLLs (Years of Life Lost),Female,90 to 94,Road injuries,london,13.75925484369116,25566.02321028302
+YLLs (Years of Life Lost),Female,90 to 94,Stomach cancer,london,161.30005890586082,25566.02321028302
+YLLs (Years of Life Lost),Female,90 to 94,Stroke,london,1826.6434434874143,25566.02321028302
+YLLs (Years of Life Lost),Female,90 to 94,"Tracheal, bronchus, and lung cancer",london,390.48443008669796,25566.02321028302
+YLLs (Years of Life Lost),Female,90 to 94,Uterine cancer,london,52.01267851898924,25566.02321028302
+YLLs (Years of Life Lost),Female,95 to 99,All causes,london,6404.686504419872,8324.011354096516
+YLLs (Years of Life Lost),Female,95 to 99,Breast cancer,london,119.10308883500389,8324.011354096516
+YLLs (Years of Life Lost),Female,95 to 99,Cardiovascular diseases,london,2152.489287561284,8324.011354096516
+YLLs (Years of Life Lost),Female,95 to 99,Chronic obstructive pulmonary disease,london,325.2481760506438,8324.011354096516
+YLLs (Years of Life Lost),Female,95 to 99,Colon and rectum cancer,london,101.72933190810522,8324.011354096516
+YLLs (Years of Life Lost),Female,95 to 99,Diabetes mellitus type 2,london,49.74991963960883,8324.011354096516
+YLLs (Years of Life Lost),Female,95 to 99,Ischemic heart disease,london,854.822100933249,8324.011354096516
+YLLs (Years of Life Lost),Female,95 to 99,Liver cancer,london,15.080165130884586,8324.011354096516
+YLLs (Years of Life Lost),Female,95 to 99,Lower respiratory infections,london,748.5545182353677,8324.011354096516
+YLLs (Years of Life Lost),Female,95 to 99,Neoplasms,london,638.6675917341413,8324.011354096516
+YLLs (Years of Life Lost),Female,95 to 99,Road injuries,london,3.6909978522888958,8324.011354096516
+YLLs (Years of Life Lost),Female,95 to 99,Stomach cancer,london,40.66840389490905,8324.011354096516
+YLLs (Years of Life Lost),Female,95 to 99,Stroke,london,602.6707479250564,8324.011354096516
+YLLs (Years of Life Lost),Female,95 to 99,"Tracheal, bronchus, and lung cancer",london,79.66632261759176,8324.011354096516
+YLLs (Years of Life Lost),Female,95 to 99,Uterine cancer,london,10.541765955580605,8324.011354096516
+YLLs (Years of Life Lost),Female,0 to 4,All causes,london,21092.33482224313,309091.77441554476
+YLLs (Years of Life Lost),Female,0 to 4,Cardiovascular diseases,london,273.01956032371714,309091.77441554476
+YLLs (Years of Life Lost),Female,0 to 4,Chronic obstructive pulmonary disease,london,23.623360856575825,309091.77441554476
+YLLs (Years of Life Lost),Female,0 to 4,Lower respiratory infections,london,875.7208016427586,309091.77441554476
+YLLs (Years of Life Lost),Female,0 to 4,Neoplasms,london,805.4688133026931,309091.77441554476
+YLLs (Years of Life Lost),Female,0 to 4,Road injuries,london,150.62164233023702,309091.77441554476
+YLLs (Years of Life Lost),Female,0 to 4,Stroke,london,21.863083125641655,309091.77441554476
+YLLs (Years of Life Lost),Male,10 to 14,All causes,london,1555.1933851800738,261847.3061401146
+YLLs (Years of Life Lost),Male,10 to 14,Cardiovascular diseases,london,59.712146597122235,261847.3061401146
+YLLs (Years of Life Lost),Male,10 to 14,Chronic obstructive pulmonary disease,london,3.1519112109648573,261847.3061401146
+YLLs (Years of Life Lost),Male,10 to 14,Liver cancer,london,9.626253074332695,261847.3061401146
+YLLs (Years of Life Lost),Male,10 to 14,Lower respiratory infections,london,45.57347047181139,261847.3061401146
+YLLs (Years of Life Lost),Male,10 to 14,Neoplasms,london,425.3094390421219,261847.3061401146
+YLLs (Years of Life Lost),Male,10 to 14,Road injuries,london,160.389544562529,261847.3061401146
+YLLs (Years of Life Lost),Male,10 to 14,Stroke,london,10.182970402416824,261847.3061401146
+YLLs (Years of Life Lost),Male,15 to 19,All causes,london,4380.713625393553,245406.18835101815
+YLLs (Years of Life Lost),Male,15 to 19,Breast cancer,london,1.3650116778969519,245406.18835101815
+YLLs (Years of Life Lost),Male,15 to 19,Cardiovascular diseases,london,188.70934186766402,245406.18835101815
+YLLs (Years of Life Lost),Male,15 to 19,Chronic obstructive pulmonary disease,london,10.203354761808978,245406.18835101815
+YLLs (Years of Life Lost),Male,15 to 19,Colon and rectum cancer,london,5.963790345498244,245406.18835101815
+YLLs (Years of Life Lost),Male,15 to 19,Diabetes mellitus type 2,london,1.7455350987496316,245406.18835101815
+YLLs (Years of Life Lost),Male,15 to 19,Ischemic heart disease,london,12.148645923088964,245406.18835101815
+YLLs (Years of Life Lost),Male,15 to 19,Liver cancer,london,14.552640460631125,245406.18835101815
+YLLs (Years of Life Lost),Male,15 to 19,Lower respiratory infections,london,67.53536001607077,245406.18835101815
+YLLs (Years of Life Lost),Male,15 to 19,Neoplasms,london,547.0799993257796,245406.18835101815
+YLLs (Years of Life Lost),Male,15 to 19,Road injuries,london,1020.5166322464919,245406.18835101815
+YLLs (Years of Life Lost),Male,15 to 19,Stomach cancer,london,2.832609597921268,245406.18835101815
+YLLs (Years of Life Lost),Male,15 to 19,Stroke,london,33.11985662168271,245406.18835101815
+YLLs (Years of Life Lost),Male,15 to 19,"Tracheal, bronchus, and lung cancer",london,2.306625187041381,245406.18835101815
+YLLs (Years of Life Lost),Male,20 to 24,All causes,london,7902.860556878535,302292.1751888391
+YLLs (Years of Life Lost),Male,20 to 24,Breast cancer,london,1.5083119582731825,302292.1751888391
+YLLs (Years of Life Lost),Male,20 to 24,Cardiovascular diseases,london,360.2308885945692,302292.1751888391
+YLLs (Years of Life Lost),Male,20 to 24,Chronic obstructive pulmonary disease,london,14.835693090163609,302292.1751888391
+YLLs (Years of Life Lost),Male,20 to 24,Colon and rectum cancer,london,21.932024783420232,302292.1751888391
+YLLs (Years of Life Lost),Male,20 to 24,Diabetes mellitus type 2,london,3.8128660421500244,302292.1751888391
+YLLs (Years of Life Lost),Male,20 to 24,Ischemic heart disease,london,47.748975730704274,302292.1751888391
+YLLs (Years of Life Lost),Male,20 to 24,Liver cancer,london,23.68026880238274,302292.1751888391
+YLLs (Years of Life Lost),Male,20 to 24,Lower respiratory infections,london,101.06420328517989,302292.1751888391
+YLLs (Years of Life Lost),Male,20 to 24,Neoplasms,london,708.6355468156557,302292.1751888391
+YLLs (Years of Life Lost),Male,20 to 24,Road injuries,london,1556.5622080739201,302292.1751888391
+YLLs (Years of Life Lost),Male,20 to 24,Stomach cancer,london,7.826365750276165,302292.1751888391
+YLLs (Years of Life Lost),Male,20 to 24,Stroke,london,68.07745142597925,302292.1751888391
+YLLs (Years of Life Lost),Male,20 to 24,"Tracheal, bronchus, and lung cancer",london,9.465667475704608,302292.1751888391
+YLLs (Years of Life Lost),Male,25 to 29,All causes,london,10012.573617773738,412892.55871066405
+YLLs (Years of Life Lost),Male,25 to 29,Breast cancer,london,2.028959630942333,412892.55871066405
+YLLs (Years of Life Lost),Male,25 to 29,Cardiovascular diseases,london,640.6421055793386,412892.55871066405
+YLLs (Years of Life Lost),Male,25 to 29,Chronic obstructive pulmonary disease,london,18.292706424592254,412892.55871066405
+YLLs (Years of Life Lost),Male,25 to 29,Colon and rectum cancer,london,62.188088679391804,412892.55871066405
+YLLs (Years of Life Lost),Male,25 to 29,Diabetes mellitus type 2,london,6.688523074065016,412892.55871066405
+YLLs (Years of Life Lost),Male,25 to 29,Ischemic heart disease,london,158.699596102283,412892.55871066405
+YLLs (Years of Life Lost),Male,25 to 29,Liver cancer,london,40.552931513708955,412892.55871066405
+YLLs (Years of Life Lost),Male,25 to 29,Lower respiratory infections,london,162.52438006846424,412892.55871066405
+YLLs (Years of Life Lost),Male,25 to 29,Neoplasms,london,1046.741573856832,412892.55871066405
+YLLs (Years of Life Lost),Male,25 to 29,Road injuries,london,1380.7307674258054,412892.55871066405
+YLLs (Years of Life Lost),Male,25 to 29,Stomach cancer,london,22.717981448099206,412892.55871066405
+YLLs (Years of Life Lost),Male,25 to 29,Stroke,london,119.00604570919278,412892.55871066405
+YLLs (Years of Life Lost),Male,25 to 29,"Tracheal, bronchus, and lung cancer",london,22.94846663609552,412892.55871066405
+YLLs (Years of Life Lost),Male,30 to 34,All causes,london,12802.964919079162,445614.9409015263
+YLLs (Years of Life Lost),Male,30 to 34,Breast cancer,london,3.091863452157951,445614.9409015263
+YLLs (Years of Life Lost),Male,30 to 34,Cardiovascular diseases,london,1231.1870644779074,445614.9409015263
+YLLs (Years of Life Lost),Male,30 to 34,Chronic obstructive pulmonary disease,london,32.566052479673274,445614.9409015263
+YLLs (Years of Life Lost),Male,30 to 34,Colon and rectum cancer,london,152.66564289084675,445614.9409015263
+YLLs (Years of Life Lost),Male,30 to 34,Diabetes mellitus type 2,london,27.770110499767867,445614.9409015263
+YLLs (Years of Life Lost),Male,30 to 34,Ischemic heart disease,london,446.94873381743037,445614.9409015263
+YLLs (Years of Life Lost),Male,30 to 34,Liver cancer,london,74.92341616839927,445614.9409015263
+YLLs (Years of Life Lost),Male,30 to 34,Lower respiratory infections,london,256.61239484952836,445614.9409015263
+YLLs (Years of Life Lost),Male,30 to 34,Neoplasms,london,1617.2519757087416,445614.9409015263
+YLLs (Years of Life Lost),Male,30 to 34,Road injuries,london,1098.1779665259708,445614.9409015263
+YLLs (Years of Life Lost),Male,30 to 34,Stomach cancer,london,60.24254420639154,445614.9409015263
+YLLs (Years of Life Lost),Male,30 to 34,Stroke,london,214.8374196002745,445614.9409015263
+YLLs (Years of Life Lost),Male,30 to 34,"Tracheal, bronchus, and lung cancer",london,78.13380333471771,445614.9409015263
+YLLs (Years of Life Lost),Male,35 to 39,All causes,london,15509.945974839222,395496.3988783722
+YLLs (Years of Life Lost),Male,35 to 39,Breast cancer,london,7.371742118476121,395496.3988783722
+YLLs (Years of Life Lost),Male,35 to 39,Cardiovascular diseases,london,2156.3163923270426,395496.3988783722
+YLLs (Years of Life Lost),Male,35 to 39,Chronic obstructive pulmonary disease,london,73.78381155867332,395496.3988783722
+YLLs (Years of Life Lost),Male,35 to 39,Colon and rectum cancer,london,250.54781296008701,395496.3988783722
+YLLs (Years of Life Lost),Male,35 to 39,Diabetes mellitus type 2,london,38.29877740255707,395496.3988783722
+YLLs (Years of Life Lost),Male,35 to 39,Ischemic heart disease,london,995.919648903078,395496.3988783722
+YLLs (Years of Life Lost),Male,35 to 39,Liver cancer,london,91.23959168208432,395496.3988783722
+YLLs (Years of Life Lost),Male,35 to 39,Lower respiratory infections,london,371.84470159020685,395496.3988783722
+YLLs (Years of Life Lost),Male,35 to 39,Neoplasms,london,2408.845901252845,395496.3988783722
+YLLs (Years of Life Lost),Male,35 to 39,Road injuries,london,811.3572288820415,395496.3988783722
+YLLs (Years of Life Lost),Male,35 to 39,Stomach cancer,london,117.51889457212775,395496.3988783722
+YLLs (Years of Life Lost),Male,35 to 39,Stroke,london,349.4395819827613,395496.3988783722
+YLLs (Years of Life Lost),Male,35 to 39,"Tracheal, bronchus, and lung cancer",london,212.25431369580815,395496.3988783722
+YLLs (Years of Life Lost),Male,40 to 44,All causes,london,19315.110705036677,317181.7228929804
+YLLs (Years of Life Lost),Male,40 to 44,Breast cancer,london,11.693081196180772,317181.7228929804
+YLLs (Years of Life Lost),Male,40 to 44,Cardiovascular diseases,london,3881.577529060893,317181.7228929804
+YLLs (Years of Life Lost),Male,40 to 44,Chronic obstructive pulmonary disease,london,189.26291655859768,317181.7228929804
+YLLs (Years of Life Lost),Male,40 to 44,Colon and rectum cancer,london,391.5234857978213,317181.7228929804
+YLLs (Years of Life Lost),Male,40 to 44,Diabetes mellitus type 2,london,51.35195599270901,317181.7228929804
+YLLs (Years of Life Lost),Male,40 to 44,Ischemic heart disease,london,2064.407656909259,317181.7228929804
+YLLs (Years of Life Lost),Male,40 to 44,Liver cancer,london,165.65967827537276,317181.7228929804
+YLLs (Years of Life Lost),Male,40 to 44,Lower respiratory infections,london,510.5576532325829,317181.7228929804
+YLLs (Years of Life Lost),Male,40 to 44,Neoplasms,london,3836.516496192759,317181.7228929804
+YLLs (Years of Life Lost),Male,40 to 44,Road injuries,london,622.4694788158492,317181.7228929804
+YLLs (Years of Life Lost),Male,40 to 44,Stomach cancer,london,196.23823037573013,317181.7228929804
+YLLs (Years of Life Lost),Male,40 to 44,Stroke,london,562.3252758698508,317181.7228929804
+YLLs (Years of Life Lost),Male,40 to 44,"Tracheal, bronchus, and lung cancer",london,537.0558405397695,317181.7228929804
+YLLs (Years of Life Lost),Male,45 to 49,All causes,london,26141.293244496184,295250.9111368895
+YLLs (Years of Life Lost),Male,45 to 49,Breast cancer,london,19.09789583678913,295250.9111368895
+YLLs (Years of Life Lost),Male,45 to 49,Cardiovascular diseases,london,6606.653226399501,295250.9111368895
+YLLs (Years of Life Lost),Male,45 to 49,Chronic obstructive pulmonary disease,london,399.66722649926464,295250.9111368895
+YLLs (Years of Life Lost),Male,45 to 49,Colon and rectum cancer,london,722.9041237789041,295250.9111368895
+YLLs (Years of Life Lost),Male,45 to 49,Diabetes mellitus type 2,london,173.26340855501232,295250.9111368895
+YLLs (Years of Life Lost),Male,45 to 49,Ischemic heart disease,london,3940.623689167363,295250.9111368895
+YLLs (Years of Life Lost),Male,45 to 49,Liver cancer,london,329.07395523932144,295250.9111368895
+YLLs (Years of Life Lost),Male,45 to 49,Lower respiratory infections,london,722.9338928019099,295250.9111368895
+YLLs (Years of Life Lost),Male,45 to 49,Neoplasms,london,6925.700366044698,295250.9111368895
+YLLs (Years of Life Lost),Male,45 to 49,Road injuries,london,520.6049838792367,295250.9111368895
+YLLs (Years of Life Lost),Male,45 to 49,Stomach cancer,london,359.17422715877626,295250.9111368895
+YLLs (Years of Life Lost),Male,45 to 49,Stroke,london,884.0330216862442,295250.9111368895
+YLLs (Years of Life Lost),Male,45 to 49,"Tracheal, bronchus, and lung cancer",london,1307.2227711153776,295250.9111368895
+YLLs (Years of Life Lost),Male,5 to 9,All causes,london,2126.3284024981863,305613.111031444
+YLLs (Years of Life Lost),Male,5 to 9,Cardiovascular diseases,london,58.564979458719144,305613.111031444
+YLLs (Years of Life Lost),Male,5 to 9,Chronic obstructive pulmonary disease,london,4.701721133866779,305613.111031444
+YLLs (Years of Life Lost),Male,5 to 9,Liver cancer,london,13.291444551655982,305613.111031444
+YLLs (Years of Life Lost),Male,5 to 9,Lower respiratory infections,london,89.47516121183898,305613.111031444
+YLLs (Years of Life Lost),Male,5 to 9,Neoplasms,london,709.9424178592278,305613.111031444
+YLLs (Years of Life Lost),Male,5 to 9,Road injuries,london,145.94230397663014,305613.111031444
+YLLs (Years of Life Lost),Male,5 to 9,Stroke,london,11.231023873914292,305613.111031444
+YLLs (Years of Life Lost),Male,50 to 54,All causes,london,35200.7357767629,269098.1949802565
+YLLs (Years of Life Lost),Male,50 to 54,Breast cancer,london,31.187843179885615,269098.1949802565
+YLLs (Years of Life Lost),Male,50 to 54,Cardiovascular diseases,london,10041.482266996465,269098.1949802565
+YLLs (Years of Life Lost),Male,50 to 54,Chronic obstructive pulmonary disease,london,844.4210339498318,269098.1949802565
+YLLs (Years of Life Lost),Male,50 to 54,Colon and rectum cancer,london,1241.7569302574695,269098.1949802565
+YLLs (Years of Life Lost),Male,50 to 54,Diabetes mellitus type 2,london,214.92686949112326,269098.1949802565
+YLLs (Years of Life Lost),Male,50 to 54,Ischemic heart disease,london,6392.335422586822,269098.1949802565
+YLLs (Years of Life Lost),Male,50 to 54,Liver cancer,london,602.1028288278422,269098.1949802565
+YLLs (Years of Life Lost),Male,50 to 54,Lower respiratory infections,london,991.8089796800268,269098.1949802565
+YLLs (Years of Life Lost),Male,50 to 54,Neoplasms,london,11877.206814881452,269098.1949802565
+YLLs (Years of Life Lost),Male,50 to 54,Road injuries,london,431.27423488872785,269098.1949802565
+YLLs (Years of Life Lost),Male,50 to 54,Stomach cancer,london,569.9273988226403,269098.1949802565
+YLLs (Years of Life Lost),Male,50 to 54,Stroke,london,1246.8711095847862,269098.1949802565
+YLLs (Years of Life Lost),Male,50 to 54,"Tracheal, bronchus, and lung cancer",london,2625.526725017569,269098.1949802565
+YLLs (Years of Life Lost),Male,55 to 59,All causes,london,38126.45779090652,224179.2072394575
+YLLs (Years of Life Lost),Male,55 to 59,Breast cancer,london,38.08545111050731,224179.2072394575
+YLLs (Years of Life Lost),Male,55 to 59,Cardiovascular diseases,london,10865.788928465261,224179.2072394575
+YLLs (Years of Life Lost),Male,55 to 59,Chronic obstructive pulmonary disease,london,1382.592310841135,224179.2072394575
+YLLs (Years of Life Lost),Male,55 to 59,Colon and rectum cancer,london,1605.2979563890656,224179.2072394575
+YLLs (Years of Life Lost),Male,55 to 59,Diabetes mellitus type 2,london,233.23182757414907,224179.2072394575
+YLLs (Years of Life Lost),Male,55 to 59,Ischemic heart disease,london,6989.221118067542,224179.2072394575
+YLLs (Years of Life Lost),Male,55 to 59,Liver cancer,london,798.585270234123,224179.2072394575
+YLLs (Years of Life Lost),Male,55 to 59,Lower respiratory infections,london,1018.573045286443,224179.2072394575
+YLLs (Years of Life Lost),Male,55 to 59,Neoplasms,london,15430.747196068523,224179.2072394575
+YLLs (Years of Life Lost),Male,55 to 59,Road injuries,london,298.84977625858045,224179.2072394575
+YLLs (Years of Life Lost),Male,55 to 59,Stomach cancer,london,696.2276960217625,224179.2072394575
+YLLs (Years of Life Lost),Male,55 to 59,Stroke,london,1314.1166095587962,224179.2072394575
+YLLs (Years of Life Lost),Male,55 to 59,"Tracheal, bronchus, and lung cancer",london,3810.6771034345857,224179.2072394575
+YLLs (Years of Life Lost),Male,60 to 64,All causes,london,41223.69634045265,174492.48412404791
+YLLs (Years of Life Lost),Male,60 to 64,Breast cancer,london,47.47458238638009,174492.48412404791
+YLLs (Years of Life Lost),Male,60 to 64,Cardiovascular diseases,london,11792.088924006808,174492.48412404791
+YLLs (Years of Life Lost),Male,60 to 64,Chronic obstructive pulmonary disease,london,2206.2354566327235,174492.48412404791
+YLLs (Years of Life Lost),Male,60 to 64,Colon and rectum cancer,london,1827.0838312873389,174492.48412404791
+YLLs (Years of Life Lost),Male,60 to 64,Diabetes mellitus type 2,london,293.2632370129022,174492.48412404791
+YLLs (Years of Life Lost),Male,60 to 64,Ischemic heart disease,london,7566.2446821154035,174492.48412404791
+YLLs (Years of Life Lost),Male,60 to 64,Liver cancer,london,873.0420600135589,174492.48412404791
+YLLs (Years of Life Lost),Male,60 to 64,Lower respiratory infections,london,1158.587226814638,174492.48412404791
+YLLs (Years of Life Lost),Male,60 to 64,Neoplasms,london,17961.52199947944,174492.48412404791
+YLLs (Years of Life Lost),Male,60 to 64,Road injuries,london,205.32471895574437,174492.48412404791
+YLLs (Years of Life Lost),Male,60 to 64,Stomach cancer,london,812.2100739782717,174492.48412404791
+YLLs (Years of Life Lost),Male,60 to 64,Stroke,london,1444.3590827283895,174492.48412404791
+YLLs (Years of Life Lost),Male,60 to 64,"Tracheal, bronchus, and lung cancer",london,4760.87053449429,174492.48412404791
+YLLs (Years of Life Lost),Male,65 to 69,All causes,london,45986.35399146708,143459.18996670068
+YLLs (Years of Life Lost),Male,65 to 69,Breast cancer,london,53.51052197558514,143459.18996670068
+YLLs (Years of Life Lost),Male,65 to 69,Cardiovascular diseases,london,13278.902523662256,143459.18996670068
+YLLs (Years of Life Lost),Male,65 to 69,Chronic obstructive pulmonary disease,london,3057.741178320369,143459.18996670068
+YLLs (Years of Life Lost),Male,65 to 69,Colon and rectum cancer,london,2036.4441034111626,143459.18996670068
+YLLs (Years of Life Lost),Male,65 to 69,Diabetes mellitus type 2,london,345.17961965124164,143459.18996670068
+YLLs (Years of Life Lost),Male,65 to 69,Ischemic heart disease,london,8233.980576605265,143459.18996670068
+YLLs (Years of Life Lost),Male,65 to 69,Liver cancer,london,928.2382647443608,143459.18996670068
+YLLs (Years of Life Lost),Male,65 to 69,Lower respiratory infections,london,1367.1234360703052,143459.18996670068
+YLLs (Years of Life Lost),Male,65 to 69,Neoplasms,london,20327.491488387957,143459.18996670068
+YLLs (Years of Life Lost),Male,65 to 69,Road injuries,london,156.21836794670918,143459.18996670068
+YLLs (Years of Life Lost),Male,65 to 69,Stomach cancer,london,958.8904762808469,143459.18996670068
+YLLs (Years of Life Lost),Male,65 to 69,Stroke,london,1870.2825300926274,143459.18996670068
+YLLs (Years of Life Lost),Male,65 to 69,"Tracheal, bronchus, and lung cancer",london,5556.1018167171305,143459.18996670068
+YLLs (Years of Life Lost),Male,70 to 74,All causes,london,44201.1792143984,114290.36125997874
+YLLs (Years of Life Lost),Male,70 to 74,Breast cancer,london,49.442910518061204,114290.36125997874
+YLLs (Years of Life Lost),Male,70 to 74,Cardiovascular diseases,london,13588.927765500817,114290.36125997874
+YLLs (Years of Life Lost),Male,70 to 74,Chronic obstructive pulmonary disease,london,3420.854919052546,114290.36125997874
+YLLs (Years of Life Lost),Male,70 to 74,Colon and rectum cancer,london,1825.807521252432,114290.36125997874
+YLLs (Years of Life Lost),Male,70 to 74,Diabetes mellitus type 2,london,357.1485311059151,114290.36125997874
+YLLs (Years of Life Lost),Male,70 to 74,Ischemic heart disease,london,8076.4737995735295,114290.36125997874
+YLLs (Years of Life Lost),Male,70 to 74,Liver cancer,london,763.2079696460819,114290.36125997874
+YLLs (Years of Life Lost),Male,70 to 74,Lower respiratory infections,london,1562.4303805216437,114290.36125997874
+YLLs (Years of Life Lost),Male,70 to 74,Neoplasms,london,18067.781198923007,114290.36125997874
+YLLs (Years of Life Lost),Male,70 to 74,Road injuries,london,107.0813602664333,114290.36125997874
+YLLs (Years of Life Lost),Male,70 to 74,Stomach cancer,london,910.5113869140987,114290.36125997874
+YLLs (Years of Life Lost),Male,70 to 74,Stroke,london,2301.453210481201,114290.36125997874
+YLLs (Years of Life Lost),Male,70 to 74,"Tracheal, bronchus, and lung cancer",london,4868.156805075281,114290.36125997874
+YLLs (Years of Life Lost),Male,75 to 79,All causes,london,44511.05510547927,81687.38382648057
+YLLs (Years of Life Lost),Male,75 to 79,Breast cancer,london,41.60822278049778,81687.38382648057
+YLLs (Years of Life Lost),Male,75 to 79,Cardiovascular diseases,london,13665.742673414612,81687.38382648057
+YLLs (Years of Life Lost),Male,75 to 79,Chronic obstructive pulmonary disease,london,3625.9599389529144,81687.38382648057
+YLLs (Years of Life Lost),Male,75 to 79,Colon and rectum cancer,london,1643.0058796771707,81687.38382648057
+YLLs (Years of Life Lost),Male,75 to 79,Diabetes mellitus type 2,london,389.89362210289477,81687.38382648057
+YLLs (Years of Life Lost),Male,75 to 79,Ischemic heart disease,london,7618.525630148838,81687.38382648057
+YLLs (Years of Life Lost),Male,75 to 79,Liver cancer,london,618.0925520572154,81687.38382648057
+YLLs (Years of Life Lost),Male,75 to 79,Lower respiratory infections,london,2068.03905301573,81687.38382648057
+YLLs (Years of Life Lost),Male,75 to 79,Neoplasms,london,16098.623722548706,81687.38382648057
+YLLs (Years of Life Lost),Male,75 to 79,Road injuries,london,88.23644634561688,81687.38382648057
+YLLs (Years of Life Lost),Male,75 to 79,Stomach cancer,london,901.0671277364606,81687.38382648057
+YLLs (Years of Life Lost),Male,75 to 79,Stroke,london,2743.508758477687,81687.38382648057
+YLLs (Years of Life Lost),Male,75 to 79,"Tracheal, bronchus, and lung cancer",london,4040.9084141626067,81687.38382648057
+YLLs (Years of Life Lost),Male,80 to 84,All causes,london,39983.81559358182,58960.932977848905
+YLLs (Years of Life Lost),Male,80 to 84,Breast cancer,london,30.20595036112465,58960.932977848905
+YLLs (Years of Life Lost),Male,80 to 84,Cardiovascular diseases,london,12603.967233375088,58960.932977848905
+YLLs (Years of Life Lost),Male,80 to 84,Chronic obstructive pulmonary disease,london,3282.7727903876166,58960.932977848905
+YLLs (Years of Life Lost),Male,80 to 84,Colon and rectum cancer,london,1289.3375707297328,58960.932977848905
+YLLs (Years of Life Lost),Male,80 to 84,Diabetes mellitus type 2,london,363.2372262013811,58960.932977848905
+YLLs (Years of Life Lost),Male,80 to 84,Ischemic heart disease,london,6755.134139439861,58960.932977848905
+YLLs (Years of Life Lost),Male,80 to 84,Liver cancer,london,398.4559240827745,58960.932977848905
+YLLs (Years of Life Lost),Male,80 to 84,Lower respiratory infections,london,2571.719149091831,58960.932977848905
+YLLs (Years of Life Lost),Male,80 to 84,Neoplasms,london,11930.443723787854,58960.932977848905
+YLLs (Years of Life Lost),Male,80 to 84,Road injuries,london,64.0997244493818,58960.932977848905
+YLLs (Years of Life Lost),Male,80 to 84,Stomach cancer,london,695.2282836401084,58960.932977848905
+YLLs (Years of Life Lost),Male,80 to 84,Stroke,london,2818.7608392753414,58960.932977848905
+YLLs (Years of Life Lost),Male,80 to 84,"Tracheal, bronchus, and lung cancer",london,2625.9767425302207,58960.932977848905
+YLLs (Years of Life Lost),Male,85 to 89,All causes,london,29194.78425887166,32424.606766170724
+YLLs (Years of Life Lost),Male,85 to 89,Breast cancer,london,17.89550991596283,32424.606766170724
+YLLs (Years of Life Lost),Male,85 to 89,Cardiovascular diseases,london,9098.661952295384,32424.606766170724
+YLLs (Years of Life Lost),Male,85 to 89,Chronic obstructive pulmonary disease,london,2215.9325209897124,32424.606766170724
+YLLs (Years of Life Lost),Male,85 to 89,Colon and rectum cancer,london,780.4100448567035,32424.606766170724
+YLLs (Years of Life Lost),Male,85 to 89,Diabetes mellitus type 2,london,256.5286501113497,32424.606766170724
+YLLs (Years of Life Lost),Male,85 to 89,Ischemic heart disease,london,4600.383236948606,32424.606766170724
+YLLs (Years of Life Lost),Male,85 to 89,Liver cancer,london,197.774966184277,32424.606766170724
+YLLs (Years of Life Lost),Male,85 to 89,Lower respiratory infections,london,2726.5879986502187,32424.606766170724
+YLLs (Years of Life Lost),Male,85 to 89,Neoplasms,london,6974.284013745895,32424.606766170724
+YLLs (Years of Life Lost),Male,85 to 89,Road injuries,london,34.97150540104059,32424.606766170724
+YLLs (Years of Life Lost),Male,85 to 89,Stomach cancer,london,402.3881389895922,32424.606766170724
+YLLs (Years of Life Lost),Male,85 to 89,Stroke,london,2201.845627549169,32424.606766170724
+YLLs (Years of Life Lost),Male,85 to 89,"Tracheal, bronchus, and lung cancer",london,1316.3681968520493,32424.606766170724
+YLLs (Years of Life Lost),Male,90 to 94,All causes,london,12227.680484912205,12549.12389744434
+YLLs (Years of Life Lost),Male,90 to 94,Breast cancer,london,7.4295704530382745,12549.12389744434
+YLLs (Years of Life Lost),Male,90 to 94,Cardiovascular diseases,london,3928.0847959155985,12549.12389744434
+YLLs (Years of Life Lost),Male,90 to 94,Chronic obstructive pulmonary disease,london,868.7935401372876,12549.12389744434
+YLLs (Years of Life Lost),Male,90 to 94,Colon and rectum cancer,london,265.9633187232633,12549.12389744434
+YLLs (Years of Life Lost),Male,90 to 94,Diabetes mellitus type 2,london,108.59552611760485,12549.12389744434
+YLLs (Years of Life Lost),Male,90 to 94,Ischemic heart disease,london,1966.071035195428,12549.12389744434
+YLLs (Years of Life Lost),Male,90 to 94,Liver cancer,london,52.000490229175306,12549.12389744434
+YLLs (Years of Life Lost),Male,90 to 94,Lower respiratory infections,london,1244.526944460351,12549.12389744434
+YLLs (Years of Life Lost),Male,90 to 94,Neoplasms,london,2264.612169240517,12549.12389744434
+YLLs (Years of Life Lost),Male,90 to 94,Road injuries,london,11.52550096229339,12549.12389744434
+YLLs (Years of Life Lost),Male,90 to 94,Stomach cancer,london,140.77802233981018,12549.12389744434
+YLLs (Years of Life Lost),Male,90 to 94,Stroke,london,968.8148778502393,12549.12389744434
+YLLs (Years of Life Lost),Male,90 to 94,"Tracheal, bronchus, and lung cancer",london,337.5831370705043,12549.12389744434
+YLLs (Years of Life Lost),Male,95 to 99,All causes,london,2285.7765788220718,2830.6187513275063
+YLLs (Years of Life Lost),Male,95 to 99,Breast cancer,london,1.4574848655822281,2830.6187513275063
+YLLs (Years of Life Lost),Male,95 to 99,Cardiovascular diseases,london,764.2248567408608,2830.6187513275063
+YLLs (Years of Life Lost),Male,95 to 99,Chronic obstructive pulmonary disease,london,161.21098794657811,2830.6187513275063
+YLLs (Years of Life Lost),Male,95 to 99,Colon and rectum cancer,london,38.12685340040105,2830.6187513275063
+YLLs (Years of Life Lost),Male,95 to 99,Diabetes mellitus type 2,london,21.535710257448034,2830.6187513275063
+YLLs (Years of Life Lost),Male,95 to 99,Ischemic heart disease,london,379.45629408151245,2830.6187513275063
+YLLs (Years of Life Lost),Male,95 to 99,Liver cancer,london,6.426772086827463,2830.6187513275063
+YLLs (Years of Life Lost),Male,95 to 99,Lower respiratory infections,london,283.23746236865856,2830.6187513275063
+YLLs (Years of Life Lost),Male,95 to 99,Neoplasms,london,324.1135271815415,2830.6187513275063
+YLLs (Years of Life Lost),Male,95 to 99,Road injuries,london,1.950115300634991,2830.6187513275063
+YLLs (Years of Life Lost),Male,95 to 99,Stomach cancer,london,22.400452288480448,2830.6187513275063
+YLLs (Years of Life Lost),Male,95 to 99,Stroke,london,201.01817569129423,2830.6187513275063
+YLLs (Years of Life Lost),Male,95 to 99,"Tracheal, bronchus, and lung cancer",london,37.67783831202722,2830.6187513275063
+YLLs (Years of Life Lost),Male,0 to 4,All causes,london,25870.06099593064,324704.73937166773
+YLLs (Years of Life Lost),Male,0 to 4,Cardiovascular diseases,london,296.35953402197043,324704.73937166773
+YLLs (Years of Life Lost),Male,0 to 4,Chronic obstructive pulmonary disease,london,14.616441409647813,324704.73937166773
+YLLs (Years of Life Lost),Male,0 to 4,Lower respiratory infections,london,1048.8493909092647,324704.73937166773
+YLLs (Years of Life Lost),Male,0 to 4,Neoplasms,london,781.8934849690136,324704.73937166773
+YLLs (Years of Life Lost),Male,0 to 4,Road injuries,london,151.0673029804397,324704.73937166773
+YLLs (Years of Life Lost),Male,0 to 4,Stroke,london,25.716664029972666,324704.73937166773

@@ -1,0 +1,1079 @@
+measure_name,sex_name,age_name,cause_name,cityregion,val,population_number
+Deaths,Female,10 to 14,All causes,northeast,3.673843761974088,51146.030858489175
+Deaths,Female,10 to 14,Cardiovascular diseases,northeast,0.1622813195786985,51146.030858489175
+Deaths,Female,10 to 14,Chronic obstructive pulmonary disease,northeast,0.0326492550045101,51146.030858489175
+Deaths,Female,10 to 14,Liver cancer,northeast,0.016860889492378836,51146.030858489175
+Deaths,Female,10 to 14,Lower respiratory infections,northeast,0.1386685138004424,51146.030858489175
+Deaths,Female,10 to 14,Neoplasms,northeast,1.0156453666140854,51146.030858489175
+Deaths,Female,10 to 14,Road injuries,northeast,0.3473023466492344,51146.030858489175
+Deaths,Female,10 to 14,Stroke,northeast,0.06836357705732317,51146.030858489175
+Deaths,Female,15 to 19,All causes,northeast,8.182910546940494,53483.655941446435
+Deaths,Female,15 to 19,Breast cancer,northeast,0.009406259079926633,53483.655941446435
+Deaths,Female,15 to 19,Cardiovascular diseases,northeast,0.4621549808165491,53483.655941446435
+Deaths,Female,15 to 19,Chronic obstructive pulmonary disease,northeast,0.05350214559135306,53483.655941446435
+Deaths,Female,15 to 19,Colon and rectum cancer,northeast,0.014399065228947664,53483.655941446435
+Deaths,Female,15 to 19,Diabetes mellitus type 2,northeast,0.006329859007871618,53483.655941446435
+Deaths,Female,15 to 19,Ischemic heart disease,northeast,0.040052018500433745,53483.655941446435
+Deaths,Female,15 to 19,Liver cancer,northeast,0.04744619081673923,53483.655941446435
+Deaths,Female,15 to 19,Lower respiratory infections,northeast,0.19460555920651137,53483.655941446435
+Deaths,Female,15 to 19,Neoplasms,northeast,1.5301537337932976,53483.655941446435
+Deaths,Female,15 to 19,Road injuries,northeast,1.2317414198946985,53483.655941446435
+Deaths,Female,15 to 19,Stomach cancer,northeast,0.00903405629709105,53483.655941446435
+Deaths,Female,15 to 19,Stroke,northeast,0.1449857207216802,53483.655941446435
+Deaths,Female,15 to 19,"Tracheal, bronchus, and lung cancer",northeast,0.022766782047243743,53483.655941446435
+Deaths,Female,15 to 19,Uterine cancer,northeast,0.005314630742205795,53483.655941446435
+Deaths,Female,20 to 24,All causes,northeast,10.207657333275089,62892.28618418425
+Deaths,Female,20 to 24,Breast cancer,northeast,0.04437819084666604,62892.28618418425
+Deaths,Female,20 to 24,Cardiovascular diseases,northeast,0.7972980171470038,62892.28618418425
+Deaths,Female,20 to 24,Chronic obstructive pulmonary disease,northeast,0.06093743326328564,62892.28618418425
+Deaths,Female,20 to 24,Colon and rectum cancer,northeast,0.05971852869497612,62892.28618418425
+Deaths,Female,20 to 24,Diabetes mellitus type 2,northeast,0.007235791496594157,62892.28618418425
+Deaths,Female,20 to 24,Ischemic heart disease,northeast,0.08940373615008894,62892.28618418425
+Deaths,Female,20 to 24,Liver cancer,northeast,0.04985769466438089,62892.28618418425
+Deaths,Female,20 to 24,Lower respiratory infections,northeast,0.25641397546105327,62892.28618418425
+Deaths,Female,20 to 24,Neoplasms,northeast,1.8513122295122557,62892.28618418425
+Deaths,Female,20 to 24,Road injuries,northeast,0.9953720418621567,62892.28618418425
+Deaths,Female,20 to 24,Stomach cancer,northeast,0.025382807352808442,62892.28618418425
+Deaths,Female,20 to 24,Stroke,northeast,0.2749021373512988,62892.28618418425
+Deaths,Female,20 to 24,"Tracheal, bronchus, and lung cancer",northeast,0.04164653051918594,62892.28618418425
+Deaths,Female,20 to 24,Uterine cancer,northeast,0.006079986447972163,62892.28618418425
+Deaths,Female,25 to 29,All causes,northeast,22.510917649440202,68456.79238678546
+Deaths,Female,25 to 29,Breast cancer,northeast,0.6010586292434236,68456.79238678546
+Deaths,Female,25 to 29,Cardiovascular diseases,northeast,1.9592722347418277,68456.79238678546
+Deaths,Female,25 to 29,Chronic obstructive pulmonary disease,northeast,0.1202584056468036,68456.79238678546
+Deaths,Female,25 to 29,Colon and rectum cancer,northeast,0.28394486284780657,68456.79238678546
+Deaths,Female,25 to 29,Diabetes mellitus type 2,northeast,0.0207633737195099,68456.79238678546
+Deaths,Female,25 to 29,Ischemic heart disease,northeast,0.27032556290090576,68456.79238678546
+Deaths,Female,25 to 29,Liver cancer,northeast,0.13559747444834122,68456.79238678546
+Deaths,Female,25 to 29,Lower respiratory infections,northeast,0.5780206291856086,68456.79238678546
+Deaths,Female,25 to 29,Neoplasms,northeast,5.545344981297263,68456.79238678546
+Deaths,Female,25 to 29,Road injuries,northeast,1.184350504060704,68456.79238678546
+Deaths,Female,25 to 29,Stomach cancer,northeast,0.15519274983681042,68456.79238678546
+Deaths,Female,25 to 29,Stroke,northeast,0.7329435289201983,68456.79238678546
+Deaths,Female,25 to 29,"Tracheal, bronchus, and lung cancer",northeast,0.16097617956169022,68456.79238678546
+Deaths,Female,25 to 29,Uterine cancer,northeast,0.0256651203144276,68456.79238678546
+Deaths,Female,30 to 34,All causes,northeast,37.39117315596847,64353.346761855464
+Deaths,Female,30 to 34,Breast cancer,northeast,2.6979270834081204,64353.346761855464
+Deaths,Female,30 to 34,Cardiovascular diseases,northeast,4.22950381498352,64353.346761855464
+Deaths,Female,30 to 34,Chronic obstructive pulmonary disease,northeast,0.2046989125035197,64353.346761855464
+Deaths,Female,30 to 34,Colon and rectum cancer,northeast,0.8115125970496049,64353.346761855464
+Deaths,Female,30 to 34,Diabetes mellitus type 2,northeast,0.07116262999307599,64353.346761855464
+Deaths,Female,30 to 34,Ischemic heart disease,northeast,0.9706836801624426,64353.346761855464
+Deaths,Female,30 to 34,Liver cancer,northeast,0.20654358579248586,64353.346761855464
+Deaths,Female,30 to 34,Lower respiratory infections,northeast,0.8986579341214741,64353.346761855464
+Deaths,Female,30 to 34,Neoplasms,northeast,11.694683493421543,64353.346761855464
+Deaths,Female,30 to 34,Road injuries,northeast,1.033264667342201,64353.346761855464
+Deaths,Female,30 to 34,Stomach cancer,northeast,0.4548002150236522,64353.346761855464
+Deaths,Female,30 to 34,Stroke,northeast,1.5893994194827161,64353.346761855464
+Deaths,Female,30 to 34,"Tracheal, bronchus, and lung cancer",northeast,0.6187033570644439,64353.346761855464
+Deaths,Female,30 to 34,Uterine cancer,northeast,0.05558614588649749,64353.346761855464
+Deaths,Female,35 to 39,All causes,northeast,45.87455621140023,60596.79760233317
+Deaths,Female,35 to 39,Breast cancer,northeast,5.384959738124412,60596.79760233317
+Deaths,Female,35 to 39,Cardiovascular diseases,northeast,5.7944040649374795,60596.79760233317
+Deaths,Female,35 to 39,Chronic obstructive pulmonary disease,northeast,0.34134933564194386,60596.79760233317
+Deaths,Female,35 to 39,Colon and rectum cancer,northeast,1.163987340985058,60596.79760233317
+Deaths,Female,35 to 39,Diabetes mellitus type 2,northeast,0.08845630858804536,60596.79760233317
+Deaths,Female,35 to 39,Ischemic heart disease,northeast,1.7807939965906865,60596.79760233317
+Deaths,Female,35 to 39,Liver cancer,northeast,0.2710084864575451,60596.79760233317
+Deaths,Female,35 to 39,Lower respiratory infections,northeast,1.1942497885826582,60596.79760233317
+Deaths,Female,35 to 39,Neoplasms,northeast,16.892922139711864,60596.79760233317
+Deaths,Female,35 to 39,Road injuries,northeast,0.7793196518693155,60596.79760233317
+Deaths,Female,35 to 39,Stomach cancer,northeast,0.612362513069312,60596.79760233317
+Deaths,Female,35 to 39,Stroke,northeast,2.150121926596166,60596.79760233317
+Deaths,Female,35 to 39,"Tracheal, bronchus, and lung cancer",northeast,1.1462270369521241,60596.79760233317
+Deaths,Female,35 to 39,Uterine cancer,northeast,0.0931360188286289,60596.79760233317
+Deaths,Female,40 to 44,All causes,northeast,64.94078294662275,58144.53375450181
+Deaths,Female,40 to 44,Breast cancer,northeast,8.7981165898305,58144.53375450181
+Deaths,Female,40 to 44,Cardiovascular diseases,northeast,8.854632174028984,58144.53375450181
+Deaths,Female,40 to 44,Chronic obstructive pulmonary disease,northeast,0.8837065896724081,58144.53375450181
+Deaths,Female,40 to 44,Colon and rectum cancer,northeast,1.9268529424675676,58144.53375450181
+Deaths,Female,40 to 44,Diabetes mellitus type 2,northeast,0.11627145607525172,58144.53375450181
+Deaths,Female,40 to 44,Ischemic heart disease,northeast,3.1336263466832754,58144.53375450181
+Deaths,Female,40 to 44,Liver cancer,northeast,0.42855379555706125,58144.53375450181
+Deaths,Female,40 to 44,Lower respiratory infections,northeast,1.7137376002910683,58144.53375450181
+Deaths,Female,40 to 44,Neoplasms,northeast,27.33402896424966,58144.53375450181
+Deaths,Female,40 to 44,Road injuries,northeast,0.7215408406079921,58144.53375450181
+Deaths,Female,40 to 44,Stomach cancer,northeast,1.0002633209222094,58144.53375450181
+Deaths,Female,40 to 44,Stroke,northeast,3.0072611996845398,58144.53375450181
+Deaths,Female,40 to 44,"Tracheal, bronchus, and lung cancer",northeast,3.1072784860505465,58144.53375450181
+Deaths,Female,40 to 44,Uterine cancer,northeast,0.20517446466666617,58144.53375450181
+Deaths,Female,45 to 49,All causes,northeast,149.8061715609177,69193.70873791545
+Deaths,Female,45 to 49,Breast cancer,northeast,21.466544931943407,69193.70873791545
+Deaths,Female,45 to 49,Cardiovascular diseases,northeast,21.73614870594053,69193.70873791545
+Deaths,Female,45 to 49,Chronic obstructive pulmonary disease,northeast,2.894128169348006,69193.70873791545
+Deaths,Female,45 to 49,Colon and rectum cancer,northeast,5.28397128143157,69193.70873791545
+Deaths,Female,45 to 49,Diabetes mellitus type 2,northeast,0.6209527478382912,69193.70873791545
+Deaths,Female,45 to 49,Ischemic heart disease,northeast,8.757057116391376,69193.70873791545
+Deaths,Female,45 to 49,Liver cancer,northeast,1.1750607699947822,69193.70873791545
+Deaths,Female,45 to 49,Lower respiratory infections,northeast,3.5871491624029264,69193.70873791545
+Deaths,Female,45 to 49,Neoplasms,northeast,71.29754125933542,69193.70873791545
+Deaths,Female,45 to 49,Road injuries,northeast,1.138073840515683,69193.70873791545
+Deaths,Female,45 to 49,Stomach cancer,northeast,2.038009891821954,69193.70873791545
+Deaths,Female,45 to 49,Stroke,northeast,6.872372473422532,69193.70873791545
+Deaths,Female,45 to 49,"Tracheal, bronchus, and lung cancer",northeast,12.079102510269992,69193.70873791545
+Deaths,Female,45 to 49,Uterine cancer,northeast,0.6886896491222758,69193.70873791545
+Deaths,Female,5 to 9,All causes,northeast,2.601160638971089,54912.185796990816
+Deaths,Female,5 to 9,Cardiovascular diseases,northeast,0.08819585657151799,54912.185796990816
+Deaths,Female,5 to 9,Chronic obstructive pulmonary disease,northeast,0.01799764839503101,54912.185796990816
+Deaths,Female,5 to 9,Liver cancer,northeast,0.00964009172014764,54912.185796990816
+Deaths,Female,5 to 9,Lower respiratory infections,northeast,0.10960246229698212,54912.185796990816
+Deaths,Female,5 to 9,Neoplasms,northeast,0.8879421314567584,54912.185796990816
+Deaths,Female,5 to 9,Road injuries,northeast,0.18059638242340373,54912.185796990816
+Deaths,Female,5 to 9,Stroke,northeast,0.027913824584495435,54912.185796990816
+Deaths,Female,50 to 54,All causes,northeast,204.51537847831054,73876.08982004185
+Deaths,Female,50 to 54,Breast cancer,northeast,27.034214890625783,73876.08982004185
+Deaths,Female,50 to 54,Cardiovascular diseases,northeast,30.008933246654223,73876.08982004185
+Deaths,Female,50 to 54,Chronic obstructive pulmonary disease,northeast,7.044305274086542,73876.08982004185
+Deaths,Female,50 to 54,Colon and rectum cancer,northeast,8.04813610738385,73876.08982004185
+Deaths,Female,50 to 54,Diabetes mellitus type 2,northeast,0.801605540153866,73876.08982004185
+Deaths,Female,50 to 54,Ischemic heart disease,northeast,13.250364500843634,73876.08982004185
+Deaths,Female,50 to 54,Liver cancer,northeast,2.122623091522078,73876.08982004185
+Deaths,Female,50 to 54,Lower respiratory infections,northeast,5.172256011211836,73876.08982004185
+Deaths,Female,50 to 54,Neoplasms,northeast,106.88001664236702,73876.08982004185
+Deaths,Female,50 to 54,Road injuries,northeast,1.042026007464169,73876.08982004185
+Deaths,Female,50 to 54,Stomach cancer,northeast,2.87460933809999,73876.08982004185
+Deaths,Female,50 to 54,Stroke,northeast,9.268026230239968,73876.08982004185
+Deaths,Female,50 to 54,"Tracheal, bronchus, and lung cancer",northeast,23.20966354248746,73876.08982004185
+Deaths,Female,50 to 54,Uterine cancer,northeast,1.3838116824135367,73876.08982004185
+Deaths,Female,55 to 59,All causes,northeast,329.8301831451972,69850.25199651036
+Deaths,Female,55 to 59,Breast cancer,northeast,34.80047996827129,69850.25199651036
+Deaths,Female,55 to 59,Cardiovascular diseases,northeast,51.46508730502914,69850.25199651036
+Deaths,Female,55 to 59,Chronic obstructive pulmonary disease,northeast,17.696842591491105,69850.25199651036
+Deaths,Female,55 to 59,Colon and rectum cancer,northeast,14.214087537844705,69850.25199651036
+Deaths,Female,55 to 59,Diabetes mellitus type 2,northeast,1.3658631080423331,69850.25199651036
+Deaths,Female,55 to 59,Ischemic heart disease,northeast,24.753892378259227,69850.25199651036
+Deaths,Female,55 to 59,Liver cancer,northeast,3.771519894665094,69850.25199651036
+Deaths,Female,55 to 59,Lower respiratory infections,northeast,8.004409035300663,69850.25199651036
+Deaths,Female,55 to 59,Neoplasms,northeast,178.59061534881917,69850.25199651036
+Deaths,Female,55 to 59,Road injuries,northeast,1.1961061339544325,69850.25199651036
+Deaths,Female,55 to 59,Stomach cancer,northeast,4.948787392502916,69850.25199651036
+Deaths,Female,55 to 59,Stroke,northeast,14.158362254645269,69850.25199651036
+Deaths,Female,55 to 59,"Tracheal, bronchus, and lung cancer",northeast,47.44765877617297,69850.25199651036
+Deaths,Female,55 to 59,Uterine cancer,northeast,3.137185298287484,69850.25199651036
+Deaths,Female,60 to 64,All causes,northeast,471.70846779501983,61124.1347798415
+Deaths,Female,60 to 64,Breast cancer,northeast,37.357422213235445,61124.1347798415
+Deaths,Female,60 to 64,Cardiovascular diseases,northeast,80.27844375341772,61124.1347798415
+Deaths,Female,60 to 64,Chronic obstructive pulmonary disease,northeast,36.30102411126748,61124.1347798415
+Deaths,Female,60 to 64,Colon and rectum cancer,northeast,19.10447319335628,61124.1347798415
+Deaths,Female,60 to 64,Diabetes mellitus type 2,northeast,2.266134858594449,61124.1347798415
+Deaths,Female,60 to 64,Ischemic heart disease,northeast,40.17676004679906,61124.1347798415
+Deaths,Female,60 to 64,Liver cancer,northeast,5.399505801335921,61124.1347798415
+Deaths,Female,60 to 64,Lower respiratory infections,northeast,11.804546848931235,61124.1347798415
+Deaths,Female,60 to 64,Neoplasms,northeast,253.0071429773904,61124.1347798415
+Deaths,Female,60 to 64,Road injuries,northeast,1.187944745677,61124.1347798415
+Deaths,Female,60 to 64,Stomach cancer,northeast,6.989767996191136,61124.1347798415
+Deaths,Female,60 to 64,Stroke,northeast,19.591706133903525,61124.1347798415
+Deaths,Female,60 to 64,"Tracheal, bronchus, and lung cancer",northeast,80.21903501836556,61124.1347798415
+Deaths,Female,60 to 64,Uterine cancer,northeast,5.087319520044966,61124.1347798415
+Deaths,Female,65 to 69,All causes,northeast,686.782418709258,61112.462718279654
+Deaths,Female,65 to 69,Breast cancer,northeast,42.141639774073084,61112.462718279654
+Deaths,Female,65 to 69,Cardiovascular diseases,northeast,128.9639108574622,61112.462718279654
+Deaths,Female,65 to 69,Chronic obstructive pulmonary disease,northeast,67.48206945877251,61112.462718279654
+Deaths,Female,65 to 69,Colon and rectum cancer,northeast,26.152307524639795,61112.462718279654
+Deaths,Female,65 to 69,Diabetes mellitus type 2,northeast,3.4104563174387597,61112.462718279654
+Deaths,Female,65 to 69,Ischemic heart disease,northeast,62.72603567832946,61112.462718279654
+Deaths,Female,65 to 69,Liver cancer,northeast,7.928140263478374,61112.462718279654
+Deaths,Female,65 to 69,Lower respiratory infections,northeast,17.97899126315326,61112.462718279654
+Deaths,Female,65 to 69,Neoplasms,northeast,345.7559656277496,61112.462718279654
+Deaths,Female,65 to 69,Road injuries,northeast,1.4662972486535333,61112.462718279654
+Deaths,Female,65 to 69,Stomach cancer,northeast,10.04390541865843,61112.462718279654
+Deaths,Female,65 to 69,Stroke,northeast,32.077679426554916,61112.462718279654
+Deaths,Female,65 to 69,"Tracheal, bronchus, and lung cancer",northeast,115.24715243232028,61112.462718279654
+Deaths,Female,65 to 69,Uterine cancer,northeast,7.571690357280152,61112.462718279654
+Deaths,Female,70 to 74,All causes,northeast,971.4311586873337,49777.75714130184
+Deaths,Female,70 to 74,Breast cancer,northeast,45.33051193321013,49777.75714130184
+Deaths,Female,70 to 74,Cardiovascular diseases,northeast,215.1440550966068,49777.75714130184
+Deaths,Female,70 to 74,Chronic obstructive pulmonary disease,northeast,105.98758577674101,49777.75714130184
+Deaths,Female,70 to 74,Colon and rectum cancer,northeast,35.06480854053826,49777.75714130184
+Deaths,Female,70 to 74,Diabetes mellitus type 2,northeast,5.985187188321928,49777.75714130184
+Deaths,Female,70 to 74,Ischemic heart disease,northeast,98.5654433973712,49777.75714130184
+Deaths,Female,70 to 74,Liver cancer,northeast,10.57226676788318,49777.75714130184
+Deaths,Female,70 to 74,Lower respiratory infections,northeast,32.506339645651366,49777.75714130184
+Deaths,Female,70 to 74,Neoplasms,northeast,425.22708040734386,49777.75714130184
+Deaths,Female,70 to 74,Road injuries,northeast,1.790649631517529,49777.75714130184
+Deaths,Female,70 to 74,Stomach cancer,northeast,14.577463663036115,49777.75714130184
+Deaths,Female,70 to 74,Stroke,northeast,58.56872321995242,49777.75714130184
+Deaths,Female,70 to 74,"Tracheal, bronchus, and lung cancer",northeast,142.69838775958954,49777.75714130184
+Deaths,Female,70 to 74,Uterine cancer,northeast,8.899271147958677,49777.75714130184
+Deaths,Female,75 to 79,All causes,northeast,1281.6787912743473,38642.98797721428
+Deaths,Female,75 to 79,Breast cancer,northeast,46.90917986120171,38642.98797721428
+Deaths,Female,75 to 79,Cardiovascular diseases,northeast,330.3973829957477,38642.98797721428
+Deaths,Female,75 to 79,Chronic obstructive pulmonary disease,northeast,138.46567451675327,38642.98797721428
+Deaths,Female,75 to 79,Colon and rectum cancer,northeast,43.14945580137562,38642.98797721428
+Deaths,Female,75 to 79,Diabetes mellitus type 2,northeast,8.30179376060842,38642.98797721428
+Deaths,Female,75 to 79,Ischemic heart disease,northeast,145.64341590719943,38642.98797721428
+Deaths,Female,75 to 79,Liver cancer,northeast,12.396769994075463,38642.98797721428
+Deaths,Female,75 to 79,Lower respiratory infections,northeast,55.59286745618583,38642.98797721428
+Deaths,Female,75 to 79,Neoplasms,northeast,450.13808427656005,38642.98797721428
+Deaths,Female,75 to 79,Road injuries,northeast,2.1370518687714353,38642.98797721428
+Deaths,Female,75 to 79,Stomach cancer,northeast,19.635866675968018,38642.98797721428
+Deaths,Female,75 to 79,Stroke,northeast,97.8847263392518,38642.98797721428
+Deaths,Female,75 to 79,"Tracheal, bronchus, and lung cancer",northeast,142.15402105652709,38642.98797721428
+Deaths,Female,75 to 79,Uterine cancer,northeast,8.19310790700776,38642.98797721428
+Deaths,Female,80 to 84,All causes,northeast,1780.1061423896695,29683.561850824535
+Deaths,Female,80 to 84,Breast cancer,northeast,51.929400599983666,29683.561850824535
+Deaths,Female,80 to 84,Cardiovascular diseases,northeast,519.2803173317068,29683.561850824535
+Deaths,Female,80 to 84,Chronic obstructive pulmonary disease,northeast,174.21147349538245,29683.561850824535
+Deaths,Female,80 to 84,Colon and rectum cancer,northeast,51.12084195318096,29683.561850824535
+Deaths,Female,80 to 84,Diabetes mellitus type 2,northeast,13.38460528630724,29683.561850824535
+Deaths,Female,80 to 84,Ischemic heart disease,northeast,216.64972769766882,29683.561850824535
+Deaths,Female,80 to 84,Liver cancer,northeast,12.799744235557208,29683.561850824535
+Deaths,Female,80 to 84,Lower respiratory infections,northeast,106.13359259765978,29683.561850824535
+Deaths,Female,80 to 84,Neoplasms,northeast,461.88673990952964,29683.561850824535
+Deaths,Female,80 to 84,Road injuries,northeast,2.373380769017317,29683.561850824535
+Deaths,Female,80 to 84,Stomach cancer,northeast,24.41596301783302,29683.561850824535
+Deaths,Female,80 to 84,Stroke,northeast,165.68584543373785,29683.561850824535
+Deaths,Female,80 to 84,"Tracheal, bronchus, and lung cancer",northeast,129.25534444010944,29683.561850824535
+Deaths,Female,80 to 84,Uterine cancer,northeast,7.580881942398624,29683.561850824535
+Deaths,Female,85 to 89,All causes,northeast,2114.050478916319,18720.219261686427
+Deaths,Female,85 to 89,Breast cancer,northeast,51.413770862088796,18720.219261686427
+Deaths,Female,85 to 89,Cardiovascular diseases,northeast,661.6124085066135,18720.219261686427
+Deaths,Female,85 to 89,Chronic obstructive pulmonary disease,northeast,157.22277390195745,18720.219261686427
+Deaths,Female,85 to 89,Colon and rectum cancer,northeast,50.63277902757282,18720.219261686427
+Deaths,Female,85 to 89,Diabetes mellitus type 2,northeast,16.055575626588123,18720.219261686427
+Deaths,Female,85 to 89,Ischemic heart disease,northeast,270.3301710955439,18720.219261686427
+Deaths,Female,85 to 89,Liver cancer,northeast,10.6152049261448,18720.219261686427
+Deaths,Female,85 to 89,Lower respiratory infections,northeast,189.63287250015364,18720.219261686427
+Deaths,Female,85 to 89,Neoplasms,northeast,385.61017739297836,18720.219261686427
+Deaths,Female,85 to 89,Road injuries,northeast,1.741461250444525,18720.219261686427
+Deaths,Female,85 to 89,Stomach cancer,northeast,21.661170415158644,18720.219261686427
+Deaths,Female,85 to 89,Stroke,northeast,222.72277014779644,18720.219261686427
+Deaths,Female,85 to 89,"Tracheal, bronchus, and lung cancer",northeast,87.84852748653242,18720.219261686427
+Deaths,Female,85 to 89,Uterine cancer,northeast,5.835686117242504,18720.219261686427
+Deaths,Female,90 to 94,All causes,northeast,1672.0475010790278,8882.311712590435
+Deaths,Female,90 to 94,Breast cancer,northeast,32.30850588533331,8882.311712590435
+Deaths,Female,90 to 94,Cardiovascular diseases,northeast,545.9701154242858,8882.311712590435
+Deaths,Female,90 to 94,Chronic obstructive pulmonary disease,northeast,111.26095556459325,8882.311712590435
+Deaths,Female,90 to 94,Colon and rectum cancer,northeast,33.17920701984127,8882.311712590435
+Deaths,Female,90 to 94,Diabetes mellitus type 2,northeast,12.390266972248545,8882.311712590435
+Deaths,Female,90 to 94,Ischemic heart disease,northeast,223.6780458756209,8882.311712590435
+Deaths,Female,90 to 94,Liver cancer,northeast,5.28935432901111,8882.311712590435
+Deaths,Female,90 to 94,Lower respiratory infections,northeast,162.59582391398072,8882.311712590435
+Deaths,Female,90 to 94,Neoplasms,northeast,219.84528974020688,8882.311712590435
+Deaths,Female,90 to 94,Road injuries,northeast,1.0500610010892673,8882.311712590435
+Deaths,Female,90 to 94,Stomach cancer,northeast,14.645646011557485,8882.311712590435
+Deaths,Female,90 to 94,Stroke,northeast,185.596156291858,8882.311712590435
+Deaths,Female,90 to 94,"Tracheal, bronchus, and lung cancer",northeast,41.336121953807556,8882.311712590435
+Deaths,Female,90 to 94,Uterine cancer,northeast,2.9841722672871307,8882.311712590435
+Deaths,Female,95 to 99,All causes,northeast,870.8248647398815,2635.090675361876
+Deaths,Female,95 to 99,Breast cancer,northeast,13.515362038879914,2635.090675361876
+Deaths,Female,95 to 99,Cardiovascular diseases,northeast,291.04766231896275,2635.090675361876
+Deaths,Female,95 to 99,Chronic obstructive pulmonary disease,northeast,56.56339847813591,2635.090675361876
+Deaths,Female,95 to 99,Colon and rectum cancer,northeast,13.113974846761963,2635.090675361876
+Deaths,Female,95 to 99,Diabetes mellitus type 2,northeast,6.4711878928554105,2635.090675361876
+Deaths,Female,95 to 99,Ischemic heart disease,northeast,120.57982161323366,2635.090675361876
+Deaths,Female,95 to 99,Liver cancer,northeast,1.8610649137728903,2635.090675361876
+Deaths,Female,95 to 99,Lower respiratory infections,northeast,98.92257119822064,2635.090675361876
+Deaths,Female,95 to 99,Neoplasms,northeast,83.73487825693206,2635.090675361876
+Deaths,Female,95 to 99,Road injuries,northeast,0.4783159650819367,2635.090675361876
+Deaths,Female,95 to 99,Stomach cancer,northeast,6.293006742811575,2635.090675361876
+Deaths,Female,95 to 99,Stroke,northeast,102.5915631502664,2635.090675361876
+Deaths,Female,95 to 99,"Tracheal, bronchus, and lung cancer",northeast,13.667893934013955,2635.090675361876
+Deaths,Female,95 to 99,Uterine cancer,northeast,1.026571970888755,2635.090675361876
+Deaths,Female,0 to 4,All causes,northeast,38.26299856138416,52010.0308860931
+Deaths,Female,0 to 4,Cardiovascular diseases,northeast,0.5414774944331081,52010.0308860931
+Deaths,Female,0 to 4,Chronic obstructive pulmonary disease,northeast,0.04879953276176005,52010.0308860931
+Deaths,Female,0 to 4,Lower respiratory infections,northeast,1.4853860743465104,52010.0308860931
+Deaths,Female,0 to 4,Neoplasms,northeast,1.385891003095389,52010.0308860931
+Deaths,Female,0 to 4,Road injuries,northeast,0.26455124775620875,52010.0308860931
+Deaths,Female,0 to 4,Stroke,northeast,0.10214230766496678,52010.0308860931
+Deaths,Male,10 to 14,All causes,northeast,5.608988794145821,53796.428327041736
+Deaths,Male,10 to 14,Cardiovascular diseases,northeast,0.24892184575971857,53796.428327041736
+Deaths,Male,10 to 14,Chronic obstructive pulmonary disease,northeast,0.011861565065810625,53796.428327041736
+Deaths,Male,10 to 14,Liver cancer,northeast,0.02948198807167137,53796.428327041736
+Deaths,Male,10 to 14,Lower respiratory infections,northeast,0.1422746248310087,53796.428327041736
+Deaths,Male,10 to 14,Neoplasms,northeast,1.4632262889260959,53796.428327041736
+Deaths,Male,10 to 14,Road injuries,northeast,0.663040527420855,53796.428327041736
+Deaths,Male,10 to 14,Stroke,northeast,0.07608295093370955,53796.428327041736
+Deaths,Male,15 to 19,All causes,northeast,17.87584357321439,55901.84476032211
+Deaths,Male,15 to 19,Breast cancer,northeast,0.00529063079262089,55901.84476032211
+Deaths,Male,15 to 19,Cardiovascular diseases,northeast,0.8079550358663096,55901.84476032211
+Deaths,Male,15 to 19,Chronic obstructive pulmonary disease,northeast,0.04283356077898301,55901.84476032211
+Deaths,Male,15 to 19,Colon and rectum cancer,northeast,0.027559713157241927,55901.84476032211
+Deaths,Male,15 to 19,Diabetes mellitus type 2,northeast,0.005036818960518215,55901.84476032211
+Deaths,Male,15 to 19,Ischemic heart disease,northeast,0.07161522757988417,55901.84476032211
+Deaths,Male,15 to 19,Liver cancer,northeast,0.049769236671644686,55901.84476032211
+Deaths,Male,15 to 19,Lower respiratory infections,northeast,0.2527234398340599,55901.84476032211
+Deaths,Male,15 to 19,Neoplasms,northeast,2.377118329508218,55901.84476032211
+Deaths,Male,15 to 19,Road injuries,northeast,4.003779169931789,55901.84476032211
+Deaths,Male,15 to 19,Stomach cancer,northeast,0.012799197702907696,55901.84476032211
+Deaths,Male,15 to 19,Stroke,northeast,0.22014551210203467,55901.84476032211
+Deaths,Male,15 to 19,"Tracheal, bronchus, and lung cancer",northeast,0.010239875802266324,55901.84476032211
+Deaths,Male,20 to 24,All causes,northeast,38.850227563333114,65306.75661389835
+Deaths,Male,20 to 24,Breast cancer,northeast,0.006382582853030565,65306.75661389835
+Deaths,Male,20 to 24,Cardiovascular diseases,northeast,1.8511633902910138,65306.75661389835
+Deaths,Male,20 to 24,Chronic obstructive pulmonary disease,northeast,0.07598275663866176,65306.75661389835
+Deaths,Male,20 to 24,Colon and rectum cancer,northeast,0.12481815598693,65306.75661389835
+Deaths,Male,20 to 24,Diabetes mellitus type 2,northeast,0.012290732203687291,65306.75661389835
+Deaths,Male,20 to 24,Ischemic heart disease,northeast,0.3196365483640907,65306.75661389835
+Deaths,Male,20 to 24,Liver cancer,northeast,0.10031887680061581,65306.75661389835
+Deaths,Male,20 to 24,Lower respiratory infections,northeast,0.4619852838447913,65306.75661389835
+Deaths,Male,20 to 24,Neoplasms,northeast,3.7110503825236396,65306.75661389835
+Deaths,Male,20 to 24,Road injuries,northeast,6.9464536199542355,65306.75661389835
+Deaths,Male,20 to 24,Stomach cancer,northeast,0.04388125723096658,65306.75661389835
+Deaths,Male,20 to 24,Stroke,northeast,0.5110941935150288,65306.75661389835
+Deaths,Male,20 to 24,"Tracheal, bronchus, and lung cancer",northeast,0.05352032817582777,65306.75661389835
+Deaths,Male,25 to 29,All causes,northeast,52.68454783073676,70082.62182224028
+Deaths,Male,25 to 29,Breast cancer,northeast,0.009754013809257044,70082.62182224028
+Deaths,Male,25 to 29,Cardiovascular diseases,northeast,3.787357571936358,70082.62182224028
+Deaths,Male,25 to 29,Chronic obstructive pulmonary disease,northeast,0.1092868679978615,70082.62182224028
+Deaths,Male,25 to 29,Colon and rectum cancer,northeast,0.38970323259172024,70082.62182224028
+Deaths,Male,25 to 29,Diabetes mellitus type 2,northeast,0.022949003856553504,70082.62182224028
+Deaths,Male,25 to 29,Ischemic heart disease,northeast,1.1554693092547768,70082.62182224028
+Deaths,Male,25 to 29,Liver cancer,northeast,0.18428360887351547,70082.62182224028
+Deaths,Male,25 to 29,Lower respiratory infections,northeast,0.8017294465679784,70082.62182224028
+Deaths,Male,25 to 29,Neoplasms,northeast,5.7800650143102175,70082.62182224028
+Deaths,Male,25 to 29,Road injuries,northeast,5.99916359692703,70082.62182224028
+Deaths,Male,25 to 29,Stomach cancer,northeast,0.14070313684756972,70082.62182224028
+Deaths,Male,25 to 29,Stroke,northeast,0.9650630311646015,70082.62182224028
+Deaths,Male,25 to 29,"Tracheal, bronchus, and lung cancer",northeast,0.13926632818477586,70082.62182224028
+Deaths,Male,30 to 34,All causes,northeast,83.51802899979593,64692.30640787352
+Deaths,Male,30 to 34,Breast cancer,northeast,0.021726128948463447,64692.30640787352
+Deaths,Male,30 to 34,Cardiovascular diseases,northeast,8.615299811574035,64692.30640787352
+Deaths,Male,30 to 34,Chronic obstructive pulmonary disease,northeast,0.2299270475834901,64692.30640787352
+Deaths,Male,30 to 34,Colon and rectum cancer,northeast,1.158952602253432,64692.30640787352
+Deaths,Male,30 to 34,Diabetes mellitus type 2,northeast,0.12078796769419142,64692.30640787352
+Deaths,Male,30 to 34,Ischemic heart disease,northeast,3.6077775366687885,64692.30640787352
+Deaths,Male,30 to 34,Liver cancer,northeast,0.42024263436461756,64692.30640787352
+Deaths,Male,30 to 34,Lower respiratory infections,northeast,1.5753255512244728,64692.30640787352
+Deaths,Male,30 to 34,Neoplasms,northeast,10.74955383376527,64692.30640787352
+Deaths,Male,30 to 34,Road injuries,northeast,5.333433362811574,64692.30640787352
+Deaths,Male,30 to 34,Stomach cancer,northeast,0.45194654296055975,64692.30640787352
+Deaths,Male,30 to 34,Stroke,northeast,1.9370755038645846,64692.30640787352
+Deaths,Male,30 to 34,"Tracheal, bronchus, and lung cancer",northeast,0.5802417241251339,64692.30640787352
+Deaths,Male,35 to 39,All causes,northeast,102.82581311280087,62017.13094879038
+Deaths,Male,35 to 39,Breast cancer,northeast,0.048226622213121836,62017.13094879038
+Deaths,Male,35 to 39,Cardiovascular diseases,northeast,15.709038012703273,62017.13094879038
+Deaths,Male,35 to 39,Chronic obstructive pulmonary disease,northeast,0.5330149733510885,62017.13094879038
+Deaths,Male,35 to 39,Colon and rectum cancer,northeast,1.8803517186251943,62017.13094879038
+Deaths,Male,35 to 39,Diabetes mellitus type 2,northeast,0.17255625189219415,62017.13094879038
+Deaths,Male,35 to 39,Ischemic heart disease,northeast,8.259124656318324,62017.13094879038
+Deaths,Male,35 to 39,Liver cancer,northeast,0.49948451644831754,62017.13094879038
+Deaths,Male,35 to 39,Lower respiratory infections,northeast,2.2290614991540285,62017.13094879038
+Deaths,Male,35 to 39,Neoplasms,northeast,16.053472379270023,62017.13094879038
+Deaths,Male,35 to 39,Road injuries,northeast,4.363646792821224,62017.13094879038
+Deaths,Male,35 to 39,Stomach cancer,northeast,0.8844847771678234,62017.13094879038
+Deaths,Male,35 to 39,Stroke,northeast,3.181872030320676,62017.13094879038
+Deaths,Male,35 to 39,"Tracheal, bronchus, and lung cancer",northeast,1.6202067863780567,62017.13094879038
+Deaths,Male,40 to 44,All causes,northeast,121.90301630181135,57335.64548046225
+Deaths,Male,40 to 44,Breast cancer,northeast,0.07058827767785096,57335.64548046225
+Deaths,Male,40 to 44,Cardiovascular diseases,northeast,25.314729316971352,57335.64548046225
+Deaths,Male,40 to 44,Chronic obstructive pulmonary disease,northeast,1.3071114921249825,57335.64548046225
+Deaths,Male,40 to 44,Colon and rectum cancer,northeast,2.754238714427699,57335.64548046225
+Deaths,Male,40 to 44,Diabetes mellitus type 2,northeast,0.2203959029332453,57335.64548046225
+Deaths,Male,40 to 44,Ischemic heart disease,northeast,14.988097459921825,57335.64548046225
+Deaths,Male,40 to 44,Liver cancer,northeast,0.8490916651893937,57335.64548046225
+Deaths,Male,40 to 44,Lower respiratory infections,northeast,2.8603435532324255,57335.64548046225
+Deaths,Male,40 to 44,Neoplasms,northeast,24.374648242411745,57335.64548046225
+Deaths,Male,40 to 44,Road injuries,northeast,3.5372836353773214,57335.64548046225
+Deaths,Male,40 to 44,Stomach cancer,northeast,1.4056905390632852,57335.64548046225
+Deaths,Male,40 to 44,Stroke,northeast,4.491502688944545,57335.64548046225
+Deaths,Male,40 to 44,"Tracheal, bronchus, and lung cancer",northeast,3.776203403143281,57335.64548046225
+Deaths,Male,45 to 49,All causes,northeast,186.67609122360773,66834.60258599711
+Deaths,Male,45 to 49,Breast cancer,northeast,0.1274167757945375,66834.60258599711
+Deaths,Male,45 to 49,Cardiovascular diseases,northeast,47.79903367776502,66834.60258599711
+Deaths,Male,45 to 49,Chronic obstructive pulmonary disease,northeast,2.9233140768927135,66834.60258599711
+Deaths,Male,45 to 49,Colon and rectum cancer,northeast,5.56969696959343,66834.60258599711
+Deaths,Male,45 to 49,Diabetes mellitus type 2,northeast,0.866250539799495,66834.60258599711
+Deaths,Male,45 to 49,Ischemic heart disease,northeast,30.945910972565482,66834.60258599711
+Deaths,Male,45 to 49,Liver cancer,northeast,1.9149274606612197,66834.60258599711
+Deaths,Male,45 to 49,Lower respiratory infections,northeast,4.646873394837007,66834.60258599711
+Deaths,Male,45 to 49,Neoplasms,northeast,49.82343456287046,66834.60258599711
+Deaths,Male,45 to 49,Road injuries,northeast,3.447897208017688,66834.60258599711
+Deaths,Male,45 to 49,Stomach cancer,northeast,2.8279870829823848,66834.60258599711
+Deaths,Male,45 to 49,Stroke,northeast,7.561475227842211,66834.60258599711
+Deaths,Male,45 to 49,"Tracheal, bronchus, and lung cancer",northeast,10.04648523876412,66834.60258599711
+Deaths,Male,5 to 9,All causes,northeast,2.5760475752688987,58029.57477945244
+Deaths,Male,5 to 9,Cardiovascular diseases,northeast,0.07167534772255256,58029.57477945244
+Deaths,Male,5 to 9,Chronic obstructive pulmonary disease,northeast,0.00620785667658442,58029.57477945244
+Deaths,Male,5 to 9,Liver cancer,northeast,0.012370162121089637,58029.57477945244
+Deaths,Male,5 to 9,Lower respiratory infections,northeast,0.09374162723829593,58029.57477945244
+Deaths,Male,5 to 9,Neoplasms,northeast,0.903189853049893,58029.57477945244
+Deaths,Male,5 to 9,Road injuries,northeast,0.22479486686127179,58029.57477945244
+Deaths,Male,5 to 9,Stroke,northeast,0.021165303938548076,58029.57477945244
+Deaths,Male,50 to 54,All causes,northeast,274.39326129234087,71399.47717070093
+Deaths,Male,50 to 54,Breast cancer,northeast,0.22546366880220015,71399.47717070093
+Deaths,Male,50 to 54,Cardiovascular diseases,northeast,76.82340776043337,71399.47717070093
+Deaths,Male,50 to 54,Chronic obstructive pulmonary disease,northeast,6.67045118404948,71399.47717070093
+Deaths,Male,50 to 54,Colon and rectum cancer,northeast,10.409110248345486,71399.47717070093
+Deaths,Male,50 to 54,Diabetes mellitus type 2,northeast,1.1809752542062233,71399.47717070093
+Deaths,Male,50 to 54,Ischemic heart disease,northeast,52.21214553692334,71399.47717070093
+Deaths,Male,50 to 54,Liver cancer,northeast,3.805746770136291,71399.47717070093
+Deaths,Male,50 to 54,Lower respiratory infections,northeast,6.998020049815346,71399.47717070093
+Deaths,Male,50 to 54,Neoplasms,northeast,94.00143427918188,71399.47717070093
+Deaths,Male,50 to 54,Road injuries,northeast,3.277568031070839,71399.47717070093
+Deaths,Male,50 to 54,Stomach cancer,northeast,4.878163331788863,71399.47717070093
+Deaths,Male,50 to 54,Stroke,northeast,11.11993803880264,71399.47717070093
+Deaths,Male,50 to 54,"Tracheal, bronchus, and lung cancer",northeast,22.23506649813928,71399.47717070093
+Deaths,Male,55 to 59,All causes,northeast,413.5960215933266,66661.58010594398
+Deaths,Male,55 to 59,Breast cancer,northeast,0.3813864344571563,66661.58010594398
+Deaths,Male,55 to 59,Cardiovascular diseases,northeast,114.613294773721,66661.58010594398
+Deaths,Male,55 to 59,Chronic obstructive pulmonary disease,northeast,15.445330517519142,66661.58010594398
+Deaths,Male,55 to 59,Colon and rectum cancer,northeast,18.52842542924573,66661.58010594398
+Deaths,Male,55 to 59,Diabetes mellitus type 2,northeast,1.7917164669304106,66661.58010594398
+Deaths,Male,55 to 59,Ischemic heart disease,northeast,78.37214245267793,66661.58010594398
+Deaths,Male,55 to 59,Liver cancer,northeast,6.983094594484033,66661.58010594398
+Deaths,Male,55 to 59,Lower respiratory infections,northeast,9.96126109057099,66661.58010594398
+Deaths,Male,55 to 59,Neoplasms,northeast,171.78668650187436,66661.58010594398
+Deaths,Male,55 to 59,Road injuries,northeast,3.071834214122649,66661.58010594398
+Deaths,Male,55 to 59,Stomach cancer,northeast,8.320591500558486,66661.58010594398
+Deaths,Male,55 to 59,Stroke,northeast,15.807071862214702,66661.58010594398
+Deaths,Male,55 to 59,"Tracheal, bronchus, and lung cancer",northeast,46.6340141832838,66661.58010594398
+Deaths,Male,60 to 64,All causes,northeast,639.0694225899965,58604.32746316989
+Deaths,Male,60 to 64,Breast cancer,northeast,0.6810277164065364,58604.32746316989
+Deaths,Male,60 to 64,Cardiovascular diseases,northeast,173.56727255309943,58604.32746316989
+Deaths,Male,60 to 64,Chronic obstructive pulmonary disease,northeast,36.42481512867993,58604.32746316989
+Deaths,Male,60 to 64,Colon and rectum cancer,northeast,31.45433252790675,58604.32746316989
+Deaths,Male,60 to 64,Diabetes mellitus type 2,northeast,3.217348301821706,58604.32746316989
+Deaths,Male,60 to 64,Ischemic heart disease,northeast,115.48957087424245,58604.32746316989
+Deaths,Male,60 to 64,Liver cancer,northeast,11.157731154896068,58604.32746316989
+Deaths,Male,60 to 64,Lower respiratory infections,northeast,15.856879960568243,58604.32746316989
+Deaths,Male,60 to 64,Neoplasms,northeast,291.21484610171825,58604.32746316989
+Deaths,Male,60 to 64,Road injuries,northeast,2.8720538924727705,58604.32746316989
+Deaths,Male,60 to 64,Stomach cancer,northeast,14.129325000987858,58604.32746316989
+Deaths,Male,60 to 64,Stroke,northeast,25.80856672824143,58604.32746316989
+Deaths,Male,60 to 64,"Tracheal, bronchus, and lung cancer",northeast,86.92921435773707,58604.32746316989
+Deaths,Male,65 to 69,All causes,northeast,996.1539885332892,57538.331540254054
+Deaths,Male,65 to 69,Breast cancer,northeast,1.05237928924218,57538.331540254054
+Deaths,Male,65 to 69,Cardiovascular diseases,northeast,271.6685940178888,57538.331540254054
+Deaths,Male,65 to 69,Chronic obstructive pulmonary disease,northeast,69.55036179674848,57538.331540254054
+Deaths,Male,65 to 69,Colon and rectum cancer,northeast,47.60942287562197,57538.331540254054
+Deaths,Male,65 to 69,Diabetes mellitus type 2,northeast,5.2107911683975665,57538.331540254054
+Deaths,Male,65 to 69,Ischemic heart disease,northeast,174.61074758464116,57538.331540254054
+Deaths,Male,65 to 69,Liver cancer,northeast,17.19311317192099,57538.331540254054
+Deaths,Male,65 to 69,Lower respiratory infections,northeast,26.854458981764658,57538.331540254054
+Deaths,Male,65 to 69,Neoplasms,northeast,462.5186176975158,57538.331540254054
+Deaths,Male,65 to 69,Road injuries,northeast,3.007507842836613,57538.331540254054
+Deaths,Male,65 to 69,Stomach cancer,northeast,22.83339714489054,57538.331540254054
+Deaths,Male,65 to 69,Stroke,northeast,44.18234742708748,57538.331540254054
+Deaths,Male,65 to 69,"Tracheal, bronchus, and lung cancer",northeast,144.41281242699668,57538.331540254054
+Deaths,Male,70 to 74,All causes,northeast,1146.958886431091,45817.4726689754
+Deaths,Male,70 to 74,Breast cancer,northeast,1.1807881509315339,45817.4726689754
+Deaths,Male,70 to 74,Cardiovascular diseases,northeast,324.4498631794197,45817.4726689754
+Deaths,Male,70 to 74,Chronic obstructive pulmonary disease,northeast,96.81748356254066,45817.4726689754
+Deaths,Male,70 to 74,Colon and rectum cancer,northeast,51.171282653868815,45817.4726689754
+Deaths,Male,70 to 74,Diabetes mellitus type 2,northeast,6.536539415956688,45817.4726689754
+Deaths,Male,70 to 74,Ischemic heart disease,northeast,196.9349330139484,45817.4726689754
+Deaths,Male,70 to 74,Liver cancer,northeast,16.86641245288503,45817.4726689754
+Deaths,Male,70 to 74,Lower respiratory infections,northeast,36.46642832469625,45817.4726689754
+Deaths,Male,70 to 74,Neoplasms,northeast,496.35380455211816,45817.4726689754
+Deaths,Male,70 to 74,Road injuries,northeast,2.5581320447816007,45817.4726689754
+Deaths,Male,70 to 74,Stomach cancer,northeast,26.67996419143063,45817.4726689754
+Deaths,Male,70 to 74,Stroke,northeast,61.47259805391504,45817.4726689754
+Deaths,Male,70 to 74,"Tracheal, bronchus, and lung cancer",northeast,151.31280203600616,45817.4726689754
+Deaths,Male,75 to 79,All causes,northeast,1520.4374549801896,32140.500841378234
+Deaths,Male,75 to 79,Breast cancer,northeast,1.3049116873086013,32140.500841378234
+Deaths,Male,75 to 79,Cardiovascular diseases,northeast,453.00526516621346,32140.500841378234
+Deaths,Male,75 to 79,Chronic obstructive pulmonary disease,northeast,136.96377811875024,32140.500841378234
+Deaths,Male,75 to 79,Colon and rectum cancer,northeast,58.61625611708125,32140.500841378234
+Deaths,Male,75 to 79,Diabetes mellitus type 2,northeast,9.601074380803741,32140.500841378234
+Deaths,Male,75 to 79,Ischemic heart disease,northeast,257.2610965215822,32140.500841378234
+Deaths,Male,75 to 79,Liver cancer,northeast,17.840301439048446,32140.500841378234
+Deaths,Male,75 to 79,Lower respiratory infections,northeast,62.18057168053331,32140.500841378234
+Deaths,Male,75 to 79,Neoplasms,northeast,567.7852220549751,32140.500841378234
+Deaths,Male,75 to 79,Road injuries,northeast,2.843879948905554,32140.500841378234
+Deaths,Male,75 to 79,Stomach cancer,northeast,34.8162514876383,32140.500841378234
+Deaths,Male,75 to 79,Stroke,northeast,101.07875606860932,32140.500841378234
+Deaths,Male,75 to 79,"Tracheal, bronchus, and lung cancer",northeast,162.41011603166308,32140.500841378234
+Deaths,Male,80 to 84,All causes,northeast,1775.8248186046035,22400.722124819295
+Deaths,Male,80 to 84,Breast cancer,northeast,1.2527147846459707,22400.722124819295
+Deaths,Male,80 to 84,Cardiovascular diseases,northeast,538.2927342440782,22400.722124819295
+Deaths,Male,80 to 84,Chronic obstructive pulmonary disease,northeast,155.41936420651203,22400.722124819295
+Deaths,Male,80 to 84,Colon and rectum cancer,northeast,63.75622227401816,22400.722124819295
+Deaths,Male,80 to 84,Diabetes mellitus type 2,northeast,12.228388984453701,22400.722124819295
+Deaths,Male,80 to 84,Ischemic heart disease,northeast,286.2996084377422,22400.722124819295
+Deaths,Male,80 to 84,Liver cancer,northeast,15.340353391796857,22400.722124819295
+Deaths,Male,80 to 84,Lower respiratory infections,northeast,100.60381294650924,22400.722124819295
+Deaths,Male,80 to 84,Neoplasms,northeast,558.3153885253428,22400.722124819295
+Deaths,Male,80 to 84,Road injuries,northeast,2.796508564013493,22400.722124819295
+Deaths,Male,80 to 84,Stomach cancer,northeast,35.60590264951492,22400.722124819295
+Deaths,Male,80 to 84,Stroke,northeast,138.35591421827192,22400.722124819295
+Deaths,Male,80 to 84,"Tracheal, bronchus, and lung cancer",northeast,141.290239752893,22400.722124819295
+Deaths,Male,85 to 89,All causes,northeast,1683.82109291415,11372.28975612067
+Deaths,Male,85 to 89,Breast cancer,northeast,0.9604843566109167,11372.28975612067
+Deaths,Male,85 to 89,Cardiovascular diseases,northeast,513.8114888431704,11372.28975612067
+Deaths,Male,85 to 89,Chronic obstructive pulmonary disease,northeast,141.14263853588437,11372.28975612067
+Deaths,Male,85 to 89,Colon and rectum cancer,northeast,49.838179383211546,11372.28975612067
+Deaths,Male,85 to 89,Diabetes mellitus type 2,northeast,11.30971022577398,11372.28975612067
+Deaths,Male,85 to 89,Ischemic heart disease,northeast,259.13017575166896,11372.28975612067
+Deaths,Male,85 to 89,Liver cancer,northeast,9.893940836987191,11372.28975612067
+Deaths,Male,85 to 89,Lower respiratory infections,northeast,144.1992174070604,11372.28975612067
+Deaths,Male,85 to 89,Neoplasms,northeast,421.33902662560104,11372.28975612067
+Deaths,Male,85 to 89,Road injuries,northeast,2.048591136129756,11372.28975612067
+Deaths,Male,85 to 89,Stomach cancer,northeast,26.2700265628629,11372.28975612067
+Deaths,Male,85 to 89,Stroke,northeast,144.19542099816695,11372.28975612067
+Deaths,Male,85 to 89,"Tracheal, bronchus, and lung cancer",northeast,92.7444705204426,11372.28975612067
+Deaths,Male,90 to 94,All causes,northeast,942.833589377735,4160.003678871512
+Deaths,Male,90 to 94,Breast cancer,northeast,0.5367188836861749,4160.003678871512
+Deaths,Male,90 to 94,Cardiovascular diseases,northeast,306.8411279704763,4160.003678871512
+Deaths,Male,90 to 94,Chronic obstructive pulmonary disease,northeast,75.28833498251747,4160.003678871512
+Deaths,Male,90 to 94,Colon and rectum cancer,northeast,22.952992578829758,4160.003678871512
+Deaths,Male,90 to 94,Diabetes mellitus type 2,northeast,6.473793722830364,4160.003678871512
+Deaths,Male,90 to 94,Ischemic heart disease,northeast,155.70551773732396,4160.003678871512
+Deaths,Male,90 to 94,Liver cancer,northeast,3.4054823776124925,4160.003678871512
+Deaths,Male,90 to 94,Lower respiratory infections,northeast,90.69294358238207,4160.003678871512
+Deaths,Male,90 to 94,Neoplasms,northeast,181.1911020896374,4160.003678871512
+Deaths,Male,90 to 94,Road injuries,northeast,0.9344803724798463,4160.003678871512
+Deaths,Male,90 to 94,Stomach cancer,northeast,12.379323550587321,4160.003678871512
+Deaths,Male,90 to 94,Stroke,northeast,89.04797725786621,4160.003678871512
+Deaths,Male,90 to 94,"Tracheal, bronchus, and lung cancer",northeast,31.595798403842764,4160.003678871512
+Deaths,Male,95 to 99,All causes,northeast,286.2217035316266,794.2155508819449
+Deaths,Male,95 to 99,Breast cancer,northeast,0.17086492744591933,794.2155508819449
+Deaths,Male,95 to 99,Cardiovascular diseases,northeast,99.27917776515532,794.2155508819449
+Deaths,Male,95 to 99,Chronic obstructive pulmonary disease,northeast,22.297209061995396,794.2155508819449
+Deaths,Male,95 to 99,Colon and rectum cancer,northeast,5.31903075901823,794.2155508819449
+Deaths,Male,95 to 99,Diabetes mellitus type 2,northeast,2.0642065504223694,794.2155508819449
+Deaths,Male,95 to 99,Ischemic heart disease,northeast,50.36523490940739,794.2155508819449
+Deaths,Male,95 to 99,Liver cancer,northeast,0.6810605644726458,794.2155508819449
+Deaths,Male,95 to 99,Lower respiratory infections,northeast,33.49153227927204,794.2155508819449
+Deaths,Male,95 to 99,Neoplasms,northeast,41.6378412825293,794.2155508819449
+Deaths,Male,95 to 99,Road injuries,northeast,0.26373433235226657,794.2155508819449
+Deaths,Male,95 to 99,Stomach cancer,northeast,3.1945103042301506,794.2155508819449
+Deaths,Male,95 to 99,Stroke,northeast,30.3962849524469,794.2155508819449
+Deaths,Male,95 to 99,"Tracheal, bronchus, and lung cancer",northeast,5.641571995139483,794.2155508819449
+Deaths,Male,0 to 4,All causes,northeast,50.72183325044817,55156.389666263756
+Deaths,Male,0 to 4,Cardiovascular diseases,northeast,0.6287646619258087,55156.389666263756
+Deaths,Male,0 to 4,Chronic obstructive pulmonary disease,northeast,0.02979607624934763,55156.389666263756
+Deaths,Male,0 to 4,Lower respiratory infections,northeast,1.8394273762008033,55156.389666263756
+Deaths,Male,0 to 4,Neoplasms,northeast,1.501819284606454,55156.389666263756
+Deaths,Male,0 to 4,Road injuries,northeast,0.32175247807248464,55156.389666263756
+Deaths,Male,0 to 4,Stroke,northeast,0.10207016501992497,55156.389666263756
+YLLs (Years of Life Lost),Female,10 to 14,All causes,northeast,276.82548460018916,51146.030858489175
+YLLs (Years of Life Lost),Female,10 to 14,Cardiovascular diseases,northeast,12.228103910976197,51146.030858489175
+YLLs (Years of Life Lost),Female,10 to 14,Chronic obstructive pulmonary disease,northeast,2.4601051723560947,51146.030858489175
+YLLs (Years of Life Lost),Female,10 to 14,Liver cancer,northeast,1.270470507275992,51146.030858489175
+YLLs (Years of Life Lost),Female,10 to 14,Lower respiratory infections,northeast,10.448765837702199,51146.030858489175
+YLLs (Years of Life Lost),Female,10 to 14,Neoplasms,northeast,76.52899671044648,51146.030858489175
+YLLs (Years of Life Lost),Female,10 to 14,Road injuries,northeast,26.16935568039018,51146.030858489175
+YLLs (Years of Life Lost),Female,10 to 14,Stroke,northeast,5.151298984757349,51146.030858489175
+YLLs (Years of Life Lost),Female,15 to 19,All causes,northeast,577.2714216349912,53483.655941446435
+YLLs (Years of Life Lost),Female,15 to 19,Breast cancer,northeast,0.6635528247164345,53483.655941446435
+YLLs (Years of Life Lost),Female,15 to 19,Cardiovascular diseases,northeast,32.60188979007129,53483.655941446435
+YLLs (Years of Life Lost),Female,15 to 19,Chronic obstructive pulmonary disease,northeast,3.7743750563657765,53483.655941446435
+YLLs (Years of Life Lost),Female,15 to 19,Colon and rectum cancer,northeast,1.01578925422463,53483.655941446435
+YLLs (Years of Life Lost),Female,15 to 19,Diabetes mellitus type 2,northeast,0.44654396053626444,53483.655941446435
+YLLs (Years of Life Lost),Female,15 to 19,Ischemic heart disease,northeast,2.825333939293416,53483.655941446435
+YLLs (Years of Life Lost),Female,15 to 19,Liver cancer,northeast,3.3470223974334297,53483.655941446435
+YLLs (Years of Life Lost),Female,15 to 19,Lower respiratory infections,northeast,13.728313574501847,53483.655941446435
+YLLs (Years of Life Lost),Female,15 to 19,Neoplasms,northeast,107.94506107988894,53483.655941446435
+YLLs (Years of Life Lost),Female,15 to 19,Road injuries,northeast,86.89748359150293,53483.655941446435
+YLLs (Years of Life Lost),Female,15 to 19,Stomach cancer,northeast,0.6372794243514721,53483.655941446435
+YLLs (Years of Life Lost),Female,15 to 19,Stroke,northeast,10.227727178175963,53483.655941446435
+YLLs (Years of Life Lost),Female,15 to 19,"Tracheal, bronchus, and lung cancer",northeast,1.6060980229859059,53483.655941446435
+YLLs (Years of Life Lost),Female,15 to 19,Uterine cancer,northeast,0.37493253256125303,53483.655941446435
+YLLs (Years of Life Lost),Female,20 to 24,All causes,northeast,668.3619493909238,62892.28618418425
+YLLs (Years of Life Lost),Female,20 to 24,Breast cancer,northeast,2.905842451288984,62892.28618418425
+YLLs (Years of Life Lost),Female,20 to 24,Cardiovascular diseases,northeast,52.20931402976349,62892.28618418425
+YLLs (Years of Life Lost),Female,20 to 24,Chronic obstructive pulmonary disease,northeast,3.9901956839116215,62892.28618418425
+YLLs (Years of Life Lost),Female,20 to 24,Colon and rectum cancer,northeast,3.91039954959632,62892.28618418425
+YLLs (Years of Life Lost),Female,20 to 24,Diabetes mellitus type 2,northeast,0.4738322586393022,62892.28618418425
+YLLs (Years of Life Lost),Female,20 to 24,Ischemic heart disease,northeast,5.854918652034867,62892.28618418425
+YLLs (Years of Life Lost),Female,20 to 24,Liver cancer,northeast,3.264567195564101,62892.28618418425
+YLLs (Years of Life Lost),Female,20 to 24,Lower respiratory infections,northeast,16.790246557376086,62892.28618418425
+YLLs (Years of Life Lost),Female,20 to 24,Neoplasms,northeast,121.2212380846216,62892.28618418425
+YLLs (Years of Life Lost),Female,20 to 24,Road injuries,northeast,65.17233926783138,62892.28618418425
+YLLs (Years of Life Lost),Female,20 to 24,Stomach cancer,northeast,1.6622446476870845,62892.28618418425
+YLLs (Years of Life Lost),Female,20 to 24,Stroke,northeast,18.001646724800523,62892.28618418425
+YLLs (Years of Life Lost),Female,20 to 24,"Tracheal, bronchus, and lung cancer",northeast,2.7269715715029808,62892.28618418425
+YLLs (Years of Life Lost),Female,20 to 24,Uterine cancer,northeast,0.3980955806530474,62892.28618418425
+YLLs (Years of Life Lost),Female,25 to 29,All causes,northeast,1359.4694370259024,68456.79238678546
+YLLs (Years of Life Lost),Female,25 to 29,Breast cancer,northeast,36.29864433438316,68456.79238678546
+YLLs (Years of Life Lost),Female,25 to 29,Cardiovascular diseases,northeast,118.31566760763927,68456.79238678546
+YLLs (Years of Life Lost),Female,25 to 29,Chronic obstructive pulmonary disease,northeast,7.263160435726018,68456.79238678546
+YLLs (Years of Life Lost),Female,25 to 29,Colon and rectum cancer,northeast,17.1469299515917,68456.79238678546
+YLLs (Years of Life Lost),Female,25 to 29,Diabetes mellitus type 2,northeast,1.2537447381914992,68456.79238678546
+YLLs (Years of Life Lost),Female,25 to 29,Ischemic heart disease,northeast,16.323824023400444,68456.79238678546
+YLLs (Years of Life Lost),Female,25 to 29,Liver cancer,northeast,8.188706375456269,68456.79238678546
+YLLs (Years of Life Lost),Female,25 to 29,Lower respiratory infections,northeast,34.90766771633439,68456.79238678546
+YLLs (Years of Life Lost),Female,25 to 29,Neoplasms,northeast,334.8748222316162,68456.79238678546
+YLLs (Years of Life Lost),Female,25 to 29,Road injuries,northeast,71.5224492494089,68456.79238678546
+YLLs (Years of Life Lost),Female,25 to 29,Stomach cancer,northeast,9.371595742117972,68456.79238678546
+YLLs (Years of Life Lost),Female,25 to 29,Stroke,northeast,44.26119691155469,68456.79238678546
+YLLs (Years of Life Lost),Female,25 to 29,"Tracheal, bronchus, and lung cancer",northeast,9.721433042816287,68456.79238678546
+YLLs (Years of Life Lost),Female,25 to 29,Uterine cancer,northeast,1.5498187316228353,68456.79238678546
+YLLs (Years of Life Lost),Female,30 to 34,All causes,northeast,2078.366335818489,64353.346761855464
+YLLs (Years of Life Lost),Female,30 to 34,Breast cancer,northeast,149.9625420926254,64353.346761855464
+YLLs (Years of Life Lost),Female,30 to 34,Cardiovascular diseases,northeast,235.0953390582217,64353.346761855464
+YLLs (Years of Life Lost),Female,30 to 34,Chronic obstructive pulmonary disease,northeast,11.378124045433,64353.346761855464
+YLLs (Years of Life Lost),Female,30 to 34,Colon and rectum cancer,northeast,45.10719720661935,64353.346761855464
+YLLs (Years of Life Lost),Female,30 to 34,Diabetes mellitus type 2,northeast,3.955600511403626,64353.346761855464
+YLLs (Years of Life Lost),Female,30 to 34,Ischemic heart disease,northeast,53.955348934069825,64353.346761855464
+YLLs (Years of Life Lost),Female,30 to 34,Liver cancer,northeast,11.480521046568931,64353.346761855464
+YLLs (Years of Life Lost),Female,30 to 34,Lower respiratory infections,northeast,49.95179347621912,64353.346761855464
+YLLs (Years of Life Lost),Female,30 to 34,Neoplasms,northeast,650.0391636173048,64353.346761855464
+YLLs (Years of Life Lost),Female,30 to 34,Road injuries,northeast,57.43365352164457,64353.346761855464
+YLLs (Years of Life Lost),Female,30 to 34,Stomach cancer,northeast,25.27981870276307,64353.346761855464
+YLLs (Years of Life Lost),Female,30 to 34,Stroke,northeast,88.34610566789286,64353.346761855464
+YLLs (Years of Life Lost),Female,30 to 34,"Tracheal, bronchus, and lung cancer",northeast,34.390436487112254,64353.346761855464
+YLLs (Years of Life Lost),Female,30 to 34,Uterine cancer,northeast,3.089720996040413,64353.346761855464
+YLLs (Years of Life Lost),Female,35 to 39,All causes,northeast,2327.8147903643776,60596.79760233317
+YLLs (Years of Life Lost),Female,35 to 39,Breast cancer,northeast,273.2511082832396,60596.79760233317
+YLLs (Years of Life Lost),Female,35 to 39,Cardiovascular diseases,northeast,294.0387767075529,60596.79760233317
+YLLs (Years of Life Lost),Female,35 to 39,Chronic obstructive pulmonary disease,northeast,17.320430400053457,60596.79760233317
+YLLs (Years of Life Lost),Female,35 to 39,Colon and rectum cancer,northeast,59.06490524813749,60596.79760233317
+YLLs (Years of Life Lost),Female,35 to 39,Diabetes mellitus type 2,northeast,4.489008580949827,60596.79760233317
+YLLs (Years of Life Lost),Female,35 to 39,Ischemic heart disease,northeast,90.37060316745199,60596.79760233317
+YLLs (Years of Life Lost),Female,35 to 39,Liver cancer,northeast,13.751887406076984,60596.79760233317
+YLLs (Years of Life Lost),Female,35 to 39,Lower respiratory infections,northeast,60.602523743112116,60596.79760233317
+YLLs (Years of Life Lost),Female,35 to 39,Neoplasms,northeast,857.2014391686585,60596.79760233317
+YLLs (Years of Life Lost),Female,35 to 39,Road injuries,northeast,39.54632196789336,60596.79760233317
+YLLs (Years of Life Lost),Female,35 to 39,Stomach cancer,northeast,31.074301434856224,60596.79760233317
+YLLs (Years of Life Lost),Female,35 to 39,Stroke,northeast,109.1090097037423,60596.79760233317
+YLLs (Years of Life Lost),Female,35 to 39,"Tracheal, bronchus, and lung cancer",northeast,58.16084372083744,60596.79760233317
+YLLs (Years of Life Lost),Female,35 to 39,Uterine cancer,northeast,4.726376093359117,60596.79760233317
+YLLs (Years of Life Lost),Female,40 to 44,All causes,northeast,2964.305326783875,58144.53375450181
+YLLs (Years of Life Lost),Female,40 to 44,Breast cancer,northeast,401.6046519262808,58144.53375450181
+YLLs (Years of Life Lost),Female,40 to 44,Cardiovascular diseases,northeast,404.1868365874474,58144.53375450181
+YLLs (Years of Life Lost),Female,40 to 44,Chronic obstructive pulmonary disease,northeast,40.338940561085735,58144.53375450181
+YLLs (Years of Life Lost),Female,40 to 44,Colon and rectum cancer,northeast,87.95502541538565,58144.53375450181
+YLLs (Years of Life Lost),Female,40 to 44,Diabetes mellitus type 2,northeast,5.307672855557659,58144.53375450181
+YLLs (Years of Life Lost),Female,40 to 44,Ischemic heart disease,northeast,143.04144324880713,58144.53375450181
+YLLs (Years of Life Lost),Female,40 to 44,Liver cancer,northeast,19.56100434086406,58144.53375450181
+YLLs (Years of Life Lost),Female,40 to 44,Lower respiratory infections,northeast,78.22445158754766,58144.53375450181
+YLLs (Years of Life Lost),Female,40 to 44,Neoplasms,northeast,1247.7069929952647,58144.53375450181
+YLLs (Years of Life Lost),Female,40 to 44,Road injuries,northeast,32.93512719187863,58144.53375450181
+YLLs (Years of Life Lost),Female,40 to 44,Stomach cancer,northeast,45.6599264182507,58144.53375450181
+YLLs (Years of Life Lost),Female,40 to 44,Stroke,northeast,137.2717009714759,58144.53375450181
+YLLs (Years of Life Lost),Female,40 to 44,"Tracheal, bronchus, and lung cancer",northeast,141.8339730156746,58144.53375450181
+YLLs (Years of Life Lost),Female,40 to 44,Uterine cancer,northeast,9.365299720888949,58144.53375450181
+YLLs (Years of Life Lost),Female,45 to 49,All causes,northeast,6136.773770285297,69193.70873791545
+YLLs (Years of Life Lost),Female,45 to 49,Breast cancer,northeast,879.3747457994273,69193.70873791545
+YLLs (Years of Life Lost),Female,45 to 49,Cardiovascular diseases,northeast,890.4094092534904,69193.70873791545
+YLLs (Years of Life Lost),Female,45 to 49,Chronic obstructive pulmonary disease,northeast,118.55351657446663,69193.70873791545
+YLLs (Years of Life Lost),Female,45 to 49,Colon and rectum cancer,northeast,216.4567519910056,69193.70873791545
+YLLs (Years of Life Lost),Female,45 to 49,Diabetes mellitus type 2,northeast,25.43643193952334,69193.70873791545
+YLLs (Years of Life Lost),Female,45 to 49,Ischemic heart disease,northeast,358.7207190170274,69193.70873791545
+YLLs (Years of Life Lost),Female,45 to 49,Liver cancer,northeast,48.13722726858989,69193.70873791545
+YLLs (Years of Life Lost),Female,45 to 49,Lower respiratory infections,northeast,146.94322465444134,69193.70873791545
+YLLs (Years of Life Lost),Female,45 to 49,Neoplasms,northeast,2920.6760365670716,69193.70873791545
+YLLs (Years of Life Lost),Female,45 to 49,Road injuries,northeast,46.6217582591497,69193.70873791545
+YLLs (Years of Life Lost),Female,45 to 49,Stomach cancer,northeast,83.48388381434438,69193.70873791545
+YLLs (Years of Life Lost),Female,45 to 49,Stroke,northeast,281.5240886407171,69193.70873791545
+YLLs (Years of Life Lost),Female,45 to 49,"Tracheal, bronchus, and lung cancer",northeast,494.80702596285255,69193.70873791545
+YLLs (Years of Life Lost),Female,45 to 49,Uterine cancer,northeast,28.21224102026915,69193.70873791545
+YLLs (Years of Life Lost),Female,5 to 9,All causes,northeast,210.03296233428938,54912.185796990816
+YLLs (Years of Life Lost),Female,5 to 9,Cardiovascular diseases,northeast,7.121498077520229,54912.185796990816
+YLLs (Years of Life Lost),Female,5 to 9,Chronic obstructive pulmonary disease,northeast,1.4532269549800416,54912.185796990816
+YLLs (Years of Life Lost),Female,5 to 9,Liver cancer,northeast,0.7783977195788724,54912.185796990816
+YLLs (Years of Life Lost),Female,5 to 9,Lower respiratory infections,northeast,8.849972988640333,54912.185796990816
+YLLs (Years of Life Lost),Female,5 to 9,Neoplasms,northeast,71.69753083712688,54912.185796990816
+YLLs (Years of Life Lost),Female,5 to 9,Road injuries,northeast,14.582385014776579,54912.185796990816
+YLLs (Years of Life Lost),Female,5 to 9,Stroke,northeast,2.253948471645712,54912.185796990816
+YLLs (Years of Life Lost),Female,50 to 54,All causes,northeast,7405.2259436116765,73876.08982004185
+YLLs (Years of Life Lost),Female,50 to 54,Breast cancer,northeast,978.8645706137227,73876.08982004185
+YLLs (Years of Life Lost),Female,50 to 54,Cardiovascular diseases,northeast,1086.5562863932703,73876.08982004185
+YLLs (Years of Life Lost),Female,50 to 54,Chronic obstructive pulmonary disease,northeast,255.06680060118404,73876.08982004185
+YLLs (Years of Life Lost),Female,50 to 54,Colon and rectum cancer,northeast,291.41456513569545,73876.08982004185
+YLLs (Years of Life Lost),Female,50 to 54,Diabetes mellitus type 2,northeast,29.025104655879147,73876.08982004185
+YLLs (Years of Life Lost),Female,50 to 54,Ischemic heart disease,northeast,479.76062535510425,73876.08982004185
+YLLs (Years of Life Lost),Female,50 to 54,Liver cancer,northeast,76.85850061329468,73876.08982004185
+YLLs (Years of Life Lost),Female,50 to 54,Lower respiratory infections,northeast,187.28201802643014,73876.08982004185
+YLLs (Years of Life Lost),Female,50 to 54,Neoplasms,northeast,3869.9770559041067,73876.08982004185
+YLLs (Years of Life Lost),Female,50 to 54,Road injuries,northeast,37.73186392518955,73876.08982004185
+YLLs (Years of Life Lost),Female,50 to 54,Stomach cancer,northeast,104.08206149643182,73876.08982004185
+YLLs (Years of Life Lost),Female,50 to 54,Stroke,northeast,335.5773815692987,73876.08982004185
+YLLs (Years of Life Lost),Female,50 to 54,"Tracheal, bronchus, and lung cancer",northeast,840.3887917636074,73876.08982004185
+YLLs (Years of Life Lost),Female,50 to 54,Uterine cancer,northeast,50.10795522439576,73876.08982004185
+YLLs (Years of Life Lost),Female,55 to 59,All causes,northeast,10368.252737645358,69850.25199651036
+YLLs (Years of Life Lost),Female,55 to 59,Breast cancer,northeast,1093.9454117552802,69850.25199651036
+YLLs (Years of Life Lost),Female,55 to 59,Cardiovascular diseases,northeast,1617.8124913869015,69850.25199651036
+YLLs (Years of Life Lost),Female,55 to 59,Chronic obstructive pulmonary disease,northeast,556.3197417357607,69850.25199651036
+YLLs (Years of Life Lost),Female,55 to 59,Colon and rectum cancer,northeast,446.8296337411891,69850.25199651036
+YLLs (Years of Life Lost),Female,55 to 59,Diabetes mellitus type 2,northeast,42.937305565435395,69850.25199651036
+YLLs (Years of Life Lost),Female,55 to 59,Ischemic heart disease,northeast,778.1455478086883,69850.25199651036
+YLLs (Years of Life Lost),Female,55 to 59,Liver cancer,northeast,118.55574241924684,69850.25199651036
+YLLs (Years of Life Lost),Female,55 to 59,Lower respiratory infections,northeast,251.62019113743222,69850.25199651036
+YLLs (Years of Life Lost),Female,55 to 59,Neoplasms,northeast,5614.014212817069,69850.25199651036
+YLLs (Years of Life Lost),Female,55 to 59,Road injuries,northeast,37.59895097853014,69850.25199651036
+YLLs (Years of Life Lost),Female,55 to 59,Stomach cancer,northeast,155.56947440611955,69850.25199651036
+YLLs (Years of Life Lost),Female,55 to 59,Stroke,northeast,445.0737804320582,69850.25199651036
+YLLs (Years of Life Lost),Female,55 to 59,"Tracheal, bronchus, and lung cancer",northeast,1491.5067331174469,69850.25199651036
+YLLs (Years of Life Lost),Female,55 to 59,Uterine cancer,northeast,98.61775310256203,69850.25199651036
+YLLs (Years of Life Lost),Female,60 to 64,All causes,northeast,12698.555042306298,61124.1347798415
+YLLs (Years of Life Lost),Female,60 to 64,Breast cancer,northeast,1005.7105792225487,61124.1347798415
+YLLs (Years of Life Lost),Female,60 to 64,Cardiovascular diseases,northeast,2161.1689110561524,61124.1347798415
+YLLs (Years of Life Lost),Female,60 to 64,Chronic obstructive pulmonary disease,northeast,977.1957319227168,61124.1347798415
+YLLs (Years of Life Lost),Female,60 to 64,Colon and rectum cancer,northeast,514.3077777777362,61124.1347798415
+YLLs (Years of Life Lost),Female,60 to 64,Diabetes mellitus type 2,northeast,61.006793368185804,61124.1347798415
+YLLs (Years of Life Lost),Female,60 to 64,Ischemic heart disease,northeast,1081.5885271721659,61124.1347798415
+YLLs (Years of Life Lost),Female,60 to 64,Liver cancer,northeast,145.35761273166773,61124.1347798415
+YLLs (Years of Life Lost),Female,60 to 64,Lower respiratory infections,northeast,317.7813248181605,61124.1347798415
+YLLs (Years of Life Lost),Female,60 to 64,Neoplasms,northeast,6811.015584681657,61124.1347798415
+YLLs (Years of Life Lost),Female,60 to 64,Road injuries,northeast,31.98159987243408,61124.1347798415
+YLLs (Years of Life Lost),Female,60 to 64,Stomach cancer,northeast,188.16245017130052,61124.1347798415
+YLLs (Years of Life Lost),Female,60 to 64,Stroke,northeast,527.4337346415431,61124.1347798415
+YLLs (Years of Life Lost),Female,60 to 64,"Tracheal, bronchus, and lung cancer",northeast,2159.4401892931032,61124.1347798415
+YLLs (Years of Life Lost),Female,60 to 64,Uterine cancer,northeast,136.9610576970003,61124.1347798415
+YLLs (Years of Life Lost),Female,65 to 69,All causes,northeast,15348.627462659138,61112.462718279654
+YLLs (Years of Life Lost),Female,65 to 69,Breast cancer,northeast,941.8064665604298,61112.462718279654
+YLLs (Years of Life Lost),Female,65 to 69,Cardiovascular diseases,northeast,2882.138269957505,61112.462718279654
+YLLs (Years of Life Lost),Female,65 to 69,Chronic obstructive pulmonary disease,northeast,1508.1431892598648,61112.462718279654
+YLLs (Years of Life Lost),Female,65 to 69,Colon and rectum cancer,northeast,584.4622636498636,61112.462718279654
+YLLs (Years of Life Lost),Female,65 to 69,Diabetes mellitus type 2,northeast,76.21798451655832,61112.462718279654
+YLLs (Years of Life Lost),Female,65 to 69,Ischemic heart disease,northeast,1401.817161994138,61112.462718279654
+YLLs (Years of Life Lost),Female,65 to 69,Liver cancer,northeast,177.1824348050053,61112.462718279654
+YLLs (Years of Life Lost),Female,65 to 69,Lower respiratory infections,northeast,401.8015158019215,61112.462718279654
+YLLs (Years of Life Lost),Female,65 to 69,Neoplasms,northeast,7727.186598361982,61112.462718279654
+YLLs (Years of Life Lost),Female,65 to 69,Road injuries,northeast,32.76920176003096,61112.462718279654
+YLLs (Years of Life Lost),Female,65 to 69,Stomach cancer,northeast,224.46776235853912,61112.462718279654
+YLLs (Years of Life Lost),Female,65 to 69,Stroke,northeast,716.8826047686542,61112.462718279654
+YLLs (Years of Life Lost),Female,65 to 69,"Tracheal, bronchus, and lung cancer",northeast,2575.654142516251,61112.462718279654
+YLLs (Years of Life Lost),Female,65 to 69,Uterine cancer,northeast,169.21255038561154,61112.462718279654
+YLLs (Years of Life Lost),Female,70 to 74,All causes,northeast,17546.918173570153,49777.75714130184
+YLLs (Years of Life Lost),Female,70 to 74,Breast cancer,northeast,818.7775498028781,49777.75714130184
+YLLs (Years of Life Lost),Female,70 to 74,Cardiovascular diseases,northeast,3886.1067731764065,49777.75714130184
+YLLs (Years of Life Lost),Female,70 to 74,Chronic obstructive pulmonary disease,northeast,1914.5179324181292,49777.75714130184
+YLLs (Years of Life Lost),Female,70 to 74,Colon and rectum cancer,northeast,633.360675497549,49777.75714130184
+YLLs (Years of Life Lost),Female,70 to 74,Diabetes mellitus type 2,northeast,108.10613657659269,49777.75714130184
+YLLs (Years of Life Lost),Female,70 to 74,Ischemic heart disease,northeast,1780.4050101967164,49777.75714130184
+YLLs (Years of Life Lost),Female,70 to 74,Liver cancer,northeast,190.96634191463966,49777.75714130184
+YLLs (Years of Life Lost),Female,70 to 74,Lower respiratory infections,northeast,587.1484461140618,49777.75714130184
+YLLs (Years of Life Lost),Female,70 to 74,Neoplasms,northeast,7680.884649609791,49777.75714130184
+YLLs (Years of Life Lost),Female,70 to 74,Road injuries,northeast,32.342681874419156,49777.75714130184
+YLLs (Years of Life Lost),Female,70 to 74,Stomach cancer,northeast,263.3192280176436,49777.75714130184
+YLLs (Years of Life Lost),Female,70 to 74,Stroke,northeast,1057.8811937307883,49777.75714130184
+YLLs (Years of Life Lost),Female,70 to 74,"Tracheal, bronchus, and lung cancer",northeast,2577.6683554371853,49777.75714130184
+YLLs (Years of Life Lost),Female,70 to 74,Uterine cancer,northeast,160.73511198911265,49777.75714130184
+YLLs (Years of Life Lost),Female,75 to 79,All causes,northeast,17973.771437323157,38642.98797721428
+YLLs (Years of Life Lost),Female,75 to 79,Breast cancer,northeast,657.8229608075651,38642.98797721428
+YLLs (Years of Life Lost),Female,75 to 79,Cardiovascular diseases,northeast,4633.281171288526,38642.98797721428
+YLLs (Years of Life Lost),Female,75 to 79,Chronic obstructive pulmonary disease,northeast,1941.8739749421104,38642.98797721428
+YLLs (Years of Life Lost),Female,75 to 79,Colon and rectum cancer,northeast,605.0987990201263,38642.98797721428
+YLLs (Years of Life Lost),Female,75 to 79,Diabetes mellitus type 2,northeast,116.42056213218893,38642.98797721428
+YLLs (Years of Life Lost),Female,75 to 79,Ischemic heart disease,northeast,2042.4523995740703,38642.98797721428
+YLLs (Years of Life Lost),Female,75 to 79,Liver cancer,northeast,173.84679545348166,38642.98797721428
+YLLs (Years of Life Lost),Female,75 to 79,Lower respiratory infections,northeast,779.6219534652364,38642.98797721428
+YLLs (Years of Life Lost),Female,75 to 79,Neoplasms,northeast,6312.559335832678,38642.98797721428
+YLLs (Years of Life Lost),Female,75 to 79,Road injuries,northeast,29.96853668493859,38642.98797721428
+YLLs (Years of Life Lost),Female,75 to 79,Stomach cancer,northeast,275.371156156183,38642.98797721428
+YLLs (Years of Life Lost),Female,75 to 79,Stroke,northeast,1372.6475923320575,38642.98797721428
+YLLs (Years of Life Lost),Female,75 to 79,"Tracheal, bronchus, and lung cancer",northeast,1993.5721157618214,38642.98797721428
+YLLs (Years of Life Lost),Female,75 to 79,Uterine cancer,northeast,114.89300467851922,38642.98797721428
+YLLs (Years of Life Lost),Female,80 to 84,All causes,northeast,18485.304732784498,29683.561850824535
+YLLs (Years of Life Lost),Female,80 to 84,Breast cancer,northeast,539.2572989883538,29683.561850824535
+YLLs (Years of Life Lost),Female,80 to 84,Cardiovascular diseases,northeast,5392.3003135912895,29683.561850824535
+YLLs (Years of Life Lost),Female,80 to 84,Chronic obstructive pulmonary disease,northeast,1809.2221757018942,29683.561850824535
+YLLs (Years of Life Lost),Female,80 to 84,Colon and rectum cancer,northeast,530.8601709564921,29683.561850824535
+YLLs (Years of Life Lost),Female,80 to 84,Diabetes mellitus type 2,northeast,138.97886447724554,29683.561850824535
+YLLs (Years of Life Lost),Female,80 to 84,Ischemic heart disease,northeast,2249.738933204184,29683.561850824535
+YLLs (Years of Life Lost),Female,80 to 84,Liver cancer,northeast,132.9171429588053,29683.561850824535
+YLLs (Years of Life Lost),Female,80 to 84,Lower respiratory infections,northeast,1102.0989448329806,29683.561850824535
+YLLs (Years of Life Lost),Female,80 to 84,Neoplasms,northeast,4796.517897614111,29683.561850824535
+YLLs (Years of Life Lost),Female,80 to 84,Road injuries,northeast,24.644362681121226,29683.561850824535
+YLLs (Years of Life Lost),Female,80 to 84,Stomach cancer,northeast,253.5569849256596,29683.561850824535
+YLLs (Years of Life Lost),Female,80 to 84,Stroke,northeast,1720.4679954117942,29683.561850824535
+YLLs (Years of Life Lost),Female,80 to 84,"Tracheal, bronchus, and lung cancer",northeast,1342.320455966279,29683.561850824535
+YLLs (Years of Life Lost),Female,80 to 84,Uterine cancer,northeast,78.71564952154651,29683.561850824535
+YLLs (Years of Life Lost),Female,85 to 89,All causes,northeast,15678.90164707876,18720.219261686427
+YLLs (Years of Life Lost),Female,85 to 89,Breast cancer,northeast,381.3145434618682,18720.219261686427
+YLLs (Years of Life Lost),Female,85 to 89,Cardiovascular diseases,northeast,4906.840461225123,18720.219261686427
+YLLs (Years of Life Lost),Female,85 to 89,Chronic obstructive pulmonary disease,northeast,1166.1163453099073,18720.219261686427
+YLLs (Years of Life Lost),Female,85 to 89,Colon and rectum cancer,northeast,375.52341271550864,18720.219261686427
+YLLs (Years of Life Lost),Female,85 to 89,Diabetes mellitus type 2,northeast,119.08409642994485,18720.219261686427
+YLLs (Years of Life Lost),Female,85 to 89,Ischemic heart disease,northeast,2004.921584063356,18720.219261686427
+YLLs (Years of Life Lost),Female,85 to 89,Liver cancer,northeast,78.72341697489904,18720.219261686427
+YLLs (Years of Life Lost),Female,85 to 89,Lower respiratory infections,northeast,1406.4211776512361,18720.219261686427
+YLLs (Years of Life Lost),Female,85 to 89,Neoplasms,northeast,2859.898443035898,18720.219261686427
+YLLs (Years of Life Lost),Female,85 to 89,Road injuries,northeast,12.915237903596605,18720.219261686427
+YLLs (Years of Life Lost),Female,85 to 89,Stomach cancer,northeast,160.65539848512518,18720.219261686427
+YLLs (Years of Life Lost),Female,85 to 89,Stroke,northeast,1651.846657491661,18720.219261686427
+YLLs (Years of Life Lost),Female,85 to 89,"Tracheal, bronchus, and lung cancer",northeast,651.5363030376618,18720.219261686427
+YLLs (Years of Life Lost),Female,85 to 89,Uterine cancer,northeast,43.27981496969679,18720.219261686427
+YLLs (Years of Life Lost),Female,90 to 94,All causes,northeast,8459.935352572224,8882.311712590435
+YLLs (Years of Life Lost),Female,90 to 94,Breast cancer,northeast,163.46460824563604,8882.311712590435
+YLLs (Years of Life Lost),Female,90 to 94,Cardiovascular diseases,northeast,2762.46427876263,8882.311712590435
+YLLs (Years of Life Lost),Female,90 to 94,Chronic obstructive pulmonary disease,northeast,563.0157735679423,8882.311712590435
+YLLs (Years of Life Lost),Female,90 to 94,Colon and rectum cancer,northeast,167.87225299427638,8882.311712590435
+YLLs (Years of Life Lost),Female,90 to 94,Diabetes mellitus type 2,northeast,62.707127028971115,8882.311712590435
+YLLs (Years of Life Lost),Female,90 to 94,Ischemic heart disease,northeast,1131.80708249648,8882.311712590435
+YLLs (Years of Life Lost),Female,90 to 94,Liver cancer,northeast,26.75762392824402,8882.311712590435
+YLLs (Years of Life Lost),Female,90 to 94,Lower respiratory infections,northeast,822.6785596872056,8882.311712590435
+YLLs (Years of Life Lost),Female,90 to 94,Neoplasms,northeast,1112.299981453596,8882.311712590435
+YLLs (Years of Life Lost),Female,90 to 94,Road injuries,northeast,5.3129622526107285,8882.311712590435
+YLLs (Years of Life Lost),Female,90 to 94,Stomach cancer,northeast,74.10360376180572,8882.311712590435
+YLLs (Years of Life Lost),Female,90 to 94,Stroke,northeast,939.1181445952398,8882.311712590435
+YLLs (Years of Life Lost),Female,90 to 94,"Tracheal, bronchus, and lung cancer",northeast,209.13530757564675,8882.311712590435
+YLLs (Years of Life Lost),Female,90 to 94,Uterine cancer,northeast,15.099892933043908,8882.311712590435
+YLLs (Years of Life Lost),Female,95 to 99,All causes,northeast,2509.9487007875814,2635.090675361876
+YLLs (Years of Life Lost),Female,95 to 99,Breast cancer,northeast,38.94767782650584,2635.090675361876
+YLLs (Years of Life Lost),Female,95 to 99,Cardiovascular diseases,northeast,838.9683634705053,2635.090675361876
+YLLs (Years of Life Lost),Female,95 to 99,Chronic obstructive pulmonary disease,northeast,163.12164657559072,2635.090675361876
+YLLs (Years of Life Lost),Female,95 to 99,Colon and rectum cancer,northeast,37.792763309294706,2635.090675361876
+YLLs (Years of Life Lost),Female,95 to 99,Diabetes mellitus type 2,northeast,18.67659758848883,2635.090675361876
+YLLs (Years of Life Lost),Female,95 to 99,Ischemic heart disease,northeast,347.63892942240216,2635.090675361876
+YLLs (Years of Life Lost),Female,95 to 99,Liver cancer,northeast,5.35936490159491,2635.090675361876
+YLLs (Years of Life Lost),Female,95 to 99,Lower respiratory infections,northeast,285.110770929732,2635.090675361876
+YLLs (Years of Life Lost),Female,95 to 99,Neoplasms,northeast,241.3100177985379,2635.090675361876
+YLLs (Years of Life Lost),Female,95 to 99,Road injuries,northeast,1.378488831155155,2635.090675361876
+YLLs (Years of Life Lost),Female,95 to 99,Stomach cancer,northeast,18.142012290167994,2635.090675361876
+YLLs (Years of Life Lost),Female,95 to 99,Stroke,northeast,295.7949084754508,2635.090675361876
+YLLs (Years of Life Lost),Female,95 to 99,"Tracheal, bronchus, and lung cancer",northeast,39.38687388165441,2635.090675361876
+YLLs (Years of Life Lost),Female,95 to 99,Uterine cancer,northeast,2.959152621833358,2635.090675361876
+YLLs (Years of Life Lost),Female,0 to 4,All causes,northeast,3341.603319920107,52010.0308860931
+YLLs (Years of Life Lost),Female,0 to 4,Cardiovascular diseases,northeast,46.892253061767875,52010.0308860931
+YLLs (Years of Life Lost),Female,0 to 4,Chronic obstructive pulmonary disease,northeast,4.1699625050008935,52010.0308860931
+YLLs (Years of Life Lost),Female,0 to 4,Lower respiratory infections,northeast,128.93658741682404,52010.0308860931
+YLLs (Years of Life Lost),Female,0 to 4,Neoplasms,northeast,119.01221391170363,52010.0308860931
+YLLs (Years of Life Lost),Female,0 to 4,Road injuries,northeast,22.678459044928953,52010.0308860931
+YLLs (Years of Life Lost),Female,0 to 4,Stroke,northeast,8.85009676063925,52010.0308860931
+YLLs (Years of Life Lost),Male,10 to 14,All causes,northeast,422.0520520226406,53796.428327041736
+YLLs (Years of Life Lost),Male,10 to 14,Cardiovascular diseases,northeast,18.73021169825006,53796.428327041736
+YLLs (Years of Life Lost),Male,10 to 14,Chronic obstructive pulmonary disease,northeast,0.8925368972574422,53796.428327041736
+YLLs (Years of Life Lost),Male,10 to 14,Liver cancer,northeast,2.2184881172203483,53796.428327041736
+YLLs (Years of Life Lost),Male,10 to 14,Lower respiratory infections,northeast,10.705493807440925,53796.428327041736
+YLLs (Years of Life Lost),Male,10 to 14,Neoplasms,northeast,110.10121084541991,53796.428327041736
+YLLs (Years of Life Lost),Male,10 to 14,Road injuries,northeast,49.88986621074218,53796.428327041736
+YLLs (Years of Life Lost),Male,10 to 14,Stroke,northeast,5.724793161533481,53796.428327041736
+YLLs (Years of Life Lost),Male,15 to 19,All causes,northeast,1255.121354809457,55901.84476032211
+YLLs (Years of Life Lost),Male,15 to 19,Breast cancer,northeast,0.3715036097976465,55901.84476032211
+YLLs (Years of Life Lost),Male,15 to 19,Cardiovascular diseases,northeast,56.72687562802216,55901.84476032211
+YLLs (Years of Life Lost),Male,15 to 19,Chronic obstructive pulmonary disease,northeast,3.00755893860842,55901.84476032211
+YLLs (Years of Life Lost),Male,15 to 19,Colon and rectum cancer,northeast,1.9350535117425764,55901.84476032211
+YLLs (Years of Life Lost),Male,15 to 19,Diabetes mellitus type 2,northeast,0.35366686091472743,55901.84476032211
+YLLs (Years of Life Lost),Male,15 to 19,Ischemic heart disease,northeast,5.027950936386723,55901.84476032211
+YLLs (Years of Life Lost),Male,15 to 19,Liver cancer,northeast,3.4948304678877555,55901.84476032211
+YLLs (Years of Life Lost),Male,15 to 19,Lower respiratory infections,northeast,17.745375980886013,55901.84476032211
+YLLs (Years of Life Lost),Male,15 to 19,Neoplasms,northeast,166.908509094318,55901.84476032211
+YLLs (Years of Life Lost),Male,15 to 19,Road injuries,northeast,281.11264502431663,55901.84476032211
+YLLs (Years of Life Lost),Male,15 to 19,Stomach cancer,northeast,0.8986676310723807,55901.84476032211
+YLLs (Years of Life Lost),Male,15 to 19,Stroke,northeast,15.455780214827243,55901.84476032211
+YLLs (Years of Life Lost),Male,15 to 19,"Tracheal, bronchus, and lung cancer",northeast,0.719017862852481,55901.84476032211
+YLLs (Years of Life Lost),Male,20 to 24,All causes,northeast,2545.4230736182503,65306.75661389835
+YLLs (Years of Life Lost),Male,20 to 24,Breast cancer,northeast,0.41827581757834464,65306.75661389835
+YLLs (Years of Life Lost),Male,20 to 24,Cardiovascular diseases,northeast,121.2706809958637,65306.75661389835
+YLLs (Years of Life Lost),Male,20 to 24,Chronic obstructive pulmonary disease,northeast,4.976893507177414,65306.75661389835
+YLLs (Years of Life Lost),Male,20 to 24,Colon and rectum cancer,northeast,8.177035968292628,65306.75661389835
+YLLs (Years of Life Lost),Male,20 to 24,Diabetes mellitus type 2,northeast,0.8049384110743815,65306.75661389835
+YLLs (Years of Life Lost),Male,20 to 24,Ischemic heart disease,northeast,20.937539473275812,65306.75661389835
+YLLs (Years of Life Lost),Male,20 to 24,Liver cancer,northeast,6.5733850531928555,65306.75661389835
+YLLs (Years of Life Lost),Male,20 to 24,Lower respiratory infections,northeast,30.27069382771696,65306.75661389835
+YLLs (Years of Life Lost),Male,20 to 24,Neoplasms,northeast,243.153456902866,65306.75661389835
+YLLs (Years of Life Lost),Male,20 to 24,Road injuries,northeast,455.07334818284284,65306.75661389835
+YLLs (Years of Life Lost),Male,20 to 24,Stomach cancer,northeast,2.8745482249892476,65306.75661389835
+YLLs (Years of Life Lost),Male,20 to 24,Stroke,northeast,33.47826532501575,65306.75661389835
+YLLs (Years of Life Lost),Male,20 to 24,"Tracheal, bronchus, and lung cancer",northeast,3.506566677012017,65306.75661389835
+YLLs (Years of Life Lost),Male,25 to 29,All causes,northeast,3187.4456947728017,70082.62182224028
+YLLs (Years of Life Lost),Male,25 to 29,Breast cancer,northeast,0.5901293398956916,70082.62182224028
+YLLs (Years of Life Lost),Male,25 to 29,Cardiovascular diseases,northeast,229.16880397607898,70082.62182224028
+YLLs (Years of Life Lost),Male,25 to 29,Chronic obstructive pulmonary disease,northeast,6.613409789842711,70082.62182224028
+YLLs (Years of Life Lost),Male,25 to 29,Colon and rectum cancer,northeast,23.580180905835736,70082.62182224028
+YLLs (Years of Life Lost),Male,25 to 29,Diabetes mellitus type 2,northeast,1.3887244233022848,70082.62182224028
+YLLs (Years of Life Lost),Male,25 to 29,Ischemic heart disease,northeast,69.92077140879947,70082.62182224028
+YLLs (Years of Life Lost),Male,25 to 29,Liver cancer,northeast,11.147907027779114,70082.62182224028
+YLLs (Years of Life Lost),Male,25 to 29,Lower respiratory infections,northeast,48.50282244127805,70082.62182224028
+YLLs (Years of Life Lost),Male,25 to 29,Neoplasms,northeast,349.700491544485,70082.62182224028
+YLLs (Years of Life Lost),Male,25 to 29,Road injuries,northeast,362.97284471775663,70082.62182224028
+YLLs (Years of Life Lost),Male,25 to 29,Stomach cancer,northeast,8.51393486889596,70082.62182224028
+YLLs (Years of Life Lost),Male,25 to 29,Stroke,northeast,58.39802388973058,70082.62182224028
+YLLs (Years of Life Lost),Male,25 to 29,"Tracheal, bronchus, and lung cancer",northeast,8.425951225620091,70082.62182224028
+YLLs (Years of Life Lost),Male,30 to 34,All causes,northeast,4642.710039683953,64692.30640787352
+YLLs (Years of Life Lost),Male,30 to 34,Breast cancer,northeast,1.2078190567790659,64692.30640787352
+YLLs (Years of Life Lost),Male,30 to 34,Cardiovascular diseases,northeast,478.94488357168274,64692.30640787352
+YLLs (Years of Life Lost),Male,30 to 34,Chronic obstructive pulmonary disease,northeast,12.78178081018058,64692.30640787352
+YLLs (Years of Life Lost),Male,30 to 34,Colon and rectum cancer,northeast,64.42808763850637,64692.30640787352
+YLLs (Years of Life Lost),Male,30 to 34,Diabetes mellitus type 2,northeast,6.715027846380575,64692.30640787352
+YLLs (Years of Life Lost),Male,30 to 34,Ischemic heart disease,northeast,200.56783579378157,64692.30640787352
+YLLs (Years of Life Lost),Male,30 to 34,Liver cancer,northeast,23.359426036103933,64692.30640787352
+YLLs (Years of Life Lost),Male,30 to 34,Lower respiratory infections,northeast,87.56974382010758,64692.30640787352
+YLLs (Years of Life Lost),Male,30 to 34,Neoplasms,northeast,597.5813149746203,64692.30640787352
+YLLs (Years of Life Lost),Male,30 to 34,Road injuries,northeast,296.51485914635583,64692.30640787352
+YLLs (Years of Life Lost),Male,30 to 34,Stomach cancer,northeast,25.124310286378606,64692.30640787352
+YLLs (Years of Life Lost),Male,30 to 34,Stroke,northeast,107.68956862976026,64692.30640787352
+YLLs (Years of Life Lost),Male,30 to 34,"Tracheal, bronchus, and lung cancer",northeast,32.254421864385115,64692.30640787352
+YLLs (Years of Life Lost),Male,35 to 39,All causes,northeast,5216.7764094713575,62017.13094879038
+YLLs (Years of Life Lost),Male,35 to 39,Breast cancer,northeast,2.446807666141153,62017.13094879038
+YLLs (Years of Life Lost),Male,35 to 39,Cardiovascular diseases,northeast,796.9864315531663,62017.13094879038
+YLLs (Years of Life Lost),Male,35 to 39,Chronic obstructive pulmonary disease,northeast,27.040846186747356,62017.13094879038
+YLLs (Years of Life Lost),Male,35 to 39,Colon and rectum cancer,northeast,95.39747872348427,62017.13094879038
+YLLs (Years of Life Lost),Male,35 to 39,Diabetes mellitus type 2,northeast,8.75404359056912,62017.13094879038
+YLLs (Years of Life Lost),Male,35 to 39,Ischemic heart disease,northeast,419.02146072505786,62017.13094879038
+YLLs (Years of Life Lost),Male,35 to 39,Liver cancer,northeast,25.34009388565184,62017.13094879038
+YLLs (Years of Life Lost),Male,35 to 39,Lower respiratory infections,northeast,113.09066981430253,62017.13094879038
+YLLs (Years of Life Lost),Male,35 to 39,Neoplasms,northeast,814.4662126910441,62017.13094879038
+YLLs (Years of Life Lost),Male,35 to 39,Road injuries,northeast,221.38840748588586,62017.13094879038
+YLLs (Years of Life Lost),Male,35 to 39,Stomach cancer,northeast,44.87303277766901,62017.13094879038
+YLLs (Years of Life Lost),Male,35 to 39,Stroke,northeast,161.4295251084309,62017.13094879038
+YLLs (Years of Life Lost),Male,35 to 39,"Tracheal, bronchus, and lung cancer",northeast,82.19802319647907,62017.13094879038
+YLLs (Years of Life Lost),Male,40 to 44,All causes,northeast,5587.117806384562,57335.64548046225
+YLLs (Years of Life Lost),Male,40 to 44,Breast cancer,northeast,3.2353889207459456,57335.64548046225
+YLLs (Years of Life Lost),Male,40 to 44,Cardiovascular diseases,northeast,1160.2920011663086,57335.64548046225
+YLLs (Years of Life Lost),Male,40 to 44,Chronic obstructive pulmonary disease,northeast,59.910907561503265,57335.64548046225
+YLLs (Years of Life Lost),Male,40 to 44,Colon and rectum cancer,northeast,126.23444565797072,57335.64548046225
+YLLs (Years of Life Lost),Male,40 to 44,Diabetes mellitus type 2,northeast,10.10237119508865,57335.64548046225
+YLLs (Years of Life Lost),Male,40 to 44,Ischemic heart disease,northeast,686.9819647230706,57335.64548046225
+YLLs (Years of Life Lost),Male,40 to 44,Liver cancer,northeast,38.91518142168128,57335.64548046225
+YLLs (Years of Life Lost),Male,40 to 44,Lower respiratory infections,northeast,131.09194374967402,57335.64548046225
+YLLs (Years of Life Lost),Male,40 to 44,Neoplasms,northeast,1117.142791804822,57335.64548046225
+YLLs (Years of Life Lost),Male,40 to 44,Road injuries,northeast,162.13824709066478,57335.64548046225
+YLLs (Years of Life Lost),Male,40 to 44,Stomach cancer,northeast,64.42816342180897,57335.64548046225
+YLLs (Years of Life Lost),Male,40 to 44,Stroke,northeast,205.86962534968347,57335.64548046225
+YLLs (Years of Life Lost),Male,40 to 44,"Tracheal, bronchus, and lung cancer",northeast,173.06433125325296,57335.64548046225
+YLLs (Years of Life Lost),Male,45 to 49,All causes,northeast,7653.443624543142,66834.60258599711
+YLLs (Years of Life Lost),Male,45 to 49,Breast cancer,northeast,5.224058166145826,66834.60258599711
+YLLs (Years of Life Lost),Male,45 to 49,Cardiovascular diseases,northeast,1959.7545079815654,66834.60258599711
+YLLs (Years of Life Lost),Male,45 to 49,Chronic obstructive pulmonary disease,northeast,119.85547704876963,66834.60258599711
+YLLs (Years of Life Lost),Male,45 to 49,Colon and rectum cancer,northeast,228.34894504671243,66834.60258599711
+YLLs (Years of Life Lost),Male,45 to 49,Diabetes mellitus type 2,northeast,35.515867508543344,66834.60258599711
+YLLs (Years of Life Lost),Male,45 to 49,Ischemic heart disease,northeast,1268.7882369813012,66834.60258599711
+YLLs (Years of Life Lost),Male,45 to 49,Liver cancer,northeast,78.50594020320646,66834.60258599711
+YLLs (Years of Life Lost),Male,45 to 49,Lower respiratory infections,northeast,190.51467429293024,66834.60258599711
+YLLs (Years of Life Lost),Male,45 to 49,Neoplasms,northeast,2042.6495638424303,66834.60258599711
+YLLs (Years of Life Lost),Male,45 to 49,Road injuries,northeast,141.37089967053316,66834.60258599711
+YLLs (Years of Life Lost),Male,45 to 49,Stomach cancer,northeast,115.94377481609978,66834.60258599711
+YLLs (Years of Life Lost),Male,45 to 49,Stroke,northeast,310.0245254198629,66834.60258599711
+YLLs (Years of Life Lost),Male,45 to 49,"Tracheal, bronchus, and lung cancer",northeast,411.864880677992,66834.60258599711
+YLLs (Years of Life Lost),Male,5 to 9,All causes,northeast,207.65749054218279,58029.57477945244
+YLLs (Years of Life Lost),Male,5 to 9,Cardiovascular diseases,northeast,5.777826770997722,58029.57477945244
+YLLs (Years of Life Lost),Male,5 to 9,Chronic obstructive pulmonary disease,northeast,0.5004178552104348,58029.57477945244
+YLLs (Years of Life Lost),Male,5 to 9,Liver cancer,northeast,0.9971788546398476,58029.57477945244
+YLLs (Years of Life Lost),Male,5 to 9,Lower respiratory infections,northeast,7.556764788630137,58029.57477945244
+YLLs (Years of Life Lost),Male,5 to 9,Neoplasms,northeast,72.80716418837781,58029.57477945244
+YLLs (Years of Life Lost),Male,5 to 9,Road injuries,northeast,18.120207850424286,58029.57477945244
+YLLs (Years of Life Lost),Male,5 to 9,Stroke,northeast,1.7061633399655225,58029.57477945244
+YLLs (Years of Life Lost),Male,50 to 54,All causes,northeast,9934.785598367484,71399.47717070093
+YLLs (Years of Life Lost),Male,50 to 54,Breast cancer,northeast,8.163326940611702,71399.47717070093
+YLLs (Years of Life Lost),Male,50 to 54,Cardiovascular diseases,northeast,2781.427113566521,71399.47717070093
+YLLs (Years of Life Lost),Male,50 to 54,Chronic obstructive pulmonary disease,northeast,241.50042101513372,71399.47717070093
+YLLs (Years of Life Lost),Male,50 to 54,Colon and rectum cancer,northeast,376.8686814203787,71399.47717070093
+YLLs (Years of Life Lost),Male,50 to 54,Diabetes mellitus type 2,northeast,42.7556715273773,71399.47717070093
+YLLs (Years of Life Lost),Male,50 to 54,Ischemic heart disease,northeast,1890.3504849163003,71399.47717070093
+YLLs (Years of Life Lost),Male,50 to 54,Liver cancer,northeast,137.7967051597605,71399.47717070093
+YLLs (Years of Life Lost),Male,50 to 54,Lower respiratory infections,northeast,253.37510331870212,71399.47717070093
+YLLs (Years of Life Lost),Male,50 to 54,Neoplasms,northeast,3403.468315775839,71399.47717070093
+YLLs (Years of Life Lost),Male,50 to 54,Road injuries,northeast,118.66603503239028,71399.47717070093
+YLLs (Years of Life Lost),Male,50 to 54,Stomach cancer,northeast,176.61651248847585,71399.47717070093
+YLLs (Years of Life Lost),Male,50 to 54,Stroke,northeast,402.5983136226184,71399.47717070093
+YLLs (Years of Life Lost),Male,50 to 54,"Tracheal, bronchus, and lung cancer",northeast,805.0617428683981,71399.47717070093
+YLLs (Years of Life Lost),Male,55 to 59,All causes,northeast,13005.950638621724,66661.58010594398
+YLLs (Years of Life Lost),Male,55 to 59,Breast cancer,northeast,11.99260481658207,66661.58010594398
+YLLs (Years of Life Lost),Male,55 to 59,Cardiovascular diseases,northeast,3604.1650349765832,66661.58010594398
+YLLs (Years of Life Lost),Male,55 to 59,Chronic obstructive pulmonary disease,northeast,485.7062075123191,66661.58010594398
+YLLs (Years of Life Lost),Male,55 to 59,Colon and rectum cancer,northeast,582.6490360062359,66661.58010594398
+YLLs (Years of Life Lost),Male,55 to 59,Diabetes mellitus type 2,northeast,56.345173007643005,66661.58010594398
+YLLs (Years of Life Lost),Male,55 to 59,Ischemic heart disease,northeast,2464.528724638407,66661.58010594398
+YLLs (Years of Life Lost),Male,55 to 59,Liver cancer,northeast,219.59437862701583,66661.58010594398
+YLLs (Years of Life Lost),Male,55 to 59,Lower respiratory infections,northeast,313.2394739683008,66661.58010594398
+YLLs (Years of Life Lost),Male,55 to 59,Neoplasms,northeast,5402.001273893805,66661.58010594398
+YLLs (Years of Life Lost),Male,55 to 59,Road injuries,northeast,96.59778652748578,66661.58010594398
+YLLs (Years of Life Lost),Male,55 to 59,Stomach cancer,northeast,261.64983410450645,66661.58010594398
+YLLs (Years of Life Lost),Male,55 to 59,Stroke,northeast,497.0738663726808,66661.58010594398
+YLLs (Years of Life Lost),Male,55 to 59,"Tracheal, bronchus, and lung cancer",northeast,1466.4558592780509,66661.58010594398
+YLLs (Years of Life Lost),Male,60 to 64,All causes,northeast,17166.1439797665,58604.32746316989
+YLLs (Years of Life Lost),Male,60 to 64,Breast cancer,northeast,18.29410019545654,58604.32746316989
+YLLs (Years of Life Lost),Male,60 to 64,Cardiovascular diseases,northeast,4662.235355596311,58604.32746316989
+YLLs (Years of Life Lost),Male,60 to 64,Chronic obstructive pulmonary disease,northeast,978.4879969579864,58604.32746316989
+YLLs (Years of Life Lost),Male,60 to 64,Colon and rectum cancer,northeast,844.92370875856,58604.32746316989
+YLLs (Years of Life Lost),Male,60 to 64,Diabetes mellitus type 2,northeast,86.42442161773839,58604.32746316989
+YLLs (Years of Life Lost),Male,60 to 64,Ischemic heart disease,northeast,3102.194828426885,58604.32746316989
+YLLs (Years of Life Lost),Male,60 to 64,Liver cancer,northeast,299.70435153584526,58604.32746316989
+YLLs (Years of Life Lost),Male,60 to 64,Lower respiratory infections,northeast,425.9286617813035,58604.32746316989
+YLLs (Years of Life Lost),Male,60 to 64,Neoplasms,northeast,7822.2923380057555,58604.32746316989
+YLLs (Years of Life Lost),Male,60 to 64,Road injuries,northeast,77.14862516200034,58604.32746316989
+YLLs (Years of Life Lost),Male,60 to 64,Stomach cancer,northeast,379.5431992897361,58604.32746316989
+YLLs (Years of Life Lost),Male,60 to 64,Stroke,northeast,693.2669814211259,58604.32746316989
+YLLs (Years of Life Lost),Male,60 to 64,"Tracheal, bronchus, and lung cancer",northeast,2335.003514496708,58604.32746316989
+YLLs (Years of Life Lost),Male,65 to 69,All causes,northeast,22333.85146470097,57538.331540254054
+YLLs (Years of Life Lost),Male,65 to 69,Breast cancer,northeast,23.594487711034333,57538.331540254054
+YLLs (Years of Life Lost),Male,65 to 69,Cardiovascular diseases,northeast,6090.786375793178,57538.331540254054
+YLLs (Years of Life Lost),Male,65 to 69,Chronic obstructive pulmonary disease,northeast,1559.2537064178125,57538.331540254054
+YLLs (Years of Life Lost),Male,65 to 69,Colon and rectum cancer,northeast,1067.401021916298,57538.331540254054
+YLLs (Years of Life Lost),Male,65 to 69,Diabetes mellitus type 2,northeast,116.82719997266065,57538.331540254054
+YLLs (Years of Life Lost),Male,65 to 69,Ischemic heart disease,northeast,3914.7286329158405,57538.331540254054
+YLLs (Years of Life Lost),Male,65 to 69,Liver cancer,northeast,385.46076686301467,57538.331540254054
+YLLs (Years of Life Lost),Male,65 to 69,Lower respiratory infections,northeast,602.0693885130613,57538.331540254054
+YLLs (Years of Life Lost),Male,65 to 69,Neoplasms,northeast,10369.845428391127,57538.331540254054
+YLLs (Years of Life Lost),Male,65 to 69,Road injuries,northeast,67.4292684997753,57538.331540254054
+YLLs (Years of Life Lost),Male,65 to 69,Stomach cancer,northeast,511.92708540136766,57538.331540254054
+YLLs (Years of Life Lost),Male,65 to 69,Stroke,northeast,990.5613805204317,57538.331540254054
+YLLs (Years of Life Lost),Male,65 to 69,"Tracheal, bronchus, and lung cancer",northeast,3237.730269267339,57538.331540254054
+YLLs (Years of Life Lost),Male,70 to 74,All causes,northeast,20723.345555611573,45817.4726689754
+YLLs (Years of Life Lost),Male,70 to 74,Breast cancer,northeast,21.333376842548198,45817.4726689754
+YLLs (Years of Life Lost),Male,70 to 74,Cardiovascular diseases,northeast,5862.093376032479,45817.4726689754
+YLLs (Years of Life Lost),Male,70 to 74,Chronic obstructive pulmonary disease,northeast,1749.0673883847924,45817.4726689754
+YLLs (Years of Life Lost),Male,70 to 74,Colon and rectum cancer,northeast,924.5716437597798,45817.4726689754
+YLLs (Years of Life Lost),Male,70 to 74,Diabetes mellitus type 2,northeast,118.09588510083121,45817.4726689754
+YLLs (Years of Life Lost),Male,70 to 74,Ischemic heart disease,northeast,3558.208177032942,45817.4726689754
+YLLs (Years of Life Lost),Male,70 to 74,Liver cancer,northeast,304.7364317117435,45817.4726689754
+YLLs (Years of Life Lost),Male,70 to 74,Lower respiratory infections,northeast,658.9068598185933,45817.4726689754
+YLLs (Years of Life Lost),Male,70 to 74,Neoplasms,northeast,8968.319891702224,45817.4726689754
+YLLs (Years of Life Lost),Male,70 to 74,Road injuries,northeast,46.21654500365183,45817.4726689754
+YLLs (Years of Life Lost),Male,70 to 74,Stomach cancer,northeast,482.03941234616127,45817.4726689754
+YLLs (Years of Life Lost),Male,70 to 74,Stroke,northeast,1110.641959253516,45817.4726689754
+YLLs (Years of Life Lost),Male,70 to 74,"Tracheal, bronchus, and lung cancer",northeast,2734.05131847658,45817.4726689754
+YLLs (Years of Life Lost),Male,75 to 79,All causes,northeast,21349.321836777686,32140.500841378234
+YLLs (Years of Life Lost),Male,75 to 79,Breast cancer,northeast,18.322194331903994,32140.500841378234
+YLLs (Years of Life Lost),Male,75 to 79,Cardiovascular diseases,northeast,6360.534905721121,32140.500841378234
+YLLs (Years of Life Lost),Male,75 to 79,Chronic obstructive pulmonary disease,northeast,1923.232536937616,32140.500841378234
+YLLs (Years of Life Lost),Male,75 to 79,Colon and rectum cancer,northeast,823.0693234825343,32140.500841378234
+YLLs (Years of Life Lost),Male,75 to 79,Diabetes mellitus type 2,northeast,134.81124247274022,32140.500841378234
+YLLs (Years of Life Lost),Male,75 to 79,Ischemic heart disease,northeast,3612.0980876497065,32140.500841378234
+YLLs (Years of Life Lost),Male,75 to 79,Liver cancer,northeast,250.53177438274608,32140.500841378234
+YLLs (Years of Life Lost),Male,75 to 79,Lower respiratory infections,northeast,873.1318364650219,32140.500841378234
+YLLs (Years of Life Lost),Male,75 to 79,Neoplasms,northeast,7972.843323005652,32140.500841378234
+YLLs (Years of Life Lost),Male,75 to 79,Road injuries,northeast,39.927231722300874,32140.500841378234
+YLLs (Years of Life Lost),Male,75 to 79,Stomach cancer,northeast,488.8677540694316,32140.500841378234
+YLLs (Years of Life Lost),Male,75 to 79,Stroke,northeast,1419.21405505668,32140.500841378234
+YLLs (Years of Life Lost),Male,75 to 79,"Tracheal, bronchus, and lung cancer",northeast,2280.6704392272068,32140.500841378234
+YLLs (Years of Life Lost),Male,80 to 84,All causes,northeast,18516.832210674467,22400.722124819295
+YLLs (Years of Life Lost),Male,80 to 84,Breast cancer,northeast,13.061325385215726,22400.722124819295
+YLLs (Years of Life Lost),Male,80 to 84,Cardiovascular diseases,northeast,5612.639060126692,22400.722124819295
+YLLs (Years of Life Lost),Male,80 to 84,Chronic obstructive pulmonary disease,northeast,1620.6914598904298,22400.722124819295
+YLLs (Years of Life Lost),Male,80 to 84,Colon and rectum cancer,northeast,664.7875586248405,22400.722124819295
+YLLs (Years of Life Lost),Male,80 to 84,Diabetes mellitus type 2,northeast,127.51027443140526,22400.722124819295
+YLLs (Years of Life Lost),Male,80 to 84,Ischemic heart disease,northeast,2985.1317135314753,22400.722124819295
+YLLs (Years of Life Lost),Male,80 to 84,Liver cancer,northeast,159.9748834425565,22400.722124819295
+YLLs (Years of Life Lost),Male,80 to 84,Lower respiratory infections,northeast,1048.97983567447,22400.722124819295
+YLLs (Years of Life Lost),Male,80 to 84,Neoplasms,northeast,5821.847906096185,22400.722124819295
+YLLs (Years of Life Lost),Male,80 to 84,Road injuries,northeast,29.15577654786708,22400.722124819295
+YLLs (Years of Life Lost),Male,80 to 84,Stomach cancer,northeast,371.27008186489945,22400.722124819295
+YLLs (Years of Life Lost),Male,80 to 84,Stroke,northeast,1442.5754250853863,22400.722124819295
+YLLs (Years of Life Lost),Male,80 to 84,"Tracheal, bronchus, and lung cancer",northeast,1473.4215186104223,22400.722124819295
+YLLs (Years of Life Lost),Male,85 to 89,All causes,northeast,12558.578461976662,11372.28975612067
+YLLs (Years of Life Lost),Male,85 to 89,Breast cancer,northeast,7.163617898436998,11372.28975612067
+YLLs (Years of Life Lost),Male,85 to 89,Cardiovascular diseases,northeast,3832.0937173708194,11372.28975612067
+YLLs (Years of Life Lost),Male,85 to 89,Chronic obstructive pulmonary disease,northeast,1052.7532634033848,11372.28975612067
+YLLs (Years of Life Lost),Male,85 to 89,Colon and rectum cancer,northeast,371.7177492312381,11372.28975612067
+YLLs (Years of Life Lost),Male,85 to 89,Diabetes mellitus type 2,northeast,84.3537185598847,11372.28975612067
+YLLs (Years of Life Lost),Male,85 to 89,Ischemic heart disease,northeast,1932.6262891980075,11372.28975612067
+YLLs (Years of Life Lost),Male,85 to 89,Liver cancer,northeast,73.79387564687939,11372.28975612067
+YLLs (Years of Life Lost),Male,85 to 89,Lower respiratory infections,northeast,1075.5000220529748,11372.28975612067
+YLLs (Years of Life Lost),Male,85 to 89,Neoplasms,northeast,3142.5308585383377,11372.28975612067
+YLLs (Years of Life Lost),Male,85 to 89,Road injuries,northeast,15.278183508284194,11372.28975612067
+YLLs (Years of Life Lost),Male,85 to 89,Stomach cancer,northeast,195.9398897047049,11372.28975612067
+YLLs (Years of Life Lost),Male,85 to 89,Stroke,northeast,1075.4509386772463,11372.28975612067
+YLLs (Years of Life Lost),Male,85 to 89,"Tracheal, bronchus, and lung cancer",northeast,691.7511251048927,11372.28975612067
+YLLs (Years of Life Lost),Male,90 to 94,All causes,northeast,4823.675122370243,4160.003678871512
+YLLs (Years of Life Lost),Male,90 to 94,Breast cancer,northeast,2.7461722683732526,4160.003678871512
+YLLs (Years of Life Lost),Male,90 to 94,Cardiovascular diseases,northeast,1569.7444164536323,4160.003678871512
+YLLs (Years of Life Lost),Male,90 to 94,Chronic obstructive pulmonary disease,northeast,385.27963349178907,4160.003678871512
+YLLs (Years of Life Lost),Male,90 to 94,Colon and rectum cancer,northeast,117.43732653767006,4160.003678871512
+YLLs (Years of Life Lost),Male,90 to 94,Diabetes mellitus type 2,northeast,33.12534499286371,4160.003678871512
+YLLs (Years of Life Lost),Male,90 to 94,Ischemic heart disease,northeast,796.5520059140268,4160.003678871512
+YLLs (Years of Life Lost),Male,90 to 94,Liver cancer,northeast,17.423943253071908,4160.003678871512
+YLLs (Years of Life Lost),Male,90 to 94,Lower respiratory infections,northeast,464.00223021269085,4160.003678871512
+YLLs (Years of Life Lost),Male,90 to 94,Neoplasms,northeast,927.0168781324313,4160.003678871512
+YLLs (Years of Life Lost),Male,90 to 94,Road injuries,northeast,4.780447832818823,4160.003678871512
+YLLs (Years of Life Lost),Male,90 to 94,Stomach cancer,northeast,63.34408514102546,4160.003678871512
+YLLs (Years of Life Lost),Male,90 to 94,Stroke,northeast,455.59946919537254,4160.003678871512
+YLLs (Years of Life Lost),Male,90 to 94,"Tracheal, bronchus, and lung cancer",northeast,161.657888933364,4160.003678871512
+YLLs (Years of Life Lost),Male,95 to 99,All causes,northeast,853.4512768144092,794.2155508819449
+YLLs (Years of Life Lost),Male,95 to 99,Breast cancer,northeast,0.5095945786324018,794.2155508819449
+YLLs (Years of Life Lost),Male,95 to 99,Cardiovascular diseases,northeast,295.9672841863064,794.2155508819449
+YLLs (Years of Life Lost),Male,95 to 99,Chronic obstructive pulmonary disease,northeast,66.52829528379233,794.2155508819449
+YLLs (Years of Life Lost),Male,95 to 99,Colon and rectum cancer,northeast,15.862445539620001,794.2155508819449
+YLLs (Years of Life Lost),Male,95 to 99,Diabetes mellitus type 2,northeast,6.156573573145991,794.2155508819449
+YLLs (Years of Life Lost),Male,95 to 99,Ischemic heart disease,northeast,150.14330480569464,794.2155508819449
+YLLs (Years of Life Lost),Male,95 to 99,Liver cancer,northeast,2.0316841054408767,794.2155508819449
+YLLs (Years of Life Lost),Male,95 to 99,Lower respiratory infections,northeast,99.88519169177131,794.2155508819449
+YLLs (Years of Life Lost),Male,95 to 99,Neoplasms,northeast,124.1627179669204,794.2155508819449
+YLLs (Years of Life Lost),Male,95 to 99,Road injuries,northeast,0.7859055130577206,794.2155508819449
+YLLs (Years of Life Lost),Male,95 to 99,Stomach cancer,northeast,9.529313477708838,794.2155508819449
+YLLs (Years of Life Lost),Male,95 to 99,Stroke,northeast,90.62952573597828,794.2155508819449
+YLLs (Years of Life Lost),Male,95 to 99,"Tracheal, bronchus, and lung cancer",northeast,16.82714155884317,794.2155508819449
+YLLs (Years of Life Lost),Male,0 to 4,All causes,northeast,4432.3765218874,55156.389666263756
+YLLs (Years of Life Lost),Male,0 to 4,Cardiovascular diseases,northeast,54.55459942946572,55156.389666263756
+YLLs (Years of Life Lost),Male,0 to 4,Chronic obstructive pulmonary disease,northeast,2.543494048092617,55156.389666263756
+YLLs (Years of Life Lost),Male,0 to 4,Lower respiratory infections,northeast,159.87630028544015,55156.389666263756
+YLLs (Years of Life Lost),Male,0 to 4,Neoplasms,northeast,128.83415182897363,55156.389666263756
+YLLs (Years of Life Lost),Male,0 to 4,Road injuries,northeast,27.577510755116627,55156.389666263756
+YLLs (Years of Life Lost),Male,0 to 4,Stroke,northeast,8.854513143134566,55156.389666263756

@@ -1,0 +1,1079 @@
+measure_name,sex_name,age_name,cause_name,cityregion,val,population_number
+Deaths,Female,10 to 14,All causes,nottingham,2.6967279058253757,31272.390374787836
+Deaths,Female,10 to 14,Cardiovascular diseases,nottingham,0.10587309058266507,31272.390374787836
+Deaths,Female,10 to 14,Chronic obstructive pulmonary disease,nottingham,0.015015772647052412,31272.390374787836
+Deaths,Female,10 to 14,Liver cancer,nottingham,0.01258089854067739,31272.390374787836
+Deaths,Female,10 to 14,Lower respiratory infections,nottingham,0.09345813455915,31272.390374787836
+Deaths,Female,10 to 14,Neoplasms,nottingham,0.7418024615729633,31272.390374787836
+Deaths,Female,10 to 14,Road injuries,nottingham,0.28623833758648515,31272.390374787836
+Deaths,Female,10 to 14,Stroke,nottingham,0.04030743826752405,31272.390374787836
+Deaths,Female,15 to 19,All causes,nottingham,5.862856559462843,32494.014306599878
+Deaths,Female,15 to 19,Breast cancer,nottingham,0.007974071207427859,32494.014306599878
+Deaths,Female,15 to 19,Cardiovascular diseases,nottingham,0.30511517252151094,32494.014306599878
+Deaths,Female,15 to 19,Chronic obstructive pulmonary disease,nottingham,0.0273174216779354,32494.014306599878
+Deaths,Female,15 to 19,Colon and rectum cancer,nottingham,0.010376064678980326,32494.014306599878
+Deaths,Female,15 to 19,Diabetes mellitus type 2,nottingham,0.004701051159956366,32494.014306599878
+Deaths,Female,15 to 19,Ischemic heart disease,nottingham,0.02255325626408442,32494.014306599878
+Deaths,Female,15 to 19,Liver cancer,nottingham,0.03442945642499841,32494.014306599878
+Deaths,Female,15 to 19,Lower respiratory infections,nottingham,0.13100803242514408,32494.014306599878
+Deaths,Female,15 to 19,Neoplasms,nottingham,1.121300583177891,32494.014306599878
+Deaths,Female,15 to 19,Road injuries,nottingham,1.0070815723523336,32494.014306599878
+Deaths,Female,15 to 19,Stomach cancer,nottingham,0.005610091927181189,32494.014306599878
+Deaths,Female,15 to 19,Stroke,nottingham,0.0884639589685239,32494.014306599878
+Deaths,Female,15 to 19,"Tracheal, bronchus, and lung cancer",nottingham,0.011995073756559047,32494.014306599878
+Deaths,Female,15 to 19,Uterine cancer,nottingham,0.003626577017892368,32494.014306599878
+Deaths,Female,20 to 24,All causes,nottingham,7.300724138861523,40192.639345083284
+Deaths,Female,20 to 24,Breast cancer,nottingham,0.03725273983002693,40192.639345083284
+Deaths,Female,20 to 24,Cardiovascular diseases,nottingham,0.5299141044540746,40192.639345083284
+Deaths,Female,20 to 24,Chronic obstructive pulmonary disease,nottingham,0.031655160173752986,40192.639345083284
+Deaths,Female,20 to 24,Colon and rectum cancer,nottingham,0.043903887563263855,40192.639345083284
+Deaths,Female,20 to 24,Diabetes mellitus type 2,nottingham,0.006246045351408762,40192.639345083284
+Deaths,Female,20 to 24,Ischemic heart disease,nottingham,0.05103023783538711,40192.639345083284
+Deaths,Female,20 to 24,Liver cancer,nottingham,0.03568581815342636,40192.639345083284
+Deaths,Female,20 to 24,Lower respiratory infections,nottingham,0.17248379477306952,40192.639345083284
+Deaths,Female,20 to 24,Neoplasms,nottingham,1.385796645033058,40192.639345083284
+Deaths,Female,20 to 24,Road injuries,nottingham,0.9041392585204753,40192.639345083284
+Deaths,Female,20 to 24,Stomach cancer,nottingham,0.015815904534747655,40192.639345083284
+Deaths,Female,20 to 24,Stroke,nottingham,0.17109238764079449,40192.639345083284
+Deaths,Female,20 to 24,"Tracheal, bronchus, and lung cancer",nottingham,0.022453779626383383,40192.639345083284
+Deaths,Female,20 to 24,Uterine cancer,nottingham,0.005449717382151545,40192.639345083284
+Deaths,Female,25 to 29,All causes,nottingham,9.32425868393272,42215.46723743017
+Deaths,Female,25 to 29,Breast cancer,nottingham,0.28632948455175233,42215.46723743017
+Deaths,Female,25 to 29,Cardiovascular diseases,nottingham,0.7595381964617911,42215.46723743017
+Deaths,Female,25 to 29,Chronic obstructive pulmonary disease,nottingham,0.03735560194678601,42215.46723743017
+Deaths,Female,25 to 29,Colon and rectum cancer,nottingham,0.124851101360641,42215.46723743017
+Deaths,Female,25 to 29,Diabetes mellitus type 2,nottingham,0.010924195361193975,42215.46723743017
+Deaths,Female,25 to 29,Ischemic heart disease,nottingham,0.09186462992881142,42215.46723743017
+Deaths,Female,25 to 29,Liver cancer,nottingham,0.05895248551730002,42215.46723743017
+Deaths,Female,25 to 29,Lower respiratory infections,nottingham,0.22676393026831948,42215.46723743017
+Deaths,Female,25 to 29,Neoplasms,nottingham,2.4873910305987637,42215.46723743017
+Deaths,Female,25 to 29,Road injuries,nottingham,0.6298083447902412,42215.46723743017
+Deaths,Female,25 to 29,Stomach cancer,nottingham,0.05672966274758665,42215.46723743017
+Deaths,Female,25 to 29,Stroke,nottingham,0.2612980807826044,42215.46723743017
+Deaths,Female,25 to 29,"Tracheal, bronchus, and lung cancer",nottingham,0.05301924879456579,42215.46723743017
+Deaths,Female,25 to 29,Uterine cancer,nottingham,0.013887357561262848,42215.46723743017
+Deaths,Female,30 to 34,All causes,nottingham,16.790957571317932,36268.70803829262
+Deaths,Female,30 to 34,Breast cancer,nottingham,1.4380438726809401,36268.70803829262
+Deaths,Female,30 to 34,Cardiovascular diseases,nottingham,1.7369057881639807,36268.70803829262
+Deaths,Female,30 to 34,Chronic obstructive pulmonary disease,nottingham,0.0690475724809085,36268.70803829262
+Deaths,Female,30 to 34,Colon and rectum cancer,nottingham,0.3914395035845686,36268.70803829262
+Deaths,Female,30 to 34,Diabetes mellitus type 2,nottingham,0.04234286679367157,36268.70803829262
+Deaths,Female,30 to 34,Ischemic heart disease,nottingham,0.36225125986288315,36268.70803829262
+Deaths,Female,30 to 34,Liver cancer,nottingham,0.0951696047398275,36268.70803829262
+Deaths,Female,30 to 34,Lower respiratory infections,nottingham,0.3984087904101706,36268.70803829262
+Deaths,Female,30 to 34,Neoplasms,nottingham,5.686373728512662,36268.70803829262
+Deaths,Female,30 to 34,Road injuries,nottingham,0.6303322786109156,36268.70803829262
+Deaths,Female,30 to 34,Stomach cancer,nottingham,0.18315438331587713,36268.70803829262
+Deaths,Female,30 to 34,Stroke,nottingham,0.6250672312561456,36268.70803829262
+Deaths,Female,30 to 34,"Tracheal, bronchus, and lung cancer",nottingham,0.21731882794448784,36268.70803829262
+Deaths,Female,30 to 34,Uterine cancer,nottingham,0.03277907102199861,36268.70803829262
+Deaths,Female,35 to 39,All causes,nottingham,23.939907997806742,34998.90313996424
+Deaths,Female,35 to 39,Breast cancer,nottingham,3.248331210007309,34998.90313996424
+Deaths,Female,35 to 39,Cardiovascular diseases,nottingham,2.835062999778641,34998.90313996424
+Deaths,Female,35 to 39,Chronic obstructive pulmonary disease,nottingham,0.13414273112871378,34998.90313996424
+Deaths,Female,35 to 39,Colon and rectum cancer,nottingham,0.64888156667792,34998.90313996424
+Deaths,Female,35 to 39,Diabetes mellitus type 2,nottingham,0.06035164135013848,34998.90313996424
+Deaths,Female,35 to 39,Ischemic heart disease,nottingham,0.7875554067902264,34998.90313996424
+Deaths,Female,35 to 39,Liver cancer,nottingham,0.14737975860256042,34998.90313996424
+Deaths,Female,35 to 39,Lower respiratory infections,nottingham,0.6007875620039365,34998.90313996424
+Deaths,Female,35 to 39,Neoplasms,nottingham,9.5273106408016055,34998.90313996424
+Deaths,Female,35 to 39,Road injuries,nottingham,0.5449931520202229,34998.90313996424
+Deaths,Female,35 to 39,Stomach cancer,nottingham,0.2828866334362807,34998.90313996424
+Deaths,Female,35 to 39,Stroke,nottingham,1.0187179005231213,34998.90313996424
+Deaths,Female,35 to 39,"Tracheal, bronchus, and lung cancer",nottingham,0.473030559009445,34998.90313996424
+Deaths,Female,35 to 39,Uterine cancer,nottingham,0.06404220353596589,34998.90313996424
+Deaths,Female,40 to 44,All causes,nottingham,35.819806407960336,34386.09536360417
+Deaths,Female,40 to 44,Breast cancer,nottingham,5.694270580716681,34386.09536360417
+Deaths,Female,40 to 44,Cardiovascular diseases,nottingham,4.922570857435,34386.09536360417
+Deaths,Female,40 to 44,Chronic obstructive pulmonary disease,nottingham,0.3758360126419493,34386.09536360417
+Deaths,Female,40 to 44,Colon and rectum cancer,nottingham,1.140055553778656,34386.09536360417
+Deaths,Female,40 to 44,Diabetes mellitus type 2,nottingham,0.08523968087270686,34386.09536360417
+Deaths,Female,40 to 44,Ischemic heart disease,nottingham,1.588342471254691,34386.09536360417
+Deaths,Female,40 to 44,Liver cancer,nottingham,0.23624732755760752,34386.09536360417
+Deaths,Female,40 to 44,Lower respiratory infections,nottingham,0.9146090130522893,34386.09536360417
+Deaths,Female,40 to 44,Neoplasms,nottingham,15.891428902449181,34386.09536360417
+Deaths,Female,40 to 44,Road injuries,nottingham,0.532378325594311,34386.09536360417
+Deaths,Female,40 to 44,Stomach cancer,nottingham,0.4893881653583333,34386.09536360417
+Deaths,Female,40 to 44,Stroke,nottingham,1.664753452609752,34386.09536360417
+Deaths,Female,40 to 44,"Tracheal, bronchus, and lung cancer",nottingham,1.2872717579976358,34386.09536360417
+Deaths,Female,40 to 44,Uterine cancer,nottingham,0.14732859632480738,34386.09536360417
+Deaths,Female,45 to 49,All causes,nottingham,65.89564737904905,40346.990534502795
+Deaths,Female,45 to 49,Breast cancer,nottingham,10.718256613747391,40346.990534502795
+Deaths,Female,45 to 49,Cardiovascular diseases,nottingham,9.57066232479593,40346.990534502795
+Deaths,Female,45 to 49,Chronic obstructive pulmonary disease,nottingham,1.0658395019893927,40346.990534502795
+Deaths,Female,45 to 49,Colon and rectum cancer,nottingham,2.5062096544229826,40346.990534502795
+Deaths,Female,45 to 49,Diabetes mellitus type 2,nottingham,0.3543528397997559,40346.990534502795
+Deaths,Female,45 to 49,Ischemic heart disease,nottingham,3.5722433136075518,40346.990534502795
+Deaths,Female,45 to 49,Liver cancer,nottingham,0.526259564708659,40346.990534502795
+Deaths,Female,45 to 49,Lower respiratory infections,nottingham,1.5395836097150228,40346.990534502795
+Deaths,Female,45 to 49,Neoplasms,nottingham,32.4279676424124,40346.990534502795
+Deaths,Female,45 to 49,Road injuries,nottingham,0.6493467966903875,40346.990534502795
+Deaths,Female,45 to 49,Stomach cancer,nottingham,0.8083222229717004,40346.990534502795
+Deaths,Female,45 to 49,Stroke,nottingham,3.0273237098983325,40346.990534502795
+Deaths,Female,45 to 49,"Tracheal, bronchus, and lung cancer",nottingham,4.1243255019388965,40346.990534502795
+Deaths,Female,45 to 49,Uterine cancer,nottingham,0.3970296339865295,40346.990534502795
+Deaths,Female,5 to 9,All causes,nottingham,0.8781715982247429,34001.24675205862
+Deaths,Female,5 to 9,Cardiovascular diseases,nottingham,0.028577761822142885,34001.24675205862
+Deaths,Female,5 to 9,Chronic obstructive pulmonary disease,nottingham,0.0031598506089847754,34001.24675205862
+Deaths,Female,5 to 9,Liver cancer,nottingham,0.0033357486692720878,34001.24675205862
+Deaths,Female,5 to 9,Lower respiratory infections,nottingham,0.03510486514111446,34001.24675205862
+Deaths,Female,5 to 9,Neoplasms,nottingham,0.2844998542602893,34001.24675205862
+Deaths,Female,5 to 9,Road injuries,nottingham,0.06991578910255672,34001.24675205862
+Deaths,Female,5 to 9,Stroke,nottingham,0.00816263857125157,34001.24675205862
+Deaths,Female,50 to 54,All causes,nottingham,104.66999824866369,41236.77302536381
+Deaths,Female,50 to 54,Breast cancer,nottingham,16.229879604484132,41236.77302536381
+Deaths,Female,50 to 54,Cardiovascular diseases,nottingham,15.132763768339917,41236.77302536381
+Deaths,Female,50 to 54,Chronic obstructive pulmonary disease,nottingham,2.949542179642063,41236.77302536381
+Deaths,Female,50 to 54,Colon and rectum cancer,nottingham,4.477286699188714,41236.77302536381
+Deaths,Female,50 to 54,Diabetes mellitus type 2,nottingham,0.5039439491967368,41236.77302536381
+Deaths,Female,50 to 54,Ischemic heart disease,nottingham,6.380495103280201,41236.77302536381
+Deaths,Female,50 to 54,Liver cancer,nottingham,1.084632497160058,41236.77302536381
+Deaths,Female,50 to 54,Lower respiratory infections,nottingham,2.481836617647658,41236.77302536381
+Deaths,Female,50 to 54,Neoplasms,nottingham,55.8772849872112,41236.77302536381
+Deaths,Female,50 to 54,Road injuries,nottingham,0.6858816604883908,41236.77302536381
+Deaths,Female,50 to 54,Stomach cancer,nottingham,1.2838962914660321,41236.77302536381
+Deaths,Female,50 to 54,Stroke,nottingham,4.617663835938316,41236.77302536381
+Deaths,Female,50 to 54,"Tracheal, bronchus, and lung cancer",nottingham,9.25483479234364,41236.77302536381
+Deaths,Female,50 to 54,Uterine cancer,nottingham,0.9083743322116982,41236.77302536381
+Deaths,Female,55 to 59,All causes,nottingham,150.80963844563786,36455.8650166608
+Deaths,Female,55 to 59,Breast cancer,nottingham,18.417138042826327,36455.8650166608
+Deaths,Female,55 to 59,Cardiovascular diseases,nottingham,21.75805725090651,36455.8650166608
+Deaths,Female,55 to 59,Chronic obstructive pulmonary disease,nottingham,6.740358011248294,36455.8650166608
+Deaths,Female,55 to 59,Colon and rectum cancer,nottingham,7.166740539540115,36455.8650166608
+Deaths,Female,55 to 59,Diabetes mellitus type 2,nottingham,0.764693068048909,36455.8650166608
+Deaths,Female,55 to 59,Ischemic heart disease,nottingham,9.688372214927131,36455.8650166608
+Deaths,Female,55 to 59,Liver cancer,nottingham,1.7778476225299515,36455.8650166608
+Deaths,Female,55 to 59,Lower respiratory infections,nottingham,3.56245778088939,36455.8650166608
+Deaths,Female,55 to 59,Neoplasms,nottingham,84.02894192122231,36455.8650166608
+Deaths,Female,55 to 59,Road injuries,nottingham,0.7233725710155035,36455.8650166608
+Deaths,Female,55 to 59,Stomach cancer,nottingham,2.0187925500617254,36455.8650166608
+Deaths,Female,55 to 59,Stroke,nottingham,6.083181917588115,36455.8650166608
+Deaths,Female,55 to 59,"Tracheal, bronchus, and lung cancer",nottingham,18.31298395244273,36455.8650166608
+Deaths,Female,55 to 59,Uterine cancer,nottingham,1.8253481006424417,36455.8650166608
+Deaths,Female,60 to 64,All causes,nottingham,200.82876394267618,31089.20749393315
+Deaths,Female,60 to 64,Breast cancer,nottingham,19.448009660052566,31089.20749393315
+Deaths,Female,60 to 64,Cardiovascular diseases,nottingham,32.56625036048842,31089.20749393315
+Deaths,Female,60 to 64,Chronic obstructive pulmonary disease,nottingham,13.911495524184094,31089.20749393315
+Deaths,Female,60 to 64,Colon and rectum cancer,nottingham,8.918594752788515,31089.20749393315
+Deaths,Female,60 to 64,Diabetes mellitus type 2,nottingham,1.1809032829181352,31089.20749393315
+Deaths,Female,60 to 64,Ischemic heart disease,nottingham,15.263262659137975,31089.20749393315
+Deaths,Female,60 to 64,Liver cancer,nottingham,2.393255160270543,31089.20749393315
+Deaths,Female,60 to 64,Lower respiratory infections,nottingham,5.0568712040959625,31089.20749393315
+Deaths,Female,60 to 64,Neoplasms,nottingham,108.64115053729455,31089.20749393315
+Deaths,Female,60 to 64,Road injuries,nottingham,0.6534615176901208,31089.20749393315
+Deaths,Female,60 to 64,Stomach cancer,nottingham,2.7099606859002665,31089.20749393315
+Deaths,Female,60 to 64,Stroke,nottingham,8.052328867665494,31089.20749393315
+Deaths,Female,60 to 64,"Tracheal, bronchus, and lung cancer",nottingham,27.188545092350545,31089.20749393315
+Deaths,Female,60 to 64,Uterine cancer,nottingham,2.7683635395603607,31089.20749393315
+Deaths,Female,65 to 69,All causes,nottingham,314.6174112316346,30417.14733506544
+Deaths,Female,65 to 69,Breast cancer,nottingham,24.56413760152773,30417.14733506544
+Deaths,Female,65 to 69,Cardiovascular diseases,nottingham,55.64332236395988,30417.14733506544
+Deaths,Female,65 to 69,Chronic obstructive pulmonary disease,nottingham,25.651901274454133,30417.14733506544
+Deaths,Female,65 to 69,Colon and rectum cancer,nottingham,14.182350809421013,30417.14733506544
+Deaths,Female,65 to 69,Diabetes mellitus type 2,nottingham,1.771678006160535,30417.14733506544
+Deaths,Female,65 to 69,Ischemic heart disease,nottingham,26.638451441064092,30417.14733506544
+Deaths,Female,65 to 69,Liver cancer,nottingham,3.6589427423952796,30417.14733506544
+Deaths,Female,65 to 69,Lower respiratory infections,nottingham,8.296512065382927,30417.14733506544
+Deaths,Female,65 to 69,Neoplasms,nottingham,164.15664304537205,30417.14733506544
+Deaths,Female,65 to 69,Road injuries,nottingham,0.851494872331383,30417.14733506544
+Deaths,Female,65 to 69,Stomach cancer,nottingham,4.156443177823201,30417.14733506544
+Deaths,Female,65 to 69,Stroke,nottingham,13.382213570521792,30417.14733506544
+Deaths,Female,65 to 69,"Tracheal, bronchus, and lung cancer",nottingham,44.940442780058376,30417.14733506544
+Deaths,Female,65 to 69,Uterine cancer,nottingham,4.467670010422009,30417.14733506544
+Deaths,Female,70 to 74,All causes,nottingham,442.40056551325733,27279.749897082744
+Deaths,Female,70 to 74,Breast cancer,nottingham,26.45680403909433,27279.749897082744
+Deaths,Female,70 to 74,Cardiovascular diseases,nottingham,91.30158157734662,27279.749897082744
+Deaths,Female,70 to 74,Chronic obstructive pulmonary disease,nottingham,41.043895929593496,27279.749897082744
+Deaths,Female,70 to 74,Colon and rectum cancer,nottingham,17.71342214855692,27279.749897082744
+Deaths,Female,70 to 74,Diabetes mellitus type 2,nottingham,3.1388848823082176,27279.749897082744
+Deaths,Female,70 to 74,Ischemic heart disease,nottingham,41.37023848795028,27279.749897082744
+Deaths,Female,70 to 74,Liver cancer,nottingham,5.000563359237369,27279.749897082744
+Deaths,Female,70 to 74,Lower respiratory infections,nottingham,13.925731601784058,27279.749897082744
+Deaths,Female,70 to 74,Neoplasms,nottingham,201.3885953664317,27279.749897082744
+Deaths,Female,70 to 74,Road injuries,nottingham,1.103725055849886,27279.749897082744
+Deaths,Female,70 to 74,Stomach cancer,nottingham,6.07524798479227,27279.749897082744
+Deaths,Female,70 to 74,Stroke,nottingham,23.506602509077773,27279.749897082744
+Deaths,Female,70 to 74,"Tracheal, bronchus, and lung cancer",nottingham,54.15668035841351,27279.749897082744
+Deaths,Female,70 to 74,Uterine cancer,nottingham,5.644797976612719,27279.749897082744
+Deaths,Female,75 to 79,All causes,nottingham,599.7994162874224,20079.509985912257
+Deaths,Female,75 to 79,Breast cancer,nottingham,28.652506381955064,20079.509985912257
+Deaths,Female,75 to 79,Cardiovascular diseases,nottingham,147.46642754665928,20079.509985912257
+Deaths,Female,75 to 79,Chronic obstructive pulmonary disease,nottingham,53.3587985698228,20079.509985912257
+Deaths,Female,75 to 79,Colon and rectum cancer,nottingham,22.872094655378287,20079.509985912257
+Deaths,Female,75 to 79,Diabetes mellitus type 2,nottingham,4.971008378649942,20079.509985912257
+Deaths,Female,75 to 79,Ischemic heart disease,nottingham,63.37253563076797,20079.509985912257
+Deaths,Female,75 to 79,Liver cancer,nottingham,6.009567512898058,20079.509985912257
+Deaths,Female,75 to 79,Lower respiratory infections,nottingham,25.00708983032414,20079.509985912257
+Deaths,Female,75 to 79,Neoplasms,nottingham,217.63833531664855,20079.509985912257
+Deaths,Female,75 to 79,Road injuries,nottingham,1.388336540659783,20079.509985912257
+Deaths,Female,75 to 79,Stomach cancer,nottingham,8.890960566654957,20079.509985912257
+Deaths,Female,75 to 79,Stroke,nottingham,43.14450502864885,20079.509985912257
+Deaths,Female,75 to 79,"Tracheal, bronchus, and lung cancer",nottingham,52.93125503606914,20079.509985912257
+Deaths,Female,75 to 79,Uterine cancer,nottingham,5.343719383542057,20079.509985912257
+Deaths,Female,80 to 84,All causes,nottingham,839.0718806324237,15531.027003929888
+Deaths,Female,80 to 84,Breast cancer,nottingham,31.882819064531017,15531.027003929888
+Deaths,Female,80 to 84,Cardiovascular diseases,nottingham,236.125716413745,15531.027003929888
+Deaths,Female,80 to 84,Chronic obstructive pulmonary disease,nottingham,66.33999174598296,15531.027003929888
+Deaths,Female,80 to 84,Colon and rectum cancer,nottingham,27.957693754803074,15531.027003929888
+Deaths,Female,80 to 84,Diabetes mellitus type 2,nottingham,8.919269938919951,15531.027003929888
+Deaths,Female,80 to 84,Ischemic heart disease,nottingham,99.80496850175598,15531.027003929888
+Deaths,Female,80 to 84,Liver cancer,nottingham,6.45433957772426,15531.027003929888
+Deaths,Female,80 to 84,Lower respiratory infections,nottingham,48.17410771551081,15531.027003929888
+Deaths,Female,80 to 84,Neoplasms,nottingham,222.41801016875476,15531.027003929888
+Deaths,Female,80 to 84,Road injuries,nottingham,1.540978898238104,15531.027003929888
+Deaths,Female,80 to 84,Stomach cancer,nottingham,10.70597397539566,15531.027003929888
+Deaths,Female,80 to 84,Stroke,nottingham,73.10379905159674,15531.027003929888
+Deaths,Female,80 to 84,"Tracheal, bronchus, and lung cancer",nottingham,44.64717858664363,15531.027003929888
+Deaths,Female,80 to 84,Uterine cancer,nottingham,4.725532881476914,15531.027003929888
+Deaths,Female,85 to 89,All causes,nottingham,1124.2481690875097,9978.457802919416
+Deaths,Female,85 to 89,Breast cancer,nottingham,35.4384697336975,9978.457802919416
+Deaths,Female,85 to 89,Cardiovascular diseases,nottingham,353.02917735238873,9978.457802919416
+Deaths,Female,85 to 89,Chronic obstructive pulmonary disease,nottingham,70.43571298988957,9978.457802919416
+Deaths,Female,85 to 89,Colon and rectum cancer,nottingham,29.02949707901311,9978.457802919416
+Deaths,Female,85 to 89,Diabetes mellitus type 2,nottingham,12.358276048480459,9978.457802919416
+Deaths,Female,85 to 89,Ischemic heart disease,nottingham,149.49591508773156,9978.457802919416
+Deaths,Female,85 to 89,Liver cancer,nottingham,5.822456472168564,9978.457802919416
+Deaths,Female,85 to 89,Lower respiratory infections,nottingham,91.3333130655815,9978.457802919416
+Deaths,Female,85 to 89,Neoplasms,nottingham,208.77501825581652,9978.457802919416
+Deaths,Female,85 to 89,Road injuries,nottingham,1.287735301887918,9978.457802919416
+Deaths,Female,85 to 89,Stomach cancer,nottingham,10.672749415197977,9978.457802919416
+Deaths,Female,85 to 89,Stroke,nottingham,114.43775047376883,9978.457802919416
+Deaths,Female,85 to 89,"Tracheal, bronchus, and lung cancer",nottingham,34.18414323329011,9978.457802919416
+Deaths,Female,85 to 89,Uterine cancer,nottingham,4.002104423657351,9978.457802919416
+Deaths,Female,90 to 94,All causes,nottingham,903.0951129581523,4714.876695004853
+Deaths,Female,90 to 94,Breast cancer,nottingham,22.11612513054329,4714.876695004853
+Deaths,Female,90 to 94,Cardiovascular diseases,nottingham,292.82263769549905,4714.876695004853
+Deaths,Female,90 to 94,Chronic obstructive pulmonary disease,nottingham,50.71258363804109,4714.876695004853
+Deaths,Female,90 to 94,Colon and rectum cancer,nottingham,19.127675355127263,4714.876695004853
+Deaths,Female,90 to 94,Diabetes mellitus type 2,nottingham,9.443472776184628,4714.876695004853
+Deaths,Female,90 to 94,Ischemic heart disease,nottingham,123.56483553358618,4714.876695004853
+Deaths,Female,90 to 94,Liver cancer,nottingham,2.922741340731891,4714.876695004853
+Deaths,Female,90 to 94,Lower respiratory infections,nottingham,78.3108098969391,4714.876695004853
+Deaths,Female,90 to 94,Neoplasms,nottingham,122.03895030597255,4714.876695004853
+Deaths,Female,90 to 94,Road injuries,nottingham,0.7869438310948682,4714.876695004853
+Deaths,Female,90 to 94,Stomach cancer,nottingham,7.295081469680261,4714.876695004853
+Deaths,Female,90 to 94,Stroke,nottingham,94.45592067823229,4714.876695004853
+Deaths,Female,90 to 94,"Tracheal, bronchus, and lung cancer",nottingham,16.747560918852074,4714.876695004853
+Deaths,Female,90 to 94,Uterine cancer,nottingham,2.0789933882791733,4714.876695004853
+Deaths,Female,95 to 99,All causes,nottingham,465.829964500954,1383.1592194257614
+Deaths,Female,95 to 99,Breast cancer,nottingham,9.07793998491622,1383.1592194257614
+Deaths,Female,95 to 99,Cardiovascular diseases,nottingham,153.91596777696606,1383.1592194257614
+Deaths,Female,95 to 99,Chronic obstructive pulmonary disease,nottingham,26.018112934433596,1383.1592194257614
+Deaths,Female,95 to 99,Colon and rectum cancer,nottingham,7.505799362648318,1383.1592194257614
+Deaths,Female,95 to 99,Diabetes mellitus type 2,nottingham,4.669781493498917,1383.1592194257614
+Deaths,Female,95 to 99,Ischemic heart disease,nottingham,65.24696057330068,1383.1592194257614
+Deaths,Female,95 to 99,Liver cancer,nottingham,1.0034677303425548,1383.1592194257614
+Deaths,Female,95 to 99,Lower respiratory infections,nottingham,46.72583446085624,1383.1592194257614
+Deaths,Female,95 to 99,Neoplasms,nottingham,46.38421374404089,1383.1592194257614
+Deaths,Female,95 to 99,Road injuries,nottingham,0.3558011222158224,1383.1592194257614
+Deaths,Female,95 to 99,Stomach cancer,nottingham,3.0571640877273323,1383.1592194257614
+Deaths,Female,95 to 99,Stroke,nottingham,51.65605473342528,1383.1592194257614
+Deaths,Female,95 to 99,"Tracheal, bronchus, and lung cancer",nottingham,5.563646965450846,1383.1592194257614
+Deaths,Female,95 to 99,Uterine cancer,nottingham,0.7150799522773796,1383.1592194257614
+Deaths,Female,0 to 4,All causes,nottingham,27.77973793950259,32159.688614221388
+Deaths,Female,0 to 4,Cardiovascular diseases,nottingham,0.32318542894887614,32159.688614221388
+Deaths,Female,0 to 4,Chronic obstructive pulmonary disease,nottingham,0.021377965570790594,32159.688614221388
+Deaths,Female,0 to 4,Lower respiratory infections,nottingham,0.8977008194890269,32159.688614221388
+Deaths,Female,0 to 4,Neoplasms,nottingham,0.8994237705335073,32159.688614221388
+Deaths,Female,0 to 4,Road injuries,nottingham,0.20396209816709812,32159.688614221388
+Deaths,Female,0 to 4,Stroke,nottingham,0.05047359247364787,32159.688614221388
+Deaths,Male,10 to 14,All causes,nottingham,2.61591985717895,32943.75466267522
+Deaths,Male,10 to 14,Cardiovascular diseases,nottingham,0.10635095825757876,32943.75466267522
+Deaths,Male,10 to 14,Chronic obstructive pulmonary disease,nottingham,0.005160624758738216,32943.75466267522
+Deaths,Male,10 to 14,Liver cancer,nottingham,0.012146292749156493,32943.75466267522
+Deaths,Male,10 to 14,Lower respiratory infections,nottingham,0.06361277165490221,32943.75466267522
+Deaths,Male,10 to 14,Neoplasms,nottingham,0.6567617894068898,32943.75466267522
+Deaths,Male,10 to 14,Road injuries,nottingham,0.37112736537237734,32943.75466267522
+Deaths,Male,10 to 14,Stroke,nottingham,0.029800027352779153,32943.75466267522
+Deaths,Male,15 to 19,All causes,nottingham,8.20329067441255,33915.98310640891
+Deaths,Male,15 to 19,Breast cancer,nottingham,0.0024782945726366593,33915.98310640891
+Deaths,Male,15 to 19,Cardiovascular diseases,nottingham,0.3509793290805752,33915.98310640891
+Deaths,Male,15 to 19,Chronic obstructive pulmonary disease,nottingham,0.01942300389933966,33915.98310640891
+Deaths,Male,15 to 19,Colon and rectum cancer,nottingham,0.012299652037800814,33915.98310640891
+Deaths,Male,15 to 19,Diabetes mellitus type 2,nottingham,0.0026309456872762875,33915.98310640891
+Deaths,Male,15 to 19,Ischemic heart disease,nottingham,0.029599717885279847,33915.98310640891
+Deaths,Male,15 to 19,Liver cancer,nottingham,0.020499056526461154,33915.98310640891
+Deaths,Male,15 to 19,Lower respiratory infections,nottingham,0.10752134829610875,33915.98310640891
+Deaths,Male,15 to 19,Neoplasms,nottingham,1.03088183262259,33915.98310640891
+Deaths,Male,15 to 19,Road injuries,nottingham,2.2894904143750967,33915.98310640891
+Deaths,Male,15 to 19,Stomach cancer,nottingham,0.005487855755150619,33915.98310640891
+Deaths,Male,15 to 19,Stroke,nottingham,0.08975142638722824,33915.98310640891
+Deaths,Male,15 to 19,"Tracheal, bronchus, and lung cancer",nottingham,0.003861419489357109,33915.98310640891
+Deaths,Male,20 to 24,All causes,nottingham,19.77429400630218,41089.74890143731
+Deaths,Male,20 to 24,Breast cancer,nottingham,0.0040396160699891805,41089.74890143731
+Deaths,Male,20 to 24,Cardiovascular diseases,nottingham,0.9155920176649327,41089.74890143731
+Deaths,Male,20 to 24,Chronic obstructive pulmonary disease,nottingham,0.03908618538979669,41089.74890143731
+Deaths,Male,20 to 24,Colon and rectum cancer,nottingham,0.06416122441608649,41089.74890143731
+Deaths,Male,20 to 24,Diabetes mellitus type 2,nottingham,0.008290081314263004,41089.74890143731
+Deaths,Male,20 to 24,Ischemic heart disease,nottingham,0.14482269948311471,41089.74890143731
+Deaths,Male,20 to 24,Liver cancer,nottingham,0.047866306914881446,41089.74890143731
+Deaths,Male,20 to 24,Lower respiratory infections,nottingham,0.22840605213523096,41089.74890143731
+Deaths,Male,20 to 24,Neoplasms,nottingham,1.955588938529669,41089.74890143731
+Deaths,Male,20 to 24,Road injuries,nottingham,4.743145018126333,41089.74890143731
+Deaths,Male,20 to 24,Stomach cancer,nottingham,0.02133665956645553,41089.74890143731
+Deaths,Male,20 to 24,Stroke,nottingham,0.23449936224907536,41089.74890143731
+Deaths,Male,20 to 24,"Tracheal, bronchus, and lung cancer",nottingham,0.023501199419615287,41089.74890143731
+Deaths,Male,25 to 29,All causes,nottingham,24.79681188395756,43271.650604684626
+Deaths,Male,25 to 29,Breast cancer,nottingham,0.004916325134965031,43271.650604684626
+Deaths,Male,25 to 29,Cardiovascular diseases,nottingham,1.7860103865844523,43271.650604684626
+Deaths,Male,25 to 29,Chronic obstructive pulmonary disease,nottingham,0.0522159330979173,43271.650604684626
+Deaths,Male,25 to 29,Colon and rectum cancer,nottingham,0.18944206370521346,43271.650604684626
+Deaths,Male,25 to 29,Diabetes mellitus type 2,nottingham,0.01418059478819133,43271.650604684626
+Deaths,Male,25 to 29,Ischemic heart disease,nottingham,0.5162356474255961,43271.650604684626
+Deaths,Male,25 to 29,Liver cancer,nottingham,0.08417491878518092,43271.650604684626
+Deaths,Male,25 to 29,Lower respiratory infections,nottingham,0.38233260911655437,43271.650604684626
+Deaths,Male,25 to 29,Neoplasms,nottingham,2.8797812558422935,43271.650604684626
+Deaths,Male,25 to 29,Road injuries,nottingham,3.760068430085908,43271.650604684626
+Deaths,Male,25 to 29,Stomach cancer,nottingham,0.0645555695633622,43271.650604684626
+Deaths,Male,25 to 29,Stroke,nottingham,0.42509307912972094,43271.650604684626
+Deaths,Male,25 to 29,"Tracheal, bronchus, and lung cancer",nottingham,0.0587753080085599,43271.650604684626
+Deaths,Male,30 to 34,All causes,nottingham,29.73806040449621,38172.61317789714
+Deaths,Male,30 to 34,Breast cancer,nottingham,0.007638516665787594,38172.61317789714
+Deaths,Male,30 to 34,Cardiovascular diseases,nottingham,3.3510096375172633,38172.61317789714
+Deaths,Male,30 to 34,Chronic obstructive pulmonary disease,nottingham,0.08672236004003851,38172.61317789714
+Deaths,Male,30 to 34,Colon and rectum cancer,nottingham,0.4373224761299357,38172.61317789714
+Deaths,Male,30 to 34,Diabetes mellitus type 2,nottingham,0.06134422867279293,38172.61317789714
+Deaths,Male,30 to 34,Ischemic heart disease,nottingham,1.3613706192795565,38172.61317789714
+Deaths,Male,30 to 34,Liver cancer,nottingham,0.14645788089115577,38172.61317789714
+Deaths,Male,30 to 34,Lower respiratory infections,nottingham,0.572439468894043,38172.61317789714
+Deaths,Male,30 to 34,Neoplasms,nottingham,4.114697830648382,38172.61317789714
+Deaths,Male,30 to 34,Road injuries,nottingham,2.7165415645644444,38172.61317789714
+Deaths,Male,30 to 34,Stomach cancer,nottingham,0.16208995097258075,38172.61317789714
+Deaths,Male,30 to 34,Stroke,nottingham,0.7190943609852142,38172.61317789714
+Deaths,Male,30 to 34,"Tracheal, bronchus, and lung cancer",nottingham,0.18846146670992509,38172.61317789714
+Deaths,Male,35 to 39,All causes,nottingham,37.51366989478477,37695.79986335069
+Deaths,Male,35 to 39,Breast cancer,nottingham,0.017847050178742545,37695.79986335069
+Deaths,Male,35 to 39,Cardiovascular diseases,nottingham,6.110747219234034,37695.79986335069
+Deaths,Male,35 to 39,Chronic obstructive pulmonary disease,nottingham,0.2022496554707885,37695.79986335069
+Deaths,Male,35 to 39,Colon and rectum cancer,nottingham,0.7433038003943525,37695.79986335069
+Deaths,Male,35 to 39,Diabetes mellitus type 2,nottingham,0.08963931966903284,37695.79986335069
+Deaths,Male,35 to 39,Ischemic heart disease,nottingham,3.1229705213134924,37695.79986335069
+Deaths,Male,35 to 39,Liver cancer,nottingham,0.17954018839521801,37695.79986335069
+Deaths,Male,35 to 39,Lower respiratory infections,nottingham,0.835547734197718,37695.79986335069
+Deaths,Male,35 to 39,Neoplasms,nottingham,6.31388859046805,37695.79986335069
+Deaths,Male,35 to 39,Road injuries,nottingham,2.2871652115498264,37695.79986335069
+Deaths,Male,35 to 39,Stomach cancer,nottingham,0.32495176038226437,37695.79986335069
+Deaths,Male,35 to 39,Stroke,nottingham,1.1631677510941991,37695.79986335069
+Deaths,Male,35 to 39,"Tracheal, bronchus, and lung cancer",nottingham,0.5241370749135066,37695.79986335069
+Deaths,Male,40 to 44,All causes,nottingham,62.00426751127374,34941.485178090836
+Deaths,Male,40 to 44,Breast cancer,nottingham,0.03635540937394587,34941.485178090836
+Deaths,Male,40 to 44,Cardiovascular diseases,nottingham,12.764181079020284,34941.485178090836
+Deaths,Male,40 to 44,Chronic obstructive pulmonary disease,nottingham,0.6735427923429481,34941.485178090836
+Deaths,Male,40 to 44,Colon and rectum cancer,nottingham,1.4864833475297918,34941.485178090836
+Deaths,Male,40 to 44,Diabetes mellitus type 2,nottingham,0.15665010831002943,34941.485178090836
+Deaths,Male,40 to 44,Ischemic heart disease,nottingham,7.353493206237785,34941.485178090836
+Deaths,Male,40 to 44,Liver cancer,nottingham,0.42437996000960065,34941.485178090836
+Deaths,Male,40 to 44,Lower respiratory infections,nottingham,1.4822703088580538,34941.485178090836
+Deaths,Male,40 to 44,Neoplasms,nottingham,12.916330102467626,34941.485178090836
+Deaths,Male,40 to 44,Road injuries,nottingham,2.4331138637412923,34941.485178090836
+Deaths,Male,40 to 44,Stomach cancer,nottingham,0.7017372913480528,34941.485178090836
+Deaths,Male,40 to 44,Stroke,nottingham,2.121977373614032,34941.485178090836
+Deaths,Male,40 to 44,"Tracheal, bronchus, and lung cancer",nottingham,1.6815660237816439,34941.485178090836
+Deaths,Male,45 to 49,All causes,nottingham,90.9614273491155,40032.76276236826
+Deaths,Male,45 to 49,Breast cancer,nottingham,0.06331350317225257,40032.76276236826
+Deaths,Male,45 to 49,Cardiovascular diseases,nottingham,22.618869104426885,40032.76276236826
+Deaths,Male,45 to 49,Chronic obstructive pulmonary disease,nottingham,1.4724491054689215,40032.76276236826
+Deaths,Male,45 to 49,Colon and rectum cancer,nottingham,2.896853271499589,40032.76276236826
+Deaths,Male,45 to 49,Diabetes mellitus type 2,nottingham,0.5890664267503414,40032.76276236826
+Deaths,Male,45 to 49,Ischemic heart disease,nottingham,14.390631178508663,40032.76276236826
+Deaths,Male,45 to 49,Liver cancer,nottingham,0.8965020262302643,40032.76276236826
+Deaths,Male,45 to 49,Lower respiratory infections,nottingham,2.2560439904279193,40032.76276236826
+Deaths,Male,45 to 49,Neoplasms,nottingham,24.688103234855873,40032.76276236826
+Deaths,Male,45 to 49,Road injuries,nottingham,2.2588443756237266,40032.76276236826
+Deaths,Male,45 to 49,Stomach cancer,nottingham,1.3445377250700912,40032.76276236826
+Deaths,Male,45 to 49,Stroke,nottingham,3.3720085601135796,40032.76276236826
+Deaths,Male,45 to 49,"Tracheal, bronchus, and lung cancer",nottingham,4.331955890264128,40032.76276236826
+Deaths,Male,5 to 9,All causes,nottingham,1.828266484521023,35659.81555420941
+Deaths,Male,5 to 9,Cardiovascular diseases,nottingham,0.05002721414556095,35659.81555420941
+Deaths,Male,5 to 9,Chronic obstructive pulmonary disease,nottingham,0.004213938633688241,35659.81555420941
+Deaths,Male,5 to 9,Liver cancer,nottingham,0.00816803625216376,35659.81555420941
+Deaths,Male,5 to 9,Lower respiratory infections,nottingham,0.06279941197935983,35659.81555420941
+Deaths,Male,5 to 9,Neoplasms,nottingham,0.5975274366152883,35659.81555420941
+Deaths,Male,5 to 9,Road injuries,nottingham,0.17577352329852752,35659.81555420941
+Deaths,Male,5 to 9,Stroke,nottingham,0.01416144177216224,35659.81555420941
+Deaths,Male,50 to 54,All causes,nottingham,143.86899936612724,41493.59721547501
+Deaths,Male,50 to 54,Breast cancer,nottingham,0.11688667586008339,41493.59721547501
+Deaths,Male,50 to 54,Cardiovascular diseases,nottingham,39.64533199997205,41493.59721547501
+Deaths,Male,50 to 54,Chronic obstructive pulmonary disease,nottingham,3.360540694918166,41493.59721547501
+Deaths,Male,50 to 54,Colon and rectum cancer,nottingham,5.809215253770839,41493.59721547501
+Deaths,Male,50 to 54,Diabetes mellitus type 2,nottingham,0.8382037291602158,41493.59721547501
+Deaths,Male,50 to 54,Ischemic heart disease,nottingham,26.402010336125414,41493.59721547501
+Deaths,Male,50 to 54,Liver cancer,nottingham,1.885686551975673,41493.59721547501
+Deaths,Male,50 to 54,Lower respiratory infections,nottingham,3.635389191552376,41493.59721547501
+Deaths,Male,50 to 54,Neoplasms,nottingham,49.32075651670545,41493.59721547501
+Deaths,Male,50 to 54,Road injuries,nottingham,2.216190506833855,41493.59721547501
+Deaths,Male,50 to 54,Stomach cancer,nottingham,2.479657498721667,41493.59721547501
+Deaths,Male,50 to 54,Stroke,nottingham,5.597555197183108,41493.59721547501
+Deaths,Male,50 to 54,"Tracheal, bronchus, and lung cancer",nottingham,10.374239379368555,41493.59721547501
+Deaths,Male,55 to 59,All causes,nottingham,210.39791714236344,36535.04409527227
+Deaths,Male,55 to 59,Breast cancer,nottingham,0.19262860878000748,36535.04409527227
+Deaths,Male,55 to 59,Cardiovascular diseases,nottingham,59.064638578909715,36535.04409527227
+Deaths,Male,55 to 59,Chronic obstructive pulmonary disease,nottingham,7.270105372981153,36535.04409527227
+Deaths,Male,55 to 59,Colon and rectum cancer,nottingham,9.986394433352816,36535.04409527227
+Deaths,Male,55 to 59,Diabetes mellitus type 2,nottingham,1.2310401171869931,36535.04409527227
+Deaths,Male,55 to 59,Ischemic heart disease,nottingham,39.90475751576842,36535.04409527227
+Deaths,Male,55 to 59,Liver cancer,nottingham,3.3092483383401174,36535.04409527227
+Deaths,Male,55 to 59,Lower respiratory infections,nottingham,5.146885902594212,36535.04409527227
+Deaths,Male,55 to 59,Neoplasms,nottingham,86.2555170302719,36535.04409527227
+Deaths,Male,55 to 59,Road injuries,nottingham,1.9736580508442678,36535.04409527227
+Deaths,Male,55 to 59,Stomach cancer,nottingham,4.148270492766973,36535.04409527227
+Deaths,Male,55 to 59,Stroke,nottingham,7.988091728075853,36535.04409527227
+Deaths,Male,55 to 59,"Tracheal, bronchus, and lung cancer",nottingham,21.576849152995685,36535.04409527227
+Deaths,Male,60 to 64,All causes,nottingham,287.7860431638828,30764.793661550946
+Deaths,Male,60 to 64,Breast cancer,nottingham,0.3034240740080316,30764.793661550946
+Deaths,Male,60 to 64,Cardiovascular diseases,nottingham,79.35797674689593,30764.793661550946
+Deaths,Male,60 to 64,Chronic obstructive pulmonary disease,nottingham,17.57950797894648,30764.793661550946
+Deaths,Male,60 to 64,Colon and rectum cancer,nottingham,14.648739572930285,30764.793661550946
+Deaths,Male,60 to 64,Diabetes mellitus type 2,nottingham,1.9475684511204643,30764.793661550946
+Deaths,Male,60 to 64,Ischemic heart disease,nottingham,52.914187025747594,30764.793661550946
+Deaths,Male,60 to 64,Liver cancer,nottingham,4.51955601915664,30764.793661550946
+Deaths,Male,60 to 64,Lower respiratory infections,nottingham,7.284300636905753,30764.793661550946
+Deaths,Male,60 to 64,Neoplasms,nottingham,127.14319003100584,30764.793661550946
+Deaths,Male,60 to 64,Road injuries,nottingham,1.592266653661318,30764.793661550946
+Deaths,Male,60 to 64,Stomach cancer,nottingham,6.222087661654434,30764.793661550946
+Deaths,Male,60 to 64,Stroke,nottingham,10.804533605577788,30764.793661550946
+Deaths,Male,60 to 64,"Tracheal, bronchus, and lung cancer",nottingham,34.00325443629889,30764.793661550946
+Deaths,Male,65 to 69,All causes,nottingham,467.4690864597705,30164.386781632817
+Deaths,Male,65 to 69,Breast cancer,nottingham,0.49131687897229737,30164.386781632817
+Deaths,Male,65 to 69,Cardiovascular diseases,nottingham,127.50016209397799,30164.386781632817
+Deaths,Male,65 to 69,Chronic obstructive pulmonary disease,nottingham,34.16213940631614,30164.386781632817
+Deaths,Male,65 to 69,Colon and rectum cancer,nottingham,23.723933579665903,30164.386781632817
+Deaths,Male,65 to 69,Diabetes mellitus type 2,nottingham,3.303996465910222,30164.386781632817
+Deaths,Male,65 to 69,Ischemic heart disease,nottingham,82.42934072353721,30164.386781632817
+Deaths,Male,65 to 69,Liver cancer,nottingham,7.758429942399526,30164.386781632817
+Deaths,Male,65 to 69,Lower respiratory infections,nottingham,12.577150706673319,30164.386781632817
+Deaths,Male,65 to 69,Neoplasms,nottingham,211.27537888879982,30164.386781632817
+Deaths,Male,65 to 69,Road injuries,nottingham,1.7099150298818473,30164.386781632817
+Deaths,Male,65 to 69,Stomach cancer,nottingham,10.371977764497752,30164.386781632817
+Deaths,Male,65 to 69,Stroke,nottingham,18.699943280837203,30164.386781632817
+Deaths,Male,65 to 69,"Tracheal, bronchus, and lung cancer",nottingham,55.82516977309911,30164.386781632817
+Deaths,Male,70 to 74,All causes,nottingham,619.4683033704207,25343.86928561662
+Deaths,Male,70 to 74,Breast cancer,nottingham,0.6333326522210777,25343.86928561662
+Deaths,Male,70 to 74,Cardiovascular diseases,nottingham,174.23573468429336,25343.86928561662
+Deaths,Male,70 to 74,Chronic obstructive pulmonary disease,nottingham,52.74663170407776,25343.86928561662
+Deaths,Male,70 to 74,Colon and rectum cancer,nottingham,28.352693763604808,25343.86928561662
+Deaths,Male,70 to 74,Diabetes mellitus type 2,nottingham,4.652227613571686,25343.86928561662
+Deaths,Male,70 to 74,Ischemic heart disease,nottingham,105.02794996032972,25343.86928561662
+Deaths,Male,70 to 74,Liver cancer,nottingham,8.859862934740232,25343.86928561662
+Deaths,Male,70 to 74,Lower respiratory infections,nottingham,19.126342732450524,25343.86928561662
+Deaths,Male,70 to 74,Neoplasms,nottingham,262.9152880049097,25343.86928561662
+Deaths,Male,70 to 74,Road injuries,nottingham,1.705091330665848,25343.86928561662
+Deaths,Male,70 to 74,Stomach cancer,nottingham,13.930610236872836,25343.86928561662
+Deaths,Male,70 to 74,Stroke,nottingham,30.72126738697543,25343.86928561662
+Deaths,Male,70 to 74,"Tracheal, bronchus, and lung cancer",nottingham,69.92993196045494,25343.86928561662
+Deaths,Male,75 to 79,All causes,nottingham,758.0018081067174,17219.416427666307
+Deaths,Male,75 to 79,Breast cancer,nottingham,0.6379576204717546,17219.416427666307
+Deaths,Male,75 to 79,Cardiovascular diseases,nottingham,221.48277893415474,17219.416427666307
+Deaths,Male,75 to 79,Chronic obstructive pulmonary disease,nottingham,64.98345835933164,17219.416427666307
+Deaths,Male,75 to 79,Colon and rectum cancer,nottingham,31.58376457885754,17219.416427666307
+Deaths,Male,75 to 79,Diabetes mellitus type 2,nottingham,6.112319113549887,17219.416427666307
+Deaths,Male,75 to 79,Ischemic heart disease,nottingham,126.03187759479407,17219.416427666307
+Deaths,Male,75 to 79,Liver cancer,nottingham,8.751594629980726,17219.416427666307
+Deaths,Male,75 to 79,Lower respiratory infections,nottingham,30.228731639655003,17219.416427666307
+Deaths,Male,75 to 79,Neoplasms,nottingham,279.1991907008789,17219.416427666307
+Deaths,Male,75 to 79,Road injuries,nottingham,1.7717344074107284,17219.416427666307
+Deaths,Male,75 to 79,Stomach cancer,nottingham,17.362037302621225,17219.416427666307
+Deaths,Male,75 to 79,Stroke,nottingham,47.18149506352375,17219.416427666307
+Deaths,Male,75 to 79,"Tracheal, bronchus, and lung cancer",nottingham,67.91262684531489,17219.416427666307
+Deaths,Male,80 to 84,All causes,nottingham,881.2152658063987,11803.261011339762
+Deaths,Male,80 to 84,Breast cancer,nottingham,0.6046959370987496,11803.261011339762
+Deaths,Male,80 to 84,Cardiovascular diseases,nottingham,266.8444516951996,11803.261011339762
+Deaths,Male,80 to 84,Chronic obstructive pulmonary disease,nottingham,75.01940416377143,11803.261011339762
+Deaths,Male,80 to 84,Colon and rectum cancer,nottingham,31.35021051511739,11803.261011339762
+Deaths,Male,80 to 84,Diabetes mellitus type 2,nottingham,8.2242890087507,11803.261011339762
+Deaths,Male,80 to 84,Ischemic heart disease,nottingham,144.77137909201585,11803.261011339762
+Deaths,Male,80 to 84,Liver cancer,nottingham,7.332297808818267,11803.261011339762
+Deaths,Male,80 to 84,Lower respiratory infections,nottingham,46.88192352145384,11803.261011339762
+Deaths,Male,80 to 84,Neoplasms,nottingham,269.3240319375554,11803.261011339762
+Deaths,Male,80 to 84,Road injuries,nottingham,1.76294771861981,11803.261011339762
+Deaths,Male,80 to 84,Stomach cancer,nottingham,17.015521332581702,11803.261011339762
+Deaths,Male,80 to 84,Stroke,nottingham,63.94797540371202,11803.261011339762
+Deaths,Male,80 to 84,"Tracheal, bronchus, and lung cancer",nottingham,56.21334865960637,11803.261011339762
+Deaths,Male,85 to 89,All causes,nottingham,901.1791002871802,6209.0765025247
+Deaths,Male,85 to 89,Breast cancer,nottingham,0.5038419589952899,6209.0765025247
+Deaths,Male,85 to 89,Cardiovascular diseases,nottingham,270.401184581895,6209.0765025247
+Deaths,Male,85 to 89,Chronic obstructive pulmonary disease,nottingham,76.8835362905962,6209.0765025247
+Deaths,Male,85 to 89,Colon and rectum cancer,nottingham,26.242501181825453,6209.0765025247
+Deaths,Male,85 to 89,Diabetes mellitus type 2,nottingham,8.880238296721751,6209.0765025247
+Deaths,Male,85 to 89,Ischemic heart disease,nottingham,138.74637075923903,6209.0765025247
+Deaths,Male,85 to 89,Liver cancer,nottingham,4.9219200843593836,6209.0765025247
+Deaths,Male,85 to 89,Lower respiratory infections,nottingham,72.0060182559015,6209.0765025247
+Deaths,Male,85 to 89,Neoplasms,nottingham,220.81315134659567,6209.0765025247
+Deaths,Male,85 to 89,Road injuries,nottingham,1.449542778841504,6209.0765025247
+Deaths,Male,85 to 89,Stomach cancer,nottingham,13.526705828112513,6209.0765025247
+Deaths,Male,85 to 89,Stroke,nottingham,71.81862235209145,6209.0765025247
+Deaths,Male,85 to 89,"Tracheal, bronchus, and lung cancer",nottingham,41.91156457321977,6209.0765025247
+Deaths,Male,90 to 94,All causes,nottingham,534.0633884286938,2389.6027136584485
+Deaths,Male,90 to 94,Breast cancer,nottingham,0.3001251223941663,2389.6027136584485
+Deaths,Male,90 to 94,Cardiovascular diseases,nottingham,168.72179369882065,2389.6027136584485
+Deaths,Male,90 to 94,Chronic obstructive pulmonary disease,nottingham,43.38532810719134,2389.6027136584485
+Deaths,Male,90 to 94,Colon and rectum cancer,nottingham,12.839762510531976,2389.6027136584485
+Deaths,Male,90 to 94,Diabetes mellitus type 2,nottingham,5.184392038329227,2389.6027136584485
+Deaths,Male,90 to 94,Ischemic heart disease,nottingham,86.52076938433464,2389.6027136584485
+Deaths,Male,90 to 94,Liver cancer,nottingham,1.7965623150095948,2389.6027136584485
+Deaths,Male,90 to 94,Lower respiratory infections,nottingham,47.46456615182926,2389.6027136584485
+Deaths,Male,90 to 94,Neoplasms,nottingham,102.7062288004959,2389.6027136584485
+Deaths,Male,90 to 94,Road injuries,nottingham,0.7081797272534068,2389.6027136584485
+Deaths,Male,90 to 94,Stomach cancer,nottingham,6.742246246227664,2389.6027136584485
+Deaths,Male,90 to 94,Stroke,nottingham,46.17148894895974,2389.6027136584485
+Deaths,Male,90 to 94,"Tracheal, bronchus, and lung cancer",nottingham,15.230798969659281,2389.6027136584485
+Deaths,Male,95 to 99,All causes,nottingham,161.65073427439293,457.1820428825422
+Deaths,Male,95 to 99,Breast cancer,nottingham,0.094923098715863935,457.1820428825422
+Deaths,Male,95 to 99,Cardiovascular diseases,nottingham,54.36066435772539,457.1820428825422
+Deaths,Male,95 to 99,Chronic obstructive pulmonary disease,nottingham,13.092180946835164,457.1820428825422
+Deaths,Male,95 to 99,Colon and rectum cancer,nottingham,3.0269583109451603,457.1820428825422
+Deaths,Male,95 to 99,Diabetes mellitus type 2,nottingham,1.6098328042682197,457.1820428825422
+Deaths,Male,95 to 99,Ischemic heart disease,nottingham,27.775236186871666,457.1820428825422
+Deaths,Male,95 to 99,Liver cancer,nottingham,0.3524949006973036,457.1820428825422
+Deaths,Male,95 to 99,Lower respiratory infections,nottingham,17.49612495612686,457.1820428825422
+Deaths,Male,95 to 99,Neoplasms,nottingham,23.986902531000265,457.1820428825422
+Deaths,Male,95 to 99,Road injuries,nottingham,0.20202455146671097,457.1820428825422
+Deaths,Male,95 to 99,Stomach cancer,nottingham,1.7511459311872672,457.1820428825422
+Deaths,Male,95 to 99,Stroke,nottingham,15.850340205905518,457.1820428825422
+Deaths,Male,95 to 99,"Tracheal, bronchus, and lung cancer",nottingham,2.7324078605081468,457.1820428825422
+Deaths,Male,0 to 4,All causes,nottingham,36.50736138341525,33735.33993068032
+Deaths,Male,0 to 4,Cardiovascular diseases,nottingham,0.3984203952267823,33735.33993068032
+Deaths,Male,0 to 4,Chronic obstructive pulmonary disease,nottingham,0.01489501013209407,33735.33993068032
+Deaths,Male,0 to 4,Lower respiratory infections,nottingham,1.1920041803857147,33735.33993068032
+Deaths,Male,0 to 4,Neoplasms,nottingham,0.8464247506479705,33735.33993068032
+Deaths,Male,0 to 4,Road injuries,nottingham,0.22026013366379885,33735.33993068032
+Deaths,Male,0 to 4,Stroke,nottingham,0.05966146313390622,33735.33993068032
+YLLs (Years of Life Lost),Female,10 to 14,All causes,nottingham,203.21914130326263,31272.390374787836
+YLLs (Years of Life Lost),Female,10 to 14,Cardiovascular diseases,nottingham,7.978368648963478,31272.390374787836
+YLLs (Years of Life Lost),Female,10 to 14,Chronic obstructive pulmonary disease,nottingham,1.131572481489949,31272.390374787836
+YLLs (Years of Life Lost),Female,10 to 14,Liver cancer,nottingham,0.9480765637913944,31272.390374787836
+YLLs (Years of Life Lost),Female,10 to 14,Lower respiratory infections,nottingham,7.042806671473858,31272.390374787836
+YLLs (Years of Life Lost),Female,10 to 14,Neoplasms,nottingham,55.90029875113372,31272.390374787836
+YLLs (Years of Life Lost),Female,10 to 14,Road injuries,nottingham,21.57002959377021,31272.390374787836
+YLLs (Years of Life Lost),Female,10 to 14,Stroke,nottingham,3.0374589297902004,31272.390374787836
+YLLs (Years of Life Lost),Female,15 to 19,All causes,nottingham,413.33067195524404,32494.014306599878
+YLLs (Years of Life Lost),Female,15 to 19,Breast cancer,nottingham,0.5621481655279665,32494.014306599878
+YLLs (Years of Life Lost),Female,15 to 19,Cardiovascular diseases,nottingham,21.510616860087207,32494.014306599878
+YLLs (Years of Life Lost),Female,15 to 19,Chronic obstructive pulmonary disease,nottingham,1.9260253031533048,32494.014306599878
+YLLs (Years of Life Lost),Female,15 to 19,Colon and rectum cancer,nottingham,0.7314941150620223,32494.014306599878
+YLLs (Years of Life Lost),Female,15 to 19,Diabetes mellitus type 2,nottingham,0.3314024216066556,32494.014306599878
+YLLs (Years of Life Lost),Female,15 to 19,Ischemic heart disease,nottingham,1.5899624637093528,32494.014306599878
+YLLs (Years of Life Lost),Female,15 to 19,Liver cancer,nottingham,2.427375149566151,32494.014306599878
+YLLs (Years of Life Lost),Female,15 to 19,Lower respiratory infections,nottingham,9.236138317070196,32494.014306599878
+YLLs (Years of Life Lost),Female,15 to 19,Neoplasms,nottingham,79.05011438699131,32494.014306599878
+YLLs (Years of Life Lost),Female,15 to 19,Road injuries,nottingham,70.9957208371323,32494.014306599878
+YLLs (Years of Life Lost),Female,15 to 19,Stomach cancer,nottingham,0.39551503141021294,32494.014306599878
+YLLs (Years of Life Lost),Female,15 to 19,Stroke,nottingham,6.23647440813841,32494.014306599878
+YLLs (Years of Life Lost),Female,15 to 19,"Tracheal, bronchus, and lung cancer",nottingham,0.8456966233056802,32494.014306599878
+YLLs (Years of Life Lost),Female,15 to 19,Uterine cancer,nottingham,0.255665723670749,32494.014306599878
+YLLs (Years of Life Lost),Female,20 to 24,All causes,nottingham,479.4474015035631,40192.639345083284
+YLLs (Years of Life Lost),Female,20 to 24,Breast cancer,nottingham,2.446394906894118,40192.639345083284
+YLLs (Years of Life Lost),Female,20 to 24,Cardiovascular diseases,nottingham,34.79997891794942,40192.639345083284
+YLLs (Years of Life Lost),Female,20 to 24,Chronic obstructive pulmonary disease,nottingham,2.0788643917373038,40192.639345083284
+YLLs (Years of Life Lost),Female,20 to 24,Colon and rectum cancer,nottingham,2.883195382604554,40192.639345083284
+YLLs (Years of Life Lost),Female,20 to 24,Diabetes mellitus type 2,nottingham,0.4101811442467599,40192.639345083284
+YLLs (Years of Life Lost),Female,20 to 24,Ischemic heart disease,nottingham,3.351175895544742,40192.639345083284
+YLLs (Years of Life Lost),Female,20 to 24,Liver cancer,nottingham,2.3435520823213305,40192.639345083284
+YLLs (Years of Life Lost),Female,20 to 24,Lower respiratory infections,nottingham,11.327192178287888,40192.639345083284
+YLLs (Years of Life Lost),Female,20 to 24,Neoplasms,nottingham,91.00679771575167,40192.639345083284
+YLLs (Years of Life Lost),Female,20 to 24,Road injuries,nottingham,59.375156845071004,40192.639345083284
+YLLs (Years of Life Lost),Female,20 to 24,Stomach cancer,nottingham,1.0386464234188941,40192.639345083284
+YLLs (Years of Life Lost),Female,20 to 24,Stroke,nottingham,11.235671762280539,40192.639345083284
+YLLs (Years of Life Lost),Female,20 to 24,"Tracheal, bronchus, and lung cancer",nottingham,1.4745843426497385,40192.639345083284
+YLLs (Years of Life Lost),Female,20 to 24,Uterine cancer,nottingham,0.35788691757949564,40192.639345083284
+YLLs (Years of Life Lost),Female,25 to 29,All causes,nottingham,563.288962307144,42215.46723743017
+YLLs (Years of Life Lost),Female,25 to 29,Breast cancer,nottingham,17.297607174035182,42215.46723743017
+YLLs (Years of Life Lost),Female,25 to 29,Cardiovascular diseases,nottingham,45.88466039542871,42215.46723743017
+YLLs (Years of Life Lost),Female,25 to 29,Chronic obstructive pulmonary disease,nottingham,2.256674336551935,42215.46723743017
+YLLs (Years of Life Lost),Female,25 to 29,Colon and rectum cancer,nottingham,7.542428864037422,42215.46723743017
+YLLs (Years of Life Lost),Female,25 to 29,Diabetes mellitus type 2,nottingham,0.6599473913162758,42215.46723743017
+YLLs (Years of Life Lost),Female,25 to 29,Ischemic heart disease,nottingham,5.549680289984371,42215.46723743017
+YLLs (Years of Life Lost),Female,25 to 29,Liver cancer,nottingham,3.5613690463979113,42215.46723743017
+YLLs (Years of Life Lost),Female,25 to 29,Lower respiratory infections,nottingham,13.699084153689741,42215.46723743017
+YLLs (Years of Life Lost),Female,25 to 29,Neoplasms,nottingham,150.26637762292737,42215.46723743017
+YLLs (Years of Life Lost),Female,25 to 29,Road injuries,nottingham,38.047731205177726,42215.46723743017
+YLLs (Years of Life Lost),Female,25 to 29,Stomach cancer,nottingham,3.427104574393569,42215.46723743017
+YLLs (Years of Life Lost),Female,25 to 29,Stroke,nottingham,15.785418554412065,42215.46723743017
+YLLs (Years of Life Lost),Female,25 to 29,"Tracheal, bronchus, and lung cancer",nottingham,3.2029336427093322,42215.46723743017
+YLLs (Years of Life Lost),Female,25 to 29,Uterine cancer,nottingham,0.8389545904450966,42215.46723743017
+YLLs (Years of Life Lost),Female,30 to 34,All causes,nottingham,932.3567654523948,36268.70803829262
+YLLs (Years of Life Lost),Female,30 to 34,Breast cancer,nottingham,79.85435535674135,36268.70803829262
+YLLs (Years of Life Lost),Female,30 to 34,Cardiovascular diseases,nottingham,96.44613719725172,36268.70803829262
+YLLs (Years of Life Lost),Female,30 to 34,Chronic obstructive pulmonary disease,nottingham,3.8337622006044803,36268.70803829262
+YLLs (Years of Life Lost),Female,30 to 34,Colon and rectum cancer,nottingham,21.73620534064323,36268.70803829262
+YLLs (Years of Life Lost),Female,30 to 34,Diabetes mellitus type 2,nottingham,2.3512900390867224,36268.70803829262
+YLLs (Years of Life Lost),Female,30 to 34,Ischemic heart disease,nottingham,20.1153131156039,36268.70803829262
+YLLs (Years of Life Lost),Female,30 to 34,Liver cancer,nottingham,5.284357162839649,36268.70803829262
+YLLs (Years of Life Lost),Female,30 to 34,Lower respiratory infections,nottingham,22.122711427194886,36268.70803829262
+YLLs (Years of Life Lost),Female,30 to 34,Neoplasms,nottingham,315.7553381429354,36268.70803829262
+YLLs (Years of Life Lost),Female,30 to 34,Road injuries,nottingham,35.002847791407945,36268.70803829262
+YLLs (Years of Life Lost),Female,30 to 34,Stomach cancer,nottingham,10.170030666494508,36268.70803829262
+YLLs (Years of Life Lost),Female,30 to 34,Stroke,nottingham,34.709439062791375,36268.70803829262
+YLLs (Years of Life Lost),Female,30 to 34,"Tracheal, bronchus, and lung cancer",nottingham,12.066583910193934,36268.70803829262
+YLLs (Years of Life Lost),Female,30 to 34,Uterine cancer,nottingham,1.8201905783244783,36268.70803829262
+YLLs (Years of Life Lost),Female,35 to 39,All causes,nottingham,1213.2378978977,34998.90313996424
+YLLs (Years of Life Lost),Female,35 to 39,Breast cancer,nottingham,164.61456061770338,34998.90313996424
+YLLs (Years of Life Lost),Female,35 to 39,Cardiovascular diseases,nottingham,143.67592762932154,34998.90313996424
+YLLs (Years of Life Lost),Female,35 to 39,Chronic obstructive pulmonary disease,nottingham,6.7985082669359835,34998.90313996424
+YLLs (Years of Life Lost),Female,35 to 39,Colon and rectum cancer,nottingham,32.88372937426942,34998.90313996424
+YLLs (Years of Life Lost),Female,35 to 39,Diabetes mellitus type 2,nottingham,3.0584312470638144,34998.90313996424
+YLLs (Years of Life Lost),Female,35 to 39,Ischemic heart disease,nottingham,39.911444977797295,34998.90313996424
+YLLs (Years of Life Lost),Female,35 to 39,Liver cancer,nottingham,7.469193577599475,34998.90313996424
+YLLs (Years of Life Lost),Female,35 to 39,Lower respiratory infections,nottingham,30.44697355098294,34998.90313996424
+YLLs (Years of Life Lost),Female,35 to 39,Neoplasms,nottingham,482.8222006895693,34998.90313996424
+YLLs (Years of Life Lost),Female,35 to 39,Road injuries,nottingham,27.61820472622691,34998.90313996424
+YLLs (Years of Life Lost),Female,35 to 39,Stomach cancer,nottingham,14.336298716407448,34998.90313996424
+YLLs (Years of Life Lost),Female,35 to 39,Stroke,nottingham,51.62586630307879,34998.90313996424
+YLLs (Years of Life Lost),Female,35 to 39,"Tracheal, bronchus, and lung cancer",nottingham,23.973511111042136,34998.90313996424
+YLLs (Years of Life Lost),Female,35 to 39,Uterine cancer,nottingham,3.2454852815765496,34998.90313996424
+YLLs (Years of Life Lost),Female,40 to 44,All causes,nottingham,1639.0136227010119,34386.09536360417
+YLLs (Years of Life Lost),Female,40 to 44,Breast cancer,nottingham,260.56135833533824,34386.09536360417
+YLLs (Years of Life Lost),Female,40 to 44,Cardiovascular diseases,nottingham,225.24393985932855,34386.09536360417
+YLLs (Years of Life Lost),Female,40 to 44,Chronic obstructive pulmonary disease,nottingham,17.19657825238278,34386.09536360417
+YLLs (Years of Life Lost),Female,40 to 44,Colon and rectum cancer,nottingham,52.16647342275254,34386.09536360417
+YLLs (Years of Life Lost),Female,40 to 44,Diabetes mellitus type 2,nottingham,3.9004263161518358,34386.09536360417
+YLLs (Years of Life Lost),Female,40 to 44,Ischemic heart disease,nottingham,72.67894805359354,34386.09536360417
+YLLs (Years of Life Lost),Female,40 to 44,Liver cancer,nottingham,10.809743392342703,34386.09536360417
+YLLs (Years of Life Lost),Female,40 to 44,Lower respiratory infections,nottingham,41.8500443060841,34386.09536360417
+YLLs (Years of Life Lost),Female,40 to 44,Neoplasms,nottingham,727.1535336061763,34386.09536360417
+YLLs (Years of Life Lost),Female,40 to 44,Road injuries,nottingham,24.36090511589844,34386.09536360417
+YLLs (Years of Life Lost),Female,40 to 44,Stomach cancer,nottingham,22.39303905746973,34386.09536360417
+YLLs (Years of Life Lost),Female,40 to 44,Stroke,nottingham,76.17571309218408,34386.09536360417
+YLLs (Years of Life Lost),Female,40 to 44,"Tracheal, bronchus, and lung cancer",nottingham,58.89948897170872,34386.09536360417
+YLLs (Years of Life Lost),Female,40 to 44,Uterine cancer,nottingham,6.741463297871226,34386.09536360417
+YLLs (Years of Life Lost),Female,45 to 49,All causes,nottingham,2697.7107449071696,40346.990534502795
+YLLs (Years of Life Lost),Female,45 to 49,Breast cancer,nottingham,438.792785036702,40346.990534502795
+YLLs (Years of Life Lost),Female,45 to 49,Cardiovascular diseases,nottingham,391.8145627754246,40346.990534502795
+YLLs (Years of Life Lost),Female,45 to 49,Chronic obstructive pulmonary disease,nottingham,43.634953914509275,40346.990534502795
+YLLs (Years of Life Lost),Female,45 to 49,Colon and rectum cancer,nottingham,102.60164475972387,40346.990534502795
+YLLs (Years of Life Lost),Female,45 to 49,Diabetes mellitus type 2,nottingham,14.506838090441143,40346.990534502795
+YLLs (Years of Life Lost),Female,45 to 49,Ischemic heart disease,nottingham,146.24435582838208,40346.990534502795
+YLLs (Years of Life Lost),Female,45 to 49,Liver cancer,nottingham,21.54473572691007,40346.990534502795
+YLLs (Years of Life Lost),Female,45 to 49,Lower respiratory infections,nottingham,63.02920795917747,40346.990534502795
+YLLs (Years of Life Lost),Female,45 to 49,Neoplasms,nottingham,1327.5700210334564,40346.990534502795
+YLLs (Years of Life Lost),Female,45 to 49,Road injuries,nottingham,26.58344644006338,40346.990534502795
+YLLs (Years of Life Lost),Female,45 to 49,Stomach cancer,nottingham,33.0920343061794,40346.990534502795
+YLLs (Years of Life Lost),Female,45 to 49,Stroke,nottingham,123.93563447363468,40346.990534502795
+YLLs (Years of Life Lost),Female,45 to 49,"Tracheal, bronchus, and lung cancer",nottingham,168.8479591669373,40346.990534502795
+YLLs (Years of Life Lost),Female,45 to 49,Uterine cancer,nottingham,16.253964877122463,40346.990534502795
+YLLs (Years of Life Lost),Female,5 to 9,All causes,nottingham,70.89465057035329,34001.24675205862
+YLLs (Years of Life Lost),Female,5 to 9,Cardiovascular diseases,nottingham,2.307077831053796,34001.24675205862
+YLLs (Years of Life Lost),Female,5 to 9,Chronic obstructive pulmonary disease,nottingham,0.25509316029752926,34001.24675205862
+YLLs (Years of Life Lost),Female,5 to 9,Liver cancer,nottingham,0.2692936672822248,34001.24675205862
+YLLs (Years of Life Lost),Female,5 to 9,Lower respiratory infections,nottingham,2.8340093709975456,34001.24675205862
+YLLs (Years of Life Lost),Female,5 to 9,Neoplasms,nottingham,22.967648776297246,34001.24675205862
+YLLs (Years of Life Lost),Female,5 to 9,Road injuries,nottingham,5.644312791478538,34001.24675205862
+YLLs (Years of Life Lost),Female,5 to 9,Stroke,nottingham,0.6589706584967117,34001.24675205862
+YLLs (Years of Life Lost),Female,50 to 54,All causes,nottingham,3785.622849214469,41236.77302536381
+YLLs (Years of Life Lost),Female,50 to 54,Breast cancer,nottingham,587.0301733209083,41236.77302536381
+YLLs (Years of Life Lost),Female,50 to 54,Cardiovascular diseases,nottingham,547.3068720961031,41236.77302536381
+YLLs (Years of Life Lost),Female,50 to 54,Chronic obstructive pulmonary disease,nottingham,106.66776733492397,41236.77302536381
+YLLs (Years of Life Lost),Female,50 to 54,Colon and rectum cancer,nottingham,161.9357282672299,41236.77302536381
+YLLs (Years of Life Lost),Female,50 to 54,Diabetes mellitus type 2,nottingham,18.226433149795586,41236.77302536381
+YLLs (Years of Life Lost),Female,50 to 54,Ischemic heart disease,nottingham,230.76523667233494,41236.77302536381
+YLLs (Years of Life Lost),Female,50 to 54,Liver cancer,nottingham,39.22635632282832,41236.77302536381
+YLLs (Years of Life Lost),Female,50 to 54,Lower respiratory infections,nottingham,89.76054477230065,41236.77302536381
+YLLs (Years of Life Lost),Female,50 to 54,Neoplasms,nottingham,2020.9591476999867,41236.77302536381
+YLLs (Years of Life Lost),Female,50 to 54,Road injuries,nottingham,24.80823574313033,41236.77302536381
+YLLs (Years of Life Lost),Female,50 to 54,Stomach cancer,nottingham,46.43460088716205,41236.77302536381
+YLLs (Years of Life Lost),Female,50 to 54,Stroke,nottingham,167.0105772118034,41236.77302536381
+YLLs (Years of Life Lost),Female,50 to 54,"Tracheal, bronchus, and lung cancer",nottingham,334.70349665771516,41236.77302536381
+YLLs (Years of Life Lost),Female,50 to 54,Uterine cancer,nottingham,32.85439371278228,41236.77302536381
+YLLs (Years of Life Lost),Female,55 to 59,All causes,nottingham,4747.589785661121,36455.8650166608
+YLLs (Years of Life Lost),Female,55 to 59,Breast cancer,nottingham,579.7614260770622,36455.8650166608
+YLLs (Years of Life Lost),Female,55 to 59,Cardiovascular diseases,nottingham,684.9691694535923,36455.8650166608
+YLLs (Years of Life Lost),Female,55 to 59,Chronic obstructive pulmonary disease,nottingham,212.2035011768226,36455.8650166608
+YLLs (Years of Life Lost),Female,55 to 59,Colon and rectum cancer,nottingham,225.60808286237494,36455.8650166608
+YLLs (Years of Life Lost),Female,55 to 59,Diabetes mellitus type 2,nottingham,24.072879871589603,36455.8650166608
+YLLs (Years of Life Lost),Female,55 to 59,Ischemic heart disease,nottingham,305.0020809545646,36455.8650166608
+YLLs (Years of Life Lost),Female,55 to 59,Liver cancer,nottingham,55.96933564247713,36455.8650166608
+YLLs (Years of Life Lost),Female,55 to 59,Lower respiratory infections,nottingham,112.14779353511045,36455.8650166608
+YLLs (Years of Life Lost),Female,55 to 59,Neoplasms,nottingham,2645.2608259125273,36455.8650166608
+YLLs (Years of Life Lost),Female,55 to 59,Road injuries,nottingham,22.77103227125908,36455.8650166608
+YLLs (Years of Life Lost),Female,55 to 59,Stomach cancer,nottingham,63.55287306847417,36455.8650166608
+YLLs (Years of Life Lost),Female,55 to 59,Stroke,nottingham,191.50163211978628,36455.8650166608
+YLLs (Years of Life Lost),Female,55 to 59,"Tracheal, bronchus, and lung cancer",nottingham,576.5215720784047,36455.8650166608
+YLLs (Years of Life Lost),Female,55 to 59,Uterine cancer,nottingham,57.462070534081434,36455.8650166608
+YLLs (Years of Life Lost),Female,60 to 64,All causes,nottingham,5397.190356006946,31089.20749393315
+YLLs (Years of Life Lost),Female,60 to 64,Breast cancer,nottingham,522.6674690226554,31089.20749393315
+YLLs (Years of Life Lost),Female,60 to 64,Cardiovascular diseases,nottingham,875.1997223648141,31089.20749393315
+YLLs (Years of Life Lost),Female,60 to 64,Chronic obstructive pulmonary disease,nottingham,373.8588159513104,31089.20749393315
+YLLs (Years of Life Lost),Female,60 to 64,Colon and rectum cancer,nottingham,239.68659452115818,31089.20749393315
+YLLs (Years of Life Lost),Female,60 to 64,Diabetes mellitus type 2,nottingham,31.736171133659166,31089.20749393315
+YLLs (Years of Life Lost),Female,60 to 64,Ischemic heart disease,nottingham,410.1913893826272,31089.20749393315
+YLLs (Years of Life Lost),Female,60 to 64,Liver cancer,nottingham,64.31690712942556,31089.20749393315
+YLLs (Years of Life Lost),Female,60 to 64,Lower respiratory infections,nottingham,135.90221709390445,31089.20749393315
+YLLs (Years of Life Lost),Female,60 to 64,Neoplasms,nottingham,2919.7000825710725,31089.20749393315
+YLLs (Years of Life Lost),Female,60 to 64,Road injuries,nottingham,17.5619873350943,31089.20749393315
+YLLs (Years of Life Lost),Female,60 to 64,Stomach cancer,nottingham,72.82929083577079,31089.20749393315
+YLLs (Years of Life Lost),Female,60 to 64,Stroke,nottingham,216.40408092287748,31089.20749393315
+YLLs (Years of Life Lost),Female,60 to 64,"Tracheal, bronchus, and lung cancer",nottingham,730.6725924668594,31089.20749393315
+YLLs (Years of Life Lost),Female,60 to 64,Uterine cancer,nottingham,74.39923476605159,31089.20749393315
+YLLs (Years of Life Lost),Female,65 to 69,All causes,nottingham,7040.964545713945,30417.14733506544
+YLLs (Years of Life Lost),Female,65 to 69,Breast cancer,nottingham,549.7253248103227,30417.14733506544
+YLLs (Years of Life Lost),Female,65 to 69,Cardiovascular diseases,nottingham,1245.276486015042,30417.14733506544
+YLLs (Years of Life Lost),Female,65 to 69,Chronic obstructive pulmonary disease,nottingham,574.0844342379003,30417.14733506544
+YLLs (Years of Life Lost),Female,65 to 69,Colon and rectum cancer,nottingham,317.3900559817067,30417.14733506544
+YLLs (Years of Life Lost),Female,65 to 69,Diabetes mellitus type 2,nottingham,39.64953094422907,30417.14733506544
+YLLs (Years of Life Lost),Female,65 to 69,Ischemic heart disease,nottingham,596.1593937605915,30417.14733506544
+YLLs (Years of Life Lost),Female,65 to 69,Liver cancer,nottingham,81.88583658757959,30417.14733506544
+YLLs (Years of Life Lost),Female,65 to 69,Lower respiratory infections,nottingham,185.6704825548142,30417.14733506544
+YLLs (Years of Life Lost),Female,65 to 69,Neoplasms,nottingham,3673.719158451759,30417.14733506544
+YLLs (Years of Life Lost),Female,65 to 69,Road injuries,nottingham,19.055709655017004,30417.14733506544
+YLLs (Years of Life Lost),Female,65 to 69,Stomach cancer,nottingham,93.01886672560181,30417.14733506544
+YLLs (Years of Life Lost),Female,65 to 69,Stroke,nottingham,299.4869880070548,30417.14733506544
+YLLs (Years of Life Lost),Female,65 to 69,"Tracheal, bronchus, and lung cancer",nottingham,1005.7468503314885,30417.14733506544
+YLLs (Years of Life Lost),Female,65 to 69,Uterine cancer,nottingham,99.98344968993405,30417.14733506544
+YLLs (Years of Life Lost),Female,70 to 74,All causes,nottingham,7985.941735672637,27279.749897082744
+YLLs (Years of Life Lost),Female,70 to 74,Breast cancer,nottingham,477.56215981998344,27279.749897082744
+YLLs (Years of Life Lost),Female,70 to 74,Cardiovascular diseases,nottingham,1648.1407264849852,27279.749897082744
+YLLs (Years of Life Lost),Female,70 to 74,Chronic obstructive pulmonary disease,nottingham,740.9169553906611,27279.749897082744
+YLLs (Years of Life Lost),Female,70 to 74,Colon and rectum cancer,nottingham,319.7446139081214,27279.749897082744
+YLLs (Years of Life Lost),Female,70 to 74,Diabetes mellitus type 2,nottingham,56.662782105885086,27279.749897082744
+YLLs (Years of Life Lost),Female,70 to 74,Ischemic heart disease,nottingham,746.8072391513565,27279.749897082744
+YLLs (Years of Life Lost),Female,70 to 74,Liver cancer,nottingham,90.26932772033446,27279.749897082744
+YLLs (Years of Life Lost),Female,70 to 74,Lower respiratory infections,nottingham,251.3775799877804,27279.749897082744
+YLLs (Years of Life Lost),Female,70 to 74,Neoplasms,nottingham,3635.3072362291614,27279.749897082744
+YLLs (Years of Life Lost),Female,70 to 74,Road injuries,nottingham,19.92288212865571,27279.749897082744
+YLLs (Years of Life Lost),Female,70 to 74,Stomach cancer,nottingham,109.66644086986955,27279.749897082744
+YLLs (Years of Life Lost),Female,70 to 74,Stroke,nottingham,424.32038283938414,27279.749897082744
+YLLs (Years of Life Lost),Female,70 to 74,"Tracheal, bronchus, and lung cancer",nottingham,977.6268537190097,27279.749897082744
+YLLs (Years of Life Lost),Female,70 to 74,Uterine cancer,nottingham,101.89306970307054,27279.749897082744
+YLLs (Years of Life Lost),Female,75 to 79,All causes,nottingham,8405.529259861174,20079.509985912257
+YLLs (Years of Life Lost),Female,75 to 79,Breast cancer,nottingham,401.5263372269334,20079.509985912257
+YLLs (Years of Life Lost),Female,75 to 79,Cardiovascular diseases,nottingham,2066.590916343253,20079.509985912257
+YLLs (Years of Life Lost),Female,75 to 79,Chronic obstructive pulmonary disease,nottingham,747.7763200245035,20079.509985912257
+YLLs (Years of Life Lost),Female,75 to 79,Colon and rectum cancer,nottingham,320.5239873648485,20079.509985912257
+YLLs (Years of Life Lost),Female,75 to 79,Diabetes mellitus type 2,nottingham,69.66343693223097,20079.509985912257
+YLLs (Years of Life Lost),Female,75 to 79,Ischemic heart disease,nottingham,888.1043970324151,20079.509985912257
+YLLs (Years of Life Lost),Female,75 to 79,Liver cancer,nottingham,84.21810931581426,20079.509985912257
+YLLs (Years of Life Lost),Female,75 to 79,Lower respiratory infections,nottingham,350.44740121967436,20079.509985912257
+YLLs (Years of Life Lost),Female,75 to 79,Neoplasms,nottingham,3049.943515140769,20079.509985912257
+YLLs (Years of Life Lost),Female,75 to 79,Road injuries,nottingham,19.455668480222887,20079.509985912257
+YLLs (Years of Life Lost),Female,75 to 79,Stomach cancer,nottingham,124.59660634033625,20079.509985912257
+YLLs (Years of Life Lost),Female,75 to 79,Stroke,nottingham,604.6195103699022,20079.509985912257
+YLLs (Years of Life Lost),Female,75 to 79,"Tracheal, bronchus, and lung cancer",nottingham,741.7767496128985,20079.509985912257
+YLLs (Years of Life Lost),Female,75 to 79,Uterine cancer,nottingham,74.88547190040298,20079.509985912257
+YLLs (Years of Life Lost),Female,80 to 84,All causes,nottingham,8687.487558952482,15531.027003929888
+YLLs (Years of Life Lost),Female,80 to 84,Breast cancer,nottingham,330.093355658438,15531.027003929888
+YLLs (Years of Life Lost),Female,80 to 84,Cardiovascular diseases,nottingham,2444.783075544213,15531.027003929888
+YLLs (Years of Life Lost),Female,80 to 84,Chronic obstructive pulmonary disease,nottingham,686.888355088127,15531.027003929888
+YLLs (Years of Life Lost),Female,80 to 84,Colon and rectum cancer,nottingham,289.4578745443828,15531.027003929888
+YLLs (Years of Life Lost),Female,80 to 84,Diabetes mellitus type 2,nottingham,92.34583464113786,15531.027003929888
+YLLs (Years of Life Lost),Female,80 to 84,Ischemic heart disease,nottingham,1033.36212553761,15531.027003929888
+YLLs (Years of Life Lost),Female,80 to 84,Liver cancer,nottingham,66.8268935030058,15531.027003929888
+YLLs (Years of Life Lost),Female,80 to 84,Lower respiratory infections,nottingham,498.78346742735073,15531.027003929888
+YLLs (Years of Life Lost),Female,80 to 84,Neoplasms,nottingham,2302.8227304133547,15531.027003929888
+YLLs (Years of Life Lost),Female,80 to 84,Road injuries,nottingham,15.954137287028525,15531.027003929888
+YLLs (Years of Life Lost),Female,80 to 84,Stomach cancer,nottingham,110.84540737181331,15531.027003929888
+YLLs (Years of Life Lost),Female,80 to 84,Stroke,nottingham,756.8772865857101,15531.027003929888
+YLLs (Years of Life Lost),Female,80 to 84,"Tracheal, bronchus, and lung cancer",nottingham,462.2732776944694,15531.027003929888
+YLLs (Years of Life Lost),Female,80 to 84,Uterine cancer,nottingham,48.92562992157843,15531.027003929888
+YLLs (Years of Life Lost),Female,85 to 89,All causes,nottingham,8321.649848765852,9978.457802919416
+YLLs (Years of Life Lost),Female,85 to 89,Breast cancer,nottingham,262.3257007898579,9978.457802919416
+YLLs (Years of Life Lost),Female,85 to 89,Cardiovascular diseases,nottingham,2613.1053329660954,9978.457802919416
+YLLs (Years of Life Lost),Female,85 to 89,Chronic obstructive pulmonary disease,nottingham,521.3478076582674,9978.457802919416
+YLLs (Years of Life Lost),Female,85 to 89,Colon and rectum cancer,nottingham,214.8786604345942,9978.457802919416
+YLLs (Years of Life Lost),Female,85 to 89,Diabetes mellitus type 2,nottingham,91.47886493907848,9978.457802919416
+YLLs (Years of Life Lost),Female,85 to 89,Ischemic heart disease,nottingham,1106.5604688439528,9978.457802919416
+YLLs (Years of Life Lost),Female,85 to 89,Liver cancer,nottingham,43.096762501662226,9978.457802919416
+YLLs (Years of Life Lost),Female,85 to 89,Lower respiratory infections,nottingham,676.0346855913125,9978.457802919416
+YLLs (Years of Life Lost),Female,85 to 89,Neoplasms,nottingham,1545.3642205561828,9978.457802919416
+YLLs (Years of Life Lost),Female,85 to 89,Road injuries,nottingham,9.532270093401102,9978.457802919416
+YLLs (Years of Life Lost),Female,85 to 89,Stomach cancer,nottingham,78.99927179980483,9978.457802919416
+YLLs (Years of Life Lost),Female,85 to 89,Stroke,nottingham,847.0822123486112,9978.457802919416
+YLLs (Years of Life Lost),Female,85 to 89,"Tracheal, bronchus, and lung cancer",nottingham,253.02407920412918,9978.457802919416
+YLLs (Years of Life Lost),Female,85 to 89,Uterine cancer,nottingham,29.624064386068888,9978.457802919416
+YLLs (Years of Life Lost),Female,90 to 94,All causes,nottingham,4570.9511846074265,4714.876695004853
+YLLs (Years of Life Lost),Female,90 to 94,Breast cancer,nottingham,111.95358092361039,4714.876695004853
+YLLs (Years of Life Lost),Female,90 to 94,Cardiovascular diseases,nottingham,1482.0965169089673,4714.876695004853
+YLLs (Years of Life Lost),Female,90 to 94,Chronic obstructive pulmonary disease,nottingham,256.6526441804074,4714.876695004853
+YLLs (Years of Life Lost),Female,90 to 94,Colon and rectum cancer,nottingham,96.81864328647272,4714.876695004853
+YLLs (Years of Life Lost),Female,90 to 94,Diabetes mellitus type 2,nottingham,47.80163275232039,4714.876695004853
+YLLs (Years of Life Lost),Female,90 to 94,Ischemic heart disease,nottingham,625.4120805344951,4714.876695004853
+YLLs (Years of Life Lost),Female,90 to 94,Liver cancer,nottingham,14.791975144851936,4714.876695004853
+YLLs (Years of Life Lost),Female,90 to 94,Lower respiratory infections,nottingham,396.34442899402245,4714.876695004853
+YLLs (Years of Life Lost),Female,90 to 94,Neoplasms,nottingham,617.7129559009908,4714.876695004853
+YLLs (Years of Life Lost),Female,90 to 94,Road injuries,nottingham,3.9836877812469833,4714.876695004853
+YLLs (Years of Life Lost),Female,90 to 94,Stomach cancer,nottingham,36.92336926307834,4714.876695004853
+YLLs (Years of Life Lost),Female,90 to 94,Stroke,nottingham,478.1109128702316,4714.876695004853
+YLLs (Years of Life Lost),Female,90 to 94,"Tracheal, bronchus, and lung cancer",nottingham,84.76101166064731,4714.876695004853
+YLLs (Years of Life Lost),Female,90 to 94,Uterine cancer,nottingham,10.523350906069584,4714.876695004853
+YLLs (Years of Life Lost),Female,95 to 99,All causes,nottingham,1344.354139121871,1383.1592194257614
+YLLs (Years of Life Lost),Female,95 to 99,Breast cancer,nottingham,26.211082370126014,1383.1592194257614
+YLLs (Years of Life Lost),Female,95 to 99,Cardiovascular diseases,nottingham,444.1929174384446,1383.1592194257614
+YLLs (Years of Life Lost),Female,95 to 99,Chronic obstructive pulmonary disease,nottingham,75.05394413133689,1383.1592194257614
+YLLs (Years of Life Lost),Female,95 to 99,Colon and rectum cancer,nottingham,21.666119611296363,1383.1592194257614
+YLLs (Years of Life Lost),Female,95 to 99,Diabetes mellitus type 2,nottingham,13.479261921674896,1383.1592194257614
+YLLs (Years of Life Lost),Female,95 to 99,Ischemic heart disease,nottingham,188.3028915759196,1383.1592194257614
+YLLs (Years of Life Lost),Female,95 to 99,Liver cancer,nottingham,2.8949988224926986,1383.1592194257614
+YLLs (Years of Life Lost),Female,95 to 99,Lower respiratory infections,nottingham,134.8169677192858,1383.1592194257614
+YLLs (Years of Life Lost),Female,95 to 99,Neoplasms,nottingham,133.87829431033956,1383.1592194257614
+YLLs (Years of Life Lost),Female,95 to 99,Road injuries,nottingham,1.0274032294783568,1383.1592194257614
+YLLs (Years of Life Lost),Female,95 to 99,Stomach cancer,nottingham,8.82234262901625,1383.1592194257614
+YLLs (Years of Life Lost),Female,95 to 99,Stroke,nottingham,149.10867128201852,1383.1592194257614
+YLLs (Years of Life Lost),Female,95 to 99,"Tracheal, bronchus, and lung cancer",nottingham,16.050465241091597,1383.1592194257614
+YLLs (Years of Life Lost),Female,95 to 99,Uterine cancer,nottingham,2.064159510625374,1383.1592194257614
+YLLs (Years of Life Lost),Female,0 to 4,All causes,nottingham,2428.3361669187934,32159.688614221388
+YLLs (Years of Life Lost),Female,0 to 4,Cardiovascular diseases,nottingham,27.997684435474206,32159.688614221388
+YLLs (Years of Life Lost),Female,0 to 4,Chronic obstructive pulmonary disease,nottingham,1.8266944864629187,32159.688614221388
+YLLs (Years of Life Lost),Female,0 to 4,Lower respiratory infections,nottingham,77.98334627178076,32159.688614221388
+YLLs (Years of Life Lost),Female,0 to 4,Neoplasms,nottingham,77.25399610257526,32159.688614221388
+YLLs (Years of Life Lost),Female,0 to 4,Road injuries,nottingham,17.4864614613174,32159.688614221388
+YLLs (Years of Life Lost),Female,0 to 4,Stroke,nottingham,4.373848172516771,32159.688614221388
+YLLs (Years of Life Lost),Male,10 to 14,All causes,nottingham,196.74719690052427,32943.75466267522
+YLLs (Years of Life Lost),Male,10 to 14,Cardiovascular diseases,nottingham,7.99889444243409,32943.75466267522
+YLLs (Years of Life Lost),Male,10 to 14,Chronic obstructive pulmonary disease,nottingham,0.38814875477548605,32943.75466267522
+YLLs (Years of Life Lost),Male,10 to 14,Liver cancer,nottingham,0.9135531559277474,32943.75466267522
+YLLs (Years of Life Lost),Male,10 to 14,Lower respiratory infections,nottingham,4.78448506607529,32943.75466267522
+YLLs (Years of Life Lost),Male,10 to 14,Neoplasms,nottingham,49.395221624029446,32943.75466267522
+YLLs (Years of Life Lost),Male,10 to 14,Road injuries,nottingham,27.912809084895336,32943.75466267522
+YLLs (Years of Life Lost),Male,10 to 14,Stroke,nottingham,2.241348626926106,32943.75466267522
+YLLs (Years of Life Lost),Male,15 to 19,All causes,nottingham,575.5930427051379,33915.98310640891
+YLLs (Years of Life Lost),Male,15 to 19,Breast cancer,nottingham,0.17389214736485123,33915.98310640891
+YLLs (Years of Life Lost),Male,15 to 19,Cardiovascular diseases,nottingham,24.626332510612833,33915.98310640891
+YLLs (Years of Life Lost),Male,15 to 19,Chronic obstructive pulmonary disease,nottingham,1.3630305660408257,33915.98310640891
+YLLs (Years of Life Lost),Male,15 to 19,Colon and rectum cancer,nottingham,0.8629393276784376,33915.98310640891
+YLLs (Years of Life Lost),Male,15 to 19,Diabetes mellitus type 2,nottingham,0.18459983902658836,33915.98310640891
+YLLs (Years of Life Lost),Male,15 to 19,Ischemic heart disease,nottingham,2.0766749391695027,33915.98310640891
+YLLs (Years of Life Lost),Male,15 to 19,Liver cancer,nottingham,1.4385263443870684,33915.98310640891
+YLLs (Years of Life Lost),Male,15 to 19,Lower respiratory infections,nottingham,7.545875375624004,33915.98310640891
+YLLs (Years of Life Lost),Male,15 to 19,Neoplasms,nottingham,72.3288266865529,33915.98310640891
+YLLs (Years of Life Lost),Male,15 to 19,Road injuries,nottingham,160.6172528036069,33915.98310640891
+YLLs (Years of Life Lost),Male,15 to 19,Stomach cancer,nottingham,0.38506553795856613,33915.98310640891
+YLLs (Years of Life Lost),Male,15 to 19,Stroke,nottingham,6.29741339619855,33915.98310640891
+YLLs (Years of Life Lost),Male,15 to 19,"Tracheal, bronchus, and lung cancer",nottingham,0.2709563198766945,33915.98310640891
+YLLs (Years of Life Lost),Male,20 to 24,All causes,nottingham,1295.3307325042706,41089.74890143731
+YLLs (Years of Life Lost),Male,20 to 24,Breast cancer,nottingham,0.26464805237642797,41089.74890143731
+YLLs (Years of Life Lost),Male,20 to 24,Cardiovascular diseases,nottingham,59.97355270294777,41089.74890143731
+YLLs (Years of Life Lost),Male,20 to 24,Chronic obstructive pulmonary disease,nottingham,2.560319419795171,41089.74890143731
+YLLs (Years of Life Lost),Male,20 to 24,Colon and rectum cancer,nottingham,4.2026922679527825,41089.74890143731
+YLLs (Years of Life Lost),Male,20 to 24,Diabetes mellitus type 2,nottingham,0.5430137560401717,41089.74890143731
+YLLs (Years of Life Lost),Male,20 to 24,Ischemic heart disease,nottingham,9.485862318448174,41089.74890143731
+YLLs (Years of Life Lost),Male,20 to 24,Liver cancer,nottingham,3.135562160839594,41089.74890143731
+YLLs (Years of Life Lost),Male,20 to 24,Lower respiratory infections,nottingham,14.962534526979379,41089.74890143731
+YLLs (Years of Life Lost),Male,20 to 24,Neoplasms,nottingham,128.10016441805772,41089.74890143731
+YLLs (Years of Life Lost),Male,20 to 24,Road injuries,nottingham,310.69108851062447,41089.74890143731
+YLLs (Years of Life Lost),Male,20 to 24,Stomach cancer,nottingham,1.3976165150525608,41089.74890143731
+YLLs (Years of Life Lost),Male,20 to 24,Stroke,nottingham,15.360116793459728,41089.74890143731
+YLLs (Years of Life Lost),Male,20 to 24,"Tracheal, bronchus, and lung cancer",nottingham,1.5394300153834939,41089.74890143731
+YLLs (Years of Life Lost),Male,25 to 29,All causes,nottingham,1502.2277113437503,43271.650604684626
+YLLs (Years of Life Lost),Male,25 to 29,Breast cancer,nottingham,0.29784084393854693,43271.650604684626
+YLLs (Years of Life Lost),Male,25 to 29,Cardiovascular diseases,nottingham,108.21075552038953,43271.650604684626
+YLLs (Years of Life Lost),Male,25 to 29,Chronic obstructive pulmonary disease,nottingham,3.1633501893525597,43271.650604684626
+YLLs (Years of Life Lost),Male,25 to 29,Colon and rectum cancer,nottingham,11.47833312723491,43271.650604684626
+YLLs (Years of Life Lost),Male,25 to 29,Diabetes mellitus type 2,nottingham,0.8591730990504677,43271.650604684626
+YLLs (Years of Life Lost),Male,25 to 29,Ischemic heart disease,nottingham,31.280355240273913,43271.650604684626
+YLLs (Years of Life Lost),Male,25 to 29,Liver cancer,nottingham,5.099228331116227,43271.650604684626
+YLLs (Years of Life Lost),Male,25 to 29,Lower respiratory infections,nottingham,23.160190628154464,43271.650604684626
+YLLs (Years of Life Lost),Male,25 to 29,Neoplasms,nottingham,174.47796547339271,43271.650604684626
+YLLs (Years of Life Lost),Male,25 to 29,Road injuries,nottingham,227.82039241671868,43271.650604684626
+YLLs (Years of Life Lost),Male,25 to 29,Stomach cancer,nottingham,3.9111507740857627,43271.650604684626
+YLLs (Years of Life Lost),Male,25 to 29,Stroke,nottingham,25.75558308942315,43271.650604684626
+YLLs (Years of Life Lost),Male,25 to 29,"Tracheal, bronchus, and lung cancer",nottingham,3.5607590534322826,43271.650604684626
+YLLs (Years of Life Lost),Male,30 to 34,All causes,nottingham,1655.816125202224,38172.61317789714
+YLLs (Years of Life Lost),Male,30 to 34,Breast cancer,nottingham,0.42531284474506964,38172.61317789714
+YLLs (Years of Life Lost),Male,30 to 34,Cardiovascular diseases,nottingham,186.5843204982599,38172.61317789714
+YLLs (Years of Life Lost),Male,30 to 34,Chronic obstructive pulmonary disease,nottingham,4.828703695422497,38172.61317789714
+YLLs (Years of Life Lost),Male,30 to 34,Colon and rectum cancer,nottingham,24.350129027911546,38172.61317789714
+YLLs (Years of Life Lost),Male,30 to 34,Diabetes mellitus type 2,nottingham,3.4156485541721993,38172.61317789714
+YLLs (Years of Life Lost),Male,30 to 34,Ischemic heart disease,nottingham,75.80115828397487,38172.61317789714
+YLLs (Years of Life Lost),Male,30 to 34,Liver cancer,nottingham,8.154779348213857,38172.61317789714
+YLLs (Years of Life Lost),Male,30 to 34,Lower respiratory infections,nottingham,31.873447373643813,38172.61317789714
+YLLs (Years of Life Lost),Male,30 to 34,Neoplasms,nottingham,229.10650276613492,38172.61317789714
+YLLs (Years of Life Lost),Male,30 to 34,Road injuries,nottingham,151.25711852773685,38172.61317789714
+YLLs (Years of Life Lost),Male,30 to 34,Stomach cancer,nottingham,9.025173494941782,38172.61317789714
+YLLs (Years of Life Lost),Male,30 to 34,Stroke,nottingham,40.03919631158194,38172.61317789714
+YLLs (Years of Life Lost),Male,30 to 34,"Tracheal, bronchus, and lung cancer",nottingham,10.493540308714092,38172.61317789714
+YLLs (Years of Life Lost),Male,35 to 39,All causes,nottingham,1898.1746674520782,37695.79986335069
+YLLs (Years of Life Lost),Male,35 to 39,Breast cancer,nottingham,0.9031498742483026,37695.79986335069
+YLLs (Years of Life Lost),Male,35 to 39,Cardiovascular diseases,nottingham,309.23096605122674,37695.79986335069
+YLLs (Years of Life Lost),Male,35 to 39,Chronic obstructive pulmonary disease,nottingham,10.233817397818179,37695.79986335069
+YLLs (Years of Life Lost),Male,35 to 39,Colon and rectum cancer,nottingham,37.61467794208464,37695.79986335069
+YLLs (Years of Life Lost),Male,35 to 39,Diabetes mellitus type 2,nottingham,4.5360687134679,37695.79986335069
+YLLs (Years of Life Lost),Male,35 to 39,Ischemic heart disease,nottingham,158.04211857035455,37695.79986335069
+YLLs (Years of Life Lost),Male,35 to 39,Liver cancer,nottingham,9.084420432328908,37695.79986335069
+YLLs (Years of Life Lost),Male,35 to 39,Lower respiratory infections,nottingham,42.275878420508455,37695.79986335069
+YLLs (Years of Life Lost),Male,35 to 39,Neoplasms,nottingham,319.50816044921027,37695.79986335069
+YLLs (Years of Life Lost),Male,35 to 39,Road injuries,nottingham,115.74812258684003,37695.79986335069
+YLLs (Years of Life Lost),Male,35 to 39,Stomach cancer,nottingham,16.443450969977807,37695.79986335069
+YLLs (Years of Life Lost),Male,35 to 39,Stroke,nottingham,58.85964741518973,37695.79986335069
+YLLs (Years of Life Lost),Male,35 to 39,"Tracheal, bronchus, and lung cancer",nottingham,26.521322472392733,37695.79986335069
+YLLs (Years of Life Lost),Male,40 to 44,All causes,nottingham,2839.1951443113376,34941.485178090836
+YLLs (Years of Life Lost),Male,40 to 44,Breast cancer,nottingham,1.664796366858496,34941.485178090836
+YLLs (Years of Life Lost),Male,40 to 44,Cardiovascular diseases,nottingham,584.4914981342035,34941.485178090836
+YLLs (Years of Life Lost),Male,40 to 44,Chronic obstructive pulmonary disease,nottingham,30.841840652812504,34941.485178090836
+YLLs (Years of Life Lost),Male,40 to 44,Colon and rectum cancer,nottingham,68.06900071253912,34941.485178090836
+YLLs (Years of Life Lost),Male,40 to 44,Diabetes mellitus type 2,nottingham,7.173286931874054,34941.485178090836
+YLLs (Years of Life Lost),Male,40 to 44,Ischemic heart disease,nottingham,336.73244921748324,34941.485178090836
+YLLs (Years of Life Lost),Male,40 to 44,Liver cancer,nottingham,19.432207553619662,34941.485178090836
+YLLs (Years of Life Lost),Male,40 to 44,Lower respiratory infections,nottingham,67.87169475946746,34941.485178090836
+YLLs (Years of Life Lost),Male,40 to 44,Neoplasms,nottingham,591.4565856796687,34941.485178090836
+YLLs (Years of Life Lost),Male,40 to 44,Road injuries,nottingham,111.42148455568164,34941.485178090836
+YLLs (Years of Life Lost),Male,40 to 44,Stomach cancer,nottingham,32.13336412639971,34941.485178090836
+YLLs (Years of Life Lost),Male,40 to 44,Stroke,nottingham,97.16779323286404,34941.485178090836
+YLLs (Years of Life Lost),Male,40 to 44,"Tracheal, bronchus, and lung cancer",nottingham,76.99901755522089,34941.485178090836
+YLLs (Years of Life Lost),Male,45 to 49,All causes,nottingham,3728.029358395264,40032.76276236826
+YLLs (Years of Life Lost),Male,45 to 49,Breast cancer,nottingham,2.594886706241909,40032.76276236826
+YLLs (Years of Life Lost),Male,45 to 49,Cardiovascular diseases,nottingham,927.0281979125402,40032.76276236826
+YLLs (Years of Life Lost),Male,45 to 49,Chronic obstructive pulmonary disease,nottingham,60.347926081487174,40032.76276236826
+YLLs (Years of Life Lost),Male,45 to 49,Colon and rectum cancer,nottingham,118.7267433883208,40032.76276236826
+YLLs (Years of Life Lost),Male,45 to 49,Diabetes mellitus type 2,nottingham,24.142727274294675,40032.76276236826
+YLLs (Years of Life Lost),Male,45 to 49,Ischemic heart disease,nottingham,589.796104599497,40032.76276236826
+YLLs (Years of Life Lost),Male,45 to 49,Liver cancer,nottingham,36.7428916964962,40032.76276236826
+YLLs (Years of Life Lost),Male,45 to 49,Lower respiratory infections,nottingham,92.463349303723,40032.76276236826
+YLLs (Years of Life Lost),Male,45 to 49,Neoplasms,nottingham,1011.8351959164875,40032.76276236826
+YLLs (Years of Life Lost),Male,45 to 49,Road injuries,nottingham,92.57812232926835,40032.76276236826
+YLLs (Years of Life Lost),Male,45 to 49,Stomach cancer,nottingham,55.105512947736436,40032.76276236826
+YLLs (Years of Life Lost),Male,45 to 49,Stroke,nottingham,138.20085364992661,40032.76276236826
+YLLs (Years of Life Lost),Male,45 to 49,"Tracheal, bronchus, and lung cancer",nottingham,177.54403387047293,40032.76276236826
+YLLs (Years of Life Lost),Male,5 to 9,All causes,nottingham,147.38822834577547,35659.81555420941
+YLLs (Years of Life Lost),Male,5 to 9,Cardiovascular diseases,nottingham,4.03301566328859,35659.81555420941
+YLLs (Years of Life Lost),Male,5 to 9,Chronic obstructive pulmonary disease,nottingham,0.33971274434061494,35659.81555420941
+YLLs (Years of Life Lost),Male,5 to 9,Liver cancer,nottingham,0.6584915806254223,35659.81555420941
+YLLs (Years of Life Lost),Male,5 to 9,Lower respiratory infections,nottingham,5.062772003988124,35659.81555420941
+YLLs (Years of Life Lost),Male,5 to 9,Neoplasms,nottingham,48.17016778929812,35659.81555420941
+YLLs (Years of Life Lost),Male,5 to 9,Road injuries,nottingham,14.1698223260095,35659.81555420941
+YLLs (Years of Life Lost),Male,5 to 9,Stroke,nottingham,1.1416398095525095,35659.81555420941
+YLLs (Years of Life Lost),Male,50 to 54,All causes,nottingham,5202.764548829129,41493.59721547501
+YLLs (Years of Life Lost),Male,50 to 54,Breast cancer,nottingham,4.226997171556776,41493.59721547501
+YLLs (Years of Life Lost),Male,50 to 54,Cardiovascular diseases,nottingham,1433.7023873440457,41493.59721547501
+YLLs (Years of Life Lost),Male,50 to 54,Chronic obstructive pulmonary disease,nottingham,121.52793214278991,41493.59721547501
+YLLs (Years of Life Lost),Male,50 to 54,Colon and rectum cancer,nottingham,210.07985953888758,41493.59721547501
+YLLs (Years of Life Lost),Male,50 to 54,Diabetes mellitus type 2,nottingham,30.312135803996558,41493.59721547501
+YLLs (Years of Life Lost),Male,50 to 54,Ischemic heart disease,nottingham,954.7813914034534,41493.59721547501
+YLLs (Years of Life Lost),Male,50 to 54,Liver cancer,nottingham,68.19247500189913,41493.59721547501
+YLLs (Years of Life Lost),Male,50 to 54,Lower respiratory infections,nottingham,131.46733549506044,41493.59721547501
+YLLs (Years of Life Lost),Male,50 to 54,Neoplasms,nottingham,1783.5967766309727,41493.59721547501
+YLLs (Years of Life Lost),Male,50 to 54,Road injuries,nottingham,80.1445582662582,41493.59721547501
+YLLs (Years of Life Lost),Male,50 to 54,Stomach cancer,nottingham,89.67236989503137,41493.59721547501
+YLLs (Years of Life Lost),Male,50 to 54,Stroke,nottingham,202.42555288721366,41493.59721547501
+YLLs (Years of Life Lost),Male,50 to 54,"Tracheal, bronchus, and lung cancer",nottingham,375.16577651789584,41493.59721547501
+YLLs (Years of Life Lost),Male,55 to 59,All causes,nottingham,6622.050284174909,36535.04409527227
+YLLs (Years of Life Lost),Male,55 to 59,Breast cancer,nottingham,6.062740405620653,36535.04409527227
+YLLs (Years of Life Lost),Male,55 to 59,Cardiovascular diseases,nottingham,1858.9941454516124,36535.04409527227
+YLLs (Years of Life Lost),Male,55 to 59,Chronic obstructive pulmonary disease,nottingham,228.81968795658074,36535.04409527227
+YLLs (Years of Life Lost),Male,55 to 59,Colon and rectum cancer,nottingham,314.30829276900766,36535.04409527227
+YLLs (Years of Life Lost),Male,55 to 59,Diabetes mellitus type 2,nottingham,38.745604389428465,36535.04409527227
+YLLs (Years of Life Lost),Male,55 to 59,Ischemic heart disease,nottingham,1255.9567016203707,36535.04409527227
+YLLs (Years of Life Lost),Male,55 to 59,Liver cancer,nottingham,104.1557237115411,36535.04409527227
+YLLs (Years of Life Lost),Male,55 to 59,Lower respiratory infections,nottingham,161.99388638766715,36535.04409527227
+YLLs (Years of Life Lost),Male,55 to 59,Neoplasms,nottingham,2714.789830825024,36535.04409527227
+YLLs (Years of Life Lost),Male,55 to 59,Road injuries,nottingham,62.11788961599979,36535.04409527227
+YLLs (Years of Life Lost),Male,55 to 59,Stomach cancer,nottingham,130.56214456976682,36535.04409527227
+YLLs (Years of Life Lost),Male,55 to 59,Stroke,nottingham,251.41600748594647,36535.04409527227
+YLLs (Years of Life Lost),Male,55 to 59,"Tracheal, bronchus, and lung cancer",nottingham,679.1070690822568,36535.04409527227
+YLLs (Years of Life Lost),Male,60 to 64,All causes,nottingham,7731.968546339664,30764.793661550946
+YLLs (Years of Life Lost),Male,60 to 64,Breast cancer,nottingham,8.152171020076235,30764.793661550946
+YLLs (Years of Life Lost),Male,60 to 64,Cardiovascular diseases,nottingham,2132.120373380484,30764.793661550946
+YLLs (Years of Life Lost),Male,60 to 64,Chronic obstructive pulmonary disease,nottingham,472.3089870799549,30764.793661550946
+YLLs (Years of Life Lost),Male,60 to 64,Colon and rectum cancer,nottingham,393.57097998291715,30764.793661550946
+YLLs (Years of Life Lost),Male,60 to 64,Diabetes mellitus type 2,nottingham,52.32546483678922,30764.793661550946
+YLLs (Years of Life Lost),Male,60 to 64,Ischemic heart disease,nottingham,1421.653733265476,30764.793661550946
+YLLs (Years of Life Lost),Male,60 to 64,Liver cancer,nottingham,121.42602365576086,30764.793661550946
+YLLs (Years of Life Lost),Male,60 to 64,Lower respiratory infections,nottingham,195.70588809234687,30764.793661550946
+YLLs (Years of Life Lost),Male,60 to 64,Neoplasms,nottingham,3415.9758067650914,30764.793661550946
+YLLs (Years of Life Lost),Male,60 to 64,Road injuries,nottingham,42.780146224113956,30764.793661550946
+YLLs (Years of Life Lost),Male,60 to 64,Stomach cancer,nottingham,167.16987192538232,30764.793661550946
+YLLs (Years of Life Lost),Male,60 to 64,Stroke,nottingham,290.2869402954617,30764.793661550946
+YLLs (Years of Life Lost),Male,60 to 64,"Tracheal, bronchus, and lung cancer",nottingham,913.56770336712475,30764.793661550946
+YLLs (Years of Life Lost),Male,65 to 69,All causes,nottingham,10458.954248549238,30164.386781632817
+YLLs (Years of Life Lost),Male,65 to 69,Breast cancer,nottingham,10.992932760029728,30164.386781632817
+YLLs (Years of Life Lost),Male,65 to 69,Cardiovascular diseases,nottingham,2852.608617289096,30164.386781632817
+YLLs (Years of Life Lost),Male,65 to 69,Chronic obstructive pulmonary disease,nottingham,764.2714001552156,30164.386781632817
+YLLs (Years of Life Lost),Male,65 to 69,Colon and rectum cancer,nottingham,530.8105273709946,30164.386781632817
+YLLs (Years of Life Lost),Male,65 to 69,Diabetes mellitus type 2,nottingham,73.92239034403367,30164.386781632817
+YLLs (Years of Life Lost),Male,65 to 69,Ischemic heart disease,nottingham,1844.2439995296777,30164.386781632817
+YLLs (Years of Life Lost),Male,65 to 69,Liver cancer,nottingham,173.5799178844041,30164.386781632817
+YLLs (Years of Life Lost),Male,65 to 69,Lower respiratory infections,nottingham,281.3749033669663,30164.386781632817
+YLLs (Years of Life Lost),Male,65 to 69,Neoplasms,nottingham,4727.154733162775,30164.386781632817
+YLLs (Years of Life Lost),Male,65 to 69,Road injuries,nottingham,38.2605646010328,30164.386781632817
+YLLs (Years of Life Lost),Male,65 to 69,Stomach cancer,nottingham,232.06591560526724,30164.386781632817
+YLLs (Years of Life Lost),Male,65 to 69,Stroke,nottingham,418.3688735422793,30164.386781632817
+YLLs (Years of Life Lost),Male,65 to 69,"Tracheal, bronchus, and lung cancer",nottingham,1249.0307179773167,30164.386781632817
+YLLs (Years of Life Lost),Male,70 to 74,All causes,nottingham,11193.642073337649,25343.86928561662
+YLLs (Years of Life Lost),Male,70 to 74,Breast cancer,nottingham,11.443871159090556,25343.86928561662
+YLLs (Years of Life Lost),Male,70 to 74,Cardiovascular diseases,nottingham,3148.432029771795,25343.86928561662
+YLLs (Years of Life Lost),Male,70 to 74,Chronic obstructive pulmonary disease,nottingham,953.1564759866059,25343.86928561662
+YLLs (Years of Life Lost),Male,70 to 74,Colon and rectum cancer,nottingham,512.3177055990249,25343.86928561662
+YLLs (Years of Life Lost),Male,70 to 74,Diabetes mellitus type 2,nottingham,84.06612770649576,25343.86928561662
+YLLs (Years of Life Lost),Male,70 to 74,Ischemic heart disease,nottingham,1897.8524559806233,25343.86928561662
+YLLs (Years of Life Lost),Male,70 to 74,Liver cancer,nottingham,160.09679837637287,25343.86928561662
+YLLs (Years of Life Lost),Male,70 to 74,Lower respiratory infections,nottingham,345.6282779282371,25343.86928561662
+YLLs (Years of Life Lost),Male,70 to 74,Neoplasms,nottingham,4750.728706259639,25343.86928561662
+YLLs (Years of Life Lost),Male,70 to 74,Road injuries,nottingham,30.808902195151198,25343.86928561662
+YLLs (Years of Life Lost),Male,70 to 74,Stomach cancer,nottingham,251.7179203658602,25343.86928561662
+YLLs (Years of Life Lost),Male,70 to 74,Stroke,nottingham,555.1331246549398,25343.86928561662
+YLLs (Years of Life Lost),Male,70 to 74,"Tracheal, bronchus, and lung cancer",nottingham,1263.6266251736138,25343.86928561662
+YLLs (Years of Life Lost),Male,75 to 79,All causes,nottingham,10648.080536836942,17219.416427666307
+YLLs (Years of Life Lost),Male,75 to 79,Breast cancer,nottingham,8.961301624110414,17219.416427666307
+YLLs (Years of Life Lost),Male,75 to 79,Cardiovascular diseases,nottingham,3111.392628231944,17219.416427666307
+YLLs (Years of Life Lost),Male,75 to 79,Chronic obstructive pulmonary disease,nottingham,912.927690214761,17219.416427666307
+YLLs (Years of Life Lost),Male,75 to 79,Colon and rectum cancer,nottingham,443.6553024926305,17219.416427666307
+YLLs (Years of Life Lost),Male,75 to 79,Diabetes mellitus type 2,nottingham,85.86819514050767,17219.416427666307
+YLLs (Years of Life Lost),Male,75 to 79,Ischemic heart disease,nottingham,1770.5410700700072,17219.416427666307
+YLLs (Years of Life Lost),Male,75 to 79,Liver cancer,nottingham,122.94233989880823,17219.416427666307
+YLLs (Years of Life Lost),Male,75 to 79,Lower respiratory infections,nottingham,424.70054397147544,17219.416427666307
+YLLs (Years of Life Lost),Male,75 to 79,Neoplasms,nottingham,3921.91993169957,17219.416427666307
+YLLs (Years of Life Lost),Male,75 to 79,Road injuries,nottingham,24.88556391163884,17219.416427666307
+YLLs (Years of Life Lost),Male,75 to 79,Stomach cancer,nottingham,243.87741039544412,17219.416427666307
+YLLs (Years of Life Lost),Male,75 to 79,Stroke,nottingham,662.780100847536,17219.416427666307
+YLLs (Years of Life Lost),Male,75 to 79,"Tracheal, bronchus, and lung cancer",nottingham,954.0498056931912,17219.416427666307
+YLLs (Years of Life Lost),Male,80 to 84,All causes,nottingham,9173.751692312486,11803.261011339762
+YLLs (Years of Life Lost),Male,80 to 84,Breast cancer,nottingham,6.294606003706858,11803.261011339762
+YLLs (Years of Life Lost),Male,80 to 84,Cardiovascular diseases,nottingham,2778.047293876581,11803.261011339762
+YLLs (Years of Life Lost),Male,80 to 84,Chronic obstructive pulmonary disease,nottingham,781.0383582911993,11803.261011339762
+YLLs (Years of Life Lost),Male,80 to 84,Colon and rectum cancer,nottingham,326.36353402091345,11803.261011339762
+YLLs (Years of Life Lost),Male,80 to 84,Diabetes mellitus type 2,nottingham,85.62119446680991,11803.261011339762
+YLLs (Years of Life Lost),Male,80 to 84,Ischemic heart disease,nottingham,1507.2249128332173,11803.261011339762
+YLLs (Years of Life Lost),Male,80 to 84,Liver cancer,nottingham,76.33706360343615,11803.261011339762
+YLLs (Years of Life Lost),Male,80 to 84,Lower respiratory infections,nottingham,488.1301680944157,11803.261011339762
+YLLs (Years of Life Lost),Male,80 to 84,Neoplasms,nottingham,2803.624738927227,11803.261011339762
+YLLs (Years of Life Lost),Male,80 to 84,Road injuries,nottingham,18.349855166845828,11803.261011339762
+YLLs (Years of Life Lost),Male,80 to 84,Stomach cancer,nottingham,177.1270103151979,11803.261011339762
+YLLs (Years of Life Lost),Male,80 to 84,Stroke,nottingham,665.710627987628,11803.261011339762
+YLLs (Years of Life Lost),Male,80 to 84,"Tracheal, bronchus, and lung cancer",nottingham,585.2362816037944,11803.261011339762
+YLLs (Years of Life Lost),Male,85 to 89,All causes,nottingham,6711.945675995239,6209.0765025247
+YLLs (Years of Life Lost),Male,85 to 89,Breast cancer,nottingham,3.7523858675320487,6209.0765025247
+YLLs (Years of Life Lost),Male,85 to 89,Cardiovascular diseases,nottingham,2013.9446815684164,6209.0765025247
+YLLs (Years of Life Lost),Male,85 to 89,Chronic obstructive pulmonary disease,nottingham,572.6430615715444,6209.0765025247
+YLLs (Years of Life Lost),Male,85 to 89,Colon and rectum cancer,nottingham,195.45019610708763,6209.0765025247
+YLLs (Years of Life Lost),Male,85 to 89,Diabetes mellitus type 2,nottingham,66.13668692486128,6209.0765025247
+YLLs (Years of Life Lost),Male,85 to 89,Ischemic heart disease,nottingham,1033.4020357348486,6209.0765025247
+YLLs (Years of Life Lost),Male,85 to 89,Liver cancer,nottingham,36.660406358988595,6209.0765025247
+YLLs (Years of Life Lost),Male,85 to 89,Lower respiratory infections,nottingham,536.3553544924486,6209.0765025247
+YLLs (Years of Life Lost),Male,85 to 89,Neoplasms,nottingham,1644.558804921113,6209.0765025247
+YLLs (Years of Life Lost),Male,85 to 89,Road injuries,nottingham,10.79480143611662,6209.0765025247
+YLLs (Years of Life Lost),Male,85 to 89,Stomach cancer,nottingham,100.74536076041625,6209.0765025247
+YLLs (Years of Life Lost),Male,85 to 89,Stroke,nottingham,534.8835371224317,6209.0765025247
+YLLs (Years of Life Lost),Male,85 to 89,"Tracheal, bronchus, and lung cancer",nottingham,312.1628119506452,6209.0765025247
+YLLs (Years of Life Lost),Male,90 to 94,All causes,nottingham,2730.6966727864474,2389.6027136584485
+YLLs (Years of Life Lost),Male,90 to 94,Breast cancer,nottingham,1.5344713528035252,2389.6027136584485
+YLLs (Years of Life Lost),Male,90 to 94,Cardiovascular diseases,nottingham,862.6879156095985,2389.6027136584485
+YLLs (Years of Life Lost),Male,90 to 94,Chronic obstructive pulmonary disease,nottingham,221.83830388589868,2389.6027136584485
+YLLs (Years of Life Lost),Male,90 to 94,Colon and rectum cancer,nottingham,65.64888725211792,2389.6027136584485
+YLLs (Years of Life Lost),Male,90 to 94,Diabetes mellitus type 2,nottingham,26.507467565282326,2389.6027136584485
+YLLs (Years of Life Lost),Male,90 to 94,Ischemic heart disease,nottingham,442.3924106978229,2389.6027136584485
+YLLs (Years of Life Lost),Male,90 to 94,Liver cancer,nottingham,9.186361889757968,2389.6027136584485
+YLLs (Years of Life Lost),Male,90 to 94,Lower respiratory infections,nottingham,242.71393691381832,2389.6027136584485
+YLLs (Years of Life Lost),Male,90 to 94,Neoplasms,nottingham,525.1239819326105,2389.6027136584485
+YLLs (Years of Life Lost),Male,90 to 94,Road injuries,nottingham,3.6204969584121303,2389.6027136584485
+YLLs (Years of Life Lost),Male,90 to 94,Stomach cancer,nottingham,34.47327212019543,2389.6027136584485
+YLLs (Years of Life Lost),Male,90 to 94,Stroke,nottingham,236.0757821572515,2389.6027136584485
+YLLs (Years of Life Lost),Male,90 to 94,"Tracheal, bronchus, and lung cancer",nottingham,77.87761280628774,2389.6027136584485
+YLLs (Years of Life Lost),Male,95 to 99,All causes,nottingham,480.2990901325593,457.1820428825422
+YLLs (Years of Life Lost),Male,95 to 99,Breast cancer,nottingham,0.28193073950928677,457.1820428825422
+YLLs (Years of Life Lost),Male,95 to 99,Cardiovascular diseases,nottingham,161.5065637255384,457.1820428825422
+YLLs (Years of Life Lost),Male,95 to 99,Chronic obstructive pulmonary disease,nottingham,38.90594938660202,457.1820428825422
+YLLs (Years of Life Lost),Male,95 to 99,Colon and rectum cancer,nottingham,8.990955857002623,457.1820428825422
+YLLs (Years of Life Lost),Male,95 to 99,Diabetes mellitus type 2,nottingham,4.782489513750343,457.1820428825422
+YLLs (Years of Life Lost),Male,95 to 99,Ischemic heart disease,nottingham,82.51873454415878,457.1820428825422
+YLLs (Years of Life Lost),Male,95 to 99,Liver cancer,nottingham,1.0477428593148852,457.1820428825422
+YLLs (Years of Life Lost),Male,95 to 99,Lower respiratory infections,nottingham,52.02023183943773,457.1820428825422
+YLLs (Years of Life Lost),Male,95 to 99,Neoplasms,nottingham,71.25006874273217,457.1820428825422
+YLLs (Years of Life Lost),Male,95 to 99,Road injuries,nottingham,0.5997329278080527,457.1820428825422
+YLLs (Years of Life Lost),Male,95 to 99,Stomach cancer,nottingham,5.202748462677637,457.1820428825422
+YLLs (Years of Life Lost),Male,95 to 99,Stroke,nottingham,47.09330777336115,457.1820428825422
+YLLs (Years of Life Lost),Male,95 to 99,"Tracheal, bronchus, and lung cancer",nottingham,8.120033822417874,457.1820428825422
+YLLs (Years of Life Lost),Male,0 to 4,All causes,nottingham,3193.6967250879575,33735.33993068032
+YLLs (Years of Life Lost),Male,0 to 4,Cardiovascular diseases,nottingham,34.63228311353622,33735.33993068032
+YLLs (Years of Life Lost),Male,0 to 4,Chronic obstructive pulmonary disease,nottingham,1.2713381432474717,33735.33993068032
+YLLs (Years of Life Lost),Male,0 to 4,Lower respiratory infections,nottingham,103.76771926179975,33735.33993068032
+YLLs (Years of Life Lost),Male,0 to 4,Neoplasms,nottingham,72.69669634454942,33735.33993068032
+YLLs (Years of Life Lost),Male,0 to 4,Road injuries,nottingham,18.906659751329254,33735.33993068032
+YLLs (Years of Life Lost),Male,0 to 4,Stroke,nottingham,5.186005336933479,33735.33993068032

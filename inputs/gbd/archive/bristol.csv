@@ -1,0 +1,1079 @@
+measure_name,sex_name,age_name,cause_name,cityregion,val,population_number
+Deaths,Female,10 to 14,All causes,bristol,1.9696966870000636,30256.23100195158
+Deaths,Female,10 to 14,Cardiovascular diseases,bristol,0.07548455489171982,30256.23100195158
+Deaths,Female,10 to 14,Chronic obstructive pulmonary disease,bristol,0.012433483137981953,30256.23100195158
+Deaths,Female,10 to 14,Liver cancer,bristol,0.009241765699585538,30256.23100195158
+Deaths,Female,10 to 14,Lower respiratory infections,bristol,0.06373790673135268,30256.23100195158
+Deaths,Female,10 to 14,Neoplasms,bristol,0.6266448239817314,30256.23100195158
+Deaths,Female,10 to 14,Road injuries,bristol,0.18012409412828423,30256.23100195158
+Deaths,Female,10 to 14,Stroke,bristol,0.023513134190586097,30256.23100195158
+Deaths,Female,15 to 19,All causes,bristol,6.034158460664331,31688.711941162837
+Deaths,Female,15 to 19,Breast cancer,bristol,0.008255112232075394,31688.711941162837
+Deaths,Female,15 to 19,Cardiovascular diseases,bristol,0.306022285841652,31688.711941162837
+Deaths,Female,15 to 19,Chronic obstructive pulmonary disease,bristol,0.020579728973893437,31688.711941162837
+Deaths,Female,15 to 19,Colon and rectum cancer,bristol,0.01100434837415296,31688.711941162837
+Deaths,Female,15 to 19,Diabetes mellitus type 2,bristol,0.0045298101873376346,31688.711941162837
+Deaths,Female,15 to 19,Ischemic heart disease,bristol,0.019962676321193064,31688.711941162837
+Deaths,Female,15 to 19,Liver cancer,bristol,0.0332153798250743,31688.711941162837
+Deaths,Female,15 to 19,Lower respiratory infections,bristol,0.12378337491051594,31688.711941162837
+Deaths,Female,15 to 19,Neoplasms,bristol,1.2065934466944535,31688.711941162837
+Deaths,Female,15 to 19,Road injuries,bristol,0.8947950647370422,31688.711941162837
+Deaths,Female,15 to 19,Stomach cancer,bristol,0.005466379547376138,31688.711941162837
+Deaths,Female,15 to 19,Stroke,bristol,0.0789552250891847,31688.711941162837
+Deaths,Female,15 to 19,"Tracheal, bronchus, and lung cancer",bristol,0.011717896322322497,31688.711941162837
+Deaths,Female,15 to 19,Uterine cancer,bristol,0.004310543798230759,31688.711941162837
+Deaths,Female,20 to 24,All causes,bristol,7.624073428896756,39138.00890041866
+Deaths,Female,20 to 24,Breast cancer,bristol,0.03872715499993663,39138.00890041866
+Deaths,Female,20 to 24,Cardiovascular diseases,bristol,0.5305983724468544,39138.00890041866
+Deaths,Female,20 to 24,Chronic obstructive pulmonary disease,bristol,0.022962642161739287,39138.00890041866
+Deaths,Female,20 to 24,Colon and rectum cancer,bristol,0.04620000826459139,39138.00890041866
+Deaths,Female,20 to 24,Diabetes mellitus type 2,bristol,0.005338448911758571,39138.00890041866
+Deaths,Female,20 to 24,Ischemic heart disease,bristol,0.04862045633924077,39138.00890041866
+Deaths,Female,20 to 24,Liver cancer,bristol,0.03379112170418007,39138.00890041866
+Deaths,Female,20 to 24,Lower respiratory infections,bristol,0.1621283461959201,39138.00890041866
+Deaths,Female,20 to 24,Neoplasms,bristol,1.4915319863917933,39138.00890041866
+Deaths,Female,20 to 24,Road injuries,bristol,0.7860809386028282,39138.00890041866
+Deaths,Female,20 to 24,Stomach cancer,bristol,0.015348636087477628,39138.00890041866
+Deaths,Female,20 to 24,Stroke,bristol,0.15845815536989588,39138.00890041866
+Deaths,Female,20 to 24,"Tracheal, bronchus, and lung cancer",bristol,0.02092932087266043,39138.00890041866
+Deaths,Female,20 to 24,Uterine cancer,bristol,0.006233968522984564,39138.00890041866
+Deaths,Female,25 to 29,All causes,bristol,10.915989701760349,44163.23258114209
+Deaths,Female,25 to 29,Breast cancer,bristol,0.3329700190000139,44163.23258114209
+Deaths,Female,25 to 29,Cardiovascular diseases,bristol,0.8317090464119546,44163.23258114209
+Deaths,Female,25 to 29,Chronic obstructive pulmonary disease,bristol,0.028857631705515183,44163.23258114209
+Deaths,Female,25 to 29,Colon and rectum cancer,bristol,0.14274968007189837,44163.23258114209
+Deaths,Female,25 to 29,Diabetes mellitus type 2,bristol,0.009294593095911876,44163.23258114209
+Deaths,Female,25 to 29,Ischemic heart disease,bristol,0.09487417351437137,44163.23258114209
+Deaths,Female,25 to 29,Liver cancer,bristol,0.06116193529885941,44163.23258114209
+Deaths,Female,25 to 29,Lower respiratory infections,bristol,0.23949348421898692,44163.23258114209
+Deaths,Female,25 to 29,Neoplasms,bristol,2.9081658395626118,44163.23258114209
+Deaths,Female,25 to 29,Road injuries,bristol,0.5960714596429734,44163.23258114209
+Deaths,Female,25 to 29,Stomach cancer,bristol,0.062004273084272386,44163.23258114209
+Deaths,Female,25 to 29,Stroke,bristol,0.27399823761786274,44163.23258114209
+Deaths,Female,25 to 29,"Tracheal, bronchus, and lung cancer",bristol,0.053792340892350785,44163.23258114209
+Deaths,Female,25 to 29,Uterine cancer,bristol,0.017854867951539403,44163.23258114209
+Deaths,Female,30 to 34,All causes,bristol,13.670646337417176,39816.79638633595
+Deaths,Female,30 to 34,Breast cancer,bristol,1.131526144945338,39816.79638633595
+Deaths,Female,30 to 34,Cardiovascular diseases,bristol,1.292878426083944,39816.79638633595
+Deaths,Female,30 to 34,Chronic obstructive pulmonary disease,bristol,0.03669677113154368,39816.79638633595
+Deaths,Female,30 to 34,Colon and rectum cancer,bristol,0.31073233284890345,39816.79638633595
+Deaths,Female,30 to 34,Diabetes mellitus type 2,bristol,0.022487127649141243,39816.79638633595
+Deaths,Female,30 to 34,Ischemic heart disease,bristol,0.2548460982931494,39816.79638633595
+Deaths,Female,30 to 34,Liver cancer,bristol,0.06991100752232757,39816.79638633595
+Deaths,Female,30 to 34,Lower respiratory infections,bristol,0.28284375013186286,39816.79638633595
+Deaths,Female,30 to 34,Neoplasms,bristol,4.6469891588119205,39816.79638633595
+Deaths,Female,30 to 34,Road injuries,bristol,0.41040903658832234,39816.79638633595
+Deaths,Female,30 to 34,Stomach cancer,bristol,0.13320612295011464,39816.79638633595
+Deaths,Female,30 to 34,Stroke,bristol,0.4433374076891252,39816.79638633595
+Deaths,Female,30 to 34,"Tracheal, bronchus, and lung cancer",bristol,0.15687950048598193,39816.79638633595
+Deaths,Female,30 to 34,Uterine cancer,bristol,0.02847958205974008,39816.79638633595
+Deaths,Female,35 to 39,All causes,bristol,22.381519452961378,37411.906298463895
+Deaths,Female,35 to 39,Breast cancer,bristol,2.9633670802145953,37411.906298463895
+Deaths,Female,35 to 39,Cardiovascular diseases,bristol,2.362472034600781,37411.906298463895
+Deaths,Female,35 to 39,Chronic obstructive pulmonary disease,bristol,0.08244145273677572,37411.906298463895
+Deaths,Female,35 to 39,Colon and rectum cancer,bristol,0.5988505967915433,37411.906298463895
+Deaths,Female,35 to 39,Diabetes mellitus type 2,bristol,0.03664645166336308,37411.906298463895
+Deaths,Female,35 to 39,Ischemic heart disease,bristol,0.6184082661502285,37411.906298463895
+Deaths,Female,35 to 39,Liver cancer,bristol,0.12811935836299623,37411.906298463895
+Deaths,Female,35 to 39,Lower respiratory infections,bristol,0.49234216443152085,37411.906298463895
+Deaths,Female,35 to 39,Neoplasms,bristol,9.036173777055906,37411.906298463895
+Deaths,Female,35 to 39,Road injuries,bristol,0.43343120345497915,37411.906298463895
+Deaths,Female,35 to 39,Stomach cancer,bristol,0.23484528881121086,37411.906298463895
+Deaths,Female,35 to 39,Stroke,bristol,0.8108631283917878,37411.906298463895
+Deaths,Female,35 to 39,"Tracheal, bronchus, and lung cancer",bristol,0.4058077700047539,37411.906298463895
+Deaths,Female,35 to 39,Uterine cancer,bristol,0.06329597833661052,37411.906298463895
+Deaths,Female,40 to 44,All causes,bristol,30.520919714661346,34506.57967382901
+Deaths,Female,40 to 44,Breast cancer,bristol,4.902890504993145,34506.57967382901
+Deaths,Female,40 to 44,Cardiovascular diseases,bristol,3.7261438226488077,34506.57967382901
+Deaths,Female,40 to 44,Chronic obstructive pulmonary disease,bristol,0.22166019733900344,34506.57967382901
+Deaths,Female,40 to 44,Colon and rectum cancer,bristol,0.9733978772178091,34506.57967382901
+Deaths,Female,40 to 44,Diabetes mellitus type 2,bristol,0.049285469845750406,34506.57967382901
+Deaths,Female,40 to 44,Ischemic heart disease,bristol,1.164879955932695,34506.57967382901
+Deaths,Female,40 to 44,Liver cancer,bristol,0.18899418785083585,34506.57967382901
+Deaths,Female,40 to 44,Lower respiratory infections,bristol,0.6998697709073538,34506.57967382901
+Deaths,Female,40 to 44,Neoplasms,bristol,13.969762621044696,34506.57967382901
+Deaths,Female,40 to 44,Road injuries,bristol,0.4013990144729922,34506.57967382901
+Deaths,Female,40 to 44,Stomach cancer,bristol,0.3860501158731831,34506.57967382901
+Deaths,Female,40 to 44,Stroke,bristol,1.239483801749339,34506.57967382901
+Deaths,Female,40 to 44,"Tracheal, bronchus, and lung cancer",bristol,1.0492486011834679,34506.57967382901
+Deaths,Female,40 to 44,Uterine cancer,bristol,0.13783994385434145,34506.57967382901
+Deaths,Female,45 to 49,All causes,bristol,57.246808713942265,37654.39541035355
+Deaths,Female,45 to 49,Breast cancer,bristol,9.922657970761177,37654.39541035355
+Deaths,Female,45 to 49,Cardiovascular diseases,bristol,7.533207003313742,37654.39541035355
+Deaths,Female,45 to 49,Chronic obstructive pulmonary disease,bristol,0.6639818635278653,37654.39541035355
+Deaths,Female,45 to 49,Colon and rectum cancer,bristol,2.2184678408531875,37654.39541035355
+Deaths,Female,45 to 49,Diabetes mellitus type 2,bristol,0.2185642040615675,37654.39541035355
+Deaths,Female,45 to 49,Ischemic heart disease,bristol,2.781449085408206,37654.39541035355
+Deaths,Female,45 to 49,Liver cancer,bristol,0.423177467242785,37654.39541035355
+Deaths,Female,45 to 49,Lower respiratory infections,bristol,1.206851054558211,37654.39541035355
+Deaths,Female,45 to 49,Neoplasms,bristol,29.516446480083385,37654.39541035355
+Deaths,Female,45 to 49,Road injuries,bristol,0.5021966155243718,37654.39541035355
+Deaths,Female,45 to 49,Stomach cancer,bristol,0.6499812820957711,37654.39541035355
+Deaths,Female,45 to 49,Stroke,bristol,2.315929874741322,37654.39541035355
+Deaths,Female,45 to 49,"Tracheal, bronchus, and lung cancer",bristol,3.4028054519796327,37654.39541035355
+Deaths,Female,45 to 49,Uterine cancer,bristol,0.37991131755013957,37654.39541035355
+Deaths,Female,5 to 9,All causes,bristol,1.4263643962241288,33012.787282073135
+Deaths,Female,5 to 9,Cardiovascular diseases,bristol,0.05127570034451659,33012.787282073135
+Deaths,Female,5 to 9,Chronic obstructive pulmonary disease,bristol,0.008886629907384588,33012.787282073135
+Deaths,Female,5 to 9,Liver cancer,bristol,0.005704502041981558,33012.787282073135
+Deaths,Female,5 to 9,Lower respiratory infections,bristol,0.058277038728275554,33012.787282073135
+Deaths,Female,5 to 9,Neoplasms,bristol,0.4925032347929098,33012.787282073135
+Deaths,Female,5 to 9,Road injuries,bristol,0.11139691586182972,33012.787282073135
+Deaths,Female,5 to 9,Stroke,bristol,0.011658237477857231,33012.787282073135
+Deaths,Female,50 to 54,All causes,bristol,88.22607409509793,38144.6808219449
+Deaths,Female,50 to 54,Breast cancer,bristol,14.123473290311392,38144.6808219449
+Deaths,Female,50 to 54,Cardiovascular diseases,bristol,11.682954857654742,38144.6808219449
+Deaths,Female,50 to 54,Chronic obstructive pulmonary disease,bristol,1.9015098520920206,38144.6808219449
+Deaths,Female,50 to 54,Colon and rectum cancer,bristol,3.9088321281424845,38144.6808219449
+Deaths,Female,50 to 54,Diabetes mellitus type 2,bristol,0.312844492475049,38144.6808219449
+Deaths,Female,50 to 54,Ischemic heart disease,bristol,4.6917465434785814,38144.6808219449
+Deaths,Female,50 to 54,Liver cancer,bristol,0.865535481072983,38144.6808219449
+Deaths,Female,50 to 54,Lower respiratory infections,bristol,1.9521184268172518,38144.6808219449
+Deaths,Female,50 to 54,Neoplasms,bristol,49.116317835497284,38144.6808219449
+Deaths,Female,50 to 54,Road injuries,bristol,0.5324673537007142,38144.6808219449
+Deaths,Female,50 to 54,Stomach cancer,bristol,1.0187081242158236,38144.6808219449
+Deaths,Female,50 to 54,Stroke,bristol,3.537312488822134,38144.6808219449
+Deaths,Female,50 to 54,"Tracheal, bronchus, and lung cancer",bristol,7.379610699812078,38144.6808219449
+Deaths,Female,50 to 54,Uterine cancer,bristol,0.8572572589079521,38144.6808219449
+Deaths,Female,55 to 59,All causes,bristol,117.18221104647745,32900.972482537705
+Deaths,Female,55 to 59,Breast cancer,bristol,15.383715317751822,32900.972482537705
+Deaths,Female,55 to 59,Cardiovascular diseases,bristol,16.665893282562216,32900.972482537705
+Deaths,Female,55 to 59,Chronic obstructive pulmonary disease,bristol,3.930191864909194,32900.972482537705
+Deaths,Female,55 to 59,Colon and rectum cancer,bristol,5.61607264513002,32900.972482537705
+Deaths,Female,55 to 59,Diabetes mellitus type 2,bristol,0.4501598237337405,32900.972482537705
+Deaths,Female,55 to 59,Ischemic heart disease,bristol,7.329937384926476,32900.972482537705
+Deaths,Female,55 to 59,Liver cancer,bristol,1.2962687169740008,32900.972482537705
+Deaths,Female,55 to 59,Lower respiratory infections,bristol,2.515486895315098,32900.972482537705
+Deaths,Female,55 to 59,Neoplasms,bristol,67.77606529861693,32900.972482537705
+Deaths,Female,55 to 59,Road injuries,bristol,0.5009034801437252,32900.972482537705
+Deaths,Female,55 to 59,Stomach cancer,bristol,1.4705385034034564,32900.972482537705
+Deaths,Female,55 to 59,Stroke,bristol,4.518439101647037,32900.972482537705
+Deaths,Female,55 to 59,"Tracheal, bronchus, and lung cancer",bristol,13.195394365235659,32900.972482537705
+Deaths,Female,55 to 59,Uterine cancer,bristol,1.606150301056543,32900.972482537705
+Deaths,Female,60 to 64,All causes,bristol,173.51022863842798,28622.649603138583
+Deaths,Female,60 to 64,Breast cancer,bristol,17.405533997629817,28622.649603138583
+Deaths,Female,60 to 64,Cardiovascular diseases,bristol,27.548319079512076,28622.649603138583
+Deaths,Female,60 to 64,Chronic obstructive pulmonary disease,bristol,9.23738829140029,28622.649603138583
+Deaths,Female,60 to 64,Colon and rectum cancer,bristol,8.042509135348332,28622.649603138583
+Deaths,Female,60 to 64,Diabetes mellitus type 2,bristol,0.8439906086076172,28622.649603138583
+Deaths,Female,60 to 64,Ischemic heart disease,bristol,12.442015454704082,28622.649603138583
+Deaths,Female,60 to 64,Liver cancer,bristol,1.9779957724287485,28622.649603138583
+Deaths,Female,60 to 64,Lower respiratory infections,bristol,4.017932876577499,28622.649603138583
+Deaths,Female,60 to 64,Neoplasms,bristol,97.80172419111285,28622.649603138583
+Deaths,Female,60 to 64,Road injuries,bristol,0.5310918181182499,28622.649603138583
+Deaths,Female,60 to 64,Stomach cancer,bristol,2.240272573717258,28622.649603138583
+Deaths,Female,60 to 64,Stroke,bristol,6.780613401437982,28622.649603138583
+Deaths,Female,60 to 64,"Tracheal, bronchus, and lung cancer",bristol,21.595529833190817,28622.649603138583
+Deaths,Female,60 to 64,Uterine cancer,bristol,2.8444395439593824,28622.649603138583
+Deaths,Female,65 to 69,All causes,bristol,276.0416359342519,28350.498803312006
+Deaths,Female,65 to 69,Breast cancer,bristol,22.426309790936948,28350.498803312006
+Deaths,Female,65 to 69,Cardiovascular diseases,bristol,48.833260735661156,28350.498803312006
+Deaths,Female,65 to 69,Chronic obstructive pulmonary disease,bristol,18.633825405598166,28350.498803312006
+Deaths,Female,65 to 69,Colon and rectum cancer,bristol,12.613826917981811,28350.498803312006
+Deaths,Female,65 to 69,Diabetes mellitus type 2,bristol,1.4078848773899282,28350.498803312006
+Deaths,Female,65 to 69,Ischemic heart disease,bristol,21.391933316661977,28350.498803312006
+Deaths,Female,65 to 69,Liver cancer,bristol,3.1415329710435613,28350.498803312006
+Deaths,Female,65 to 69,Lower respiratory infections,bristol,6.7760844280992325,28350.498803312006
+Deaths,Female,65 to 69,Neoplasms,bristol,147.87594613409624,28350.498803312006
+Deaths,Female,65 to 69,Road injuries,bristol,0.7200196802605057,28350.498803312006
+Deaths,Female,65 to 69,Stomach cancer,bristol,3.526807556703989,28350.498803312006
+Deaths,Female,65 to 69,Stroke,bristol,12.265989942242145,28350.498803312006
+Deaths,Female,65 to 69,"Tracheal, bronchus, and lung cancer",bristol,35.56863800181444,28350.498803312006
+Deaths,Female,65 to 69,Uterine cancer,bristol,4.574769100207522,28350.498803312006
+Deaths,Female,70 to 74,All causes,bristol,402.0515931705242,25520.103827698153
+Deaths,Female,70 to 74,Breast cancer,bristol,25.181315580682092,25520.103827698153
+Deaths,Female,70 to 74,Cardiovascular diseases,bristol,86.27477925511695,25520.103827698153
+Deaths,Female,70 to 74,Chronic obstructive pulmonary disease,bristol,28.89852498254407,25520.103827698153
+Deaths,Female,70 to 74,Colon and rectum cancer,bristol,17.151768983233353,25520.103827698153
+Deaths,Female,70 to 74,Diabetes mellitus type 2,bristol,2.552464080674704,25520.103827698153
+Deaths,Female,70 to 74,Ischemic heart disease,bristol,35.888690301120064,25520.103827698153
+Deaths,Female,70 to 74,Liver cancer,bristol,4.3156935341882114,25520.103827698153
+Deaths,Female,70 to 74,Lower respiratory infections,bristol,12.874058702412556,25520.103827698153
+Deaths,Female,70 to 74,Neoplasms,bristol,186.5732097225949,25520.103827698153
+Deaths,Female,70 to 74,Road injuries,bristol,0.8805433034118597,25520.103827698153
+Deaths,Female,70 to 74,Stomach cancer,bristol,5.342682797375025,25520.103827698153
+Deaths,Female,70 to 74,Stroke,bristol,23.30140933476377,25520.103827698153
+Deaths,Female,70 to 74,"Tracheal, bronchus, and lung cancer",bristol,42.9752622516213,25520.103827698153
+Deaths,Female,70 to 74,Uterine cancer,bristol,5.661297916225701,25520.103827698153
+Deaths,Female,75 to 79,All causes,bristol,543.4277350187416,18962.228545547787
+Deaths,Female,75 to 79,Breast cancer,bristol,26.666704729728036,18962.228545547787
+Deaths,Female,75 to 79,Cardiovascular diseases,bristol,136.9864502753138,18962.228545547787
+Deaths,Female,75 to 79,Chronic obstructive pulmonary disease,bristol,38.98028536286058,18962.228545547787
+Deaths,Female,75 to 79,Colon and rectum cancer,bristol,20.830535594641887,18962.228545547787
+Deaths,Female,75 to 79,Diabetes mellitus type 2,bristol,3.8414159869430913,18962.228545547787
+Deaths,Female,75 to 79,Ischemic heart disease,bristol,55.09505910239776,18962.228545547787
+Deaths,Female,75 to 79,Liver cancer,bristol,5.249689799406321,18962.228545547787
+Deaths,Female,75 to 79,Lower respiratory infections,bristol,22.468242976704268,18962.228545547787
+Deaths,Female,75 to 79,Neoplasms,bristol,200.8562823330425,18962.228545547787
+Deaths,Female,75 to 79,Road injuries,bristol,1.0622803414075361,18962.228545547787
+Deaths,Female,75 to 79,Stomach cancer,bristol,7.564167121918123,18962.228545547787
+Deaths,Female,75 to 79,Stroke,bristol,40.491835644253946,18962.228545547787
+Deaths,Female,75 to 79,"Tracheal, bronchus, and lung cancer",bristol,41.848366533299384,18962.228545547787
+Deaths,Female,75 to 79,Uterine cancer,bristol,5.468355755088726,18962.228545547787
+Deaths,Female,80 to 84,All causes,bristol,808.4412996850133,14915.472288176024
+Deaths,Female,80 to 84,Breast cancer,bristol,29.86696912809123,14915.472288176024
+Deaths,Female,80 to 84,Cardiovascular diseases,bristol,237.24040892412268,14915.472288176024
+Deaths,Female,80 to 84,Chronic obstructive pulmonary disease,bristol,49.280683779862564,14915.472288176024
+Deaths,Female,80 to 84,Colon and rectum cancer,bristol,27.855960292410447,14915.472288176024
+Deaths,Female,80 to 84,Diabetes mellitus type 2,bristol,6.302458156672663,14915.472288176024
+Deaths,Female,80 to 84,Ischemic heart disease,bristol,91.5070390757265,14915.472288176024
+Deaths,Female,80 to 84,Liver cancer,bristol,5.8025725329600135,14915.472288176024
+Deaths,Female,80 to 84,Lower respiratory infections,bristol,47.93168381392351,14915.472288176024
+Deaths,Female,80 to 84,Neoplasms,bristol,219.57559835050532,14915.472288176024
+Deaths,Female,80 to 84,Road injuries,bristol,1.2309944444805831,14915.472288176024
+Deaths,Female,80 to 84,Stomach cancer,bristol,9.86946662621366,14915.472288176024
+Deaths,Female,80 to 84,Stroke,bristol,75.48223062657964,14915.472288176024
+Deaths,Female,80 to 84,"Tracheal, bronchus, and lung cancer",bristol,39.33833679894953,14915.472288176024
+Deaths,Female,80 to 84,Uterine cancer,bristol,5.2998757506025935,14915.472288176024
+Deaths,Female,85 to 89,All causes,bristol,1120.980014678739,10002.682029850357
+Deaths,Female,85 to 89,Breast cancer,bristol,33.565814540862135,10002.682029850357
+Deaths,Female,85 to 89,Cardiovascular diseases,bristol,360.45739265149587,10002.682029850357
+Deaths,Female,85 to 89,Chronic obstructive pulmonary disease,bristol,55.05102359253911,10002.682029850357
+Deaths,Female,85 to 89,Colon and rectum cancer,bristol,31.284560452657814,10002.682029850357
+Deaths,Female,85 to 89,Diabetes mellitus type 2,bristol,8.72572592464591,10002.682029850357
+Deaths,Female,85 to 89,Ischemic heart disease,bristol,142.48203088007364,10002.682029850357
+Deaths,Female,85 to 89,Liver cancer,bristol,5.299851660376982,10002.682029850357
+Deaths,Female,85 to 89,Lower respiratory infections,bristol,104.41901577957348,10002.682029850357
+Deaths,Female,85 to 89,Neoplasms,bristol,212.6343812624292,10002.682029850357
+Deaths,Female,85 to 89,Road injuries,bristol,1.04006488779963,10002.682029850357
+Deaths,Female,85 to 89,Stomach cancer,bristol,10.292509993955838,10002.682029850357
+Deaths,Female,85 to 89,Stroke,bristol,119.52518400947808,10002.682029850357
+Deaths,Female,85 to 89,"Tracheal, bronchus, and lung cancer",bristol,30.337601369808198,10002.682029850357
+Deaths,Female,85 to 89,Uterine cancer,bristol,4.666079716085063,10002.682029850357
+Deaths,Female,90 to 94,All causes,bristol,981.2579918618231,5095.45788335688
+Deaths,Female,90 to 94,Breast cancer,bristol,23.402051948223164,5095.45788335688
+Deaths,Female,90 to 94,Cardiovascular diseases,bristol,321.3917122846631,5095.45788335688
+Deaths,Female,90 to 94,Chronic obstructive pulmonary disease,bristol,41.743143056928766,5095.45788335688
+Deaths,Female,90 to 94,Colon and rectum cancer,bristol,22.383887654645335,5095.45788335688
+Deaths,Female,90 to 94,Diabetes mellitus type 2,bristol,7.43833321867864,5095.45788335688
+Deaths,Female,90 to 94,Ischemic heart disease,bristol,125.91723287748907,5095.45788335688
+Deaths,Female,90 to 94,Liver cancer,bristol,3.0127659401872924,5095.45788335688
+Deaths,Female,90 to 94,Lower respiratory infections,bristol,97.7649673699598,5095.45788335688
+Deaths,Female,90 to 94,Neoplasms,bristol,137.13135996252768,5095.45788335688
+Deaths,Female,90 to 94,Road injuries,bristol,0.6957221630314727,5095.45788335688
+Deaths,Female,90 to 94,Stomach cancer,bristol,7.5630805519109465,5095.45788335688
+Deaths,Female,90 to 94,Stroke,bristol,105.65915819075059,5095.45788335688
+Deaths,Female,90 to 94,"Tracheal, bronchus, and lung cancer",bristol,16.495622365039605,5095.45788335688
+Deaths,Female,90 to 94,Uterine cancer,bristol,2.6641315764548628,5095.45788335688
+Deaths,Female,95 to 99,All causes,bristol,559.5811174720842,1649.4145567967416
+Deaths,Female,95 to 99,Breast cancer,bristol,10.895733831276626,1649.4145567967416
+Deaths,Female,95 to 99,Cardiovascular diseases,bristol,188.29030810571317,1649.4145567967416
+Deaths,Female,95 to 99,Chronic obstructive pulmonary disease,bristol,23.822621510976756,1649.4145567967416
+Deaths,Female,95 to 99,Colon and rectum cancer,bristol,9.630620640949283,1649.4145567967416
+Deaths,Female,95 to 99,Diabetes mellitus type 2,bristol,4.220429421044373,1649.4145567967416
+Deaths,Female,95 to 99,Ischemic heart disease,bristol,74.43637571354571,1649.4145567967416
+Deaths,Female,95 to 99,Liver cancer,bristol,1.169430620421036,1649.4145567967416
+Deaths,Female,95 to 99,Lower respiratory infections,bristol,64.59530194061186,1649.4145567967416
+Deaths,Female,95 to 99,Neoplasms,bristol,58.04281311473077,1649.4145567967416
+Deaths,Female,95 to 99,Road injuries,bristol,0.34810257451521415,1649.4145567967416
+Deaths,Female,95 to 99,Stomach cancer,bristol,3.5841894243707437,1649.4145567967416
+Deaths,Female,95 to 99,Stroke,bristol,64.13026247158929,1649.4145567967416
+Deaths,Female,95 to 99,"Tracheal, bronchus, and lung cancer",bristol,6.217948948505956,1649.4145567967416
+Deaths,Female,95 to 99,Uterine cancer,bristol,1.0101399063899639,1649.4145567967416
+Deaths,Female,0 to 4,All causes,bristol,21.040713371784616,32989.65318383124
+Deaths,Female,0 to 4,Cardiovascular diseases,bristol,0.27466659980129926,32989.65318383124
+Deaths,Female,0 to 4,Chronic obstructive pulmonary disease,bristol,0.015050415067520776,32989.65318383124
+Deaths,Female,0 to 4,Lower respiratory infections,bristol,0.7375657516361886,32989.65318383124
+Deaths,Female,0 to 4,Neoplasms,bristol,0.8177738210166081,32989.65318383124
+Deaths,Female,0 to 4,Road injuries,bristol,0.15253904059955295,32989.65318383124
+Deaths,Female,0 to 4,Stroke,bristol,0.03531497701259547,32989.65318383124
+Deaths,Male,10 to 14,All causes,bristol,2.7784156372738527,31168.95200478444
+Deaths,Male,10 to 14,Cardiovascular diseases,bristol,0.1128602767469135,31168.95200478444
+Deaths,Male,10 to 14,Chronic obstructive pulmonary disease,bristol,0.004201005910788163,31168.95200478444
+Deaths,Male,10 to 14,Liver cancer,bristol,0.013318296671131455,31168.95200478444
+Deaths,Male,10 to 14,Lower respiratory infections,bristol,0.06109680296380174,31168.95200478444
+Deaths,Male,10 to 14,Neoplasms,bristol,0.8118915903526177,31168.95200478444
+Deaths,Male,10 to 14,Road injuries,bristol,0.35554274165484767,31168.95200478444
+Deaths,Male,10 to 14,Stroke,bristol,0.024288531234996358,31168.95200478444
+Deaths,Male,15 to 19,All causes,bristol,6.909198625184818,32181.33916174496
+Deaths,Male,15 to 19,Breast cancer,bristol,0.002593832318860031,32181.33916174496
+Deaths,Male,15 to 19,Cardiovascular diseases,bristol,0.27863898134153153,32181.33916174496
+Deaths,Male,15 to 19,Chronic obstructive pulmonary disease,bristol,0.011348164521074093,32181.33916174496
+Deaths,Male,15 to 19,Colon and rectum cancer,bristol,0.00966492593873,32181.33916174496
+Deaths,Male,15 to 19,Diabetes mellitus type 2,bristol,0.0023603477384014806,32181.33916174496
+Deaths,Male,15 to 19,Ischemic heart disease,bristol,0.020119753296370002,32181.33916174496
+Deaths,Male,15 to 19,Liver cancer,bristol,0.01692911045459431,32181.33916174496
+Deaths,Male,15 to 19,Lower respiratory infections,bristol,0.07895773211542619,32181.33916174496
+Deaths,Male,15 to 19,Neoplasms,bristol,0.9617940366166624,32181.33916174496
+Deaths,Male,15 to 19,Road injuries,bristol,1.8450021396881557,32181.33916174496
+Deaths,Male,15 to 19,Stomach cancer,bristol,0.004049293756509663,32181.33916174496
+Deaths,Male,15 to 19,Stroke,bristol,0.05416258755081521,32181.33916174496
+Deaths,Male,15 to 19,"Tracheal, bronchus, and lung cancer",bristol,0.0033661073124228863,32181.33916174496
+Deaths,Male,20 to 24,All causes,bristol,15.572008116059436,39223.053702303994
+Deaths,Male,20 to 24,Breast cancer,bristol,0.0031914180354393946,39223.053702303994
+Deaths,Male,20 to 24,Cardiovascular diseases,bristol,0.6798481978791724,39223.053702303994
+Deaths,Male,20 to 24,Chronic obstructive pulmonary disease,bristol,0.02120779434130245,39223.053702303994
+Deaths,Male,20 to 24,Colon and rectum cancer,bristol,0.04574840582766668,39223.053702303994
+Deaths,Male,20 to 24,Diabetes mellitus type 2,bristol,0.005069467582969574,39223.053702303994
+Deaths,Male,20 to 24,Ischemic heart disease,bristol,0.09842920269128864,39223.053702303994
+Deaths,Male,20 to 24,Liver cancer,bristol,0.03550640661550689,39223.053702303994
+Deaths,Male,20 to 24,Lower respiratory infections,bristol,0.15140191631202324,39223.053702303994
+Deaths,Male,20 to 24,Neoplasms,bristol,1.5499145183641403,39223.053702303994
+Deaths,Male,20 to 24,Road injuries,bristol,3.2520654566759077,39223.053702303994
+Deaths,Male,20 to 24,Stomach cancer,bristol,0.014658196850693753,39223.053702303994
+Deaths,Male,20 to 24,Stroke,bristol,0.143744742798201,39223.053702303994
+Deaths,Male,20 to 24,"Tracheal, bronchus, and lung cancer",bristol,0.016378472440981628,39223.053702303994
+Deaths,Male,25 to 29,All causes,bristol,22.582289469162372,45114.842966888085
+Deaths,Male,25 to 29,Breast cancer,bristol,0.004399933043350443,45114.842966888085
+Deaths,Male,25 to 29,Cardiovascular diseases,bristol,1.4417117352894446,45114.842966888085
+Deaths,Male,25 to 29,Chronic obstructive pulmonary disease,bristol,0.03080987822373591,45114.842966888085
+Deaths,Male,25 to 29,Colon and rectum cancer,bristol,0.14948612034456776,45114.842966888085
+Deaths,Male,25 to 29,Diabetes mellitus type 2,bristol,0.010269219526861184,45114.842966888085
+Deaths,Male,25 to 29,Ischemic heart disease,bristol,0.3876052869675908,45114.842966888085
+Deaths,Male,25 to 29,Liver cancer,bristol,0.0707442926130482,45114.842966888085
+Deaths,Male,25 to 29,Lower respiratory infections,bristol,0.28694570790617613,45114.842966888085
+Deaths,Male,25 to 29,Neoplasms,bristol,2.5812129153549552,45114.842966888085
+Deaths,Male,25 to 29,Road injuries,bristol,2.950054502646415,45114.842966888085
+Deaths,Male,25 to 29,Stomach cancer,bristol,0.049019804908696445,45114.842966888085
+Deaths,Male,25 to 29,Stroke,bristol,0.296042170063243,45114.842966888085
+Deaths,Male,25 to 29,"Tracheal, bronchus, and lung cancer",bristol,0.04492758337220751,45114.842966888085
+Deaths,Male,30 to 34,All causes,bristol,27.32073048740339,42238.84744281168
+Deaths,Male,30 to 34,Breast cancer,bristol,0.006475659264642478,42238.84744281168
+Deaths,Male,30 to 34,Cardiovascular diseases,bristol,2.5266955376502827,42238.84744281168
+Deaths,Male,30 to 34,Chronic obstructive pulmonary disease,bristol,0.05096229794604995,42238.84744281168
+Deaths,Male,30 to 34,Colon and rectum cancer,bristol,0.34829870451323874,42238.84744281168
+Deaths,Male,30 to 34,Diabetes mellitus type 2,bristol,0.040988019494439754,42238.84744281168
+Deaths,Male,30 to 34,Ischemic heart disease,bristol,0.9583031087497064,42238.84744281168
+Deaths,Male,30 to 34,Liver cancer,bristol,0.12484755302333506,42238.84744281168
+Deaths,Male,30 to 34,Lower respiratory infections,bristol,0.4392603808147809,42238.84744281168
+Deaths,Male,30 to 34,Neoplasms,bristol,3.735936747352773,42238.84744281168
+Deaths,Male,30 to 34,Road injuries,bristol,2.096178893277847,42238.84744281168
+Deaths,Male,30 to 34,Stomach cancer,bristol,0.12192676795401713,42238.84744281168
+Deaths,Male,30 to 34,Stroke,bristol,0.4758953846273682,42238.84744281168
+Deaths,Male,30 to 34,"Tracheal, bronchus, and lung cancer",bristol,0.14352507255327027,42238.84744281168
+Deaths,Male,35 to 39,All causes,bristol,35.204738714379836,39985.04634130867
+Deaths,Male,35 to 39,Breast cancer,bristol,0.015642815612275082,39985.04634130867
+Deaths,Male,35 to 39,Cardiovascular diseases,bristol,4.883418750909853,39985.04634130867
+Deaths,Male,35 to 39,Chronic obstructive pulmonary disease,bristol,0.12621108790013008,39985.04634130867
+Deaths,Male,35 to 39,Colon and rectum cancer,bristol,0.6067366884390655,39985.04634130867
+Deaths,Male,35 to 39,Diabetes mellitus type 2,bristol,0.06153807155103193,39985.04634130867
+Deaths,Male,35 to 39,Ischemic heart disease,bristol,2.351907127114192,39985.04634130867
+Deaths,Male,35 to 39,Liver cancer,bristol,0.1574822747991334,39985.04634130867
+Deaths,Male,35 to 39,Lower respiratory infections,bristol,0.6564324497750813,39985.04634130867
+Deaths,Male,35 to 39,Neoplasms,bristol,5.810449149471776,39985.04634130867
+Deaths,Male,35 to 39,Road injuries,bristol,1.7581139474172365,39985.04634130867
+Deaths,Male,35 to 39,Stomach cancer,bristol,0.2576739700252392,39985.04634130867
+Deaths,Male,35 to 39,Stroke,bristol,0.8542087900905772,39985.04634130867
+Deaths,Male,35 to 39,"Tracheal, bronchus, and lung cancer",bristol,0.42387190556030135,39985.04634130867
+Deaths,Male,40 to 44,All causes,bristol,56.714657679390754,35896.13938613016
+Deaths,Male,40 to 44,Breast cancer,bristol,0.032345502373703816,35896.13938613016
+Deaths,Male,40 to 44,Cardiovascular diseases,bristol,10.473892345454875,35896.13938613016
+Deaths,Male,40 to 44,Chronic obstructive pulmonary disease,bristol,0.4419963244180399,35896.13938613016
+Deaths,Male,40 to 44,Colon and rectum cancer,bristol,1.2482112753882686,35896.13938613016
+Deaths,Male,40 to 44,Diabetes mellitus type 2,bristol,0.10975376072103055,35896.13938613016
+Deaths,Male,40 to 44,Ischemic heart disease,bristol,5.652980735568668,35896.13938613016
+Deaths,Male,40 to 44,Liver cancer,bristol,0.37888723070309144,35896.13938613016
+Deaths,Male,40 to 44,Lower respiratory infections,bristol,1.1992501635327253,35896.13938613016
+Deaths,Male,40 to 44,Neoplasms,bristol,11.899215527078304,35896.13938613016
+Deaths,Male,40 to 44,Road injuries,bristol,1.9014204673111157,35896.13938613016
+Deaths,Male,40 to 44,Stomach cancer,bristol,0.5696735710104238,35896.13938613016
+Deaths,Male,40 to 44,Stroke,bristol,1.6694948875824176,35896.13938613016
+Deaths,Male,40 to 44,"Tracheal, bronchus, and lung cancer",bristol,1.4116891028566672,35896.13938613016
+Deaths,Male,45 to 49,All causes,bristol,84.42636057325046,38141.620868175385
+Deaths,Male,45 to 49,Breast cancer,bristol,0.059483710032189586,38141.620868175385
+Deaths,Male,45 to 49,Cardiovascular diseases,bristol,19.284125650291088,38141.620868175385
+Deaths,Male,45 to 49,Chronic obstructive pulmonary disease,bristol,1.0429151904483842,38141.620868175385
+Deaths,Male,45 to 49,Colon and rectum cancer,bristol,2.5505626998828106,38141.620868175385
+Deaths,Male,45 to 49,Diabetes mellitus type 2,bristol,0.44640207123862635,38141.620868175385
+Deaths,Male,45 to 49,Ischemic heart disease,bristol,11.523890891410188,38141.620868175385
+Deaths,Male,45 to 49,Liver cancer,bristol,0.8413271003162548,38141.620868175385
+Deaths,Male,45 to 49,Lower respiratory infections,bristol,1.9037238340606164,38141.620868175385
+Deaths,Male,45 to 49,Neoplasms,bristol,23.57555780797417,38141.620868175385
+Deaths,Male,45 to 49,Road injuries,bristol,1.8897665551322165,38141.620868175385
+Deaths,Male,45 to 49,Stomach cancer,bristol,1.15576416221555,38141.620868175385
+Deaths,Male,45 to 49,Stroke,bristol,2.865625010216921,38141.620868175385
+Deaths,Male,45 to 49,"Tracheal, bronchus, and lung cancer",bristol,3.743139215106085,38141.620868175385
+Deaths,Male,5 to 9,All causes,bristol,2.2772336166751495,34584.1357763024
+Deaths,Male,5 to 9,Cardiovascular diseases,bristol,0.05693533700606178,34584.1357763024
+Deaths,Male,5 to 9,Chronic obstructive pulmonary disease,bristol,0.0046876706396219835,34584.1357763024
+Deaths,Male,5 to 9,Liver cancer,bristol,0.009753590243144157,34584.1357763024
+Deaths,Male,5 to 9,Lower respiratory infections,bristol,0.0647520430865648,34584.1357763024
+Deaths,Male,5 to 9,Neoplasms,bristol,0.8838310638531655,34584.1357763024
+Deaths,Male,5 to 9,Road injuries,bristol,0.1983303501331563,34584.1357763024
+Deaths,Male,5 to 9,Stroke,bristol,0.012583072833466005,34584.1357763024
+Deaths,Male,50 to 54,All causes,bristol,121.9430579921959,38023.401225409754
+Deaths,Male,50 to 54,Breast cancer,bristol,0.10437196047196821,38023.401225409754
+Deaths,Male,50 to 54,Cardiovascular diseases,bristol,31.6595283900363,38023.401225409754
+Deaths,Male,50 to 54,Chronic obstructive pulmonary disease,bristol,2.3989652551766323,38023.401225409754
+Deaths,Male,50 to 54,Colon and rectum cancer,bristol,4.839629845778047,38023.401225409754
+Deaths,Male,50 to 54,Diabetes mellitus type 2,bristol,0.6004192965414119,38023.401225409754
+Deaths,Male,50 to 54,Ischemic heart disease,bristol,20.229109586654918,38023.401225409754
+Deaths,Male,50 to 54,Liver cancer,bristol,1.6630579026358085,38023.401225409754
+Deaths,Male,50 to 54,Lower respiratory infections,bristol,2.7984017777390666,38023.401225409754
+Deaths,Male,50 to 54,Neoplasms,bristol,43.85595199610654,38023.401225409754
+Deaths,Male,50 to 54,Road injuries,bristol,1.7522486634174257,38023.401225409754
+Deaths,Male,50 to 54,Stomach cancer,bristol,1.9963118224721115,38023.401225409754
+Deaths,Male,50 to 54,Stroke,bristol,4.26443913170603,38023.401225409754
+Deaths,Male,50 to 54,"Tracheal, bronchus, and lung cancer",bristol,8.594570093128562,38023.401225409754
+Deaths,Male,55 to 59,All causes,bristol,155.77605300602016,32392.82852374257
+Deaths,Male,55 to 59,Breast cancer,bristol,0.14910183409222433,32392.82852374257
+Deaths,Male,55 to 59,Cardiovascular diseases,bristol,41.25130107844522,32392.82852374257
+Deaths,Male,55 to 59,Chronic obstructive pulmonary disease,bristol,4.738346665255759,32392.82852374257
+Deaths,Male,55 to 59,Colon and rectum cancer,bristol,7.198978476106414,32392.82852374257
+Deaths,Male,55 to 59,Diabetes mellitus type 2,bristol,0.7811318425342086,32392.82852374257
+Deaths,Male,55 to 59,Ischemic heart disease,bristol,26.382132103279005,32392.82852374257
+Deaths,Male,55 to 59,Liver cancer,bristol,2.570716981256205,32392.82852374257
+Deaths,Male,55 to 59,Lower respiratory infections,bristol,3.384006799953338,32392.82852374257
+Deaths,Male,55 to 59,Neoplasms,bristol,66.53982009648142,32392.82852374257
+Deaths,Male,55 to 59,Road injuries,bristol,1.3988380377814527,32392.82852374257
+Deaths,Male,55 to 59,Stomach cancer,bristol,2.868547459005002,32392.82852374257
+Deaths,Male,55 to 59,Stroke,bristol,5.364244818378756,32392.82852374257
+Deaths,Male,55 to 59,"Tracheal, bronchus, and lung cancer",bristol,14.863538249200804,32392.82852374257
+Deaths,Male,60 to 64,All causes,bristol,234.11700946251835,27800.516544229722
+Deaths,Male,60 to 64,Breast cancer,bristol,0.2615033643891568,27800.516544229722
+Deaths,Male,60 to 64,Cardiovascular diseases,bristol,60.734860114501124,27800.516544229722
+Deaths,Male,60 to 64,Chronic obstructive pulmonary disease,bristol,10.965740633040216,27800.516544229722
+Deaths,Male,60 to 64,Colon and rectum cancer,bristol,11.659005169535824,27800.516544229722
+Deaths,Male,60 to 64,Diabetes mellitus type 2,bristol,1.4041478204052715,27800.516544229722
+Deaths,Male,60 to 64,Ischemic heart disease,bristol,38.47042991713508,27800.516544229722
+Deaths,Male,60 to 64,Liver cancer,bristol,3.9851469815598213,27800.516544229722
+Deaths,Male,60 to 64,Lower respiratory infections,bristol,5.40103478442944,27800.516544229722
+Deaths,Male,60 to 64,Neoplasms,bristol,109.64600979495569,27800.516544229722
+Deaths,Male,60 to 64,Road injuries,bristol,1.3333717007295842,27800.516544229722
+Deaths,Male,60 to 64,Stomach cancer,bristol,4.639059038847938,27800.516544229722
+Deaths,Male,60 to 64,Stroke,bristol,8.062099128882135,27800.516544229722
+Deaths,Male,60 to 64,"Tracheal, bronchus, and lung cancer",bristol,26.87917863974882,27800.516544229722
+Deaths,Male,65 to 69,All causes,bristol,345.91225906672645,27089.736571838715
+Deaths,Male,65 to 69,Breast cancer,bristol,0.3864995301725046,27089.736571838715
+Deaths,Male,65 to 69,Cardiovascular diseases,bristol,92.9352826570564,27089.736571838715
+Deaths,Male,65 to 69,Chronic obstructive pulmonary disease,bristol,19.97662588105502,27089.736571838715
+Deaths,Male,65 to 69,Colon and rectum cancer,bristol,16.710731944394745,27089.736571838715
+Deaths,Male,65 to 69,Diabetes mellitus type 2,bristol,2.1743325266905305,27089.736571838715
+Deaths,Male,65 to 69,Ischemic heart disease,bristol,56.63880599775449,27089.736571838715
+Deaths,Male,65 to 69,Liver cancer,bristol,5.6439365378416255,27089.736571838715
+Deaths,Male,65 to 69,Lower respiratory infections,bristol,8.468386296669976,27089.736571838715
+Deaths,Male,65 to 69,Neoplasms,bristol,163.0682057142746,27089.736571838715
+Deaths,Male,65 to 69,Road injuries,bristol,1.334917220870643,27089.736571838715
+Deaths,Male,65 to 69,Stomach cancer,bristol,7.089506155659617,27089.736571838715
+Deaths,Male,65 to 69,Stroke,bristol,13.754922386598455,27089.736571838715
+Deaths,Male,65 to 69,"Tracheal, bronchus, and lung cancer",bristol,40.74444078084345,27089.736571838715
+Deaths,Male,70 to 74,All causes,bristol,486.18957980290406,23998.549608896585
+Deaths,Male,70 to 74,Breast cancer,bristol,0.5203482991836248,23998.549608896585
+Deaths,Male,70 to 74,Cardiovascular diseases,bristol,138.66925003487336,23998.549608896585
+Deaths,Male,70 to 74,Chronic obstructive pulmonary disease,bristol,33.49698443152533,23998.549608896585
+Deaths,Male,70 to 74,Colon and rectum cancer,bristol,22.14314754774105,23998.549608896585
+Deaths,Male,70 to 74,Diabetes mellitus type 2,bristol,3.3272007836265898,23998.549608896585
+Deaths,Male,70 to 74,Ischemic heart disease,bristol,80.901476479221,23998.549608896585
+Deaths,Male,70 to 74,Liver cancer,bristol,6.954400987353704,23998.549608896585
+Deaths,Male,70 to 74,Lower respiratory infections,bristol,14.04855165586924,23998.549608896585
+Deaths,Male,70 to 74,Neoplasms,bristol,212.70154581387763,23998.549608896585
+Deaths,Male,70 to 74,Road injuries,bristol,1.335966021598671,23998.549608896585
+Deaths,Male,70 to 74,Stomach cancer,bristol,10.11706308084456,23998.549608896585
+Deaths,Male,70 to 74,Stroke,bristol,23.750508571633247,23998.549608896585
+Deaths,Male,70 to 74,"Tracheal, bronchus, and lung cancer",bristol,51.091352773354615,23998.549608896585
+Deaths,Male,75 to 79,All causes,bristol,594.0776925777321,16662.365889638782
+Deaths,Male,75 to 79,Breast cancer,bristol,0.5334757788124747,16662.365889638782
+Deaths,Male,75 to 79,Cardiovascular diseases,bristol,174.2594931735688,16662.365889638782
+Deaths,Male,75 to 79,Chronic obstructive pulmonary disease,bristol,43.31170055040071,16662.365889638782
+Deaths,Male,75 to 79,Colon and rectum cancer,bristol,24.593907645066196,16662.365889638782
+Deaths,Male,75 to 79,Diabetes mellitus type 2,bristol,4.393301919208791,16662.365889638782
+Deaths,Male,75 to 79,Ischemic heart disease,bristol,95.00364972820202,16662.365889638782
+Deaths,Male,75 to 79,Liver cancer,bristol,6.767110224315189,16662.365889638782
+Deaths,Male,75 to 79,Lower respiratory infections,bristol,22.327734318422188,16662.365889638782
+Deaths,Male,75 to 79,Neoplasms,bristol,228.1877205267827,16662.365889638782
+Deaths,Male,75 to 79,Road injuries,bristol,1.3465840304503647,16662.365889638782
+Deaths,Male,75 to 79,Stomach cancer,bristol,12.099149632638142,16662.365889638782
+Deaths,Male,75 to 79,Stroke,bristol,35.347667757041634,16662.365889638782
+Deaths,Male,75 to 79,"Tracheal, bronchus, and lung cancer",bristol,49.95919287597194,16662.365889638782
+Deaths,Male,80 to 84,All causes,bristol,761.1112923837608,11453.934293642418
+Deaths,Male,80 to 84,Breast cancer,bristol,0.5552119014399038,11453.934293642418
+Deaths,Male,80 to 84,Cardiovascular diseases,bristol,234.8698053159134,11453.934293642418
+Deaths,Male,80 to 84,Chronic obstructive pulmonary disease,bristol,55.39795505341077,11453.934293642418
+Deaths,Male,80 to 84,Colon and rectum cancer,bristol,26.98846776646864,11453.934293642418
+Deaths,Male,80 to 84,Diabetes mellitus type 2,bristol,6.011413017301804,11453.934293642418
+Deaths,Male,80 to 84,Ischemic heart disease,bristol,123.51496862786391,11453.934293642418
+Deaths,Male,80 to 84,Liver cancer,bristol,6.158097417080315,11453.934293642418
+Deaths,Male,80 to 84,Lower respiratory infections,bristol,41.658557422109055,11453.934293642418
+Deaths,Male,80 to 84,Neoplasms,bristol,241.1127964886159,11453.934293642418
+Deaths,Male,80 to 84,Road injuries,bristol,1.447325256721689,11453.934293642418
+Deaths,Male,80 to 84,Stomach cancer,bristol,13.581954501315309,11453.934293642418
+Deaths,Male,80 to 84,Stroke,bristol,53.777456425163045,11453.934293642418
+Deaths,Male,80 to 84,"Tracheal, bronchus, and lung cancer",bristol,45.10729626244923,11453.934293642418
+Deaths,Male,85 to 89,All causes,bristol,865.1498755293801,6380.935231075022
+Deaths,Male,85 to 89,Breast cancer,bristol,0.5129913251772472,6380.935231075022
+Deaths,Male,85 to 89,Cardiovascular diseases,bristol,270.6774572246944,6380.935231075022
+Deaths,Male,85 to 89,Chronic obstructive pulmonary disease,bristol,60.093484674405005,6380.935231075022
+Deaths,Male,85 to 89,Colon and rectum cancer,bristol,25.434971812550103,6380.935231075022
+Deaths,Male,85 to 89,Diabetes mellitus type 2,bristol,6.842489430024535,6380.935231075022
+Deaths,Male,85 to 89,Ischemic heart disease,bristol,135.86604429538548,6380.935231075022
+Deaths,Male,85 to 89,Liver cancer,bristol,4.781730013787718,6380.935231075022
+Deaths,Male,85 to 89,Lower respiratory infections,bristol,74.58644918356568,6380.935231075022
+Deaths,Male,85 to 89,Neoplasms,bristol,218.6167286789222,6380.935231075022
+Deaths,Male,85 to 89,Road injuries,bristol,1.2806966654018554,6380.935231075022
+Deaths,Male,85 to 89,Stomach cancer,bristol,12.202841313069557,6380.935231075022
+Deaths,Male,85 to 89,Stroke,bristol,69.1758275168323,6380.935231075022
+Deaths,Male,85 to 89,"Tracheal, bronchus, and lung cancer",bristol,36.111620969639354,6380.935231075022
+Deaths,Male,90 to 94,All causes,bristol,535.69269694687,2531.900309905826
+Deaths,Male,90 to 94,Breast cancer,bristol,0.31641456827743153,2531.900309905826
+Deaths,Male,90 to 94,Cardiovascular diseases,bristol,174.42240163224767,2531.900309905826
+Deaths,Male,90 to 94,Chronic obstructive pulmonary disease,bristol,35.004578630417406,2531.900309905826
+Deaths,Male,90 to 94,Colon and rectum cancer,bristol,12.98090456497912,2531.900309905826
+Deaths,Male,90 to 94,Diabetes mellitus type 2,bristol,4.306278436462408,2531.900309905826
+Deaths,Male,90 to 94,Ischemic heart disease,bristol,87.73763801982714,2531.900309905826
+Deaths,Male,90 to 94,Liver cancer,bristol,1.8543700859680912,2531.900309905826
+Deaths,Male,90 to 94,Lower respiratory infections,bristol,50.70823349171464,2531.900309905826
+Deaths,Male,90 to 94,Neoplasms,bristol,106.3630522158075,2531.900309905826
+Deaths,Male,90 to 94,Road injuries,bristol,0.6407676170948757,2531.900309905826
+Deaths,Male,90 to 94,Stomach cancer,bristol,6.38649413224202,2531.900309905826
+Deaths,Male,90 to 94,Stroke,bristol,45.69665073532353,2531.900309905826
+Deaths,Male,90 to 94,"Tracheal, bronchus, and lung cancer",bristol,13.878488193466438,2531.900309905826
+Deaths,Male,95 to 99,All causes,bristol,180.25594091688157,544.8852845851447
+Deaths,Male,95 to 99,Breast cancer,bristol,0.11130831554145967,544.8852845851447
+Deaths,Male,95 to 99,Cardiovascular diseases,bristol,62.325794996170316,544.8852845851447
+Deaths,Male,95 to 99,Chronic obstructive pulmonary disease,bristol,11.636196908036272,544.8852845851447
+Deaths,Male,95 to 99,Colon and rectum cancer,bristol,3.3542591705537546,544.8852845851447
+Deaths,Male,95 to 99,Diabetes mellitus type 2,bristol,1.526291222808293,544.8852845851447
+Deaths,Male,95 to 99,Ischemic heart disease,bristol,31.370526076809814,544.8852845851447
+Deaths,Male,95 to 99,Liver cancer,bristol,0.41369577490189124,544.8852845851447
+Deaths,Male,95 to 99,Lower respiratory infections,bristol,19.997840065709354,544.8852845851447
+Deaths,Male,95 to 99,Neoplasms,bristol,27.701448828964605,544.8852845851447
+Deaths,Male,95 to 99,Road injuries,bristol,0.20159095244933356,544.8852845851447
+Deaths,Male,95 to 99,Stomach cancer,bristol,1.8452917259552915,544.8852845851447
+Deaths,Male,95 to 99,Stroke,bristol,17.372044172523527,544.8852845851447
+Deaths,Male,95 to 99,"Tracheal, bronchus, and lung cancer",bristol,2.8064565507870123,544.8852845851447
+Deaths,Male,0 to 4,All causes,bristol,27.994148507771836,34899.00807090061
+Deaths,Male,0 to 4,Cardiovascular diseases,bristol,0.3340145998156327,34899.00807090061
+Deaths,Male,0 to 4,Chronic obstructive pulmonary disease,bristol,0.013768956517438204,34899.00807090061
+Deaths,Male,0 to 4,Lower respiratory infections,bristol,0.8907918167333462,34899.00807090061
+Deaths,Male,0 to 4,Neoplasms,bristol,0.9169861254609394,34899.00807090061
+Deaths,Male,0 to 4,Road injuries,bristol,0.20462842146451982,34899.00807090061
+Deaths,Male,0 to 4,Stroke,bristol,0.0374078146845167,34899.00807090061
+YLLs (Years of Life Lost),Female,10 to 14,All causes,bristol,148.41053426771373,30256.23100195158
+YLLs (Years of Life Lost),Female,10 to 14,Cardiovascular diseases,bristol,5.687505646151404,30256.23100195158
+YLLs (Years of Life Lost),Female,10 to 14,Chronic obstructive pulmonary disease,bristol,0.936816658353507,30256.23100195158
+YLLs (Years of Life Lost),Female,10 to 14,Liver cancer,bristol,0.6963437515587015,30256.23100195158
+YLLs (Years of Life Lost),Female,10 to 14,Lower respiratory infections,bristol,4.802401077361399,30256.23100195158
+YLLs (Years of Life Lost),Female,10 to 14,Neoplasms,bristol,47.21601137818523,30256.23100195158
+YLLs (Years of Life Lost),Female,10 to 14,Road injuries,bristol,13.571714308721358,30256.23100195158
+YLLs (Years of Life Lost),Female,10 to 14,Stroke,bristol,1.7715976783118752,30256.23100195158
+YLLs (Years of Life Lost),Female,15 to 19,All causes,bristol,425.310760310773,31688.711941162837
+YLLs (Years of Life Lost),Female,15 to 19,Breast cancer,bristol,0.5818259406026481,31688.711941162837
+YLLs (Years of Life Lost),Female,15 to 19,Cardiovascular diseases,bristol,21.5690503840057,31688.711941162837
+YLLs (Years of Life Lost),Female,15 to 19,Chronic obstructive pulmonary disease,bristol,1.4506818732569895,31688.711941162837
+YLLs (Years of Life Lost),Female,15 to 19,Colon and rectum cancer,bristol,0.7755961796514873,31688.711941162837
+YLLs (Years of Life Lost),Female,15 to 19,Diabetes mellitus type 2,bristol,0.3192867996866812,31688.711941162837
+YLLs (Years of Life Lost),Female,15 to 19,Ischemic heart disease,bristol,1.4070277128608673,31688.711941162837
+YLLs (Years of Life Lost),Female,15 to 19,Liver cancer,bristol,2.34126240451798,31688.711941162837
+YLLs (Years of Life Lost),Female,15 to 19,Lower respiratory infections,bristol,8.724872722276665,31688.711941162837
+YLLs (Years of Life Lost),Female,15 to 19,Neoplasms,bristol,85.0455319106044,31688.711941162837
+YLLs (Years of Life Lost),Female,15 to 19,Road injuries,bristol,63.06609562627101,31688.711941162837
+YLLs (Years of Life Lost),Female,15 to 19,Stomach cancer,bristol,0.3853047448448193,31688.711941162837
+YLLs (Years of Life Lost),Female,15 to 19,Stroke,bristol,5.564871633853481,31688.711941162837
+YLLs (Years of Life Lost),Female,15 to 19,"Tracheal, bronchus, and lung cancer",bristol,0.8259452644631476,31688.711941162837
+YLLs (Years of Life Lost),Female,15 to 19,Uterine cancer,bristol,0.3038320361613408,31688.711941162837
+YLLs (Years of Life Lost),Female,20 to 24,All causes,bristol,500.20615887119385,39138.00890041866
+YLLs (Years of Life Lost),Female,20 to 24,Breast cancer,bristol,2.5406966424604365,39138.00890041866
+YLLs (Years of Life Lost),Female,20 to 24,Cardiovascular diseases,bristol,34.810939559502785,39138.00890041866
+YLLs (Years of Life Lost),Female,20 to 24,Chronic obstructive pulmonary disease,bristol,1.5065669400163249,39138.00890041866
+YLLs (Years of Life Lost),Female,20 to 24,Colon and rectum cancer,bristol,3.0309497033527375,39138.00890041866
+YLLs (Years of Life Lost),Female,20 to 24,Diabetes mellitus type 2,bristol,0.35024194301343325,39138.00890041866
+YLLs (Years of Life Lost),Female,20 to 24,Ischemic heart disease,bristol,3.189663592767431,39138.00890041866
+YLLs (Years of Life Lost),Female,20 to 24,Liver cancer,bristol,2.2169023885196273,39138.00890041866
+YLLs (Years of Life Lost),Female,20 to 24,Lower respiratory infections,bristol,10.636602267529254,39138.00890041866
+YLLs (Years of Life Lost),Female,20 to 24,Neoplasms,bristol,97.85159169609753,39138.00890041866
+YLLs (Years of Life Lost),Female,20 to 24,Road injuries,bristol,51.57340633286387,39138.00890041866
+YLLs (Years of Life Lost),Female,20 to 24,Stomach cancer,bristol,1.0069579203888364,39138.00890041866
+YLLs (Years of Life Lost),Female,20 to 24,Stroke,bristol,10.395851090774844,39138.00890041866
+YLLs (Years of Life Lost),Female,20 to 24,"Tracheal, bronchus, and lung cancer",bristol,1.3730979942699177,39138.00890041866
+YLLs (Years of Life Lost),Female,20 to 24,Uterine cancer,bristol,0.4089878934423528,39138.00890041866
+YLLs (Years of Life Lost),Female,25 to 29,All causes,bristol,661.2981493617618,44163.23258114209
+YLLs (Years of Life Lost),Female,25 to 29,Breast cancer,bristol,20.170573366990016,44163.23258114209
+YLLs (Years of Life Lost),Female,25 to 29,Cardiovascular diseases,bristol,50.38532117870643,44163.23258114209
+YLLs (Years of Life Lost),Female,25 to 29,Chronic obstructive pulmonary disease,bristol,1.7484962375903284,44163.23258114209
+YLLs (Years of Life Lost),Female,25 to 29,Colon and rectum cancer,bristol,8.647157710345486,44163.23258114209
+YLLs (Years of Life Lost),Female,25 to 29,Diabetes mellitus type 2,bristol,0.5630273784302644,44163.23258114209
+YLLs (Years of Life Lost),Female,25 to 29,Ischemic heart disease,bristol,5.747294092993553,44163.23258114209
+YLLs (Years of Life Lost),Female,25 to 29,Liver cancer,bristol,3.705698143986047,44163.23258114209
+YLLs (Years of Life Lost),Female,25 to 29,Lower respiratory infections,bristol,14.50781293065261,44163.23258114209
+YLLs (Years of Life Lost),Female,25 to 29,Neoplasms,bristol,176.16808207184997,44163.23258114209
+YLLs (Years of Life Lost),Female,25 to 29,Road injuries,bristol,36.10747682603664,44163.23258114209
+YLLs (Years of Life Lost),Female,25 to 29,Stomach cancer,bristol,3.756171808290527,44163.23258114209
+YLLs (Years of Life Lost),Female,25 to 29,Stroke,bristol,16.597879014421714,44163.23258114209
+YLLs (Years of Life Lost),Female,25 to 29,"Tracheal, bronchus, and lung cancer",bristol,3.2588540783883957,44163.23258114209
+YLLs (Years of Life Lost),Female,25 to 29,Uterine cancer,bristol,1.0816147047975613,44163.23258114209
+YLLs (Years of Life Lost),Female,30 to 34,All causes,bristol,759.13738798609,39816.79638633595
+YLLs (Years of Life Lost),Female,30 to 34,Breast cancer,bristol,62.83365481622954,39816.79638633595
+YLLs (Years of Life Lost),Female,30 to 34,Cardiovascular diseases,bristol,71.7931599859928,39816.79638633595
+YLLs (Years of Life Lost),Female,30 to 34,Chronic obstructive pulmonary disease,bristol,2.0378855576256805,39816.79638633595
+YLLs (Years of Life Lost),Female,30 to 34,Colon and rectum cancer,bristol,17.25542635072599,39816.79638633595
+YLLs (Years of Life Lost),Female,30 to 34,Diabetes mellitus type 2,bristol,1.2487029833640335,39816.79638633595
+YLLs (Years of Life Lost),Female,30 to 34,Ischemic heart disease,bristol,14.15203217251227,39816.79638633595
+YLLs (Years of Life Lost),Female,30 to 34,Liver cancer,bristol,3.882372971776099,39816.79638633595
+YLLs (Years of Life Lost),Female,30 to 34,Lower respiratory infections,bristol,15.707098303041025,39816.79638633595
+YLLs (Years of Life Lost),Female,30 to 34,Neoplasms,bristol,258.0549110977754,39816.79638633595
+YLLs (Years of Life Lost),Female,30 to 34,Road injuries,bristol,22.79028922311778,39816.79638633595
+YLLs (Years of Life Lost),Female,30 to 34,Stomach cancer,bristol,7.397313523549614,39816.79638633595
+YLLs (Years of Life Lost),Female,30 to 34,Stroke,bristol,24.61813514487343,39816.79638633595
+YLLs (Years of Life Lost),Female,30 to 34,"Tracheal, bronchus, and lung cancer",bristol,8.71189084066835,39816.79638633595
+YLLs (Years of Life Lost),Female,30 to 34,Uterine cancer,bristol,1.5815236848486145,39816.79638633595
+YLLs (Years of Life Lost),Female,35 to 39,All causes,bristol,1133.747166489322,37411.906298463895
+YLLs (Years of Life Lost),Female,35 to 39,Breast cancer,bristol,150.12042687498015,37411.906298463895
+YLLs (Years of Life Lost),Female,35 to 39,Cardiovascular diseases,bristol,119.6754700502281,37411.906298463895
+YLLs (Years of Life Lost),Female,35 to 39,Chronic obstructive pulmonary disease,bristol,4.1755647246563345,37411.906298463895
+YLLs (Years of Life Lost),Female,35 to 39,Colon and rectum cancer,bristol,30.336521213074118,37411.906298463895
+YLLs (Years of Life Lost),Female,35 to 39,Diabetes mellitus type 2,bristol,1.8563946545109888,37411.906298463895
+YLLs (Years of Life Lost),Female,35 to 39,Ischemic heart disease,bristol,31.326526893145004,37411.906298463895
+YLLs (Years of Life Lost),Female,35 to 39,Liver cancer,bristol,6.4893293960150356,37411.906298463895
+YLLs (Years of Life Lost),Female,35 to 39,Lower respiratory infections,bristol,24.939734534961122,37411.906298463895
+YLLs (Years of Life Lost),Female,35 to 39,Neoplasms,bristol,457.7451041549086,37411.906298463895
+YLLs (Years of Life Lost),Female,35 to 39,Road injuries,bristol,21.956532688721975,37411.906298463895
+YLLs (Years of Life Lost),Female,35 to 39,Stomach cancer,bristol,11.895907850127635,37411.906298463895
+YLLs (Years of Life Lost),Female,35 to 39,Stroke,bristol,41.07743736912826,37411.906298463895
+YLLs (Years of Life Lost),Female,35 to 39,"Tracheal, bronchus, and lung cancer",bristol,20.55496322289426,37411.906298463895
+YLLs (Years of Life Lost),Female,35 to 39,Uterine cancer,bristol,3.2063686904355184,37411.906298463895
+YLLs (Years of Life Lost),Female,40 to 44,All causes,bristol,1396.11199765163,34506.57967382901
+YLLs (Years of Life Lost),Female,40 to 44,Breast cancer,bristol,224.27710086962207,34506.57967382901
+YLLs (Years of Life Lost),Female,40 to 44,Cardiovascular diseases,bristol,170.44795703505622,34506.57967382901
+YLLs (Years of Life Lost),Female,40 to 44,Chronic obstructive pulmonary disease,bristol,10.139086882872647,34506.57967382901
+YLLs (Years of Life Lost),Female,40 to 44,Colon and rectum cancer,bristol,44.52635975808812,34506.57967382901
+YLLs (Years of Life Lost),Female,40 to 44,Diabetes mellitus type 2,bristol,2.2544750811473726,34506.57967382901
+YLLs (Years of Life Lost),Female,40 to 44,Ischemic heart disease,bristol,53.28571562503253,34506.57967382901
+YLLs (Years of Life Lost),Female,40 to 44,Liver cancer,bristol,8.645149271800928,34506.57967382901
+YLLs (Years of Life Lost),Female,40 to 44,Lower respiratory infections,bristol,32.01310771868097,34506.57967382901
+YLLs (Years of Life Lost),Female,40 to 44,Neoplasms,bristol,639.0191011874758,34506.57967382901
+YLLs (Years of Life Lost),Female,40 to 44,Road injuries,bristol,18.361040286558108,34506.57967382901
+YLLs (Years of Life Lost),Female,40 to 44,Stomach cancer,bristol,17.658492575870568,34506.57967382901
+YLLs (Years of Life Lost),Female,40 to 44,Stroke,bristol,56.69928936962966,34506.57967382901
+YLLs (Years of Life Lost),Female,40 to 44,"Tracheal, bronchus, and lung cancer",bristol,47.99500713080285,34506.57967382901
+YLLs (Years of Life Lost),Female,40 to 44,Uterine cancer,bristol,6.305133754181558,34506.57967382901
+YLLs (Years of Life Lost),Female,45 to 49,All causes,bristol,2342.185370374368,37654.39541035355
+YLLs (Years of Life Lost),Female,45 to 49,Breast cancer,bristol,405.9848177836439,37654.39541035355
+YLLs (Years of Life Lost),Female,45 to 49,Cardiovascular diseases,bristol,308.21408676797205,37654.39541035355
+YLLs (Years of Life Lost),Female,45 to 49,Chronic obstructive pulmonary disease,bristol,27.164730991568227,37654.39541035355
+YLLs (Years of Life Lost),Female,45 to 49,Colon and rectum cancer,bristol,90.76879040962635,37654.39541035355
+YLLs (Years of Life Lost),Female,45 to 49,Diabetes mellitus type 2,bristol,8.942169786536478,37654.39541035355
+YLLs (Years of Life Lost),Female,45 to 49,Ischemic heart disease,bristol,113.80284397003236,37654.39541035355
+YLLs (Years of Life Lost),Female,45 to 49,Liver cancer,bristol,17.31385334791967,37654.39541035355
+YLLs (Years of Life Lost),Female,45 to 49,Lower respiratory infections,bristol,49.376612022022265,37654.39541035355
+YLLs (Years of Life Lost),Female,45 to 49,Neoplasms,bristol,1207.6538389224113,37654.39541035355
+YLLs (Years of Life Lost),Female,45 to 49,Road injuries,bristol,20.54795871318173,37654.39541035355
+YLLs (Years of Life Lost),Female,45 to 49,Stomach cancer,bristol,26.593265115007167,37654.39541035355
+YLLs (Years of Life Lost),Female,45 to 49,Stroke,bristol,94.75432853844896,37654.39541035355
+YLLs (Years of Life Lost),Female,45 to 49,"Tracheal, bronchus, and lung cancer",bristol,139.21948377282604,37654.39541035355
+YLLs (Years of Life Lost),Female,45 to 49,Uterine cancer,bristol,15.543798727956263,37654.39541035355
+YLLs (Years of Life Lost),Female,5 to 9,All causes,bristol,115.1743456063534,33012.787282073135
+YLLs (Years of Life Lost),Female,5 to 9,Cardiovascular diseases,bristol,4.140426373745603,33012.787282073135
+YLLs (Years of Life Lost),Female,5 to 9,Chronic obstructive pulmonary disease,bristol,0.7175671493407553,33012.787282073135
+YLLs (Years of Life Lost),Female,5 to 9,Liver cancer,bristol,0.46061993397205436,33012.787282073135
+YLLs (Years of Life Lost),Female,5 to 9,Lower respiratory infections,bristol,4.7057115517312305,33012.787282073135
+YLLs (Years of Life Lost),Female,5 to 9,Neoplasms,bristol,39.767736492571004,33012.787282073135
+YLLs (Years of Life Lost),Female,5 to 9,Road injuries,bristol,8.9950815665980155,33012.787282073135
+YLLs (Years of Life Lost),Female,5 to 9,Stroke,bristol,0.9413724691482469,33012.787282073135
+YLLs (Years of Life Lost),Female,50 to 54,All causes,bristol,3194.2244285370557,38144.6808219449
+YLLs (Years of Life Lost),Female,50 to 54,Breast cancer,bristol,511.3422708001749,38144.6808219449
+YLLs (Years of Life Lost),Female,50 to 54,Cardiovascular diseases,bristol,422.9866609852838,38144.6808219449
+YLLs (Years of Life Lost),Female,50 to 54,Chronic obstructive pulmonary disease,bristol,68.84555044199274,38144.6808219449
+YLLs (Years of Life Lost),Female,50 to 54,Colon and rectum cancer,bristol,141.51751341709848,38144.6808219449
+YLLs (Years of Life Lost),Female,50 to 54,Diabetes mellitus type 2,bristol,11.326747815885659,38144.6808219449
+YLLs (Years of Life Lost),Female,50 to 54,Ischemic heart disease,bristol,169.8642876200719,38144.6808219449
+YLLs (Years of Life Lost),Female,50 to 54,Liver cancer,bristol,31.33603523944639,38144.6808219449
+YLLs (Years of Life Lost),Female,50 to 54,Lower respiratory infections,bristol,70.67576923567795,38144.6808219449
+YLLs (Years of Life Lost),Female,50 to 54,Neoplasms,bristol,1778.2442392321182,38144.6808219449
+YLLs (Years of Life Lost),Female,50 to 54,Road injuries,bristol,19.277149541825278,38144.6808219449
+YLLs (Years of Life Lost),Female,50 to 54,Stomach cancer,bristol,36.88168853637799,38144.6808219449
+YLLs (Years of Life Lost),Female,50 to 54,Stroke,bristol,128.07191024079813,38144.6808219449
+YLLs (Years of Life Lost),Female,50 to 54,"Tracheal, bronchus, and lung cancer",bristol,267.180773260297,38144.6808219449
+YLLs (Years of Life Lost),Female,50 to 54,Uterine cancer,bristol,31.036806072594104,38144.6808219449
+YLLs (Years of Life Lost),Female,55 to 59,All causes,bristol,3686.472471800545,32900.972482537705
+YLLs (Years of Life Lost),Female,55 to 59,Breast cancer,bristol,483.959435725553,32900.972482537705
+YLLs (Years of Life Lost),Female,55 to 59,Cardiovascular diseases,bristol,524.2983285808364,32900.972482537705
+YLLs (Years of Life Lost),Female,55 to 59,Chronic obstructive pulmonary disease,bristol,123.6411683629346,32900.972482537705
+YLLs (Years of Life Lost),Female,55 to 59,Colon and rectum cancer,bristol,176.67738332406972,32900.972482537705
+YLLs (Years of Life Lost),Female,55 to 59,Diabetes mellitus type 2,bristol,14.161735872947983,32900.972482537705
+YLLs (Years of Life Lost),Female,55 to 59,Ischemic heart disease,bristol,230.59514819644477,32900.972482537705
+YLLs (Years of Life Lost),Female,55 to 59,Liver cancer,bristol,40.77918724748672,32900.972482537705
+YLLs (Years of Life Lost),Female,55 to 59,Lower respiratory infections,bristol,79.13620838779825,32900.972482537705
+YLLs (Years of Life Lost),Female,55 to 59,Neoplasms,bristol,2132.1848677860744,32900.972482537705
+YLLs (Years of Life Lost),Female,55 to 59,Road injuries,bristol,15.758003028860148,32900.972482537705
+YLLs (Years of Life Lost),Female,55 to 59,Stomach cancer,bristol,46.262489103190426,32900.972482537705
+YLLs (Years of Life Lost),Female,55 to 59,Stroke,bristol,142.14727764675172,32900.972482537705
+YLLs (Years of Life Lost),Female,55 to 59,"Tracheal, bronchus, and lung cancer",bristol,415.1166849847494,32900.972482537705
+YLLs (Years of Life Lost),Female,55 to 59,Uterine cancer,bristol,50.52857016232951,32900.972482537705
+YLLs (Years of Life Lost),Female,60 to 64,All causes,bristol,4661.103509585937,28622.649603138583
+YLLs (Years of Life Lost),Female,60 to 64,Breast cancer,bristol,467.59485989757957,28622.649603138583
+YLLs (Years of Life Lost),Female,60 to 64,Cardiovascular diseases,bristol,740.0797195854941,28622.649603138583
+YLLs (Years of Life Lost),Female,60 to 64,Chronic obstructive pulmonary disease,bristol,248.13431264812147,28622.649603138583
+YLLs (Years of Life Lost),Female,60 to 64,Colon and rectum cancer,bristol,216.05711958653075,28622.649603138583
+YLLs (Years of Life Lost),Female,60 to 64,Diabetes mellitus type 2,bristol,22.673175655279135,28622.649603138583
+YLLs (Years of Life Lost),Female,60 to 64,Ischemic heart disease,bristol,334.24705552616524,28622.649603138583
+YLLs (Years of Life Lost),Female,60 to 64,Liver cancer,bristol,53.1315340568316,28622.649603138583
+YLLs (Years of Life Lost),Female,60 to 64,Lower respiratory infections,bristol,107.93280197333559,28622.649603138583
+YLLs (Years of Life Lost),Female,60 to 64,Neoplasms,bristol,2627.293873801517,28622.649603138583
+YLLs (Years of Life Lost),Female,60 to 64,Road injuries,bristol,14.267654110592236,28622.649603138583
+YLLs (Years of Life Lost),Female,60 to 64,Stomach cancer,bristol,60.178284841656236,28622.649603138583
+YLLs (Years of Life Lost),Female,60 to 64,Stroke,bristol,182.17083417890723,28622.649603138583
+YLLs (Years of Life Lost),Female,60 to 64,"Tracheal, bronchus, and lung cancer",bristol,580.1019530370888,28622.649603138583
+YLLs (Years of Life Lost),Female,60 to 64,Uterine cancer,bristol,76.41250349899059,28622.649603138583
+YLLs (Years of Life Lost),Female,65 to 69,All causes,bristol,6173.645812074078,28350.498803312006
+YLLs (Years of Life Lost),Female,65 to 69,Breast cancer,bristol,501.5701128629122,28350.498803312006
+YLLs (Years of Life Lost),Female,65 to 69,Cardiovascular diseases,bristol,1092.1654788767696,28350.498803312006
+YLLs (Years of Life Lost),Female,65 to 69,Chronic obstructive pulmonary disease,bristol,416.7263434812069,28350.498803312006
+YLLs (Years of Life Lost),Female,65 to 69,Colon and rectum cancer,bristol,282.1137366656419,28350.498803312006
+YLLs (Years of Life Lost),Female,65 to 69,Diabetes mellitus type 2,bristol,31.487812490403698,28350.498803312006
+YLLs (Years of Life Lost),Female,65 to 69,Ischemic heart disease,bristol,478.43256758127205,28350.498803312006
+YLLs (Years of Life Lost),Female,65 to 69,Liver cancer,bristol,70.25363483321657,28350.498803312006
+YLLs (Years of Life Lost),Female,65 to 69,Lower respiratory infections,bristol,151.54822109097253,28350.498803312006
+YLLs (Years of Life Lost),Female,65 to 69,Neoplasms,bristol,3307.2120465066255,28350.498803312006
+YLLs (Years of Life Lost),Female,65 to 69,Road injuries,bristol,16.103829874811975,28350.498803312006
+YLLs (Years of Life Lost),Female,65 to 69,Stomach cancer,bristol,78.8760910143758,28350.498803312006
+YLLs (Years of Life Lost),Female,65 to 69,Stroke,bristol,274.3379824694466,28350.498803312006
+YLLs (Years of Life Lost),Female,65 to 69,"Tracheal, bronchus, and lung cancer",bristol,795.4487940208239,28350.498803312006
+YLLs (Years of Life Lost),Female,65 to 69,Uterine cancer,bristol,102.3159451590256,28350.498803312006
+YLLs (Years of Life Lost),Female,70 to 74,All causes,bristol,7258.358215142066,25520.103827698153
+YLLs (Years of Life Lost),Female,70 to 74,Breast cancer,bristol,454.57668609463997,25520.103827698153
+YLLs (Years of Life Lost),Female,70 to 74,Cardiovascular diseases,bristol,1557.4701236050942,25520.103827698153
+YLLs (Years of Life Lost),Female,70 to 74,Chronic obstructive pulmonary disease,bristol,521.7791486839023,25520.103827698153
+YLLs (Years of Life Lost),Female,70 to 74,Colon and rectum cancer,bristol,309.6373485609455,25520.103827698153
+YLLs (Years of Life Lost),Female,70 to 74,Diabetes mellitus type 2,bristol,46.07833187015402,25520.103827698153
+YLLs (Years of Life Lost),Female,70 to 74,Ischemic heart disease,bristol,647.886959537165,25520.103827698153
+YLLs (Years of Life Lost),Female,70 to 74,Liver cancer,bristol,77.92249140235569,25520.103827698153
+YLLs (Years of Life Lost),Female,70 to 74,Lower respiratory infections,bristol,232.42262880459305,25520.103827698153
+YLLs (Years of Life Lost),Female,70 to 74,Neoplasms,bristol,3368.2933388926567,25520.103827698153
+YLLs (Years of Life Lost),Female,70 to 74,Road injuries,bristol,15.895214521734202,25520.103827698153
+YLLs (Years of Life Lost),Female,70 to 74,Stomach cancer,bristol,96.45901245831683,25520.103827698153
+YLLs (Years of Life Lost),Female,70 to 74,Stroke,bristol,420.61899975110873,25520.103827698153
+YLLs (Years of Life Lost),Female,70 to 74,"Tracheal, bronchus, and lung cancer",bristol,775.9285046717797,25520.103827698153
+YLLs (Years of Life Lost),Female,70 to 74,Uterine cancer,bristol,102.20316471822747,25520.103827698153
+YLLs (Years of Life Lost),Female,75 to 79,All causes,bristol,7609.602957979909,18962.228545547787
+YLLs (Years of Life Lost),Female,75 to 79,Breast cancer,bristol,373.4119203319696,18962.228545547787
+YLLs (Years of Life Lost),Female,75 to 79,Cardiovascular diseases,bristol,1918.2288371933716,18962.228545547787
+YLLs (Years of Life Lost),Female,75 to 79,Chronic obstructive pulmonary disease,bristol,545.8750136830572,18962.228545547787
+YLLs (Years of Life Lost),Female,75 to 79,Colon and rectum cancer,bristol,291.6773759833875,18962.228545547787
+YLLs (Years of Life Lost),Female,75 to 79,Diabetes mellitus type 2,bristol,53.79261104795843,18962.228545547787
+YLLs (Years of Life Lost),Female,75 to 79,Ischemic heart disease,bristol,771.4939233957606,18962.228545547787
+YLLs (Years of Life Lost),Female,75 to 79,Liver cancer,bristol,73.51213151709868,18962.228545547787
+YLLs (Years of Life Lost),Female,75 to 79,Lower respiratory infections,bristol,314.6219652363488,18962.228545547787
+YLLs (Years of Life Lost),Female,75 to 79,Neoplasms,bristol,2812.561278862248,18962.228545547787
+YLLs (Years of Life Lost),Female,75 to 79,Road injuries,bristol,14.87493413809025,18962.228545547787
+YLLs (Years of Life Lost),Female,75 to 79,Stomach cancer,bristol,105.92023950367168,18962.228545547787
+YLLs (Years of Life Lost),Female,75 to 79,Stroke,bristol,567.0169441177943,18962.228545547787
+YLLs (Years of Life Lost),Female,75 to 79,"Tracheal, bronchus, and lung cancer",bristol,586.0274908995982,18962.228545547787
+YLLs (Years of Life Lost),Female,75 to 79,Uterine cancer,bristol,76.57142039528014,18962.228545547787
+YLLs (Years of Life Lost),Female,80 to 84,All causes,bristol,8370.063400514946,14915.472288176024
+YLLs (Years of Life Lost),Female,80 to 84,Breast cancer,bristol,309.2191317278941,14915.472288176024
+YLLs (Years of Life Lost),Female,80 to 84,Cardiovascular diseases,bristol,2456.186461748278,14915.472288176024
+YLLs (Years of Life Lost),Female,80 to 84,Chronic obstructive pulmonary disease,bristol,510.27711321890575,14915.472288176024
+YLLs (Years of Life Lost),Female,80 to 84,Colon and rectum cancer,bristol,288.386240185799,14915.472288176024
+YLLs (Years of Life Lost),Female,80 to 84,Diabetes mellitus type 2,bristol,65.25260600778,14915.472288176024
+YLLs (Years of Life Lost),Female,80 to 84,Ischemic heart disease,bristol,947.3744681114672,14915.472288176024
+YLLs (Years of Life Lost),Female,80 to 84,Liver cancer,bristol,60.07972949006989,14915.472288176024
+YLLs (Years of Life Lost),Female,80 to 84,Lower respiratory infections,bristol,496.25737803248705,14915.472288176024
+YLLs (Years of Life Lost),Female,80 to 84,Neoplasms,bristol,2273.337212208752,14915.472288176024
+YLLs (Years of Life Lost),Female,80 to 84,Road injuries,bristol,12.74456840699468,14915.472288176024
+YLLs (Years of Life Lost),Female,80 to 84,Stomach cancer,bristol,102.1836473978122,14915.472288176024
+YLLs (Years of Life Lost),Female,80 to 84,Stroke,bristol,781.4719872755425,14915.472288176024
+YLLs (Years of Life Lost),Female,80 to 84,"Tracheal, bronchus, and lung cancer",bristol,407.32081929633244,14915.472288176024
+YLLs (Years of Life Lost),Female,80 to 84,Uterine cancer,bristol,54.8692193355388,14915.472288176024
+YLLs (Years of Life Lost),Female,85 to 89,All causes,bristol,8301.454411235965,10002.682029850357
+YLLs (Years of Life Lost),Female,85 to 89,Breast cancer,bristol,248.57700105705393,10002.682029850357
+YLLs (Years of Life Lost),Female,85 to 89,Cardiovascular diseases,bristol,2669.381712318376,10002.682029850357
+YLLs (Years of Life Lost),Female,85 to 89,Chronic obstructive pulmonary disease,bristol,407.703417951372,10002.682029850357
+YLLs (Years of Life Lost),Female,85 to 89,Colon and rectum cancer,bristol,231.66725063431653,10002.682029850357
+YLLs (Years of Life Lost),Female,85 to 89,Diabetes mellitus type 2,bristol,64.62115208550225,10002.682029850357
+YLLs (Years of Life Lost),Female,85 to 89,Ischemic heart disease,bristol,1055.1451771081622,10002.682029850357
+YLLs (Years of Life Lost),Female,85 to 89,Liver cancer,bristol,39.249696351484175,10002.682029850357
+YLLs (Years of Life Lost),Female,85 to 89,Lower respiratory infections,bristol,773.3037827008234,10002.682029850357
+YLLs (Years of Life Lost),Female,85 to 89,Neoplasms,bristol,1574.6560062231233,10002.682029850357
+YLLs (Years of Life Lost),Female,85 to 89,Road injuries,bristol,7.702285351469833,10002.682029850357
+YLLs (Years of Life Lost),Female,85 to 89,Stomach cancer,bristol,76.21981115458289,10002.682029850357
+YLLs (Years of Life Lost),Female,85 to 89,Stroke,bristol,885.1623832993083,10002.682029850357
+YLLs (Years of Life Lost),Female,85 to 89,"Tracheal, bronchus, and lung cancer",bristol,224.6770700976862,10002.682029850357
+YLLs (Years of Life Lost),Female,85 to 89,Uterine cancer,bristol,34.55357667025503,10002.682029850357
+YLLs (Years of Life Lost),Female,90 to 94,All causes,bristol,4966.937261266308,5095.45788335688
+YLLs (Years of Life Lost),Female,90 to 94,Breast cancer,bristol,118.45937347907878,5095.45788335688
+YLLs (Years of Life Lost),Female,90 to 94,Cardiovascular diseases,bristol,1626.854259852029,5095.45788335688
+YLLs (Years of Life Lost),Female,90 to 94,Chronic obstructive pulmonary disease,bristol,211.2969901125386,5095.45788335688
+YLLs (Years of Life Lost),Female,90 to 94,Colon and rectum cancer,bristol,113.29753941458542,5095.45788335688
+YLLs (Years of Life Lost),Female,90 to 94,Diabetes mellitus type 2,bristol,37.653286407679985,5095.45788335688
+YLLs (Years of Life Lost),Female,90 to 94,Ischemic heart disease,bristol,637.3705158871289,5095.45788335688
+YLLs (Years of Life Lost),Female,90 to 94,Liver cancer,bristol,15.249688359553042,5095.45788335688
+YLLs (Years of Life Lost),Female,90 to 94,Lower respiratory infections,bristol,494.87464291043875,5095.45788335688
+YLLs (Years of Life Lost),Female,90 to 94,Neoplasms,bristol,694.1132538076787,5095.45788335688
+YLLs (Years of Life Lost),Female,90 to 94,Road injuries,bristol,3.521811493273949,5095.45788335688
+YLLs (Years of Life Lost),Female,90 to 94,Stomach cancer,bristol,38.27950948894597,5095.45788335688
+YLLs (Years of Life Lost),Female,90 to 94,Stroke,bristol,534.8639893956308,5095.45788335688
+YLLs (Years of Life Lost),Female,90 to 94,"Tracheal, bronchus, and lung cancer",bristol,83.4967562535214,5095.45788335688
+YLLs (Years of Life Lost),Female,90 to 94,Uterine cancer,bristol,13.4847402128418,5095.45788335688
+YLLs (Years of Life Lost),Female,95 to 99,All causes,bristol,1622.8741676531083,1649.4145567967416
+YLLs (Years of Life Lost),Female,95 to 99,Breast cancer,bristol,31.594658361688353,1649.4145567967416
+YLLs (Years of Life Lost),Female,95 to 99,Cardiovascular diseases,bristol,546.0356918814335,1649.4145567967416
+YLLs (Years of Life Lost),Female,95 to 99,Chronic obstructive pulmonary disease,bristol,69.11165356089217,1649.4145567967416
+YLLs (Years of Life Lost),Female,95 to 99,Colon and rectum cancer,bristol,27.919919713281722,1649.4145567967416
+YLLs (Years of Life Lost),Female,95 to 99,Diabetes mellitus type 2,bristol,12.24318544791254,1649.4145567967416
+YLLs (Years of Life Lost),Female,95 to 99,Ischemic heart disease,bristol,215.84698546535736,1649.4145567967416
+YLLs (Years of Life Lost),Female,95 to 99,Liver cancer,bristol,3.391914675910676,1649.4145567967416
+YLLs (Years of Life Lost),Female,95 to 99,Lower respiratory infections,bristol,187.3597284379074,1649.4145567967416
+YLLs (Years of Life Lost),Female,95 to 99,Neoplasms,bristol,168.3096617630935,1649.4145567967416
+YLLs (Years of Life Lost),Female,95 to 99,Road injuries,bristol,1.0095673400147727,1649.4145567967416
+YLLs (Years of Life Lost),Female,95 to 99,Stomach cancer,bristol,10.394070395291056,1649.4145567967416
+YLLs (Years of Life Lost),Female,95 to 99,Stroke,bristol,185.98153072762506,1649.4145567967416
+YLLs (Years of Life Lost),Female,95 to 99,"Tracheal, bronchus, and lung cancer",bristol,18.0372134380485,1649.4145567967416
+YLLs (Years of Life Lost),Female,95 to 99,Uterine cancer,bristol,2.9292414703826686,1649.4145567967416
+YLLs (Years of Life Lost),Female,0 to 4,All causes,bristol,1837.9732329584251,32989.65318383124
+YLLs (Years of Life Lost),Female,0 to 4,Cardiovascular diseases,bristol,23.7928071258524,32989.65318383124
+YLLs (Years of Life Lost),Female,0 to 4,Chronic obstructive pulmonary disease,bristol,1.2858140724488218,32989.65318383124
+YLLs (Years of Life Lost),Female,0 to 4,Lower respiratory infections,bristol,64.05418723415602,32989.65318383124
+YLLs (Years of Life Lost),Female,0 to 4,Neoplasms,bristol,70.24545355440074,32989.65318383124
+YLLs (Years of Life Lost),Female,0 to 4,Road injuries,bristol,13.078788642508107,32989.65318383124
+YLLs (Years of Life Lost),Female,0 to 4,Stroke,bristol,3.058643981754072,32989.65318383124
+YLLs (Years of Life Lost),Male,10 to 14,All causes,bristol,209.01120171098276,31168.95200478444
+YLLs (Years of Life Lost),Male,10 to 14,Cardiovascular diseases,bristol,8.490202686732081,31168.95200478444
+YLLs (Years of Life Lost),Male,10 to 14,Chronic obstructive pulmonary disease,bristol,0.31601542815276545,31168.95200478444
+YLLs (Years of Life Lost),Male,10 to 14,Liver cancer,bristol,1.001904227229418,31168.95200478444
+YLLs (Years of Life Lost),Male,10 to 14,Lower respiratory infections,bristol,4.59608025735321,31168.95200478444
+YLLs (Years of Life Lost),Male,10 to 14,Neoplasms,bristol,61.07640575836251,31168.95200478444
+YLLs (Years of Life Lost),Male,10 to 14,Road injuries,bristol,26.74628600085691,31168.95200478444
+YLLs (Years of Life Lost),Male,10 to 14,Stroke,bristol,1.827136990525298,31168.95200478444
+YLLs (Years of Life Lost),Male,15 to 19,All causes,bristol,485.43157195081875,32181.33916174496
+YLLs (Years of Life Lost),Male,15 to 19,Breast cancer,bristol,0.1822228961702259,32181.33916174496
+YLLs (Years of Life Lost),Male,15 to 19,Cardiovascular diseases,bristol,19.57711450479392,32181.33916174496
+YLLs (Years of Life Lost),Male,15 to 19,Chronic obstructive pulmonary disease,bristol,0.7974370696111829,32181.33916174496
+YLLs (Years of Life Lost),Male,15 to 19,Colon and rectum cancer,bristol,0.6790457151918708,32181.33916174496
+YLLs (Years of Life Lost),Male,15 to 19,Diabetes mellitus type 2,bristol,0.16582880735420458,32181.33916174496
+YLLs (Years of Life Lost),Male,15 to 19,Ischemic heart disease,bristol,1.413704826045728,32181.33916174496
+YLLs (Years of Life Lost),Male,15 to 19,Liver cancer,bristol,1.1893625799199703,32181.33916174496
+YLLs (Years of Life Lost),Male,15 to 19,Lower respiratory infections,bristol,5.547925361661534,32181.33916174496
+YLLs (Years of Life Lost),Male,15 to 19,Neoplasms,bristol,67.57212956899392,32181.33916174496
+YLLs (Years of Life Lost),Male,15 to 19,Road injuries,bristol,129.62785511122843,32181.33916174496
+YLLs (Years of Life Lost),Male,15 to 19,Stomach cancer,bristol,0.2845211226322417,32181.33916174496
+YLLs (Years of Life Lost),Male,15 to 19,Stroke,bristol,3.8053646446237,32181.33916174496
+YLLs (Years of Life Lost),Male,15 to 19,"Tracheal, bronchus, and lung cancer",bristol,0.2364939871249184,32181.33916174496
+YLLs (Years of Life Lost),Male,20 to 24,All causes,bristol,1019.740466117999,39223.053702303994
+YLLs (Years of Life Lost),Male,20 to 24,Breast cancer,bristol,0.2090108041035597,39223.053702303994
+YLLs (Years of Life Lost),Male,20 to 24,Cardiovascular diseases,bristol,44.51828852358492,39223.053702303994
+YLLs (Years of Life Lost),Male,20 to 24,Chronic obstructive pulmonary disease,bristol,1.388857812449367,39223.053702303994
+YLLs (Years of Life Lost),Male,20 to 24,Colon and rectum cancer,bristol,2.995711652599595,39223.053702303994
+YLLs (Years of Life Lost),Male,20 to 24,Diabetes mellitus type 2,bristol,0.3319550688937251,39223.053702303994
+YLLs (Years of Life Lost),Male,20 to 24,Ischemic heart disease,bristol,6.4454128672165805,39223.053702303994
+YLLs (Years of Life Lost),Male,20 to 24,Liver cancer,bristol,2.3250905229229963,39223.053702303994
+YLLs (Years of Life Lost),Male,20 to 24,Lower respiratory infections,bristol,9.915124685478219,39223.053702303994
+YLLs (Years of Life Lost),Male,20 to 24,Neoplasms,bristol,101.49292579510858,39223.053702303994
+YLLs (Years of Life Lost),Male,20 to 24,Road injuries,bristol,212.96419132951112,39223.053702303994
+YLLs (Years of Life Lost),Male,20 to 24,Stomach cancer,bristol,0.9598657648096838,39223.053702303994
+YLLs (Years of Life Lost),Male,20 to 24,Stroke,bristol,9.412464460164342,39223.053702303994
+YLLs (Years of Life Lost),Male,20 to 24,"Tracheal, bronchus, and lung cancer",bristol,1.0725771311325507,39223.053702303994
+YLLs (Years of Life Lost),Male,25 to 29,All causes,bristol,1368.0509683634352,45114.842966888085
+YLLs (Years of Life Lost),Male,25 to 29,Breast cancer,bristol,0.2665688908120718,45114.842966888085
+YLLs (Years of Life Lost),Male,25 to 29,Cardiovascular diseases,bristol,87.34974827587534,45114.842966888085
+YLLs (Years of Life Lost),Male,25 to 29,Chronic obstructive pulmonary disease,bristol,1.8664778246165177,45114.842966888085
+YLLs (Years of Life Lost),Male,25 to 29,Colon and rectum cancer,bristol,9.056681355205585,45114.842966888085
+YLLs (Years of Life Lost),Male,25 to 29,Diabetes mellitus type 2,bristol,0.6222084253257382,45114.842966888085
+YLLs (Years of Life Lost),Male,25 to 29,Ischemic heart disease,bristol,23.483853486761753,45114.842966888085
+YLLs (Years of Life Lost),Male,25 to 29,Liver cancer,bristol,4.285982294447145,45114.842966888085
+YLLs (Years of Life Lost),Male,25 to 29,Lower respiratory infections,bristol,17.383232309893867,45114.842966888085
+YLLs (Years of Life Lost),Male,25 to 29,Neoplasms,bristol,156.38271813314327,45114.842966888085
+YLLs (Years of Life Lost),Male,25 to 29,Road injuries,bristol,178.7268307686314,45114.842966888085
+YLLs (Years of Life Lost),Male,25 to 29,Stomach cancer,bristol,2.970028449208663,45114.842966888085
+YLLs (Years of Life Lost),Male,25 to 29,Stroke,bristol,17.936089699175806,45114.842966888085
+YLLs (Years of Life Lost),Male,25 to 29,"Tracheal, bronchus, and lung cancer",bristol,2.7218614434052952,45114.842966888085
+YLLs (Years of Life Lost),Male,30 to 34,All causes,bristol,1520.8783824752102,42238.84744281168
+YLLs (Years of Life Lost),Male,30 to 34,Breast cancer,bristol,0.36048036384049587,42238.84744281168
+YLLs (Years of Life Lost),Male,30 to 34,Cardiovascular diseases,bristol,140.65456854911386,42238.84744281168
+YLLs (Years of Life Lost),Male,30 to 34,Chronic obstructive pulmonary disease,bristol,2.836892168880328,42238.84744281168
+YLLs (Years of Life Lost),Male,30 to 34,Colon and rectum cancer,bristol,19.38891760023571,42238.84744281168
+YLLs (Years of Life Lost),Male,30 to 34,Diabetes mellitus type 2,bristol,2.281695077258931,42238.84744281168
+YLLs (Years of Life Lost),Male,30 to 34,Ischemic heart disease,bristol,53.34604554922461,42238.84744281168
+YLLs (Years of Life Lost),Male,30 to 34,Liver cancer,bristol,6.950016636733675,42238.84744281168
+YLLs (Years of Life Lost),Male,30 to 34,Lower respiratory infections,bristol,24.45222893647172,42238.84744281168
+YLLs (Years of Life Lost),Male,30 to 34,Neoplasms,bristol,207.96910810259146,42238.84744281168
+YLLs (Years of Life Lost),Male,30 to 34,Road injuries,bristol,116.68652207608082,42238.84744281168
+YLLs (Years of Life Lost),Male,30 to 34,Stomach cancer,bristol,6.78724037587445,42238.84744281168
+YLLs (Years of Life Lost),Male,30 to 34,Stroke,bristol,26.49220030780287,42238.84744281168
+YLLs (Years of Life Lost),Male,30 to 34,"Tracheal, bronchus, and lung cancer",bristol,7.989518264429852,42238.84744281168
+YLLs (Years of Life Lost),Male,35 to 39,All causes,bristol,1781.050834679715,39985.04634130867
+YLLs (Years of Life Lost),Male,35 to 39,Breast cancer,bristol,0.7914268711450083,39985.04634130867
+YLLs (Years of Life Lost),Male,35 to 39,Cardiovascular diseases,bristol,247.07150782426964,39985.04634130867
+YLLs (Years of Life Lost),Male,35 to 39,Chronic obstructive pulmonary disease,bristol,6.384894045909275,39985.04634130867
+YLLs (Years of Life Lost),Male,35 to 39,Colon and rectum cancer,bristol,30.697517812905375,39985.04634130867
+YLLs (Years of Life Lost),Male,35 to 39,Diabetes mellitus type 2,bristol,3.113550739601419,39985.04634130867
+YLLs (Years of Life Lost),Male,35 to 39,Ischemic heart disease,bristol,118.99463820972109,39985.04634130867
+YLLs (Years of Life Lost),Male,35 to 39,Liver cancer,bristol,7.967383158062715,39985.04634130867
+YLLs (Years of Life Lost),Male,35 to 39,Lower respiratory infections,bristol,33.20849879093595,39985.04634130867
+YLLs (Years of Life Lost),Male,35 to 39,Neoplasms,bristol,293.98053430377865,39985.04634130867
+YLLs (Years of Life Lost),Male,35 to 39,Road injuries,bristol,88.95471690397554,39985.04634130867
+YLLs (Years of Life Lost),Male,35 to 39,Stomach cancer,bristol,13.036811258841626,39985.04634130867
+YLLs (Years of Life Lost),Male,35 to 39,Stroke,bristol,43.217782857567634,39985.04634130867
+YLLs (Years of Life Lost),Male,35 to 39,"Tracheal, bronchus, and lung cancer",bristol,21.443965004173094,39985.04634130867
+YLLs (Years of Life Lost),Male,40 to 44,All causes,bristol,2595.6999338347164,35896.13938613016
+YLLs (Years of Life Lost),Male,40 to 44,Breast cancer,bristol,1.4804126224758298,35896.13938613016
+YLLs (Years of Life Lost),Male,40 to 44,Cardiovascular diseases,bristol,479.3867110516844,35896.13938613016
+YLLs (Years of Life Lost),Male,40 to 44,Chronic obstructive pulmonary disease,bristol,20.228410665918865,35896.13938613016
+YLLs (Years of Life Lost),Male,40 to 44,Colon and rectum cancer,bristol,57.13043622061208,35896.13938613016
+YLLs (Years of Life Lost),Male,40 to 44,Diabetes mellitus type 2,bristol,5.023460143381922,35896.13938613016
+YLLs (Years of Life Lost),Male,40 to 44,Ischemic heart disease,bristol,258.73965312940857,35896.13938613016
+YLLs (Years of Life Lost),Male,40 to 44,Liver cancer,bristol,17.340799888681996,35896.13938613016
+YLLs (Years of Life Lost),Male,40 to 44,Lower respiratory infections,bristol,54.88472721988995,35896.13938613016
+YLLs (Years of Life Lost),Male,40 to 44,Neoplasms,bristol,544.6244658005959,35896.13938613016
+YLLs (Years of Life Lost),Male,40 to 44,Road injuries,bristol,87.03140335636718,35896.13938613016
+YLLs (Years of Life Lost),Male,40 to 44,Stomach cancer,bristol,26.073559887385798,35896.13938613016
+YLLs (Years of Life Lost),Male,40 to 44,Stroke,bristol,76.4121399518387,35896.13938613016
+YLLs (Years of Life Lost),Male,40 to 44,"Tracheal, bronchus, and lung cancer",bristol,64.60943228392028,35896.13938613016
+YLLs (Years of Life Lost),Male,45 to 49,All causes,bristol,3458.4851268516086,38141.620868175385
+YLLs (Years of Life Lost),Male,45 to 49,Breast cancer,bristol,2.4366687935620726,38141.620868175385
+YLLs (Years of Life Lost),Male,45 to 49,Cardiovascular diseases,bristol,789.9717818319182,38141.620868175385
+YLLs (Years of Life Lost),Male,45 to 49,Chronic obstructive pulmonary disease,bristol,42.721284476951375,38141.620868175385
+YLLs (Years of Life Lost),Male,45 to 49,Colon and rectum cancer,bristol,104.48241316598612,38141.620868175385
+YLLs (Years of Life Lost),Male,45 to 49,Diabetes mellitus type 2,bristol,18.286957963635317,38141.620868175385
+YLLs (Years of Life Lost),Male,45 to 49,Ischemic heart disease,bristol,472.0724187230404,38141.620868175385
+YLLs (Years of Life Lost),Male,45 to 49,Liver cancer,bristol,34.46602049979556,38141.620868175385
+YLLs (Years of Life Lost),Male,45 to 49,Lower respiratory infections,bristol,77.98366695790956,38141.620868175385
+YLLs (Years of Life Lost),Male,45 to 49,Neoplasms,bristol,965.7461361086544,38141.620868175385
+YLLs (Years of Life Lost),Male,45 to 49,Road injuries,bristol,77.40848179539631,38141.620868175385
+YLLs (Years of Life Lost),Male,45 to 49,Stomach cancer,bristol,47.343162073561075,38141.620868175385
+YLLs (Years of Life Lost),Male,45 to 49,Stroke,bristol,117.39354972318111,38141.620868175385
+YLLs (Years of Life Lost),Male,45 to 49,"Tracheal, bronchus, and lung cancer",bristol,153.33201157527708,38141.620868175385
+YLLs (Years of Life Lost),Male,5 to 9,All causes,bristol,183.6092011565163,34584.1357763024
+YLLs (Years of Life Lost),Male,5 to 9,Cardiovascular diseases,bristol,4.590654968113766,34584.1357763024
+YLLs (Years of Life Lost),Male,5 to 9,Chronic obstructive pulmonary disease,bristol,0.37794625683226346,34584.1357763024
+YLLs (Years of Life Lost),Male,5 to 9,Liver cancer,bristol,0.7864180367705536,34584.1357763024
+YLLs (Years of Life Lost),Male,5 to 9,Lower respiratory infections,bristol,5.220852863650645,34584.1357763024
+YLLs (Years of Life Lost),Male,5 to 9,Neoplasms,bristol,71.26182471138999,34584.1357763024
+YLLs (Years of Life Lost),Male,5 to 9,Road injuries,bristol,15.990889183638606,34584.1357763024
+YLLs (Years of Life Lost),Male,5 to 9,Stroke,bristol,1.014561644665597,34584.1357763024
+YLLs (Years of Life Lost),Male,50 to 54,All causes,bristol,4416.863553564292,38023.401225409754
+YLLs (Years of Life Lost),Male,50 to 54,Breast cancer,bristol,3.7802227878840435,38023.401225409754
+YLLs (Years of Life Lost),Male,50 to 54,Cardiovascular diseases,bristol,1146.7048209853488,38023.401225409754
+YLLs (Years of Life Lost),Male,50 to 54,Chronic obstructive pulmonary disease,bristol,86.89395408590349,38023.401225409754
+YLLs (Years of Life Lost),Male,50 to 54,Colon and rectum cancer,bristol,175.2947712028057,38023.401225409754
+YLLs (Years of Life Lost),Male,50 to 54,Diabetes mellitus type 2,bristol,21.74663673885608,38023.401225409754
+YLLs (Years of Life Lost),Male,50 to 54,Ischemic heart disease,bristol,732.6995114630867,38023.401225409754
+YLLs (Years of Life Lost),Male,50 to 54,Liver cancer,bristol,60.2359557424335,38023.401225409754
+YLLs (Years of Life Lost),Male,50 to 54,Lower respiratory infections,bristol,101.36297086750143,38023.401225409754
+YLLs (Years of Life Lost),Male,50 to 54,Neoplasms,bristol,1588.479717652126,38023.401225409754
+YLLs (Years of Life Lost),Male,50 to 54,Road injuries,bristol,63.4659691792724,38023.401225409754
+YLLs (Years of Life Lost),Male,50 to 54,Stomach cancer,bristol,72.30627690744441,38023.401225409754
+YLLs (Years of Life Lost),Male,50 to 54,Stroke,bristol,154.4578709914861,38023.401225409754
+YLLs (Years of Life Lost),Male,50 to 54,"Tracheal, bronchus, and lung cancer",bristol,311.30151073832565,38023.401225409754
+YLLs (Years of Life Lost),Male,55 to 59,All causes,bristol,4898.868278756716,32392.82852374257
+YLLs (Years of Life Lost),Male,55 to 59,Breast cancer,bristol,4.689060678971696,32392.82852374257
+YLLs (Years of Life Lost),Male,55 to 59,Cardiovascular diseases,bristol,1297.266824306493,32392.82852374257
+YLLs (Years of Life Lost),Male,55 to 59,Chronic obstructive pulmonary disease,bristol,149.0208642595733,32392.82852374257
+YLLs (Years of Life Lost),Male,55 to 59,Colon and rectum cancer,bristol,226.39008530402074,32392.82852374257
+YLLs (Years of Life Lost),Male,55 to 59,Diabetes mellitus type 2,bristol,24.565183546930005,32392.82852374257
+YLLs (Years of Life Lost),Male,55 to 59,Ischemic heart disease,bristol,829.6552002307465,32392.82852374257
+YLLs (Years of Life Lost),Male,55 to 59,Liver cancer,bristol,80.84626204565619,32392.82852374257
+YLLs (Years of Life Lost),Male,55 to 59,Lower respiratory infections,bristol,106.42541069378714,32392.82852374257
+YLLs (Years of Life Lost),Male,55 to 59,Neoplasms,bristol,2092.5124809678537,32392.82852374257
+YLLs (Years of Life Lost),Male,55 to 59,Road injuries,bristol,43.98757260368422,32392.82852374257
+YLLs (Years of Life Lost),Male,55 to 59,Stomach cancer,bristol,90.20865070427715,32392.82852374257
+YLLs (Years of Life Lost),Male,55 to 59,Stroke,bristol,168.69314503015892,32392.82852374257
+YLLs (Years of Life Lost),Male,55 to 59,"Tracheal, bronchus, and lung cancer",bristol,467.4439069094735,32392.82852374257
+YLLs (Years of Life Lost),Male,60 to 64,All causes,bristol,6293.677815368063,27800.516544229722
+YLLs (Years of Life Lost),Male,60 to 64,Breast cancer,bristol,7.02979933882276,27800.516544229722
+YLLs (Years of Life Lost),Male,60 to 64,Cardiovascular diseases,bristol,1632.724784148251,27800.516544229722
+YLLs (Years of Life Lost),Male,60 to 64,Chronic obstructive pulmonary disease,bristol,294.7769729711917,27800.516544229722
+YLLs (Years of Life Lost),Male,60 to 64,Colon and rectum cancer,bristol,313.42856102700387,27800.516544229722
+YLLs (Years of Life Lost),Male,60 to 64,Diabetes mellitus type 2,bristol,37.747841837825035,27800.516544229722
+YLLs (Years of Life Lost),Male,60 to 64,Ischemic heart disease,bristol,1034.1927854465648,27800.516544229722
+YLLs (Years of Life Lost),Male,60 to 64,Liver cancer,bristol,107.13219269828174,27800.516544229722
+YLLs (Years of Life Lost),Male,60 to 64,Lower respiratory infections,bristol,145.18956124112952,27800.516544229722
+YLLs (Years of Life Lost),Male,60 to 64,Neoplasms,bristol,2947.584308953219,27800.516544229722
+YLLs (Years of Life Lost),Male,60 to 64,Road injuries,bristol,35.845213988678495,27800.516544229722
+YLLs (Years of Life Lost),Male,60 to 64,Stomach cancer,bristol,124.70975633816246,27800.516544229722
+YLLs (Years of Life Lost),Male,60 to 64,Stroke,bristol,216.73590782620312,27800.516544229722
+YLLs (Years of Life Lost),Male,60 to 64,"Tracheal, bronchus, and lung cancer",bristol,722.5620517697616,27800.516544229722
+YLLs (Years of Life Lost),Male,65 to 69,All causes,bristol,7742.547122793665,27089.736571838715
+YLLs (Years of Life Lost),Male,65 to 69,Breast cancer,bristol,8.651013768683205,27089.736571838715
+YLLs (Years of Life Lost),Male,65 to 69,Cardiovascular diseases,bristol,2080.174729055567,27089.736571838715
+YLLs (Years of Life Lost),Male,65 to 69,Chronic obstructive pulmonary disease,bristol,447.14325297824143,27089.736571838715
+YLLs (Years of Life Lost),Male,65 to 69,Colon and rectum cancer,bristol,374.0335877099261,27089.736571838715
+YLLs (Years of Life Lost),Male,65 to 69,Diabetes mellitus type 2,bristol,48.668257415031704,27089.736571838715
+YLLs (Years of Life Lost),Male,65 to 69,Ischemic heart disease,bristol,1267.743982909892,27089.736571838715
+YLLs (Years of Life Lost),Male,65 to 69,Liver cancer,bristol,126.32983434586323,27089.736571838715
+YLLs (Years of Life Lost),Male,65 to 69,Lower respiratory infections,bristol,189.54950211877025,27089.736571838715
+YLLs (Years of Life Lost),Male,65 to 69,Neoplasms,bristol,3649.933483368929,27089.736571838715
+YLLs (Years of Life Lost),Male,65 to 69,Road injuries,bristol,29.87889646802061,27089.736571838715
+YLLs (Years of Life Lost),Male,65 to 69,Stomach cancer,bristol,158.6829422674476,27089.736571838715
+YLLs (Years of Life Lost),Male,65 to 69,Stroke,bristol,307.88008142067713,27089.736571838715
+YLLs (Years of Life Lost),Male,65 to 69,"Tracheal, bronchus, and lung cancer",bristol,911.9838503642252,27089.736571838715
+YLLs (Years of Life Lost),Male,70 to 74,All causes,bristol,8784.773795605077,23998.549608896585
+YLLs (Years of Life Lost),Male,70 to 74,Breast cancer,bristol,9.402050505968248,23998.549608896585
+YLLs (Years of Life Lost),Male,70 to 74,Cardiovascular diseases,bristol,2505.553065693224,23998.549608896585
+YLLs (Years of Life Lost),Male,70 to 74,Chronic obstructive pulmonary disease,bristol,605.2570749699397,23998.549608896585
+YLLs (Years of Life Lost),Male,70 to 74,Colon and rectum cancer,bristol,400.0953932465711,23998.549608896585
+YLLs (Years of Life Lost),Male,70 to 74,Diabetes mellitus type 2,bristol,60.11753217489178,23998.549608896585
+YLLs (Years of Life Lost),Male,70 to 74,Ischemic heart disease,bristol,1461.7746461778897,23998.549608896585
+YLLs (Years of Life Lost),Male,70 to 74,Liver cancer,bristol,125.65514054456067,23998.549608896585
+YLLs (Years of Life Lost),Male,70 to 74,Lower respiratory infections,bristol,253.8396327111505,23998.549608896585
+YLLs (Years of Life Lost),Male,70 to 74,Neoplasms,bristol,3843.2208582907856,23998.549608896585
+YLLs (Years of Life Lost),Male,70 to 74,Road injuries,bristol,24.139031142969344,23998.549608896585
+YLLs (Years of Life Lost),Male,70 to 74,Stomach cancer,bristol,182.80252902461726,23998.549608896585
+YLLs (Years of Life Lost),Male,70 to 74,Stroke,bristol,429.13267354554444,23998.549608896585
+YLLs (Years of Life Lost),Male,70 to 74,"Tracheal, bronchus, and lung cancer",bristol,923.1622287927457,23998.549608896585
+YLLs (Years of Life Lost),Male,75 to 79,All causes,bristol,8328.860789740162,16662.365889638782
+YLLs (Years of Life Lost),Male,75 to 79,Breast cancer,bristol,7.479071568056998,16662.365889638782
+YLLs (Years of Life Lost),Male,75 to 79,Cardiovascular diseases,bristol,2443.098164527809,16662.365889638782
+YLLs (Years of Life Lost),Male,75 to 79,Chronic obstructive pulmonary disease,bristol,607.2176446517562,16662.365889638782
+YLLs (Years of Life Lost),Male,75 to 79,Colon and rectum cancer,bristol,344.8031121963063,16662.365889638782
+YLLs (Years of Life Lost),Male,75 to 79,Diabetes mellitus type 2,bristol,61.593057776821915,16662.365889638782
+YLLs (Years of Life Lost),Male,75 to 79,Ischemic heart disease,bristol,1331.939097245273,16662.365889638782
+YLLs (Years of Life Lost),Male,75 to 79,Liver cancer,bristol,94.87484632758391,16662.365889638782
+YLLs (Years of Life Lost),Male,75 to 79,Lower respiratory infections,bristol,313.0320232604158,16662.365889638782
+YLLs (Years of Life Lost),Male,75 to 79,Neoplasms,bristol,3199.138911968922,16662.365889638782
+YLLs (Years of Life Lost),Male,75 to 79,Road injuries,bristol,18.878602708869025,16662.365889638782
+YLLs (Years of Life Lost),Male,75 to 79,Stomach cancer,bristol,169.6256721402214,16662.365889638782
+YLLs (Years of Life Lost),Male,75 to 79,Stroke,bristol,495.57336641421557,16662.365889638782
+YLLs (Years of Life Lost),Male,75 to 79,"Tracheal, bronchus, and lung cancer",bristol,700.4137655923944,16662.365889638782
+YLLs (Years of Life Lost),Male,80 to 84,All causes,bristol,7895.290314649003,11453.934293642418
+YLLs (Years of Life Lost),Male,80 to 84,Breast cancer,bristol,5.7591971111216065,11453.934293642418
+YLLs (Years of Life Lost),Male,80 to 84,Cardiovascular diseases,bristol,2436.3724922596375,11453.934293642418
+YLLs (Years of Life Lost),Male,80 to 84,Chronic obstructive pulmonary disease,bristol,574.6736346068933,11453.934293642418
+YLLs (Years of Life Lost),Male,80 to 84,Colon and rectum cancer,bristol,279.9556737674175,11453.934293642418
+YLLs (Years of Life Lost),Male,80 to 84,Diabetes mellitus type 2,bristol,62.36196906373533,11453.934293642418
+YLLs (Years of Life Lost),Male,80 to 84,Ischemic heart disease,bristol,1281.2196184544073,11453.934293642418
+YLLs (Years of Life Lost),Male,80 to 84,Liver cancer,bristol,63.88687761558454,11453.934293642418
+YLLs (Years of Life Lost),Male,80 to 84,Lower respiratory infections,bristol,432.1603802445106,11453.934293642418
+YLLs (Years of Life Lost),Male,80 to 84,Neoplasms,bristol,2501.0993713940375,11453.934293642418
+YLLs (Years of Life Lost),Male,80 to 84,Road injuries,bristol,15.011963496176602,11453.934293642418
+YLLs (Years of Life Lost),Male,80 to 84,Stomach cancer,bristol,140.88092232192386,11453.934293642418
+YLLs (Years of Life Lost),Male,80 to 84,Stroke,bristol,557.887070575539,11453.934293642418
+YLLs (Years of Life Lost),Male,80 to 84,"Tracheal, bronchus, and lung cancer",bristol,467.9059818599304,11453.934293642418
+YLLs (Years of Life Lost),Male,85 to 89,All causes,bristol,6434.328033410253,6380.935231075022
+YLLs (Years of Life Lost),Male,85 to 89,Breast cancer,bristol,3.8151016182340123,6380.935231075022
+YLLs (Years of Life Lost),Male,85 to 89,Cardiovascular diseases,bristol,2013.0974044891773,6380.935231075022
+YLLs (Years of Life Lost),Male,85 to 89,Chronic obstructive pulmonary disease,bristol,446.9427933095503,6380.935231075022
+YLLs (Years of Life Lost),Male,85 to 89,Colon and rectum cancer,bristol,189.16466518302477,6380.935231075022
+YLLs (Years of Life Lost),Male,85 to 89,Diabetes mellitus type 2,bristol,50.891674508023044,6380.935231075022
+YLLs (Years of Life Lost),Male,85 to 89,Ischemic heart disease,bristol,1010.4464727716065,6380.935231075022
+YLLs (Years of Life Lost),Male,85 to 89,Liver cancer,bristol,35.56607749142011,6380.935231075022
+YLLs (Years of Life Lost),Male,85 to 89,Lower respiratory infections,bristol,554.7477941183472,6380.935231075022
+YLLs (Years of Life Lost),Male,85 to 89,Neoplasms,bristol,1625.867284155422,6380.935231075022
+YLLs (Years of Life Lost),Male,85 to 89,Road injuries,bristol,9.523391731451964,6380.935231075022
+YLLs (Years of Life Lost),Male,85 to 89,Stomach cancer,bristol,90.74830469972032,6380.935231075022
+YLLs (Years of Life Lost),Male,85 to 89,Stroke,bristol,514.5058619910747,6380.935231075022
+YLLs (Years of Life Lost),Male,85 to 89,"Tracheal, bronchus, and lung cancer",bristol,268.5666471298029,6380.935231075022
+YLLs (Years of Life Lost),Male,90 to 94,All causes,bristol,2733.191168061214,2531.900309905826
+YLLs (Years of Life Lost),Male,90 to 94,Breast cancer,bristol,1.6143950787179657,2531.900309905826
+YLLs (Years of Life Lost),Male,90 to 94,Cardiovascular diseases,bristol,889.9447671432076,2531.900309905826
+YLLs (Years of Life Lost),Male,90 to 94,Chronic obstructive pulmonary disease,bristol,178.62578939472144,2531.900309905826
+YLLs (Years of Life Lost),Male,90 to 94,Colon and rectum cancer,bristol,66.22777733377147,2531.900309905826
+YLLs (Years of Life Lost),Male,90 to 94,Diabetes mellitus type 2,bristol,21.97330635322921,2531.900309905826
+YLLs (Years of Life Lost),Male,90 to 94,Ischemic heart disease,bristol,447.6470134985354,2531.900309905826
+YLLs (Years of Life Lost),Male,90 to 94,Liver cancer,bristol,9.462939585730917,2531.900309905826
+YLLs (Years of Life Lost),Male,90 to 94,Lower respiratory infections,bristol,258.7598200955492,2531.900309905826
+YLLs (Years of Life Lost),Male,90 to 94,Neoplasms,bristol,542.6444252890669,2531.900309905826
+YLLs (Years of Life Lost),Male,90 to 94,Road injuries,bristol,3.268374489999581,2531.900309905826
+YLLs (Years of Life Lost),Male,90 to 94,Stomach cancer,bristol,32.58127733828168,2531.900309905826
+YLLs (Years of Life Lost),Male,90 to 94,Stroke,bristol,233.1772879568442,2531.900309905826
+YLLs (Years of Life Lost),Male,90 to 94,"Tracheal, bronchus, and lung cancer",bristol,70.81302536110645,2531.900309905826
+YLLs (Years of Life Lost),Male,95 to 99,All causes,bristol,531.1705141503107,544.8852845851447
+YLLs (Years of Life Lost),Male,95 to 99,Breast cancer,bristol,0.32794929856871724,544.8852845851447
+YLLs (Years of Life Lost),Male,95 to 99,Cardiovascular diseases,bristol,183.66172738882418,544.8852845851447
+YLLs (Years of Life Lost),Male,95 to 99,Chronic obstructive pulmonary disease,bristol,34.30615390547005,544.8852845851447
+YLLs (Years of Life Lost),Male,95 to 99,Colon and rectum cancer,bristol,9.881889924594269,544.8852845851447
+YLLs (Years of Life Lost),Male,95 to 99,Diabetes mellitus type 2,bristol,4.498726425892763,544.8852845851447
+YLLs (Years of Life Lost),Male,95 to 99,Ischemic heart disease,bristol,92.42992495845596,544.8852845851447
+YLLs (Years of Life Lost),Male,95 to 99,Liver cancer,bristol,1.219871285484381,544.8852845851447
+YLLs (Years of Life Lost),Male,95 to 99,Lower respiratory infections,bristol,58.962429807943636,544.8852845851447
+YLLs (Years of Life Lost),Male,95 to 99,Neoplasms,bristol,81.6015707577289,544.8852845851447
+YLLs (Years of Life Lost),Male,95 to 99,Road injuries,bristol,0.5933870377316508,544.8852845851447
+YLLs (Years of Life Lost),Male,95 to 99,Stomach cancer,bristol,5.434703800690015,544.8852845851447
+YLLs (Years of Life Lost),Male,95 to 99,Stroke,bristol,51.21229697988151,544.8852845851447
+YLLs (Years of Life Lost),Male,95 to 99,"Tracheal, bronchus, and lung cancer",bristol,8.271160958191539,544.8852845851447
+YLLs (Years of Life Lost),Male,0 to 4,All causes,bristol,2445.886396432201,34899.00807090061
+YLLs (Years of Life Lost),Male,0 to 4,Cardiovascular diseases,bristol,28.969325767555866,34899.00807090061
+YLLs (Years of Life Lost),Male,0 to 4,Chronic obstructive pulmonary disease,bristol,1.1752124331089482,34899.00807090061
+YLLs (Years of Life Lost),Male,0 to 4,Lower respiratory infections,bristol,77.41002364145456,34899.00807090061
+YLLs (Years of Life Lost),Male,0 to 4,Neoplasms,bristol,78.65604563683698,34899.00807090061
+YLLs (Years of Life Lost),Male,0 to 4,Road injuries,bristol,17.53397910571971,34899.00807090061
+YLLs (Years of Life Lost),Male,0 to 4,Stroke,bristol,3.24329724752933,34899.00807090061

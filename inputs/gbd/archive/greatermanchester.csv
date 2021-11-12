@@ -1,0 +1,1079 @@
+measure_name,sex_name,age_name,cause_name,cityregion,val,population_number
+Deaths,Female,10 to 14,All causes,greatermanchester,7.2217236289718665,83874.61088421663
+Deaths,Female,10 to 14,Cardiovascular diseases,greatermanchester,0.34177609852408636,83874.61088421663
+Deaths,Female,10 to 14,Chronic obstructive pulmonary disease,greatermanchester,0.0809980984795395,83874.61088421663
+Deaths,Female,10 to 14,Liver cancer,greatermanchester,0.03676511959897727,83874.61088421663
+Deaths,Female,10 to 14,Lower respiratory infections,greatermanchester,0.2871745089646786,83874.61088421663
+Deaths,Female,10 to 14,Neoplasms,greatermanchester,1.8707832302048695,83874.61088421663
+Deaths,Female,10 to 14,Road injuries,greatermanchester,0.6554976572061425,83874.61088421663
+Deaths,Female,10 to 14,Stroke,greatermanchester,0.13315686560242204,83874.61088421663
+Deaths,Female,15 to 19,All causes,greatermanchester,13.829497755204807,81019.95795262005
+Deaths,Female,15 to 19,Breast cancer,greatermanchester,0.016290679159993788,81019.95795262005
+Deaths,Female,15 to 19,Cardiovascular diseases,greatermanchester,0.7898042620866284,81019.95795262005
+Deaths,Female,15 to 19,Chronic obstructive pulmonary disease,greatermanchester,0.0968512473687279,81019.95795262005
+Deaths,Female,15 to 19,Colon and rectum cancer,greatermanchester,0.024112668772260835,81019.95795262005
+Deaths,Female,15 to 19,Diabetes mellitus type 2,greatermanchester,0.01005083765911779,81019.95795262005
+Deaths,Female,15 to 19,Ischemic heart disease,greatermanchester,0.06529272279833878,81019.95795262005
+Deaths,Female,15 to 19,Liver cancer,greatermanchester,0.08179884616592971,81019.95795262005
+Deaths,Female,15 to 19,Lower respiratory infections,greatermanchester,0.32066178401246986,81019.95795262005
+Deaths,Female,15 to 19,Neoplasms,greatermanchester,2.4164438705830897,81019.95795262005
+Deaths,Female,15 to 19,Road injuries,greatermanchester,1.964584071123981,81019.95795262005
+Deaths,Female,15 to 19,Stomach cancer,greatermanchester,0.014304557418605294,81019.95795262005
+Deaths,Female,15 to 19,Stroke,greatermanchester,0.23363184317296645,81019.95795262005
+Deaths,Female,15 to 19,"Tracheal, bronchus, and lung cancer",greatermanchester,0.03152530859023908,81019.95795262005
+Deaths,Female,15 to 19,Uterine cancer,greatermanchester,0.008286851924193837,81019.95795262005
+Deaths,Female,20 to 24,All causes,greatermanchester,18.86255708106299,93541.5902384181
+Deaths,Female,20 to 24,Breast cancer,greatermanchester,0.08289025564886462,93541.5902384181
+Deaths,Female,20 to 24,Cardiovascular diseases,greatermanchester,1.4713449916024353,93541.5902384181
+Deaths,Female,20 to 24,Chronic obstructive pulmonary disease,greatermanchester,0.1150285304062301,93541.5902384181
+Deaths,Female,20 to 24,Colon and rectum cancer,greatermanchester,0.10775239652623882,93541.5902384181
+Deaths,Female,20 to 24,Diabetes mellitus type 2,greatermanchester,0.012921354946879234,93541.5902384181
+Deaths,Female,20 to 24,Ischemic heart disease,greatermanchester,0.1614155279524559,93541.5902384181
+Deaths,Female,20 to 24,Liver cancer,greatermanchester,0.09075998857580678,93541.5902384181
+Deaths,Female,20 to 24,Lower respiratory infections,greatermanchester,0.45463814033450034,93541.5902384181
+Deaths,Female,20 to 24,Neoplasms,greatermanchester,3.1771983236502126,93541.5902384181
+Deaths,Female,20 to 24,Road injuries,greatermanchester,1.8013237578027557,93541.5902384181
+Deaths,Female,20 to 24,Stomach cancer,greatermanchester,0.04346857878839287,93541.5902384181
+Deaths,Female,20 to 24,Stroke,greatermanchester,0.4911771101458145,93541.5902384181
+Deaths,Female,20 to 24,"Tracheal, bronchus, and lung cancer",greatermanchester,0.0616127062501209,93541.5902384181
+Deaths,Female,20 to 24,Uterine cancer,greatermanchester,0.011448494626742127,93541.5902384181
+Deaths,Female,25 to 29,All causes,greatermanchester,26.481188250562962,110524.7379747707
+Deaths,Female,25 to 29,Breast cancer,greatermanchester,0.6843665190638246,110524.7379747707
+Deaths,Female,25 to 29,Cardiovascular diseases,greatermanchester,2.23798947803314,110524.7379747707
+Deaths,Female,25 to 29,Chronic obstructive pulmonary disease,greatermanchester,0.14491458317743955,110524.7379747707
+Deaths,Female,25 to 29,Colon and rectum cancer,greatermanchester,0.3251756591193092,110524.7379747707
+Deaths,Female,25 to 29,Diabetes mellitus type 2,greatermanchester,0.023997807245034537,110524.7379747707
+Deaths,Female,25 to 29,Ischemic heart disease,greatermanchester,0.30621940288503635,110524.7379747707
+Deaths,Female,25 to 29,Liver cancer,greatermanchester,0.15990945680562618,110524.7379747707
+Deaths,Female,25 to 29,Lower respiratory infections,greatermanchester,0.6376272789105031,110524.7379747707
+Deaths,Female,25 to 29,Neoplasms,greatermanchester,6.207397273197815,110524.7379747707
+Deaths,Female,25 to 29,Road injuries,greatermanchester,1.3527247914771356,110524.7379747707
+Deaths,Female,25 to 29,Stomach cancer,greatermanchester,0.16638066470822757,110524.7379747707
+Deaths,Female,25 to 29,Stroke,greatermanchester,0.79730879631074425,110524.7379747707
+Deaths,Female,25 to 29,"Tracheal, bronchus, and lung cancer",greatermanchester,0.15432829837779644,110524.7379747707
+Deaths,Female,25 to 29,Uterine cancer,greatermanchester,0.030163254632927086,110524.7379747707
+Deaths,Female,30 to 34,All causes,greatermanchester,51.555010428936065,108005.33735845827
+Deaths,Female,30 to 34,Breast cancer,greatermanchester,3.6078666447807666,108005.33735845827
+Deaths,Female,30 to 34,Cardiovascular diseases,greatermanchester,5.353140812767106,108005.33735845827
+Deaths,Female,30 to 34,Chronic obstructive pulmonary disease,greatermanchester,0.29101311497007454,108005.33735845827
+Deaths,Female,30 to 34,Colon and rectum cancer,greatermanchester,1.0934631184390384,108005.33735845827
+Deaths,Female,30 to 34,Diabetes mellitus type 2,greatermanchester,0.09207512293256777,108005.33735845827
+Deaths,Female,30 to 34,Ischemic heart disease,greatermanchester,1.2076206993100682,108005.33735845827
+Deaths,Female,30 to 34,Liver cancer,greatermanchester,0.287655834756403,108005.33735845827
+Deaths,Female,30 to 34,Lower respiratory infections,greatermanchester,1.193555911945927,108005.33735845827
+Deaths,Female,30 to 34,Neoplasms,greatermanchester,15.43608619229541,108005.33735845827
+Deaths,Female,30 to 34,Road injuries,greatermanchester,1.3937665885251413,108005.33735845827
+Deaths,Female,30 to 34,Stomach cancer,greatermanchester,0.5685990324106592,108005.33735845827
+Deaths,Female,30 to 34,Stroke,greatermanchester,1.9217509566525885,108005.33735845827
+Deaths,Female,30 to 34,"Tracheal, bronchus, and lung cancer",greatermanchester,0.7161796553689564,108005.33735845827
+Deaths,Female,30 to 34,Uterine cancer,greatermanchester,0.07526557168615348,108005.33735845827
+Deaths,Female,35 to 39,All causes,greatermanchester,74.24742668891493,98068.29123371177
+Deaths,Female,35 to 39,Breast cancer,greatermanchester,8.466983387666328,98068.29123371177
+Deaths,Female,35 to 39,Cardiovascular diseases,greatermanchester,8.969547939794912,98068.29123371177
+Deaths,Female,35 to 39,Chronic obstructive pulmonary disease,greatermanchester,0.5721194327660416,98068.29123371177
+Deaths,Female,35 to 39,Colon and rectum cancer,greatermanchester,1.8620979566173377,98068.29123371177
+Deaths,Female,35 to 39,Diabetes mellitus type 2,greatermanchester,0.13724729303247468,98068.29123371177
+Deaths,Female,35 to 39,Ischemic heart disease,greatermanchester,2.7074607413391205,98068.29123371177
+Deaths,Female,35 to 39,Liver cancer,greatermanchester,0.4501894224165338,98068.29123371177
+Deaths,Female,35 to 39,Lower respiratory infections,greatermanchester,1.8439107137065458,98068.29123371177
+Deaths,Female,35 to 39,Neoplasms,greatermanchester,26.381459838486403,98068.29123371177
+Deaths,Female,35 to 39,Road injuries,greatermanchester,1.248015602550778,98068.29123371177
+Deaths,Female,35 to 39,Stomach cancer,greatermanchester,0.9023281244063444,98068.29123371177
+Deaths,Female,35 to 39,Stroke,greatermanchester,3.1980698791465203,98068.29123371177
+Deaths,Female,35 to 39,"Tracheal, bronchus, and lung cancer",greatermanchester,1.6018488916091977,98068.29123371177
+Deaths,Female,35 to 39,Uterine cancer,greatermanchester,0.15162173645922966,98068.29123371177
+Deaths,Female,40 to 44,All causes,greatermanchester,109.08051479595777,88650.18825822961
+Deaths,Female,40 to 44,Breast cancer,greatermanchester,14.527199177386565,88650.18825822961
+Deaths,Female,40 to 44,Cardiovascular diseases,greatermanchester,15.397114142271278,88650.18825822961
+Deaths,Female,40 to 44,Chronic obstructive pulmonary disease,greatermanchester,1.5774845101340405,88650.18825822961
+Deaths,Female,40 to 44,Colon and rectum cancer,greatermanchester,3.2578653015599954,88650.18825822961
+Deaths,Female,40 to 44,Diabetes mellitus type 2,greatermanchester,0.19216698209073466,88650.18825822961
+Deaths,Female,40 to 44,Ischemic heart disease,greatermanchester,5.427100865931431,88650.18825822961
+Deaths,Female,40 to 44,Liver cancer,greatermanchester,0.7249954722043991,88650.18825822961
+Deaths,Female,40 to 44,Lower respiratory infections,greatermanchester,2.8300533461204522,88650.18825822961
+Deaths,Female,40 to 44,Neoplasms,greatermanchester,43.95791691435775,88650.18825822961
+Deaths,Female,40 to 44,Road injuries,greatermanchester,1.2144212752286445,88650.18825822961
+Deaths,Female,40 to 44,Stomach cancer,greatermanchester,1.5901427852095986,88650.18825822961
+Deaths,Female,40 to 44,Stroke,greatermanchester,5.188488539310137,88650.18825822961
+Deaths,Female,40 to 44,"Tracheal, bronchus, and lung cancer",greatermanchester,4.422872461448809,88650.18825822961
+Deaths,Female,40 to 44,Uterine cancer,greatermanchester,0.3520426492911816,88650.18825822961
+Deaths,Female,45 to 49,All causes,greatermanchester,194.5634259007359,99054.18965704014
+Deaths,Female,45 to 49,Breast cancer,greatermanchester,27.113055708744135,99054.18965704014
+Deaths,Female,45 to 49,Cardiovascular diseases,greatermanchester,29.838727763714445,99054.18965704014
+Deaths,Female,45 to 49,Chronic obstructive pulmonary disease,greatermanchester,4.149535030799186,99054.18965704014
+Deaths,Female,45 to 49,Colon and rectum cancer,greatermanchester,7.022645391615237,99054.18965704014
+Deaths,Female,45 to 49,Diabetes mellitus type 2,greatermanchester,0.7992923623697433,99054.18965704014
+Deaths,Female,45 to 49,Ischemic heart disease,greatermanchester,12.140287660140302,99054.18965704014
+Deaths,Female,45 to 49,Liver cancer,greatermanchester,1.5712289929236953,99054.18965704014
+Deaths,Female,45 to 49,Lower respiratory infections,greatermanchester,4.631911186910876,99054.18965704014
+Deaths,Female,45 to 49,Neoplasms,greatermanchester,89.26037347857587,99054.18965704014
+Deaths,Female,45 to 49,Road injuries,greatermanchester,1.4473621689213256,99054.18965704014
+Deaths,Female,45 to 49,Stomach cancer,greatermanchester,2.5226087956364722,99054.18965704014
+Deaths,Female,45 to 49,Stroke,greatermanchester,9.194668832740948,99054.18965704014
+Deaths,Female,45 to 49,"Tracheal, bronchus, and lung cancer",greatermanchester,13.883014646315086,99054.18965704014
+Deaths,Female,45 to 49,Uterine cancer,greatermanchester,0.9135308976973915,99054.18965704014
+Deaths,Female,5 to 9,All causes,greatermanchester,6.535304358343429,93237.06328145361
+Deaths,Female,5 to 9,Cardiovascular diseases,greatermanchester,0.27834588973739693,93237.06328145361
+Deaths,Female,5 to 9,Chronic obstructive pulmonary disease,greatermanchester,0.07024770854125648,93237.06328145361
+Deaths,Female,5 to 9,Liver cancer,greatermanchester,0.030079171402415825,93237.06328145361
+Deaths,Female,5 to 9,Lower respiratory infections,greatermanchester,0.33311555276403015,93237.06328145361
+Deaths,Female,5 to 9,Neoplasms,greatermanchester,1.9383942141284465,93237.06328145361
+Deaths,Female,5 to 9,Road injuries,greatermanchester,0.4735970768746269,93237.06328145361
+Deaths,Female,5 to 9,Stroke,greatermanchester,0.08600256617863333,93237.06328145361
+Deaths,Female,50 to 54,All causes,greatermanchester,291.20564358168815,96968.05663358435
+Deaths,Female,50 to 54,Breast cancer,greatermanchester,38.647271001847756,96968.05663358435
+Deaths,Female,50 to 54,Cardiovascular diseases,greatermanchester,45.27447464824762,96968.05663358435
+Deaths,Female,50 to 54,Chronic obstructive pulmonary disease,greatermanchester,10.614376883419016,96968.05663358435
+Deaths,Female,50 to 54,Colon and rectum cancer,greatermanchester,11.837391783688979,96968.05663358435
+Deaths,Female,50 to 54,Diabetes mellitus type 2,greatermanchester,1.122803289994346,96968.05663358435
+Deaths,Female,50 to 54,Ischemic heart disease,greatermanchester,20.041515552324217,96968.05663358435
+Deaths,Female,50 to 54,Liver cancer,greatermanchester,3.143555221377668,96968.05663358435
+Deaths,Female,50 to 54,Lower respiratory infections,greatermanchester,7.310024501071816,96968.05663358435
+Deaths,Female,50 to 54,Neoplasms,greatermanchester,147.5235713383246,96968.05663358435
+Deaths,Female,50 to 54,Road injuries,greatermanchester,1.4755235709184447,96968.05663358435
+Deaths,Female,50 to 54,Stomach cancer,greatermanchester,3.870514420528958,96968.05663358435
+Deaths,Female,50 to 54,Stroke,greatermanchester,13.525256895845999,96968.05663358435
+Deaths,Female,50 to 54,"Tracheal, bronchus, and lung cancer",greatermanchester,29.11817479067477,96968.05663358435
+Deaths,Female,50 to 54,Uterine cancer,greatermanchester,2.010665152760625,96968.05663358435
+Deaths,Female,55 to 59,All causes,greatermanchester,396.04252393944455,83019.90832369193
+Deaths,Female,55 to 59,Breast cancer,greatermanchester,42.369705301453855,83019.90832369193
+Deaths,Female,55 to 59,Cardiovascular diseases,greatermanchester,66.70021260055061,83019.90832369193
+Deaths,Female,55 to 59,Chronic obstructive pulmonary disease,greatermanchester,22.32824839425475,83019.90832369193
+Deaths,Female,55 to 59,Colon and rectum cancer,greatermanchester,17.44359331051525,83019.90832369193
+Deaths,Female,55 to 59,Diabetes mellitus type 2,greatermanchester,1.601354259742784,83019.90832369193
+Deaths,Female,55 to 59,Ischemic heart disease,greatermanchester,32.57281286916679,83019.90832369193
+Deaths,Female,55 to 59,Liver cancer,greatermanchester,4.74962423578302,83019.90832369193
+Deaths,Female,55 to 59,Lower respiratory infections,greatermanchester,9.648845798132166,83019.90832369193
+Deaths,Female,55 to 59,Neoplasms,greatermanchester,207.0719277923021,83019.90832369193
+Deaths,Female,55 to 59,Road injuries,greatermanchester,1.432947197315298,83019.90832369193
+Deaths,Female,55 to 59,Stomach cancer,greatermanchester,5.627708289011857,83019.90832369193
+Deaths,Female,55 to 59,Stroke,greatermanchester,17.602647714685137,83019.90832369193
+Deaths,Female,55 to 59,"Tracheal, bronchus, and lung cancer",greatermanchester,50.635978194806846,83019.90832369193
+Deaths,Female,55 to 59,Uterine cancer,greatermanchester,3.8448352611232797,83019.90832369193
+Deaths,Female,60 to 64,All causes,greatermanchester,532.9596365414595,67834.70415010295
+Deaths,Female,60 to 64,Breast cancer,greatermanchester,43.414556341043905,67834.70415010295
+Deaths,Female,60 to 64,Cardiovascular diseases,greatermanchester,98.40921134716379,67834.70415010295
+Deaths,Female,60 to 64,Chronic obstructive pulmonary disease,greatermanchester,45.026491614982604,67834.70415010295
+Deaths,Female,60 to 64,Colon and rectum cancer,greatermanchester,21.762881178742788,67834.70415010295
+Deaths,Female,60 to 64,Diabetes mellitus type 2,greatermanchester,2.667222164360555,67834.70415010295
+Deaths,Female,60 to 64,Ischemic heart disease,greatermanchester,49.92125512638582,67834.70415010295
+Deaths,Female,60 to 64,Liver cancer,greatermanchester,6.444145685117809,67834.70415010295
+Deaths,Female,60 to 64,Lower respiratory infections,greatermanchester,13.822435149738574,67834.70415010295
+Deaths,Female,60 to 64,Neoplasms,greatermanchester,271.7747619644219,67834.70415010295
+Deaths,Female,60 to 64,Road injuries,greatermanchester,1.3409977021965587,67834.70415010295
+Deaths,Female,60 to 64,Stomach cancer,greatermanchester,7.6393544625183045,67834.70415010295
+Deaths,Female,60 to 64,Stroke,greatermanchester,23.503234592474122,67834.70415010295
+Deaths,Female,60 to 64,"Tracheal, bronchus, and lung cancer",greatermanchester,77.42273827008187,67834.70415010295
+Deaths,Female,60 to 64,Uterine cancer,greatermanchester,6.029069147199062,67834.70415010295
+Deaths,Female,65 to 69,All causes,greatermanchester,852.5536740497528,67589.88104916476
+Deaths,Female,65 to 69,Breast cancer,greatermanchester,54.396210130831506,67589.88104916476
+Deaths,Female,65 to 69,Cardiovascular diseases,greatermanchester,175.0402458447867,67589.88104916476
+Deaths,Female,65 to 69,Chronic obstructive pulmonary disease,greatermanchester,85.53768538961845,67589.88104916476
+Deaths,Female,65 to 69,Colon and rectum cancer,greatermanchester,32.89844391369265,67589.88104916476
+Deaths,Female,65 to 69,Diabetes mellitus type 2,greatermanchester,4.394846271226175,67589.88104916476
+Deaths,Female,65 to 69,Ischemic heart disease,greatermanchester,88.63817719038532,67589.88104916476
+Deaths,Female,65 to 69,Liver cancer,greatermanchester,10.198760529304154,67589.88104916476
+Deaths,Female,65 to 69,Lower respiratory infections,greatermanchester,23.373594651597333,67589.88104916476
+Deaths,Female,65 to 69,Neoplasms,greatermanchester,411.51174018757223,67589.88104916476
+Deaths,Female,65 to 69,Road injuries,greatermanchester,1.8032095514139834,67589.88104916476
+Deaths,Female,65 to 69,Stomach cancer,greatermanchester,11.933554905096509,67589.88104916476
+Deaths,Female,65 to 69,Stroke,greatermanchester,41.71540817318933,67589.88104916476
+Deaths,Female,65 to 69,"Tracheal, bronchus, and lung cancer",greatermanchester,129.25152437010905,67589.88104916476
+Deaths,Female,65 to 69,Uterine cancer,greatermanchester,9.751245489620732,67589.88104916476
+Deaths,Female,70 to 74,All causes,greatermanchester,1156.0798756940433,58136.382927201885
+Deaths,Female,70 to 74,Breast cancer,greatermanchester,55.67186853792221,58136.382927201885
+Deaths,Female,70 to 74,Cardiovascular diseases,greatermanchester,277.2919405746398,58136.382927201885
+Deaths,Female,70 to 74,Chronic obstructive pulmonary disease,greatermanchester,130.39986146007323,58136.382927201885
+Deaths,Female,70 to 74,Colon and rectum cancer,greatermanchester,40.721375693570764,58136.382927201885
+Deaths,Female,70 to 74,Diabetes mellitus type 2,greatermanchester,7.071235678073275,58136.382927201885
+Deaths,Female,70 to 74,Ischemic heart disease,greatermanchester,134.97099952398148,58136.382927201885
+Deaths,Female,70 to 74,Liver cancer,greatermanchester,12.859222397745237,58136.382927201885
+Deaths,Female,70 to 74,Lower respiratory infections,greatermanchester,40.82468984174347,58136.382927201885
+Deaths,Female,70 to 74,Neoplasms,greatermanchester,479.1399282631293,58136.382927201885
+Deaths,Female,70 to 74,Road injuries,greatermanchester,2.1184237551597676,58136.382927201885
+Deaths,Female,70 to 74,Stomach cancer,greatermanchester,16.74295057259765,58136.382927201885
+Deaths,Female,70 to 74,Stroke,greatermanchester,70.76216527948311,58136.382927201885
+Deaths,Female,70 to 74,"Tracheal, bronchus, and lung cancer",greatermanchester,150.55581387284525,58136.382927201885
+Deaths,Female,70 to 74,Uterine cancer,greatermanchester,10.772053669997057,58136.382927201885
+Deaths,Female,75 to 79,All causes,greatermanchester,1515.342530514808,43841.780715236724
+Deaths,Female,75 to 79,Breast cancer,greatermanchester,58.243287440329766,43841.780715236724
+Deaths,Female,75 to 79,Cardiovascular diseases,greatermanchester,414.1862004313315,43841.780715236724
+Deaths,Female,75 to 79,Chronic obstructive pulmonary disease,greatermanchester,163.28498835987207,43841.780715236724
+Deaths,Female,75 to 79,Colon and rectum cancer,greatermanchester,50.906494249566684,43841.780715236724
+Deaths,Female,75 to 79,Diabetes mellitus type 2,greatermanchester,10.220444356605123,43841.780715236724
+Deaths,Female,75 to 79,Ischemic heart disease,greatermanchester,193.94119256242828,43841.780715236724
+Deaths,Female,75 to 79,Liver cancer,greatermanchester,14.881034591447415,43841.780715236724
+Deaths,Female,75 to 79,Lower respiratory infections,greatermanchester,71.3060185269902,43841.780715236724
+Deaths,Female,75 to 79,Neoplasms,greatermanchester,504.9924022323991,43841.780715236724
+Deaths,Female,75 to 79,Road injuries,greatermanchester,2.5423355555793528,43841.780715236724
+Deaths,Female,75 to 79,Stomach cancer,greatermanchester,23.05872912710543,43841.780715236724
+Deaths,Female,75 to 79,Stroke,greatermanchester,115.52819111521497,43841.780715236724
+Deaths,Female,75 to 79,"Tracheal, bronchus, and lung cancer",greatermanchester,144.3584388801128,43841.780715236724
+Deaths,Female,75 to 79,Uterine cancer,greatermanchester,10.141939292914032,43841.780715236724
+Deaths,Female,80 to 84,All causes,greatermanchester,2027.3200458178,32508.970001448397
+Deaths,Female,80 to 84,Breast cancer,greatermanchester,59.9805166972943,32508.970001448397
+Deaths,Female,80 to 84,Cardiovascular diseases,greatermanchester,617.7481800863544,32508.970001448397
+Deaths,Female,80 to 84,Chronic obstructive pulmonary disease,greatermanchester,190.51427740984133,32508.970001448397
+Deaths,Female,80 to 84,Colon and rectum cancer,greatermanchester,59.80556589474253,32508.970001448397
+Deaths,Female,80 to 84,Diabetes mellitus type 2,greatermanchester,15.351870135333053,32508.970001448397
+Deaths,Female,80 to 84,Ischemic heart disease,greatermanchester,278.66727880989833,32508.970001448397
+Deaths,Female,80 to 84,Liver cancer,greatermanchester,15.010333535679763,32508.970001448397
+Deaths,Female,80 to 84,Lower respiratory infections,greatermanchester,129.51379551286274,32508.970001448397
+Deaths,Female,80 to 84,Neoplasms,greatermanchester,501.17978981802884,32508.970001448397
+Deaths,Female,80 to 84,Road injuries,greatermanchester,2.68989037064162,32508.970001448397
+Deaths,Female,80 to 84,Stomach cancer,greatermanchester,26.94890094238917,32508.970001448397
+Deaths,Female,80 to 84,Stroke,greatermanchester,182.83423196317258,32508.970001448397
+Deaths,Female,80 to 84,"Tracheal, bronchus, and lung cancer",greatermanchester,124.53695074133421,32508.970001448397
+Deaths,Female,80 to 84,Uterine cancer,greatermanchester,9.058207432966498,32508.970001448397
+Deaths,Female,85 to 89,All causes,greatermanchester,2402.1118341658794,20277.870037631557
+Deaths,Female,85 to 89,Breast cancer,greatermanchester,59.008255556348125,20277.870037631557
+Deaths,Female,85 to 89,Cardiovascular diseases,greatermanchester,777.125113752473,20277.870037631557
+Deaths,Female,85 to 89,Chronic obstructive pulmonary disease,greatermanchester,172.08441112313375,20277.870037631557
+Deaths,Female,85 to 89,Colon and rectum cancer,greatermanchester,57.57332793986492,20277.870037631557
+Deaths,Female,85 to 89,Diabetes mellitus type 2,greatermanchester,17.574131794562355,20277.870037631557
+Deaths,Female,85 to 89,Ischemic heart disease,greatermanchester,341.723882593541,20277.870037631557
+Deaths,Female,85 to 89,Liver cancer,greatermanchester,12.15967773320472,20277.870037631557
+Deaths,Female,85 to 89,Lower respiratory infections,greatermanchester,221.0710228010441,20277.870037631557
+Deaths,Female,85 to 89,Neoplasms,greatermanchester,415.6219905523711,20277.870037631557
+Deaths,Female,85 to 89,Road injuries,greatermanchester,1.9428532337691262,20277.870037631557
+Deaths,Female,85 to 89,Stomach cancer,greatermanchester,24.201381216678417,20277.870037631557
+Deaths,Female,85 to 89,Stroke,greatermanchester,241.65343185807157,20277.870037631557
+Deaths,Female,85 to 89,"Tracheal, bronchus, and lung cancer",greatermanchester,81.95374436506471,20277.870037631557
+Deaths,Female,85 to 89,Uterine cancer,greatermanchester,6.817546564059961,20277.870037631557
+Deaths,Female,90 to 94,All causes,greatermanchester,1917.4670754807348,9606.008211800985
+Deaths,Female,90 to 94,Breast cancer,greatermanchester,37.23486762119952,9606.008211800985
+Deaths,Female,90 to 94,Cardiovascular diseases,greatermanchester,636.8604343417098,9606.008211800985
+Deaths,Female,90 to 94,Chronic obstructive pulmonary disease,greatermanchester,122.31021037158092,9606.008211800985
+Deaths,Female,90 to 94,Colon and rectum cancer,greatermanchester,37.74648874754037,9606.008211800985
+Deaths,Female,90 to 94,Diabetes mellitus type 2,greatermanchester,13.8193952660487,9606.008211800985
+Deaths,Female,90 to 94,Ischemic heart disease,greatermanchester,276.8401837151841,9606.008211800985
+Deaths,Female,90 to 94,Liver cancer,greatermanchester,6.164936273851357,9606.008211800985
+Deaths,Female,90 to 94,Lower respiratory infections,greatermanchester,185.73724555278767,9606.008211800985
+Deaths,Female,90 to 94,Neoplasms,greatermanchester,240.10339482362832,9606.008211800985
+Deaths,Female,90 to 94,Road injuries,greatermanchester,1.1830433802435454,9606.008211800985
+Deaths,Female,90 to 94,Stomach cancer,greatermanchester,16.119105528329445,9606.008211800985
+Deaths,Female,90 to 94,Stroke,greatermanchester,199.84566738187192,9606.008211800985
+Deaths,Female,90 to 94,"Tracheal, bronchus, and lung cancer",greatermanchester,38.805866630501214,9606.008211800985
+Deaths,Female,90 to 94,Uterine cancer,greatermanchester,3.5368388471021595,9606.008211800985
+Deaths,Female,95 to 99,All causes,greatermanchester,1009.5236410634276,2897.1143785180425
+Deaths,Female,95 to 99,Breast cancer,greatermanchester,15.984217413235333,2897.1143785180425
+Deaths,Female,95 to 99,Cardiovascular diseases,greatermanchester,342.4101502864918,2897.1143785180425
+Deaths,Female,95 to 99,Chronic obstructive pulmonary disease,greatermanchester,64.5197803128205,2897.1143785180425
+Deaths,Female,95 to 99,Colon and rectum cancer,greatermanchester,15.15877702564919,2897.1143785180425
+Deaths,Female,95 to 99,Diabetes mellitus type 2,greatermanchester,7.398933927347091,2897.1143785180425
+Deaths,Female,95 to 99,Ischemic heart disease,greatermanchester,149.14136464358614,2897.1143785180425
+Deaths,Female,95 to 99,Liver cancer,greatermanchester,2.185800312417099,2897.1143785180425
+Deaths,Female,95 to 99,Lower respiratory infections,greatermanchester,112.42104876674833,2897.1143785180425
+Deaths,Female,95 to 99,Neoplasms,greatermanchester,93.5338753248078,2897.1143785180425
+Deaths,Female,95 to 99,Road injuries,greatermanchester,0.5478949111597264,2897.1143785180425
+Deaths,Female,95 to 99,Stomach cancer,greatermanchester,6.962042546343584,2897.1143785180425
+Deaths,Female,95 to 99,Stroke,greatermanchester,112.55194406112557,2897.1143785180425
+Deaths,Female,95 to 99,"Tracheal, bronchus, and lung cancer",greatermanchester,13.208802658903657,2897.1143785180425
+Deaths,Female,95 to 99,Uterine cancer,greatermanchester,1.2300371377111896,2897.1143785180425
+Deaths,Female,0 to 4,All causes,greatermanchester,87.4192077893035,89600.57145354571
+Deaths,Female,0 to 4,Cardiovascular diseases,greatermanchester,1.2466130847210215,89600.57145354571
+Deaths,Female,0 to 4,Chronic obstructive pulmonary disease,greatermanchester,0.11309672575966367,89600.57145354571
+Deaths,Female,0 to 4,Lower respiratory infections,greatermanchester,3.3052111190100955,89600.57145354571
+Deaths,Female,0 to 4,Neoplasms,greatermanchester,2.7882557437380444,89600.57145354571
+Deaths,Female,0 to 4,Road injuries,greatermanchester,0.5592305253752533,89600.57145354571
+Deaths,Female,0 to 4,Stroke,greatermanchester,0.20133771932060435,89600.57145354571
+Deaths,Male,10 to 14,All causes,greatermanchester,12.95489106295756,88342.23999799935
+Deaths,Male,10 to 14,Cardiovascular diseases,greatermanchester,0.6342388118038902,88342.23999799935
+Deaths,Male,10 to 14,Chronic obstructive pulmonary disease,greatermanchester,0.03176786392850035,88342.23999799935
+Deaths,Male,10 to 14,Liver cancer,greatermanchester,0.0692807684488867,88342.23999799935
+Deaths,Male,10 to 14,Lower respiratory infections,greatermanchester,0.3739241633164317,88342.23999799935
+Deaths,Male,10 to 14,Neoplasms,greatermanchester,3.148898951609455,88342.23999799935
+Deaths,Male,10 to 14,Road injuries,greatermanchester,1.423539784536088,88342.23999799935
+Deaths,Male,10 to 14,Stroke,greatermanchester,0.19267404724262774,88342.23999799935
+Deaths,Male,15 to 19,All causes,greatermanchester,26.647134030287518,85116.629333154
+Deaths,Male,15 to 19,Breast cancer,greatermanchester,0.008918306599720429,85116.629333154
+Deaths,Male,15 to 19,Cardiovascular diseases,greatermanchester,1.2476757175852184,85116.629333154
+Deaths,Male,15 to 19,Chronic obstructive pulmonary disease,greatermanchester,0.07307404720288427,85116.629333154
+Deaths,Male,15 to 19,Colon and rectum cancer,greatermanchester,0.039416977686618435,85116.629333154
+Deaths,Male,15 to 19,Diabetes mellitus type 2,greatermanchester,0.008842734550909195,85116.629333154
+Deaths,Male,15 to 19,Ischemic heart disease,greatermanchester,0.10999831435282868,85116.629333154
+Deaths,Male,15 to 19,Liver cancer,greatermanchester,0.07277492268841655,85116.629333154
+Deaths,Male,15 to 19,Lower respiratory infections,greatermanchester,0.40350511976466263,85116.629333154
+Deaths,Male,15 to 19,Neoplasms,greatermanchester,3.2821784006374015,85116.629333154
+Deaths,Male,15 to 19,Road injuries,greatermanchester,6.055796236501912,85116.629333154
+Deaths,Male,15 to 19,Stomach cancer,greatermanchester,0.017441516013984647,85116.629333154
+Deaths,Male,15 to 19,Stroke,greatermanchester,0.3297232462593893,85116.629333154
+Deaths,Male,15 to 19,"Tracheal, bronchus, and lung cancer",greatermanchester,0.01390932263202892,85116.629333154
+Deaths,Male,20 to 24,All causes,greatermanchester,38.185496190025404,96143.85123231384
+Deaths,Male,20 to 24,Breast cancer,greatermanchester,0.00765346488983952,96143.85123231384
+Deaths,Male,20 to 24,Cardiovascular diseases,greatermanchester,1.8480894747841299,96143.85123231384
+Deaths,Male,20 to 24,Chronic obstructive pulmonary disease,greatermanchester,0.081176094017387,96143.85123231384
+Deaths,Male,20 to 24,Colon and rectum cancer,greatermanchester,0.11576917552185526,96143.85123231384
+Deaths,Male,20 to 24,Diabetes mellitus type 2,greatermanchester,0.013962842773057729,96143.85123231384
+Deaths,Male,20 to 24,Ischemic heart disease,greatermanchester,0.3195411617714863,96143.85123231384
+Deaths,Male,20 to 24,Liver cancer,greatermanchester,0.09333983070749186,96143.85123231384
+Deaths,Male,20 to 24,Lower respiratory infections,greatermanchester,0.47665078856236875,96143.85123231384
+Deaths,Male,20 to 24,Neoplasms,greatermanchester,3.4330713736830667,96143.85123231384
+Deaths,Male,20 to 24,Road injuries,greatermanchester,7.1219324853466555,96143.85123231384
+Deaths,Male,20 to 24,Stomach cancer,greatermanchester,0.038615671239341204,96143.85123231384
+Deaths,Male,20 to 24,Stroke,greatermanchester,0.4994852226860698,96143.85123231384
+Deaths,Male,20 to 24,"Tracheal, bronchus, and lung cancer",greatermanchester,0.04634281637116322,96143.85123231384
+Deaths,Male,25 to 29,All causes,greatermanchester,61.39618415391905,111921.02959934174
+Deaths,Male,25 to 29,Breast cancer,greatermanchester,0.011458137315815633,111921.02959934174
+Deaths,Male,25 to 29,Cardiovascular diseases,greatermanchester,4.299826951502483,111921.02959934174
+Deaths,Male,25 to 29,Chronic obstructive pulmonary disease,greatermanchester,0.13375798947244646,111921.02959934174
+Deaths,Male,25 to 29,Colon and rectum cancer,greatermanchester,0.41797946823144616,111921.02959934174
+Deaths,Male,25 to 29,Diabetes mellitus type 2,greatermanchester,0.030480101986562314,111921.02959934174
+Deaths,Male,25 to 29,Ischemic heart disease,greatermanchester,1.2979665904749593,111921.02959934174
+Deaths,Male,25 to 29,Liver cancer,greatermanchester,0.20354418346554484,111921.02959934174
+Deaths,Male,25 to 29,Lower respiratory infections,greatermanchester,0.9961191020389417,111921.02959934174
+Deaths,Male,25 to 29,Neoplasms,greatermanchester,6.257841078902134,111921.02959934174
+Deaths,Male,25 to 29,Road injuries,greatermanchester,6.994863149503009,111921.02959934174
+Deaths,Male,25 to 29,Stomach cancer,greatermanchester,0.14220530133091983,111921.02959934174
+Deaths,Male,25 to 29,Stroke,greatermanchester,1.0608004431371099,111921.02959934174
+Deaths,Male,25 to 29,"Tracheal, bronchus, and lung cancer",greatermanchester,0.14350320121000015,111921.02959934174
+Deaths,Male,30 to 34,All causes,greatermanchester,75.46156100143067,109415.6651003377
+Deaths,Male,30 to 34,Breast cancer,greatermanchester,0.017639296629148003,109415.6651003377
+Deaths,Male,30 to 34,Cardiovascular diseases,greatermanchester,7.7914150947554015,109415.6651003377
+Deaths,Male,30 to 34,Chronic obstructive pulmonary disease,greatermanchester,0.21591959884673503,109415.6651003377
+Deaths,Male,30 to 34,Colon and rectum cancer,greatermanchester,0.9826203859465632,109415.6651003377
+Deaths,Male,30 to 34,Diabetes mellitus type 2,greatermanchester,0.12580064897723847,109415.6651003377
+Deaths,Male,30 to 34,Ischemic heart disease,greatermanchester,3.25805263438384,109415.6651003377
+Deaths,Male,30 to 34,Liver cancer,greatermanchester,0.3602350849044446,109415.6651003377
+Deaths,Male,30 to 34,Lower respiratory infections,greatermanchester,1.5113070324667472,109415.6651003377
+Deaths,Male,30 to 34,Neoplasms,greatermanchester,9.10820961469417,109415.6651003377
+Deaths,Male,30 to 34,Road injuries,greatermanchester,5.017761613096383,109415.6651003377
+Deaths,Male,30 to 34,Stomach cancer,greatermanchester,0.3594533356269314,109415.6651003377
+Deaths,Male,30 to 34,Stroke,greatermanchester,1.7001214790628416,109415.6651003377
+Deaths,Male,30 to 34,"Tracheal, bronchus, and lung cancer",greatermanchester,0.45645629710320434,109415.6651003377
+Deaths,Male,35 to 39,All causes,greatermanchester,106.37740665222259,100915.76309575482
+Deaths,Male,35 to 39,Breast cancer,greatermanchester,0.04584450803399002,100915.76309575482
+Deaths,Male,35 to 39,Cardiovascular diseases,greatermanchester,15.682563834742819,100915.76309575482
+Deaths,Male,35 to 39,Chronic obstructive pulmonary disease,greatermanchester,0.5570465979743312,100915.76309575482
+Deaths,Male,35 to 39,Colon and rectum cancer,greatermanchester,1.846995986532922,100915.76309575482
+Deaths,Male,35 to 39,Diabetes mellitus type 2,greatermanchester,0.2026204582485739,100915.76309575482
+Deaths,Male,35 to 39,Ischemic heart disease,greatermanchester,8.126706808187093,100915.76309575482
+Deaths,Male,35 to 39,Liver cancer,greatermanchester,0.4969203066926253,100915.76309575482
+Deaths,Male,35 to 39,Lower respiratory infections,greatermanchester,2.477802123169584,100915.76309575482
+Deaths,Male,35 to 39,Neoplasms,greatermanchester,15.759126925722907,100915.76309575482
+Deaths,Male,35 to 39,Road injuries,greatermanchester,4.361667057465086,100915.76309575482
+Deaths,Male,35 to 39,Stomach cancer,greatermanchester,0.8166917054597918,100915.76309575482
+Deaths,Male,35 to 39,Stroke,greatermanchester,3.0778883283767122,100915.76309575482
+Deaths,Male,35 to 39,"Tracheal, bronchus, and lung cancer",greatermanchester,1.46258514141545,100915.76309575482
+Deaths,Male,40 to 44,All causes,greatermanchester,170.21373193073617,90174.4839650339
+Deaths,Male,40 to 44,Breast cancer,greatermanchester,0.09156263926966961,90174.4839650339
+Deaths,Male,40 to 44,Cardiovascular diseases,greatermanchester,35.37191414138154,90174.4839650339
+Deaths,Male,40 to 44,Chronic obstructive pulmonary disease,greatermanchester,1.855197366562389,90174.4839650339
+Deaths,Male,40 to 44,Colon and rectum cancer,greatermanchester,3.6626249787709493,90174.4839650339
+Deaths,Male,40 to 44,Diabetes mellitus type 2,greatermanchester,0.35391371010474565,90174.4839650339
+Deaths,Male,40 to 44,Ischemic heart disease,greatermanchester,20.73784402023569,90174.4839650339
+Deaths,Male,40 to 44,Liver cancer,greatermanchester,1.149189941990478,90174.4839650339
+Deaths,Male,40 to 44,Lower respiratory infections,greatermanchester,4.29591385752743,90174.4839650339
+Deaths,Male,40 to 44,Neoplasms,greatermanchester,32.0616036216744,90174.4839650339
+Deaths,Male,40 to 44,Road injuries,greatermanchester,4.46973867873021,90174.4839650339
+Deaths,Male,40 to 44,Stomach cancer,greatermanchester,1.7380761471021908,90174.4839650339
+Deaths,Male,40 to 44,Stroke,greatermanchester,6.059441291956848,90174.4839650339
+Deaths,Male,40 to 44,"Tracheal, bronchus, and lung cancer",greatermanchester,4.645592694174072,90174.4839650339
+Deaths,Male,45 to 49,All causes,greatermanchester,292.25374604777465,99051.96696778103
+Deaths,Male,45 to 49,Breast cancer,greatermanchester,0.18700337237527526,99051.96696778103
+Deaths,Male,45 to 49,Cardiovascular diseases,greatermanchester,74.49646780763871,99051.96696778103
+Deaths,Male,45 to 49,Chronic obstructive pulmonary disease,greatermanchester,4.794076421355547,99051.96696778103
+Deaths,Male,45 to 49,Colon and rectum cancer,greatermanchester,8.35884070915646,99051.96696778103
+Deaths,Male,45 to 49,Diabetes mellitus type 2,greatermanchester,1.5648312323634077,99051.96696778103
+Deaths,Male,45 to 49,Ischemic heart disease,greatermanchester,47.969272522304955,99051.96696778103
+Deaths,Male,45 to 49,Liver cancer,greatermanchester,2.9048358006236596,99051.96696778103
+Deaths,Male,45 to 49,Lower respiratory infections,greatermanchester,7.849031715671316,99051.96696778103
+Deaths,Male,45 to 49,Neoplasms,greatermanchester,74.19918832681012,99051.96696778103
+Deaths,Male,45 to 49,Road injuries,greatermanchester,4.844805986358884,99051.96696778103
+Deaths,Male,45 to 49,Stomach cancer,greatermanchester,3.985845500946436,99051.96696778103
+Deaths,Male,45 to 49,Stroke,greatermanchester,11.459162074545821,99051.96696778103
+Deaths,Male,45 to 49,"Tracheal, bronchus, and lung cancer",greatermanchester,14.139354541436626,99051.96696778103
+Deaths,Male,5 to 9,All causes,greatermanchester,6.692640835886253,97981.4912288598
+Deaths,Male,5 to 9,Cardiovascular diseases,greatermanchester,0.2146929479696295,97981.4912288598
+Deaths,Male,5 to 9,Chronic obstructive pulmonary disease,greatermanchester,0.018313441769892493,97981.4912288598
+Deaths,Male,5 to 9,Liver cancer,greatermanchester,0.033850027018614365,97981.4912288598
+Deaths,Male,5 to 9,Lower respiratory infections,greatermanchester,0.28007832099528013,97981.4912288598
+Deaths,Male,5 to 9,Neoplasms,greatermanchester,2.1299134114848384,97981.4912288598
+Deaths,Male,5 to 9,Road injuries,greatermanchester,0.5171605313733801,97981.4912288598
+Deaths,Male,5 to 9,Stroke,greatermanchester,0.06425093666721739,97981.4912288598
+Deaths,Male,50 to 54,All causes,greatermanchester,408.1815662470596,97394.61057162583
+Deaths,Male,50 to 54,Breast cancer,greatermanchester,0.3171276402200124,97394.61057162583
+Deaths,Male,50 to 54,Cardiovascular diseases,greatermanchester,115.72278693210686,97394.61057162583
+Deaths,Male,50 to 54,Chronic obstructive pulmonary disease,greatermanchester,10.345000492007342,97394.61057162583
+Deaths,Male,50 to 54,Colon and rectum cancer,greatermanchester,15.023195632308044,97394.61057162583
+Deaths,Male,50 to 54,Diabetes mellitus type 2,greatermanchester,2.0394316642213233,97394.61057162583
+Deaths,Male,50 to 54,Ischemic heart disease,greatermanchester,78.78554768159802,97394.61057162583
+Deaths,Male,50 to 54,Liver cancer,greatermanchester,5.511941590356605,97394.61057162583
+Deaths,Male,50 to 54,Lower respiratory infections,greatermanchester,11.186139841752627,97394.61057162583
+Deaths,Male,50 to 54,Neoplasms,greatermanchester,133.1471691827257,97394.61057162583
+Deaths,Male,50 to 54,Road injuries,greatermanchester,4.448613129676597,97394.61057162583
+Deaths,Male,50 to 54,Stomach cancer,greatermanchester,6.574070664030136,97394.61057162583
+Deaths,Male,50 to 54,Stroke,greatermanchester,16.12107077107996,97394.61057162583
+Deaths,Male,50 to 54,"Tracheal, bronchus, and lung cancer",greatermanchester,29.856497996503922,97394.61057162583
+Deaths,Male,55 to 59,All causes,greatermanchester,550.5150534737236,83458.5336787702
+Deaths,Male,55 to 59,Breast cancer,greatermanchester,0.47832585051792376,83458.5336787702
+Deaths,Male,55 to 59,Cardiovascular diseases,greatermanchester,161.6968214149911,83458.5336787702
+Deaths,Male,55 to 59,Chronic obstructive pulmonary disease,greatermanchester,20.313666770465552,83458.5336787702
+Deaths,Male,55 to 59,Colon and rectum cancer,greatermanchester,23.65407305523041,83458.5336787702
+Deaths,Male,55 to 59,Diabetes mellitus type 2,greatermanchester,2.73737495205761,83458.5336787702
+Deaths,Male,55 to 59,Ischemic heart disease,greatermanchester,111.89681950154613,83458.5336787702
+Deaths,Male,55 to 59,Liver cancer,greatermanchester,8.92684054599228,83458.5336787702
+Deaths,Male,55 to 59,Lower respiratory infections,greatermanchester,14.16951475577017,83458.5336787702
+Deaths,Male,55 to 59,Neoplasms,greatermanchester,214.99010328481089,83458.5336787702
+Deaths,Male,55 to 59,Road injuries,greatermanchester,3.778672667591658,83458.5336787702
+Deaths,Male,55 to 59,Stomach cancer,greatermanchester,9.95060136631709,83458.5336787702
+Deaths,Male,55 to 59,Stroke,greatermanchester,21.299408517554273,83458.5336787702
+Deaths,Male,55 to 59,"Tracheal, bronchus, and lung cancer",greatermanchester,55.38905976616857,83458.5336787702
+Deaths,Male,60 to 64,All causes,greatermanchester,733.824516717556,69163.51958105898
+Deaths,Male,60 to 64,Breast cancer,greatermanchester,0.7356095076012428,69163.51958105898
+Deaths,Male,60 to 64,Cardiovascular diseases,greatermanchester,216.04200707234475,69163.51958105898
+Deaths,Male,60 to 64,Chronic obstructive pulmonary disease,greatermanchester,43.24646180332387,69163.51958105898
+Deaths,Male,60 to 64,Colon and rectum cancer,greatermanchester,34.16839010175292,69163.51958105898
+Deaths,Male,60 to 64,Diabetes mellitus type 2,greatermanchester,4.264327302138298,69163.51958105898
+Deaths,Male,60 to 64,Ischemic heart disease,greatermanchester,146.96501128607812,69163.51958105898
+Deaths,Male,60 to 64,Liver cancer,greatermanchester,12.052746997447793,69163.51958105898
+Deaths,Male,60 to 64,Lower respiratory infections,greatermanchester,19.54921419196234,69163.51958105898
+Deaths,Male,60 to 64,Neoplasms,greatermanchester,311.95989377552223,69163.51958105898
+Deaths,Male,60 to 64,Road injuries,greatermanchester,3.1461943115038205,69163.51958105898
+Deaths,Male,60 to 64,Stomach cancer,greatermanchester,14.120090034057856,69163.51958105898
+Deaths,Male,60 to 64,Stroke,greatermanchester,29.497611965842683,69163.51958105898
+Deaths,Male,60 to 64,"Tracheal, bronchus, and lung cancer",greatermanchester,88.32989591510439,69163.51958105898
+Deaths,Male,65 to 69,All causes,greatermanchester,1160.0160346718826,66951.12986308569
+Deaths,Male,65 to 69,Breast cancer,greatermanchester,1.1665886193016475,66951.12986308569
+Deaths,Male,65 to 69,Cardiovascular diseases,greatermanchester,342.04215126233805,66951.12986308569
+Deaths,Male,65 to 69,Chronic obstructive pulmonary disease,greatermanchester,82.73148078805032,66951.12986308569
+Deaths,Male,65 to 69,Colon and rectum cancer,greatermanchester,53.48281565331828,66951.12986308569
+Deaths,Male,65 to 69,Diabetes mellitus type 2,greatermanchester,7.040450573444163,66951.12986308569
+Deaths,Male,65 to 69,Ischemic heart disease,greatermanchester,224.39267331177493,66951.12986308569
+Deaths,Male,65 to 69,Liver cancer,greatermanchester,18.897977369809496,66951.12986308569
+Deaths,Male,65 to 69,Lower respiratory infections,greatermanchester,33.476452771185606,66951.12986308569
+Deaths,Male,65 to 69,Neoplasms,greatermanchester,504.7535707633007,66951.12986308569
+Deaths,Male,65 to 69,Road injuries,greatermanchester,3.3551609178951773,66951.12986308569
+Deaths,Male,65 to 69,Stomach cancer,greatermanchester,23.71767294803749,66951.12986308569
+Deaths,Male,65 to 69,Stroke,greatermanchester,52.37979542093873,66951.12986308569
+Deaths,Male,65 to 69,"Tracheal, bronchus, and lung cancer",greatermanchester,150.0926815132018,66951.12986308569
+Deaths,Male,70 to 74,All causes,greatermanchester,1471.3373187346494,53182.1053228131
+Deaths,Male,70 to 74,Breast cancer,greatermanchester,1.436183616990146,53182.1053228131
+Deaths,Male,70 to 74,Cardiovascular diseases,greatermanchester,447.2943318679161,53182.1053228131
+Deaths,Male,70 to 74,Chronic obstructive pulmonary disease,greatermanchester,126.5674195490423,53182.1053228131
+Deaths,Male,70 to 74,Colon and rectum cancer,greatermanchester,63.34589144875202,53182.1053228131
+Deaths,Male,70 to 74,Diabetes mellitus type 2,greatermanchester,9.756936591319386,53182.1053228131
+Deaths,Male,70 to 74,Ischemic heart disease,greatermanchester,274.55436016770113,53182.1053228131
+Deaths,Male,70 to 74,Liver cancer,greatermanchester,20.562370597151055,53182.1053228131
+Deaths,Male,70 to 74,Lower respiratory infections,greatermanchester,51.38757416792148,53182.1053228131
+Deaths,Male,70 to 74,Neoplasms,greatermanchester,597.7704364104842,53182.1053228131
+Deaths,Male,70 to 74,Road injuries,greatermanchester,3.06488058609806,53182.1053228131
+Deaths,Male,70 to 74,Stomach cancer,greatermanchester,30.431627986283686,53182.1053228131
+Deaths,Male,70 to 74,Stroke,greatermanchester,83.55628246853021,53182.1053228131
+Deaths,Male,70 to 74,"Tracheal, bronchus, and lung cancer",greatermanchester,176.99917289846064,53182.1053228131
+Deaths,Male,75 to 79,All causes,greatermanchester,1759.0001578790416,36865.115065251
+Deaths,Male,75 to 79,Breast cancer,greatermanchester,1.4212264367340288,36865.115065251
+Deaths,Male,75 to 79,Cardiovascular diseases,greatermanchester,554.3198117870909,36865.115065251
+Deaths,Male,75 to 79,Chronic obstructive pulmonary disease,greatermanchester,156.3834929174553,36865.115065251
+Deaths,Male,75 to 79,Colon and rectum cancer,greatermanchester,67.768905592652,36865.115065251
+Deaths,Male,75 to 79,Diabetes mellitus type 2,greatermanchester,12.540344444039684,36865.115065251
+Deaths,Male,75 to 79,Ischemic heart disease,greatermanchester,325.20151071016954,36865.115065251
+Deaths,Male,75 to 79,Liver cancer,greatermanchester,19.49297357169622,36865.115065251
+Deaths,Male,75 to 79,Lower respiratory infections,greatermanchester,79.16389942544654,36865.115065251
+Deaths,Male,75 to 79,Neoplasms,greatermanchester,621.9277572859937,36865.115065251
+Deaths,Male,75 to 79,Road injuries,greatermanchester,3.0217152785789154,36865.115065251
+Deaths,Male,75 to 79,Stomach cancer,greatermanchester,36.351365415128946,36865.115065251
+Deaths,Male,75 to 79,Stroke,greatermanchester,118.50297486238061,36865.115065251
+Deaths,Male,75 to 79,"Tracheal, bronchus, and lung cancer",greatermanchester,169.193077775002,36865.115065251
+Deaths,Male,80 to 84,All causes,greatermanchester,2042.6732664590895,24556.18550616176
+Deaths,Male,80 to 84,Breast cancer,greatermanchester,1.3431680261503045,24556.18550616176
+Deaths,Male,80 to 84,Cardiovascular diseases,greatermanchester,660.1154350668431,24556.18550616176
+Deaths,Male,80 to 84,Chronic obstructive pulmonary disease,greatermanchester,178.2591519032703,24556.18550616176
+Deaths,Male,80 to 84,Colon and rectum cancer,greatermanchester,68.80021916783541,24556.18550616176
+Deaths,Male,80 to 84,Diabetes mellitus type 2,greatermanchester,15.176696740862008,24556.18550616176
+Deaths,Male,80 to 84,Ischemic heart disease,greatermanchester,369.8852658136825,24556.18550616176
+Deaths,Male,80 to 84,Liver cancer,greatermanchester,16.15388112801402,24556.18550616176
+Deaths,Male,80 to 84,Lower respiratory infections,greatermanchester,126.8984437845755,24556.18550616176
+Deaths,Male,80 to 84,Neoplasms,greatermanchester,595.8961527789784,24556.18550616176
+Deaths,Male,80 to 84,Road injuries,greatermanchester,2.9133244444977926,24556.18550616176
+Deaths,Male,80 to 84,Stomach cancer,greatermanchester,36.543166940506346,24556.18550616176
+Deaths,Male,80 to 84,Stroke,greatermanchester,159.05621746345574,24556.18550616176
+Deaths,Male,80 to 84,"Tracheal, bronchus, and lung cancer",greatermanchester,142.51179863227978,24556.18550616176
+Deaths,Male,85 to 89,All causes,greatermanchester,1786.912997087038,12320.18063940023
+Deaths,Male,85 to 89,Breast cancer,greatermanchester,0.9544205900641455,12320.18063940023
+Deaths,Male,85 to 89,Cardiovascular diseases,greatermanchester,569.6871419495351,12320.18063940023
+Deaths,Male,85 to 89,Chronic obstructive pulmonary disease,greatermanchester,148.5247618223439,12320.18063940023
+Deaths,Male,85 to 89,Colon and rectum cancer,greatermanchester,49.77659644188809,12320.18063940023
+Deaths,Male,85 to 89,Diabetes mellitus type 2,greatermanchester,13.182959328394075,12320.18063940023
+Deaths,Male,85 to 89,Ischemic heart disease,greatermanchester,299.11186920055104,12320.18063940023
+Deaths,Male,85 to 89,Liver cancer,greatermanchester,9.694265481127193,12320.18063940023
+Deaths,Male,85 to 89,Lower respiratory infections,greatermanchester,162.9031948184088,12320.18063940023
+Deaths,Male,85 to 89,Neoplasms,greatermanchester,417.9853956476112,12320.18063940023
+Deaths,Male,85 to 89,Road injuries,greatermanchester,1.9558759818771083,12320.18063940023
+Deaths,Male,85 to 89,Stomach cancer,greatermanchester,24.79122162222048,12320.18063940023
+Deaths,Male,85 to 89,Stroke,greatermanchester,153.04155166117602,12320.18063940023
+Deaths,Male,85 to 89,"Tracheal, bronchus, and lung cancer",greatermanchester,87.6380221303199,12320.18063940023
+Deaths,Male,90 to 94,All causes,greatermanchester,1024.647839868068,4668.567345081475
+Deaths,Male,90 to 94,Breast cancer,greatermanchester,0.5433844049599648,4668.567345081475
+Deaths,Male,90 to 94,Cardiovascular diseases,greatermanchester,341.99785006184726,4668.567345081475
+Deaths,Male,90 to 94,Chronic obstructive pulmonary disease,greatermanchester,81.65485482019919,4668.567345081475
+Deaths,Male,90 to 94,Colon and rectum cancer,greatermanchester,23.39178864371918,4668.567345081475
+Deaths,Male,90 to 94,Diabetes mellitus type 2,greatermanchester,7.894439419657462,4668.567345081475
+Deaths,Male,90 to 94,Ischemic heart disease,greatermanchester,178.4764419922963,4668.567345081475
+Deaths,Male,90 to 94,Liver cancer,greatermanchester,3.476539287376522,4668.567345081475
+Deaths,Male,90 to 94,Lower respiratory infections,greatermanchester,102.62444382856387,4668.567345081475
+Deaths,Male,90 to 94,Neoplasms,greatermanchester,184.23447021468638,4668.567345081475
+Deaths,Male,90 to 94,Road injuries,greatermanchester,0.9029869370102648,4668.567345081475
+Deaths,Male,90 to 94,Stomach cancer,greatermanchester,11.931723800699084,4668.567345081475
+Deaths,Male,90 to 94,Stroke,greatermanchester,95.78413356144796,4668.567345081475
+Deaths,Male,90 to 94,"Tracheal, bronchus, and lung cancer",greatermanchester,29.867398663259603,4668.567345081475
+Deaths,Male,95 to 99,All causes,greatermanchester,305.63073046641495,887.5400766696275
+Deaths,Male,95 to 99,Breast cancer,greatermanchester,0.1700610465245158,887.5400766696275
+Deaths,Male,95 to 99,Cardiovascular diseases,greatermanchester,107.61937069496544,887.5400766696275
+Deaths,Male,95 to 99,Chronic obstructive pulmonary disease,greatermanchester,24.010682849862786,887.5400766696275
+Deaths,Male,95 to 99,Colon and rectum cancer,greatermanchester,5.378229947150257,887.5400766696275
+Deaths,Male,95 to 99,Diabetes mellitus type 2,greatermanchester,2.5109477635200728,887.5400766696275
+Deaths,Male,95 to 99,Ischemic heart disease,greatermanchester,55.71674953832327,887.5400766696275
+Deaths,Male,95 to 99,Liver cancer,greatermanchester,0.681139396857634,887.5400766696275
+Deaths,Male,95 to 99,Lower respiratory infections,greatermanchester,36.271138549601055,887.5400766696275
+Deaths,Male,95 to 99,Neoplasms,greatermanchester,41.98942394613687,887.5400766696275
+Deaths,Male,95 to 99,Road injuries,greatermanchester,0.25104044968088474,887.5400766696275
+Deaths,Male,95 to 99,Stomach cancer,greatermanchester,3.061975640264805,887.5400766696275
+Deaths,Male,95 to 99,Stroke,greatermanchester,31.98482371108764,887.5400766696275
+Deaths,Male,95 to 99,"Tracheal, bronchus, and lung cancer",greatermanchester,5.223167849797512,887.5400766696275
+Deaths,Male,0 to 4,All causes,greatermanchester,111.08219158326439,94114.22309154739
+Deaths,Male,0 to 4,Cardiovascular diseases,greatermanchester,1.4053342723050697,94114.22309154739
+Deaths,Male,0 to 4,Chronic obstructive pulmonary disease,greatermanchester,0.064849693385822,94114.22309154739
+Deaths,Male,0 to 4,Lower respiratory infections,greatermanchester,4.205772813347321,94114.22309154739
+Deaths,Male,0 to 4,Neoplasms,greatermanchester,2.8494312117373153,94114.22309154739
+Deaths,Male,0 to 4,Road injuries,greatermanchester,0.5934653822408179,94114.22309154739
+Deaths,Male,0 to 4,Stroke,greatermanchester,0.22610368685425994,94114.22309154739
+YLLs (Years of Life Lost),Female,10 to 14,All causes,greatermanchester,544.2592380561373,83874.61088421663
+YLLs (Years of Life Lost),Female,10 to 14,Cardiovascular diseases,greatermanchester,25.758547685679723,83874.61088421663
+YLLs (Years of Life Lost),Female,10 to 14,Chronic obstructive pulmonary disease,greatermanchester,6.10448247557259,83874.61088421663
+YLLs (Years of Life Lost),Female,10 to 14,Liver cancer,greatermanchester,2.770769909407936,83874.61088421663
+YLLs (Years of Life Lost),Female,10 to 14,Lower respiratory infections,greatermanchester,21.642923944714,83874.61088421663
+YLLs (Years of Life Lost),Female,10 to 14,Neoplasms,greatermanchester,140.98618834597914,83874.61088421663
+YLLs (Years of Life Lost),Female,10 to 14,Road injuries,greatermanchester,49.40092453858906,83874.61088421663
+YLLs (Years of Life Lost),Female,10 to 14,Stroke,greatermanchester,10.035746794578476,83874.61088421663
+YLLs (Years of Life Lost),Female,15 to 19,All causes,greatermanchester,974.0877495575202,81019.95795262005
+YLLs (Years of Life Lost),Female,15 to 19,Breast cancer,greatermanchester,1.1473535190240267,81019.95795262005
+YLLs (Years of Life Lost),Female,15 to 19,Cardiovascular diseases,greatermanchester,55.627701227786716,81019.95795262005
+YLLs (Years of Life Lost),Female,15 to 19,Chronic obstructive pulmonary disease,greatermanchester,6.822218777430415,81019.95795262005
+YLLs (Years of Life Lost),Female,15 to 19,Colon and rectum cancer,greatermanchester,1.6983462459803877,81019.95795262005
+YLLs (Years of Life Lost),Female,15 to 19,Diabetes mellitus type 2,greatermanchester,0.707940775590099,81019.95795262005
+YLLs (Years of Life Lost),Female,15 to 19,Ischemic heart disease,greatermanchester,4.59856581736739,81019.95795262005
+YLLs (Years of Life Lost),Female,15 to 19,Liver cancer,greatermanchester,5.7613487223880115,81019.95795262005
+YLLs (Years of Life Lost),Female,15 to 19,Lower respiratory infections,greatermanchester,22.585326378773797,81019.95795262005
+YLLs (Years of Life Lost),Female,15 to 19,Neoplasms,greatermanchester,170.1993139518864,81019.95795262005
+YLLs (Years of Life Lost),Female,15 to 19,Road injuries,greatermanchester,138.3715258285836,81019.95795262005
+YLLs (Years of Life Lost),Female,15 to 19,Stomach cancer,greatermanchester,1.007534914388044,81019.95795262005
+YLLs (Years of Life Lost),Female,15 to 19,Stroke,greatermanchester,16.454285451452634,81019.95795262005
+YLLs (Years of Life Lost),Female,15 to 19,"Tracheal, bronchus, and lung cancer",greatermanchester,2.2205924722368224,81019.95795262005
+YLLs (Years of Life Lost),Female,15 to 19,Uterine cancer,greatermanchester,0.5837016687760185,81019.95795262005
+YLLs (Years of Life Lost),Female,20 to 24,All causes,greatermanchester,1237.6961760372276,93541.5902384181
+YLLs (Years of Life Lost),Female,20 to 24,Breast cancer,greatermanchester,5.438570241615645,93541.5902384181
+YLLs (Years of Life Lost),Female,20 to 24,Cardiovascular diseases,greatermanchester,96.54010220303742,93541.5902384181
+YLLs (Years of Life Lost),Female,20 to 24,Chronic obstructive pulmonary disease,greatermanchester,7.548176918508676,93541.5902384181
+YLLs (Years of Life Lost),Female,20 to 24,Colon and rectum cancer,greatermanchester,7.0701315145023225,93541.5902384181
+YLLs (Years of Life Lost),Female,20 to 24,Diabetes mellitus type 2,greatermanchester,0.8478482561874493,93541.5902384181
+YLLs (Years of Life Lost),Female,20 to 24,Ischemic heart disease,greatermanchester,10.590569024300738,93541.5902384181
+YLLs (Years of Life Lost),Female,20 to 24,Liver cancer,greatermanchester,5.9552172603485864,93541.5902384181
+YLLs (Years of Life Lost),Female,20 to 24,Lower respiratory infections,greatermanchester,29.83146027209206,93541.5902384181
+YLLs (Years of Life Lost),Female,20 to 24,Neoplasms,greatermanchester,208.47528283718037,93541.5902384181
+YLLs (Years of Life Lost),Female,20 to 24,Road injuries,greatermanchester,118.20544544393827,93541.5902384181
+YLLs (Years of Life Lost),Female,20 to 24,Stomach cancer,greatermanchester,2.8522465299099258,93541.5902384181
+YLLs (Years of Life Lost),Female,20 to 24,Stroke,greatermanchester,32.22678786848187,93541.5902384181
+YLLs (Years of Life Lost),Female,20 to 24,"Tracheal, bronchus, and lung cancer",greatermanchester,4.042947301991342,93541.5902384181
+YLLs (Years of Life Lost),Female,20 to 24,Uterine cancer,greatermanchester,0.7512059650528915,93541.5902384181
+YLLs (Years of Life Lost),Female,25 to 29,All causes,greatermanchester,1600.862151777111,110524.7379747707
+YLLs (Years of Life Lost),Female,25 to 29,Breast cancer,greatermanchester,41.3782136766228,110524.7379747707
+YLLs (Years of Life Lost),Female,25 to 29,Cardiovascular diseases,greatermanchester,135.30402434183722,110524.7379747707
+YLLs (Years of Life Lost),Female,25 to 29,Chronic obstructive pulmonary disease,greatermanchester,8.759626925694956,110524.7379747707
+YLLs (Years of Life Lost),Female,25 to 29,Colon and rectum cancer,greatermanchester,19.65911382756104,110524.7379747707
+YLLs (Years of Life Lost),Female,25 to 29,Diabetes mellitus type 2,greatermanchester,1.4507009599145002,110524.7379747707
+YLLs (Years of Life Lost),Female,25 to 29,Ischemic heart disease,greatermanchester,18.513816837617465,110524.7379747707
+YLLs (Years of Life Lost),Female,25 to 29,Liver cancer,greatermanchester,9.667057289969234,110524.7379747707
+YLLs (Years of Life Lost),Female,25 to 29,Lower respiratory infections,greatermanchester,38.5449817880849,110524.7379747707
+YLLs (Years of Life Lost),Female,25 to 29,Neoplasms,greatermanchester,375.27028607968475,110524.7379747707
+YLLs (Years of Life Lost),Female,25 to 29,Road injuries,greatermanchester,81.76847939529145,110524.7379747707
+YLLs (Years of Life Lost),Female,25 to 29,Stomach cancer,greatermanchester,10.0585490675578,110524.7379747707
+YLLs (Years of Life Lost),Female,25 to 29,Stroke,greatermanchester,48.205434837374085,110524.7379747707
+YLLs (Years of Life Lost),Female,25 to 29,"Tracheal, bronchus, and lung cancer",greatermanchester,9.328988029665114,110524.7379747707
+YLLs (Years of Life Lost),Female,25 to 29,Uterine cancer,greatermanchester,1.8236981997262907,110524.7379747707
+YLLs (Years of Life Lost),Female,30 to 34,All causes,greatermanchester,2862.671766601291,108005.33735845827
+YLLs (Years of Life Lost),Female,30 to 34,Breast cancer,greatermanchester,200.33616338982975,108005.33735845827
+YLLs (Years of Life Lost),Female,30 to 34,Cardiovascular diseases,greatermanchester,297.25092761470796,108005.33735845827
+YLLs (Years of Life Lost),Female,30 to 34,Chronic obstructive pulmonary disease,greatermanchester,16.159518862468676,108005.33735845827
+YLLs (Years of Life Lost),Female,30 to 34,Colon and rectum cancer,greatermanchester,60.71632531633883,108005.33735845827
+YLLs (Years of Life Lost),Female,30 to 34,Diabetes mellitus type 2,greatermanchester,5.11306961779613,108005.33735845827
+YLLs (Years of Life Lost),Female,30 to 34,Ischemic heart disease,greatermanchester,67.06029617923114,108005.33735845827
+YLLs (Years of Life Lost),Female,30 to 34,Liver cancer,greatermanchester,15.972446897583998,108005.33735845827
+YLLs (Years of Life Lost),Female,30 to 34,Lower respiratory infections,greatermanchester,66.27767904594725,108005.33735845827
+YLLs (Years of Life Lost),Female,30 to 34,Neoplasms,greatermanchester,857.1052929882943,108005.33735845827
+YLLs (Years of Life Lost),Female,30 to 34,Road injuries,greatermanchester,77.38789338225027,108005.33735845827
+YLLs (Years of Life Lost),Female,30 to 34,Stomach cancer,greatermanchester,31.57308102897537,108005.33735845827
+YLLs (Years of Life Lost),Female,30 to 34,Stroke,greatermanchester,106.71272079732336,108005.33735845827
+YLLs (Years of Life Lost),Female,30 to 34,"Tracheal, bronchus, and lung cancer",greatermanchester,39.76543924748526,108005.33735845827
+YLLs (Years of Life Lost),Female,30 to 34,Uterine cancer,greatermanchester,4.179294224402745,108005.33735845827
+YLLs (Years of Life Lost),Female,35 to 39,All causes,greatermanchester,3760.1875180713578,98068.29123371177
+YLLs (Years of Life Lost),Female,35 to 39,Breast cancer,greatermanchester,428.8217516883648,98068.29123371177
+YLLs (Years of Life Lost),Female,35 to 39,Cardiovascular diseases,greatermanchester,454.26868795589905,98068.29123371177
+YLLs (Years of Life Lost),Female,35 to 39,Chronic obstructive pulmonary disease,greatermanchester,28.973366579880427,98068.29123371177
+YLLs (Years of Life Lost),Female,35 to 39,Colon and rectum cancer,greatermanchester,94.30461853747069,98068.29123371177
+YLLs (Years of Life Lost),Female,35 to 39,Diabetes mellitus type 2,greatermanchester,6.9511249541974856,98068.29123371177
+YLLs (Years of Life Lost),Female,35 to 39,Ischemic heart disease,greatermanchester,137.1243734135757,98068.29123371177
+YLLs (Years of Life Lost),Female,35 to 39,Liver cancer,greatermanchester,22.79898158932931,98068.29123371177
+YLLs (Years of Life Lost),Female,35 to 39,Lower respiratory infections,greatermanchester,93.38379168461181,98068.29123371177
+YLLs (Years of Life Lost),Female,35 to 39,Neoplasms,greatermanchester,1336.0781721260669,98068.29123371177
+YLLs (Years of Life Lost),Female,35 to 39,Road injuries,greatermanchester,63.20267530547412,98068.29123371177
+YLLs (Years of Life Lost),Female,35 to 39,Stomach cancer,greatermanchester,45.69607702792251,98068.29123371177
+YLLs (Years of Life Lost),Female,35 to 39,Stroke,greatermanchester,161.9741368409828,98068.29123371177
+YLLs (Years of Life Lost),Female,35 to 39,"Tracheal, bronchus, and lung cancer",greatermanchester,81.11778400851524,98068.29123371177
+YLLs (Years of Life Lost),Female,35 to 39,Uterine cancer,greatermanchester,7.678603591775116,98068.29123371177
+YLLs (Years of Life Lost),Female,40 to 44,All causes,greatermanchester,4990.207455844957,88650.18825822961
+YLLs (Years of Life Lost),Female,40 to 44,Breast cancer,greatermanchester,664.6333661584559,88650.18825822961
+YLLs (Years of Life Lost),Female,40 to 44,Cardiovascular diseases,greatermanchester,704.4047878637936,88650.18825822961
+YLLs (Years of Life Lost),Female,40 to 44,Chronic obstructive pulmonary disease,greatermanchester,72.166328371667,88650.18825822961
+YLLs (Years of Life Lost),Female,40 to 44,Colon and rectum cancer,greatermanchester,149.0424853661963,88650.18825822961
+YLLs (Years of Life Lost),Female,40 to 44,Diabetes mellitus type 2,greatermanchester,8.791792256887117,88650.18825822961
+YLLs (Years of Life Lost),Female,40 to 44,Ischemic heart disease,greatermanchester,248.29213883182524,88650.18825822961
+YLLs (Years of Life Lost),Female,40 to 44,Liver cancer,greatermanchester,33.16604523102258,88650.18825822961
+YLLs (Years of Life Lost),Female,40 to 44,Lower respiratory infections,greatermanchester,129.47043648827093,88650.18825822961
+YLLs (Years of Life Lost),Female,40 to 44,Neoplasms,greatermanchester,2011.030019417373,88650.18825822961
+YLLs (Years of Life Lost),Female,40 to 44,Road injuries,greatermanchester,55.55673862409936,88650.18825822961
+YLLs (Years of Life Lost),Female,40 to 44,Stomach cancer,greatermanchester,72.74663065058938,88650.18825822961
+YLLs (Years of Life Lost),Female,40 to 44,Stroke,greatermanchester,237.37206978769842,88650.18825822961
+YLLs (Years of Life Lost),Female,40 to 44,"Tracheal, bronchus, and lung cancer",greatermanchester,202.3284113839943,88650.18825822961
+YLLs (Years of Life Lost),Female,40 to 44,Uterine cancer,greatermanchester,16.10573802048234,88650.18825822961
+YLLs (Years of Life Lost),Female,45 to 49,All causes,greatermanchester,7964.481738728298,99054.18965704014
+YLLs (Years of Life Lost),Female,45 to 49,Breast cancer,greatermanchester,1109.9419478571133,99054.18965704014
+YLLs (Years of Life Lost),Female,45 to 49,Cardiovascular diseases,greatermanchester,1221.4508060867204,99054.18965704014
+YLLs (Years of Life Lost),Female,45 to 49,Chronic obstructive pulmonary disease,greatermanchester,169.85588044652238,99054.18965704014
+YLLs (Years of Life Lost),Female,45 to 49,Colon and rectum cancer,greatermanchester,287.4756093156253,99054.18965704014
+YLLs (Years of Life Lost),Female,45 to 49,Diabetes mellitus type 2,greatermanchester,32.71806900934134,99054.18965704014
+YLLs (Years of Life Lost),Female,45 to 49,Ischemic heart disease,greatermanchester,496.9677217909667,99054.18965704014
+YLLs (Years of Life Lost),Female,45 to 49,Liver cancer,greatermanchester,64.31891751301873,99054.18965704014
+YLLs (Years of Life Lost),Female,45 to 49,Lower respiratory infections,greatermanchester,189.5998340437819,99054.18965704014
+YLLs (Years of Life Lost),Female,45 to 49,Neoplasms,greatermanchester,3653.9595785027545,99054.18965704014
+YLLs (Years of Life Lost),Female,45 to 49,Road injuries,greatermanchester,59.2473168441263,99054.18965704014
+YLLs (Years of Life Lost),Female,45 to 49,Stomach cancer,greatermanchester,103.26398922145502,99054.18965704014
+YLLs (Years of Life Lost),Female,45 to 49,Stroke,greatermanchester,376.3908139778658,99054.18965704014
+YLLs (Years of Life Lost),Female,45 to 49,"Tracheal, bronchus, and lung cancer",greatermanchester,568.2884990593041,99054.18965704014
+YLLs (Years of Life Lost),Female,45 to 49,Uterine cancer,greatermanchester,37.39795454452783,99054.18965704014
+YLLs (Years of Life Lost),Female,5 to 9,All causes,greatermanchester,527.7521843330074,93237.06328145361
+YLLs (Years of Life Lost),Female,5 to 9,Cardiovascular diseases,greatermanchester,22.47767840508178,93237.06328145361
+YLLs (Years of Life Lost),Female,5 to 9,Chronic obstructive pulmonary disease,greatermanchester,5.6727768578942825,93237.06328145361
+YLLs (Years of Life Lost),Female,5 to 9,Liver cancer,greatermanchester,2.42901497670085,93237.06328145361
+YLLs (Years of Life Lost),Female,5 to 9,Lower respiratory infections,greatermanchester,26.900506994512178,93237.06328145361
+YLLs (Years of Life Lost),Female,5 to 9,Neoplasms,greatermanchester,156.53291681320943,93237.06328145361
+YLLs (Years of Life Lost),Female,5 to 9,Road injuries,greatermanchester,38.244960571226606,93237.06328145361
+YLLs (Years of Life Lost),Female,5 to 9,Stroke,greatermanchester,6.945127441424098,93237.06328145361
+YLLs (Years of Life Lost),Female,50 to 54,All causes,greatermanchester,10537.671836358897,96968.05663358435
+YLLs (Years of Life Lost),Female,50 to 54,Breast cancer,greatermanchester,1398.4843988251253,96968.05663358435
+YLLs (Years of Life Lost),Female,50 to 54,Cardiovascular diseases,greatermanchester,1638.3121192620483,96968.05663358435
+YLLs (Years of Life Lost),Female,50 to 54,Chronic obstructive pulmonary disease,greatermanchester,384.0920319707417,96968.05663358435
+YLLs (Years of Life Lost),Female,50 to 54,Colon and rectum cancer,greatermanchester,428.35193112800295,96968.05663358435
+YLLs (Years of Life Lost),Female,50 to 54,Diabetes mellitus type 2,greatermanchester,40.630034869341664,96968.05663358435
+YLLs (Years of Life Lost),Female,50 to 54,Ischemic heart disease,greatermanchester,725.2181124621836,96968.05663358435
+YLLs (Years of Life Lost),Female,50 to 54,Liver cancer,greatermanchester,113.7529287709599,96968.05663358435
+YLLs (Years of Life Lost),Female,50 to 54,Lower respiratory infections,greatermanchester,264.5252667672441,96968.05663358435
+YLLs (Years of Life Lost),Female,50 to 54,Neoplasms,greatermanchester,5338.341782379632,96968.05663358435
+YLLs (Years of Life Lost),Female,50 to 54,Road injuries,greatermanchester,53.394463681191056,96968.05663358435
+YLLs (Years of Life Lost),Female,50 to 54,Stomach cancer,greatermanchester,140.05585245705956,96968.05663358435
+YLLs (Years of Life Lost),Female,50 to 54,Stroke,greatermanchester,489.43692041213217,96968.05663358435
+YLLs (Years of Life Lost),Female,50 to 54,"Tracheal, bronchus, and lung cancer",greatermanchester,1053.6930529129254,96968.05663358435
+YLLs (Years of Life Lost),Female,50 to 54,Uterine cancer,greatermanchester,72.75819396607503,96968.05663358435
+YLLs (Years of Life Lost),Female,55 to 59,All causes,greatermanchester,12462.514341779435,83019.90832369193
+YLLs (Years of Life Lost),Female,55 to 59,Breast cancer,greatermanchester,1333.311047954927,83019.90832369193
+YLLs (Years of Life Lost),Female,55 to 59,Cardiovascular diseases,greatermanchester,2098.9259773951526,83019.90832369193
+YLLs (Years of Life Lost),Female,55 to 59,Chronic obstructive pulmonary disease,greatermanchester,702.6198665764147,83019.90832369193
+YLLs (Years of Life Lost),Female,55 to 59,Colon and rectum cancer,greatermanchester,548.907910164229,83019.90832369193
+YLLs (Years of Life Lost),Female,55 to 59,Diabetes mellitus type 2,greatermanchester,50.391921658602904,83019.90832369193
+YLLs (Years of Life Lost),Female,55 to 59,Ischemic heart disease,greatermanchester,1025.0143860344524,83019.90832369193
+YLLs (Years of Life Lost),Female,55 to 59,Liver cancer,greatermanchester,149.45689404454484,83019.90832369193
+YLLs (Years of Life Lost),Female,55 to 59,Lower respiratory infections,greatermanchester,303.63265139956934,83019.90832369193
+YLLs (Years of Life Lost),Female,55 to 59,Neoplasms,greatermanchester,6516.044055508967,83019.90832369193
+YLLs (Years of Life Lost),Female,55 to 59,Road injuries,greatermanchester,45.0909858536428,83019.90832369193
+YLLs (Years of Life Lost),Female,55 to 59,Stomach cancer,greatermanchester,177.09358455058646,83019.90832369193
+YLLs (Years of Life Lost),Female,55 to 59,Stroke,greatermanchester,553.9243094304036,83019.90832369193
+YLLs (Years of Life Lost),Female,55 to 59,"Tracheal, bronchus, and lung cancer",greatermanchester,1593.3398341017667,83019.90832369193
+YLLs (Years of Life Lost),Female,55 to 59,Uterine cancer,greatermanchester,120.98949525867705,83019.90832369193
+YLLs (Years of Life Lost),Female,60 to 64,All causes,greatermanchester,14322.246058395192,67834.70415010295
+YLLs (Years of Life Lost),Female,60 to 64,Breast cancer,greatermanchester,1166.7083375505365,67834.70415010295
+YLLs (Years of Life Lost),Female,60 to 64,Cardiovascular diseases,greatermanchester,2644.594702129117,67834.70415010295
+YLLs (Years of Life Lost),Female,60 to 64,Chronic obstructive pulmonary disease,greatermanchester,1209.9668967390558,67834.70415010295
+YLLs (Years of Life Lost),Female,60 to 64,Colon and rectum cancer,greatermanchester,584.8391587465183,67834.70415010295
+YLLs (Years of Life Lost),Female,60 to 64,Diabetes mellitus type 2,greatermanchester,71.67696258142594,67834.70415010295
+YLLs (Years of Life Lost),Female,60 to 64,Ischemic heart disease,greatermanchester,1341.5748329619735,67834.70415010295
+YLLs (Years of Life Lost),Female,60 to 64,Liver cancer,greatermanchester,173.1748000560918,67834.70415010295
+YLLs (Years of Life Lost),Female,60 to 64,Lower respiratory infections,greatermanchester,371.4453300257589,67834.70415010295
+YLLs (Years of Life Lost),Female,60 to 64,Neoplasms,greatermanchester,7303.452628615244,67834.70415010295
+YLLs (Years of Life Lost),Female,60 to 64,Road injuries,greatermanchester,36.03667969917968,67834.70415010295
+YLLs (Years of Life Lost),Female,60 to 64,Stomach cancer,greatermanchester,205.29480728433094,67834.70415010295
+YLLs (Years of Life Lost),Female,60 to 64,Stroke,greatermanchester,631.6191716440877,67834.70415010295
+YLLs (Years of Life Lost),Female,60 to 64,"Tracheal, bronchus, and lung cancer",greatermanchester,2080.543786607405,67834.70415010295
+YLLs (Years of Life Lost),Female,60 to 64,Uterine cancer,greatermanchester,162.02628310866632,67834.70415010295
+YLLs (Years of Life Lost),Female,65 to 69,All causes,greatermanchester,19072.302960648765,67589.88104916476
+YLLs (Years of Life Lost),Female,65 to 69,Breast cancer,greatermanchester,1216.9219470278208,67589.88104916476
+YLLs (Years of Life Lost),Female,65 to 69,Cardiovascular diseases,greatermanchester,3915.789690599604,67589.88104916476
+YLLs (Years of Life Lost),Female,65 to 69,Chronic obstructive pulmonary disease,greatermanchester,1913.4878191783923,67589.88104916476
+YLLs (Years of Life Lost),Female,65 to 69,Colon and rectum cancer,greatermanchester,735.975577607104,67589.88104916476
+YLLs (Years of Life Lost),Female,65 to 69,Diabetes mellitus type 2,greatermanchester,98.31558366262627,67589.88104916476
+YLLs (Years of Life Lost),Female,65 to 69,Ischemic heart disease,greatermanchester,1982.8935621472847,67589.88104916476
+YLLs (Years of Life Lost),Female,65 to 69,Liver cancer,greatermanchester,228.1538057839928,67589.88104916476
+YLLs (Years of Life Lost),Female,65 to 69,Lower respiratory infections,greatermanchester,522.87964567919,67589.88104916476
+YLLs (Years of Life Lost),Female,65 to 69,Neoplasms,greatermanchester,9205.896451133058,67589.88104916476
+YLLs (Years of Life Lost),Female,65 to 69,Road injuries,greatermanchester,40.33981262304963,67589.88104916476
+YLLs (Years of Life Lost),Female,65 to 69,Stomach cancer,greatermanchester,266.9619464607156,67589.88104916476
+YLLs (Years of Life Lost),Female,65 to 69,Stroke,greatermanchester,933.2201595436278,67589.88104916476
+YLLs (Years of Life Lost),Female,65 to 69,"Tracheal, bronchus, and lung cancer",greatermanchester,2891.388013435698,67589.88104916476
+YLLs (Years of Life Lost),Female,65 to 69,Uterine cancer,greatermanchester,218.14857349358599,67589.88104916476
+YLLs (Years of Life Lost),Female,70 to 74,All causes,greatermanchester,20895.466979114935,58136.382927201885
+YLLs (Years of Life Lost),Female,70 to 74,Breast cancer,greatermanchester,1006.2062515272975,58136.382927201885
+YLLs (Years of Life Lost),Female,70 to 74,Cardiovascular diseases,greatermanchester,5011.858032812642,58136.382927201885
+YLLs (Years of Life Lost),Female,70 to 74,Chronic obstructive pulmonary disease,greatermanchester,2356.938601226548,58136.382927201885
+YLLs (Years of Life Lost),Female,70 to 74,Colon and rectum cancer,greatermanchester,736.0113349755082,58136.382927201885
+YLLs (Years of Life Lost),Female,70 to 74,Diabetes mellitus type 2,greatermanchester,127.80399180786013,58136.382927201885
+YLLs (Years of Life Lost),Female,70 to 74,Ischemic heart disease,greatermanchester,2439.497043133471,58136.382927201885
+YLLs (Years of Life Lost),Female,70 to 74,Liver cancer,greatermanchester,232.4238427595458,58136.382927201885
+YLLs (Years of Life Lost),Female,70 to 74,Lower respiratory infections,greatermanchester,737.8735519478637,58136.382927201885
+YLLs (Years of Life Lost),Female,70 to 74,Neoplasms,greatermanchester,8660.192606610783,58136.382927201885
+YLLs (Years of Life Lost),Female,70 to 74,Road injuries,greatermanchester,38.28901267974584,58136.382927201885
+YLLs (Years of Life Lost),Female,70 to 74,Stomach cancer,greatermanchester,302.6194873028556,58136.382927201885
+YLLs (Years of Life Lost),Female,70 to 74,Stroke,greatermanchester,1278.9620914478485,58136.382927201885
+YLLs (Years of Life Lost),Female,70 to 74,"Tracheal, bronchus, and lung cancer",greatermanchester,2721.3082926548786,58136.382927201885
+YLLs (Years of Life Lost),Female,70 to 74,Uterine cancer,greatermanchester,194.69518308497538,58136.382927201885
+YLLs (Years of Life Lost),Female,75 to 79,All causes,greatermanchester,21245.073437122915,43841.780715236724
+YLLs (Years of Life Lost),Female,75 to 79,Breast cancer,greatermanchester,816.4915254056627,43841.780715236724
+YLLs (Years of Life Lost),Female,75 to 79,Cardiovascular diseases,greatermanchester,5806.653120391535,43841.780715236724
+YLLs (Years of Life Lost),Female,75 to 79,Chronic obstructive pulmonary disease,greatermanchester,2289.4587568983507,43841.780715236724
+YLLs (Years of Life Lost),Female,75 to 79,Colon and rectum cancer,greatermanchester,713.7126926764253,43841.780715236724
+YLLs (Years of Life Lost),Female,75 to 79,Diabetes mellitus type 2,greatermanchester,143.2901076229678,43841.780715236724
+YLLs (Years of Life Lost),Female,75 to 79,Ischemic heart disease,greatermanchester,2718.8737788173225,43841.780715236724
+YLLs (Years of Life Lost),Female,75 to 79,Liver cancer,greatermanchester,208.62608647602696,43841.780715236724
+YLLs (Years of Life Lost),Female,75 to 79,Lower respiratory infections,greatermanchester,999.7607204441331,43841.780715236724
+YLLs (Years of Life Lost),Female,75 to 79,Neoplasms,greatermanchester,7080.032451464396,43841.780715236724
+YLLs (Years of Life Lost),Female,75 to 79,Road injuries,greatermanchester,35.64417666667248,43841.780715236724
+YLLs (Years of Life Lost),Female,75 to 79,Stomach cancer,greatermanchester,323.2766450135209,43841.780715236724
+YLLs (Years of Life Lost),Female,75 to 79,Stroke,greatermanchester,1619.6111824462746,43841.780715236724
+YLLs (Years of Life Lost),Female,75 to 79,"Tracheal, bronchus, and lung cancer",greatermanchester,2024.1508107704014,43841.780715236724
+YLLs (Years of Life Lost),Female,75 to 79,Uterine cancer,greatermanchester,142.17632004332447,43841.780715236724
+YLLs (Years of Life Lost),Female,80 to 84,All causes,greatermanchester,21059.348263181688,32508.970001448397
+YLLs (Years of Life Lost),Female,80 to 84,Breast cancer,greatermanchester,623.0428956797413,32508.970001448397
+YLLs (Years of Life Lost),Female,80 to 84,Cardiovascular diseases,greatermanchester,6416.996454017705,32508.970001448397
+YLLs (Years of Life Lost),Female,80 to 84,Chronic obstructive pulmonary disease,greatermanchester,1979.067660250632,32508.970001448397
+YLLs (Years of Life Lost),Female,80 to 84,Colon and rectum cancer,greatermanchester,621.257261482143,32508.970001448397
+YLLs (Years of Life Lost),Female,80 to 84,Diabetes mellitus type 2,greatermanchester,159.45297989511795,32508.970001448397
+YLLs (Years of Life Lost),Female,80 to 84,Ischemic heart disease,greatermanchester,2894.681953393698,32508.970001448397
+YLLs (Years of Life Lost),Female,80 to 84,Liver cancer,greatermanchester,155.9291754649932,32508.970001448397
+YLLs (Years of Life Lost),Female,80 to 84,Lower respiratory infections,greatermanchester,1345.2735866631806,32508.970001448397
+YLLs (Years of Life Lost),Female,80 to 84,Neoplasms,greatermanchester,5206.277207194784,32508.970001448397
+YLLs (Years of Life Lost),Female,80 to 84,Road injuries,greatermanchester,27.942466056693014,32508.970001448397
+YLLs (Years of Life Lost),Female,80 to 84,Stomach cancer,greatermanchester,279.9445425968915,32508.970001448397
+YLLs (Years of Life Lost),Female,80 to 84,Stroke,greatermanchester,1899.1573732148504,32508.970001448397
+YLLs (Years of Life Lost),Female,80 to 84,"Tracheal, bronchus, and lung cancer",greatermanchester,1293.8009642842935,32508.970001448397
+YLLs (Years of Life Lost),Female,80 to 84,Uterine cancer,greatermanchester,94.09578405238905,32508.970001448397
+YLLs (Years of Life Lost),Female,85 to 89,All causes,greatermanchester,17831.798076353894,20277.870037631557
+YLLs (Years of Life Lost),Female,85 to 89,Breast cancer,greatermanchester,438.00247734327826,20277.870037631557
+YLLs (Years of Life Lost),Female,85 to 89,Cardiovascular diseases,greatermanchester,5768.854439575552,20277.870037631557
+YLLs (Years of Life Lost),Female,85 to 89,Chronic obstructive pulmonary disease,greatermanchester,1277.618048685932,20277.870037631557
+YLLs (Years of Life Lost),Female,85 to 89,Colon and rectum cancer,greatermanchester,427.3729204548065,20277.870037631557
+YLLs (Years of Life Lost),Female,85 to 89,Diabetes mellitus type 2,greatermanchester,130.47159157371044,20277.870037631557
+YLLs (Years of Life Lost),Female,85 to 89,Ischemic heart disease,greatermanchester,2536.8511273930053,20277.870037631557
+YLLs (Years of Life Lost),Female,85 to 89,Liver cancer,greatermanchester,90.2668756963833,20277.870037631557
+YLLs (Years of Life Lost),Female,85 to 89,Lower respiratory infections,greatermanchester,1641.2033913392147,20277.870037631557
+YLLs (Years of Life Lost),Female,85 to 89,Neoplasms,greatermanchester,3085.220156753691,20277.870037631557
+YLLs (Years of Life Lost),Female,85 to 89,Road injuries,greatermanchester,14.422002819924895,20277.870037631557
+YLLs (Years of Life Lost),Female,85 to 89,Stomach cancer,greatermanchester,179.66352098995563,20277.870037631557
+YLLs (Years of Life Lost),Female,85 to 89,Stroke,greatermanchester,1793.8072463373326,20277.870037631557
+YLLs (Years of Life Lost),Female,85 to 89,"Tracheal, bronchus, and lung cancer",greatermanchester,608.4357261859961,20277.870037631557
+YLLs (Years of Life Lost),Female,85 to 89,Uterine cancer,greatermanchester,50.603148803807706,20277.870037631557
+YLLs (Years of Life Lost),Female,90 to 94,All causes,greatermanchester,9721.110660973778,9606.008211800985
+YLLs (Years of Life Lost),Female,90 to 94,Breast cancer,greatermanchester,188.71893596088938,9606.008211800985
+YLLs (Years of Life Lost),Female,90 to 94,Cardiovascular diseases,greatermanchester,3228.628606246639,9606.008211800985
+YLLs (Years of Life Lost),Female,90 to 94,Chronic obstructive pulmonary disease,greatermanchester,620.3981937502813,9606.008211800985
+YLLs (Years of Life Lost),Female,90 to 94,Colon and rectum cancer,greatermanchester,191.3385944324091,9606.008211800985
+YLLs (Years of Life Lost),Female,90 to 94,Diabetes mellitus type 2,greatermanchester,70.09206753490588,9606.008211800985
+YLLs (Years of Life Lost),Female,90 to 94,Ischemic heart disease,greatermanchester,1403.6959965237563,9606.008211800985
+YLLs (Years of Life Lost),Female,90 to 94,Liver cancer,greatermanchester,31.252566900581307,9606.008211800985
+YLLs (Years of Life Lost),Female,90 to 94,Lower respiratory infections,greatermanchester,941.8834150988592,9606.008211800985
+YLLs (Years of Life Lost),Female,90 to 94,Neoplasms,greatermanchester,1217.0720142123428,9606.008211800985
+YLLs (Years of Life Lost),Female,90 to 94,Road injuries,greatermanchester,5.997102556926442,9606.008211800985
+YLLs (Years of Life Lost),Female,90 to 94,Stomach cancer,greatermanchester,81.72469428967518,9606.008211800985
+YLLs (Years of Life Lost),Female,90 to 94,Stroke,greatermanchester,1013.0751913645909,9606.008211800985
+YLLs (Years of Life Lost),Female,90 to 94,"Tracheal, bronchus, and lung cancer",greatermanchester,196.76389875700585,9606.008211800985
+YLLs (Years of Life Lost),Female,90 to 94,Uterine cancer,greatermanchester,17.92330655237258,9606.008211800985
+YLLs (Years of Life Lost),Female,95 to 99,All causes,greatermanchester,2946.045836563806,2897.1143785180425
+YLLs (Years of Life Lost),Female,95 to 99,Breast cancer,greatermanchester,46.57123755410999,2897.1143785180425
+YLLs (Years of Life Lost),Female,95 to 99,Cardiovascular diseases,greatermanchester,998.9029112861047,2897.1143785180425
+YLLs (Years of Life Lost),Female,95 to 99,Chronic obstructive pulmonary disease,greatermanchester,188.68829124790406,2897.1143785180425
+YLLs (Years of Life Lost),Female,95 to 99,Colon and rectum cancer,greatermanchester,44.206934433942116,2897.1143785180425
+YLLs (Years of Life Lost),Female,95 to 99,Diabetes mellitus type 2,greatermanchester,21.631636033119218,2897.1143785180425
+YLLs (Years of Life Lost),Female,95 to 99,Ischemic heart disease,greatermanchester,435.3764162582145,2897.1143785180425
+YLLs (Years of Life Lost),Female,95 to 99,Liver cancer,greatermanchester,6.377228627595708,2897.1143785180425
+YLLs (Years of Life Lost),Female,95 to 99,Lower respiratory infections,greatermanchester,328.4231701134963,2897.1143785180425
+YLLs (Years of Life Lost),Female,95 to 99,Neoplasms,greatermanchester,272.7368757108096,2897.1143785180425
+YLLs (Years of Life Lost),Female,95 to 99,Road injuries,greatermanchester,1.5986319921046466,2897.1143785180425
+YLLs (Years of Life Lost),Female,95 to 99,Stomach cancer,greatermanchester,20.32200169658396,2897.1143785180425
+YLLs (Years of Life Lost),Female,95 to 99,Stroke,greatermanchester,328.17776357962055,2897.1143785180425
+YLLs (Years of Life Lost),Female,95 to 99,"Tracheal, bronchus, and lung cancer",greatermanchester,38.579526481899904,2897.1143785180425
+YLLs (Years of Life Lost),Female,95 to 99,Uterine cancer,greatermanchester,3.5813148843281346,2897.1143785180425
+YLLs (Years of Life Lost),Female,0 to 4,All causes,greatermanchester,7637.962200933429,89600.57145354571
+YLLs (Years of Life Lost),Female,0 to 4,Cardiovascular diseases,greatermanchester,107.96576252866149,89600.57145354571
+YLLs (Years of Life Lost),Female,0 to 4,Chronic obstructive pulmonary disease,greatermanchester,9.664400078210203,89600.57145354571
+YLLs (Years of Life Lost),Female,0 to 4,Lower respiratory infections,greatermanchester,287.00350920277816,89600.57145354571
+YLLs (Years of Life Lost),Female,0 to 4,Neoplasms,greatermanchester,239.52924024098365,89600.57145354571
+YLLs (Years of Life Lost),Female,0 to 4,Road injuries,greatermanchester,47.956397239926254,89600.57145354571
+YLLs (Years of Life Lost),Female,0 to 4,Stroke,greatermanchester,17.443136654868027,89600.57145354571
+YLLs (Years of Life Lost),Male,10 to 14,All causes,greatermanchester,975.2378269477615,88342.23999799935
+YLLs (Years of Life Lost),Male,10 to 14,Cardiovascular diseases,greatermanchester,47.745817466222285,88342.23999799935
+YLLs (Years of Life Lost),Male,10 to 14,Chronic obstructive pulmonary disease,greatermanchester,2.3914796946339765,88342.23999799935
+YLLs (Years of Life Lost),Male,10 to 14,Liver cancer,greatermanchester,5.215508380864153,88342.23999799935
+YLLs (Years of Life Lost),Male,10 to 14,Lower respiratory infections,greatermanchester,28.148798740243663,88342.23999799935
+YLLs (Years of Life Lost),Male,10 to 14,Neoplasms,greatermanchester,237.044375029545,88342.23999799935
+YLLs (Years of Life Lost),Male,10 to 14,Road injuries,greatermanchester,107.16344752578043,88342.23999799935
+YLLs (Years of Life Lost),Male,10 to 14,Stroke,greatermanchester,14.504730898199877,88342.23999799935
+YLLs (Years of Life Lost),Male,15 to 19,All causes,greatermanchester,1877.1761562771658,85116.629333154
+YLLs (Years of Life Lost),Male,15 to 19,Breast cancer,greatermanchester,0.628232036133801,85116.629333154
+YLLs (Years of Life Lost),Male,15 to 19,Cardiovascular diseases,greatermanchester,87.89010795620601,85116.629333154
+YLLs (Years of Life Lost),Male,15 to 19,Chronic obstructive pulmonary disease,greatermanchester,5.148092798480808,85116.629333154
+YLLs (Years of Life Lost),Male,15 to 19,Colon and rectum cancer,greatermanchester,2.7765722380561635,85116.629333154
+YLLs (Years of Life Lost),Male,15 to 19,Diabetes mellitus type 2,greatermanchester,0.62292858520435,85116.629333154
+YLLs (Years of Life Lost),Male,15 to 19,Ischemic heart disease,greatermanchester,7.748142191611581,85116.629333154
+YLLs (Years of Life Lost),Male,15 to 19,Liver cancer,greatermanchester,5.127215325375321,85116.629333154
+YLLs (Years of Life Lost),Male,15 to 19,Lower respiratory infections,greatermanchester,28.427673081472296,85116.629333154
+YLLs (Years of Life Lost),Male,15 to 19,Neoplasms,greatermanchester,231.20193217777938,85116.629333154
+YLLs (Years of Life Lost),Male,15 to 19,Road injuries,greatermanchester,426.5943115782221,85116.629333154
+YLLs (Years of Life Lost),Male,15 to 19,Stomach cancer,greatermanchester,1.228616771624794,85116.629333154
+YLLs (Years of Life Lost),Male,15 to 19,Stroke,greatermanchester,23.22609337093347,85116.629333154
+YLLs (Years of Life Lost),Male,15 to 19,"Tracheal, bronchus, and lung cancer",greatermanchester,0.9798596690456238,85116.629333154
+YLLs (Years of Life Lost),Male,20 to 24,All causes,greatermanchester,2501.5820655100824,96143.85123231384
+YLLs (Years of Life Lost),Male,20 to 24,Breast cancer,greatermanchester,0.5014876278952325,96143.85123231384
+YLLs (Years of Life Lost),Male,20 to 24,Cardiovascular diseases,greatermanchester,121.05989345233746,96143.85123231384
+YLLs (Years of Life Lost),Male,20 to 24,Chronic obstructive pulmonary disease,greatermanchester,5.317491275289837,96143.85123231384
+YLLs (Years of Life Lost),Male,20 to 24,Colon and rectum cancer,greatermanchester,7.583655461949494,96143.85123231384
+YLLs (Years of Life Lost),Male,20 to 24,Diabetes mellitus type 2,greatermanchester,0.9146805628344881,96143.85123231384
+YLLs (Years of Life Lost),Male,20 to 24,Ischemic heart disease,greatermanchester,20.93068618675549,96143.85123231384
+YLLs (Years of Life Lost),Male,20 to 24,Liver cancer,greatermanchester,6.11535878322233,96143.85123231384
+YLLs (Years of Life Lost),Male,20 to 24,Lower respiratory infections,greatermanchester,31.225966665536998,96143.85123231384
+YLLs (Years of Life Lost),Male,20 to 24,Neoplasms,greatermanchester,224.900983529658,96143.85123231384
+YLLs (Years of Life Lost),Male,20 to 24,Road injuries,greatermanchester,466.62050739284837,96143.85123231384
+YLLs (Years of Life Lost),Male,20 to 24,Stomach cancer,greatermanchester,2.5294608764459916,96143.85123231384
+YLLs (Years of Life Lost),Male,20 to 24,Stroke,greatermanchester,32.71722695607163,96143.85123231384
+YLLs (Years of Life Lost),Male,20 to 24,"Tracheal, bronchus, and lung cancer",greatermanchester,3.0359240335511073,96143.85123231384
+YLLs (Years of Life Lost),Male,25 to 29,All causes,greatermanchester,3719.2681143040722,111921.02959934174
+YLLs (Years of Life Lost),Male,25 to 29,Breast cancer,greatermanchester,0.6940720200312142,111921.02959934174
+YLLs (Years of Life Lost),Male,25 to 29,Cardiovascular diseases,greatermanchester,260.49128143902794,111921.02959934174
+YLLs (Years of Life Lost),Male,25 to 29,Chronic obstructive pulmonary disease,greatermanchester,8.10260750954357,111921.02959934174
+YLLs (Years of Life Lost),Male,25 to 29,Colon and rectum cancer,greatermanchester,25.32212506624612,111921.02959934174
+YLLs (Years of Life Lost),Male,25 to 29,Diabetes mellitus type 2,greatermanchester,1.8463942391533483,111921.02959934174
+YLLs (Years of Life Lost),Male,25 to 29,Ischemic heart disease,greatermanchester,78.63572387824065,111921.02959934174
+YLLs (Years of Life Lost),Male,25 to 29,Liver cancer,greatermanchester,12.329501419205183,111921.02959934174
+YLLs (Years of Life Lost),Male,25 to 29,Lower respiratory infections,greatermanchester,60.34175909101995,111921.02959934174
+YLLs (Years of Life Lost),Male,25 to 29,Neoplasms,greatermanchester,379.10426431910116,111921.02959934174
+YLLs (Years of Life Lost),Male,25 to 29,Road injuries,greatermanchester,423.7074411601483,111921.02959934174
+YLLs (Years of Life Lost),Male,25 to 29,Stomach cancer,greatermanchester,8.615115155138165,111921.02959934174
+YLLs (Years of Life Lost),Male,25 to 29,Stroke,greatermanchester,64.26542332432987,111921.02959934174
+YLLs (Years of Life Lost),Male,25 to 29,"Tracheal, bronchus, and lung cancer",greatermanchester,8.693148648370881,111921.02959934174
+YLLs (Years of Life Lost),Male,30 to 34,All causes,greatermanchester,4198.782182763198,109415.6651003377
+YLLs (Years of Life Lost),Male,30 to 34,Breast cancer,greatermanchester,0.9814858015972113,109415.6651003377
+YLLs (Years of Life Lost),Male,30 to 34,Cardiovascular diseases,greatermanchester,433.51164865755777,109415.6651003377
+YLLs (Years of Life Lost),Male,30 to 34,Chronic obstructive pulmonary disease,greatermanchester,12.014451473551102,109415.6651003377
+YLLs (Years of Life Lost),Male,30 to 34,Colon and rectum cancer,greatermanchester,54.674512839494554,109415.6651003377
+YLLs (Years of Life Lost),Male,30 to 34,Diabetes mellitus type 2,greatermanchester,6.999859453537759,109415.6651003377
+YLLs (Years of Life Lost),Male,30 to 34,Ischemic heart disease,greatermanchester,181.27048749447647,109415.6651003377
+YLLs (Years of Life Lost),Male,30 to 34,Liver cancer,greatermanchester,20.044259489939822,109415.6651003377
+YLLs (Years of Life Lost),Male,30 to 34,Lower respiratory infections,greatermanchester,84.09378354154464,109415.6651003377
+YLLs (Years of Life Lost),Male,30 to 34,Neoplasms,greatermanchester,506.7913738688432,109415.6651003377
+YLLs (Years of Life Lost),Male,30 to 34,Road injuries,greatermanchester,279.2070346868771,109415.6651003377
+YLLs (Years of Life Lost),Male,30 to 34,Stomach cancer,greatermanchester,19.99995891525225,109415.6651003377
+YLLs (Years of Life Lost),Male,30 to 34,Stroke,greatermanchester,94.59371231340066,109415.6651003377
+YLLs (Years of Life Lost),Male,30 to 34,"Tracheal, bronchus, and lung cancer",greatermanchester,25.397809186902766,109415.6651003377
+YLLs (Years of Life Lost),Male,35 to 39,All causes,greatermanchester,5381.923226797498,100915.76309575482
+YLLs (Years of Life Lost),Male,35 to 39,Breast cancer,greatermanchester,2.319384573103215,100915.76309575482
+YLLs (Years of Life Lost),Male,35 to 39,Cardiovascular diseases,greatermanchester,793.5170759159187,100915.76309575482
+YLLs (Years of Life Lost),Male,35 to 39,Chronic obstructive pulmonary disease,greatermanchester,28.183118511869004,100915.76309575482
+YLLs (Years of Life Lost),Male,35 to 39,Colon and rectum cancer,greatermanchester,93.45018843324306,100915.76309575482
+YLLs (Years of Life Lost),Male,35 to 39,Diabetes mellitus type 2,greatermanchester,10.251620540309501,100915.76309575482
+YLLs (Years of Life Lost),Male,35 to 39,Ischemic heart disease,greatermanchester,411.22395548178025,100915.76309575482
+YLLs (Years of Life Lost),Male,35 to 39,Liver cancer,greatermanchester,25.13714836655657,100915.76309575482
+YLLs (Years of Life Lost),Male,35 to 39,Lower respiratory infections,greatermanchester,125.35040351843806,100915.76309575482
+YLLs (Years of Life Lost),Male,35 to 39,Neoplasms,greatermanchester,797.332748684999,100915.76309575482
+YLLs (Years of Life Lost),Male,35 to 39,Road injuries,greatermanchester,220.65818479791113,100915.76309575482
+YLLs (Years of Life Lost),Male,35 to 39,Stomach cancer,greatermanchester,41.32270591387761,100915.76309575482
+YLLs (Years of Life Lost),Male,35 to 39,Stroke,greatermanchester,155.74437931302612,100915.76309575482
+YLLs (Years of Life Lost),Male,35 to 39,"Tracheal, bronchus, and lung cancer",greatermanchester,73.99532359015811,100915.76309575482
+YLLs (Years of Life Lost),Male,40 to 44,All causes,greatermanchester,7784.4437898406,90174.4839650339
+YLLs (Years of Life Lost),Male,40 to 44,Breast cancer,greatermanchester,4.18744909503083,90174.4839650339
+YLLs (Years of Life Lost),Male,40 to 44,Cardiovascular diseases,greatermanchester,1617.7333357154607,90174.4839650339
+YLLs (Years of Life Lost),Male,40 to 44,Chronic obstructive pulmonary disease,greatermanchester,84.84504707709807,90174.4839650339
+YLLs (Years of Life Lost),Male,40 to 44,Colon and rectum cancer,greatermanchester,167.50903105974288,90174.4839650339
+YLLs (Years of Life Lost),Male,40 to 44,Diabetes mellitus type 2,greatermanchester,16.18576067242113,90174.4839650339
+YLLs (Years of Life Lost),Male,40 to 44,Ischemic heart disease,greatermanchester,948.4583460081681,90174.4839650339
+YLLs (Years of Life Lost),Male,40 to 44,Liver cancer,greatermanchester,52.552818760177956,90174.4839650339
+YLLs (Years of Life Lost),Male,40 to 44,Lower respiratory infections,greatermanchester,196.46480617238004,90174.4839650339
+YLLs (Years of Life Lost),Male,40 to 44,Neoplasms,greatermanchester,1466.3143906881444,90174.4839650339
+YLLs (Years of Life Lost),Male,40 to 44,Road injuries,greatermanchester,204.41846303183763,90174.4839650339
+YLLs (Years of Life Lost),Male,40 to 44,Stomach cancer,greatermanchester,79.49118932650562,90174.4839650339
+YLLs (Years of Life Lost),Male,40 to 44,Stroke,greatermanchester,277.1301664670068,90174.4839650339
+YLLs (Years of Life Lost),Male,40 to 44,"Tracheal, bronchus, and lung cancer",greatermanchester,212.46030026450444,90174.4839650339
+YLLs (Years of Life Lost),Male,45 to 49,All causes,greatermanchester,11971.770655482096,99051.96696778103
+YLLs (Years of Life Lost),Male,45 to 49,Breast cancer,greatermanchester,7.660420840151627,99051.96696778103
+YLLs (Years of Life Lost),Male,45 to 49,Cardiovascular diseases,greatermanchester,3051.6621125915926,99051.96696778103
+YLLs (Years of Life Lost),Male,45 to 49,Chronic obstructive pulmonary disease,greatermanchester,196.3796535304646,99051.96696778103
+YLLs (Years of Life Lost),Male,45 to 49,Colon and rectum cancer,greatermanchester,342.4153384078731,99051.96696778103
+YLLs (Years of Life Lost),Male,45 to 49,Diabetes mellitus type 2,greatermanchester,64.10126840487004,99051.96696778103
+YLLs (Years of Life Lost),Male,45 to 49,Ischemic heart disease,greatermanchester,1965.006661102458,99051.96696778103
+YLLs (Years of Life Lost),Male,45 to 49,Liver cancer,greatermanchester,118.99015074591817,99051.96696778103
+YLLs (Years of Life Lost),Male,45 to 49,Lower respiratory infections,greatermanchester,321.52199054714004,99051.96696778103
+YLLs (Years of Life Lost),Male,45 to 49,Neoplasms,greatermanchester,3039.5184512204114,99051.96696778103
+YLLs (Years of Life Lost),Male,45 to 49,Road injuries,greatermanchester,198.4637400217909,99051.96696778103
+YLLs (Years of Life Lost),Male,45 to 49,Stomach cancer,greatermanchester,163.2766966611503,99051.96696778103
+YLLs (Years of Life Lost),Male,45 to 49,Stroke,greatermanchester,469.41151202559394,99051.96696778103
+YLLs (Years of Life Lost),Male,45 to 49,"Tracheal, bronchus, and lung cancer",greatermanchester,579.2079934630787,99051.96696778103
+YLLs (Years of Life Lost),Male,5 to 9,All causes,greatermanchester,539.632491880452,97981.4912288598
+YLLs (Years of Life Lost),Male,5 to 9,Cardiovascular diseases,greatermanchester,17.310958854341727,97981.4912288598
+YLLs (Years of Life Lost),Male,5 to 9,Chronic obstructive pulmonary disease,greatermanchester,1.4766282274599023,97981.4912288598
+YLLs (Years of Life Lost),Male,5 to 9,Liver cancer,greatermanchester,2.72933191751449,97981.4912288598
+YLLs (Years of Life Lost),Male,5 to 9,Lower respiratory infections,greatermanchester,22.583263526478266,97981.4912288598
+YLLs (Years of Life Lost),Male,5 to 9,Neoplasms,greatermanchester,171.73623664134362,97981.4912288598
+YLLs (Years of Life Lost),Male,5 to 9,Road injuries,greatermanchester,41.698692790786005,97981.4912288598
+YLLs (Years of Life Lost),Male,5 to 9,Stroke,greatermanchester,5.180630869570384,97981.4912288598
+YLLs (Years of Life Lost),Male,50 to 54,All causes,greatermanchester,14776.316314677551,97394.61057162583
+YLLs (Years of Life Lost),Male,50 to 54,Breast cancer,greatermanchester,11.479931702803173,97394.61057162583
+YLLs (Years of Life Lost),Male,50 to 54,Cardiovascular diseases,greatermanchester,4189.259395869513,97394.61057162583
+YLLs (Years of Life Lost),Male,50 to 54,Chronic obstructive pulmonary disease,greatermanchester,374.49549118266634,97394.61057162583
+YLLs (Years of Life Lost),Male,50 to 54,Colon and rectum cancer,greatermanchester,543.8516088151077,97394.61057162583
+YLLs (Years of Life Lost),Male,50 to 54,Diabetes mellitus type 2,greatermanchester,73.82925800998004,97394.61057162583
+YLLs (Years of Life Lost),Male,50 to 54,Ischemic heart disease,greatermanchester,2852.1075474385966,97394.61057162583
+YLLs (Years of Life Lost),Male,50 to 54,Liver cancer,greatermanchester,199.53176272783975,97394.61057162583
+YLLs (Years of Life Lost),Male,50 to 54,Lower respiratory infections,greatermanchester,404.9387447064554,97394.61057162583
+YLLs (Years of Life Lost),Male,50 to 54,Neoplasms,greatermanchester,4819.969832724087,97394.61057162583
+YLLs (Years of Life Lost),Male,50 to 54,Road injuries,greatermanchester,161.04061874755968,97394.61057162583
+YLLs (Years of Life Lost),Male,50 to 54,Stomach cancer,greatermanchester,237.9861879676657,97394.61057162583
+YLLs (Years of Life Lost),Male,50 to 54,Stroke,greatermanchester,583.5994625166113,97394.61057162583
+YLLs (Years of Life Lost),Male,50 to 54,"Tracheal, bronchus, and lung cancer",greatermanchester,1080.8081927188352,97394.61057162583
+YLLs (Years of Life Lost),Male,55 to 59,All causes,greatermanchester,17329.80646168147,83458.5336787702
+YLLs (Years of Life Lost),Male,55 to 59,Breast cancer,greatermanchester,15.057091316512388,83458.5336787702
+YLLs (Years of Life Lost),Male,55 to 59,Cardiovascular diseases,greatermanchester,5090.132138080261,83458.5336787702
+YLLs (Years of Life Lost),Male,55 to 59,Chronic obstructive pulmonary disease,greatermanchester,639.4690720344206,83458.5336787702
+YLLs (Years of Life Lost),Male,55 to 59,Colon and rectum cancer,greatermanchester,744.5899662116594,83458.5336787702
+YLLs (Years of Life Lost),Male,55 to 59,Diabetes mellitus type 2,greatermanchester,86.17269054048282,83458.5336787702
+YLLs (Years of Life Lost),Male,55 to 59,Ischemic heart disease,greatermanchester,3522.480817524883,83458.5336787702
+YLLs (Years of Life Lost),Male,55 to 59,Liver cancer,greatermanchester,281.012156246181,83458.5336787702
+YLLs (Years of Life Lost),Male,55 to 59,Lower respiratory infections,greatermanchester,446.0539380357341,83458.5336787702
+YLLs (Years of Life Lost),Male,55 to 59,Neoplasms,greatermanchester,6767.671148618063,83458.5336787702
+YLLs (Years of Life Lost),Male,55 to 59,Road injuries,greatermanchester,118.94622834401198,83458.5336787702
+YLLs (Years of Life Lost),Male,55 to 59,Stomach cancer,greatermanchester,313.2362468942062,83458.5336787702
+YLLs (Years of Life Lost),Male,55 to 59,Stroke,greatermanchester,670.4970635212113,83458.5336787702
+YLLs (Years of Life Lost),Male,55 to 59,"Tracheal, bronchus, and lung cancer",greatermanchester,1743.602014274107,83458.5336787702
+YLLs (Years of Life Lost),Male,60 to 64,All causes,greatermanchester,19725.890847771378,69163.51958105898
+YLLs (Years of Life Lost),Male,60 to 64,Breast cancer,greatermanchester,19.773778778189943,69163.51958105898
+YLLs (Years of Life Lost),Male,60 to 64,Cardiovascular diseases,greatermanchester,5807.427905285641,69163.51958105898
+YLLs (Years of Life Lost),Male,60 to 64,Chronic obstructive pulmonary disease,greatermanchester,1162.4869874057122,69163.51958105898
+YLLs (Years of Life Lost),Male,60 to 64,Colon and rectum cancer,greatermanchester,918.4873164978495,69163.51958105898
+YLLs (Years of Life Lost),Male,60 to 64,Diabetes mellitus type 2,greatermanchester,114.62858416842599,69163.51958105898
+YLLs (Years of Life Lost),Male,60 to 64,Ischemic heart disease,greatermanchester,3950.57149419689,69163.51958105898
+YLLs (Years of Life Lost),Male,60 to 64,Liver cancer,greatermanchester,323.98428421593593,69163.51958105898
+YLLs (Years of Life Lost),Male,60 to 64,Lower respiratory infections,greatermanchester,525.4978585499193,69163.51958105898
+YLLs (Years of Life Lost),Male,60 to 64,Neoplasms,greatermanchester,8385.83069902276,69163.51958105898
+YLLs (Years of Life Lost),Male,60 to 64,Road injuries,greatermanchester,84.57374825304069,69163.51958105898
+YLLs (Years of Life Lost),Male,60 to 64,Stomach cancer,greatermanchester,379.56230932248974,69163.51958105898
+YLLs (Years of Life Lost),Male,60 to 64,Stroke,greatermanchester,792.9247268487723,69163.51958105898
+YLLs (Years of Life Lost),Male,60 to 64,"Tracheal, bronchus, and lung cancer",greatermanchester,2374.389588998223,69163.51958105898
+YLLs (Years of Life Lost),Male,65 to 69,All causes,greatermanchester,25949.225497431307,66951.12986308569
+YLLs (Years of Life Lost),Male,65 to 69,Breast cancer,greatermanchester,26.09532017410703,66951.12986308569
+YLLs (Years of Life Lost),Male,65 to 69,Cardiovascular diseases,greatermanchester,7651.492571425911,66951.12986308569
+YLLs (Years of Life Lost),Male,65 to 69,Chronic obstructive pulmonary disease,greatermanchester,1850.5834009327957,66951.12986308569
+YLLs (Years of Life Lost),Male,65 to 69,Colon and rectum cancer,greatermanchester,1196.451685569717,66951.12986308569
+YLLs (Years of Life Lost),Male,65 to 69,Diabetes mellitus type 2,greatermanchester,157.48703352079576,66951.12986308569
+YLLs (Years of Life Lost),Male,65 to 69,Ischemic heart disease,greatermanchester,5019.701495207274,66951.12986308569
+YLLs (Years of Life Lost),Male,65 to 69,Liver cancer,greatermanchester,422.6905662727485,66951.12986308569
+YLLs (Years of Life Lost),Male,65 to 69,Lower respiratory infections,greatermanchester,748.8334577032847,66951.12986308569
+YLLs (Years of Life Lost),Male,65 to 69,Neoplasms,greatermanchester,11291.3146081243,66951.12986308569
+YLLs (Years of Life Lost),Male,65 to 69,Road injuries,greatermanchester,75.05858858811962,66951.12986308569
+YLLs (Years of Life Lost),Male,65 to 69,Stomach cancer,greatermanchester,530.5788541501639,66951.12986308569
+YLLs (Years of Life Lost),Male,65 to 69,Stroke,greatermanchester,1171.7243146730445,66951.12986308569
+YLLs (Years of Life Lost),Male,65 to 69,"Tracheal, bronchus, and lung cancer",greatermanchester,3357.446443960548,66951.12986308569
+YLLs (Years of Life Lost),Male,70 to 74,All causes,greatermanchester,26614.35341990515,53182.1053228131
+YLLs (Years of Life Lost),Male,70 to 74,Breast cancer,greatermanchester,25.9788313244654,53182.1053228131
+YLLs (Years of Life Lost),Male,70 to 74,Cardiovascular diseases,greatermanchester,8090.911756969501,53182.1053228131
+YLLs (Years of Life Lost),Male,70 to 74,Chronic obstructive pulmonary disease,greatermanchester,2289.49711722078,53182.1053228131
+YLLs (Years of Life Lost),Male,70 to 74,Colon and rectum cancer,greatermanchester,1145.8111701634302,53182.1053228131
+YLLs (Years of Life Lost),Male,70 to 74,Diabetes mellitus type 2,greatermanchester,176.493640017861,53182.1053228131
+YLLs (Years of Life Lost),Male,70 to 74,Ischemic heart disease,greatermanchester,4966.28052501602,53182.1053228131
+YLLs (Years of Life Lost),Male,70 to 74,Liver cancer,greatermanchester,371.950206791291,53182.1053228131
+YLLs (Years of Life Lost),Male,70 to 74,Lower respiratory infections,greatermanchester,929.5248054216715,53182.1053228131
+YLLs (Years of Life Lost),Male,70 to 74,Neoplasms,greatermanchester,10812.714681782749,53182.1053228131
+YLLs (Years of Life Lost),Male,70 to 74,Road injuries,greatermanchester,55.43757941492038,53182.1053228131
+YLLs (Years of Life Lost),Male,70 to 74,Stomach cancer,greatermanchester,550.468036314166,53182.1053228131
+YLLs (Years of Life Lost),Male,70 to 74,Stroke,greatermanchester,1511.449296566901,53182.1053228131
+YLLs (Years of Life Lost),Male,70 to 74,"Tracheal, bronchus, and lung cancer",greatermanchester,3201.6587432225533,53182.1053228131
+YLLs (Years of Life Lost),Male,75 to 79,All causes,greatermanchester,24706.803612047363,36865.115065251
+YLLs (Years of Life Lost),Male,75 to 79,Breast cancer,greatermanchester,19.963654975306167,36865.115065251
+YLLs (Years of Life Lost),Male,75 to 79,Cardiovascular diseases,greatermanchester,7785.754817443005,36865.115065251
+YLLs (Years of Life Lost),Male,75 to 79,Chronic obstructive pulmonary disease,greatermanchester,2196.577136563639,36865.115065251
+YLLs (Years of Life Lost),Male,75 to 79,Colon and rectum cancer,greatermanchester,951.9016283506287,36865.115065251
+YLLs (Years of Life Lost),Male,75 to 79,Diabetes mellitus type 2,greatermanchester,176.13655094073087,36865.115065251
+YLLs (Years of Life Lost),Male,75 to 79,Ischemic heart disease,greatermanchester,4567.579982650969,36865.115065251
+YLLs (Years of Life Lost),Male,75 to 79,Liver cancer,greatermanchester,273.8404999329599,36865.115065251
+YLLs (Years of Life Lost),Male,75 to 79,Lower respiratory infections,greatermanchester,1111.9426300602179,36865.115065251
+YLLs (Years of Life Lost),Male,75 to 79,Neoplasms,greatermanchester,8735.690969760506,36865.115065251
+YLLs (Years of Life Lost),Male,75 to 79,Road injuries,greatermanchester,42.443050714886645,36865.115065251
+YLLs (Years of Life Lost),Male,75 to 79,Stomach cancer,greatermanchester,510.5659593094269,36865.115065251
+YLLs (Years of Life Lost),Male,75 to 79,Stroke,greatermanchester,1664.41992501484,36865.115065251
+YLLs (Years of Life Lost),Male,75 to 79,"Tracheal, bronchus, and lung cancer",greatermanchester,2376.6276191214074,36865.115065251
+YLLs (Years of Life Lost),Male,80 to 84,All causes,greatermanchester,21316.695487441586,24556.18550616176
+YLLs (Years of Life Lost),Male,80 to 84,Breast cancer,greatermanchester,14.017154902409967,24556.18550616176
+YLLs (Years of Life Lost),Male,80 to 84,Cardiovascular diseases,greatermanchester,6888.654645732258,24556.18550616176
+YLLs (Years of Life Lost),Male,80 to 84,Chronic obstructive pulmonary disease,greatermanchester,1860.313012579541,24556.18550616176
+YLLs (Years of Life Lost),Male,80 to 84,Colon and rectum cancer,greatermanchester,717.9758027223371,24556.18550616176
+YLLs (Years of Life Lost),Male,80 to 84,Diabetes mellitus type 2,greatermanchester,158.3902318032101,24556.18550616176
+YLLs (Years of Life Lost),Male,80 to 84,Ischemic heart disease,greatermanchester,3859.882963534582,24556.18550616176
+YLLs (Years of Life Lost),Male,80 to 84,Liver cancer,greatermanchester,168.6044538558364,24556.18550616176
+YLLs (Years of Life Lost),Male,80 to 84,Lower respiratory infections,greatermanchester,1324.3602497479162,24556.18550616176
+YLLs (Years of Life Lost),Male,80 to 84,Neoplasms,greatermanchester,6218.502083841866,24556.18550616176
+YLLs (Years of Life Lost),Male,80 to 84,Road injuries,greatermanchester,30.402600180723788,24556.18550616176
+YLLs (Years of Life Lost),Male,80 to 84,Stomach cancer,greatermanchester,381.3346518941852,24556.18550616176
+YLLs (Years of Life Lost),Male,80 to 84,Stroke,greatermanchester,1659.8703096404784,24556.18550616176
+YLLs (Years of Life Lost),Male,80 to 84,"Tracheal, bronchus, and lung cancer",greatermanchester,1487.2126416093774,24556.18550616176
+YLLs (Years of Life Lost),Male,85 to 89,All causes,greatermanchester,13346.827933598513,12320.18063940023
+YLLs (Years of Life Lost),Male,85 to 89,Breast cancer,greatermanchester,7.1283877909787465,12320.18063940023
+YLLs (Years of Life Lost),Male,85 to 89,Cardiovascular diseases,greatermanchester,4255.0631690125765,12320.18063940023
+YLLs (Years of Life Lost),Male,85 to 89,Chronic obstructive pulmonary disease,greatermanchester,1109.5353918617488,12320.18063940023
+YLLs (Years of Life Lost),Male,85 to 89,Colon and rectum cancer,greatermanchester,371.7526712091708,12320.18063940023
+YLLs (Years of Life Lost),Male,85 to 89,Diabetes mellitus type 2,greatermanchester,98.46984331892874,12320.18063940023
+YLLs (Years of Life Lost),Male,85 to 89,Ischemic heart disease,greatermanchester,2234.1904206862123,12320.18063940023
+YLLs (Years of Life Lost),Male,85 to 89,Liver cancer,greatermanchester,72.41449966058363,12320.18063940023
+YLLs (Years of Life Lost),Male,85 to 89,Lower respiratory infections,greatermanchester,1216.960674852256,12320.18063940023
+YLLs (Years of Life Lost),Male,85 to 89,Neoplasms,greatermanchester,3121.7864921738724,12320.18063940023
+YLLs (Years of Life Lost),Male,85 to 89,Road injuries,greatermanchester,14.607408746883324,12320.18063940023
+YLLs (Years of Life Lost),Male,85 to 89,Stomach cancer,greatermanchester,185.1674823040783,12320.18063940023
+YLLs (Years of Life Lost),Male,85 to 89,Stroke,greatermanchester,1143.0975971301912,12320.18063940023
+YLLs (Years of Life Lost),Male,85 to 89,"Tracheal, bronchus, and lung cancer",greatermanchester,654.6541103710567,12320.18063940023
+YLLs (Years of Life Lost),Male,90 to 94,All causes,greatermanchester,5237.317784651239,4668.567345081475
+YLLs (Years of Life Lost),Male,90 to 94,Breast cancer,greatermanchester,2.777131793463959,4668.567345081475
+YLLs (Years of Life Lost),Male,90 to 94,Cardiovascular diseases,greatermanchester,1748.1190908790948,4668.567345081475
+YLLs (Years of Life Lost),Male,90 to 94,Chronic obstructive pulmonary disease,greatermanchester,417.5520982884829,4668.567345081475
+YLLs (Years of Life Lost),Male,90 to 94,Colon and rectum cancer,greatermanchester,119.53844174486244,4668.567345081475
+YLLs (Years of Life Lost),Male,90 to 94,Diabetes mellitus type 2,greatermanchester,40.348834746165785,4668.567345081475
+YLLs (Years of Life Lost),Male,90 to 94,Ischemic heart disease,greatermanchester,912.4365706471266,4668.567345081475
+YLLs (Years of Life Lost),Male,90 to 94,Liver cancer,greatermanchester,17.769785071586583,4668.567345081475
+YLLs (Years of Life Lost),Male,90 to 94,Lower respiratory infections,greatermanchester,524.7782950190159,4668.567345081475
+YLLs (Years of Life Lost),Male,90 to 94,Neoplasms,greatermanchester,941.4382233723651,4668.567345081475
+YLLs (Years of Life Lost),Male,90 to 94,Road injuries,greatermanchester,4.614368257537594,4668.567345081475
+YLLs (Years of Life Lost),Male,90 to 94,Stomach cancer,greatermanchester,60.99082935138498,4668.567345081475
+YLLs (Years of Life Lost),Male,90 to 94,Stroke,greatermanchester,489.5810919079187,4668.567345081475
+YLLs (Years of Life Lost),Male,90 to 94,"Tracheal, bronchus, and lung cancer",greatermanchester,152.70038087824352,4668.567345081475
+YLLs (Years of Life Lost),Male,95 to 99,All causes,greatermanchester,910.4256417723784,887.5400766696275
+YLLs (Years of Life Lost),Male,95 to 99,Breast cancer,greatermanchester,0.5063045081287361,887.5400766696275
+YLLs (Years of Life Lost),Male,95 to 99,Cardiovascular diseases,greatermanchester,320.5265412068818,887.5400766696275
+YLLs (Years of Life Lost),Male,95 to 99,Chronic obstructive pulmonary disease,greatermanchester,71.6739698510023,887.5400766696275
+YLLs (Years of Life Lost),Male,95 to 99,Colon and rectum cancer,greatermanchester,15.999222130988949,887.5400766696275
+YLLs (Years of Life Lost),Male,95 to 99,Diabetes mellitus type 2,greatermanchester,7.481509387768259,887.5400766696275
+YLLs (Years of Life Lost),Male,95 to 99,Ischemic heart disease,greatermanchester,166.0005876844221,887.5400766696275
+YLLs (Years of Life Lost),Male,95 to 99,Liver cancer,greatermanchester,2.0293709617706472,887.5400766696275
+YLLs (Years of Life Lost),Male,95 to 99,Lower respiratory infections,greatermanchester,108.28580406668604,887.5400766696275
+YLLs (Years of Life Lost),Male,95 to 99,Neoplasms,greatermanchester,124.90832093346725,887.5400766696275
+YLLs (Years of Life Lost),Male,95 to 99,Road injuries,greatermanchester,0.7470738884010206,887.5400766696275
+YLLs (Years of Life Lost),Male,95 to 99,Stomach cancer,greatermanchester,9.121126858062722,887.5400766696275
+YLLs (Years of Life Lost),Male,95 to 99,Stroke,greatermanchester,95.28535053305144,887.5400766696275
+YLLs (Years of Life Lost),Male,95 to 99,"Tracheal, bronchus, and lung cancer",greatermanchester,15.572295438547313,887.5400766696275
+YLLs (Years of Life Lost),Male,0 to 4,All causes,greatermanchester,9710.428565440438,94114.22309154739
+YLLs (Years of Life Lost),Male,0 to 4,Cardiovascular diseases,greatermanchester,121.99223840340281,94114.22309154739
+YLLs (Years of Life Lost),Male,0 to 4,Chronic obstructive pulmonary disease,greatermanchester,5.536462544692229,94114.22309154739
+YLLs (Years of Life Lost),Male,0 to 4,Lower respiratory infections,greatermanchester,365.7220868800859,94114.22309154739
+YLLs (Years of Life Lost),Male,0 to 4,Neoplasms,greatermanchester,244.5083777819413,94114.22309154739
+YLLs (Years of Life Lost),Male,0 to 4,Road injuries,greatermanchester,50.88877736502357,94114.22309154739
+YLLs (Years of Life Lost),Male,0 to 4,Stroke,greatermanchester,19.6272734065433,94114.22309154739
