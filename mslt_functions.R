@@ -25,239 +25,99 @@
 
 # ---- Functions ----
 
-# SortGbdInput, RunLocDf, RunLifeTable, RunDisease, RunPif, RunOutput run_life_table, run_disease, run_pif (temp), run_output 
+# ---- Data preparation mslt ----
 
-# ---- Sort.Gbd.Input ----
-#' @export
-SortGbdInput <- function(in_data, in_year, in_locality) {
-  data <- in_data[which(in_data$year== in_year & in_data$location == in_locality),]
-
-}
-
-## Selects year and localities from GBD data frame dowloaded from: http://ghdx.healthdata.org/gbd-results-tool
-
-# --- RunLocDf ----
-#' @export
-RunLocDf <- function(i_data) {
-  
-  gbd_df <- NULL 
-  
-  
-  for (ag in 1:length(unique(i_data$age))){
-    for (gender in c("Male", "Female")){
-      age_sex_df <- NULL
-      for (dm in 1:length(disease_measures_list)){
-        for (d in 1:nrow(disease_short_names)){
-          dn <- disease_short_names$disease[d]
-          dmeasure <- disease_measures_list[dm] %>% as.character()
-          # gender <- "Male"
-          
-          agroup <- unique(i_data$age)[ag]
-          
-          idf <- filter(i_data, sex == gender & age == agroup & measure == dmeasure & cause == dn) 
-        
-          
-          
-          if (nrow(idf) > 0){
-            
-            population_numbers <- filter(idf, metric == "Number") %>% dplyr::select("val")
-            
-            idf_rate <- filter(idf, metric == "Rate") %>% dplyr::select("val") 
-            
-            current_idf_rate <- idf_rate
-            
-            current_population_numbers <- population_numbers
-            
-            
-            idf$population_number <- 0
-            
-            if (idf_rate$val != 0 && population_numbers$val != 0)
-              idf$population_number <- (100000 * population_numbers$val) / idf_rate$val
-            
-            else{
-              
-              current_idf_rate <- idf_rate
-              
-              current_population_numbers <- population_numbers
-              
-              idf <- filter(i_data, sex == gender & age == agroup & measure == dmeasure & val > 0) 
-              
-              idf <- filter(idf, cause == unique(idf$cause)[1])
-              
-              idf$cause <- dn
-              
-              population_numbers <- filter(idf, metric == "Number") %>% dplyr::select("val")
-              
-              idf_rate <- filter(idf, metric == "Rate") %>% dplyr::select("val") 
-              
-              # browser()
-              
-              idf$population_number <- 0
-              
-              if (idf_rate$val != 0 && population_numbers$val != 0)
-                idf$population_number <- (100000 * population_numbers$val) / idf_rate$val
-              
-            }
-            
-            # if (is.nan(idf$population_number)){
-            #   browser()
-            # }
-            
-            idf$rate_per_1 <- round(current_idf_rate$val / 100000, 6)
-            
-            
-            idf[[tolower(paste(dmeasure, "rate", disease_short_names$sname[d], sep = "_"))]] <- idf$rate_per_1
-            
-            idf[[tolower(paste(dmeasure, "number", disease_short_names$sname[d], sep = "_"))]] <- current_population_numbers$val
-            
-            #print(unique(i_data$age)[ag])
-            #print(gender)
-            
-            # if (ag == "Under 5" && gender == "Female"){
-            #   browser()
-            # }
-            #idf$rate_per_1 <- NULL
-            
-            idf <- filter(idf, metric == "Number")
-            
-            if (is.null(age_sex_df)){
-              #browser()
-              # print("if")
-              # print(names(idf)[ncol(idf) - 1])
-              # print(names(idf)[ncol(idf)])
-              age_sex_df <- dplyr::select(idf, age, sex, population_number, location, names(idf)[ncol(idf) - 1] , names(idf)[ncol(idf)])
-            }
-            else{
-              #browser()
-              # print("else")
-              # print(names(idf)[ncol(idf) - 1])
-              # print(names(idf)[ncol(idf)])
-              
-              age_sex_df <- cbind(age_sex_df, dplyr::select(idf, names(idf)[ncol(idf) - 1] , names(idf)[ncol(idf)]))
-            }
-            
-          }
-          
-          # age_range <- years %>% str_match_all("[0-9]+") %>% unlist %>% as.numeric
-          
-        }
-      }
-      
-      # browser()
-      
-      if (is.null(gbd_df)){
-        # browser()
-        gbd_df <- age_sex_df
-      }
-      else{
-        # browser()
-        age_sex_df[setdiff(names(gbd_df), names(age_sex_df))] <- 0
-        gbd_df[setdiff(names(age_sex_df), names(gbd_df))] <- 0
-        
-        gbd_df <- rbind(gbd_df, age_sex_df)
-        
-        
-      }
-    }
-  }
-  return(gbd_df)
-}
-
-
-# --- InterFunc --- (Belen: within data preparation, if not in data preparation interpolation code, it does not work)
-
-### Embeded in loop
-
-# InterFunc <- stats::splinefun(x, y, method = "monoH.FC", ties = mean)
-
-# --- IsNanDataFrame ---
-#' @export
-IsNanDataFrame <- function(x)
-  do.call(cbind, lapply(x, is.nan))
-
-# --- IsInfDataFrame ---
-#' @export
-IsInfDataFrame <- function(x)
-  do.call(cbind, lapply(x, is.infinite))
-
-
-
-## Sorts out each locality data frame into a list with column names for age, sex, and each cause and disease combination and calculates population numbers.
 
 # ---- RunLifeTable ----
 
-#####Function to generate age and sex life tables. The function is then use in the model.R script
-#####to calculate variables for the baseline and scenario life tables. 
 #' @export
-RunLifeTable <- function(in_idata, in_sex, in_mid_age)
-{
+## Function to generate age and sex life table for baseline and scenario.
+
+# mx:        mortality
+# pyld_rate: person-years lived with a disability rate
+# qx:        probability of dying
+# lx:        number of survivors year 1 simulation
+# dx:        number died in year 1 simulation
+# Lx:        number of persons lived by cohort to age x + 1/2 (average people)
+# ex:        life expectancy
+# Lwx:       health adjusted life years
+# ewx:       health adjusted life expectancy
+
+RunLifeTable <- function(in_idata, in_sex, in_mid_age, death_rates=NA) {
+  # in_idata=mslt_df
+  # in_sex='male'
+  # in_mid_age=17
   
-  # Create a life table data frame
+  # Create a life table starting data frame from input data. 
+  lf_df <- in_idata %>%
+    dplyr::filter(age >= in_mid_age & sex == in_sex) %>%
+    dplyr::select('sex', 'age', 'pyld_rate', 'mx')
   
-  # Filter in_idata by age and dplyr::select columns for lifetable calculations
-  #lf_df <- filter(in_idata, age >= in_mid_age & sex == in_sex) %>% dplyr::select(sex, age, pyld_rate, mx)
-  lf_df <- in_idata[in_idata$age >= in_mid_age & in_idata$sex == in_sex,] 
-  lf_df <- lf_df[,colnames(lf_df)%in%c('sex', 'age', 'pyld_rate', 'mx')]
-  #col_names <- c('sex','age','pyld_rate','mx')
-  #lf_df <- lf_df[,colnames(lf_df)%in%col_names]
+  # are we using modified mortality rates?
+  if(is.data.frame(death_rates)) {
+    # filter to only this cohort's death rates
+    cohort_death_rates <- death_rates %>%
+      dplyr::filter(age_cohort == in_mid_age & sex == in_sex) %>%
+      dplyr::select(age,sex,rate)
+    # join to lf_df and replace mx with the new mortality data
+    lf_df <- lf_df %>%
+      dplyr::inner_join(cohort_death_rates, by=c('age','sex')) %>%
+      dplyr::select(sex, age, pyld_rate, mx=rate)
+  }
   
-  # Create list of required columns (variables)
+  
+  # Create list life table variables. First as vector and then added to the data frame at the end.
+  ## We model up to 100, that is the reason for the age limit in the function
   
   # probability of dying
-  #lf_df$qx <-  ifelse(lf_df$age < 100, 1 - exp(-1 * lf_df$mx), 1)
+  
   qx <-  ifelse(lf_df$age < 100, 1 - exp(-1 * lf_df$mx), 1)
   
-  # number of survivors
-  #lf_df$lx <- 0
+  # number of survivors year 1 simulation
+  
   num_row <- nrow(lf_df)
   lx <- rep(0,num_row)
-  # Create it for males population
-  #lf_df$lx[1] <- as.numeric(in_idata$population_number[in_idata$age == in_mid_age & in_idata$sex == in_sex]) # filter(in_idata, age == in_mid_age & sex == in_sex) %>% dplyr::select(population_number)
-  #lf_df$lx <- as.numeric(lf_df$lx)
-  lx[1] <- as.numeric(in_idata$population_number[in_idata$age == in_mid_age & in_idata$sex == in_sex]) # filter(in_idata, age == in_mid_age & sex == in_sex) %>% dplyr::select(population_number)
+  lx[1] <- as.numeric(in_idata$population_number[in_idata$age == in_mid_age & in_idata$sex == in_sex]) 
   
-  # number died
-  #lf_df$dx <- 0
+  # number died in year 1 simulation
+  
   dx <- rep(0,num_row)
-  
-  # Create it for males population
-  #lf_df$dx[1] <- lf_df$lx[1] * lf_df$qx[1]
   dx[1] <- lx[1] * qx[1]
   
+  # number of survivors and who die from year 2 onwards. 
+  
   for (i in 2:num_row){
-    #lf_df$lx[i] <- lf_df$lx[i - 1] - lf_df$dx[i - 1]
-    #lf_df$dx[i] <- lf_df$lx[i] * lf_df$qx[i]
     lx[i] <- lx[i - 1] - dx[i - 1]
     dx[i] <- lx[i] * qx[i]
   }
   
   # number of persons lived by cohort to age x + 1/2 (average people)
-  #lf_df$Lx <- 0
+  
   Lx <- rep(0,num_row)
+  
+  # for years up to 99
   
   for (i in 1:(num_row-1))
     Lx[i] <- (lx[i] + lx[i + 1]) / 2
-    #lf_df$Lx[i] <- (lf_df$lx[i] + lf_df$lx[i + 1]) / 2
+  
+  # for year 100, cohort dies at 100 if anyone left
+  
   Lx[num_row] <- lx[num_row] / lf_df$mx[num_row]
-  #lf_df$Lx[num_row] <- lf_df$lx[num_row] / lf_df$mx[num_row]
   
   
   # create life expectancy variable
   ex <- rep(0,num_row)
   for (i in 1:num_row){
-    #lf_df$ex[i] <- sum(lf_df$Lx[i:nrow(lf_df)]) / lf_df$lx[i]
     ex[i] <- sum(Lx[i:num_row]) / lx[i]
   }
   
   # create health adjusted life years variable 
   
-  #lf_df$Lwx <- lf_df$Lx * (1 - lf_df$pyld_rate)
   Lwx <- Lx * (1 - lf_df$pyld_rate)
   
   # create health adjusted life expectancy variable
   ewx <- rep(0,num_row)
   for (i in 1:num_row){
-    #lf_df$ewx[i] <- sum(lf_df$Lwx[i:nrow(lf_df)]) / lf_df$lx[i]
     ewx[i] <- sum(Lwx[i:num_row]) / lx[i]
   }
   
@@ -270,99 +130,143 @@ RunLifeTable <- function(in_idata, in_sex, in_mid_age)
   lf_df$ewx <- ewx
   lf_df
 }
-
-# ---- RunDisease ----(ADD REMISSION FOR CANCERS?)
-
-RunDisease <- function(in_idata, in_mid_age, in_sex, in_disease) 
-  
-{
-  
-  # Uncomment the variables below to debug your code  
-  # in_idata = sub_idata
-  # in_sex = "males"
-  # in_mid_age = 22
-  # in_disease = "ihd"
+# ---- RunDisease ----
+#' @export
+RunDisease <- function(in_idata,  in_sex, in_mid_age, in_disease, incidence_trends=NA, mortality_trends=NA) {
+  # in_idata=mslt_df
+  # in_sex='female'
+  # in_mid_age=17
+  # in_disease='lvrc'
   
   # create disease variable for the disease life table function 
   dw_disease <- paste("dw_adj", in_disease, sep = "_")
   incidence_disease <- paste("incidence", in_disease, sep = "_")
   case_fatality_disease <- paste("case_fatality", in_disease, sep = "_")
+  remission_disease <- paste("remission", in_disease, sep = "_") ### only cancers have remission
   
   ## add generic variable names to the source data frame (in_idata)
   in_idata$dw_disease <- in_idata[[dw_disease]]
   in_idata$incidence_disease <- in_idata[[incidence_disease]]
   in_idata$case_fatality_disease <- in_idata[[case_fatality_disease]]
+  in_idata$remission_disease <- in_idata[[remission_disease]]
   
-  # filter in_idata by age and select columns for lifetable calculations 
-  ##!!RJ filtered before passed to function
-  #dlt_df <- in_idata[in_idata$age >= in_mid_age & in_idata$sex == in_sex,] #%>% 
-  #print(c(nrow(dlt_df),nrow(in_idata)))
-  dlt_df <- in_idata[,colnames(in_idata)%in%c('sex', 'age', 'dw_disease', 'incidence_disease', 'case_fatality_disease')] # dplyr::select(sex, age, dw_disease, incidence_disease, case_fatality_disease)
+  # Select columns for lifetable calculations
+  
+  
+  dlt_df <- in_idata %>%
+    dplyr::filter(age >= in_mid_age & sex == in_sex) %>% 
+    dplyr::select('sex', 'age', dw_disease, incidence_disease, case_fatality_disease, remission_disease)
+  
+  
+  
+  # dlt_df <- in_idata[,colnames(in_idata) %in% c('sex', 'age', 'dw_disease', 'incidence_disease', 'case_fatality_disease')] # dplyr::select(sex, age, dw_disease, incidence_disease, case_fatality_disease)
   
   dlt_df$disease <- in_disease
   
-  # create list of required columns
-  ## intermediate variables lx, qx, wx and vx
-  ###lx
+  # are we using modified mortality trends?
+  if(is.data.frame(mortality_trends)) {
+    # filter to only this cohort's incidence trends
+    cohort_mortality_trends <- mortality_trends %>%
+      dplyr::filter(sex == in_sex) %>%
+      dplyr::select('year',mortality_trend=in_disease) %>%
+      dplyr::mutate(row_num=row_number())
+    dlt_df <- dlt_df %>%
+      dplyr::mutate(row_num=row_number()) %>%
+      dplyr::inner_join(cohort_mortality_trends, by=c('row_num')) %>%
+      dplyr::mutate(case_fatality_disease=case_fatality_disease*mortality_trend) %>%
+      dplyr::select('sex', 'age', 'dw_disease', 'incidence_disease', 'case_fatality_disease', 'remission_disease', 'disease')
+  }
   
-  #browser()
-  lx <- dlt_df$incidence_disease + dlt_df$case_fatality_disease
-  ###qx
-  qx <-  sqrt((dlt_df$incidence_disease - dlt_df$case_fatality_disease) * (dlt_df$incidence_disease - dlt_df$case_fatality_disease))
-  ### wx
+  # are we using modified incidence trends?
+  if(is.data.frame(incidence_trends)) {
+    # filter to only this cohort's incidence trends
+    cohort_incidence_trends <- incidence_trends %>%
+      dplyr::filter(sex == in_sex) %>%
+      dplyr::select('year',incidence_trend=in_disease) %>%
+      dplyr::mutate(row_num=row_number())
+    dlt_df <- dlt_df %>%
+      dplyr::mutate(row_num=row_number()) %>%
+      dplyr::inner_join(cohort_incidence_trends, by=c('row_num')) %>%
+      dplyr::mutate(incidence_disease=incidence_disease*incidence_trend) %>%
+      dplyr::select('sex', 'age', 'dw_disease', 'incidence_disease', 'case_fatality_disease', 'remission_disease', 'disease')
+  }
+  
+  # create list of life table variables. Created as vectors and then added to dataframe. 
+  # See see methods in: 1) Concept and original calculations: Barendregt, J. J., et al. (1998). "Coping with multiple morbidity in a life table." Math Popul Stud 7(1): 29-49. 
+  # and 2) Latest version, variables below calculated from it: Barendregt, J. J., et al. (2003). "A generic model for the assessment of disease epidemiology: the computational basis of DisMod II." Popul Health Metr 1(1): 4-4.
+  
+  
+  ### lx, qx, wx and vx are intermediate variables, 
+  inc <- dlt_df$incidence_disease
+  cf <- dlt_df$case_fatality_disease
+  rem <- dlt_df$remission_disease
+  
+  lx <- inc + cf + rem ## BZD (12/11/21) added remission
+  qx <- sqrt(inc*inc + 2*inc*rem - 2*inc*cf + rem*rem + 2*cf*rem + cf*cf)
   wx <- exp(-1*(lx+qx)/2)
-  ### vx
   vx <- exp(-1*(lx-qx)/2)
   
   ## Healthy (Sx), Disease (Cx) and Death (Dx), total (Tx) (control check, has to be 1000), total alive (Ax)
   ## persons years live at risk (PYx), prevalence rate (px), mortality rate (mx)
-  ### Remission and mortality from other causes were replaced by zero in the formulas (as we assume no remission and independence of disease mortality with total mortlaity). 
   
-  #### first create empty variables
+  
+  ### First create empty variables
   
   number_of_ages <- nrow(dlt_df)
   Sx <- Cx <- Dx <- Tx  <- Ax <- PYx <- px <- mx <- rep(0,number_of_ages)
-  cfds <- dlt_df$case_fatality_disease
+  cfds <- cf + rem ## BZ: added remission (18/11)
   ages <- dlt_df$age
-  ## set initial conditions
-  # Dx, Cx, PYx, px, mx stay zero
+  
+  #### Starts with 1000 healthy (Sx) and total (Ax) people. 
+  
   Sx[1] <- Ax[1] <- 1000
+  
   ##### start with variables without calculation exceptions
   
-  ##### variables with exceptions  
+  ##### variables without exceptions (else includes exception for year one of the simulation)  
   for (i in 2:(number_of_ages-1)){ ##!! this can go to "number_of_ages" now (?)
     if(qx[i-1] > 0){
+      # i=3
+      ### The following five variables are created to simplify Sx, Cx and Dx calculations, and do not form part of the disease life tables.
       vxmwx <- vx[i-1] - wx[i-1]
       SxpCx <- Sx[i-1]+Cx[i-1]
       dqx <- 2 * qx[i-1]
       qxmlx <- qx[i-1] - lx[i-1]
       qxplx <- qx[i-1] + lx[i-1]
-      Sx[i] <- Sx[i-1] * (2*vxmwx * cfds[i-1]  + (vx[i-1] * qxmlx + wx[i-1] * qxplx)) / dqx
+      
+      
+      ### Healthy (Sx), Diseases (Cx) and Death from the Disease (Dx)
+      
+      ### BELEN: add remission here, check above calculations
+      
+      
+      Sx[i] <- (2*vxmwx * (Sx[i-1]*cfds[i-1] + Cx[i-1]*rem[i-1]) + Sx[i-1]* (vx[i-1] * qxmlx + wx[i-1] * qxplx)) / dqx
+      # Sx[i] <- Sx[i-1] * (2*vxmwx * cfds[i-1]  + (vx[i-1] * qxmlx + wx[i-1] * qxplx)) / dqx
       Cx[i] <- -1*(vxmwx*(2*(cfds[i-1]  * SxpCx - lx[i-1] * Sx[i-1]) - Cx[i-1] * lx[i-1]) - Cx[i-1] * qx[i-1] * (vx[i-1]+wx[i-1])) / dqx
-      Dx[i] <- (vxmwx * (2 * cfds[i-1] * Cx[i-1] - lx[i-1]*SxpCx)- qx[i-1] * SxpCx*(vx[i-1]+wx[i-1]) + dqx * (SxpCx+Dx[i-1]) ) / dqx
+      Dx[i] <- (vxmwx * (2 * cf[i-1] * Cx[i-1] - lx[i-1]*SxpCx)- qx[i-1] * SxpCx*(vx[i-1]+wx[i-1]) + dqx * (SxpCx+Dx[i-1]) ) / dqx
     }else{
       Sx[i] <- Sx[i - 1] 
       Cx[i] <- Cx[i - 1]
       Dx[i] <- Dx[i - 1]
     }
   }
+  
+  
   Tx   <- Sx + Cx + Dx 
   Ax <- Sx + Cx
+  
   first_indices <- 1:(number_of_ages-1)
   last_indices <- 2:number_of_ages
   PYx <- (Ax[first_indices] + Ax[last_indices])/2
   mx[first_indices] <- (Dx[last_indices] - Dx[first_indices])/PYx[first_indices]
   mx[mx<0] <- 0
   px[first_indices] <- (Cx[last_indices] + Cx[first_indices])/2/PYx[first_indices]
-  #for (i in 1:(number_of_ages-1)){
-    #if ((Dx[i+1] - Dx[i]) < 0){
-    #  mx[i] <- 0
-    #}else{
-    #  mx[i] <- (Dx[i+1] - Dx[i])/PYx[i]
-    #}
-  #  Csum <- Cx[i]+Cx[i+1]
-  #  px[i] <- Csum/2/ PYx[i]   
-  #}
+  
+  ## BZ: added the below for checking puposes
+  dlt_df$Sx <- Sx
+  dlt_df$Cx <- Cx
+  dlt_df$Dx <- Dx
+  
   
   dlt_df$Tx <- Tx
   dlt_df$mx <- mx
@@ -371,23 +275,31 @@ RunDisease <- function(in_idata, in_mid_age, in_sex, in_disease)
 }
 
 
-# Run non_diseases
+
+# ----- Run non_diseases -----
 #' @export
 RunNonDisease <- function(in_idata, in_sex, in_mid_age, in_non_disease)
-
-  {
-
-  # deaths_rate <- paste("deaths_rate", in_non_disease, sep = "_")
-  # pyld_rate <- paste("ylds (years lived with disability)_rate", in_non_disease, sep = "_")
-  # 
-  # 
-  # # df$deaths_rate <- df[[deaths_rate]]
-  # # df$pyld_rate <- df[[pyld_rate]]
-
-  ##!!RJ filtered before passing
-  #df <- filter(in_idata, age >= in_mid_age & sex == in_sex) #%>%
-  df <- in_idata[,colnames(in_idata)%in%c('sex', 'age',  paste0("deaths_rate_", in_non_disease), paste0("ylds_rate_", in_non_disease))]
   
+  # in_date=mslt_df
+  # in_sex="male"
+  # in_mid_age=17
+  # in_non_disease="pedestrian"
+  
+{
+  
+  df <- in_idata %>%
+    dplyr::filter(age >= in_mid_age & sex == in_sex) %>%
+    dplyr::select('sex', 'age',  paste0("deaths_rate_", in_non_disease), paste0("ylds_rate_", in_non_disease))
+  
+  ## Delete names disease from columns to simplify calculations
+  
+  names(df)[names(df) == paste0("deaths_rate_", in_non_disease)] <-
+    paste("deaths_rate")
+  
+  names(df)[names(df) == paste0("ylds_rate_", in_non_disease)] <-
+    paste("ylds_rate")
+  
+  df$non_disease <- in_non_disease
   
   
   return(df)
@@ -417,114 +329,6 @@ GetPif <- function(in_pif, in_age, in_sex, pif_name){
 # 
 # test_pif <- GetPif(pif, 27, "male", "scen_pif_pa_ac")
 
-
-# RunPif (temp) ----
-
-# The code for PIFs will depend on the data sources. 
-
-#' @export
-RunPif <- function(in_idata, i_irr, i_exposure, in_mid_age, in_sex, in_disease, in_met_sc) 
-  # 
-{
-  
-  ## uncomment to debug function
-  
-  # in_idata = idata
-  # i_irr = irr
-  # i_exposure = edata
-  # in_sex = "females"
-  # in_mid_age = 22
-  # in_disease = "breast_cancer"
-  # in_met_sc <- effect
-  
-  ### filter data to use in pif calculations (age and sex). Add rrs, ee and calculations
-  
-  pif_df <- filter(in_idata, age >= in_mid_age & sex == in_sex) %>%
-    dplyr::select(sex, age)
-  
-  ### add varaibles to data.frame (different age category for breast cancer)
-  
-  pif_df$disease <- in_disease
-  
-  if(in_disease == "breast_cancer") {
-    pif_df$age_cat [pif_df$age <=30] <- 30
-    pif_df$age_cat [pif_df$age >30 & pif_df$age <=45 ] <- 45
-    pif_df$age_cat [pif_df$age >45 & pif_df$age <=70 ] <- 70
-    pif_df$age_cat [pif_df$age >70 & pif_df$age <=100 ] <- 80
-  }
-  else {
-    pif_df$age_cat [pif_df$age <=30] <- 30
-    pif_df$age_cat [pif_df$age >30 & pif_df$age <=70 ] <- 70
-    pif_df$age_cat [pif_df$age >70 & pif_df$age <=100 ] <- 80
-  }
-  
-  pif_df$sex_cat <- ifelse(in_disease == "breast_cancer", "female", "female_male")
-  
-  # create concatenated variables to match pif_df with i_irr
-  pif_df$sex_age_dis_cat <- paste(pif_df$disease,pif_df$age_cat, pif_df$sex_cat, sep = "_"  )
-  i_irr$sex_age_dis_cat <- paste(i_irr$disease,i_irr$age, i_irr$sex, sep = "_"  )
-  
-  # remove sex, age and disease variables from i_irr df, as they are not needed
-  i_irr <- dplyr::select(i_irr, -one_of('sex','age', 'disease'))
-  
-  # the code below is working but copies age, sex and disease for x and y, how can this be avoided?
-  pif_df <-  inner_join(pif_df, i_irr, by = c("sex_age_dis_cat" = "sex_age_dis_cat") , copy = FALSE)
-  
-  # creation of splineFun which uses baseline's RR and EE to use to estimate intervention RRs
-  for (i in 1:nrow(pif_df)){
-    sp_obj <-  splinefun(y = c(pif_df$rr_inactive[i], 
-                               pif_df$rr_insufficiently_active[i], 
-                               pif_df$rr_recommended_level_active[i], 
-                               pif_df$rr_highly_active[i]), 
-                         x = c(pif_df$ee_inactive[i], 
-                               pif_df$ee_insufficiently_active[i], 
-                               pif_df$ee_recommended_level_active[i], 
-                               pif_df$ee_highly_active[i]), 
-                         method = "hyman")
-    
-    # use created spline function above to estimate intervention RRs
-    
-    pif_df$sc_rr_inactive[i] <- sp_obj(x = pif_df$ee_inactive[i] + in_met_sc)
-    pif_df$sc_rr_insufficiently_active[i] <-  sp_obj(x = pif_df$ee_insufficiently_active[i] + in_met_sc)
-    pif_df$sc_rr_recommended_level_active[i] <-  sp_obj(x = pif_df$ee_recommended_level_active[i] + in_met_sc)
-    pif_df$sc_rr_highly_active[i] <-  sp_obj(x = pif_df$ee_highly_active[i] + in_met_sc)
-    
-    # plot(sp_obj, xlab = "RR", ylab = "EE", main = paste("Spline ", i))
-  }
-  
-  
-  ## round sc_rr_highly_active column - it should be 1
-  pif_df$sc_rr_highly_active <- round(pif_df$sc_rr_highly_active)
-  
-  ##Calculate PIFs. I already process the data to generate categories in stata.
-  ##First add PA categories to pif_df
-  
-  pif_df$sex_age_cat <- paste(pif_df$sex, pif_df$age, sep = "_"  )
-  i_exposure$sex_age_cat <- paste(i_exposure$sex, i_exposure$age, sep = "_"  )
-  
-  # remove sex, age and disease variables from i_irr df, as they are not needed
-  i_exposure <- dplyr::select(i_exposure, -one_of('sex','age'))
-  
-  # join edata (PA prevalence to pif_df)
-  
-  pif_df <-  inner_join(pif_df, i_exposure, by = c("sex_age_cat" = "sex_age_cat") , copy = FALSE)
-  
-  
-  # we need to adapt to ITHIMR developments. REPLACE DATA FRAME FROM WHICH PREVALENCE OF PA IS TAKEN
-  
-  pif_df$pif <- 1-(pif_df$sc_rr_inactive *pif_df$inactive +
-                     pif_df$sc_rr_insufficiently_active*pif_df$insufficiently_active +
-                     pif_df$sc_rr_recommended_level_active*pif_df$recommended_level_active +
-                     pif_df$sc_rr_highly_active *pif_df$highly_active)/
-    (pif_df$rr_inactive *pif_df$inactive  +
-       pif_df$rr_insufficiently_active *pif_df$insufficiently_active +
-       pif_df$rr_recommended_level_active *pif_df$recommended_level_active +
-       pif_df$rr_highly_active *pif_df$highly_active)
-  
-  
-  pif_df
-  
-}
 
 
 # ---- PlotOutput ----
