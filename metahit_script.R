@@ -29,7 +29,8 @@ for (global_scen in all_scens){
   ## in general, ithimr functions are written ithimr::function()
   source('metahit_functions.R')
   source('mslt_functions.R')
-  
+  source("~/mh-mslt/R/RunMSLT.R")
+  source("~/mh-mslt/R/functions_MSLT.R")
   ## 1 SET GLOBAL VARIABLES ##########################################
   
   ## set variables, which are TIGTHAT studies' input parameters.
@@ -726,7 +727,7 @@ for (global_scen in all_scens){
       
       # RR_PA_AP_calculations <- NULL
       
-      #hb_2 <- belens_function(pif_table)
+      #hb_2 <- RunMSLT(mslt_df, i_sex, i_age_cohort, disease_names, pif)
       
       #profvis(hb_2 <- belens_function(pif_table) )
       #sort(sapply(ls(),function(x)object.size(get(x))))
