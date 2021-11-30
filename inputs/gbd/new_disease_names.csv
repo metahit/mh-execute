@@ -1,0 +1,30 @@
+GBD_name,acronym,disease,sname,is_not_dis,males,females
+All causes,all-cause-mortality,all causes,allc,2,1,1
+Cardiovascular diseases,all-cause-cvd,cardiovascular diseases,crdd,2,1,1
+Ischemic heart disease,all-cause-cvd,ischemic heart disease,ishd,0,1,1
+Neoplasms,all-cause-cancer,neoplasms,npls,2,1,1
+"Tracheal, bronchus, and lung cancer",lung-cancer,"tracheal, bronchus, and lung cancer",tbalc,0,1,1
+Stroke,all-cause-cvd,stroke,strk,0,1,1
+Diabetes mellitus type 2,diabetes,diabetes mellitus type 2,dmt2,0,1,1
+Lower respiratory infections,lri,lower respiratory infections,lwri,1,1,1
+Breast cancer,breast-cancer,breast cancer,brsc,0,0,1
+Colon and rectum cancer,colon-cancer,colon and rectum cancer,carc,0,1,1
+Uterine cancer,endometrial-cancer,uterine cancer,utrc,0,0,1
+Depressive disorders,depression,depressive disorders,dprd,3,1,1
+Multiple myeloma,myeloma,multiple myeloma,mltm,0,1,1
+Stomach cancer,gastric-cardia-cancer,stomach cancer,stmc,0,1,1
+Liver cancer,liver-cancer,liver cancer,lvrc,0,1,1
+Alzheimers disease and other dementias,all-cause-dementia,alzheimer's disease and other dementias,adaod,0,1,1
+Parkinson's disease,parkinson's-disease,parkinson's disease,pr'd,0,1,1
+Chronic obstructive pulmonary disease,copd,chronic obstructive pulmonary disease,copd,0,1,1
+Road injuries,road,road injuries,rdin,1,1,1
+Pedestrian road injuries,pedestrian,pedestrian road injuries,pdri,1,1,1
+Cyclist road injuries       ,cyclist,cyclist road injuries,cyri,1,1,1
+Motorcyclist road injuries,motorcyclist,motorcyclist road injuries,mtri,1,1,1
+Motor vehicle road injuries,motor,motor vehicle road injuries,mvri,1,1,1
+Other road injuries,other,other road injuries,otri,1,1,1
+head and neck cancer,head-and-neck-cancer,head and neck cancer,hanc,0,1,1
+cardiomyopathy and myocarditis,all-cause-cvd,cardiomyopathy and myocarditis,card,0,1,1
+chronic myeloid leukemia,myeloid-leukemia,chronic myeloid leukemia,leuk,0,1,1
+rheumatic heart disease,all-cause-cvd,rheumatic heart disease,rhd,0,1,1
+non-rheumatic valvular heart disease,all-cause-cvd,non-rheumatic valvular heart disease,nvhd,0,1,1
