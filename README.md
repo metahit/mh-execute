@@ -18,7 +18,7 @@ mh-execute: everything it calls, nothing it doesn't call
 
 Loop through all scenarios (`cyc_scen` and `car_scen`) in `global_scen`:
 
--   Set `NSAMPLES` (sample size)  - currently set to 4
+-   Set `NSAMPLES` (sample size) - currently set to 4
 
 -   Set parameters with their distributions (for instance `MMET_CYCLING`)
 
@@ -61,5 +61,12 @@ Loop through all scenarios (`cyc_scen` and `car_scen`) in `global_scen`:
     -   For each sample, do the following:
 
         -   Create `SiN` coefficients for `CAS_EXPONENT` and `STR_EXPONENT` from `parameters`
+        -   Initialize `VEHICLE_INVENTORY` for the modes
+        -   Using `DIST` and `pp_summary` to calculate `scenario_pm_calculations`
+        -   Using `pm_conc_pp` calcualate `RR_AP_calculations` using `gen_ap_rr`
+        -   Calculate `total_mmet` using `pp_summary`
+        -   Calculate `RR_PA_calculations` using `ithimr::gen_pa_rr`
+        -   Calculate combined `AP` and `PA` relative risk `RR_PA_AP_calculations` - by multiplying, using `combined_rr_ap_pa`
+        -   
 
 # 
