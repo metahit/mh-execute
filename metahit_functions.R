@@ -396,7 +396,7 @@ injury_death_to_yll <- function(injuries){
   joined_injury <- left_join(injuries, GBD_INJ_YLL[,c('dem_index','yll_dth_ratio')], by="dem_index")
   
   joined_injury$YLL <- joined_injury$Deaths*joined_injury$yll_dth_ratio
-  death_and_yll <- dplyr::select(joined_injury, c('dem_index','scenario','Deaths','YLL'))
+  death_and_yll <- dplyr::select(joined_injury, c('dem_index','scenario','Deaths','YLL')) %>% distinct()
   
   x_deaths <- dplyr::select(death_and_yll, -YLL)
   x_deaths <- spread(x_deaths,scenario, Deaths) %>% as.data.frame()
@@ -427,8 +427,12 @@ injury_death_to_yll <- function(injuries){
 #' @export
 health_burden <- function(ind_ap_pa,inj,combined_AP_PA=T){
   
+  # ind_ap_pa <- RR_PA_AP_calculations
+  # inj <- deaths_yll_injuries$deaths_yll_injuries
+  
   # subset gbd data for outcome types
   gbd_data_scaled <- DISEASE_BURDEN
+  gbd_data_scaled$cause <- str_replace_all(string = gbd_data_scaled$cause, pattern = "'", replacement = "")
   #gbd_data_scaled$burden[gbd_data_scaled$cause%in%c("Neoplasms","Ischemic heart disease","Tracheal, bronchus, and lung cancer","Breast cancer","Colon and rectum cancer","Uterine cancer")] <- 
   #  gbd_data_scaled$burden[gbd_data_scaled$cause%in%c("Neoplasms","Ischemic heart disease","Tracheal, bronchus, and lung cancer","Breast cancer","Colon and rectum cancer","Uterine cancer")]*CHRONIC_DISEASE_SCALAR
   ## chronic disease scalar scales all diseases
@@ -445,6 +449,7 @@ health_burden <- function(ind_ap_pa,inj,combined_AP_PA=T){
     # Disease acronym and full name
     ac <- as.character(DISEASE_INVENTORY$acronym[j])
     gbd_dn <- as.character(DISEASE_INVENTORY$GBD_name[j])
+    gbd_dn <- str_replace_all(string = gbd_dn, pattern = "'", replacement = "")
     # calculating health outcome, or independent pathways?
     pathways_to_calculate <- ifelse(combined_AP_PA,1,DISEASE_INVENTORY$physical_activity[j]+DISEASE_INVENTORY$air_pollution[j])
     for(path in 1:pathways_to_calculate){
@@ -464,6 +469,14 @@ health_burden <- function(ind_ap_pa,inj,combined_AP_PA=T){
       # subset gbd data
       gbd_deaths_disease <- subset(gbd_deaths,cause==gbd_dn)
       gbd_ylls_disease <- subset(gbd_ylls,cause==gbd_dn)
+      
+      if (nrow(gbd_deaths_disease) == 0){
+        gbd_deaths_disease <- subset(gbd_deaths,grepl(tolower(gbd_dn), cause))
+        gbd_ylls_disease <- subset(gbd_ylls,grepl(tolower(gbd_dn), cause))
+      }
+      
+      if (nrow(gbd_deaths_disease) == 0)
+        next()
       # set up pif tables
       pif_table <- setDT(ind_ap_pa[,colnames(ind_ap_pa)%in%c(base_var,'dem_index')])
       setnames(pif_table,base_var,'outcome')
@@ -483,6 +496,7 @@ health_burden <- function(ind_ap_pa,inj,combined_AP_PA=T){
         ## sort pif_temp
         setorder(pif_temp,dem_index)
         pif_scen <- (pif_ref[,2] - pif_temp[,2]) / pif_ref[,2]
+        # print(paste(i, j))
         # Calculate ylls 
         yll_dfs <- combine_health_and_pif(pif_values=pif_scen, hc = gbd_ylls_disease)
         ylls[[yll_name]] <- yll_dfs[,V1]
