@@ -20,7 +20,7 @@ options(future.globals.maxSize= +Inf)
 all_scens <- list.dirs(path = "./inputs/scenarios", full.names = FALSE, recursive = FALSE)
 
 for (global_scen in all_scens){
-  # global_scen <- all_scens[2]
+  # global_scen <- all_scens[1]
   # Set sample size
   NSAMPLES <<- 8
   
@@ -496,6 +496,12 @@ for (global_scen in all_scens){
     # synth_pop <- NULL
     INH_NAMES <<- colnames(pp_summary[[1]])%in%paste0(function_mode_names,'_dur')
     PA_NAMES <- colnames(pp_summary[[1]])%in%c('cycle_dur_pa','pedestrian_dur_pa')
+    
+    print("Pedestrian duration difference")
+    print(summary(pp_summary$base$pedestrian_dur_pa - pp_summary[[global_scen]]$pedestrian_dur_pa))
+    
+    print("Cycling duration difference")
+    print(summary(pp_summary$base$pedestrian_dur_pa - pp_summary[[global_scen]]$pedestrian_dur_pa))
     
     ##!! hard coded to maintain naming conventions etc
     DIST <- matrix(0,nrow=3,ncol=NSCEN+1)
